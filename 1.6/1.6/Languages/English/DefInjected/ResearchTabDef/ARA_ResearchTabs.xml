@@ -1,9 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Defs>
-  <ResearchTabDef>
-    <defName>ARA_ResearchTab</defName>
-    <label>阿拉克涅虫群进化</label>
-    <generalTitle>阿拉克涅虫群进化探索</generalTitle>
-    <generalDescription>探索、改进阿拉克涅虫群的生命形态，以孵化更强的个体和创造更先进的武装器官等虫群装备。\n\n只有阿拉克涅虫族才能进行这个科技树的研究！</generalDescription>
-  </ResearchTabDef>
-</Defs>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_ResearchTab.label>Arachnae Swarm Evolution</ARA_ResearchTab.label>
+  <ARA_ResearchTab.generalTitle>Arachnae Swarm Evolution Research</ARA_ResearchTab.generalTitle>
+  <ARA_ResearchTab.generalDescription>Explore and improve the life forms of the **Arachnae Swarm** to hatch stronger individuals and create more advanced swarm equipment, such as armed organs.
+
+**Only Arachnae insectoids can perform research in this tech tree!**</ARA_ResearchTab.generalDescription>
+
+</LanguageData>

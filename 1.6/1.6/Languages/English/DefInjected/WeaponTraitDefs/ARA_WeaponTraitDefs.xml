@@ -1,102 +1,31 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  <WeaponTraitDef>
-    <defName>ARA_Huge_Weapon</defName>
-    <label>大型武装器官</label>
-    <description>这种武装器官相当巨大，只有那些大型阿拉克涅督虫（体型大于2.0）才能使用此武器。</description>
-    <commonality>1</commonality>
-    <weaponCategory>ARA_Huge_Weapon_Category</weaponCategory>
-    <statOffsets>
-    </statOffsets>
-    <statFactors>
-    </statFactors>
-  </WeaponTraitDef>
-  <WeaponTraitDef>
-    <defName>ARA_Weapon_Damage_Acid</defName>
-    <label>阿拉克涅酸液</label>
-    <description>这种武装器官的射弹命中敌人时，会在对方身上留下造成持续性伤害的酸液。</description>
-    <commonality>1</commonality>
-    <weaponCategory>ARA_Weapon_Damage_Category</weaponCategory>
-    <statOffsets>
-    </statOffsets>
-    <statFactors>
-    </statFactors>
-  </WeaponTraitDef>
-  <WeaponTraitDef>
-    <defName>ARA_Weapon_Damage_Toxid</defName>
-    <label>阿拉克涅毒素</label>
-    <description>这种武装器官的射弹命中敌人时，会向对方体内注入毒素使其中毒。</description>
-    <commonality>1</commonality>
-    <weaponCategory>ARA_Weapon_Damage_Category</weaponCategory>
-    <statOffsets>
-    </statOffsets>
-    <statFactors>
-    </statFactors>
-  </WeaponTraitDef>
-  <WeaponTraitDef>
-    <defName>ARA_Weapon_Damage_Spawn</defName>
-    <label>阿拉克涅子巢</label>
-    <description>这种武装器官的主要攻击方式是释放辅虫，其中一些会直接把辅虫往敌人中投掷，另一些则会使辅虫跟踪和吸附敌军以造成伤害。</description>
-    <commonality>1</commonality>
-    <weaponCategory>ARA_Weapon_Damage_Category</weaponCategory>
-    <statOffsets>
-    </statOffsets>
-    <statFactors>
-    </statFactors>
-  </WeaponTraitDef>
-  <WeaponTraitDef>
-    <defName>ARA_Weapon_ChainReload</defName>
-    <label>链式重装填</label>
-    <description>这种武装器官会随着每次攻击释放激素加快代谢速度，从而体现为射击速度和装填速度加快。</description>
-    <commonality>1</commonality>
-    <weaponCategory>ARA_Weapon_Damage_Category</weaponCategory>
-    <statOffsets>
-    </statOffsets>
-    <statFactors>
-    </statFactors>
-  </WeaponTraitDef>
-  <WeaponTraitDef>
-    <defName>ARA_Weapon_OverPenetrate</defName>
-    <label>过度穿透</label>
-    <description>这种武装器官的射弹命中敌人时，不会停止而是会穿透路径上的所有敌人造成伤害。</description>
-    <commonality>1</commonality>
-    <weaponCategory>ARA_Weapon_Damage_Category</weaponCategory>
-    <statOffsets>
-    </statOffsets>
-    <statFactors>
-    </statFactors>
-  </WeaponTraitDef>
-  <WeaponTraitDef>
-    <defName>ARA_Weapon_Damage_LightingChain</defName>
-    <label>灵能闪电链</label>
-    <description>这种武装器官发射闪电链在敌人之间弹跳造成伤害。</description>
-    <commonality>1</commonality>
-    <weaponCategory>ARA_Weapon_Damage_Category</weaponCategory>
-    <statOffsets>
-    </statOffsets>
-    <statFactors>
-    </statFactors>
-  </WeaponTraitDef>
-  <WeaponTraitDef>
-    <defName>ARA_Weapon_Damage_Icez</defName>
-    <label>急冻碎裂</label>
-    <description>这种武装器官会冷冻敌人，这种状态将导致目标身体结构极度脆弱。当此效果加深时，足以摧毁其身体部位的“冷冻”伤害阈值将会显著降低。。</description>
-    <commonality>1</commonality>
-    <weaponCategory>ARA_Weapon_Damage_Category</weaponCategory>
-    <statOffsets>
-    </statOffsets>
-    <statFactors>
-    </statFactors>
-  </WeaponTraitDef>
-  <WeaponTraitDef>
-    <defName>ARA_Weapon_Damage_FrostExplode</defName>
-    <label>霜冻爆炸</label>
-    <description>这种武装器官发射的霜冻气雾能够沾染敌人，被沾染的敌人会再次爆炸。</description>
-    <commonality>1</commonality>
-    <weaponCategory>ARA_Weapon_Damage_Category</weaponCategory>
-    <statOffsets>
-    </statOffsets>
-    <statFactors>
-    </statFactors>
-  </WeaponTraitDef>
-</Defs>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Huge_Weapon.label>Huge Weapon Organ</ARA_Huge_Weapon.label>
+  <ARA_Huge_Weapon.description>This weapon organ is quite large and can only be used by large Arachnae Swarm Nodes (body size greater than 2.0).</ARA_Huge_Weapon.description>
+
+  <ARA_Weapon_Damage_Acid.label>Arachnae Acid</ARA_Weapon_Damage_Acid.label>
+  <ARA_Weapon_Damage_Acid.description>When this weapon organ's projectile hits an enemy, it leaves acid on the target that causes sustained damage.</ARA_Weapon_Damage_Acid.description>
+
+  <ARA_Weapon_Damage_Toxid.label>Arachnae Toxin</ARA_Weapon_Damage_Toxid.label>
+  <ARA_Weapon_Damage_Toxid.description>When this weapon organ's projectile hits an enemy, it injects a toxin into the target, causing poisoning.</ARA_Weapon_Damage_Toxid.description>
+
+  <ARA_Weapon_Damage_Spawn.label>Arachnae Sub-Hive</ARA_Weapon_Damage_Spawn.label>
+  <ARA_Weapon_Damage_Spawn.description>The primary attack method of this weapon organ is releasing auxiliary insects. Some will throw the auxiliary insects directly at the enemy, while others will cause the auxiliary insects to track and latch onto enemy forces to deal damage.</ARA_Weapon_Damage_Spawn.description>
+
+  <ARA_Weapon_ChainReload.label>Chain Reload</ARA_Weapon_ChainReload.label>
+  <ARA_Weapon_ChainReload.description>This weapon organ releases hormones with each attack to speed up the metabolic rate, which manifests as increased firing speed and reload speed.</ARA_Weapon_ChainReload.description>
+
+  <ARA_Weapon_OverPenetrate.label>Over-Penetration</ARA_Weapon_OverPenetrate.label>
+  <ARA_Weapon_OverPenetrate.description>When this weapon organ's projectile hits an enemy, it does not stop but penetrates all enemies in its path, dealing damage.</ARA_Weapon_OverPenetrate.description>
+
+  <ARA_Weapon_Damage_LightingChain.label>Psionic Lightning Chain</ARA_Weapon_Damage_LightingChain.label>
+  <ARA_Weapon_Damage_LightingChain.description>This weapon organ fires a lightning chain that bounces between enemies, dealing damage.</ARA_Weapon_Damage_LightingChain.description>
+
+  <ARA_Weapon_Damage_Icez.label>Extreme Freeze Shatter</ARA_Weapon_Damage_Icez.label>
+  <ARA_Weapon_Damage_Icez.description>This weapon organ freezes enemies, a state that makes the target's body structure extremely fragile. As this effect deepens, the "freezing" damage threshold required to destroy body parts will be significantly reduced.</ARA_Weapon_Damage_Icez.description>
+
+  <ARA_Weapon_Damage_FrostExplode.label>Frost Explosion</ARA_Weapon_Damage_FrostExplode.label>
+  <ARA_Weapon_Damage_FrostExplode.description>The frost mist fired by this weapon organ can contaminate enemies; contaminated enemies will explode again.</ARA_Weapon_Damage_FrostExplode.description>
+
+</LanguageData>

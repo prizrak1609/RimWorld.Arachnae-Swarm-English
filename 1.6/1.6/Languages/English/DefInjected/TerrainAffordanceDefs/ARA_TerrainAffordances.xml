@@ -1,8 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  <TerrainAffordanceDef>
-    <defName>ARA_Creep</defName>
-    <label>阿拉克涅菌毯</label>
-    <order>3800</order>
-  </TerrainAffordanceDef>
-</Defs>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Creep.label>Arachnae Creep</ARA_Creep.label>
+
+</LanguageData>

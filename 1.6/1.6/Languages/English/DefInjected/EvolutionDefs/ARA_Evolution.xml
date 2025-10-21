@@ -1,0 +1,1512 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- 女皇 -->
+  <!-- T0 -->
+  <HediffDef>
+    <defName>ARA_Queen_0_Stage</defName>
+    <label>进化等级——无</label>
+    <description>这只阿拉克涅女皇种刚刚步入纷乱的边缘世界，其基因表达尚未明晰，她也需要更多的经验以思考要如何带领巢穴前进。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>2.0</maxSeverity>
+    <!-- <stages>
+      <li>
+        <becomeVisible>ture</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>1.01</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages> -->
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_EggSpew</li>
+          <li>ARA_EggSpew_Huge</li>
+          <li>ARA_Queen_Upgrade_1_Stage</li>
+        </abilityDefs>
+      </li>
+      <li Class="HediffCompProperties_RemoveIfOtherHediff">
+        <hediffs>
+          <li>ARA_Queen_1_Stage</li>
+        </hediffs>
+      </li>
+    </comps>
+  </HediffDef>
+  <AbilityDef>
+    <defName>ARA_Queen_Upgrade_1_Stage</defName>
+    <label>女皇种进化——阶段1</label>
+    <description>使女皇种发生内驱性进化，解锁下一等级的阿拉克涅卵。\n\n注意：女皇种进化后所孵化的阿拉克涅卵仍可以孕育低等级的虫族，但是越高级的阿拉克涅卵对温度越敏感。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Queen_Upgrade_1_Stage</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>1</range>
+      <warmupTime>12</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ARA_Queen_1_Stage</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+        <severity>1</severity>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_1WMT</requiredResearch>
+        <failMessage>需要科技 节点WMT-1"突破" 以解锁进化</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- T1 -->
+  <HediffDef>
+    <defName>ARA_Queen_1_Stage</defName>
+    <label>进化等级——等级1</label>
+    <description>这只阿拉克涅女皇种获得了一定的见解以发展巢穴，她可以用基因的织网编织更加复杂更加强大的虫群。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_EggSpew_1Stage</li>
+          <li>ARA_EggSpew_Huge_1Stage</li>
+          <li>ARA_Queen_Upgrade_2_Stage</li>
+        </abilityDefs>
+      </li>
+      <li Class="HediffCompProperties_RemoveIfOtherHediff">
+        <hediffs>
+          <li>ARA_Queen_2_Stage</li>
+        </hediffs>
+      </li>
+    </comps>
+  </HediffDef>
+  <AbilityDef>
+    <defName>ARA_Queen_Upgrade_2_Stage</defName>
+    <label>女皇种进化——阶段2</label>
+    <description>使女皇种发生内驱性进化，解锁下一等级的阿拉克涅卵。\n\n注意：女皇种进化后所孵化的阿拉克涅卵仍可以孕育低等级的虫族，但是越高级的阿拉克涅卵对温度越敏感。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Queen_Upgrade_2_Stage</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>1</range>
+      <warmupTime>12</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ARA_Queen_2_Stage</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+        <severity>1</severity>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_2WMT</requiredResearch>
+        <failMessage>需要科技 节点WMT-2"突破2" 以解锁进化</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- T2 -->
+  <HediffDef>
+    <defName>ARA_Queen_2_Stage</defName>
+    <label>进化等级——等级2</label>
+    <description>这只阿拉克涅女皇种获得了一定的见解以发展巢穴，她可以用基因的织网编织更加复杂更加强大的虫群。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_EggSpew_2Stage</li>
+          <li>ARA_EggSpew_Huge_2Stage</li>
+        </abilityDefs>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- 工艺 -->
+  <!-- T0 -->
+  <HediffDef>
+    <defName>ARA_WeaponSmith_0_Stage</defName>
+    <label>进化等级——无</label>
+    <description>这只阿拉克涅工艺种尚未得到任何强化，只能孵化最普通的茧以生产一些早期装备。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>2.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_Cocoon_Cloth</li>
+          <li>ARA_Cocoon_Weapon</li>
+          <li>ARA_Cocoon_Cloth_From_Death</li>
+          <li>ARA_Cocoon_Weapon_From_Death</li>
+          <li>ARA_WeaponSmith_Upgrade_1_Stage</li>
+        </abilityDefs>
+      </li>
+      <li Class="HediffCompProperties_RemoveIfOtherHediff">
+        <hediffs>
+          <li>ARA_WeaponSmith_1_Stage</li>
+        </hediffs>
+      </li>
+    </comps>
+  </HediffDef>
+  <AbilityDef>
+    <defName>ARA_WeaponSmith_Upgrade_1_Stage</defName>
+    <label>工艺种进化——阶段1</label>
+    <description>使工艺种发生内驱性进化，解锁下一等级的阿拉克涅工艺茧。\n\n注意：和女皇种的进化不同，工艺种一旦进化到下一阶段，此后所孵的阿拉克涅工艺茧将无法再制作现阶段及之前的装备，并且越高级的阿拉克涅工艺茧对温度越敏感。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Queen_Upgrade_1_Stage</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>1</range>
+      <warmupTime>12</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ARA_WeaponSmith_1_Stage</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+        <severity>1</severity>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_1WMT</requiredResearch>
+        <failMessage>需要科技 节点WMT-1"突破" 以解锁进化</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- T1 -->
+  <HediffDef>
+    <defName>ARA_WeaponSmith_1_Stage</defName>
+    <label>进化等级——等级1</label>
+    <description>这只阿拉克涅工艺种通过蜂巢意志的拔耀获得了更强大的孵化能力，现在她可以孕育更复杂的茧以获取强大的装备。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>2.0</maxSeverity>
+    <!-- <stages>
+      <li>
+        <becomeVisible>ture</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>1.01</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages> -->
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_Cocoon_Cloth_1Stage</li>
+          <li>ARA_Cocoon_Weapon_1Stage</li>
+          <li>ARA_Cocoon_Cloth_1Stage_From_Death</li>
+          <li>ARA_Cocoon_Weapon_1Stage_From_Death</li>
+          <li>ARA_WeaponSmith_Upgrade_2_Stage</li>
+        </abilityDefs>
+      </li>
+      <li Class="HediffCompProperties_RemoveIfOtherHediff">
+        <hediffs>
+          <li>ARA_WeaponSmith_2_Stage</li>
+        </hediffs>
+      </li>
+    </comps>
+  </HediffDef>
+  <AbilityDef>
+    <defName>ARA_WeaponSmith_Upgrade_2_Stage</defName>
+    <label>工艺种进化——阶段2</label>
+    <description>使工艺种发生内驱性进化，解锁下一等级的阿拉克涅工艺茧。\n\n注意：和女皇种的进化不同，工艺种一旦进化到下一阶段，此后所孵的阿拉克涅工艺茧将无法再制作现阶段及之前的装备，并且越高级的阿拉克涅工艺茧对温度越敏感。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Queen_Upgrade_2_Stage</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>1</range>
+      <warmupTime>12</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ARA_WeaponSmith_2_Stage</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+        <severity>1</severity>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_2WMT</requiredResearch>
+        <failMessage>需要科技 节点WMT-2"突破" 以解锁进化</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- T2 -->
+  <HediffDef>
+    <defName>ARA_WeaponSmith_2_Stage</defName>
+    <label>进化等级——等级2</label>
+    <description>这只阿拉克涅工艺种通过蜂巢意志的拔耀获得了更强大的孵化能力，现在她可以孕育更复杂的茧以获取强大的装备。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>2.0</maxSeverity>
+    <!-- <stages>
+      <li>
+        <becomeVisible>ture</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>1.01</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages> -->
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_Cocoon_Cloth_2Stage</li>
+          <li>ARA_Cocoon_Weapon_2Stage</li>
+          <li>ARA_Cocoon_Cloth_2Stage_From_Death</li>
+          <li>ARA_Cocoon_Weapon_2Stage_From_Death</li>
+        </abilityDefs>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- 蜜罐种 -->
+  <HediffDef>
+    <defName>ARA_Myrmecocystus_Production_InsectJelly</defName>
+    <label>产出虫蜜</label>
+    <description>这只阿拉克涅蜜罐种正在产出虫蜜，以滋养虫群。一只蜜罐种每天产出15份阿拉克涅虫蜜。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_InsectJelly</ThingDef>
+      <HediffDef>ARA_Myrmecocystus_Production_Medicine</HediffDef>
+    </descriptionHyperlinks>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Myrmecocystus_Addons_Stomach</texPath>
+        <parentTagDef>Body</parentTagDef>
+        <useSkinShader>false</useSkinShader>
+        <useRottenColor>false</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <dataNorth>
+            <offset>(0, 0, -0.05)</offset>
+            <layer>120</layer>
+          </dataNorth>
+          <dataEast>
+            <offset>(0, 0, -0.05)</offset>
+          </dataEast>
+          <dataSouth>
+            <offset>(0, 0, -0.05)</offset>
+          </dataSouth>
+          <dataWest>
+            <offset>(0, 0, -0.05)</offset>
+          </dataWest>
+          <defaultData>
+            <layer>-40</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <!-- <stages>
+      <li>
+        <becomeVisible>ture</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>1.01</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages> -->
+    <comps>
+      <li Class="ArachnaeSwarm.MoharHediffs.HediffCompProperties_Spawner">
+        <!--
+          ==================================================
+          基础设置 (Basic Settings)
+          ==================================================
+        -->
+        <!-- [DEBUG] 如果为true，则为此组件启用详细的调试日志记录。 -->
+        <debug>true</debug>
+        <!-- 要生成的物品的ThingDef。 -->
+        <thingToSpawn>ARA_InsectJelly</thingToSpawn>
+        <!-- 每次生成的基础物品数量。 -->
+        <spawnCount>15</spawnCount>
+        <!-- 
+          ==================================================
+          生成周期 (Spawning Interval)
+          ==================================================
+        -->
+        <!-- 下一次生成事件发生前的最少天数。 -->
+        <minDaysB4Next>1</minDaysB4Next>
+        <!-- 下一次生成事件发生前的最大天数。 -->
+        <maxDaysB4Next>1</maxDaysB4Next>
+        <randomGrace>0</randomGrace>
+        <!-- 
+          ==================================================
+          与年龄相关的调整 (Age-Related Adjustments)
+          ==================================================
+        -->
+        <!-- 如果为true，生成数量将根据宿主的年龄进行调整。 -->
+        <ageWeightedQuantity>false</ageWeightedQuantity>
+        <!-- 如果为true且ageWeightedQuantity为true，则随着宿主年龄增长，生成数量变多。 -->
+        <olderBiggerQuantity>true</olderBiggerQuantity>
+        <!-- 如果为true且ageWeightedQuantity为true，则随年龄增长的数量缩放将是指数性的而非线性的。 -->
+        <exponentialQuantity>true</exponentialQuantity>
+        <!-- 指数级数量缩放的最大乘数，以防止出现荒谬的数字。 -->
+        <exponentialRatioLimit>20</exponentialRatioLimit>
+        <!-- 
+          ==================================================
+          生成条件 (Spawning Conditions)
+          ==================================================
+        -->
+        <!-- 如果为true，当宿主Pawn饥饿时，生成将暂停。 -->
+        <hungerRelative>true</hungerRelative>
+        <!-- 如果为true，当宿主Pawn受伤时，生成将暂停。 -->
+        <healthRelative>false</healthRelative>
+      </li>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_Myrmecocystus_Production_Medicine</li>
+          <li>ARA_Myrmecocystus_Production_Fuel</li>
+        </abilityDefs>
+      </li>
+      <li Class="HediffCompProperties_RemoveIfOtherHediff">
+        <hediffs>
+          <li>ARA_Myrmecocystus_Production_Medicine</li>
+          <li>ARA_Myrmecocystus_Production_Fuel</li>
+        </hediffs>
+      </li>
+    </comps>
+  </HediffDef>
+  <AbilityDef>
+    <defName>ARA_Myrmecocystus_Production_Medicine</defName>
+    <label>蜜罐种转换——医药专精</label>
+    <description>使蜜罐种发生内驱性进化，以牺牲生产阿拉克涅虫蜜的代价，使其可以孵化医药茧，并允许使用医疗能力和操纵拟线种。\n\n该进化过程不可逆！</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Myrmecocystus_Production_Medicine</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>1</range>
+      <warmupTime>12</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityAddExtraExp">
+        <skillChanges>
+          <li>
+            <skill>Medicine</skill>
+            <passionGained>Major</passionGained>
+            <xpGainAmount>350000</xpGainAmount>
+          </li>
+        </skillChanges>
+      </li>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ARA_Myrmecocystus_Production_Medicine</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+        <severity>1</severity>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_1MED</requiredResearch>
+        <failMessage>需要科技 节点MED-1"疗愈种" 以解锁进化</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef>
+    <defName>ARA_Myrmecocystus_Production_Medicine</defName>
+    <label>亚种-疗愈种</label>
+    <description>这只阿拉克涅蜜罐种已经获得拔耀，不再生产虫蜜，而是生产巢穴所稀缺的药物、化学品，并可以操纵拟线种寄生虫。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_InsectJelly</ThingDef>
+    </descriptionHyperlinks>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Myrmecocystus_Addons_StomachMedicine</texPath>
+        <parentTagDef>Body</parentTagDef>
+        <useSkinShader>false</useSkinShader>
+        <useRottenColor>false</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <dataNorth>
+            <offset>(0, 0, -0.05)</offset>
+            <layer>120</layer>
+          </dataNorth>
+          <dataEast>
+            <offset>(0, 0, -0.05)</offset>
+          </dataEast>
+          <dataSouth>
+            <offset>(0, 0, -0.05)</offset>
+          </dataSouth>
+          <dataWest>
+            <offset>(0, 0, -0.05)</offset>
+          </dataWest>
+          <defaultData>
+            <layer>-40</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <stages>
+      <li>
+        <minSeverity>0.01</minSeverity>
+        <statOffsets>
+          <MedicalTendQualityOffset>1</MedicalTendQualityOffset>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_Cocoon_Medicine</li>
+          <li>ARA_Cocoon_Medicine_From_Death</li>
+          <li>ARA_MimicNematode_Needle_Fire</li>
+        </abilityDefs>
+      </li>
+    </comps>
+  </HediffDef>
+  <AbilityDef>
+    <defName>ARA_Myrmecocystus_Production_Fuel</defName>
+    <label>蜜罐种转换——易燃腔室</label>
+    <description>使蜜罐种发生内驱性进化，以牺牲生产阿拉克涅虫蜜的代价，使其可以产出化合燃料，增强其护甲并给予其额外的喷射火焰的能力。\n\n该进化过程不可逆！</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Myrmecocystus_Production_Fuel</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>1</range>
+      <warmupTime>12</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ARA_Myrmecocystus_Production_Fuel</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+        <severity>1</severity>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_8FEL</requiredResearch>
+        <failMessage>需要科技 节点FEL-8"爆燃腔" 以解锁进化</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef>
+    <defName>ARA_Myrmecocystus_Production_Fuel</defName>
+    <label>亚种-爆燃种</label>
+    <description>这只阿拉克涅蜜罐种已经获得拔耀，不再生产虫蜜，而是生产巢穴所稀缺的化合燃料，并可以通过喷射火焰对抗敌人。</description>
+    <descriptionHyperlinks>
+      <ThingDef>Chemfuel</ThingDef>
+    </descriptionHyperlinks>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Myrmecocystus_Addons_StomachFuel</texPath>
+        <parentTagDef>Body</parentTagDef>
+        <useSkinShader>false</useSkinShader>
+        <useRottenColor>false</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <dataNorth>
+            <offset>(0, 0, -0.05)</offset>
+            <layer>120</layer>
+          </dataNorth>
+          <dataEast>
+            <offset>(0, 0, -0.05)</offset>
+          </dataEast>
+          <dataSouth>
+            <offset>(0, 0, -0.05)</offset>
+          </dataSouth>
+          <dataWest>
+            <offset>(0, 0, -0.05)</offset>
+          </dataWest>
+          <defaultData>
+            <layer>-40</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <stages>
+      <li>
+        <minSeverity>0.01</minSeverity>
+        <statOffsets>
+          <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="ArachnaeSwarm.MoharHediffs.HediffCompProperties_Spawner">
+        <!--
+          ==================================================
+          基础设置 (Basic Settings)
+          ==================================================
+        -->
+        <!-- [DEBUG] 如果为true，则为此组件启用详细的调试日志记录。 -->
+        <debug>true</debug>
+        <!-- 要生成的物品的ThingDef。 -->
+        <thingToSpawn>Chemfuel</thingToSpawn>
+        <!-- 每次生成的基础物品数量。 -->
+        <spawnCount>20</spawnCount>
+        <!-- 
+          ==================================================
+          生成周期 (Spawning Interval)
+          ==================================================
+        -->
+        <!-- 下一次生成事件发生前的最少天数。 -->
+        <minDaysB4Next>1</minDaysB4Next>
+        <!-- 下一次生成事件发生前的最大天数。 -->
+        <maxDaysB4Next>1</maxDaysB4Next>
+        <randomGrace>0</randomGrace>
+        <!-- 
+          ==================================================
+          与年龄相关的调整 (Age-Related Adjustments)
+          ==================================================
+        -->
+        <!-- 如果为true，生成数量将根据宿主的年龄进行调整。 -->
+        <ageWeightedQuantity>false</ageWeightedQuantity>
+        <!-- 如果为true且ageWeightedQuantity为true，则随着宿主年龄增长，生成数量变多。 -->
+        <olderBiggerQuantity>true</olderBiggerQuantity>
+        <!-- 如果为true且ageWeightedQuantity为true，则随年龄增长的数量缩放将是指数性的而非线性的。 -->
+        <exponentialQuantity>true</exponentialQuantity>
+        <!-- 指数级数量缩放的最大乘数，以防止出现荒谬的数字。 -->
+        <exponentialRatioLimit>20</exponentialRatioLimit>
+        <!-- 
+          ==================================================
+          生成条件 (Spawning Conditions)
+          ==================================================
+        -->
+        <!-- 如果为true，当宿主Pawn饥饿时，生成将暂停。 -->
+        <hungerRelative>true</hungerRelative>
+        <!-- 如果为true，当宿主Pawn受伤时，生成将暂停。 -->
+        <healthRelative>false</healthRelative>
+      </li>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_FireSpew</li>
+        </abilityDefs>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- 战士种 -->
+  <HediffDef>
+    <defName>ARA_Fighter_Base</defName>
+    <label>虫巢战士</label>
+    <description>阿拉克涅的战士虫们可以将身体变成自己的最强大的武装，随着科技的解锁，它们将获得繁多的技能以供使用。</description>
+    <descriptionHyperlinks>
+      <HediffDef>ARA_Fighter_Invisibility</HediffDef>
+    </descriptionHyperlinks>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <!-- <stages>
+      <li>
+        <becomeVisible>ture</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>1.01</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages> -->
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_AcidSprayBurst</li>
+          <li>ARA_Toxic_Needle_Fire</li>
+          <li>ARA_Fighter_Invisibility</li>
+        </abilityDefs>
+      </li>
+      <li Class="HediffCompProperties_RemoveIfOtherHediff">
+        <hediffs>
+          <li>ARA_Fighter_Invisibility</li>
+        </hediffs>
+      </li>
+    </comps>
+  </HediffDef>
+  <AbilityDef>
+    <defName>ARA_Fighter_Invisibility</defName>
+    <label>战士种转换——隐形杀手</label>
+    <description>使战士种发生内驱性进化，极大地损害其远程武器和特殊技能的使用能力，以换取近乎永久的隐形和强大的近战能力。\n\n该进化过程不可逆！</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Fighter_Invisibility</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>1</range>
+      <warmupTime>12</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ARA_Fighter_Invisibility</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+        <severity>1</severity>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityAddExtraExp">
+        <skillChanges>
+          <li>
+            <skill>Melee</skill>
+            <passionGained>Major</passionGained>
+            <xpGainAmount>350000</xpGainAmount>
+          </li>
+          <li>
+            <skill>Shooting</skill>
+            <passionGained>None</passionGained>
+            <xpGainAmount>-350000</xpGainAmount>
+          </li>
+        </skillChanges>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_4CLO</requiredResearch>
+        <failMessage>需要科技 节点CLO-4"追猎种" 以解锁进化</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef>
+    <defName>ARA_Fighter_Invisibility</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>亚种-追猎种</label>
+    <description>经过进化的战士种获得了特殊的覆盖全身的虹细胞，这些含纳米晶体的细胞可以折射各处的光线以达到永久隐身状态，直到其发起攻击。此外，它们也获得了更强大的近距离作战能力，缺点则是复眼的退化使其难以进行射击。</description>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <minSeverity>0.01</minSeverity>
+        <statFactors>
+          <RangedCooldownFactor>2</RangedCooldownFactor>
+          <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+          <AimingDelayFactor>5</AimingDelayFactor>
+          <StaggerDurationFactor>0</StaggerDurationFactor>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Invisibility">
+        <visibleToPlayer>true</visibleToPlayer>
+        <fadeDurationTicks>60</fadeDurationTicks>
+        <recoverFromDisruptedTicks>90</recoverFromDisruptedTicks>
+      </li>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_Fighter_Invisibility_Execution</li>
+          <li>ARA_Fighter_Invisibility_jump</li>
+        </abilityDefs>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+  </HediffDef>
+
+  <!-- 迷雾种 -->
+  <HediffDef>
+    <defName>ARA_Smokepop_Base</defName>
+    <label>活体烟罐</label>
+    <description>迷雾种是阿拉克涅虫族中的大家伙，它们不仅拥有厚实的外壳，其灌满信息素浓烟的腹部可以喷出覆盖战场的气体，吸引那些较小的辅虫破土而出对敌方发起疯狂的攻击。</description>
+    <descriptionHyperlinks>
+      <HediffDef>ARA_Smokepop_Production_Bacterium</HediffDef>
+    </descriptionHyperlinks>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_Smokepop_Armor</texPath>
+        <parentTagDef>Body</parentTagDef>
+        <useSkinShader>false</useSkinShader>
+        <useRottenColor>false</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawSize>0.85</drawSize>
+        <drawData>
+          <dataNorth>
+            <offset>(0, 0, 0)</offset>
+            <layer>-400</layer>
+          </dataNorth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataWest>
+            <offset>(0, 0, 0)</offset>
+          </dataWest>
+          <defaultData>
+            <layer>800</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_Ability_Smokepop</li>
+          <li>ARA_Smokepop_Production_Bacterium</li>
+        </abilityDefs>
+      </li>
+      <li Class="HediffCompProperties_RemoveIfOtherHediff">
+        <hediffs>
+          <li>ARA_Smokepop_Production_Bacterium</li>
+        </hediffs>
+      </li>
+    </comps>
+  </HediffDef>
+  <AbilityDef>
+    <defName>ARA_Smokepop_Production_Bacterium</defName>
+    <label>迷雾种转换——钜菌专精</label>
+    <description>使迷雾种发生内驱性进化，以牺牲喷射信息素和降低护甲为代价，使其可以定期产出阿拉克涅虫族的高级材料——活化钜菌。\n\n该进化过程不可逆！</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Smokepop_Production_Bacterium</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>1</range>
+      <warmupTime>12</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ARA_Smokepop_Production_Bacterium</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+        <severity>1</severity>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_1BAC</requiredResearch>
+        <failMessage>需要科技 节点BAC-1"育菌种" 以解锁进化</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef>
+    <defName>ARA_Smokepop_Production_Bacterium</defName>
+    <label>亚种-育菌种</label>
+    <description>这只阿拉克涅迷雾种已经获得拔耀，前部甲壳脱落且无法再喷射信息素，转而换取了生产活化钜菌的能力。一只育菌种每天产出5份活化钜菌。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Activated_Bacterium</ThingDef>
+    </descriptionHyperlinks>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0.01</minSeverity>
+      </li>
+    </stages>
+    <comps>
+      <li Class="ArachnaeSwarm.MoharHediffs.HediffCompProperties_Spawner">
+        <!--
+          ==================================================
+          基础设置 (Basic Settings)
+          ==================================================
+        -->
+        <!-- [DEBUG] 如果为true，则为此组件启用详细的调试日志记录。 -->
+        <debug>true</debug>
+        <!-- 要生成的物品的ThingDef。 -->
+        <thingToSpawn>ARA_Activated_Bacterium</thingToSpawn>
+        <!-- 每次生成的基础物品数量。 -->
+        <spawnCount>5</spawnCount>
+        <!-- 
+          ==================================================
+          生成周期 (Spawning Interval)
+          ==================================================
+        -->
+        <!-- 下一次生成事件发生前的最少天数。 -->
+        <minDaysB4Next>1</minDaysB4Next>
+        <!-- 下一次生成事件发生前的最大天数。 -->
+        <maxDaysB4Next>1</maxDaysB4Next>
+        <randomGrace>0</randomGrace>
+        <!-- 
+          ==================================================
+          与年龄相关的调整 (Age-Related Adjustments)
+          ==================================================
+        -->
+        <!-- 如果为true，生成数量将根据宿主的年龄进行调整。 -->
+        <ageWeightedQuantity>false</ageWeightedQuantity>
+        <!-- 如果为true且ageWeightedQuantity为true，则随着宿主年龄增长，生成数量变多。 -->
+        <olderBiggerQuantity>true</olderBiggerQuantity>
+        <!-- 如果为true且ageWeightedQuantity为true，则随年龄增长的数量缩放将是指数性的而非线性的。 -->
+        <exponentialQuantity>true</exponentialQuantity>
+        <!-- 指数级数量缩放的最大乘数，以防止出现荒谬的数字。 -->
+        <exponentialRatioLimit>20</exponentialRatioLimit>
+        <!-- 
+          ==================================================
+          生成条件 (Spawning Conditions)
+          ==================================================
+        -->
+        <!-- 如果为true，当宿主Pawn饥饿时，生成将暂停。 -->
+        <hungerRelative>true</hungerRelative>
+        <!-- 如果为true，当宿主Pawn受伤时，生成将暂停。 -->
+        <healthRelative>false</healthRelative>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- 盾头种 -->
+  <HediffDef>
+    <defName>ARA_ShieldHead_Base</defName>
+    <label>坚硬甲壳</label>
+    <description>盾头种虽然身材较小而没有大型阿拉克涅虫族那样的压迫感，但是得益于其覆盖全身的甲壳，防御力可一点不比那些大型虫族弱。它的甲壳被特意设置为会过度生长并脱落，虫族则可以利用其脱落的甲壳作为建设巢穴的工具。一只盾头种每天产出15份甲壳素。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_ShieldBody</texPath>
+        <parentTagDef>Body</parentTagDef>
+        <useSkinShader>false</useSkinShader>
+        <useRottenColor>false</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <dataNorth>
+            <offset>(0, 0, 0)</offset>
+          </dataNorth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataWest>
+            <offset>(0, 0, 0)</offset>
+          </dataWest>
+          <defaultData>
+            <layer>40</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="ArachnaeSwarm.MoharHediffs.HediffCompProperties_Spawner">
+        <!--
+          ==================================================
+          基础设置 (Basic Settings)
+          ==================================================
+        -->
+        <!-- [DEBUG] 如果为true，则为此组件启用详细的调试日志记录。 -->
+        <debug>true</debug>
+        <!-- 要生成的物品的ThingDef。 -->
+        <thingToSpawn>ARA_Carapace</thingToSpawn>
+        <!-- 每次生成的基础物品数量。 -->
+        <spawnCount>15</spawnCount>
+        <!-- 
+          ==================================================
+          生成周期 (Spawning Interval)
+          ==================================================
+        -->
+        <!-- 下一次生成事件发生前的最少天数。 -->
+        <minDaysB4Next>1</minDaysB4Next>
+        <!-- 下一次生成事件发生前的最大天数。 -->
+        <maxDaysB4Next>1</maxDaysB4Next>
+        <randomGrace>0</randomGrace>
+        <!-- 
+          ==================================================
+          与年龄相关的调整 (Age-Related Adjustments)
+          ==================================================
+        -->
+        <!-- 如果为true，生成数量将根据宿主的年龄进行调整。 -->
+        <ageWeightedQuantity>false</ageWeightedQuantity>
+        <!-- 如果为true且ageWeightedQuantity为true，则随着宿主年龄增长，生成数量变多。 -->
+        <olderBiggerQuantity>true</olderBiggerQuantity>
+        <!-- 如果为true且ageWeightedQuantity为true，则随年龄增长的数量缩放将是指数性的而非线性的。 -->
+        <exponentialQuantity>true</exponentialQuantity>
+        <!-- 指数级数量缩放的最大乘数，以防止出现荒谬的数字。 -->
+        <exponentialRatioLimit>20</exponentialRatioLimit>
+        <!-- 
+          ==================================================
+          生成条件 (Spawning Conditions)
+          ==================================================
+        -->
+        <!-- 如果为true，当宿主Pawn饥饿时，生成将暂停。 -->
+        <hungerRelative>true</hungerRelative>
+        <!-- 如果为true，当宿主Pawn受伤时，生成将暂停。 -->
+        <healthRelative>false</healthRelative>
+      </li>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_ShieldHead_Protector</li>
+          <li>ARA_ShieldHead_HiveBuilder</li>
+        </abilityDefs>
+      </li>
+      <li Class="HediffCompProperties_RemoveIfOtherHediff">
+        <hediffs>
+          <li>ARA_ShieldHead_Protector</li>
+          <li>ARA_ShieldHead_HiveBuilder</li>
+        </hediffs>
+      </li>
+    </comps>
+  </HediffDef>
+  <AbilityDef>
+    <defName>ARA_ShieldHead_Protector</defName>
+    <label>盾头种转换——虫巢护卫</label>
+    <description>使盾头种发生内驱性进化，以牺牲产出甲壳素和建造建筑的能力为代价，使其获得更强大的战斗能力、移动能力和冲撞攻击的技能。\n\n该进化过程不可逆！</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_ShieldHead_Protector</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>1</range>
+      <warmupTime>12</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ARA_ShieldHead_Protector</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+        <severity>1</severity>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityAddExtraExp">
+        <skillChanges>
+          <li>
+            <skill>Melee</skill>
+            <passionGained>Major</passionGained>
+            <xpGainAmount>200000</xpGainAmount>
+          </li>
+          <li>
+            <skill>Shooting</skill>
+            <passionGained>Major</passionGained>
+            <xpGainAmount>200000</xpGainAmount>
+          </li>
+          <li>
+            <skill>Construction</skill>
+            <passionGained>None</passionGained>
+            <xpGainAmount>-350000</xpGainAmount>
+          </li>
+        </skillChanges>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_1VTE</requiredResearch>
+        <failMessage>需要科技 节点VTE-1"护卫者" 以解锁进化</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef>
+    <defName>ARA_ShieldHead_Protector</defName>
+    <label>亚种-巢卫种</label>
+    <description>这只阿拉克涅盾头种已经获得拔耀，战斗能力变得更加强大，并且允许通过势大力沉的冲撞攻击对手。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_ShieldBody</texPath>
+        <parentTagDef>Body</parentTagDef>
+        <useSkinShader>false</useSkinShader>
+        <useRottenColor>false</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <dataNorth>
+            <offset>(0, 0, 0)</offset>
+          </dataNorth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataWest>
+            <offset>(0, 0, 0)</offset>
+          </dataWest>
+          <defaultData>
+            <layer>800</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>1</MoveSpeed>
+          <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_Ability_TrackingCharge</li>
+        </abilityDefs>
+      </li>
+    </comps>
+  </HediffDef>
+  <AbilityDef>
+    <defName>ARA_ShieldHead_HiveBuilder</defName>
+    <label>盾头种转换——营建大师</label>
+    <description>使盾头种发生内驱性进化，以防御能力为代价，使其获得更强大的甲壳素产出能力和建造技能。\n\n该进化过程不可逆！</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_ShieldHead_HiveBuilder</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>1</range>
+      <warmupTime>12</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ARA_ShieldHead_HiveBuilder</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+        <severity>1</severity>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityAddExtraExp">
+        <skillChanges>
+          <li>
+            <skill>Construction</skill>
+            <passionGained>Major</passionGained>
+            <xpGainAmount>350000</xpGainAmount>
+          </li>
+        </skillChanges>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_3CON</requiredResearch>
+        <failMessage>需要科技 节点CON-3"建造者" 以解锁进化</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef>
+    <defName>ARA_ShieldHead_HiveBuilder</defName>
+    <label>亚种-营建种</label>
+    <description>这只阿拉克涅盾头种已经获得拔耀，获得了强大的产出能力和建造能力。一只盾头种每天产出25份甲壳素。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+      </li>
+    </stages>
+    <comps>
+      <li Class="ArachnaeSwarm.MoharHediffs.HediffCompProperties_Spawner">
+        <!--
+          ==================================================
+          基础设置 (Basic Settings)
+          ==================================================
+        -->
+        <!-- [DEBUG] 如果为true，则为此组件启用详细的调试日志记录。 -->
+        <debug>true</debug>
+        <!-- 要生成的物品的ThingDef。 -->
+        <thingToSpawn>ARA_Carapace</thingToSpawn>
+        <!-- 每次生成的基础物品数量。 -->
+        <spawnCount>25</spawnCount>
+        <!-- 
+          ==================================================
+          生成周期 (Spawning Interval)
+          ==================================================
+        -->
+        <!-- 下一次生成事件发生前的最少天数。 -->
+        <minDaysB4Next>1</minDaysB4Next>
+        <!-- 下一次生成事件发生前的最大天数。 -->
+        <maxDaysB4Next>1</maxDaysB4Next>
+        <randomGrace>0</randomGrace>
+        <!-- 
+          ==================================================
+          与年龄相关的调整 (Age-Related Adjustments)
+          ==================================================
+        -->
+        <!-- 如果为true，生成数量将根据宿主的年龄进行调整。 -->
+        <ageWeightedQuantity>false</ageWeightedQuantity>
+        <!-- 如果为true且ageWeightedQuantity为true，则随着宿主年龄增长，生成数量变多。 -->
+        <olderBiggerQuantity>true</olderBiggerQuantity>
+        <!-- 如果为true且ageWeightedQuantity为true，则随年龄增长的数量缩放将是指数性的而非线性的。 -->
+        <exponentialQuantity>true</exponentialQuantity>
+        <!-- 指数级数量缩放的最大乘数，以防止出现荒谬的数字。 -->
+        <exponentialRatioLimit>20</exponentialRatioLimit>
+        <!-- 
+          ==================================================
+          生成条件 (Spawning Conditions)
+          ==================================================
+        -->
+        <!-- 如果为true，当宿主Pawn饥饿时，生成将暂停。 -->
+        <hungerRelative>true</hungerRelative>
+        <!-- 如果为true，当宿主Pawn受伤时，生成将暂停。 -->
+        <healthRelative>false</healthRelative>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- 空天种 -->
+  <HediffDef>
+    <defName>ARA_Skyraider_Base</defName>
+    <label>飞行巨兽</label>
+    <description>阿拉克涅空天种是天空的统治者，她们身躯庞大但又敏捷致命，在携带大型武器的同时还拥有其他人难以企及的机动性。她们可以强制携带搬运尚未倒地的己方虫族，以增强慢速虫族在战场上的机动性。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>2</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_Skyraider_jump</li>
+          <li>ARA_Skyraider_Hivelord</li>
+        </abilityDefs>
+      </li>
+      <li Class="HediffCompProperties_RemoveIfOtherHediff">
+        <hediffs>
+          <li>ARA_Skyraider_Hivelord</li>
+        </hediffs>
+      </li>
+    </comps>
+  </HediffDef>
+  <AbilityDef>
+    <defName>ARA_Skyraider_Hivelord</defName>
+    <label>空天种转换——巢虫之主</label>
+    <description>使空天种发生内驱性进化，以降低机动力和失去高空机动能力为代价，使其获得向敌方自动投射天巢种辅虫的能力。\n\n该进化过程不可逆！</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Skyraider_Hivelord</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>1</range>
+      <warmupTime>12</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ARA_Skyraider_Hivelord</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+        <severity>1</severity>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_6LOD</requiredResearch>
+        <failMessage>需要科技 节点LOD-6"巢之主" 以解锁进化</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef>
+    <defName>ARA_Skyraider_Hivelord</defName>
+    <label>亚种-领主种</label>
+    <description>这只阿拉克涅空天种已经获得拔耀，会对敌方投掷天巢种辅虫，这些灵敏的辅虫会在落地后散开四处狩猎目标。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0.01</minSeverity>
+      </li>
+    </stages>
+    <comps>
+      <li Class="ArachnaeSwarm.HediffCompProperties_TopTurret">
+        <turretDef>ARA_Skyraider_Hivelord_Turret</turretDef>
+        <angleOffset>0</angleOffset>
+        <autoAttack>true</autoAttack>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- 禁卫种 -->
+  <HediffDef>
+    <defName>ARA_Praetorian_Base</defName>
+    <label>女皇之喉</label>
+    <description>阿拉克涅禁卫种是女皇亲自培育的意志代行者，她们不仅拥有精湛的射击技术，还可以在战场上指挥友军，使其变得更加强大。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statFactors>
+          <RangedCooldownFactor>0.75</RangedCooldownFactor>
+          <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+          <AimingDelayFactor>0.75</AimingDelayFactor>
+          <StaggerDurationFactor>0</StaggerDurationFactor>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>ARA_Praetorian_jump</li>
+          <li>ARA_Praetorian_Commander_Ability_On</li>
+          <li>ARA_Praetorian_Commander_Ability_Off</li>
+        </abilityDefs>
+      </li>
+      <!-- <li Class="HediffCompProperties_RemoveIfOtherHediff">
+        <hediffs>
+          <li>ARA_Skyraider_Hivelord</li>
+        </hediffs>
+      </li> -->
+    </comps>
+  </HediffDef>
+  <AbilityDef>
+    <defName>ARA_Skyraider_Hivelord</defName>
+    <label>空天种转换——巢虫之主</label>
+    <description>使空天种发生内驱性进化，以降低机动力和失去高空机动能力为代价，使其获得向敌方自动投射天巢种辅虫的能力。\n\n该进化过程不可逆！</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Skyraider_Hivelord</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>1</range>
+      <warmupTime>12</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ARA_Skyraider_Hivelord</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+        <severity>1</severity>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_6LOD</requiredResearch>
+        <failMessage>需要科技 节点LOD-6"巢之主" 以解锁进化</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef>
+    <defName>ARA_Skyraider_Hivelord</defName>
+    <label>亚种-领主种</label>
+    <description>这只阿拉克涅空天种已经获得拔耀，会对敌方投掷天巢种辅虫，这些灵敏的辅虫会在落地后散开四处狩猎目标。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0.01</minSeverity>
+      </li>
+    </stages>
+    <comps>
+      <li Class="ArachnaeSwarm.HediffCompProperties_TopTurret">
+        <turretDef>ARA_Skyraider_Hivelord_Turret</turretDef>
+        <angleOffset>0</angleOffset>
+        <autoAttack>true</autoAttack>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

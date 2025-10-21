@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>ARA_Refuel_Nutrition</defName>
+    <label>补充营养</label>
+    <giverClass>ArachnaeSwarm.WorkGiver_Refuel_Nutrition</giverClass>
+    <workType>Hauling</workType>
+    <priorityInType>60</priorityInType>
+    <verb>补充</verb>
+    <gerund>补充</gerund>
+    <scanThings>true</scanThings>
+    <scanCells>false</scanCells>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>ARA_SkillTraining_Building_Bills</defName>
+    <label>技能训练</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>BasicWorker</workType>
+    <priorityInType>99999</priorityInType>
+    <fixedBillGiverDefs>
+      <li>ARA_SkillTraining_Building</li>
+    </fixedBillGiverDefs>
+    <verb>训练于</verb>
+    <gerund>训练于</gerund>
+    <prioritizeSustains>false</prioritizeSustains>
+    <canBeDoneByMechs>false</canBeDoneByMechs>
+  </WorkGiverDef>
+</Defs>

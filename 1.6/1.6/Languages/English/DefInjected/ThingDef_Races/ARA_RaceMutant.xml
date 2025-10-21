@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MutantDef Abstract="True" Name="ARA_BaseMutantEntity">
+    <consideredSubhuman>true</consideredSubhuman>
+    <canCarryPawns>false</canCarryPawns>
+    <canTend>false</canTend>
+    <preventsMentalBreaks>true</preventsMentalBreaks>
+    <disablesIdeo>true</disablesIdeo>
+    <disableOwnership>true</disableOwnership>
+    <disablePolicies>true</disablePolicies>
+    <disableTitles>true</disableTitles>
+    <disableNeeds>true</disableNeeds>
+    <disableEatingAtTable>true</disableEatingAtTable>
+    <incapableOfSocialInteractions>true</incapableOfSocialInteractions>
+    <canBeCapturedToHoldingPlatform>true</canBeCapturedToHoldingPlatform>
+    <producesBioferrite>true</producesBioferrite>
+    <overrideLabel>true</overrideLabel>
+    <overrideInspectString>true</overrideInspectString>
+    <canBleed>false</canBleed>
+    <terminatePregnancy>true</terminatePregnancy>
+    <isImmuneToInfections>true</isImmuneToInfections>
+    <removeChronicIllnesses>true</removeChronicIllnesses>
+    <removeAddictions>true</removeAddictions>
+    <disableAging>true</disableAging>
+    <clearsEgo>true</clearsEgo>
+    <partsCleanAndDroppable>false</partsCleanAndDroppable>
+    <breathesAir>false</breathesAir>
+    <removesHediffs>
+      <li>CryptosleepSickness</li>
+      <li>LuciferiumHigh</li>
+      <li>LuciferiumAddiction</li>
+      <li>Scaria</li>
+      <li>CorpseTorment</li>
+      <li>CubeInterest</li>
+      <li>CubeWithdrawal</li>
+      <li>CubeComa</li>
+      <li>CubeRage</li>
+      <li>HeartAttack</li>
+      <li>Scaria</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">PsychicAmplifier</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">MechlinkImplant</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">PregnantHuman</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">PregnancyLabor</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">HemogenAmplified</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">DeathrestExhaustion</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">InterruptedDeathrest</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">HemogenCraving</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">Deathrest</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">RegenerationComa</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">PostpartumExhaustion</li>
+      <li>Inhumanized</li>
+    </removesHediffs>
+    <disablesGenes>
+      <li MayRequire="Ludeon.RimWorld.Biotech">Hemogenic</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">Deathrest</li>
+    </disablesGenes>
+  </MutantDef>
+
+  <MutantDef ParentName="ARA_BaseMutantEntity">
+    <defName>ARA_MimicNematodeShambler</defName>
+    <label>阿拉克涅拟线种寄生体</label>
+    <description>阿拉克涅拟线种是虫群中最神秘的分支之一。它们与原虫种同源，但在进化之路上并未发展出高级智慧，而是走向了一条截然不同的道路：寄生。拟线种是无法脱离宿主独立存活的寄生虫。一旦寄生于生物体内，它们会长期潜伏，最终逐步接管宿主的神经与代谢系统，将其变为受其操控的行尸走肉——“寄生体”。得益于超凡的细胞复制与再生能力，拟线种能够模仿并替代宿主的细胞结构，这使得寄生体拥有了惊人的自我修复能力。然而，这种寄生关系也极具侵略性：拟线种的虫卵遍布寄生体体表，任何被寄生体攻击的生物都有可能被感染，最终沦为新的寄生体。尽管拟线虫将寄生体的新陈代谢维持在极低水平，但寄生体本身并不会主动觅食。因此，当能量耗尽后，它们终将迎来“死亡”。</description>
+    <hediff>ARA_MimicNematodeShambler</hediff>
+    <thinkTree>ARA_WorkingShambler</thinkTree>
+    <thinkTreeConstant>ShamblerConstant</thinkTreeConstant>
+    <hideLabel>true</hideLabel>
+    <!--<namePrefix>拟线体 </namePrefix>-->
+    <useCorpseGraphics>false</useCorpseGraphics>
+    <isConsideredCorpse>false</isConsideredCorpse>
+    <bloodDef>Filth_BloodInsect</bloodDef>
+    <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+    <entitledToMedicalCare>false</entitledToMedicalCare>
+    <removeAllInjuries>true</removeAllInjuries>
+    <restoreLegs>true</restoreLegs>
+    <defaultFaction>PlayerColony</defaultFaction>
+    <standingAnimation>ARA_ShamblerSway</standingAnimation>
+    <canOpenDoors>true</canOpenDoors>
+    <makesFootprints>false</makesFootprints>
+    <tameable>false</tameable>
+    <clearMutantStatusOnDeath>true</clearMutantStatusOnDeath>
+    <canTravelInCaravan>false</canTravelInCaravan>
+    <canAttackWhileCrawling>true</canAttackWhileCrawling>
+    <respectsAllowedArea>true</respectsAllowedArea>
+    <disableFlying>true</disableFlying>
+    <canGainXP>false</canGainXP>
+    <canBeDrafted>true</canBeDrafted>
+    <disableHostilityResponse>true</disableHostilityResponse>
+    <deathOnDownedChance>0.25</deathOnDownedChance>
+    <woundColor>(0.3, 0.3, 0.0, 1.0)</woundColor>
+    <anomalyKnowledgeOffset>0</anomalyKnowledgeOffset>
+    <knowledgeCategory>Basic</knowledgeCategory>
+    <!--<codexEntry>Shambler</codexEntry>-->
+    <!-- Sounds -->
+    <soundAttackChance>0.25</soundAttackChance>
+
+    <soundWounded>Pawn_BigInsect_Pain</soundWounded>
+    <soundDeath>Pawn_BigInsect_Death</soundDeath>
+    <soundCall>Pawn_BigInsect_Call</soundCall>
+    <soundAngry>Pawn_BigInsect_Angry</soundAngry>
+    <removesHediffs>
+      <li>ARA_MimicNematode</li>
+    </removesHediffs>
+    <workDisables Inherit="false">
+      <li>ManualSkilled</li>
+      <li>Intellectual</li>
+      <li>Artistic</li>
+      <li>Caring</li>
+      <li>Social</li>
+      <li>PlantWork</li>
+      <li>Mining</li>
+      <li>Hunting</li>
+      <li>Constructing</li>
+      <li>Cooking</li>
+    </workDisables>
+    <!-- Rendering -->
+    <renderNodeProperties>
+      <li Class="PawnRenderNodeProperties_Overlay">
+        <debugLabel>Shambler wounds</debugLabel>
+        <workerClass>PawnRenderNodeWorker_OverlayShambler</workerClass>
+        <overlayLayer>Body</overlayLayer>
+        <baseLayer>20</baseLayer>
+        <pawnType>HumanlikeOnly</pawnType>
+      </li>
+      <li>
+        <debugLabel>Shambler wounds</debugLabel>
+        <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+        <workerClass>PawnRenderNodeWorker_OverlayShambler</workerClass>
+        <overlayLayer>Body</overlayLayer>
+        <baseLayer>20</baseLayer>
+        <pawnType>NonHumanlikeOnly</pawnType>
+      </li>
+    </renderNodeProperties>
+
+    <tools>
+      <li>
+        <label>撕咬</label>
+        <capacities>
+          <li>ARA_MimicNematodeShamblerBite</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>1</chanceFactor>
+        <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+        <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+      </li>
+      <li>
+        <label>巨镰</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <!-- <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable> -->
+        <chanceFactor>0.5</chanceFactor>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+      <li>
+        <label>巨镰</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <!-- <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable> -->
+        <chanceFactor>0.5</chanceFactor>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+    </tools>
+  </MutantDef>
+
+  <ToolCapacityDef>
+    <defName>ARA_MimicNematodeShamblerBite</defName>
+    <label>撕咬</label>
+  </ToolCapacityDef>
+  <ManeuverDef>
+    <defName>ARA_MimicNematodeShamblerBite</defName>
+    <requiredCapacity>ARA_MimicNematodeShamblerBite</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>ARA_MimicNematodeBite</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+
+</Defs>

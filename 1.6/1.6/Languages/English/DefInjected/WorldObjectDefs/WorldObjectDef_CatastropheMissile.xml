@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WorldObjectDef>
+    <defName>CatastropheMissile_Flying</defName>
+    <label>天灾酸烧导弹</label>
+    <worldObjectClass>ArachnaeSwarm.WorldObject_CatastropheMissile</worldObjectClass>
+    <texture>ArachnaeSwarm/World/WorldObjects/Expanding/ARA_CatastropheMissile_Flying</texture> <!-- Placeholder texture -->
+    <expandingIcon>true</expandingIcon>
+    <useDynamicDrawer>true</useDynamicDrawer>
+    <expandingIconTexture>ArachnaeSwarm/World/WorldObjects/ARA_CatastropheMissile_Flying</expandingIconTexture>
+    <expandingIconPriority>100</expandingIconPriority>
+    <expandMore>true</expandMore>
+  </WorldObjectDef>
+</Defs>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>ARA_Loop_Raid_Incident</defName>
+    <label>虫群袭击</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    
+    <!-- This uses the vanilla quest giver worker -->
+    <workerClass>IncidentWorker_GiveQuest</workerClass>
+    
+    <!-- This points to our custom QuestScriptDef -->
+    <questScriptDef>ARA_Loop_Raid_Quest</questScriptDef>
+    
+    <!--
+    <baseChance>1.0</baseChance>
+    <earliestDay>0.001</earliestDay>
+    <minRefireDays>99999</minRefireDays>
+    -->
+  </IncidentDef>
+  <QuestScriptDef>
+    <defName>ARA_Loop_Raid_Quest</defName>
+    <label>虫群袭击</label>
+    <description>虫群袭击description</description>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_ResolveQuestName">
+          <rules>
+            <rulesStrings>
+              <li>questName->虫群袭击</li>
+            </rulesStrings>
+          </rules>
+        </li>
+        <li Class="QuestNode_ResolveQuestDescription">
+          <rules>
+            <rulesStrings>
+              <li>questDescription->虫群袭击questDescription</li>
+            </rulesStrings>
+          </rules>
+        </li>
+        <li Class="ArachnaeSwarm.QuestNode_Root_EventLetter">
+          <letterLabel>虫群袭击Label</letterLabel>
+          <letterTitle>虫群袭击Title</letterTitle>
+          <letterText>虫群袭击Text</letterText>
+          <options>
+            <li>
+              <label>袭击开始</label>
+              <optionEffects>
+                <li>
+                  <effects>
+                    <li Class="ArachnaeSwarm.Effect_OpenCustomUI">
+                      <defName>ARA_Loop_Raid_Main_Event_1</defName>
+                    </li>
+                  </effects>
+                </li>
+              </optionEffects>
+            </li>
+          </options>
+        </li>
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  <ArachnaeSwarm.EventDef>
+    <defName>ARA_Loop_Raid_Main_Event_1</defName>
+    <characterName>嘻嘻</characterName>
+    <hiddenWindow>true</hiddenWindow>
+    <immediateEffects>
+      <li>
+        <!-- 系统会从这个列表中根据权重随机选择一个执行 -->
+        <randomlistEffects>
+          <li Class="ArachnaeSwarm.Effect_TriggerRaid">
+            <points>10000</points>
+            <faction>ARA_Hostile_Hive</faction>
+            <raidStrategy>ImmediateAttack</raidStrategy>
+            <raidArrivalMode>EdgeWalkIn</raidArrivalMode>
+            <groupKind>Combat</groupKind>
+            <pawnGroupMakers>
+              <li>
+                <kindDef>Combat</kindDef>
+                <commonality>100</commonality>
+                <options>
+                  <ARA_Raid_AcidSwarm>20</ARA_Raid_AcidSwarm>
+                  <ARA_Raid_Acidling>5</ARA_Raid_Acidling>
+                </options>
+              </li>
+            </pawnGroupMakers>
+          </li>
+          <li Class="ArachnaeSwarm.Effect_TriggerRaid">
+            <points>10000</points>
+            <faction>ARA_Hostile_Hive</faction>
+            <raidStrategy>ImmediateAttack</raidStrategy>
+            <raidArrivalMode>EdgeWalkIn</raidArrivalMode>
+            <groupKind>Combat</groupKind>
+            <pawnGroupMakers>
+              <li>
+                <kindDef>Combat</kindDef>
+                <commonality>100</commonality>
+                <options>
+                  <ARA_Raid_AcidSwarm>20</ARA_Raid_AcidSwarm>
+                  <ARA_Raid_Heavy>3</ARA_Raid_Heavy>
+                </options>
+              </li>
+            </pawnGroupMakers>
+          </li>
+          <li Class="ArachnaeSwarm.Effect_TriggerRaid">
+            <points>10000</points>
+            <faction>ARA_Hostile_Hive</faction>
+            <raidStrategy>ImmediateAttack</raidStrategy>
+            <raidArrivalMode>EdgeWalkIn</raidArrivalMode>
+            <groupKind>Combat</groupKind>
+            <pawnGroupMakers>
+              <li>
+                <kindDef>Combat</kindDef>
+                <commonality>100</commonality>
+                <options>
+                  <ARA_Raid_AcidSwarm>20</ARA_Raid_AcidSwarm>
+                  <ARA_Raid_Shooter>3</ARA_Raid_Shooter>
+                  <ARA_Raid_Assault>7</ARA_Raid_Assault>
+                </options>
+              </li>
+            </pawnGroupMakers>
+          </li>
+        </randomlistEffects>
+        <effects>
+        </effects>
+      </li>
+    </immediateEffects>
+  </ArachnaeSwarm.EventDef>
+</Defs>

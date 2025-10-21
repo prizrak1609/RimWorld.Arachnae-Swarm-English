@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="ArachnaeBase_Race" ParentName="BaseInsect" Abstract="True">
+    <statBases>
+      <MoveSpeed>8</MoveSpeed>
+      <MarketValue>0</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+      <MeatAmount>0</MeatAmount>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+      <ComfyTemperatureMin>-3000</ComfyTemperatureMin>
+      <ComfyTemperatureMax>3000</ComfyTemperatureMax>
+      <Wildness>0</Wildness>
+      <Fertility MayRequire="Ludeon.RimWorld.Biotech">0</Fertility>
+    </statBases>
+    <uiIconScale>1.1</uiIconScale>
+
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>BeetleLikeWithClaw</body>
+      <thinkTreeMain>ARA_Insect_WithPlanting</thinkTreeMain>
+      <baseHungerRate>0.1</baseHungerRate>
+      <baseBodySize>0.5</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <useMeatFrom>Megaspider</useMeatFrom>
+      <trainability>Advanced</trainability>
+      <lifeExpectancy>1</lifeExpectancy>
+      <!-- <hasCorpse>false</hasCorpse> -->
+      <!-- <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">Dig</li>
+        <li>ARA_Sowing</li>
+      </specialTrainables> -->
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Spelopede_Pain</soundWounded>
+          <soundDeath>Pawn_Spelopede_Death</soundDeath>
+          <soundCall>Pawn_Spelopede_Call</soundCall>
+          <soundAngry>Pawn_Spelopede_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.14)</li>
+        <li>(0.07, 0, 0.08)</li>
+        <li>(0.0, 0, -0.12)</li>
+        <li>(-0.07, 0, 0.08)</li>
+      </headPosPerRotation>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_Slime</filth>
+        <filthCountRange>1~3</filthCountRange>
+      </deathAction>
+    </race>
+    <comps>
+      <li Class="CompProperties_MechPowerCell">
+        <totalPowerTicks>240000</totalPowerTicks>        <!-- 2 hours -->
+        <labelOverride>寿命</labelOverride>
+        <tooltipOverride>这种特殊的阿拉克涅辅虫从出生起就走在死亡的道路上了——它们的寿命就是如此短暂。</tooltipOverride>
+        <showGizmoOnNonPlayerControlled>true</showGizmoOnNonPlayerControlled>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_TemperatureRegulation</li>
+          <li>ARA_HiveMindWorker</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ArachnaeBase_Race">
+    <defName>ArachnaeBase_Race_Scavenger</defName>
+    <label>阿拉克涅食腐种</label>
+    <description>阿拉克涅辅虫之一，智力低下，可以执行种植和收割工作，注定在度过短暂的时光后死亡。</description>
+    <race>
+      <specialTrainables>
+        <li>ARA_Sowing</li>
+      </specialTrainables>
+    </race>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AdvancedTraining">
+        <trainables>
+          <li>
+            <trainable>ARA_Sowing</trainable>
+            <trainInstantly>true</trainInstantly>
+            <setWanted>true</setWanted>
+          </li>
+        </trainables>
+        <disableAllSkillDecay>true</disableAllSkillDecay>        <!-- 阻止这个动物的所有技能衰减 -->
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ArachnaeBase_Race">
+    <defName>ArachnaeBase_Race_HardJaw</defName>
+    <label>阿拉克涅坚颚种</label>
+    <description>阿拉克涅辅虫之一，智力低下，可以承担挖矿任务，注定在度过短暂的时光后死亡。</description>
+    <race>
+      <specialTrainables>
+        <li>Dig</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
+    </race>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AdvancedTraining">
+        <trainables>
+          <li>
+            <trainable>Dig</trainable>
+            <trainInstantly>true</trainInstantly>
+            <setWanted>true</setWanted>
+          </li>
+          <li>
+            <trainable>AttackTarget</trainable>
+            <trainInstantly>true</trainInstantly>
+            <setWanted>true</setWanted>
+          </li>
+        </trainables>
+        <disableAllSkillDecay>true</disableAllSkillDecay>        <!-- 阻止这个动物的所有技能衰减 -->
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ArachnaeBase_Race">
+    <defName>ArachnaeBase_Race_Maid</defName>
+    <label>阿拉克涅家政种</label>
+    <description>阿拉克涅辅虫之一，智力低下，可以执行清洁和搬运工作，注定在度过短暂的时光后死亡。</description>
+    <race>
+      <specialTrainables>
+        <li>ARA_Cleaning</li>
+      </specialTrainables>
+    </race>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AdvancedTraining">
+        <trainables>
+          <li>
+            <trainable>ARA_Cleaning</trainable>
+            <trainInstantly>true</trainInstantly>
+            <setWanted>true</setWanted>
+          </li>
+          <li>
+            <trainable>Haul</trainable>
+            <trainInstantly>true</trainInstantly>
+            <setWanted>true</setWanted>
+          </li>
+        </trainables>
+        <disableAllSkillDecay>true</disableAllSkillDecay>        <!-- 阻止这个动物的所有技能衰减 -->
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

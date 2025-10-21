@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- North Frames -->
+  <GraphicStateDef><defName>ARA_FlyNorth_0</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_1_south</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlyNorth_1</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_2_south</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlyNorth_2</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_3_south</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlyNorth_3</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_4_south</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlyNorth_4</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_5_south</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <!-- <GraphicStateDef><defName>ARA_FlyNorth_5</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>Things/Pawn/Animal/Goose/Goose_Flying_6_north</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlyNorth_6</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>Things/Pawn/Animal/Goose/Goose_Flying_7_north</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlyNorth_7</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>Things/Pawn/Animal/Goose/Goose_Flying_8_north</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef> -->
+
+  <!-- East Frames -->
+  <GraphicStateDef><defName>ARA_FlyEast_0</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_1_east</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlyEast_1</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_2_east</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlyEast_2</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_3_east</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlyEast_3</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_4_east</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlyEast_4</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_5_east</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <!-- <GraphicStateDef><defName>ARA_FlyEast_5</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>Things/Pawn/Animal/Goose/Goose_Flying_6_east</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlyEast_6</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>Things/Pawn/Animal/Goose/Goose_Flying_7_east</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlyEast_7</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>Things/Pawn/Animal/Goose/Goose_Flying_8_east</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef> -->
+
+  <!-- South Frames -->
+  <GraphicStateDef><defName>ARA_FlySouth_0</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_1_south</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlySouth_1</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_2_south</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlySouth_2</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_3_south</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlySouth_3</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_4_south</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlySouth_4</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>ArachnaeSwarm/Things/ARA_HiveNode/Addons/Flying/ArachnaeNode_Race_Addons_Skyraider_Wing_5_south</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <!-- <GraphicStateDef><defName>ARA_FlySouth_5</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>Things/Pawn/Animal/Goose/Goose_Flying_6_south</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlySouth_6</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>Things/Pawn/Animal/Goose/Goose_Flying_7_south</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef>
+  <GraphicStateDef><defName>ARA_FlySouth_7</defName><defaultGraphicData><graphicClass>Graphic_Single</graphicClass><texPath>Things/Pawn/Animal/Goose/Goose_Flying_8_south</texPath><drawSize>1.35</drawSize></defaultGraphicData></GraphicStateDef> -->
+
+</Defs>

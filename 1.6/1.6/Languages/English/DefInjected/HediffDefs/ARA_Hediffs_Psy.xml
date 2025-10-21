@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef>
+    <defName>ARA_GuardianPsyField</defName>
+    <label>织域种灵能场</label>
+    <description>一个强大的灵能防御力场，会自动拦截进入其作用范围的敌对飞行物。它的护盾总额和心灵敏感度相关，很难被击穿，但是每次拦截会积累心灵熵。</description>
+    <hediffClass>ArachnaeSwarm.Hediff_DynamicInterceptor</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.6, 0.2, 0.9)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="ArachnaeSwarm.HediffCompProperties_DynamicInterceptor">
+        <guardianProps Class="ArachnaeSwarm.CompProperties_GuardianPsyField">
+          <!-- Basic functionality -->
+          <radius>5.9</radius>
+          <baseHitPoints>200</baseHitPoints>
+          <rechargeDelay>1</rechargeDelay>
+          <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
+
+          <!-- Psyfocus/Entropy Mechanics -->
+          <psyfocusCostPerInterval>0</psyfocusCostPerInterval> <!-- e.g., 0.1% of max psyfocus per recharge interval,0.001 -->
+          <entropyGainPerDamage>0.005</entropyGainPerDamage> <!-- 1 entropy per 2 damage -->
+          <hitPointsPctPerInterval>0.01</hitPointsPctPerInterval> <!-- Restore 1% of max HP per interval -->
+
+          <!-- Projectile interception properties -->
+          <interceptGroundProjectiles>true</interceptGroundProjectiles>
+          <interceptNonHostileProjectiles>false</interceptNonHostileProjectiles>
+          <interceptAirProjectiles>true</interceptAirProjectiles>
+
+          <minSensitivityMultiplier>0</minSensitivityMultiplier>
+          <maxSensitivityMultiplier>10</maxSensitivityMultiplier>
+
+          <!-- Visuals and Sound -->
+          <color>(0.5, 0.3, 0.9, 0.5)</color>
+          <interceptEffecter>Interceptor_BlockedProjectile</interceptEffecter>
+          <absorbEffecter>Interceptor_BlockedProjectile</absorbEffecter> <!-- Reusing an effecter for now -->
+          <!-- <breakEffecter>Shield_Break</breakEffecter> -->
+          <reactivateEffecter>BulletShieldGenerator_Reactivate</reactivateEffecter>
+        </guardianProps>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ARA_Psi_Master</defName>
+    <label>灵能专家</label>
+    <description>阿拉克涅织域种是虫巢中的灵能大师，她们对使用灵能能力得心应手，不仅自身可以依靠灵能进行飞行，还能为附近的己方单位提供保护，并将其作为灵能导线对敌人发射能量攻击。</description>
+    <hediffClass>Hediff_High</hediffClass>
+    <defaultLabelColor>(0.6, 0.8, 0.9)</defaultLabelColor>
+    <maxSeverity>1.0</maxSeverity>
+    <minSeverity>0.01</minSeverity>
+    <initialSeverity>0.5</initialSeverity>
+    <comps>
+      <li Class="ArachnaeSwarm.HediffCompProperties_GiveHediffsInRangeToRace">
+        <range>18</range>
+        <hediff>ARA_Psi_Conductor</hediff>
+        <!-- <mote>Mote_ARA_CreepyCrawly_HediffLinkLine</mote> -->
+        
+        <!-- 定义可以被影响的种族列表 -->
+        <!-- <targetRaces>
+          <li>Human</li>
+        </targetRaces> -->
+
+        <!-- 其他参数和原版一样 -->
+        <targetingParameters>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>true</canTargetAnimals>
+          <canTargetMechs>false</canTargetMechs>
+          <canTargetSelf>true</canTargetSelf>
+          <onlyTargetColonists>true</onlyTargetColonists>
+        </targetingParameters>
+        <onlyPawnsInSameFaction>true</onlyPawnsInSameFaction>
+        <hideMoteWhenNotDrafted>true</hideMoteWhenNotDrafted>
+      </li>
+    </comps>
+    <stages>
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>ARA_Psi_Conductor</defName>
+    <label>灵能导体</label>
+    <description>一只阿拉克涅织域种将这个殖民者作为其强大灵能力量的导体，织域种可以通过控制这个殖民者的灵能对敌方发起自动攻击，并使得这个殖民者更加难以击倒——代价则是殖民者自身会短暂地出现灵能失聪的情况。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Psi_Conductor_Turret</ThingDef>
+    </descriptionHyperlinks>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.6, 0.6, 0.6)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <statFactors>
+          <IncomingDamageFactor>0.75</IncomingDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+      <li Class="HediffCompProperties_Link">
+        <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+        <maxDistance>18</maxDistance>
+        <!-- <customMote>Mote_ARA_CreepyCrawly_HediffLinkLine</customMote> -->
+      </li>
+      <li Class="ArachnaeSwarm.HediffCompProperties_TopTurret">
+        <turretDef>ARA_Psi_Conductor_Turret</turretDef>
+        <angleOffset>0</angleOffset>
+        <autoAttack>true</autoAttack>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ARA_Praetorian_Commander_Hediff</defName>
+    <label>指挥节点</label>
+    <description>阿拉克涅禁卫种正在指挥附近的虫族部队，因为需要分神搭建次级蜂巢思维网络，其战斗力被削弱了。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.9</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="ArachnaeSwarm.HediffCompProperties_GiveHediffsInRangeToRace">
+        <range>24</range>
+        <hediff>ARA_Praetorian_Command_Hediff</hediff>
+        <!-- <mote>Mote_ARA_CreepyCrawly_HediffLinkLine</mote> -->
+        
+        <!-- 定义可以被影响的种族列表 -->
+        <targetRaces>
+          <li>ArachnaeNode_Race_ShieldHead</li>
+          <li>ArachnaeNode_Race_WeaponSmith</li>
+          <li>ArachnaeNode_Race_Fighter</li>
+          <li>ArachnaeNode_Race_Facehugger</li>
+          <li>ArachnaeNode_Race_Myrmecocystus</li>
+          <li>ArachnaeNode_Race_Smokepop</li>
+          <li>ArachnaeNode_Race_NeuroSwarm</li>
+          <li>ArachnaeNode_Race_Skyraider</li>
+          <li>ArachnaeNode_Race_Praetorian</li>
+          <li>ArachnaeBase_Race_Acidcut</li>
+          <li>ArachnaeBase_Race_Acidling</li>
+          <li>ArachnaeBase_Race_Skyhive</li>
+          <li>ArachnaeNode_Race_MimicNematode</li>
+        </targetRaces>
+
+        <!-- 其他参数和原版一样 -->
+        <targetingParameters>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>true</canTargetAnimals>
+          <canTargetMechs>false</canTargetMechs>
+          <canTargetSelf>true</canTargetSelf>
+          <onlyTargetColonists>false</onlyTargetColonists>
+        </targetingParameters>
+        <onlyPawnsInSameFaction>true</onlyPawnsInSameFaction>
+        <hideMoteWhenNotDrafted>true</hideMoteWhenNotDrafted>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef>
+    <defName>ARA_Praetorian_Command_Hediff</defName>
+    <label>蜂巢指挥</label>
+    <description>一只阿拉克涅禁卫种在附近承担战场指挥官的职责，受到指挥的阿拉克涅虫族通过一个次级蜂巢思维网络进行链接，加强了其整体战斗力。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.6, 0.6, 0.6)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <statFactors>
+          <MeleeHitChance>1.5</MeleeHitChance>
+          <MeleeDodgeChance>2</MeleeDodgeChance>
+          <MeleeCooldownFactor>0.75</MeleeCooldownFactor>
+          <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+          <StaggerDurationFactor>0</StaggerDurationFactor>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+      <li Class="HediffCompProperties_Link">
+        <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+        <maxDistance>24</maxDistance>
+        <!-- <customMote>Mote_ARA_CreepyCrawly_HediffLinkLine</customMote> -->
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

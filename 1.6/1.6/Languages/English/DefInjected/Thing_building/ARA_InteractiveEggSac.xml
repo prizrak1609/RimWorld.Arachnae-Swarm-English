@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="ARA_InteractiveEggSac_Base" ParentName="BuildingNaturalBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <size>(1,1)</size>
+    <!-- <minifiedDef>MinifiedThing</minifiedDef> -->
+    <!-- <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories> -->
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_EggSac</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.8, 0.8, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.3</fillPercent>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <statBases>
+      <Mass>10</Mass>
+      <MaxHitPoints>20</MaxHitPoints>
+      <Flammability>1</Flammability>
+      <Beauty>-6</Beauty>
+    </statBases>
+    <building>
+      <isInert>true</isInert>
+      <!-- <claimable>false</claimable> -->
+      <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
+      <isTargetable>true</isTargetable>
+      <expandHomeArea>false</expandHomeArea>
+    </building>
+
+    <comps>
+      <li Class="CompProperties_SpawnEffecterOnDestroy">
+        <effect>CocoonDestroyed</effect>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>4.6</spawnRadius>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- T0 -->
+  <ThingDef ParentName="ARA_EggSpew_Base_Proj">
+    <defName>ARA_Proj_EggSac</defName>
+    <label>阿拉克涅虫卵</label>
+    <projectile>
+      <spawnsThingDef>ARA_InteractiveEggSac</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="ARA_InteractiveEggSac_Base">
+    <defName>ARA_InteractiveEggSac</defName>
+    <label>阿拉克涅虫卵囊</label>
+    <description>一个脆弱、易燃、黏滑的囊状物，是阿拉克涅女皇种所诞之卵，内含哺育一只新督虫所需的营养和遗传物质，可以通过阿拉克涅女皇种的交互完成激活进程——参阅虫卵的超链接，了解各个督虫的特点。\n\n卵囊对温度极度敏感（该类型的卵适温为-25~30°C），需要小心保护！</description>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>ArachnaeNode_Race_ShieldHead</ThingDef>
+      <ThingDef>ArachnaeNode_Race_WeaponSmith</ThingDef>
+      <ThingDef>ArachnaeNode_Race_Fighter</ThingDef>
+      <ThingDef>ArachnaeNode_Race_Facehugger</ThingDef>
+    </descriptionHyperlinks>
+    <researchPrerequisites>
+      <li>ARA_Base_Technology</li>
+      <li>ARA_Technology_1KYC</li>
+      <li>ARA_Technology_4KYC</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(113,141,117,0)</glowColor>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SpawnPawnFromList">
+        <spawnablePawns>
+          <li>
+            <pawnKind>ArachnaeNode_Race_ShieldHead</pawnKind>
+            <delayTicks>120000</delayTicks>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_WeaponSmith</pawnKind>
+            <delayTicks>180000</delayTicks>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Fighter</pawnKind>
+            <delayTicks>120000</delayTicks>
+            <requiredResearch>ARA_Technology_1KYC</requiredResearch>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Facehugger</pawnKind>
+            <delayTicks>120000</delayTicks>
+            <requiredResearch>ARA_Technology_4KYC</requiredResearch>
+          </li>
+        </spawnablePawns>
+        <whitelist>
+          <li>ARA_ArachnaeQueen</li>
+        </whitelist>
+        <destroyOnSpawn>true</destroyOnSpawn>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>-25</minSafeTemperature>
+        <maxSafeTemperature>30</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_InteractiveEggSac_Base">
+    <defName>ARA_InteractiveEggSac_Start</defName>
+    <label>初诞阿拉克涅虫卵囊</label>
+    <description>一个脆弱、易燃、黏滑的囊状物，是阿拉克涅女皇种初到此地所诞之卵，内含哺育一只新督虫所需的营养和遗传物质，可以通过阿拉克涅女皇种的交互完成激活进程。\n\n初诞卵囊可以抵御极端天气并且拥有极快的孵化速度，但是它们只能支持少数几种虫族的孵化。</description>
+    <minifiedDef Inherit="False" />
+    <thingCategories Inherit="False" />
+    <descriptionHyperlinks>
+      <ThingDef>ArachnaeNode_Race_Myrmecocystus</ThingDef>
+      <ThingDef>ArachnaeNode_Race_ShieldHead</ThingDef>
+      <ThingDef>ArachnaeNode_Race_WeaponSmith</ThingDef>
+    </descriptionHyperlinks>
+
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(113,141,117,0)</glowColor>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SpawnPawnFromList">
+        <spawnablePawns>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Myrmecocystus</pawnKind>
+            <delayTicks>300</delayTicks>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_ShieldHead</pawnKind>
+            <delayTicks>300</delayTicks>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_WeaponSmith</pawnKind>
+            <delayTicks>300</delayTicks>
+          </li>
+        </spawnablePawns>
+        <whitelist>
+          <li>ARA_ArachnaeQueen</li>
+        </whitelist>
+        <destroyOnSpawn>true</destroyOnSpawn>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>-300</minSafeTemperature>
+        <maxSafeTemperature>100</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_EggSpew_Base_Proj">
+    <defName>ARA_Proj_EggSac_Huge</defName>
+    <label>大型阿拉克涅虫卵</label>
+    <projectile>
+      <spawnsThingDef>ARA_InteractiveEggSac_Huge</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="ARA_InteractiveEggSac_Base">
+    <defName>ARA_InteractiveEggSac_Huge</defName>
+    <label>大型阿拉克涅虫卵囊</label>
+    <description>一个脆弱、易燃、黏滑的囊状物，是阿拉克涅女皇种所诞之卵，内含哺育一只大型督虫所需的营养和遗传物质，可以通过阿拉克涅女皇种的交互完成激活进程——参阅虫卵的超链接，了解各个督虫的特点。\n\n卵囊对温度极度敏感（该类型的卵适温为-25~30°C），需要小心保护！</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArachnaeNode_Race_Myrmecocystus</ThingDef>
+    </descriptionHyperlinks>
+    <researchPrerequisites>
+      <li>ARA_Base_Technology</li>
+    </researchPrerequisites>
+    <graphicData>
+      <color>(0.9, 0.9 ,0.5)</color>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>5000</MarketValue>
+    </statBases>
+
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(230, 230, 128, 0)</glowColor>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SpawnPawnFromList">
+        <spawnablePawns>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Myrmecocystus</pawnKind>
+            <delayTicks>180000</delayTicks>
+          </li>
+        </spawnablePawns>
+        <whitelist>
+          <li>ARA_ArachnaeQueen</li>
+        </whitelist>
+        <destroyOnSpawn>true</destroyOnSpawn>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>-25</minSafeTemperature>
+        <maxSafeTemperature>30</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- T1 -->
+  <ThingDef ParentName="ARA_EggSpew_Base_Proj">
+    <defName>ARA_Proj_EggSac_1Stage</defName>
+    <label>阿拉克涅虫卵</label>
+    <projectile>
+      <spawnsThingDef>ARA_InteractiveEggSac_1Stage</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="ARA_InteractiveEggSac_Base">
+    <defName>ARA_InteractiveEggSac_1Stage</defName>
+    <label>阿拉克涅虫卵囊</label>
+    <description>一个脆弱、易燃、黏滑的囊状物，是阿拉克涅女皇种所诞之卵，内含哺育一只新督虫所需的营养和遗传物质，可以通过阿拉克涅女皇种的交互完成激活进程——参阅虫卵的超链接，了解各个督虫的特点。\n\n卵囊对温度极度敏感（该类型的卵适温为-10~22°C），需要小心保护！</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArachnaeNode_Race_ShieldHead</ThingDef>
+      <ThingDef>ArachnaeNode_Race_WeaponSmith</ThingDef>
+      <ThingDef>ArachnaeNode_Race_Fighter</ThingDef>
+      <ThingDef>ArachnaeNode_Race_Facehugger</ThingDef>
+      <ThingDef>ArachnaeNode_Race_MimicNematode</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <drawSize>(1.2,1.2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>8000</MarketValue>
+    </statBases>
+
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(113,141,117,0)</glowColor>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SpawnPawnFromList">
+        <spawnablePawns>
+          <li>
+            <pawnKind>ArachnaeNode_Race_ShieldHead</pawnKind>
+            <delayTicks>120000</delayTicks>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_WeaponSmith</pawnKind>
+            <delayTicks>180000</delayTicks>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Fighter</pawnKind>
+            <delayTicks>120000</delayTicks>
+            <requiredResearch>ARA_Technology_1KYC</requiredResearch>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Facehugger</pawnKind>
+            <delayTicks>120000</delayTicks>
+            <requiredResearch>ARA_Technology_4KYC</requiredResearch>
+          </li>
+          <li>
+            <pawnKind>ARA_MimicNematodeShamblerSwarmer</pawnKind>
+            <delayTicks>600</delayTicks>
+            <requiredResearch>ARA_Technology_6MEN</requiredResearch>
+          </li>
+        </spawnablePawns>
+        <whitelist>
+          <li>ARA_ArachnaeQueen</li>
+        </whitelist>
+        <destroyOnSpawn>true</destroyOnSpawn>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>-10</minSafeTemperature>
+        <maxSafeTemperature>22</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_EggSpew_Base_Proj">
+    <defName>ARA_Proj_EggSac_Huge_1Stage</defName>
+    <label>大型阿拉克涅虫卵</label>
+    <projectile>
+      <spawnsThingDef>ARA_InteractiveEggSac_Huge_1Stage</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="ARA_InteractiveEggSac_Base">
+    <defName>ARA_InteractiveEggSac_Huge_1Stage</defName>
+    <label>大型阿拉克涅虫卵囊</label>
+    <description>一个脆弱、易燃、黏滑的囊状物，是阿拉克涅女皇种所诞之卵，内含哺育一只大型督虫所需的营养和遗传物质，可以通过阿拉克涅女皇种的交互完成激活进程——参阅虫卵的超链接，了解各个督虫的特点。\n\n卵囊对温度极度敏感（该类型的卵适温为-10~22°C），需要小心保护！</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArachnaeNode_Race_Myrmecocystus</ThingDef>
+      <ThingDef>ArachnaeNode_Race_Smokepop</ThingDef>
+      <ThingDef>ArachnaeNode_Race_NeuroSwarm</ThingDef>
+      <ThingDef>ArachnaeNode_Race_Skyraider</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <color>(0.9, 0.9 ,0.5)</color>
+      <drawSize>(1.4,1.4)</drawSize>
+    </graphicData>
+    <researchPrerequisites>
+      <li>ARA_Technology_5KYC</li>
+      <li>ARA_Technology_6KYC</li>
+      <li>ARA_Technology_2KYC</li>
+    </researchPrerequisites>
+    <statBases>
+      <MarketValue>10000</MarketValue>
+    </statBases>
+
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(230, 230, 128, 0)</glowColor>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SpawnPawnFromList">
+        <spawnablePawns>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Myrmecocystus</pawnKind>
+            <delayTicks>180000</delayTicks>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Smokepop</pawnKind>
+            <delayTicks>360000</delayTicks>
+            <requiredResearch>ARA_Technology_5KYC</requiredResearch>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_NeuroSwarm</pawnKind>
+            <delayTicks>840000</delayTicks>
+            <requiredResearch>ARA_Technology_6KYC</requiredResearch>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Skyraider</pawnKind>
+            <delayTicks>360000</delayTicks>
+            <requiredResearch>ARA_Technology_2KYC</requiredResearch>
+          </li>
+        </spawnablePawns>
+        <whitelist>
+          <li>ARA_ArachnaeQueen</li>
+        </whitelist>
+        <destroyOnSpawn>true</destroyOnSpawn>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>-10</minSafeTemperature>
+        <maxSafeTemperature>22</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- T2 -->
+  <ThingDef ParentName="ARA_EggSpew_Base_Proj">
+    <defName>ARA_Proj_EggSac_2Stage</defName>
+    <label>阿拉克涅虫卵</label>
+    <projectile>
+      <spawnsThingDef>ARA_InteractiveEggSac_2Stage</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="ARA_InteractiveEggSac_Base">
+    <defName>ARA_InteractiveEggSac_2Stage</defName>
+    <label>阿拉克涅虫卵囊</label>
+    <description>一个脆弱、易燃、黏滑的囊状物，是阿拉克涅女皇种所诞之卵，内含哺育一只新督虫所需的营养和遗传物质，可以通过阿拉克涅女皇种的交互完成激活进程——参阅虫卵的超链接，了解各个督虫的特点。\n\n卵囊对温度极度敏感（该类型的卵适温为0~18°C），需要小心保护！</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArachnaeNode_Race_ShieldHead</ThingDef>
+      <ThingDef>ArachnaeNode_Race_WeaponSmith</ThingDef>
+      <ThingDef>ArachnaeNode_Race_Fighter</ThingDef>
+      <ThingDef>ArachnaeNode_Race_Facehugger</ThingDef>
+      <ThingDef>ArachnaeNode_Race_MimicNematode</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <drawSize>(1.2,1.2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>12000</MarketValue>
+    </statBases>
+
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(113,141,117,0)</glowColor>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SpawnPawnFromList">
+        <spawnablePawns>
+          <li>
+            <pawnKind>ArachnaeNode_Race_ShieldHead</pawnKind>
+            <delayTicks>120000</delayTicks>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_WeaponSmith</pawnKind>
+            <delayTicks>180000</delayTicks>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Fighter</pawnKind>
+            <delayTicks>120000</delayTicks>
+            <requiredResearch>ARA_Technology_1KYC</requiredResearch>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Facehugger</pawnKind>
+            <delayTicks>120000</delayTicks>
+            <requiredResearch>ARA_Technology_4KYC</requiredResearch>
+          </li>
+          <li>
+            <pawnKind>ARA_MimicNematodeShamblerSwarmer</pawnKind>
+            <delayTicks>60000</delayTicks>
+            <requiredResearch>ARA_Technology_6MEN</requiredResearch>
+          </li>
+        </spawnablePawns>
+        <whitelist>
+          <li>ARA_ArachnaeQueen</li>
+        </whitelist>
+        <destroyOnSpawn>true</destroyOnSpawn>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>18</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_EggSpew_Base_Proj">
+    <defName>ARA_Proj_EggSac_Huge_2Stage</defName>
+    <label>大型阿拉克涅虫卵</label>
+    <projectile>
+      <spawnsThingDef>ARA_InteractiveEggSac_Huge_2Stage</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="ARA_InteractiveEggSac_Base">
+    <defName>ARA_InteractiveEggSac_Huge_2Stage</defName>
+    <label>大型阿拉克涅虫卵囊</label>
+    <description>一个脆弱、易燃、黏滑的囊状物，是阿拉克涅女皇种所诞之卵，内含哺育一只大型督虫所需的营养和遗传物质，可以通过阿拉克涅女皇种的交互完成激活进程——参阅虫卵的超链接，了解各个督虫的特点。\n\n卵囊对温度极度敏感（该类型的卵适温为-10~22°C），需要小心保护！</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArachnaeNode_Race_Myrmecocystus</ThingDef>
+      <ThingDef>ArachnaeNode_Race_Smokepop</ThingDef>
+      <ThingDef>ArachnaeNode_Race_NeuroSwarm</ThingDef>
+      <ThingDef>ArachnaeNode_Race_Skyraider</ThingDef>
+      <ThingDef>ArachnaeNode_Race_Praetorian</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <color>(0.9, 0.9 ,0.5)</color>
+      <drawSize>(1.4,1.4)</drawSize>
+    </graphicData>
+    <researchPrerequisites>
+      <li>ARA_Technology_7KYC</li>
+    </researchPrerequisites>
+    <statBases>
+      <MarketValue>15000</MarketValue>
+    </statBases>
+
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(230, 230, 128, 0)</glowColor>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SpawnPawnFromList">
+        <spawnablePawns>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Myrmecocystus</pawnKind>
+            <delayTicks>180000</delayTicks>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Smokepop</pawnKind>
+            <delayTicks>360000</delayTicks>
+            <requiredResearch>ARA_Technology_5KYC</requiredResearch>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_NeuroSwarm</pawnKind>
+            <delayTicks>840000</delayTicks>
+            <requiredResearch>ARA_Technology_6KYC</requiredResearch>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Skyraider</pawnKind>
+            <delayTicks>360000</delayTicks>
+            <requiredResearch>ARA_Technology_2KYC</requiredResearch>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Praetorian</pawnKind>
+            <delayTicks>520000</delayTicks>
+            <requiredResearch>ARA_Technology_7KYC</requiredResearch>
+          </li>
+        </spawnablePawns>
+        <whitelist>
+          <li>ARA_ArachnaeQueen</li>
+        </whitelist>
+        <destroyOnSpawn>true</destroyOnSpawn>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>18</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- 科技 -->
+  <ThingDef ParentName="ARA_CocoonSpew_Base_Proj">
+    <defName>ARA_Proj_EggSac_Techprint</defName>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_InteractiveEggSac_Techprint</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <spawnsThingDef>ARA_InteractiveEggSac_Techprint</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Base">
+    <defName>ARA_InteractiveEggSac_Techprint</defName>
+    <label>阿拉克涅基因试验卵</label>
+    <description>一个脆弱、易燃、黏滑的囊状物，它无法孵化任何督虫，而是可以孵化一些特定的科技蓝图，阿拉克涅女皇种可以通过与其交互将其激活。\n\n该虫卵需要使用大量精华素维持工作，并且能研究的项目以其落地时的研究完成度为准，那些尚未解锁的科技将无法孵化其蓝图。</description>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Gene_Essence</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_InteractiveEggSac_Techprint</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.1,1.1)</drawSize>
+      <shadowData>
+        <volume>(0.7, 0.4, 0.7)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+    </graphicData>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>100</fuelCapacity>
+        <fuelLabel>精华素</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_Gene_Essence</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>0.02</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>0</initialConfigurableTargetFuelLevel>
+      </li>
+      <!-- 研究生产组件 -->
+      <li Class="ArachnaeSwarm.CompProperties_ResearchProducer">
+        <whitelist>
+          <li>ARA_ArachnaeQueen</li>
+        </whitelist>
+        <destroyOnSpawn>true</destroyOnSpawn>
+        <damagePerTickWhenUnfueled>0.2</damagePerTickWhenUnfueled>
+        <minNutritionToStart>1.0</minNutritionToStart>
+        <nutritionPerResearchPoint>0.06</nutritionPerResearchPoint>
+        <productionTicksPerResearchPoint>30</productionTicksPerResearchPoint>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>-30</minSafeTemperature>
+        <maxSafeTemperature>55</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+  <ThingDef Name="ARA_Cocoon_Base" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_Cocoon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.1,1.1)</drawSize>
+      <shadowData>
+        <volume>(0.7, 0.4, 0.7)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+    </graphicData>
+    <size>(1,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.3</fillPercent>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1</Flammability>
+    </statBases>
+    <building>
+      <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
+    </building>
+
+    <comps>
+      <li Class="CompProperties_SpawnEffecterOnDestroy">
+        <effect>CocoonDestroyed</effect>
+      </li>
+      <li Class="CompProperties_SpawnerFilth">
+        <filthDef>Filth_Slime</filthDef>
+        <spawnCountOnSpawn>10</spawnCountOnSpawn>
+        <spawnMtbHours>4</spawnMtbHours>
+        <spawnRadius>5</spawnRadius>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>2.5</spawnRadius>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- T0 -->
+  <ThingDef ParentName="ARA_CocoonSpew_Base_Proj">
+    <defName>ARA_Cocoon_Proj_Cloth</defName>
+    <projectile>
+      <spawnsThingDef>ARA_Cocoon_Cloth</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef Name="ARA_Cocoon_Cloth" ParentName="ARA_Cocoon_Base" Abstract="True">
+    <!-- <defName>ARA_Cocoon_Cloth</defName> -->
+    <label>阿拉克涅孵化茧 织物</label>
+    <description>一个脆弱、易燃、黏滑的囊状物，是阿拉克涅工艺种所诞之卵，内含孵化一套基础织物装备的营养物质，可以通过阿拉克涅工艺种的交互完成激活进程——参阅茧的超链接，了解其能生产的所有装备的特点。\n\n孵化茧对温度极度敏感（该类型的茧适温为-30~55°C），需要小心保护！</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Bodystocking_White</ThingDef>
+      <ThingDef>ARA_Bodystocking_Black</ThingDef>
+      <ThingDef>ARA_Latex_Catsuit</ThingDef>
+      <ThingDef>ARA_Pantyhose_Black</ThingDef>
+      <ThingDef>ARA_Pantyhose_White</ThingDef>
+      <ThingDef>ARA_Maid_Uniform</ThingDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+    </statBases>
+
+    <comps>
+      <!-- The refactored producer component -->
+      <li Class="ArachnaeSwarm.CompProperties_InteractiveProducer">
+        <whitelist>
+          <li>ArachnaeNode_Race_WeaponSmith</li>
+        </whitelist>
+        <spawnCount>1</spawnCount>
+        <destroyOnSpawn>True</destroyOnSpawn>
+        <minSafeTemperature>-30</minSafeTemperature>
+        <maxSafeTemperature>55</maxSafeTemperature>
+        <penaltyPerDegreePerTick>0.00001</penaltyPerDegreePerTick>
+        <damagePerTickWhenUnfueled>0.2</damagePerTickWhenUnfueled>
+        <minNutritionToStart>1.0</minNutritionToStart>
+
+        <qualityThresholds>
+          <li>
+            <quality>Legendary</quality>
+            <threshold>0.99</threshold>
+          </li>
+          <li>
+            <quality>Masterwork</quality>
+            <threshold>0.90</threshold>
+          </li>
+          <li>
+            <quality>Excellent</quality>
+            <threshold>0.70</threshold>
+          </li>
+          <li>
+            <quality>Good</quality>
+            <threshold>0.50</threshold>
+          </li>
+          <li>
+            <quality>Normal</quality>
+            <threshold>0.20</threshold>
+          </li>
+          <li>
+            <quality>Poor</quality>
+            <threshold>0.10</threshold>
+          </li>
+        </qualityThresholds>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>-30</minSafeTemperature>
+        <maxSafeTemperature>55</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Cloth">
+    <defName>ARA_Cocoon_Cloth</defName>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>20</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>0.2</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>0</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Cloth">
+    <defName>ARA_Cocoon_Cloth_From_Death</defName>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>20</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>0</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_CocoonSpew_Base_Proj">
+    <defName>ARA_Cocoon_Proj_Weapon</defName>
+    <projectile>
+      <spawnsThingDef>ARA_Cocoon_Weapon</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef Name="ARA_Cocoon_Weapon" ParentName="ARA_Cocoon_Base" Abstract="True">
+    <!-- <defName>ARA_Cocoon_Weapon</defName> -->
+    <label>阿拉克涅孵化茧 武装器官</label>
+    <description>一个布满尖刺的囊状物，是阿拉克涅工艺种所诞之卵，内含孵化一个武装器官的营养物质，可以通过阿拉克涅工艺种的交互完成激活进程——参阅茧的超链接，了解其能生产的所有装备的特点。\n\n孵化茧对温度极度敏感（该类型的茧适温为-20~35°C），需要小心保护！</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_MW_Bone_Sword</ThingDef>
+      <ThingDef>ARA_RW_Basic_Acid_Bladder_Gun</ThingDef>
+      <ThingDef>ARA_RW_Basic_Fist_Needle_Gun</ThingDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+    </statBases>
+
+    <comps>
+      <!-- The refactored producer component -->
+      <li Class="ArachnaeSwarm.CompProperties_InteractiveProducer">
+        <whitelist>
+          <li>ArachnaeNode_Race_WeaponSmith</li>
+        </whitelist>
+        <spawnCount>1</spawnCount>
+        <destroyOnSpawn>True</destroyOnSpawn>
+        <minSafeTemperature>-20</minSafeTemperature>
+        <maxSafeTemperature>35</maxSafeTemperature>
+        <penaltyPerDegreePerTick>0.00001</penaltyPerDegreePerTick>
+        <damagePerTickWhenUnfueled>0.2</damagePerTickWhenUnfueled>
+        <minNutritionToStart>1.0</minNutritionToStart>
+
+        <qualityThresholds>
+          <li>
+            <quality>Legendary</quality>
+            <threshold>0.99</threshold>
+          </li>
+          <li>
+            <quality>Masterwork</quality>
+            <threshold>0.90</threshold>
+          </li>
+          <li>
+            <quality>Excellent</quality>
+            <threshold>0.70</threshold>
+          </li>
+          <li>
+            <quality>Good</quality>
+            <threshold>0.50</threshold>
+          </li>
+          <li>
+            <quality>Normal</quality>
+            <threshold>0.20</threshold>
+          </li>
+          <li>
+            <quality>Poor</quality>
+            <threshold>0.10</threshold>
+          </li>
+        </qualityThresholds>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>-20</minSafeTemperature>
+        <maxSafeTemperature>35</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Weapon">
+    <defName>ARA_Cocoon_Weapon</defName>
+
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>20</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>0.2</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>0</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Weapon">
+    <defName>ARA_Cocoon_Weapon_From_Death</defName>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>20</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>0</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- T1 -->
+  <ThingDef ParentName="ARA_CocoonSpew_Base_Proj">
+    <defName>ARA_Cocoon_Proj_Cloth_1Stage</defName>
+    <projectile>
+      <spawnsThingDef>ARA_Cocoon_Cloth_1Stage</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef Name="ARA_Cocoon_Cloth_1Stage" ParentName="ARA_Cocoon_Base" Abstract="True">
+    <!-- <defName>ARA_Cocoon_Cloth_1Stage</defName> -->
+    <label>阿拉克涅孵化茧 织物 等级1</label>
+    <description>一个脆弱、易燃、黏滑的囊状物，是阿拉克涅工艺种所诞之卵，内含孵化一套基础织物装备的营养物质，可以通过阿拉克涅工艺种的交互完成激活进程——参阅茧的超链接，了解其能生产的所有装备的特点。\n\n孵化茧对温度极度敏感（该类型的茧适温为-30~55°C），需要小心保护！</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Bodystocking_White</ThingDef>
+      <ThingDef>ARA_Bodystocking_Black</ThingDef>
+      <ThingDef>ARA_Latex_Catsuit</ThingDef>
+      <ThingDef>ARA_Pantyhose_Black</ThingDef>
+      <ThingDef>ARA_Pantyhose_White</ThingDef>
+      <ThingDef>ARA_Maid_Uniform</ThingDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>5000</MarketValue>
+    </statBases>
+
+    <comps>
+      <!-- The refactored producer component -->
+      <li Class="ArachnaeSwarm.CompProperties_InteractiveProducer">
+        <!-- <processes>
+        </processes> -->
+
+        <whitelist>
+          <li>ArachnaeNode_Race_WeaponSmith</li>
+        </whitelist>
+        <spawnCount>1</spawnCount>
+        <destroyOnSpawn>True</destroyOnSpawn>
+        <minSafeTemperature>-30</minSafeTemperature>
+        <maxSafeTemperature>55</maxSafeTemperature>
+        <penaltyPerDegreePerTick>0.00001</penaltyPerDegreePerTick>
+        <damagePerTickWhenUnfueled>0.2</damagePerTickWhenUnfueled>
+        <minNutritionToStart>1.0</minNutritionToStart>
+
+        <qualityThresholds>
+          <li>
+            <quality>Legendary</quality>
+            <threshold>0.99</threshold>
+          </li>
+          <li>
+            <quality>Masterwork</quality>
+            <threshold>0.90</threshold>
+          </li>
+          <li>
+            <quality>Excellent</quality>
+            <threshold>0.70</threshold>
+          </li>
+          <li>
+            <quality>Good</quality>
+            <threshold>0.50</threshold>
+          </li>
+          <li>
+            <quality>Normal</quality>
+            <threshold>0.20</threshold>
+          </li>
+          <li>
+            <quality>Poor</quality>
+            <threshold>0.10</threshold>
+          </li>
+        </qualityThresholds>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>-30</minSafeTemperature>
+        <maxSafeTemperature>55</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Cloth_1Stage">
+    <defName>ARA_Cocoon_Cloth_1Stage</defName>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>60</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>0.2</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>30</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Cloth_1Stage">
+    <defName>ARA_Cocoon_Cloth_1Stage_From_Death</defName>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>60</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>30</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_CocoonSpew_Base_Proj">
+    <defName>ARA_Cocoon_Proj_Weapon_1Stage</defName>
+    <projectile>
+      <spawnsThingDef>ARA_Cocoon_Weapon_1Stage</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef Name="ARA_Cocoon_Weapon_1Stage" ParentName="ARA_Cocoon_Base" Abstract="True">
+    <!-- <defName>ARA_Cocoon_Weapon_1Stage</defName> -->
+    <label>阿拉克涅孵化茧 武装器官 等级1</label>
+    <description>一个布满尖刺的囊状物，是阿拉克涅工艺种所诞之卵，内含孵化一个武装器官的营养物质，可以通过阿拉克涅工艺种的交互完成激活进程——参阅茧的超链接，了解其能生产的所有装备的特点。\n\n孵化茧对温度极度敏感（该类型的茧适温为-20~35°C），需要小心保护！</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_MW_Cartilage_Whip</ThingDef>
+      <ThingDef>ARA_RW_Basic_FireSpewer_Gun</ThingDef>
+      <ThingDef>ARA_RW_Toxic_Needle_SG</ThingDef>
+      <ThingDef>ARA_RW_Toxic_Needle_MG</ThingDef>
+      <ThingDef>ARA_RW_Basic_SkyHive_Gun</ThingDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>5000</MarketValue>
+    </statBases>
+
+    <comps>
+      <!-- The refactored producer component -->
+      <li Class="ArachnaeSwarm.CompProperties_InteractiveProducer">
+        <whitelist>
+          <li>ArachnaeNode_Race_WeaponSmith</li>
+        </whitelist>
+        <spawnCount>1</spawnCount>
+        <destroyOnSpawn>True</destroyOnSpawn>
+        <minSafeTemperature>-20</minSafeTemperature>
+        <maxSafeTemperature>35</maxSafeTemperature>
+        <penaltyPerDegreePerTick>0.00001</penaltyPerDegreePerTick>
+        <damagePerTickWhenUnfueled>0.2</damagePerTickWhenUnfueled>
+        <minNutritionToStart>1.0</minNutritionToStart>
+
+        <qualityThresholds>
+          <li>
+            <quality>Legendary</quality>
+            <threshold>0.99</threshold>
+          </li>
+          <li>
+            <quality>Masterwork</quality>
+            <threshold>0.90</threshold>
+          </li>
+          <li>
+            <quality>Excellent</quality>
+            <threshold>0.70</threshold>
+          </li>
+          <li>
+            <quality>Good</quality>
+            <threshold>0.50</threshold>
+          </li>
+          <li>
+            <quality>Normal</quality>
+            <threshold>0.20</threshold>
+          </li>
+          <li>
+            <quality>Poor</quality>
+            <threshold>0.10</threshold>
+          </li>
+        </qualityThresholds>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>-20</minSafeTemperature>
+        <maxSafeTemperature>35</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Weapon_1Stage">
+    <defName>ARA_Cocoon_Weapon_1Stage</defName>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>60</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>0.2</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>30</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Weapon_1Stage">
+    <defName>ARA_Cocoon_Weapon_1Stage_From_Death</defName>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>60</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>30</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- T2 -->
+  <ThingDef ParentName="ARA_CocoonSpew_Base_Proj">
+    <defName>ARA_Cocoon_Proj_Cloth_2Stage</defName>
+    <projectile>
+      <spawnsThingDef>ARA_Cocoon_Cloth_2Stage</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef Name="ARA_Cocoon_Cloth_2Stage" ParentName="ARA_Cocoon_Base" Abstract="True">
+    <!-- <defName>ARA_Cocoon_Cloth_2Stage</defName> -->
+    <label>阿拉克涅孵化茧 织物 等级2</label>
+    <description>一个脆弱、易燃、黏滑的囊状物，是阿拉克涅工艺种所诞之卵，内含孵化一套基础织物装备的营养物质，可以通过阿拉克涅工艺种的交互完成激活进程——参阅茧的超链接，了解其能生产的所有装备的特点。\n\n孵化茧对温度极度敏感（该类型的茧适温为10~16°C），需要小心保护！</description>
+    <statBases>
+      <MarketValue>10000</MarketValue>
+    </statBases>
+
+    <comps>
+      <!-- The refactored producer component -->
+      <li Class="ArachnaeSwarm.CompProperties_InteractiveProducer">
+        <!-- <processes>
+        </processes> -->
+
+        <whitelist>
+          <li>ArachnaeNode_Race_WeaponSmith</li>
+        </whitelist>
+        <spawnCount>1</spawnCount>
+        <destroyOnSpawn>True</destroyOnSpawn>
+        <minSafeTemperature>10</minSafeTemperature>
+        <maxSafeTemperature>16</maxSafeTemperature>
+        <penaltyPerDegreePerTick>0.00001</penaltyPerDegreePerTick>
+        <damagePerTickWhenUnfueled>0.2</damagePerTickWhenUnfueled>
+        <minNutritionToStart>1.0</minNutritionToStart>
+
+        <qualityThresholds>
+          <li>
+            <quality>Legendary</quality>
+            <threshold>0.99</threshold>
+          </li>
+          <li>
+            <quality>Masterwork</quality>
+            <threshold>0.90</threshold>
+          </li>
+          <li>
+            <quality>Excellent</quality>
+            <threshold>0.70</threshold>
+          </li>
+          <li>
+            <quality>Good</quality>
+            <threshold>0.50</threshold>
+          </li>
+          <li>
+            <quality>Normal</quality>
+            <threshold>0.20</threshold>
+          </li>
+          <li>
+            <quality>Poor</quality>
+            <threshold>0.10</threshold>
+          </li>
+        </qualityThresholds>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>10</minSafeTemperature>
+        <maxSafeTemperature>16</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Cloth_2Stage">
+    <defName>ARA_Cocoon_Cloth_2Stage</defName>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>110</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>0.2</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>110</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Cloth_2Stage">
+    <defName>ARA_Cocoon_Cloth_2Stage_From_Death</defName>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>110</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>110</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_CocoonSpew_Base_Proj">
+    <defName>ARA_Cocoon_Proj_Weapon_2Stage</defName>
+    <projectile>
+      <spawnsThingDef>ARA_Cocoon_Weapon_2Stage</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef Name="ARA_Cocoon_Weapon_2Stage" ParentName="ARA_Cocoon_Base" Abstract="True">
+    <!-- <defName>ARA_Cocoon_Weapon_2Stage</defName> -->
+    <label>阿拉克涅孵化茧 武装器官 等级2</label>
+    <description>一个布满尖刺的囊状物，是阿拉克涅工艺种所诞之卵，内含孵化一个武装器官的营养物质，可以通过阿拉克涅工艺种的交互完成激活进程——参阅茧的超链接，了解其能生产的所有装备的特点。\n\n孵化茧对温度极度敏感（该类型的茧适温为21~30°C），需要小心保护！</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_RW_Basic_SniperCannon_Gun</ThingDef>
+      <ThingDef>ARA_RW_Missile_HG_Gun</ThingDef>
+      <ThingDef>ARA_RW_Missile_AR_Gun</ThingDef>
+      <ThingDef>ARA_RW_Acid_Mortar</ThingDef>
+      <ThingDef>ARA_MW_Scything_Talons</ThingDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>10000</MarketValue>
+    </statBases>
+
+    <comps>
+      <!-- The refactored producer component -->
+      <li Class="ArachnaeSwarm.CompProperties_InteractiveProducer">
+        <!-- <processes>
+          <li>
+            <thingDef>ARA_RW_Basic_SniperCannon_Gun</thingDef>
+            <productionTicks>480000</productionTicks>
+            <totalNutritionNeeded>80</totalNutritionNeeded>
+            <requiredResearch>ARA_Technology_7PAV</requiredResearch>
+          </li>
+          <li>
+            <thingDef>ARA_RW_Acid_Mortar</thingDef>
+            <productionTicks>480000</productionTicks>
+            <totalNutritionNeeded>80</totalNutritionNeeded>
+            <requiredResearch>ARA_Technology_9VXI</requiredResearch>
+          </li>
+          <li>
+            <thingDef>ARA_MW_Scything_Talons</thingDef>
+            <productionTicks>480000</productionTicks>
+            <totalNutritionNeeded>80</totalNutritionNeeded>
+            <requiredResearch>ARA_Technology_2MEL</requiredResearch>
+          </li>
+        </processes> -->
+
+        <whitelist>
+          <li>ArachnaeNode_Race_WeaponSmith</li>
+        </whitelist>
+        <spawnCount>1</spawnCount>
+        <destroyOnSpawn>True</destroyOnSpawn>
+        <minSafeTemperature>21</minSafeTemperature>
+        <maxSafeTemperature>30</maxSafeTemperature>
+        <penaltyPerDegreePerTick>0.00001</penaltyPerDegreePerTick>
+        <damagePerTickWhenUnfueled>0.2</damagePerTickWhenUnfueled>
+        <minNutritionToStart>1.0</minNutritionToStart>
+
+        <qualityThresholds>
+          <li>
+            <quality>Legendary</quality>
+            <threshold>0.99</threshold>
+          </li>
+          <li>
+            <quality>Masterwork</quality>
+            <threshold>0.90</threshold>
+          </li>
+          <li>
+            <quality>Excellent</quality>
+            <threshold>0.70</threshold>
+          </li>
+          <li>
+            <quality>Good</quality>
+            <threshold>0.50</threshold>
+          </li>
+          <li>
+            <quality>Normal</quality>
+            <threshold>0.20</threshold>
+          </li>
+          <li>
+            <quality>Poor</quality>
+            <threshold>0.10</threshold>
+          </li>
+        </qualityThresholds>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>21</minSafeTemperature>
+        <maxSafeTemperature>30</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Weapon_2Stage">
+    <defName>ARA_Cocoon_Weapon_2Stage</defName>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>110</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>0.2</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>110</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Weapon_2Stage">
+    <defName>ARA_Cocoon_Weapon_2Stage_From_Death</defName>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>110</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>110</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- 医药 -->
+  <ThingDef ParentName="ARA_CocoonSpew_Base_Proj">
+    <defName>ARA_Cocoon_Proj_Medicine</defName>
+    <projectile>
+      <spawnsThingDef>ARA_Cocoon_Medicine</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef Name="ARA_Cocoon_Medicine" ParentName="ARA_Cocoon_Base" Abstract="True">
+    <!-- <defName>ARA_Cocoon_Medicine</defName> -->
+    <label>阿拉克涅孵化茧 医药</label>
+    <description>一个脆弱、易燃、黏滑的囊状物，是阿拉克涅蜜罐种所诞之卵，内含孵化一组医疗用品或化学品的营养物质，可以通过阿拉克涅蜜罐种的交互完成激活进程——参阅茧的超链接，了解其能生产的所有装备的特点。\n\n孵化茧对温度极度敏感（该类型的茧适温为0~12°C），需要小心保护！</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Medicine</ThingDef>
+      <ThingDef>ARA_PheromoneSolvent</ThingDef>
+    </descriptionHyperlinks>
+    <researchPrerequisites>
+      <li>ARA_Technology_1MED</li>
+    </researchPrerequisites>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+    </statBases>
+
+    <comps>
+      <!-- The refactored producer component -->
+      <li Class="ArachnaeSwarm.CompProperties_InteractiveProducer">
+        <!-- <processes>
+          <li>
+            <thingDef>ARA_Medicine</thingDef>
+            <productionTicks>36000</productionTicks>
+            <totalNutritionNeeded>10</totalNutritionNeeded>
+          </li>
+          <li>
+            <thingDef>ARA_PheromoneSolvent</thingDef>
+            <productionTicks>72000</productionTicks>
+            <totalNutritionNeeded>20</totalNutritionNeeded>
+            <requiredResearch>ARA_Technology_2MED</requiredResearch>
+          </li>
+        </processes> -->
+
+        <whitelist>
+          <li>ArachnaeNode_Race_Myrmecocystus</li>
+        </whitelist>
+        <spawnCount>30</spawnCount>
+        <destroyOnSpawn>True</destroyOnSpawn>
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>12</maxSafeTemperature>
+        <penaltyPerDegreePerTick>0.00001</penaltyPerDegreePerTick>
+        <damagePerTickWhenUnfueled>0.2</damagePerTickWhenUnfueled>
+        <minNutritionToStart>1.0</minNutritionToStart>
+
+        <qualityThresholds>
+          <li>
+            <quality>Legendary</quality>
+            <threshold>0.99</threshold>
+          </li>
+          <li>
+            <quality>Masterwork</quality>
+            <threshold>0.90</threshold>
+          </li>
+          <li>
+            <quality>Excellent</quality>
+            <threshold>0.70</threshold>
+          </li>
+          <li>
+            <quality>Good</quality>
+            <threshold>0.50</threshold>
+          </li>
+          <li>
+            <quality>Normal</quality>
+            <threshold>0.20</threshold>
+          </li>
+          <li>
+            <quality>Poor</quality>
+            <threshold>0.10</threshold>
+          </li>
+        </qualityThresholds>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_TemperatureRuinableDamage">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>12</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00005</progressPerDegreePerTick>
+        <damagePerTick>0.005</damagePerTick>
+        <recoveryRate>0.001</recoveryRate>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Medicine">
+    <defName>ARA_Cocoon_Medicine</defName>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>30</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>0.2</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>30</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_Cocoon_Medicine">
+    <defName>ARA_Cocoon_Medicine_From_Death</defName>
+
+    <comps>
+      <!-- The new, GrowthVat-style fuel component -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>30</fuelCapacity>
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>0</fuelConsumptionRate>        <!-- IMPORTANT: Disable base class consumption -->
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <initialConfigurableTargetFuelLevel>30</initialConfigurableTargetFuelLevel>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

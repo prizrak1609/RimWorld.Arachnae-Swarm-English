@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>ARA_New_Hive</defName>
+    <label>阿拉克涅虫巢</label>
+    <description>一个新的阿拉克涅虫巢。</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Colonist</basicMemberKind>
+    <pawnSingular>colonist</pawnSingular>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Medieval</techLevel>
+    <categoryTag>ARA_New_Hive</categoryTag>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <!-- 命名规则 -->
+    <factionNameMaker>ARA_New_Hive_NamerFaction</factionNameMaker>
+    <settlementNameMaker>ARA_NamerSettlement</settlementNameMaker>
+    <playerInitialSettlementNameMaker>ARA_NamerInitialSettlement</playerInitialSettlementNameMaker>
+    <allowedCultures><li>Astropolitan</li></allowedCultures>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>TribalStart</li>
+      <li>TribalStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <!-- 指定初始衣物的材质 -->
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  <RulePackDef>
+    <defName>ARA_New_Hive_NamerFaction</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[hivename1] [hivename2]</li>
+        <li>hivename1->虚空</li>
+        <li>hivename1->深渊</li>
+        <li>hivename1->吞噬</li>
+        <li>hivename1->进化</li>
+        <li>hivename1->原生</li>
+        <li>hivename1->融合</li>
+        <li>hivename1->蚀骨</li>
+
+        <li>hivename2->蜂巢</li>
+        <li>hivename2->虫群</li>
+        <li>hivename2->爪牙</li>
+        <li>hivename2->兽群</li>
+        <li>hivename2->触须</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>ARA_NamerSettlement</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[hivesettlementname1] [hivesettlementname2]</li>
+        <li>hivesettlementname1->猩红</li>
+        <li>hivesettlementname1->至高</li>
+        <li>hivesettlementname1->唯一</li>
+        <li>hivesettlementname1->蔓延</li>
+        <li>hivesettlementname1->永恒</li>
+        <li>hivesettlementname1->永续</li>
+
+        <li>hivesettlementname2->核心</li>
+        <li>hivesettlementname2->内核</li>
+        <li>hivesettlementname2->要点</li>
+        <li>hivesettlementname2->中心</li>
+        <li>hivesettlementname2->焦点</li>
+        <li>hivesettlementname2->原点</li>
+        <li>hivesettlementname2->支点</li>
+        <li>hivesettlementname2->枢轴</li>
+        <li>hivesettlementname2->中枢</li>
+        <li>hivesettlementname2->母体</li>
+        <li>hivesettlementname2->源泉</li>
+        <li>hivesettlementname2->源地</li>
+        <li>hivesettlementname2->基体</li>
+        <li>hivesettlementname2->始祖</li>
+        <li>hivesettlementname2->主脑</li>
+        <li>hivesettlementname2->巢心</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>ARA_NamerInitialSettlement</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->虫巢</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

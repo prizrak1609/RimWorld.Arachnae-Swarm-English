@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ResearchTabDef>
+    <defName>ARA_ResearchTab</defName>
+    <label>阿拉克涅虫群进化</label>
+    <generalTitle>阿拉克涅虫群进化探索</generalTitle>
+    <generalDescription>探索、改进阿拉克涅虫群的生命形态，以孵化更强的个体和创造更先进的武装器官等虫群装备。\n\n只有阿拉克涅虫族才能进行这个科技树的研究！</generalDescription>
+  </ResearchTabDef>
+</Defs>

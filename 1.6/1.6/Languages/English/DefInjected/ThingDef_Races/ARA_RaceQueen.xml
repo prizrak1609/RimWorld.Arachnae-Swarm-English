@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Abstract="True" Name="ARA_PawnBase" ParentName="BasePawn">
+    <statBases>
+      <MarketValue>20000</MarketValue>
+      <MoveSpeed>4.6</MoveSpeed>
+      <ComfyTemperatureMin>-3000</ComfyTemperatureMin>
+      <ComfyTemperatureMax>3000</ComfyTemperatureMax>
+      <RoyalFavorValue>3</RoyalFavorValue>
+    </statBases>
+    <tools>
+    </tools>
+    <race>
+      <!-- <nameGenerator>ARA_NamerHivePawnGeneric</nameGenerator> -->
+      
+      <useMeatFrom>Megaspider</useMeatFrom>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>300</lifeExpectancy>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <leatherDef>Leather_Human</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Human</body>
+      <renderTree>Humanlike</renderTree>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>18</gestationPeriodDays>
+      <meatMarketValue>0.8</meatMarketValue>
+      <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+      <soundCallIntervalRange>2000~5000</soundCallIntervalRange>
+      <canBecomeShambler>true</canBecomeShambler>
+      <knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+      <anomalyKnowledge>1</anomalyKnowledge>
+      <hasUnnaturalCorpse>true</hasUnnaturalCorpse>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>3</minAge>
+        </li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">
+          <def>HumanlikePreTeenager</def>
+          <minAge>9</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges>
+      <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+        <Firefighter>7</Firefighter>
+        <Patient>0</Patient>
+        <Doctor>10</Doctor>
+        <PatientBedRest>0</PatientBedRest>
+        <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+        <BasicWorker>3</BasicWorker>
+        <Warden>10</Warden>
+        <Handling>7</Handling>
+        <Cooking>7</Cooking>
+        <Hunting>7</Hunting>
+        <Construction>10</Construction>
+        <Growing>7</Growing>
+        <Mining>7</Mining>
+        <PlantCutting>7</PlantCutting>
+        <Smithing>13</Smithing>
+        <Tailoring>7</Tailoring>
+        <Art>10</Art>
+        <Crafting>7</Crafting>
+        <Hauling>3</Hauling>
+        <Cleaning>3</Cleaning>
+        <Research>13</Research>
+        <DarkStudy MayRequire="Ludeon.RimWorld.Anomaly">13</DarkStudy>
+      </lifeStageWorkSettings>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>          <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li>          <!-- End exclude -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+          <li>(14,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+          <li>(16,100)</li>
+          <li>(50,100)</li>
+          <li>(60,30)</li>
+          <li>(70,18)</li>
+          <li>(80,10)</li>
+          <li>(90,3)</li>
+          <li>(100,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+        <li>Human</li>
+        <li>ARA_NonPlayerHediffSet</li>
+      </hediffGiverSets>
+    </race>
+    <recipes>
+      <li>ExciseCarcinoma</li>
+      <li>AdministerMechSerumHealer</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+      <li>Anesthetize</li>
+      <li>CureScaria</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">Vasectomy</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ReverseVasectomy</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">TubalLigation</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ExtractOvum</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ExtractHemogenPack</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">BloodTransfusion</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ImplantXenogerm</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ImplantIUD</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">RemoveIUD</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">TerminatePregnancy</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">SurgicalInspection</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">BlissLobotomy</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">GhoulInfusion</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey">RemovePorcupineQuill</li>
+    </recipes>
+    <ingredient>
+      <mergeCompatibilityTags>
+        <li>HumanMeat</li>
+      </mergeCompatibilityTags>
+    </ingredient>
+    <comps>
+      <li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
+        <getsColdContainmentBonus>true</getsColdContainmentBonus>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresImprisonment>true</requiresImprisonment>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_TemperatureRegulation</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+    </comps>
+  </ThingDef>
+  <AlienRace.ThingDef_AlienRace Name="ARA_QueenBase" ParentName="ARA_PawnBase">
+    <defName>ArachnaeQueen_Race</defName>
+    <label>阿拉克涅女皇种</label>
+    <description>阿拉克涅女皇种是阿拉克涅虫巢中唯一可以生育督虫的个体，并且是虫巢意识金字塔的核心，肩负着引领阿拉克涅虫群前进的伟大使命。她与麾下的虫族的灵能链接所构成的蜂群意识网络可以使得虫群以极高的效率运转，但是一旦女皇种死亡，其麾下的虫群将全部死亡！</description>
+
+    <alienRace>
+      <!-- 核心设置 -->
+      <generalSettings>
+        <!-- 男性生成几率 -->
+        <maleGenderProbability>0</maleGenderProbability>
+        <!-- 无视年龄疾病 -->
+        <immuneToAge>true</immuneToAge>
+        <!-- 在口角中造成的最大伤害 -->
+        <maxDamageForSocialfight>15</maxDamageForSocialfight>
+        <!-- 免疫人类的异形歧视 -->
+        <immuneToXenophobia>false</immuneToXenophobia>
+        <!-- 最小的可生成成人背景的年龄 -->
+        <minAgeForAdulthood>0</minAgeForAdulthood>
+        <!-- 手术继承自人类 -->
+        <humanRecipeImport>false</humanRecipeImport>
+        <!-- 睡觉定义 -->
+        <canLayDown>false</canLayDown>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator Inherit="False">
+          <!-- 允许的头部 -->
+          <headTypes Inherit="False">
+            <li>Female_AverageNormal</li>
+            <!-- <li>Female_AverageWide</li>
+            <li>Female_AveragePointy</li> -->
+          </headTypes>
+          <!-- 身体类型 -->
+          <bodyTypes Inherit="False">
+            <li>Thin</li>
+          </bodyTypes>
+          <!-- 颜色设置 -->
+          <colorChannels Inherit="false">
+            <!-- 皮肤是特殊的，因为现在由基因定义肤色 -->
+            <li>
+              <name>skin</name>
+              <first Class="AlienRace.ColorGenerator_SkinColorMelanin">
+                <minMelanin>0</minMelanin>
+                <maxMelanin>0</maxMelanin>
+              </first>
+            </li>
+            <!-- 头发颜色 -->
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>15</weight>
+                    <min>(0.4,0.3,0.5)</min>
+                    <max>(0.6,0.1,0.7)</max>
+                  </li>
+                  <li>
+                    <weight>6</weight>
+                    <min>(0.9,0.9,0.9)</min>
+                    <max>(0.9,0.9,0.9)</max>
+                  </li>
+                  <li>
+                    <weight>6</weight>
+                    <min>(1,0.8,0.8)</min>
+                    <max>(1,0.9,0.9)</max>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <min>(1,1,1)</min>
+                    <max>(1,1,1)</max>
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+          <!-- 额外身体部件 -->
+          <bodyAddons>
+          </bodyAddons>
+          <!-- 图像放大 -->
+          <borderScale>4</borderScale>
+          <atlasScale>4</atlasScale>
+          <customDrawSize>(4,4)</customDrawSize>
+          <customHeadDrawSize>(1.0,1.0)</customHeadDrawSize>
+          <customPortraitDrawSize>(2,2)</customPortraitDrawSize>
+        </alienPartGenerator>
+        <growthAges Inherit="False">
+          <li>0</li>
+        </growthAges>
+        <!-- 年龄工作效率等的覆盖 -->
+        <ageStatOverrides Inherit="False">
+          <WorkSpeedGlobal>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </WorkSpeedGlobal>
+          <ShootingAccuracyChildFactor MayRequire="Ludeon.RimWorld.Biotech">
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </ShootingAccuracyChildFactor>
+          <MarketValue>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </MarketValue>
+          <MeleeHitChance>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </MeleeHitChance>
+          <AimingDelayFactor>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </AimingDelayFactor>
+          <ArrestSuccessChance>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0, 1)</li>
+              </points>
+            </curve>
+          </ArrestSuccessChance>
+        </ageStatOverrides>
+        <!-- 生育设置，将妊娠设为男性来避免开局刷妊娠 -->
+        <reproduction>
+          <gestatingGender>Male</gestatingGender>
+          <femaleFertilityAgeFactor>
+            <points>
+              <li>(0,0)</li>
+              <li>(1,0)</li>
+              <li>(999,0)</li>
+              <li>(9999,0)</li>
+            </points>
+          </femaleFertilityAgeFactor>
+        </reproduction>
+        <growthFactorByAge Inherit="False">
+          <points>
+            <li>(0,0)</li>
+            <li>(1,0)</li>
+            <li>(999,0)</li>
+            <li>(9999,0)</li>
+          </points>
+        </growthFactorByAge>
+      </generalSettings>
+      <!-- 图形 -->
+      <graphicPaths>
+        <!-- 皮肤颜色 -->
+        <skinColor>(1,1,1,1)</skinColor>
+        <!-- 皮肤着色器 -->
+        <skinShader>Cutout</skinShader>
+        <body>ArachnaeSwarm/Things/ARA_HiveQueen/Bodies/</body>
+        <head>ArachnaeSwarm/Things/ARA_HiveQueen/Heads/</head>
+        <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+        <stump>ArachnaeSwarm/Things/ARA_HiveQueen/Bodies/</stump>
+      </graphicPaths>
+      <!-- 风格设置 -->
+      <styleSettings>
+        <!-- 头发 -->
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+            <styleTagsOverride>
+              <li>Bald</li>
+            </styleTagsOverride>
+          </value>
+        </li>
+        <!-- 纹身 -->
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <!-- 胡须 -->
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <!-- 种族的允许和禁止特化设置 -->
+      <raceRestriction>
+        <!-- 无法拥有的内源性基因 -->
+        <blackEndoCategories MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">HairColor</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Melanin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">BodyType</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Ears</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Nose</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Voice</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Headbone</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Head</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Jaw</li>
+        </blackEndoCategories>
+        <!-- 无法拥有的Tag基因 -->
+        <blackGeneTags MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">EyeColor</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Tail</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">BeardStyle</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Fur</li>
+        </blackGeneTags>
+        <!-- 无法拥有的基因列表 -->
+        <blackGeneList>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Furskin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+        </blackGeneList>
+        <!-- 禁止的异形变种 -->
+        <blackXenotypeList>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Dirtmole</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Genie</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Hussar</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Sanguophage</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Neanderthal</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Impid</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Waster</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Yttakin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Highmate</li>
+        </blackXenotypeList>
+        <!-- 异种类型列表 -->
+        <xenotypeList>
+        </xenotypeList>
+        <onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+        <!-- 食物列表 -->
+        <whiteFoodList>
+          <li>ARA_InsectJelly</li>
+          <li>ARA_NutrientPasteMeal</li>
+          <li>ARA_PheromoneSolvent</li>
+        </whiteFoodList>
+        <onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+        <!-- 可以驯服的宠物，主要是防止小虫由别人驯服 -->
+        <petList>
+          <li>ArachnaeBase_Race_Scavenger</li>
+          <li>ArachnaeBase_Race_HardJaw</li>
+          <li>ArachnaeBase_Race_Maid</li>
+        </petList>
+        <onlyTameRaceRestrictedPets>true</onlyTameRaceRestrictedPets>
+        <!-- 可以穿戴的衣服 -->
+        <apparelList>
+        </apparelList>
+        <blackApparelList>
+        </blackApparelList>
+        <!-- 仅使用种族限制的服装 -->
+        <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+        <!-- 生育能力 -->
+        <onlyReproduceWithRestrictedRaces>true</onlyReproduceWithRestrictedRaces>
+        <canReproduce>false</canReproduce>
+        <!-- 允许操纵的配方 -->
+        <recipeList>
+        </recipeList>
+        <!-- <workGiverList>
+        </workGiverList> -->
+        <!-- 允许的特质类型 -->
+        <traitList>
+        </traitList>
+        <blackTraitList>
+          <li>BodyPurist</li>
+          <li>Cannibal</li>
+          <li>CreepyBreathing</li>
+          <li>DislikesWomen</li>
+          <li>Gourmand</li>
+          <li>QuickSleeper</li>
+          <li>Wimp</li>
+          <li>Beauty</li>
+          <li>DrugDesire</li>
+          <li>Immunity</li>
+          <li>PsychicSensitivity</li>
+        </blackTraitList>
+      </raceRestriction>
+      <!-- 想法设置 -->
+      <thoughtSettings>
+        <!-- 不会产生的想法 -->
+        <cannotReceiveThoughts>
+          <li>ColonistLost</li>
+          <li>KnowColonistDied</li>
+          <li>PsychicDrone</li>
+          <li>Naked</li>
+          <li>AnyBodyPartButGroinCovered_Disapproved_Female</li>
+          <li>AnyBodyPartButGroinCovered_Disapproved_Male</li>
+          <li>AnyBodyPartButGroinCovered_Disapproved_Memory</li>
+          <li>AnyBodyPartButGroinCovered_Disapproved_Social_Female</li>
+          <li>AnyBodyPartButGroinCovered_Disapproved_Social_Male</li>
+          <li>AnyBodyPartCovered_Disapproved_Female</li>
+          <li>AnyBodyPartCovered_Disapproved_Male</li>
+          <li>AnyBodyPartCovered_Disapproved_Memory</li>
+          <li>AnyBodyPartCovered_Disapproved_Social_Female</li>
+          <li>AnyBodyPartCovered_Disapproved_Social_Male</li>
+          <li>GroinChestHairOrFaceUncovered_Disapproved_Female</li>
+          <li>GroinChestHairOrFaceUncovered_Disapproved_Male</li>
+          <li>GroinChestHairOrFaceUncovered_Disapproved_Social_Female</li>
+          <li>GroinChestHairOrFaceUncovered_Disapproved_Social_Male</li>
+          <li>GroinChestOrHairUncovered_Disapproved_Female</li>
+          <li>GroinChestOrHairUncovered_Disapproved_Male</li>
+          <li>GroinChestOrHairUncovered_Disapproved_Social_Female</li>
+          <li>GroinChestOrHairUncovered_Disapproved_Social_Male</li>
+          <li>GroinOrChestUncovered_Disapproved_Female</li>
+          <li>GroinOrChestUncovered_Disapproved_Male</li>
+          <li>GroinOrChestUncovered_Disapproved_Social_Female</li>
+          <li>GroinOrChestUncovered_Disapproved_Social_Male</li>
+          <li>GroinUncovered_Disapproved_Female</li>
+          <li>GroinUncovered_Disapproved_Male</li>
+          <li>GroinUncovered_Disapproved_Social_Female</li>
+          <li>GroinUncovered_Disapproved_Social_Male</li>
+          <li>WitnessedDeathAlly</li>
+          <li>ObservedLayingCorpse</li>
+          <li>ObservedLayingRottingCorpse</li>
+          <li>ApparelDamaged</li>
+          <li>ProsthophileHappy</li>
+          <li>ProsthophobeUnhappy</li>
+          <li>BrawlerUnhappy</li>
+          <li>PyromaniacHappy</li>
+          <li>Greedy</li>
+          <li>Jealous</li>
+          <li>SharedBed</li>
+          <li>AteWithoutTable</li>
+          <li>SleptOutside</li>
+          <li>SleptOnGround</li>
+          <li>SleptInCold</li>
+          <li>SleptInHeat</li>
+          <li>Ugly</li>
+          <li>AteKibble</li>
+          <li>AteInsectMeatDirect</li>
+          <li>AteInsectMeatAsIngredient</li>
+          <li>AteRawFood</li>
+          <li>AteHumanlikeMeatDirect</li>
+          <li>AteHumanlikeMeatAsIngredient</li>
+          <li>KnowButcheredHumanlikeCorpse</li>
+          <li>ButcheredHumanlikeCorpseOpinion</li>
+          <li>AteRawHumanlikeMeat</li>
+        </cannotReceiveThoughts>
+        <!-- 该种族特有想法 -->
+        <restrictedThoughts>
+        </restrictedThoughts>
+      </thoughtSettings>
+      <!-- 关系设置，不会生成任何随机关系 -->
+      <relationSettings>
+        <relationChanceModifierLover>0</relationChanceModifierLover>
+        <relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+        <relationChanceModifierFiance>0</relationChanceModifierFiance>
+        <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+        <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
+        <relationChanceModifierParent>0</relationChanceModifierParent>
+        <relationChanceModifierChild>0</relationChanceModifierChild>
+        <relationChanceModifierSibling>0</relationChanceModifierSibling>
+      </relationSettings>
+    </alienRace>
+
+    <!-- 基础属性设置 -->
+    <statBases>
+      <!-- 市场价值 -->
+      <MarketValue>2000</MarketValue>
+      <RoyalFavorValue>5</RoyalFavorValue>
+
+      <!-- 移动速度 -->
+      <MoveSpeed>1.75</MoveSpeed>
+      <Mass>250</Mass>
+
+      <!-- <RestRateMultiplier>1</RestRateMultiplier> -->
+      <!-- <HungerRateMultiplier>1</HungerRateMultiplier> -->
+      <EatingSpeed>2</EatingSpeed>
+      <!-- 女皇很长时间才需要补充一次食物 -->
+      <MaxNutrition>0.5</MaxNutrition>
+
+      <!-- 女皇的负重,设为0以避免女皇能背东西 -->
+      <CarryingCapacity>200</CarryingCapacity>
+      <MeatAmount>450</MeatAmount>
+      <LeatherAmount>600</LeatherAmount>
+
+      <!-- 疼痛休克,女皇很难因为疼痛而倒下,虽并不是像机器人一样不会休克 -->
+      <PainShockThreshold>1</PainShockThreshold>
+      <!-- 女皇非常擅长灵能,以维持蜂群的蜂巢意识链接 -->
+      <PsychicSensitivity>5</PsychicSensitivity>
+      <!-- 女皇的崩溃概率 -->
+      <MentalBreakThreshold>0</MentalBreakThreshold>
+      <!-- 女皇的高耸身躯和强健循环系统使得很难被毒倒下 -->
+      <ToxicResistance>0.95</ToxicResistance>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.95</ToxicEnvironmentResistance>
+      <!-- 女皇的甲壳可以抵御火焰侵袭,难以燃烧-->
+      <Flammability>0.1</Flammability>
+
+      <!-- 女皇的庞大申请很难闪开近战 -->
+      <MeleeDodgeChance>0.25</MeleeDodgeChance>
+      <!-- <MeleeHitChance>1</MeleeHitChance> -->
+
+      <!-- <NegotiationAbility>1</NegotiationAbility> -->
+      <!-- <SellPriceFactor>1</SellPriceFactor> -->
+      <!-- <SocialImpact>1</SocialImpact> -->
+      <!-- <TradePriceImprovement>0.5</TradePriceImprovement> -->
+
+      <!-- 自带的甲壳可以防御外部攻击 -->
+      <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.5</ArmorRating_Heat>
+
+      <!-- 虫群拥有惊人的愈合速度 -->
+      <InjuryHealingFactor>5</InjuryHealingFactor>
+
+      <!-- 在野外采集的营养 -->
+      <ForagedNutritionPerDay>0</ForagedNutritionPerDay>
+    </statBases>
+
+    <race>
+      <!-- 身体类型 -->
+      <body>ArachnaeQueen_Body</body>
+      <fleshType>Normal</fleshType>
+      <!-- AI行为，勿改 -->
+      <thinkTreeMain>ARA_Humanlike</thinkTreeMain>
+      <!-- 智力水平 -->
+      <intelligence>Humanlike</intelligence>
+      <!-- 肉和皮革的定义 -->
+			<nameCategory>HumanStandard</nameCategory>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <!-- 身形大小 -->
+			<baseBodySize>10</baseBodySize>
+      <!-- 基础血量，很高 -->
+      <baseHealthScale>10</baseHealthScale>
+      <!-- 解剖产物 -->
+			<leatherDef>ARA_Carapace</leatherDef>
+
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <!-- 年龄阶段 -->
+      <lifeExpectancy>300</lifeExpectancy>
+      <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech" Inherit="False">
+        <Firefighter>0</Firefighter>
+        <Patient>0</Patient>
+        <Doctor>0</Doctor>
+        <PatientBedRest>0</PatientBedRest>
+        <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+        <BasicWorker>0</BasicWorker>
+        <Warden>0</Warden>
+        <Handling>0</Handling>
+        <Cooking>0</Cooking>
+        <Hunting>0</Hunting>
+        <Construction>0</Construction>
+        <Growing>0</Growing>
+        <Mining>0</Mining>
+        <PlantCutting>0</PlantCutting>
+        <Smithing>0</Smithing>
+        <Tailoring>0</Tailoring>
+        <Art>0</Art>
+        <Crafting>0</Crafting>
+        <Hauling>0</Hauling>
+        <Cleaning>0</Cleaning>
+        <Research>0</Research>
+        <DarkStudy MayRequire="Ludeon.RimWorld.Anomaly">0</DarkStudy>
+      </lifeStageWorkSettings>
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">
+          <def>HumanlikePreTeenager</def>
+          <minAge>0.5</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>0.75</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>1</minAge>
+          <soundWounded>Pawn_HiveQueen_Wounded</soundWounded>
+					<soundDeath>Pawn_HiveQueen_Death</soundDeath>
+					<soundCall>Pawn_HiveQueen_Call</soundCall>
+					<soundAngry>Pawn_HiveQueen_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <canFlyInVacuum>false</canFlyInVacuum>
+    </race>
+
+    <!-- 工具设置（攻击方式） -->
+    <tools>
+      <li>
+        <label>头顶</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.01</chanceFactor>
+      </li>
+      <li>
+        <label>踩踏</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>Legs</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>腿部穿刺</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>50</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>Legs</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>钳击</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Hands</linkedBodyPartsGroup>
+      </li>
+    </tools>
+
+    <recipes Inherit="False">
+      <li>RemovePorcupineQuill</li>
+      <li>ARA_CureBloodRot</li>
+      <li>ARA_CureAcid</li>
+    </recipes>
+
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_Queen_0_Stage</li>
+          <li>ARA_HiveStrength</li>
+          <li>ARA_HiveMindMaster</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+    </comps>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

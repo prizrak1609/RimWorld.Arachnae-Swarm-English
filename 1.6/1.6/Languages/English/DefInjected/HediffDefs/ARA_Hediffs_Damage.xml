@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef>
+    <defName>ARA_AcidCoverd</defName>
+    <label>阿拉克涅酸液</label>
+    <description>一只拥有酸囊的阿拉克涅虫族向此人喷射了强酸，沾染的液体将使得此人痛不欲生，盔甲和表皮软化，并持续灼烧它的身体。</description>
+    <defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
+    <hediffClass>ArachnaeSwarm.HediffCurseFlame</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-4</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1800</disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.CurseFlameModExt">
+        <damageDefName>AcidBurn</damageDefName>
+        <damageRange>1~2</damageRange>
+        <damageIntervalTicks>40</damageIntervalTicks>
+      </li>
+    </modExtensions>
+    <stages>
+      <li>
+        <label>minor</label>
+        <becomeVisible>true</becomeVisible>
+      </li>
+      <li>
+        <label>minor</label>
+        <minSeverity>0.2</minSeverity>
+        <statFactors>
+          <IncomingDamageFactor>1.05</IncomingDamageFactor>
+        </statFactors>
+        <statOffsets>
+          <ArmorRating_Sharp>-0.2</ArmorRating_Sharp>
+          <ArmorRating_Blunt>-0.2</ArmorRating_Blunt>
+        </statOffsets>
+      </li>
+      <li>
+        <label>moderate</label>
+        <minSeverity>0.35</minSeverity>
+        <statFactors>
+          <IncomingDamageFactor>1.1</IncomingDamageFactor>
+        </statFactors>
+        <statOffsets>
+          <ArmorRating_Sharp>-0.5</ArmorRating_Sharp>
+          <ArmorRating_Blunt>-0.5</ArmorRating_Blunt>
+        </statOffsets>
+      </li>
+      <li>
+        <label>serious</label>
+        <minSeverity>0.5</minSeverity>
+        <statFactors>
+          <IncomingDamageFactor>1.15</IncomingDamageFactor>
+        </statFactors>
+        <statOffsets>
+          <ArmorRating_Sharp>-1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>-1</ArmorRating_Blunt>
+        </statOffsets>
+      </li>
+      <li>
+        <label>extreme</label>
+        <minSeverity>0.65</minSeverity>
+        <statFactors>
+          <IncomingDamageFactor>1.25</IncomingDamageFactor>
+        </statFactors>
+        <statOffsets>
+          <ArmorRating_Sharp>-1.3</ArmorRating_Sharp>
+          <ArmorRating_Blunt>-1.3</ArmorRating_Blunt>
+        </statOffsets>
+      </li>
+      <li>
+        <label>completely</label>
+        <minSeverity>0.85</minSeverity>
+        <statFactors>
+          <IncomingDamageFactor>1.35</IncomingDamageFactor>
+        </statFactors>
+        <statOffsets>
+          <ArmorRating_Sharp>-2</ArmorRating_Sharp>
+          <ArmorRating_Blunt>-2</ArmorRating_Blunt>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ARA_ToxicBuildup</defName>
+    <label>阿拉克涅神经毒素</label>
+    <description>阿拉克涅毒针所携带的神经毒素正在攻击这个殖民者，这种强力毒素将使得目标快速丧失行动能力并造成恶心眩晕感，还有可能导致永久的大脑损伤。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <!-- <lethalSeverity>1</lethalSeverity> -->
+    <!-- <canApplyDodChanceForCapacityChanges>true</canApplyDodChanceForCapacityChanges> -->
+    <makesSickThought>true</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <taleOnVisible>ToxicityRevealed</taleOnVisible>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <compClass>HediffComp_ImmunizableToxic</compClass>
+        <severityPerDayNotImmune>-0.08</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>initial</label>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <label>initial</label>
+        <minSeverity>0.04</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>minor</label>
+        <minSeverity>0.2</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>moderate</label>
+        <minSeverity>0.40</minSeverity>
+        <vomitMtbDays>5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.3</offset>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Dementia</hediff>
+            <mtbDays>146</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+      <li>
+        <label>serious</label>
+        <minSeverity>0.60</minSeverity>
+        <vomitMtbDays>1</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.3</setMax>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Dementia</hediff>
+            <mtbDays>37</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+      <li>
+        <label>extreme</label>
+        <minSeverity>0.80</minSeverity>
+        <vomitMtbDays>0.5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.10</setMax>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Dementia</hediff>
+            <mtbDays>13</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ARA_SkyhiveBite</defName>
+    <label>天巢种虫族附着</label>
+    <description>一只可爱的天巢种阿拉克涅虫族咬到了你的身上，虫虫会不停的咬你直到从你身上脱离。这不会有太大问题...对吧？</description>
+    <!--<tendable>false</tendable>  Must be removed via surgery -->
+    <!--<displayWound>true</displayWound>-->
+    <hediffClass>ArachnaeSwarm.HediffCurseFlame</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>600</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+      <li Class="ArachnaeSwarm.HediffCompProperties_SpawnPawnOnRemoved">
+        <pawnKindDefs>
+          <li>ArachnaeBase_Race_Skyhive</li>
+        </pawnKindDefs>
+        <spawnCount>1</spawnCount>
+        <fixedBiologicalAge>0</fixedBiologicalAge>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.CurseFlameModExt">
+        <damageDefName>Bite</damageDefName>
+        <damageRange>3~5</damageRange>
+        <damageIntervalTicks>150</damageIntervalTicks>
+      </li>
+    </modExtensions>
+    <stages>
+      <li>
+        <painOffset>0.05</painOffset>
+      </li>
+    </stages>
+    <renderNodeProperties>
+      <li>
+        <debugLabel>Arachnae Skyhive</debugLabel>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPaths>
+          <li>ArachnaeSwarm/Things/ARA_Skyhive/Bodies/Naked_Thin_north</li>
+          <li>ArachnaeSwarm/Things/ARA_Skyhive/Bodies/Naked_Thin_east</li>
+          <li>ArachnaeSwarm/Things/ARA_Skyhive/Bodies/Naked_Thin_south</li>
+        </texPaths>
+        <!-- <color>(145,140,109)</color> -->
+        <baseLayer>65</baseLayer>
+        <texSeed>1</texSeed>
+        <drawData>
+          <dataNorth>
+            <rotationOffset>263</rotationOffset>
+            <offset>(-0.04, 0, 0.04)</offset>
+          </dataNorth>
+          <dataEast>
+            <rotationOffset>245</rotationOffset>
+            <offset>(0.05, 0, 0.02)</offset>
+          </dataEast>
+          <dataSouth>
+            <rotationOffset>2</rotationOffset>
+            <offset>(0.05, 0, 0.02)</offset>
+          </dataSouth>
+          <dataWest>
+            <rotationOffset>-245</rotationOffset>
+            <offset>(-0.04, 0, 0.04)</offset>
+            <flip>true</flip>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+
+
+  <DamageDef ParentName="Beam">
+    <defName>ARA_Beam</defName>
+    <label>生物能射线</label>
+    <defaultDamage>5</defaultDamage>
+    <defaultArmorPenetration>2</defaultArmorPenetration>
+    <buildingDamageFactorImpassable>0.4</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>0.2</buildingDamageFactorPassable>
+  </DamageDef>
+
+  <HediffDef>
+    <defName>ARA_ReinforceGasCoverd</defName>
+    <label>阿拉克涅信息素沾染</label>
+    <description>你身上沾染了阿拉克涅信息素，有什么正在从在地下袭来。</description>
+    <!--<tendable>false</tendable>  Must be removed via surgery -->
+    <!--<displayWound>true</displayWound>-->
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>600</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+      <li Class="ArachnaeSwarm.HediffCompProperties_SpawnPawnOnRemoved">
+        <pawnKindDefs>
+          <li>ArachnaeBase_Race_Acidcut</li>
+        </pawnKindDefs>
+        <spawnCount>1</spawnCount>
+        <fixedBiologicalAge>0</fixedBiologicalAge>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef>
+    <defName>ARA_Unburnable</defName>
+    <label>阻燃烟雾</label>
+    <description>一种特殊的烟雾覆盖了这片地区，使得置身其中的殖民者难以被点着.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <stages>
+      <li>
+        <statFactors>
+          <Flammability>0</Flammability>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1200</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ARA_ChainReload</defName>
+    <label>链式装填</label>
+    <description>使用的武器拥有链式装填能力, 装填速度将随每次射击后提升。</description>
+    <defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>600</disappearsAfterTicks>        <!-- 10 seconds -->
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>等级1/5</label>
+        <becomeVisible>true</becomeVisible>
+        <statFactors>
+          <AimingDelayFactor>0.9</AimingDelayFactor>
+          <RangedCooldownFactor>0.9</RangedCooldownFactor>
+        </statFactors>
+      </li>
+      <li>
+        <label>等级2/5</label>
+        <minSeverity>2</minSeverity>
+        <statFactors>
+          <AimingDelayFactor>0.8</AimingDelayFactor>
+          <RangedCooldownFactor>0.8</RangedCooldownFactor>
+        </statFactors>
+      </li>
+      <li>
+        <label>等级3/5</label>
+        <minSeverity>3</minSeverity>
+        <statFactors>
+          <AimingDelayFactor>0.65</AimingDelayFactor>
+          <RangedCooldownFactor>0.65</RangedCooldownFactor>
+        </statFactors>
+      </li>
+      <li>
+        <label>等级4/5</label>
+        <minSeverity>4</minSeverity>
+        <statFactors>
+          <AimingDelayFactor>0.45</AimingDelayFactor>
+          <RangedCooldownFactor>0.45</RangedCooldownFactor>
+        </statFactors>
+      </li>
+      <li>
+        <label>等级5/5</label>
+        <minSeverity>5</minSeverity>
+        <statFactors>
+          <AimingDelayFactor>0.25</AimingDelayFactor>
+          <RangedCooldownFactor>0.25</RangedCooldownFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>ARA_BeamAiming</defName>
+    <label>光束预热</label>
+    <description>阿拉克涅虫群的光束类能量武器在短暂瞄准后可以持续不断地射击。</description>
+    <defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>60</disappearsAfterTicks>        <!-- 10 seconds -->
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>完成</label>
+        <becomeVisible>true</becomeVisible>
+        <statFactors>
+          <AimingDelayFactor>0</AimingDelayFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ARA_Fighter_Execution_Damage</defName>
+    <label>处决</label>
+    <description>造成大量伤害以处决目标。</description>
+    <defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
+    <hediffClass>ArachnaeSwarm.HediffCurseFlame</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>2</disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.CurseFlameModExt">
+        <damageDefName>Cut</damageDefName>
+        <damageRange>300~300</damageRange>
+        <damageIntervalTicks>1</damageIntervalTicks>
+      </li>
+    </modExtensions>
+    <stages>
+      <li>
+        <label>minor</label>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="InjuryBase">
+    <defName>ARA_Whip_Hediff</defName>
+    <label>被鞭打</label>
+    <description>阿拉克涅虫族的软体武器抽中了这个殖民者——那可是很痛的。</description>
+    <labelNoun>被鞭打</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-4</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1800</disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>1</painPerSeverity>
+      <bleedRate>0</bleedRate>
+      <canMerge>false</canMerge>
+      <destroyedLabel>Destroyed</destroyedLabel>
+    </injuryProps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ARA_Hediff_FrostCoverd_after</defName>
+    <label>霜冻覆盖</label>
+    <description>此人被一片冰霜之云所覆盖，即将产生霜雾爆炸。</description>
+    <defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-4</severityPerDay>
+      </li>
+      <li Class="ArachnaeSwarm.HediffCompProperties_TimedExplosion">
+        <damageDef>ARA_Damage_Freeze</damageDef>
+        <soundDef>Explosion_Stun</soundDef>
+        <explosionRadius>3</explosionRadius>
+        <showRemainingTime>true</showRemainingTime>
+        <damageAmount>5</damageAmount>
+        <armorPenetration>0.10</armorPenetration>
+        <disappearsAfterTicks>60~120</disappearsAfterTicks>
+        <postExplosionSpawnThingDef>ARA_FrostGasCloud</postExplosionSpawnThingDef>
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+    </comps>
+    <stages>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ARA_CryoShock</defName>
+    <label>急速冷却</label>
+    <description>目标正处于急冻状态。这种状态将导致目标身体结构极度脆弱。当此效果加深时，其身体部位有可能会被冷冻伤害直接摧毁。</description>
+    <defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
+    <hediffClass>ArachnaeSwarm.HediffCurseFlame</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-6</severityPerDay>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.CurseFlameModExt">
+        <damageDefName>Stun</damageDefName>
+        <damageRange>1~2</damageRange>
+        <damageIntervalTicks>90</damageIntervalTicks>
+      </li>
+    </modExtensions>
+    <injuryProps>
+      <painPerSeverity>0.02</painPerSeverity>
+    </injuryProps>
+    <stages>
+      <li>
+        <label>1/8</label>
+        <becomeVisible>true</becomeVisible>
+      </li>
+      <li>
+        <label>2/8</label>
+        <minSeverity>0.2</minSeverity>
+        <statOffsets>
+          <ComfyTemperatureMin>40</ComfyTemperatureMin>
+        </statOffsets>
+        <statFactors>
+          <ARA_IcezKillingFactor>0.8</ARA_IcezKillingFactor>
+        </statFactors>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>3/8</label>
+        <minSeverity>0.35</minSeverity>
+        <statOffsets>
+          <ComfyTemperatureMin>80</ComfyTemperatureMin>
+        </statOffsets>
+        <statFactors>
+          <ARA_IcezKillingFactor>0.65</ARA_IcezKillingFactor>
+        </statFactors>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.20</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>4/8</label>
+        <minSeverity>0.5</minSeverity>
+        <statOffsets>
+          <ComfyTemperatureMin>120</ComfyTemperatureMin>
+        </statOffsets>
+        <statFactors>
+          <ARA_IcezKillingFactor>0.5</ARA_IcezKillingFactor>
+        </statFactors>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.20</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>5/8</label>
+        <minSeverity>0.65</minSeverity>
+        <statOffsets>
+          <ComfyTemperatureMin>160</ComfyTemperatureMin>
+        </statOffsets>
+        <statFactors>
+          <ARA_IcezKillingFactor>0.35</ARA_IcezKillingFactor>
+        </statFactors>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.30</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>6/8</label>
+        <minSeverity>0.85</minSeverity>
+        <statOffsets>
+          <ComfyTemperatureMin>200</ComfyTemperatureMin>
+        </statOffsets>
+        <statFactors>
+          <ARA_IcezKillingFactor>0.15</ARA_IcezKillingFactor>
+        </statFactors>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.30</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>7/8</label>
+        <minSeverity>1.25</minSeverity>
+        <statOffsets>
+          <ComfyTemperatureMin>500</ComfyTemperatureMin>
+        </statOffsets>
+        <statFactors>
+          <ARA_IcezKillingFactor>0.01</ARA_IcezKillingFactor>
+        </statFactors>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.50</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>8/8</label>
+        <minSeverity>2.5</minSeverity>
+        <statOffsets>
+          <ComfyTemperatureMin>1000</ComfyTemperatureMin>
+        </statOffsets>
+        <statFactors>
+          <ARA_IcezKillingFactor>0.001</ARA_IcezKillingFactor>
+        </statFactors>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.50</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef>
+    <defName>ARA_HiveMindMaster</defName>
+    <label>阿拉克涅女皇种</label>
+    <description>阿拉克涅女皇种是虫群意识的中心节点, 作为主脑统御整个阿拉克涅虫群。其体内拥有大量未分化的修复细胞，可以以常人无法想象的速度自行治愈所有的创伤。</description>
+    <hediffClass>ArachnaeSwarm.Hediff_HiveMindMaster</hediffClass>
+    <defaultLabelColor>(0.8, 0.3, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>100</maxSeverity>
+    <stages>
+      <li>
+        <label>连接至 {0} 个虫群工蜂</label>
+        <minSeverity>0</minSeverity>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+        <!-- Stat offsets will be added here later -->
+        <disablesNeeds>
+          <li>Joy</li>
+          <li>Beauty</li>
+          <li>Comfort</li>
+          <li>Outdoors</li>
+        </disablesNeeds>
+        <enablesNeeds>
+          <li>Indoors</li>
+        </enablesNeeds>
+      </li>
+    </stages>
+    <comps>
+      <li Class="ArachnaeSwarm.HediffCompProperties_HiveMindMaster">
+        <scanIntervalTicks>3200</scanIntervalTicks>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef>
+    <defName>ARA_HiveMindDrone</defName>
+    <label>阿拉克涅督虫</label>
+    <description>阿拉克涅督虫通过心灵与阿拉克涅女皇种相链接。如果女皇死亡，督虫也将停止生命活动。</description>
+    <hediffClass>ArachnaeSwarm.Hediff_HiveMindDrone</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+        <disablesNeeds>
+          <li>Mood</li>
+          <li>Joy</li>
+          <li>Beauty</li>
+          <li>Comfort</li>
+          <li>Outdoors</li>
+          <li>Indoors</li>
+          <li>DrugDesire</li>
+          <li>RoomSize</li>
+        </disablesNeeds>
+      </li>
+    </stages>
+    <comps>
+      <li Class="ArachnaeSwarm.HediffCompProperties_HiveMindDrone">
+        <unlinkedDieDelayTicks>6400</unlinkedDieDelayTicks> <!-- Default to 30 seconds -->
+      </li>
+      <li Class="HediffCompProperties_MessageAfterTicks">
+        <ticks>1</ticks>
+        <letterLabel>{0_labelShort} 诞生</letterLabel>
+        <letterText>一只新的阿拉克涅督虫 {0_labelShort} 已经破茧而出！她正在四处徘徊，等待女皇种的指示——使用阿拉克涅女皇种的信息素标记技能完成链接，或者等待其自行建立链接。</letterText>
+        <letterType>HumanPregnancy</letterType>
+      </li>
+      <li Class="HediffCompProperties_RemoveIfOtherHediff">
+        <hediffs>
+          <li>ARA_NonPlayer_HiveMindDroneHediff</li>
+        </hediffs>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef>
+    <defName>ARA_NonPlayer_HiveMindDroneHediff</defName>
+    <label>野性虫群</label>
+    <description>与阿拉克涅虫群蜂巢意志断开链接的督虫只会如野兽般行动——女皇种可以重新接管它们。</description>
+    <!-- <hediffClass>ArachnaeSwarm.Hediff_HiveMindDrone</hediffClass> -->
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+        <disablesNeeds>
+          <li>Mood</li>
+          <li>Joy</li>
+          <li>Beauty</li>
+          <li>Comfort</li>
+          <li>Outdoors</li>
+          <li>Indoors</li>
+          <li>DrugDesire</li>
+          <li>RoomSize</li>
+        </disablesNeeds>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffGiverSetDef>
+    <defName>ARA_NonPlayerHediffSet</defName>
+    <hediffGivers>
+      <li Class="ArachnaeSwarm.HediffGiver_NonPlayerFaction">
+        <hediff>ARA_NonPlayer_HiveMindDroneHediff</hediff>
+        <mtbDays>0.1</mtbDays> <!-- 很短的检查间隔 -->
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  <HediffDef>
+    <defName>ARA_HiveMindWorker</defName>
+    <label>阿拉克涅辅虫</label>
+    <description>阿拉克涅辅虫通过心灵与阿拉克涅督虫种相链接。如果督虫死亡，辅虫也将停止生命活动。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <disablesNeeds>
+          <li>Food</li>
+          <li>Rest</li>
+        </disablesNeeds>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ARA_HiveStrength</defName>
+    <label>虫群活力</label>
+    <description>这只阿拉克涅虫族的修复细胞与众不同，它能以非常快的速度自动治愈伤势，甚至是再生出一些已经损失的器官。此外，这种强大的细胞也能给予其抵御酸蚀和阿拉克涅虫酸的伤害。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <regeneration>100</regeneration>
+        <damageFactors>
+					<ARA_AcidBurn>0.1</ARA_AcidBurn>
+          <AcidBurn>0.1</AcidBurn>
+				</damageFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_RemoveIfOtherHediff">
+        <hediffs>
+          <li>ARA_Cycle_Suppression_Hediff</li>
+        </hediffs>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef>
+    <defName>ARA_HiveStrength_Low</defName>
+    <label>虫群健壮</label>
+    <description>阿拉克涅虫族的伤势修复能力相当强大，它们能从各种致命打击中快速恢复。此外，这种强大的细胞也能给予其抵御酸蚀和阿拉克涅虫酸的伤害。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <regeneration>20</regeneration>
+        <damageFactors>
+					<ARA_AcidBurn>0.1</ARA_AcidBurn>
+          <AcidBurn>0.1</AcidBurn>
+				</damageFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_RemoveIfOtherHediff">
+        <hediffs>
+          <li>ARA_HiveStrength</li>
+          <li>ARA_Cycle_Suppression_Hediff</li>
+        </hediffs>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <!-- 勿删——用于记录寿命的hediff，没有会导致寿命组件的工作出现异常 -->
+  <HediffDef Name="ARA_LifespanHediff" >
+    <defName>ARA_LifespanHediff</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.8, 0.9)</defaultLabelColor>
+    <!-- <minSeverity>0.01</minSeverity> -->
+    <initialSeverity>0.01</initialSeverity>
+    <label>寿命记录</label>
+    <description>阿拉克涅虫族记录寿命的hediff，正常情况下你不应该看见这个。</description>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+    <comps>
+      <li Class="ArachnaeSwarm.HediffCompProperties_LifespanDisplay" />
+    </comps>
+  </HediffDef>
+  <HediffDef>
+    <defName>ARA_TemperatureRegulation</defName>
+    <label>冷血动物</label>
+    <description>阿拉克涅虫族是冷血动物，这代表着她们对外界的温度变化更加敏感——在适宜温度下她们将变得敏捷而致命，在不适温度下她们将难以行动。\n\n此类阿拉克涅虫族可以接受在6~36°C的温度下活动，温度接近21°C时会获得额外的意识加成。</description>
+    <hediffClass>Hediff_High</hediffClass>
+    <defaultLabelColor>(0.6, 0.8, 0.9)</defaultLabelColor>
+    <maxSeverity>1.0</maxSeverity>
+    <minSeverity>0.01</minSeverity>
+    <initialSeverity>0.5</initialSeverity>
+    <comps>
+      <li Class="ArachnaeSwarm.HediffCompProperties_Temperature">
+        <minComfortableTemperature>6</minComfortableTemperature>
+        <maxComfortableTemperature>36</maxComfortableTemperature>
+        <severityChangeIn>0.01</severityChangeIn>
+        <severityChangeOut>-0.01</severityChangeOut>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <label>不适</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.5</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <label>适应</label>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>舒适</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ARA_RaceBaseSwarmProduceSwitchHediff</defName>
+    <label>繁育抑制</label>
+    <description>该阿拉克涅督虫已被蜂巢思维禁止进行辅虫的繁育。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.6, 0.6, 0.6)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+  </HediffDef>
+</Defs>

@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchProjectDef Abstract="True" Name="ARA_techBase">
+    <techLevel>Medieval</techLevel>
+    <tab>ARA_ResearchTab</tab>
+    <heldByFactionCategoryTags Inherit="False" />
+  </ResearchProjectDef>
+  <ResearchProjectDef Abstract="True" Name="ARA_techBase_Needtechprint" ParentName="ARA_techBase">
+    <techLevel>Medieval</techLevel>
+    <tab>ARA_ResearchTab</tab>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>0</techprintCommonality>
+    <techprintMarketValue>2500</techprintMarketValue>
+    <hiddenPrerequisites>
+      <li>ARA_Technology_5ESS</li>
+    </hiddenPrerequisites>
+    <heldByFactionCategoryTags>
+      <li>ARA_New_Hive</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <!-- 女皇工艺进化 -->
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Base_Technology</defName>
+    <label>基础基因序列获取</label>
+    <description>解锁虫群的基础科技，允许孵化基本的辅虫和武装器官。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>100</baseCost>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>3.20</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_1WMT</defName>
+    <label>节点WMT-1"突破"</label>
+    <description>允许女皇种和工艺种进化到下一个阶段。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>3000</baseCost>
+    <researchViewX>4.50</researchViewX>
+    <researchViewY>3.20</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>0</techprintCommonality>
+    <techprintMarketValue>1</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>ARA_New_Hive</li>
+    </heldByFactionCategoryTags>
+    <prerequisites>
+      <li>ARA_Base_Technology</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_2WMT</defName>
+    <label>节点WMT-2"突破2"</label>
+    <description>允许女皇种和工艺种进化到下一个阶段。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>7000</baseCost>
+    <researchViewX>9.00</researchViewX>
+    <researchViewY>3.20</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <prerequisites>
+      <li>ARA_Technology_6KYC</li>
+      <li>ARA_Technology_1BAC</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!-- 酸类发展 -->
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_6VXI</defName>
+    <label>节点VXI-6"酸囊"</label>
+    <description>使拥有酸囊的虫族允许喷射强酸击退敌人。</description>
+    <baseCost>150</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.90</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Base_Technology</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_7VXI</defName>
+    <label>节点VXI-7"外置酸袋"</label>
+    <description>允许工艺种孵化新的武器。</description>
+    <baseCost>300</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.90</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_6VXI</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_8VXI</defName>
+    <label>节点VXI-8"巨型酸腺"</label>
+    <description>允许工艺种孵化新的武器。</description>
+    <baseCost>1250</baseCost>
+    <researchViewX>5.50</researchViewX>
+    <researchViewY>0.90</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <hiddenPrerequisites>
+      <li>ARA_Technology_7VXI</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_1WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_9VXI</defName>
+    <label>节点VXI-9"酸雨"</label>
+    <description>允许工艺种孵化新的武器。</description>
+    <baseCost>2000</baseCost>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>1.50</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <hiddenPrerequisites>
+      <li>ARA_Technology_8VXI</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_2WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_10VXI</defName>
+    <label>节点VXI-10"微型天灾"</label>
+    <description>允许工艺种孵化新的武器。</description>
+    <baseCost>3000</baseCost>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>1.50</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <prerequisites>
+      <li>ARA_Technology_9VXI</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_11VXI</defName>
+    <label>节点VXI-11"天灾"</label>
+    <description>允许建造天灾酸烧炮组织，一种强大的防御设施，不仅能解决成片的来犯之敌，也可以跨越地图发起打击。</description>
+    <baseCost>3000</baseCost>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>0.90</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <prerequisites>
+      <li>ARA_Technology_10VXI</li>
+      <li>ARA_Technology_1NPT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!-- 能量发展 -->
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_1THD</defName>
+    <label>节点THD-1"灵能闪电"</label>
+    <description>允许工艺种孵化新的灵能闪电系武器。</description>
+    <baseCost>2500</baseCost>
+    <researchViewX>7.50</researchViewX>
+    <researchViewY>2.70</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_6KYC</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!-- 孵化发展 -->
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_1KYC</defName>
+    <label>节点KYC-1"战士虫"</label>
+    <description>允许女皇种孵化新的虫族——战士种。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>150</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Base_Technology</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_4KYC</defName>
+    <label>节点KYC-4"原虫"</label>
+    <description>允许女皇种孵化新的虫族——原虫种，一种可以寄生在别的种族身上以控制它们的特殊督虫。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>200</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Base_Technology</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_2KYC</defName>
+    <label>节点KYC-2"飞行翼膜"</label>
+    <description>允许女皇种孵化新的虫族——空天种，敏捷而致命的精锐虫族，拥有以飞行姿态穿梭于战场的能力。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>1600</baseCost>
+    <researchViewX>5.50</researchViewX>
+    <researchViewY>4.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_1WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_5KYC</defName>
+    <label>节点KYC-5"巨甲"</label>
+    <description>允许女皇种孵化新的虫族——浓雾种，一种拥有厚重甲壳的大型督虫，可以释放烟雾、阻燃剂和召唤虫族增援的信息素以协助虫群进行集群冲击。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>800</baseCost>
+    <researchViewX>5.50</researchViewX>
+    <researchViewY>4.80</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_1WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_6KYC</defName>
+    <label>节点KYC-6"灵脑"</label>
+    <description>允许女皇种孵化新的虫族——织域种，一种寿命长且拥有强大灵能的特殊虫族，不仅能协助虫群的科研工作，也是一个强大的施法者。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>800</baseCost>
+    <researchViewX>6.50</researchViewX>
+    <researchViewY>2.70</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_1WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_7KYC</defName>
+    <label>节点KYC-7"亲卫"</label>
+    <description>允许女皇种孵化新的虫族——禁卫种，一种寿命较其他虫族更长的精锐虫族，拥有优秀的远程作战能力和社交能力，同时也可以作为指挥官指挥虫群。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>2800</baseCost>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>3.80</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_2WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_6MEN</defName>
+    <label>节点MEN-6"拟线"</label>
+    <description>允许女皇种孵化新的虫族——拟线体，一种出生时躯体便已经被阿拉克涅拟线种寄生的虫族，便宜廉价并且可以快速得到的炮灰，倒是没什么纪律性就是了。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>1800</baseCost>
+    <researchViewX>7.50</researchViewX>
+    <researchViewY>2.10</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_2MED</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!-- 织物发展 -->
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_4DIL</defName>
+    <label>节点DIL-4"女仆"</label>
+    <description>允许工艺种在织物茧孵化新的织物。</description>
+    <baseCost>250</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.50</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Base_Technology</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_5DIL</defName>
+    <label>节点DIL-5"护士"</label>
+    <description>允许工艺种在织物茧孵化新的织物。</description>
+    <baseCost>800</baseCost>
+    <researchViewX>6.50</researchViewX>
+    <researchViewY>3.80</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_1WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_6DIL</defName>
+    <label>节点DIL-6"兔女郎"</label>
+    <description>允许工艺种在织物茧孵化新的织物。</description>
+    <baseCost>800</baseCost>
+    <researchViewX>5.50</researchViewX>
+    <researchViewY>3.80</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_1WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_7DIL</defName>
+    <label>节点DIL-7"花嫁"</label>
+    <description>允许工艺种在织物茧孵化新的织物。</description>
+    <baseCost>1000</baseCost>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <prerequisites>
+      <li>ARA_Technology_2WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_8DIL</defName>
+    <label>节点DIL-8"卫兵"</label>
+    <description>允许工艺种在织物茧孵化新的织物。</description>
+    <baseCost>1800</baseCost>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <prerequisites>
+      <li>ARA_Technology_2WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!-- 棘刺发展 -->
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_5PAV</defName>
+    <label>节点PAV-5"毒刺"</label>
+    <description>允许工艺种孵化新的武器，并允许部分带毒针的虫族进行毒针喷射。</description>
+    <baseCost>200</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Base_Technology</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_6PAV</defName>
+    <label>节点PAV-6"暴雨"</label>
+    <description>允许工艺种孵化新的武器。</description>
+    <baseCost>1000</baseCost>
+    <researchViewX>5.50</researchViewX>
+    <researchViewY>0.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <hiddenPrerequisites>
+      <li>ARA_Technology_5PAV</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_1WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_7PAV</defName>
+    <label>节点PAV-7"血棘"</label>
+    <description>允许工艺种孵化新的武器。</description>
+    <baseCost>1800</baseCost>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>0.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <hiddenPrerequisites>
+      <li>ARA_Technology_6PAV</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_2WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_7XPAV</defName>
+    <label>节点PAV-7X"梭镖"</label>
+    <description>允许工艺种孵化新的武器。</description>
+    <baseCost>2000</baseCost>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>0.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <prerequisites>
+      <li>ARA_Technology_7PAV</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_8PAV</defName>
+    <label>节点PAV-8"千兆炮"</label>
+    <description>允许虫族建造一种强大的防御设施，具有强大的穿甲能力和较高的射速，专擅于对抗重甲目标。</description>
+    <baseCost>2500</baseCost>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>0.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <prerequisites>
+      <li>ARA_Technology_1NPT</li>
+      <li>ARA_Technology_7XPAV</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!-- 近战发展 -->
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_2MEL</defName>
+    <label>节点MEL-2"骨鞭"</label>
+    <description>允许工艺种孵化新的武器。</description>
+    <baseCost>600</baseCost>
+    <researchViewX>5.50</researchViewX>
+    <researchViewY>2.70</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_1WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_3MEL</defName>
+    <label>节点MEL-3"镰爪"</label>
+    <description>允许工艺种孵化新的武器。</description>
+    <baseCost>1200</baseCost>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>0.90</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <hiddenPrerequisites>
+      <li>ARA_Technology_2MEL</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_2WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!-- 建筑发展 -->
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_5ESS</defName>
+    <label>节点ESS-5"精华萃取"</label>
+    <description>允许阿拉克涅虫群建造特殊的活体建筑，将俘虏投入以产出精华素。</description>
+    <baseCost>250</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>4.40</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Base_Technology</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_8POD</defName>
+    <label>节点POD-8"气囊种"</label>
+    <description>允许虫族建造一种特殊的辅虫，可以将物品和虫族以空投的方式送到大地图上的其他地方，不需要燃料。</description>
+    <baseCost>200</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>3.90</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <prerequisites>
+      <li>ARA_Base_Technology</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_1NPT</defName>
+    <label>节点NPT-1"中央塔"</label>
+    <description>允许虫族建造一个中央营养供给设施，它可以自动为链接到的、需要营养的建筑自动补充营养。</description>
+    <baseCost>1800</baseCost>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>0.90</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <prerequisites>
+      <li>ARA_Technology_2WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_5SHL</defName>
+    <label>节点SHL-5"光瘤"</label>
+    <description>允许虫族建造一种可以提供直射光源以供植物生长的特殊菌瘤。</description>
+    <baseCost>250</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.10</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Base_Technology</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_6SHL</defName>
+    <label>节点SHL-6"温度控制"</label>
+    <description>允许虫族建造一种可以控制房间温度的特殊固定辅虫。</description>
+    <baseCost>500</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>3.90</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Base_Technology</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_1TUN</defName>
+    <label>节点TUN-1"坑道种"</label>
+    <description>允许虫族建造一种可以通过挖掘地道连接两地的特殊固定辅虫，以在两地间快速传输人员和物资。</description>
+    <baseCost>2500</baseCost>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>2.10</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <hiddenPrerequisites>
+      <li>ARA_Technology_6SPV</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_2WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_6GUT</defName>
+    <label>节点GUT-6"催化"</label>
+    <description>允许虫利用活体钜菌的催化能力，使虫群可以建造一系列产出建筑。</description>
+    <baseCost>1000</baseCost>
+    <researchViewX>6.50</researchViewX>
+    <researchViewY>0.90</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <hiddenPrerequisites>
+      <li>ARA_Technology_5ESS</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_8VXI</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_2NPT</defName>
+    <label>节点NPT-2"消化腔"</label>
+    <description>允许虫族建造用于存放和消化猎物的茧，溶解猎物为阿拉克涅营养供给塔网络提供额外的生物质传输效率和孵化速度。</description>
+    <baseCost>2000</baseCost>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>3.80</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <prerequisites>
+      <li>ARA_Technology_1NPT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_3NPT</defName>
+    <label>节点NPT-3"蜜晶糕"</label>
+    <description>允许虫族建造生产阿拉克涅蜜晶糕的巢穴，通过分解虫蜜来生产可食用的蜜晶糕。这种在巢穴内加工过的食物可以帮助虫群抵御冷血动物的影响，并且软糯的口感让非虫族殖民者也能乐在其中。</description>
+    <baseCost>2000</baseCost>
+    <researchViewX>13.00</researchViewX>
+    <researchViewY>3.80</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <prerequisites>
+      <li>ARA_Technology_2NPT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_4NPT</defName>
+    <label>节点NPT-4"孵化池"</label>
+    <description>允许虫族建造孵化池。一种专用于批量生产虫族的孵化场地。孵化池的孵化效率比孵化茧更高。</description>
+    <baseCost>1800</baseCost>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>2.10</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <prerequisites>
+      <li>ARA_Technology_1NPT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!-- 作物发展 -->
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_8CPE</defName>
+    <label>节点CPE-8"作物"</label>
+    <description>允许虫族在菌毯上种植一种食用作物，可以依靠菌毯和土地的营养成长，以供巢穴获取生物质。</description>
+    <baseCost>250</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.70</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Base_Technology</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_9CPE</defName>
+    <label>节点CPE-9"蜂刺射手"</label>
+    <description>允许虫族在菌毯上种植一种特殊的作物，会成长为拥有攻击性、向敌人发射毒刺的真菌聚合体。</description>
+    <baseCost>600</baseCost>
+    <researchViewX>6.50</researchViewX>
+    <researchViewY>0.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_6PAV</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!-- 子巢发展 -->
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_6SPV</defName>
+    <label>节点SPV-6"辅虫巢"</label>
+    <description>允许工艺种孵化新的武器。</description>
+    <baseCost>800</baseCost>
+    <researchViewX>5.50</researchViewX>
+    <researchViewY>1.50</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_1WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_7SPV</defName>
+    <label>节点SPV-7"爆裂投射"</label>
+    <description>允许虫族建造一种强大的防御设施，能够向进犯的敌军投射以自杀式袭击为核心的爆裂种辅虫。</description>
+    <baseCost>2500</baseCost>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>1.50</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <hiddenPrerequisites>
+      <li>ARA_Technology_6SPV</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_10VXI</li>
+      <li>ARA_Technology_1NPT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!-- 药物发展 -->
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_2MED</defName>
+    <label>节点MED-2"侵蚀寄生"</label>
+    <description>允许蜜罐种使用拟线种寄生的能力，并在医药茧中解锁拟线种抑制剂的制作。</description>
+    <baseCost>1600</baseCost>
+    <researchViewX>6.50</researchViewX>
+    <researchViewY>2.10</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_1MED</li>
+      <li>ARA_Technology_6SPV</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!-- 进化发展 -->
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_1VTE</defName>
+    <label>节点VTE-1"护卫者"</label>
+    <description>允许盾头种进行定向进化，抛弃其产出甲壳素和建造建筑的能力以换取战斗能力、移动能力和冲撞攻击的技能。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>1200</baseCost>
+    <researchViewX>6.50</researchViewX>
+    <researchViewY>4.80</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <hiddenPrerequisites>
+      <li>ARA_Technology_1KYC</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_5KYC</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_1MED</defName>
+    <label>节点MED-1"疗愈种"</label>
+    <description>允许蜜罐种进行定向进化，抛弃生产虫蜜的能力，以强化其自身的医疗能力并解锁孵化医药茧的技能。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>1200</baseCost>
+    <researchViewX>5.50</researchViewX>
+    <researchViewY>2.10</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_1WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_4CLO</defName>
+    <label>节点CLO-4"追猎种"</label>
+    <description>允许战士种进行定向进化，牺牲其使用远程武器的能力以换取强大的近战和永久隐身的能力。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>1800</baseCost>
+    <researchViewX>5.50</researchViewX>
+    <researchViewY>5.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <hiddenPrerequisites>
+      <li>ARA_Technology_1KYC</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_1WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_1BAC</defName>
+    <label>节点BAC-1"育菌种"</label>
+    <description>允许迷雾种进行定向进化，牺牲其护甲和喷射信息素的能力以换成生产虫群所需高级资源"活化钜菌"的能力。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>1000</baseCost>
+    <researchViewX>7.50</researchViewX>
+    <researchViewY>3.80</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_1WMT</li>
+      <li>ARA_Technology_5KYC</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_6LOD</defName>
+    <label>节点LOD-6"巢之主"</label>
+    <description>允许空天种进行定向进化，以牺牲高速和高空机动的能力换取向敌人投射大量天巢种的能力。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>3500</baseCost>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>5.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <hiddenPrerequisites>
+      <li>ARA_Technology_2KYC</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_2WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_3CON</defName>
+    <label>节点CON-3"建造者"</label>
+    <description>允许盾头种进行定向进化，抛弃其防御能力以换取更强大的甲壳素产出能力和建造建筑的能力。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>300</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.70</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Base_Technology</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_8FEL</defName>
+    <label>节点FEL-8"爆燃腔"</label>
+    <description>允许蜜罐种进行定向进化，抛弃生产虫蜜的能力，以获得防御力增强、生产化合燃料和喷射火焰的能力。\n\n阿拉克涅虫群所有需要蓝图的科技，其蓝图只能通过女皇种的基因试验卵获取。</description>
+    <baseCost>300</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.10</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Base_Technology</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!-- 改造发展 -->
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_1EVO</defName>
+    <label>节点EVO-1"初级进化"</label>
+    <description>允许实行新的阿拉克涅进化手术，使得阿拉克涅虫族获得更大的营养储存能力和更厚的甲壳。</description>
+    <baseCost>250</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.40</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>ARA_Technology_5ESS</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_3EVO</defName>
+    <label>节点EVO-3"滑行翼膜"</label>
+    <description>允许实行新的阿拉克涅进化手术，允许阿拉克涅虫族在腿部植入滑行翼膜，在菌毯上获得更高的移动速度。</description>
+    <baseCost>1000</baseCost>
+    <researchViewX>6.50</researchViewX>
+    <researchViewY>4.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <hiddenPrerequisites>
+      <li>ARA_Technology_5ESS</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_2KYC</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_4EVO</defName>
+    <label>节点EVO-4"爆裂蜕荚"</label>
+    <description>允许实行新的阿拉克涅进化手术，允许阿拉克涅虫族使用蜕荚孵化能发起自杀性袭击的爆裂种。</description>
+    <baseCost>1200</baseCost>
+    <researchViewX>6.50</researchViewX>
+    <researchViewY>1.50</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <hiddenPrerequisites>
+      <li>ARA_Technology_5ESS</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_8VXI</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_5EVO</defName>
+    <label>节点EVO-5"反应甲壳"</label>
+    <description>允许实行新的阿拉克涅进化手术，允许阿拉克涅虫族植入可以抵挡一次任意数额伤害的反应甲壳。</description>
+    <baseCost>1500</baseCost>
+    <researchViewX>7.50</researchViewX>
+    <researchViewY>4.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <hiddenPrerequisites>
+      <li>ARA_Technology_5ESS</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_1VTE</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_6EVO</defName>
+    <label>节点EVO-6"强化肌腱"</label>
+    <description>允许实行新的阿拉克涅进化手术，允许阿拉克涅虫族植入可以支持跳跃能力的肌腱。</description>
+    <baseCost>1500</baseCost>
+    <researchViewX>6.50</researchViewX>
+    <researchViewY>5.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <hiddenPrerequisites>
+      <li>ARA_Technology_5ESS</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_4CLO</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_7EVO</defName>
+    <label>节点EVO-7"甲壳棘刺"</label>
+    <description>允许实行新的阿拉克涅进化手术，允许阿拉克涅虫族植入会自动攻击附近敌人的棘刺腔管。</description>
+    <baseCost>1500</baseCost>
+    <researchViewX>7.50</researchViewX>
+    <researchViewY>4.80</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding>
+    <hiddenPrerequisites>
+      <li>ARA_Technology_5ESS</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_1VTE</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_8EVO</defName>
+    <label>节点EVO-8"玻璃钢壳"</label>
+    <description>允许实行新的阿拉克涅进化手术，允许阿拉克涅虫族在甲壳植入玻璃钢以获得强大防御力。</description>
+    <baseCost>2500</baseCost>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>4.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <hiddenPrerequisites>
+      <li>ARA_Technology_5ESS</li>
+    </hiddenPrerequisites>
+    <hiddenPrerequisites>
+      <li>ARA_Technology_5EVO</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_2WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="ARA_techBase">
+    <defName>ARA_Technology_9EVO</defName>
+    <label>节点EVO-9"生理抑制"</label>
+    <description>允许实行新的阿拉克涅进化手术，允许阿拉克涅虫族以丧失自愈能力为代价摆脱寿命的限制。</description>
+    <baseCost>4000</baseCost>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>3.80</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <hiddenPrerequisites>
+      <li>ARA_Technology_5ESS</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>ARA_Technology_2WMT</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!-- 共生肌群发展 -->
+  <ResearchProjectDef ParentName="ARA_techBase_Needtechprint">
+    <defName>ARA_Technology_2SYM</defName>
+    <label>节点SYM-2"霜结体"</label>
+    <description>允许阿拉克涅虫族建造特殊的活体建筑——阿拉克涅共生肌群，一种可以和督虫融合变成的无意识组织体，能为督虫提供强大的战斗力。\n\n霜结体共生肌群可以支持与其融合的阿拉克涅督虫使用多种急冻类武装，可以在控制大范围人群和快速点杀高价值目标间切换。</description>
+    <baseCost>4000</baseCost>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>4.30</researchViewY>
+    <requiredResearchBuilding>ARA_ResearchBench</requiredResearchBuilding> <!-- ARA_MorphableResearchBench-->
+    <prerequisites>
+      <li>ARA_Technology_8EVO</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>

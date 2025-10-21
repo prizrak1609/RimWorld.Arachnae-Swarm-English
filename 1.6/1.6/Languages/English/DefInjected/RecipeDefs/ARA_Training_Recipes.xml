@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="ARA_SkillTraining_Abstract" Abstract="True">
+    <description>根据选择的技能进行等级训练，没有花销，也不会产出什么东西，仅仅是获得工作的经验值。\n\n技能训练属于“基本”类型工作，如果不希望虫群一直训练，可以将该类型工作优先级降低。</description>
+    <jobString>训练技能中。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+    </ingredients>
+    <products>
+    </products>
+    <requiredGiverWorkType>BasicWorker</requiredGiverWorkType>
+    <workAmount>300</workAmount>
+    <effectWorking>Smith</effectWorking>
+    <!-- <soundWorking>Recipe_Surgery</soundWorking> -->
+    <workSkillLearnFactor>1</workSkillLearnFactor>
+    <recipeUsers>
+      <li>ARA_SkillTraining_Building</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <!-- 射击技能训练 -->
+  <RecipeDef ParentName="ARA_SkillTraining_Abstract">
+    <defName>ARA_TrainShooting</defName>
+    <label>技能训练（射击）</label>
+    <workSkill>Shooting</workSkill>
+    <requiredGiverWorkType>BasicWorker</requiredGiverWorkType>
+    <skillRequirements>
+      <Shooting>0</Shooting>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- 近战技能训练 -->
+  <RecipeDef ParentName="ARA_SkillTraining_Abstract">
+    <defName>ARA_TrainMelee</defName>
+    <label>技能训练（近战）</label>
+    <workSkill>Melee</workSkill>
+    <skillRequirements>
+      <Melee>0</Melee>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- 建造技能训练 -->
+  <RecipeDef ParentName="ARA_SkillTraining_Abstract">
+    <defName>ARA_TrainConstruction</defName>
+    <label>技能训练（建造）</label>
+    <workSkill>Construction</workSkill>
+    <skillRequirements>
+      <Construction>0</Construction>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- 采矿技能训练 -->
+  <RecipeDef ParentName="ARA_SkillTraining_Abstract">
+    <defName>ARA_TrainMining</defName>
+    <label>技能训练（采矿）</label>
+    <workSkill>Mining</workSkill>
+    <skillRequirements>
+      <Mining>0</Mining>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- 烹饪技能训练 -->
+  <RecipeDef ParentName="ARA_SkillTraining_Abstract">
+    <defName>ARA_TrainCooking</defName>
+    <label>技能训练（烹饪）</label>
+    <workSkill>Cooking</workSkill>
+    <skillRequirements>
+      <Cooking>0</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- 种植技能训练 -->
+  <RecipeDef ParentName="ARA_SkillTraining_Abstract">
+    <defName>ARA_TrainPlants</defName>
+    <label>技能训练（种植）</label>
+    <workSkill>Plants</workSkill>
+    <skillRequirements>
+      <Plants>0</Plants>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- 动物技能训练 -->
+  <RecipeDef ParentName="ARA_SkillTraining_Abstract">
+    <defName>ARA_TrainAnimals</defName>
+    <label>技能训练（驯兽）</label>
+    <workSkill>Animals</workSkill>
+    <skillRequirements>
+      <Animals>0</Animals>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- 医术技能训练 -->
+  <RecipeDef ParentName="ARA_SkillTraining_Abstract">
+    <defName>ARA_TrainMedicine</defName>
+    <label>技能训练（医疗）</label>
+    <workSkill>Medicine</workSkill>
+    <skillRequirements>
+      <Medicine>0</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- 社交技能训练 -->
+  <RecipeDef ParentName="ARA_SkillTraining_Abstract">
+    <defName>ARA_TrainSocial</defName>
+    <label>技能训练（社交）</label>
+    <workSkill>Social</workSkill>
+    <skillRequirements>
+      <Social>0</Social>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- 手工技能训练 -->
+  <RecipeDef ParentName="ARA_SkillTraining_Abstract">
+    <defName>ARA_TrainCrafting</defName>
+    <label>技能训练（手工）</label>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>0</Crafting>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- 艺术技能训练 -->
+  <RecipeDef ParentName="ARA_SkillTraining_Abstract">
+    <defName>ARA_TrainArtistic</defName>
+    <label>技能训练（艺术）</label>
+    <workSkill>Artistic</workSkill>
+    <skillRequirements>
+      <Artistic>0</Artistic>
+    </skillRequirements>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <StatDef>
+    <defName>ARA_IncubationSpeedFactor</defName>
+    <label>孵化速度</label>
+    <description>应用于孵化池的孵化速度乘数。</description>
+    <category>Building</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.001</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showIfUndefined>false</showIfUndefined>
+  </StatDef>
+  <StatDef>
+    <defName>NutrientTransmissionEfficiency</defName>
+    <label>生物质传输损耗</label>
+    <description>减少传输生物质时的燃料消耗。最终消耗量将乘以 (1 - 效率)。</description>
+    <category>Building</category>
+    <defaultBaseValue>0</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <displayPriorityInCategory>8000</displayPriorityInCategory>
+  </StatDef>
+
+
+  <StatCategoryDef>
+    <defName>ARA_Incubation_StatCategory</defName>
+    <label>孵化相关数据</label>
+    <displayOrder>100</displayOrder>
+  </StatCategoryDef>
+  <StatDef>
+    <defName>ARA_IncubationCost</defName>
+    <label>孵化所需营养</label>
+    <description>孵化该武装器官/织物所需的总营养</description>
+    <category>Basics</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>FloatOne</toStringStyle>
+    <formatString>{0} 份</formatString>
+    <!-- <minifiedThingInherits>true</minifiedThingInherits> -->
+    <displayPriorityInCategory>5010</displayPriorityInCategory>
+    <!-- <showOnUnhaulables>false</showOnUnhaulables> -->
+    <showIfUndefined>false</showIfUndefined>
+    <cacheable>true</cacheable>
+  </StatDef>
+  <StatDef>
+    <defName>ARA_IncubationTime</defName>
+    <label>孵化所需时间</label>
+    <description>孵化该武装器官/织物所需的时间</description>
+    <category>Basics</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>FloatOne</toStringStyle>
+    <formatString>{0} 天</formatString>
+    <!-- <minifiedThingInherits>true</minifiedThingInherits> -->
+    <displayPriorityInCategory>5011</displayPriorityInCategory>
+    <!-- <showOnUnhaulables>false</showOnUnhaulables> -->
+    <showIfUndefined>false</showIfUndefined>
+    <cacheable>true</cacheable>
+  </StatDef>
+
+  <StatDef>
+    <defName>ARA_IcezKillingFactor</defName>
+    <label>急冻破坏阈值</label>
+    <description>因受到冷冻伤害，使得身体部件因冷冻被破坏所需受到的部件血量比例</description>
+    <category>PawnHealth</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <hideAtValue>1</hideAtValue>
+    <minValue>0</minValue>
+    <displayPriorityInCategory>2200</displayPriorityInCategory>
+    <showIfUndefined>false</showIfUndefined>
+  </StatDef>
+</Defs>

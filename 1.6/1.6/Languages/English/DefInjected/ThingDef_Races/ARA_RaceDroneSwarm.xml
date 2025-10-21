@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AnimalThingBase" Name="ARA_BaseDroneSwarm" Abstract="True">
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <PsychicSensitivity>1</PsychicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <Flammability>1</Flammability>
+      <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+      <ComfyTemperatureMax>250</ComfyTemperatureMax>
+      <LeatherAmount>0</LeatherAmount>
+      <MeatAmount>0</MeatAmount>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+      <VacuumResistance>0</VacuumResistance>
+    </statBases>
+    <receivesSignals>true</receivesSignals>
+    <tradeability>None</tradeability>
+    <race>
+      <baseHealthScale>0.5</baseHealthScale>
+      <alwaysAwake>true</alwaysAwake>
+      <fleshType>Insectoid</fleshType>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <hasCorpse>false</hasCorpse>
+      <foodType>None</foodType>
+      <bloodDef>Filth_BloodInsect</bloodDef>
+      <lifeExpectancy>1</lifeExpectancy>
+      <disableIgniteVerb>true</disableIgniteVerb>
+      <trainability>None</trainability>
+      <soundCallIntervalRange>1000~2000</soundCallIntervalRange>
+      <soundCallIntervalFriendlyFactor>2</soundCallIntervalFriendlyFactor>
+      <thinkTreeConstant>SentryDroneConstant</thinkTreeConstant>
+      <hideTrainingTab>true</hideTrainingTab>
+      <intelligence>ToolUser</intelligence>
+      <thinkTreeMain>Drone</thinkTreeMain>
+      <canFlyInVacuum>true</canFlyInVacuum>
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Spelopede_Pain</soundWounded>
+          <soundDeath>Pawn_Spelopede_Death</soundDeath>
+          <soundCall>Pawn_Spelopede_Call</soundCall>
+          <soundAngry>Pawn_Spelopede_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+    </race>
+    <tools>
+    </tools>
+    <killedLeavings>
+    </killedLeavings>
+    <comps>
+      <li Class="CompProperties_MechPowerCell">
+        <totalPowerTicks>3400</totalPowerTicks>                <!-- 2 hours -->
+        <labelOverride>寿命</labelOverride>
+        <tooltipOverride>这种特殊的阿拉克涅辅虫从出生起就走在死亡的道路上了——它们的寿命就是如此短暂。</tooltipOverride>
+        <showGizmoOnNonPlayerControlled>true</showGizmoOnNonPlayerControlled>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_BaseDroneSwarm">
+    <defName>ArachnaeBase_Race_Acidcut</defName>
+    <label>阿拉克涅酸噬种</label>
+    <description>阿拉克涅辅虫之一，智力低下，一般被作为活体炮弹打出，击中敌人后若是还没散架，就会继续依靠带酸液的颚撕咬敌军。</description>
+    <race>
+      <thinkTreeConstant>WarUrchinConstant</thinkTreeConstant>
+      <baseBodySize>0.3</baseBodySize>
+      <!-- <hasCorpse>false</hasCorpse> -->
+      <body>BeetleLikeWithClaw</body>
+    </race>
+    <statBases>
+      <MoveSpeed>6</MoveSpeed>
+    </statBases>
+    <tools Inherit="False">
+      <li>
+        <label>酸性巨颚</label>
+        <capacities>
+          <li>ARA_AcidCut</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="ARA_BaseDroneSwarm">
+    <defName>ArachnaeBase_Race_Skyhive</defName>
+    <label>阿拉克涅天巢种</label>
+    <description>阿拉克涅辅虫之一，智力低下，通常被督虫们当成导弹打出，拥有在飞行中调整姿态以追踪敌军的能力。命中敌军后，这些虫族会趴在敌军身上进行啃咬，直到鳌刺松动而掉在地上。</description>
+    <race>
+      <flightStartChanceOnJobStart>1.0</flightStartChanceOnJobStart>
+      <thinkTreeConstant>WarUrchinConstant</thinkTreeConstant>
+      <baseBodySize>0.3</baseBodySize>
+      <!-- <hasCorpse>false</hasCorpse> -->
+      <body>BeetleLikeWithClaw</body>
+    </race>
+    <statBases>
+      <MoveSpeed>6</MoveSpeed>
+
+      <MaxFlightTime>9999</MaxFlightTime>
+      <FlightCooldown>0</FlightCooldown>
+    </statBases>
+    <tools Inherit="False">
+      <li>
+        <label>巨颚</label>
+        <capacities>
+          <li>ARA_Bite</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="ARA_BaseDroneSwarm">
+    <defName>ArachnaeBase_Race_Acidling</defName>
+    <label>阿拉克涅爆裂种</label>
+    <description>阿拉克涅辅虫之一，智力低下，一般以自杀式袭击的方式伤害敌军，靠近敌人后就会引爆酸囊产生危险的酸性雾气。</description>
+    <race>
+      <thinkTreeConstant>HunterDroneConstant</thinkTreeConstant>
+      <baseBodySize>0.25</baseBodySize>
+      <!-- <hasCorpse>false</hasCorpse> -->
+      <body>BeetleLikeWithClaw</body>
+      <baseHealthScale>1</baseHealthScale>
+    </race>
+    <statBases>
+      <MoveSpeed>6</MoveSpeed>
+    </statBases>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_HunterExplosion">
+        <explosionRadius>3.9</explosionRadius> <!-- Mapped from smokeRadius -->
+        <explosionDamageType>ARA_AcidBurn</explosionDamageType>
+        <explosionDamageAmount>40</explosionDamageAmount>
+        <armorPenetration>0.5</armorPenetration>
+        <explosionSound>Explosion_Smoke</explosionSound>
+        <postExplosionSpawnThingDef>ARA_AcidGasCloud</postExplosionSpawnThingDef>
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      </li>
+    </comps>
+    <tools Inherit="False">
+      <li>
+        <label>酸性巨颚</label>
+        <capacities>
+          <li>ARA_AcidCut</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ToolCapacityDef>
+    <defName>ARA_AcidCut</defName>
+    <label>酸性撕咬</label>
+  </ToolCapacityDef>
+  <ManeuverDef>
+    <defName>ARA_AcidCut</defName>
+    <requiredCapacity>ARA_AcidCut</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>ARA_AcidCut_Damage</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  <ToolCapacityDef>
+    <defName>ARA_Bite</defName>
+    <label>撕咬</label>
+  </ToolCapacityDef>
+  <ManeuverDef>
+    <defName>ARA_Bite</defName>
+    <requiredCapacity>ARA_Bite</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>Bite</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+</Defs>

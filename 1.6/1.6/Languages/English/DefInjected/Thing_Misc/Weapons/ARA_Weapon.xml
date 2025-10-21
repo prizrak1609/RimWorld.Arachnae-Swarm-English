@@ -1,0 +1,2350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- 骨 -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>ARA_MW_Bone_Sword</defName>
+    <label>武装器官"骨刃"</label>
+    <description>阿拉克涅虫群督虫使用基础近战武装器官，通过多根外露神经束与督虫的辅肢相连。尽管它只是一块坚硬的剑形骨片，但是丝毫不影响那些拥有无穷蛮力的阿拉克涅虫群督虫使用它将侵犯虫巢之敌一一斩首。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon</ThingDef>
+    </descriptionHyperlinks>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Melee</li>
+      <li>ARA_Armed_Organ_T1</li>
+      <li>ARA_MW_Bone_Sword</li>
+    </weaponTags>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_MW_Bone_Sword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <uiIconScale>1</uiIconScale>
+    <!-- <equippedAngleOffset>-65</equippedAngleOffset> -->
+    <techLevel>Medieval</techLevel>
+    <!-- <equippedAngleOffset>-25</equippedAngleOffset> -->
+    <costStuffCount>0</costStuffCount>
+    <stuffCategories Inherit="False" />
+    <costList Inherit="False">
+      <ARA_Carapace>50</ARA_Carapace>
+    </costList>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>5</Mass>
+      <ARA_IncubationCost>25</ARA_IncubationCost>
+      <ARA_IncubationTime>2.5</ARA_IncubationTime>
+    </statBases>
+    <tools Inherit="False">
+      <li>
+        <label>横扫</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.3</cooldownTime>
+        <armorPenetration>0.50</armorPenetration>
+      </li>
+      <li>
+        <label>下砸</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <armorPenetration>0.20</armorPenetration>
+        <cooldownTime>1.5</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>15</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite Inherit="False" />
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon</li>
+          <li>ARA_Cocoon_Weapon_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>ARA_MW_Cartilage_Whip</defName>
+    <label>武装器官"软骨鞭"</label>
+    <description>阿拉克涅虫群督虫使用的近战武装器官，以节节软骨交错形成强韧的鞭子。这种武器在打击敌人时不仅会发出骇人的声响，还会使得对手疼痛难忍，并且以击打为主的钝器伤害也能很好地规避敌方装甲的防御。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon_1Stage</ThingDef>
+    </descriptionHyperlinks>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Melee</li>
+      <li>ARA_Armed_Organ_T2</li>
+    </weaponTags>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_MW_Cartilage_Whip</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <uiIconScale>1</uiIconScale>
+    <!-- <equippedAngleOffset>-65</equippedAngleOffset> -->
+    <techLevel>Medieval</techLevel>
+    <!-- <equippedAngleOffset>-25</equippedAngleOffset> -->
+    <costStuffCount>0</costStuffCount>
+    <stuffCategories Inherit="False" />
+    <costList Inherit="False">
+      <ARA_Carapace>50</ARA_Carapace>
+    </costList>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>5</Mass>
+      <ARA_IncubationCost>120</ARA_IncubationCost>
+      <ARA_IncubationTime>5</ARA_IncubationTime>
+    </statBases>
+    <tools Inherit="False">
+      <li>
+        <label>鞭打</label>
+        <capacities>
+          <li>ARA_Whip</li>
+        </capacities>
+        <power>4</power>
+        <armorPenetration>0.85</armorPenetration>
+        <cooldownTime>1.75</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>6</amount>
+          </li>
+        </extraMeleeDamages>
+        <soundMeleeHit>ARA_MW_Cartilage_Whip_Hit</soundMeleeHit>
+        <soundMeleeMiss>ARA_MW_Cartilage_Whip_Hit</soundMeleeMiss>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_2MEL</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon_1Stage</li>
+          <li>ARA_Cocoon_Weapon_1Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+    </comps>
+  </ThingDef>
+  <ToolCapacityDef>
+    <defName>ARA_Whip</defName>
+    <label>鞭打</label>
+  </ToolCapacityDef>
+  <ManeuverDef>
+    <defName>ARA_Whip</defName>
+    <requiredCapacity>ARA_Whip</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>ARA_Whip_Damage</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>ARA_MW_Scything_Talons</defName>
+    <label>武装器官"镰爪"</label>
+    <description>阿拉克涅虫群督虫使用的近战武装器官，状似一柄巨型镰刀，可以和辅肢通过神经束进行连接。得益于其巨大的体积，其每次挥击将造成范围性的伤害，一次性可以击倒多个相邻目标。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon_2Stage</ThingDef>
+    </descriptionHyperlinks>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Melee</li>
+      <li>ARA_Armed_Organ_T3</li>
+    </weaponTags>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_MW_Scything_Talons</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <!-- <equippedAngleOffset>-65</equippedAngleOffset> -->
+    <techLevel>Medieval</techLevel>
+    <!-- <equippedAngleOffset>-25</equippedAngleOffset> -->
+    <costStuffCount>0</costStuffCount>
+    <stuffCategories Inherit="False" />
+    <costList Inherit="False">
+      <ARA_Carapace>50</ARA_Carapace>
+    </costList>
+    <statBases>
+      <MarketValue>350</MarketValue>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>5</Mass>
+      <ARA_IncubationCost>350</ARA_IncubationCost>
+      <ARA_IncubationTime>12</ARA_IncubationTime>
+    </statBases>
+    <tools Inherit="False">
+      <li>
+        <label>挥击</label>
+        <capacities>
+          <li>ARA_MW_Scything_Talons_Cut</li>
+        </capacities>
+        <power>25</power>
+        <armorPenetration>1.25</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_3MEL</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon_2Stage</li>
+          <li>ARA_Cocoon_Weapon_2Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_Cleave">
+        <cleaveAngle>90</cleaveAngle>
+        <cleaveRange>2.5</cleaveRange>
+        <cleaveDamageFactor>0.5</cleaveDamageFactor>
+        <damageDowned>false</damageDowned>
+        <explosionDamageDef>Cut</explosionDamageDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ToolCapacityDef>
+    <defName>ARA_MW_Scything_Talons_Cut</defName>
+    <label>镰爪挥击</label>
+  </ToolCapacityDef>
+  <ManeuverDef>
+    <defName>ARA_MW_Scything_Talons_Cut</defName>
+    <requiredCapacity>ARA_MW_Scything_Talons_Cut</requiredCapacity>
+    <verb>
+      <verbClass>ArachnaeSwarm.Verb_MeleeAttack_Cleave</verbClass>
+      <meleeDamageDef>Cut</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+
+  <!-- 针 -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ARA_RW_Basic_Fist_Needle_Gun</defName>
+    <label>武装器官"拳针枪"</label>
+    <description>阿拉克涅虫群督虫使用基础远程武装器官，外表就像一只拳套，可以通过神经束缠绕接在阿拉克涅督虫的辅肢上。这种武器小巧轻盈，虽然射程很短，但是面对敌人时能喷出一整排的带毒尖刺，把对手扎个透心凉。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Basic_Fist_Needle_Gun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <uiIconScale>1.3</uiIconScale>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_5PAV</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>0.5</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>15</ARA_IncubationCost>
+      <ARA_IncubationTime>1</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>0.25</warmupTime>
+        <defaultProjectile>Bullet_ARA_RW_Basic_Fist_Needle_Gun</defaultProjectile>
+        <range>18</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>SpitterSpit</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ_Small_Ranged_Needle</li>
+    </weaponTags>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <tools Inherit="False">
+      <li>
+        <label>拳针枪拳击</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <armorPenetration>0.25</armorPenetration>
+        <cooldownTime>1.25</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon</li>
+          <li>ARA_Cocoon_Weapon_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Weapon_Damage_Toxid</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>1</min>
+          <max>1</max>
+        </numTraitsRange>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet" Name="Bullet_ARA_RW_Basic_Fist_Needle_Gun">
+    <defName>Bullet_ARA_RW_Basic_Fist_Needle_Gun</defName>
+    <label>毒针</label>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Mote/ARA_Spike_Shell</texPath>
+      <graphicClass>Graphic_Single_AgeSecs</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(0.5,0.75)</drawSize>
+      <color>(117, 204, 49, 250)</color>
+    </graphicData>
+    <projectile>
+      <damageDef>ARA_Fist_Needle</damageDef>
+      <damageAmountBase>2</damageAmountBase>
+      <armorPenetrationBase>0.25</armorPenetrationBase>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ARA_RW_Toxic_Needle_MG</defName>
+    <label>武装器官"风暴刺针枪"</label>
+    <description>阿拉克涅虫群督虫所使用的武装器官，拥有五排刺针管道，可以在联结神经束的指挥下交替发射大量的毒针，虽然准度较差但是威力不逊色于人类所使用的机枪。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon_1Stage</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Toxic_Needle_MG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <uiIconScale>1</uiIconScale>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_6PAV</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>4</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>150</ARA_IncubationCost>
+      <ARA_IncubationTime>6</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>ArachnaeSwarm.Verb_ShootWithOffset</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>0.5</warmupTime>
+        <defaultProjectile>Bullet_ARA_RW_Toxic_Needle_MG</defaultProjectile>
+        <range>25.9</range>
+        <burstShotCount>36</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <soundCast>SpitterSpit</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Ranged</li>
+      <li>ARA_Armed_Organ_T2</li>
+      <li>ARA_Armed_Organ_Small_Ranged_Needle</li>
+    </weaponTags>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon_1Stage</li>
+          <li>ARA_Cocoon_Weapon_1Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Weapon_Damage_Toxid</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>1</min>
+          <max>1</max>
+        </numTraitsRange>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ModExtension_ShootWithOffset">
+        <offsets>
+          <li>(0, -1)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="Bullet_ARA_RW_Basic_Fist_Needle_Gun" Name="Bullet_ARA_RW_Toxic_Needle_MG">
+    <defName>Bullet_ARA_RW_Toxic_Needle_MG</defName>
+    <label>毒针</label>
+    <projectile>
+      <damageDef>ARA_Fist_Needle</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ARA_RW_Toxic_Needle_SG</defName>
+    <label>武装器官"绽放刺枪"</label>
+    <description>阿拉克涅虫群督虫所使用的武装器官，拥有双联装多排刺针短程管道，发射精度较差但是一次可以发射大量弹药，威力丝毫不逊色于人类的霰弹枪。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon_1Stage</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Toxic_Needle_SG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <uiIconScale>1</uiIconScale>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_6PAV</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>650</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>4</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>150</ARA_IncubationCost>
+      <ARA_IncubationTime>6</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>ArachnaeSwarm.Verb_ShootShotgunWithOffset</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>1.2</warmupTime>
+        <defaultProjectile>Bullet_ARA_RW_Basic_Fist_Needle_Gun_SG</defaultProjectile>
+        <range>15</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <soundCast>SpitterSpit</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Ranged</li>
+      <li>ARA_Armed_Organ_T2</li>
+      <li>ARA_Armed_Organ_Small_Ranged_Needle</li>
+    </weaponTags>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon_1Stage</li>
+          <li>ARA_Cocoon_Weapon_1Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Weapon_Damage_Toxid</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>1</min>
+          <max>1</max>
+        </numTraitsRange>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ModExtension_ShootWithOffset">
+        <offsets>
+          <li>(0, -1)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="Bullet_ARA_RW_Toxic_Needle_MG">
+    <defName>Bullet_ARA_RW_Basic_Fist_Needle_Gun_SG</defName>
+    <label>毒针</label>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ShotgunExtension">
+        <pelletCount>5</pelletCount>
+      </li>
+    </modExtensions>
+    <projectile>
+      <armorPenetrationBase>0.7</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>ARA_Bullet_SniperCannon</defName>
+    <label>阿拉克涅棘刺</label>
+    <thingClass>ArachnaeSwarm.Projectile_WulaLineAttack</thingClass>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.Wula_PathPierce_Extension">
+        <maxHits>0</maxHits>        <!-- 无限穿透 -->
+        <damageFalloff>0</damageFalloff>        <!-- 无伤害衰减 -->
+        <preventFriendlyFire>true</preventFriendlyFire>        <!-- 是否阻止友方火力 -->
+
+        <!-- 击中特效属性 -->
+        <impactEffecter>ARA_RW_Lighting_Cannon_Hit</impactEffecter>
+      </li>
+    </modExtensions>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Mote/ARA_Spike_Shell</texPath>
+      <graphicClass>Graphic_Single_AgeSecs</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(1,2)</drawSize>
+      <color>(0.9,0.9,0.9,1)</color>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>55</damageAmountBase>
+      <speed>120</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ARA_RW_Basic_SniperCannon_Gun</defName>
+    <label>武装器官"血链棘刺炮"</label>
+    <description>阿拉克涅虫群的大型武装器官，拥有张牙舞爪的侵略性外形，其口器与一连串可以增生巨型棘刺的血链相连，并通过肌肉压缩获得极高的膛压以射出腔内破坏力惊人的棘刺。虫群从人类的武器上获得了灵感，为血链刺加入了伴生激素，使得血链棘刺炮的射速会随着射击的持续而增加。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon_2Stage</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Basic_SniperCannon_Gun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <uiIconScale>0.75</uiIconScale>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_7PAV</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>450</ARA_IncubationCost>
+      <ARA_IncubationTime>15</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>ArachnaeSwarm.Verb_ShootWithOffset</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>ARA_Bullet_SniperCannon</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <minRange>5.9</minRange>
+        <range>45.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_TurretSniper</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>18</muzzleFlashScale>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>50</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Ranged</li>
+      <li>ARA_Armed_Organ_T2</li>
+      <li>ARA_Armed_Organ_Huge_Ranged_Needle</li>
+    </weaponTags>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon_2Stage</li>
+          <li>ARA_Cocoon_Weapon_2Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_GiveHediffOnShot">
+        <hediffDef>ARA_ChainReload</hediffDef>
+        <severityToAdd>1</severityToAdd>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Huge_Weapon</li>
+          <li>ARA_Weapon_ChainReload</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>2</min>
+          <max>2</max>
+        </numTraitsRange>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ModExtension_ShootWithOffset">
+        <offsets>
+          <li>(0, -1)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>ARA_Bullet_Rail</defName>
+    <label>阿拉克涅穿梭棘刺</label>
+    <thingClass>ArachnaeSwarm.Projectile_WulaLineAttack</thingClass>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.Wula_PathPierce_Extension">
+        <maxHits>-1</maxHits>        <!-- 无限穿透 -->
+        <damageFalloff>0</damageFalloff>        <!-- 无伤害衰减 -->
+        <preventFriendlyFire>true</preventFriendlyFire>        <!-- 是否阻止友方火力 -->
+
+        <!-- 击中特效属性 -->
+        <impactEffecter>ARA_RW_Lighting_Cannon_Hit</impactEffecter>
+      </li>
+    </modExtensions>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Mote/ARA_Spike_Shell</texPath>
+      <graphicClass>Graphic_Single_AgeSecs</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(1,2)</drawSize>
+      <color>(0.9,0.9,0.9,1)</color>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>85</damageAmountBase>
+      <speed>130</speed>
+      <stoppingPower>5</stoppingPower>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ARA_RW_Basic_Rail_Gun</defName>
+    <label>武装器官"宽刃梭镖枪"</label>
+    <description>阿拉克涅虫群的武装器官，虽然体积不是很大，但是通过肌肉压缩射出的棘刺穿透力极强，可以打穿成排的敌军。除此之外，这种武装器官也在下颌增生了一把小型骨刃，以供虫群使用其抵御近身威胁。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon_2Stage</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Basic_Rail_Gun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_7XPAV</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>1400</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.85</AccuracyMedium>
+      <AccuracyLong>1.0</AccuracyLong>
+      <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>450</ARA_IncubationCost>
+      <ARA_IncubationTime>15</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>ArachnaeSwarm.Verb_ShootWithOffset</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>ARA_Bullet_Rail</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <minRange>5.9</minRange>
+        <range>45.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_TurretSniper</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>18</muzzleFlashScale>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>50</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Ranged</li>
+      <li>ARA_Armed_Organ_T2</li>
+      <li>ARA_Armed_Organ_Small_Ranged_Needle</li>
+    </weaponTags>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon_2Stage</li>
+          <li>ARA_Cocoon_Weapon_2Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Weapon_OverPenetrate</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>1</min>
+          <max>1</max>
+        </numTraitsRange>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ModExtension_ShootWithOffset">
+        <offsets>
+          <li>(0, -1)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+    <tools Inherit="False">
+      <li>
+        <label>骨刃斩击</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>21</power>
+        <armorPenetration>0.75</armorPenetration>
+        <cooldownTime>1.75</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- 酸 -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ARA_RW_Basic_Acid_Bladder_Gun</defName>
+    <label>武装器官"酸液枪"</label>
+    <description>阿拉克涅虫群督虫使用基础远程武装器官，可以通过肌肉的瞬间加压喷出阿拉克涅酸液。这种酸液能覆盖目标并灼烧所有粘上酸液的敌人。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Basic_Acid_Bladder_Gun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_7VXI</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>30</ARA_IncubationCost>
+      <ARA_IncubationTime>3.5</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li Class="ArachnaeSwarm.VerbProperties_ShootSprayMulti">
+        <verbClass>ArachnaeSwarm.Verb_ShootSprayMulti</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>1.0</warmupTime>
+        <defaultProjectile>ARA_Proj_StrongSludgeSpray_Eco</defaultProjectile>
+        <isMortar>false</isMortar>
+        <requireLineOfSight>false</requireLineOfSight>
+        <range>16</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <soundCast>SpitterSpit</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <numCellsToHit>4</numCellsToHit>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>50</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Ranged</li>
+      <li>ARA_Armed_Organ_T1</li>
+      <li>ARA_Armed_Organ_Small_Ranged_Acid</li>
+    </weaponTags>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon</li>
+          <li>ARA_Cocoon_Weapon_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Weapon_Damage_Acid</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>1</min>
+          <max>1</max>
+        </numTraitsRange>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef>
+    <defName>ARA_Proj_StrongSludgeSpray_Eco</defName>
+    <label>阿拉克涅虫族酸液</label>
+    <thingClass>Projectile_Liquid</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <texPath>Things/Projectile/SludgeSpray</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>ARA_AcidBurn</damageDef>
+      <speed>25</speed>
+      <damageAmountBase>2</damageAmountBase>
+      <arcHeightFactor>0.4</arcHeightFactor>
+      <armorPenetrationBase>0.1</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+      <shadowSize>0</shadowSize>
+      <terrainChance>0.75</terrainChance>
+      <filth>Filth_SpentAcid</filth>
+      <filthCount>1</filthCount>
+      <filthChance>0.25</filthChance>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ARA_RW_Basic_FireSpewer_Gun</defName>
+    <label>武装器官"炎酸炮"</label>
+    <description>阿拉克涅虫群的大型远程武装器官，拥有布满酸腺的液囊和强健的肌肉纤管，可以向瞄准的方向喷射火酸热熔气团，覆盖范围内的敌人并融化它们的装甲和血肉。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon_1Stage</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Basic_FireSpewer_Gun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_8VXI</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>450</ARA_IncubationCost>
+      <ARA_IncubationTime>15</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li Class="ArachnaeSwarm.VerbProperties_FireSpew">
+        <verbClass>ArachnaeSwarm.Verb_ShootFireSpew</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>1.5</warmupTime>
+        <range>16</range>        <!-- Standard range property -->
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>Shot_MiniFlameblaster</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+
+        <!-- Custom Properties for the modified Verb_SpewFire logic -->
+        <degrees>45</degrees>
+        <damageDef>ARA_AcidBurn</damageDef>
+        <damageAmount>15</damageAmount>
+        <filthDef>Filth_SpentAcid</filthDef>
+        <effecterDef>ARA_Fire_Spew</effecterDef>
+        <propagationSpeed>0.5</propagationSpeed>
+        <chanceToStartFire>0</chanceToStartFire>
+        <avoidFriendlyFire>false</avoidFriendlyFire>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>50</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Ranged</li>
+      <li>ARA_Armed_Organ_T2</li>
+      <li>ARA_Armed_Organ_Huge_Ranged_Acid</li>
+    </weaponTags>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon_1Stage</li>
+          <li>ARA_Cocoon_Weapon_1Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Huge_Weapon</li>
+          <li>ARA_Weapon_Damage_Acid</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>2</min>
+          <max>2</max>
+        </numTraitsRange>
+      </li>
+    </comps>
+  </ThingDef>
+  <EffecterDef>
+    <defName>ARA_Fire_Spew</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <positionRadius>0.15</positionRadius>
+        <fleckDef>ARA_FireSpew_A</fleckDef>
+        <chancePerTick>0.9</chancePerTick>
+        <burstCount>5~10</burstCount>
+        <speed>15.5</speed>
+        <scale>0.8~1.2</scale>
+        <angle>-15~15</angle>
+        <positionLerpFactor>0.85</positionLerpFactor>
+        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <positionRadius>0.1</positionRadius>
+        <fleckDef>FireSpew_Base</fleckDef>
+        <chancePerTick>0.1</chancePerTick>
+        <speed>0.6</speed>
+        <scale>0.8</scale>
+        <angle>-9~9</angle>
+        <positionLerpFactor>0.75</positionLerpFactor>
+        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <positionRadius>0.1</positionRadius>
+        <moteDef>Mote_SparkThrownFast</moteDef>
+        <chancePerTick>0.5</chancePerTick>
+        <speed>3.3~5</speed>
+        <scale>0.1~0.2</scale>
+        <angle>-12~12</angle>
+        <positionLerpFactor>0.8</positionLerpFactor>
+        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>FireSpew_Glow</fleckDef>
+        <chancePerTick>0.16</chancePerTick>
+        <positionLerpFactor>0.65</positionLerpFactor>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARA_FireSpew_A</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.2</fadeInTime>
+    <solidTime>0.5</solidTime>
+    <fadeOutTime>0.2</fadeOutTime>
+    <rotateTowardsMoveDirection>true</rotateTowardsMoveDirection>
+    <rotateTowardsMoveDirectionExtraAngle>-90</rotateTowardsMoveDirectionExtraAngle>
+    <graphicData>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <shaderType>GlowAnimated</shaderType>
+      <texPath>ArachnaeSwarm/Mote/ARA_FireSpew_B</texPath>
+      <shaderParameters>
+        <_NumFrames>5</_NumFrames>
+        <_FramesPerSec>7</_FramesPerSec>
+      </shaderParameters>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+  </FleckDef>
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ARA_RW_Acid_Mortar</defName>
+    <label>武装器官"腐蚀臼炮"</label>
+    <description>阿拉克涅虫群督虫使用大型远程武装器官，膛内布满了强健的肌肉组织，可以在一瞬间的收缩后将一团酸液发射到空中，以在安全距离下对敌人的集群进行轰炸。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon_2Stage</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Acid_Mortar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <uiIconScale>0.75</uiIconScale>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_9VXI</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>2200</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.3</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>450</ARA_IncubationCost>
+      <ARA_IncubationTime>15</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>1.5</warmupTime>
+        <forcedMissRadius>3</forcedMissRadius>
+        <defaultProjectile>Bullet_ARA_RW_Acid_Mortar</defaultProjectile>
+        <isMortar>true</isMortar>
+        <requireLineOfSight>false</requireLineOfSight>
+        <minRange>5</minRange>
+        <range>80</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>SpitterSpit</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>50</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Ranged</li>
+      <li>ARA_Armed_Organ_T2</li>
+      <li>ARA_Armed_Organ_Huge_Ranged_Acid</li>
+    </weaponTags>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon_2Stage</li>
+          <li>ARA_Cocoon_Weapon_2Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Huge_Weapon</li>
+          <li>ARA_Weapon_Damage_Acid</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>2</min>
+          <max>2</max>
+        </numTraitsRange>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ARA_RW_Acid_Mortar</defName>
+    <label>大型酸液团</label>
+    <graphicData>
+      <graphicClass>Graphic_Single_AgeSecs</graphicClass>
+      <texPath>Things/Projectile/FleshmassSpitterProjectileSheet</texPath>
+      <drawSize>(.75, .75)</drawSize>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <useGraphicClass>True</useGraphicClass>
+      <shadowSize>1</shadowSize>
+      <damageDef>ARA_AcidBurn</damageDef>
+      <spinRate>15</spinRate>
+      <damageAmountBase>20</damageAmountBase>
+      <speed>30</speed>
+      <arcHeightFactor>1</arcHeightFactor>
+      <explosionRadius>3.5</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundExplode>ThumpCannon_Impact</soundExplode>
+      <filth>Filth_SpentAcid</filth>
+      <filthCount>4</filthCount>
+      <explosionEffect>Shell_AcidSpitImpact</explosionEffect>
+      <explosionEffectLifetimeTicks>60</explosionEffectLifetimeTicks>
+      <doExplosionVFX>false</doExplosionVFX>
+    </projectile>
+    <comps>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>Shell_AcidSpitStream</effecterDef>
+      </li>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>Shell_AcidSpitLaunched</effecterDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ARA_RW_Missile_HG_Gun</defName>
+    <label>武装器官"双眼天灾枪"</label>
+    <description>阿拉克涅虫群督虫使用基础远程武装器官，状似人类的手枪，可以发射由爆裂种辅虫构成的导弹。这种武装器官适应性和追踪能力很强，即使是不擅长射击的虫族使用这种武器也能有很好的表现。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon_2Stage</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Missile_HG_Gun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <uiIconScale>1.3</uiIconScale>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_10VXI</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>3</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>450</ARA_IncubationCost>
+      <ARA_IncubationTime>15</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>ArachnaeSwarm.Verb_ShootShotgunWithOffset</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>3</warmupTime>
+        <defaultProjectile>Bullet_RW_Missile_HG_Gun</defaultProjectile>
+        <range>32</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>SpitterSpit</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Ranged</li>
+      <li>ARA_Armed_Organ_T3</li>
+      <li>ARA_Armed_Organ_Small_Ranged_Acid</li>
+    </weaponTags>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon_2Stage</li>
+          <li>ARA_Cocoon_Weapon_2Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Weapon_Damage_Acid</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>1</min>
+          <max>1</max>
+        </numTraitsRange>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ModExtension_ShootWithOffset">
+        <offsets>
+          <li>(0, -1)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_RW_Missile_HG_Gun</defName>
+    <label>小型酸烧导弹</label>
+    <graphicData>
+      <graphicClass>Graphic_Single_AgeSecs</graphicClass>
+      <texPath>ArachnaeSwarm/Mote/ARA_CatastropheMissile_Shell</texPath>
+      <drawSize>(1.25,1.25)</drawSize>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <thingClass>ArachnaeSwarm.Projectile_ExplosiveTrackingBullet</thingClass>
+    <projectile>
+      <speed>60</speed>
+      <damageDef>ARA_AcidBurn</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <filth>Filth_SpentAcid</filth>
+      <filthCount>2</filthCount>
+      <explosionSpawnsSingleFilth>true</explosionSpawnsSingleFilth>
+      <explosionRadius>2.1</explosionRadius>
+      <explosionEffect>Shell_AcidSpitImpact</explosionEffect>
+      <explosionEffectLifetimeTicks>60</explosionEffectLifetimeTicks>
+      <soundExplode>Explosion_EMP</soundExplode>
+      <armorPenetrationBase>0.25</armorPenetrationBase>
+      <screenShakeFactor>0.5</screenShakeFactor>
+      <flyOverhead>true</flyOverhead>
+    </projectile>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ExplosiveTrackingBulletDef">
+        <explosionRadius>2.1</explosionRadius>
+        <damageDef>ARA_AcidBurn</damageDef>
+      </li>
+      <li Class="ArachnaeSwarm.TrackingBulletDef">
+        <homingSpeed>0.5</homingSpeed>
+        <initRotateAngle>15</initRotateAngle>
+        <destroyTicksAfterLosingTrack>
+          <min>60</min>
+          <max>120</max>
+        </destroyTicksAfterLosingTrack>
+        <tailFleckDef>Fleck_AcidSpitLaunchedDenseMist</tailFleckDef>
+        <fleckMakeFleckTickMax>3</fleckMakeFleckTickMax>
+        <impactThreshold>1</impactThreshold>
+      </li>
+      <li Class="ArachnaeSwarm.ShotgunExtension">
+        <pelletCount>2</pelletCount>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ARA_RW_Missile_AR_Gun</defName>
+    <label>武装器官"迅发天灾炮"</label>
+    <description>阿拉克涅虫群的大型武装器官，可以以排山倒海的架势射出成排由爆裂种辅虫构成的导弹，强大的火力使其成为虫族构建血肉军团的核心之一。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon_2Stage</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Missile_AR_Gun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <uiIconScale>0.75</uiIconScale>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_10VXI</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>2200</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>4</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>450</ARA_IncubationCost>
+      <ARA_IncubationTime>15</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>ArachnaeSwarm.Verb_ShootWithOffset</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>2.8</warmupTime>
+        <defaultProjectile>Bullet_RW_Missile_AR_Gun</defaultProjectile>
+        <range>38</range>
+        <burstShotCount>10</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>SpitterSpit</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>50</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Ranged</li>
+      <li>ARA_Armed_Organ_T3</li>
+      <li>ARA_Armed_Organ_Huge_Ranged_Acid</li>
+    </weaponTags>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon_2Stage</li>
+          <li>ARA_Cocoon_Weapon_2Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Huge_Weapon</li>
+          <li>ARA_Weapon_Damage_Acid</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>2</min>
+          <max>2</max>
+        </numTraitsRange>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ModExtension_ShootWithOffset">
+        <offsets>
+          <li>(0, -1.4)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_RW_Missile_AR_Gun</defName>
+    <label>微型酸烧导弹</label>
+    <graphicData>
+      <graphicClass>Graphic_Single_AgeSecs</graphicClass>
+      <texPath>ArachnaeSwarm/Mote/ARA_CatastropheMissile_Shell</texPath>
+      <drawSize>(1,1)</drawSize>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <thingClass>ArachnaeSwarm.Projectile_ExplosiveTrackingBullet</thingClass>
+    <projectile>
+      <speed>60</speed>
+      <damageDef>ARA_AcidBurn</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <filth>Filth_SpentAcid</filth>
+      <filthCount>2</filthCount>
+      <explosionSpawnsSingleFilth>true</explosionSpawnsSingleFilth>
+      <explosionRadius>1.1</explosionRadius>
+      <explosionEffect>Shell_AcidSpitImpact</explosionEffect>
+      <explosionEffectLifetimeTicks>60</explosionEffectLifetimeTicks>
+      <soundExplode>Explosion_EMP</soundExplode>
+      <armorPenetrationBase>0.25</armorPenetrationBase>
+      <screenShakeFactor>0.5</screenShakeFactor>
+      <flyOverhead>true</flyOverhead>
+    </projectile>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ExplosiveTrackingBulletDef">
+        <explosionRadius>1.1</explosionRadius>
+        <damageDef>ARA_AcidBurn</damageDef>
+      </li>
+      <li Class="ArachnaeSwarm.TrackingBulletDef">
+        <homingSpeed>0.75</homingSpeed>
+        <initRotateAngle>15</initRotateAngle>
+        <destroyTicksAfterLosingTrack>
+          <min>60</min>
+          <max>120</max>
+        </destroyTicksAfterLosingTrack>
+        <tailFleckDef>Fleck_AcidSpitLaunchedDenseMist</tailFleckDef>
+        <fleckMakeFleckTickMax>3</fleckMakeFleckTickMax>
+        <impactThreshold>1</impactThreshold>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- spawn -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ARA_RW_Basic_SkyHive_Gun</defName>
+    <label>武装器官"天巢种之巢"</label>
+    <description>阿拉克涅虫群督虫使用的远程武装器官，内部的腔室孕育了大量的天巢种，督虫们会将其作为导弹发射出去，这些天巢种在敌人后将持续啃咬敌人一段时间，并且从敌人身上脱落后也将继续攻击。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon_1Stage</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Basic_SkyHive_Gun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_6SPV</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>1600</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>160</ARA_IncubationCost>
+      <ARA_IncubationTime>7</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>ArachnaeSwarm.Verb_ShootShotgun</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>1.0</warmupTime>
+        <defaultProjectile>Bullet_ARA_RW_Basic_SkyHive_Gun</defaultProjectile>
+        <isMortar>true</isMortar>
+        <requireLineOfSight>false</requireLineOfSight>
+        <minRange>3</minRange>
+        <range>28</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>SpitterSpit</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>50</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Ranged</li>
+      <li>ARA_Armed_Organ_T1</li>
+      <li>ARA_Armed_Organ_Small_Ranged_SP</li>
+    </weaponTags>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon_1Stage</li>
+          <li>ARA_Cocoon_Weapon_1Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Weapon_Damage_Spawn</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>1</min>
+          <max>1</max>
+        </numTraitsRange>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ARA_RW_Basic_SkyHive_Gun</defName>
+    <label>阿拉克涅天巢种</label>
+    <graphicData>
+      <graphicClass>Graphic_Single_AgeSecs</graphicClass>
+      <texPath>ArachnaeSwarm/Things/ARA_Skyhive/Bodies/Naked_Thin_north</texPath>
+      <!-- <color>(156,148,125)</color> -->
+      <drawSize>(1,1)</drawSize>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <thingClass>ArachnaeSwarm.Projectile_TrackingBullet</thingClass>
+    <projectile>
+      <useGraphicClass>True</useGraphicClass>
+      <shadowSize>1</shadowSize>
+      <damageDef>ARA_SkyhiveBite</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>25</speed>
+      <arcHeightFactor>1</arcHeightFactor>
+      <flyOverhead>true</flyOverhead>
+    </projectile>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.TrackingBulletDef">
+        <!-- 追踪速度，数值越高，转向越快，追踪能力越强 -->
+        <homingSpeed>0.75</homingSpeed>
+
+        <!-- 初始发射时的随机散射角度（左右各多少度） -->
+        <initRotateAngle>35</initRotateAngle>
+
+        <!-- 失去目标后多少 Tick 后自毁，可以是一个范围，如 "120~180" -->
+        <destroyTicksAfterLosingTrack>150</destroyTicksAfterLosingTrack>
+
+        <!-- 子弹离目标多近时就直接判定为命中 -->
+        <impactThreshold>2.1</impactThreshold>
+      </li>
+      <li Class="ArachnaeSwarm.ShotgunExtension">
+        <pelletCount>3</pelletCount>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>Shell_AcidSpitStream</effecterDef>
+      </li>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>Shell_AcidSpitLaunched</effecterDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- 闪电 -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ARA_RW_Large_Arc_Gun</defName>
+    <label>武装器官"生物电导线"</label>
+    <description>阿拉克涅虫群督虫使用的大型远程武装器官，通过从携带大量电荷的细胞中释放能量，虫群可以使用这种武装器官在敌人的集群中发起连锁闪电打击。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon_1Stage</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Large_Arc_Gun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_1THD</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>160</ARA_IncubationCost>
+      <ARA_IncubationTime>7</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li Class="ArachnaeSwarm.VerbProperties_SplitAndChain">
+        <verbClass>ArachnaeSwarm.Verb_ShootBeamSplitAndChain</verbClass>
+
+        <!-- Base Properties -->
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>0</warmupTime>
+        <range>24</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+
+        <!-- Damage -->
+        <beamDamageDef>ARA_Psi_Damage</beamDamageDef>
+        <beamTotalDamage>10</beamTotalDamage>
+        <beamArmorPenetration>0.5</beamArmorPenetration>
+
+        <!-- Visuals & Sound -->
+        <muzzleFlashScale>0</muzzleFlashScale>
+        <soundCastBeam>BeamGraser_Shooting</soundCastBeam>
+        <beamGroundFleckDef>Fleck_BeamBurn</beamGroundFleckDef>
+        <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
+        <beamEndEffecterDef>GraserBeam_End</beamEndEffecterDef>
+        <beamLineFleckDef>ARA_Arc_Beam_Fleck</beamLineFleckDef>        <!-- Fallback for base verb
+        properties -->
+        <beamCurvature>1</beamCurvature>        <!-- 让光束更弯曲一点 -->
+        <flecksPerCell>1</flecksPerCell>
+
+        <!-- Split Config -->
+        <isSplit>true</isSplit>
+        <splitNum>3</splitNum>
+        <splitRange>7</splitRange>
+        <splitDamageFactor>0.8</splitDamageFactor>
+        <!-- Corrected to use the FleckDef we created -->
+        <splitMoteDef>ARA_Arc_Beam_Fleck</splitMoteDef>
+
+        <!-- Chain Config -->
+        <conductNum>3</conductNum>
+        <conductRange>12</conductRange>
+        <conductDamageFactor>0.6</conductDamageFactor>
+        <!-- Corrected to use the FleckDef we created -->
+        <chainMoteDef>ARA_Arc_Beam_Fleck</chainMoteDef>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>50</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Ranged</li>
+      <li>ARA_Armed_Organ_T2</li>
+      <li>ARA_Armed_Organ_Huge_Ranged_Energy</li>
+    </weaponTags>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon_1Stage</li>
+          <li>ARA_Cocoon_Weapon_1Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Huge_Weapon</li>
+          <li>ARA_Weapon_Damage_LightingChain</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>2</min>
+          <max>2</max>
+        </numTraitsRange>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="MoteBase">
+    <defName>ARA_Arc_Beam_Mote</defName>
+    <thingClass>MoteDualAttached</thingClass>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0.2</fadeInTime>
+      <fadeOutTime>0.3</fadeOutTime>
+      <solidTime>999999</solidTime>
+      <needsMaintenance>True</needsMaintenance>
+      <rotateTowardsTarget>True</rotateTowardsTarget>
+      <scaleToConnectTargets>True</scaleToConnectTargets>
+      <fadeOutUnmaintained>True</fadeOutUnmaintained>
+    </mote>
+    <drawOffscreen>true</drawOffscreen>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Mote/ARA_Lighting_Beam</texPath>
+      <color>(188, 112, 255, 255)</color>
+      <graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
+      <shaderType>MoteBeam</shaderType>
+      <shaderParameters>
+        <_ExtraTexA>/Things/Mote/BeamSecondaryNoise_A</_ExtraTexA>
+        <_ExtraTexB>/Things/Mote/BeamSecondaryNoise_B</_ExtraTexB>
+        <_ScrollSpeedA>-4 </_ScrollSpeedA>
+        <_ScrollSpeedB>3</_ScrollSpeedB>
+        <_Intensity>2</_Intensity>
+      </shaderParameters>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>ARA_MW_Mimic_Niddle</defName>
+    <label>武装器官"拟线种毒针"</label>
+    <description>阿拉克涅虫群督虫使用基础近战武装器官，通过多根外露神经束与督虫的辅肢相连。这根毒针中藏有休眠中的阿拉克涅拟线种虫卵，攻击将感染受害者使其最终成为被拟线虫操控的寄生体。</description>
+    <weaponTags Inherit="False">
+      <!-- <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Melee</li>
+      <li>ARA_Armed_Organ_T1</li> -->
+    </weaponTags>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_MW_Bone_Sword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <uiIconScale>1</uiIconScale>
+    <!-- <equippedAngleOffset>-65</equippedAngleOffset> -->
+    <techLevel>Medieval</techLevel>
+    <!-- <equippedAngleOffset>-25</equippedAngleOffset> -->
+    <costStuffCount>0</costStuffCount>
+    <stuffCategories Inherit="False" />
+    <costList Inherit="False">
+      <ARA_Carapace>50</ARA_Carapace>
+    </costList>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>5</Mass>
+    </statBases>
+    <tools Inherit="False">
+      <li>
+        <label>割</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.3</cooldownTime>
+        <armorPenetration>0.50</armorPenetration>
+      </li>
+      <li>
+        <label>刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>12</power>
+        <armorPenetration>0.20</armorPenetration>
+        <cooldownTime>1.5</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>ARA_MimicNematodeBite</def>
+            <amount>4</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite Inherit="False" />
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+  </ThingDef>
+
+  <!-- 炮塔 -->
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>ARA_Psi_Conductor_Turret</defName>
+    <label>灵能导线</label>
+    <description>阿拉克涅织域种正在通过这个殖民者对敌方发起攻击——这种攻击的发动无关殖民者的状态，只要不处于近战状态，攻击都会照常进行。</description>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_Weapon_Empty</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <descriptionHyperlinks>
+      <HediffDef>ARA_Psi_Conductor</HediffDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <Mass>5</Mass>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_ARA_Psi_Conductor_Turret</defaultProjectile>
+        <range>6</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>AgonyPulse_Cast</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <defaultCooldownTime>4</defaultCooldownTime>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ARA_Psi_Conductor_Turret</defName>
+    <label>灵能闪电</label>
+    <thingClass>Beam</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>ARA_Psi_Damage</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <beamMoteDef>ARA_Psi_Conductor_Turret_ArcBeam</beamMoteDef>
+      <beamStartOffset>0.5</beamStartOffset>
+      <armorPenetrationBase>1</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="MoteBase">
+    <defName>ARA_Psi_Conductor_Turret_ArcBeam</defName>
+    <thingClass>MoteDualAttached</thingClass>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0</fadeInTime>
+      <fadeOutTime>1</fadeOutTime>
+      <solidTime>0.4</solidTime>
+      <needsMaintenance>False</needsMaintenance>
+      <rotateTowardsTarget>True</rotateTowardsTarget>
+      <scaleToConnectTargets>True</scaleToConnectTargets>
+      <fadeOutUnmaintained>False</fadeOutUnmaintained>
+    </mote>
+    <drawOffscreen>true</drawOffscreen>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Mote/ARA_Lighting_Beam</texPath>
+      <color>(140, 49, 138, 255)</color>
+      <graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(1.5,1)</drawSize>
+      <shaderParameters>
+        <_ExtraTexA>/Things/Mote/BeamSecondaryNoise_A</_ExtraTexA>
+        <_ExtraTexB>/Things/Mote/BeamSecondaryNoise_B</_ExtraTexB>
+        <_ScrollSpeedA>-4 </_ScrollSpeedA>
+        <_ScrollSpeedB>3</_ScrollSpeedB>
+        <_Intensity>2</_Intensity>
+      </shaderParameters>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>ARA_Shell_Thorn_Turret</defName>
+    <label>棘刺腔管</label>
+    <description>阿拉克涅虫族甲壳上的半自主器官，可以自动发射。</description>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_Weapon_Empty</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <descriptionHyperlinks>
+      <HediffDef>ARA_Shell_Thorn_Hediff</HediffDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <Mass>0</Mass>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_ARA_Shell_Thorn_Turret</defaultProjectile>
+        <range>8</range>
+        <burstShotCount>12</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <soundCast>Shot_TurretSniper</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <defaultCooldownTime>4</defaultCooldownTime>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ARA_Shell_Thorn_Turret</defName>
+    <label>小型棘刺</label>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Mote/ARA_Spike_Shell</texPath>
+      <graphicClass>Graphic_Single_AgeSecs</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(0.3,0.6)</drawSize>
+      <color>(0.9,0.9,0.9,1)</color>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>3</damageAmountBase>
+      <armorPenetrationBase>0.75</armorPenetrationBase>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>ARA_Skyraider_Hivelord_Turret</defName>
+    <label>食肉蜂巢</label>
+    <description>阿拉克涅领主种身上的共生器官，会对敌方附近自动投射天巢种辅虫。</description>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_Weapon_Empty</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <descriptionHyperlinks>
+      <HediffDef>ARA_Skyraider_Hivelord</HediffDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <Mass>0</Mass>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>ArachnaeBase_Race_Skyhive_Proj</defaultProjectile>
+        <range>32</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <soundCast>SpitterSpit</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <defaultCooldownTime>6</defaultCooldownTime>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>ArachnaeBase_Race_Skyhive_Proj</defName>
+    <label>阿拉克涅天巢种</label>
+    <thingClass>Projectile_SpawnsPawnZeroAge</thingClass>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Things/ARA_Skyhive/Bodies/Naked_Thin_north</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <speed>41</speed>
+      <spawnsPawnKind>ArachnaeBase_Race_Skyhive</spawnsPawnKind>
+      <tryAdjacentFreeSpaces>true</tryAdjacentFreeSpaces>
+    </projectile>
+  </ThingDef>
+
+  <!-- 冷冻 -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ARA_RW_Basic_Fist_Icez_Gun</defName>
+    <label>武装器官"急冻束"</label>
+    <description>阿拉克涅虫群督虫使用基础远程武装器官。这种武装器官可以喷射出能快速冷却目标的射流束。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Weapon</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Basic_Fist_Needle_Gun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <uiIconScale>1.3</uiIconScale>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_5PAV</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>0.5</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>15</ARA_IncubationCost>
+      <ARA_IncubationTime>1</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li Class="ArachnaeSwarm.VerbPropertiesExplosiveBeam">
+        <verbClass>ArachnaeSwarm.Verb_ShootBeamExplosive</verbClass>
+
+        <!-- 基础射线参数 -->
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>3</warmupTime>
+        <range>15</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+        <beamDamageDef>ARA_Damage_Freeze</beamDamageDef>
+        <beamTotalDamage>1</beamTotalDamage>
+
+        <!-- 消除射线偏移的参数 -->
+        <beamFullWidthRange>1000</beamFullWidthRange>
+        <beamWidth>-1</beamWidth>
+        <beamMaxDeviation>0</beamMaxDeviation>
+        <beamCurvature>0</beamCurvature>
+        <beamStartOffset>0</beamStartOffset>
+
+        <!-- 视觉和音效 -->
+        <muzzleFlashScale>0</muzzleFlashScale>
+        <soundCastBeam>ARA_RW_Lighting_Cannon_Shootingsound</soundCastBeam>
+        <beamMoteDef>Mote_ARA_RW_Lighting_Cannon_Beam</beamMoteDef>
+        <beamEndEffecterDef>GraserBeam_End</beamEndEffecterDef>
+
+        <screenShakeFactor>0</screenShakeFactor>
+
+        <!-- 火焰效果 -->
+        <beamChanceToStartFire>0</beamChanceToStartFire>
+        <beamChanceToAttachFire>0</beamChanceToAttachFire>
+        <beamFireSizeRange>0</beamFireSizeRange>
+
+        <!-- 其他射线属性 -->
+        <beamStartOffset>0.2</beamStartOffset>
+        <beamHitsNeighborCells>true</beamHitsNeighborCells>
+        <beamLineFleckChanceCurve>
+          <points>
+            <li>(0, 0)</li>
+            <li>(0.65, 0.4)</li>
+            <li>(1, 0.75)</li>
+          </points>
+        </beamLineFleckChanceCurve>
+
+        <!-- 攻击目标设置 -->
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+
+        <!-- 每发都爆炸 -->
+        <enableExplosion>true</enableExplosion>
+        <explosionShotInterval>1</explosionShotInterval>
+        <explosionRadius>1</explosionRadius>
+        <explosionDamageDef>ARA_Damage_Freeze</explosionDamageDef>
+        <explosionDamage>1</explosionDamage>
+        <explosionSound>Explosion_Stun</explosionSound>
+        <chanceToStartFire>0</chanceToStartFire>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ_Small_Ranged_Icez</li>
+    </weaponTags>
+    <generateCommonality>0.01</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon</li>
+          <li>ARA_Cocoon_Weapon_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Weapon_Damage_Icez</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>1</min>
+          <max>1</max>
+        </numTraitsRange>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_GiveHediffOnShot">
+        <hediffDef>ARA_BeamAiming</hediffDef>
+        <severityToAdd>1</severityToAdd>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- 动力甲武器 -->
+  <ThingDef ParentName="BaseHumanMakeableGun" Name="ARA_RW_Icez_Mortar">
+    <defName>ARA_RW_Icez_Mortar</defName>
+    <label>武装器官"霜星之巢"</label>
+    <description>一种特殊的远程武装器官，只会在阿拉克涅的共生肌群上出现。其可以发射成排极度冰冷的霜冻气团，冻结目标区域的敌军，使其受到冻伤伤害的同时变得行动缓慢。</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Icez_Mortar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <uiIconScale>0.75</uiIconScale>
+    <soundInteract>SpitterSpawn</soundInteract>
+    <destroyOnDrop>true</destroyOnDrop>
+    <recipeMaker Inherit="False">
+    </recipeMaker>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <WorkToMake>1300</WorkToMake>
+      <!-- <MarketValue>370</MarketValue> -->
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.3</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+      <ARA_IncubationCost>450</ARA_IncubationCost>
+      <ARA_IncubationTime>15</ARA_IncubationTime>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>1.5</warmupTime>
+        <forcedMissRadius>3</forcedMissRadius>
+        <defaultProjectile>Bullet_ARA_RW_Icez_Mortar</defaultProjectile>
+        <isMortar>false</isMortar>
+        <requireLineOfSight>false</requireLineOfSight>
+        <minRange>5</minRange>
+        <range>49</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+        <soundCast>SpitterSpit</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <costList Inherit="False">
+      <ARA_Carapace>50</ARA_Carapace>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>ARA_Armed_Organ</li>
+      <li>ARA_Armed_Organ_Ranged</li>
+      <li>ARA_Armed_Organ_T2</li>
+    </weaponTags>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <!-- <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Weapon_2Stage</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li> -->
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Huge_Weapon</li>
+          <li>ARA_Weapon_Damage_Icez</li>
+          <li>ARA_Weapon_Damage_FrostExplode</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>3</min>
+          <max>3</max>
+        </numTraitsRange>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ARA_RW_Icez_Mortar</defName>
+    <label>大型霜雾团</label>
+    <graphicData>
+      <graphicClass>Graphic_Single_AgeSecs</graphicClass>
+      <texPath>Things/Projectile/WaterSplash</texPath>
+      <drawSize>(.75, 2)</drawSize>
+      <shaderType>MoteGlow</shaderType>
+      <color>(63,223,222,180)</color>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <thingClass>ArachnaeSwarm.Projectile_ExplosiveWithTrail</thingClass>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.TrackingBulletDef">
+        <tailFleckDef>ARA_GunTail_Frost</tailFleckDef>
+        <fleckMakeFleckTickMax>3</fleckMakeFleckTickMax>
+      </li>
+    </modExtensions>
+    <projectile>
+      <useGraphicClass>True</useGraphicClass>
+      <shadowSize>1</shadowSize>
+      <damageDef>ARA_Damage_Freeze_ex</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>75</speed>
+      <arcHeightFactor>0</arcHeightFactor>
+      <explosionRadius>3.5</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <postExplosionSpawnThingDef>ARA_FrostGasCloud_Ex</postExplosionSpawnThingDef>
+      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      <soundExplode>Explosion_Stun</soundExplode>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>ARA_RW_Lighting_Cannon</defName>
+    <label>武装器官"急冻透镜管"</label>
+    <description>一种特殊的远程武装器官，只会在阿拉克涅的共生肌群上出现。这种武装器官可以喷射出能快速冷却目标的射流束，使目标在受到大量伤害的同时封锁其行动。由于其预冷机制，它在开始攻击前需要很长时间准备。</description>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_RW_Lighting_Cannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <statBases>
+      <Mass>2.6</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="ArachnaeSwarm.VerbPropertiesExplosiveBeam">
+        <verbClass>ArachnaeSwarm.Verb_ShootBeamExplosive</verbClass>
+
+        <!-- 基础射线参数 -->
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>3</warmupTime>
+        <range>45</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+        <beamDamageDef>ARA_Damage_Freeze_ex</beamDamageDef>
+        <beamTotalDamage>5</beamTotalDamage>
+
+        <!-- 消除射线偏移的参数 -->
+        <beamFullWidthRange>1000</beamFullWidthRange>
+        <beamWidth>-1</beamWidth>
+        <beamMaxDeviation>0</beamMaxDeviation>
+        <beamCurvature>0</beamCurvature>
+        <beamStartOffset>0</beamStartOffset>
+
+        <!-- 视觉和音效 -->
+        <muzzleFlashScale>0</muzzleFlashScale>
+        <soundCastBeam>ARA_RW_Lighting_Cannon_Shootingsound</soundCastBeam>
+        <beamMoteDef>Mote_ARA_RW_Lighting_Cannon_Beam</beamMoteDef>
+        <beamEndEffecterDef>GraserBeam_End</beamEndEffecterDef>
+
+        <screenShakeFactor>0</screenShakeFactor>
+
+        <!-- 火焰效果 -->
+        <beamChanceToStartFire>0</beamChanceToStartFire>
+        <beamChanceToAttachFire>0</beamChanceToAttachFire>
+        <beamFireSizeRange>0</beamFireSizeRange>
+
+        <!-- 其他射线属性 -->
+        <beamStartOffset>0.8</beamStartOffset>
+        <beamHitsNeighborCells>true</beamHitsNeighborCells>
+        <beamLineFleckChanceCurve>
+          <points>
+            <li>(0, 0)</li>
+            <li>(0.65, 0.4)</li>
+            <li>(1, 0.75)</li>
+          </points>
+        </beamLineFleckChanceCurve>
+
+        <!-- 攻击目标设置 -->
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+
+        <!-- 每发都爆炸 -->
+        <enableExplosion>true</enableExplosion>
+        <explosionShotInterval>1</explosionShotInterval>
+        <explosionRadius>1.5</explosionRadius>
+        <explosionDamageDef>ARA_Damage_Freeze</explosionDamageDef>
+        <explosionDamage>5</explosionDamage>
+        <!-- <explosionSound>Explosion_Stun</explosionSound> -->
+        <chanceToStartFire>0</chanceToStartFire>
+      </li>
+    </verbs>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>None</tradeability>
+    <thingSetMakerTags Inherit="False" />
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_CustomUniqueWeapon" MayRequire="Ludeon.RimWorld.Odyssey">
+        <forcedTraits>
+          <li>ARA_Huge_Weapon</li>
+          <li>ARA_Weapon_Damage_Icez</li>
+          <li>ARA_Weapon_Damage_FrostExplode</li>
+        </forcedTraits>
+        <numTraitsRange>
+          <min>3</min>
+          <max>3</max>
+        </numTraitsRange>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_GiveHediffOnShot">
+        <hediffDef>ARA_BeamAiming</hediffDef>
+        <severityToAdd>1</severityToAdd>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_ARA_RW_Lighting_Cannon_Beam</defName>
+    <thingClass>MoteDualAttached</thingClass>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0.2</fadeInTime>
+      <fadeOutTime>0.3</fadeOutTime>
+      <solidTime>999999</solidTime>
+      <needsMaintenance>True</needsMaintenance>
+      <rotateTowardsTarget>True</rotateTowardsTarget>
+      <scaleToConnectTargets>True</scaleToConnectTargets>
+      <fadeOutUnmaintained>True</fadeOutUnmaintained>
+    </mote>
+    <drawOffscreen>true</drawOffscreen>
+    <graphicData>
+      <texPath>Things/Mote/GraserBeam</texPath>
+      <color>(0.6, 1.0, 1.0, 1.0)</color>
+      <graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
+      <shaderType>MoteBeam</shaderType>
+      <shaderParameters>
+        <_ExtraTexA>/Things/Mote/BeamSecondaryNoise_A</_ExtraTexA>
+        <_ExtraTexB>/Things/Mote/BeamSecondaryNoise_B</_ExtraTexB>
+        <_ScrollSpeedA>-4 </_ScrollSpeedA>
+        <_ScrollSpeedB>3</_ScrollSpeedB>
+        <_Intensity>2</_Intensity>
+      </shaderParameters>
+    </graphicData>
+  </ThingDef>
+</Defs>

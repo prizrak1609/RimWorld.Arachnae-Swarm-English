@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ScenarioDef ParentName="ScenarioBase">
+    <defName>ARA_Basic_Start_Scenario</defName>
+    <label>新阿拉克涅虫巢</label>
+    <description>一只阿拉克涅虫族女皇种降落在荒无人烟的边缘世界，准备着手建立属于自己的虫巢。</description>
+    <scenario>
+      <summary>以一只阿拉克涅虫族女皇种为初始殖民者开始游戏，附带4枚初诞阿拉克涅虫卵囊。</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>ARA_New_Hive</factionDef>
+      </playerFaction>
+      <parts>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>女皇种已抵达既定地区。行星环境检测：宜居。生物质资源：丰富。本地原生文明：威胁等级-低。\n神经织网重构完成。欢迎加入‘我们’。\n\n初始指令：\n确保女皇种生存。女皇种是巢穴的根基。\n孵化阿拉克涅虫卵。扩充本地虫族种群数量。\n同化本地生物质。储存能够确保虫群生存的物资。\n重建基因树。让‘我们’再次完整。\n\n为了蜂群的存续。</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+          <def>ConfigurePawnsKindDefs</def>
+          <pawnChoiceCount>1</pawnChoiceCount>
+          <kindCounts>
+            <li>
+              <requiredAtStart>True</requiredAtStart>
+              <kindDef>ARA_ArachnaeQueen</kindDef>
+            </li>
+          </kindCounts>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+        </li>
+
+        <!-- 初始物品 -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ARA_Carapace</thingDef>
+          <count>500</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ARA_InsectJelly</thingDef>
+          <count>200</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ARA_Medicine</thingDef>
+          <count>10</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ARA_InteractiveEggSac_Start</thingDef>
+          <count>4</count>
+        </li>
+        <!-- <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ARA_Guide_Pheromone</thingDef>
+          <count>1</count>
+        </li> -->
+        <!-- 附近的物品 -->
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Steel</thingDef>
+          <count>700</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>300</count>
+        </li>    
+        <!-- 图上的物品 -->
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>Steel</thingDef>
+          <count>720</count>
+        </li>
+        <!-- 初始科技 -->
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>ARA_Base_Technology</project>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

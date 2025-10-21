@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TraitDef>
+    <defName>ARA_CreepyCrawly</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>节肢类昆虫</label>
+        <description>{PAWN_nameDef} 是一只巨大的节肢类昆虫，多对附肢、镜面反光的外骨骼和扭动的分节身体足以引发人类心底埋藏的强烈恐惧感。\n\n额，你该不会真以为它们是一群美少女吧？</description>
+        <marketValueFactorOffset>-1</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

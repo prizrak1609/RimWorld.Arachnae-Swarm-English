@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WeaponCategoryDef>
+    <defName>ARA_Huge_Weapon_Category</defName>
+    <label>大型武装器官</label>
+    <description>这种武装器官相当巨大，只有那些大型阿拉克涅督虫（体型大于2.0）才能使用此武器。</description>
+  </WeaponCategoryDef>
+  <WeaponCategoryDef>
+    <defName>ARA_Weapon_Damage_Category</defName>
+    <label>特殊武装器官</label>
+    <description>这种武装器官除了造成常规伤害外，还能引起其他的效果。</description>
+  </WeaponCategoryDef>
+</Defs>

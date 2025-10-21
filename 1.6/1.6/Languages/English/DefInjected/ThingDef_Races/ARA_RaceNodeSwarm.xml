@@ -1,0 +1,2143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace Name="ARA_NodeBase" ParentName="ARA_PawnBase" Abstract="True">
+    <alienRace>
+      <!-- 核心设置 -->
+      <generalSettings>
+        <additionalTraits>2~3</additionalTraits>
+        <!-- 男性生成几率 -->
+        <maleGenderProbability>0</maleGenderProbability>
+        <!-- 无视年龄疾病 -->
+        <immuneToAge>true</immuneToAge>
+        <!-- 在口角中造成的最大伤害 -->
+        <maxDamageForSocialfight>4</maxDamageForSocialfight>
+        <!-- 免疫人类的异形歧视 -->
+        <immuneToXenophobia>false</immuneToXenophobia>
+        <!-- 最小的可生成成人背景的年龄 -->
+        <minAgeForAdulthood>0</minAgeForAdulthood>
+        <!-- 手术继承自人类 -->
+        <humanRecipeImport>false</humanRecipeImport>
+        <!-- 睡觉定义 -->
+        <canLayDown>true</canLayDown>
+        <validBeds>
+          <li>ARA_NodeNest</li>
+        </validBeds>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator Inherit="False">
+          <!-- 允许的头部 -->
+          <headTypes Inherit="False">
+            <li>Female_AverageNormal</li>
+            <!-- <li>Female_AverageWide</li>
+            <li>Female_AveragePointy</li> -->
+          </headTypes>
+          <!-- 身体类型 -->
+          <bodyTypes Inherit="False">
+            <li>Thin</li>
+          </bodyTypes>
+          <!-- 颜色设置 -->
+          <colorChannels Inherit="false">
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>15</weight>
+                    <min>(255,255,255)</min>
+                    <max>(255,255,255)</max>
+                  </li>
+                  <li>
+                    <weight>15</weight>
+                    <min>(172,143,74)</min>
+                    <max>(184,155,89)</max>
+                  </li>
+                  <li>
+                    <weight>15</weight>
+                    <min>(166,140,131)</min>
+                    <max>(175,145,135)</max>
+                  </li>
+                  <li>
+                    <weight>15</weight>
+                    <min>(153,143,92)</min>
+                    <max>(166,156,106)</max>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <!-- 皮肤是特殊的，因为现在由基因定义肤色 -->
+            <li>
+              <name>skin</name>
+              <first Class="AlienRace.ColorGenerator_SkinColorMelanin">
+                <minMelanin>0</minMelanin>
+                <maxMelanin>0</maxMelanin>
+              </first>
+            </li>
+          </colorChannels>
+          <!-- 额外身体部件 -->
+          <bodyAddons>
+            <li>
+              <name>ArachnaeNode Hair</name>
+              <userCustomizable>true</userCustomizable>
+              <path>ArachnaeSwarm/Hair/ARA_ArachnaeNode_Hair</path>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <colorChannel>hair</colorChannel>
+              <defaultOffset>Center</defaultOffset>
+              <drawSize>1</drawSize>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <conditions>
+                <BodyPart>
+                  <bodyPart>Head</bodyPart>
+                </BodyPart>
+                <Posture>
+                  <drawnStanding>true</drawnStanding>
+                  <drawnInBed>true</drawnInBed>
+                  <drawnLaying>true</drawnLaying>
+                </Posture>
+                <RotStage>Fresh,Rotting</RotStage>
+              </conditions>
+              <offsets>
+                <west>
+                  <layerOffset>-0.274</layerOffset>
+                </west>
+                <south>
+                  <layerOffset>-0.274</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.274</layerOffset>
+                </north>
+                <east>
+                  <layerOffset>-0.274</layerOffset>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_Base</path>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <offset>(0,0.32)</offset>
+                  <layerOffset>-0.273</layerOffset>
+                </south>
+                <north>
+                  <offset>(0,0.32)</offset>
+                  <layerOffset>-0.275</layerOffset>
+                </north>
+                <east>
+                  <offset>(-0.1,0.39)</offset>
+                  <layerOffset>-0.273</layerOffset>
+                </east>
+                <west>
+                  <offset>(-0.1,0.39)</offset>
+                  <layerOffset>-0.273</layerOffset>
+                </west>
+              </offsets>
+              <conditions>
+                <BodyPart>
+                  <bodyPart>Head</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+              </conditions>
+            </li>
+          </bodyAddons>
+          <!-- 图像放大 -->
+          <!-- <borderScale>4</borderScale>
+          <atlasScale>4</atlasScale> -->
+          <!-- <customDrawSize>(4,4)</customDrawSize>
+          <customHeadDrawSize>(1.0,1.0)</customHeadDrawSize>
+          <customPortraitDrawSize>(2,2)</customPortraitDrawSize> -->
+          <headOffsetDirectional>
+            <north>
+            </north>
+            <south>
+              <!-- same options as above -->
+            </south>
+            <east>
+              <offset>(0.0, 0.05)</offset>
+            </east>
+            <west>
+              <offset>(0.0, 0.05)</offset>
+            </west>
+          </headOffsetDirectional>
+        </alienPartGenerator>
+        <growthAges>
+          <li>0</li>
+        </growthAges>
+        <!-- 年龄工作效率等的覆盖 -->
+        <ageStatOverrides>
+          <WorkSpeedGlobal>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </WorkSpeedGlobal>
+          <ShootingAccuracyChildFactor MayRequire="Ludeon.RimWorld.Biotech">
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </ShootingAccuracyChildFactor>
+          <MarketValue>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </MarketValue>
+          <MeleeHitChance>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </MeleeHitChance>
+          <AimingDelayFactor>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0,1)</li>
+              </points>
+            </curve>
+          </AimingDelayFactor>
+          <ArrestSuccessChance>
+            <useBiologicalYears>true</useBiologicalYears>
+            <curve>
+              <points>
+                <li>(0, 1)</li>
+              </points>
+            </curve>
+          </ArrestSuccessChance>
+        </ageStatOverrides>
+        <!-- 生育设置，将妊娠设为男性来避免开局刷妊娠 -->
+        <reproduction>
+          <gestatingGender>Male</gestatingGender>
+          <femaleFertilityAgeFactor>
+            <points>
+              <li>(0,0)</li>
+              <li>(1,0)</li>
+              <li>(999,0)</li>
+              <li>(9999,0)</li>
+            </points>
+          </femaleFertilityAgeFactor>
+        </reproduction>
+        <growthFactorByAge>
+          <points>
+            <li>(0,1)</li>
+            <li>(12,0.5)</li>
+          </points>
+        </growthFactorByAge>
+      </generalSettings>
+      <!-- 图形，留空 -->
+      <graphicPaths>
+        <!-- 皮肤颜色 -->
+        <skinColor>(1,1,1,1)</skinColor>
+        <!-- 皮肤着色器 -->
+        <skinShader>Cutout</skinShader>
+        <body>ArachnaeSwarm/Things/ARA_HiveNode/Bodies/</body>
+        <head>
+          <path>ArachnaeSwarm/Things/ARA_HiveNode/Heads/</path>
+        </head>
+        <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+        <stump>ArachnaeSwarm/Things/ARA_HiveNode/Bodies/</stump>
+      </graphicPaths>
+      <!-- 风格设置 -->
+      <styleSettings>
+        <!-- 头发 -->
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+            <styleTagsOverride>
+              <li>ARA_HiveNode_Style</li>
+            </styleTagsOverride>
+          </value>
+        </li>
+        <!-- 纹身 -->
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <!-- 胡须 -->
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <!-- 种族的允许和禁止特化设置 -->
+      <raceRestriction>
+        <!-- 无法拥有的内源性基因 -->
+        <blackEndoCategories MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">HairColor</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Melanin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">BodyType</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Ears</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Nose</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Voice</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Headbone</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Head</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Jaw</li>
+        </blackEndoCategories>
+        <!-- 无法拥有的Tag基因 -->
+        <blackGeneTags MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">EyeColor</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Tail</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">BeardStyle</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Fur</li>
+        </blackGeneTags>
+        <!-- 无法拥有的基因列表 -->
+        <blackGeneList>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Furskin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+        </blackGeneList>
+        <!-- 禁止的异形变种 -->
+        <blackXenotypeList>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Dirtmole</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Genie</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Hussar</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Sanguophage</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Neanderthal</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Impid</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Waster</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Yttakin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Highmate</li>
+        </blackXenotypeList>
+        <!-- 允许的异形类型 -->
+        <whiteXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
+        </whiteXenotypeList>
+        <onlyUseRaceRestrictedXenotypes>false</onlyUseRaceRestrictedXenotypes>
+        <!-- 食物列表 -->
+        <whiteFoodList>
+          <li>ARA_InsectJelly</li>
+          <li>ARA_NutrientPasteMeal</li>
+          <li>ARA_PheromoneSolvent</li>
+        </whiteFoodList>
+        <onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+        <!-- 武器列表 -->
+        <weaponList>
+          <li>ARA_RW_Basic_Acid_Bladder_Gun</li>
+          <li>ARA_RW_Basic_Fist_Needle_Gun</li>
+          <li>ARA_MW_Bone_Sword</li>
+          <li>ARA_RW_Basic_SkyHive_Gun</li>
+          <li>ARA_RW_Toxic_Needle_MG</li>
+          <li>ARA_MW_Cartilage_Whip</li>
+          <li>ARA_MW_Scything_Talons</li>
+          <li>ARA_RW_Missile_HG_Gun</li>
+          <li>ARA_RW_Toxic_Needle_SG</li>
+          <li>ARA_RW_Basic_Rail_Gun</li>
+        </weaponList>
+        <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
+        <!-- 可以穿戴的衣服 -->
+        <apparelList>
+          <li>ARA_Dragoon_Uniform</li>
+          <li>ARA_Wedding_Dress</li>
+          <li>ARA_Nurse_Uniform</li>
+          <li>ARA_Bunny_Girl_Uniform</li>
+          <li>ARA_Maid_Uniform</li>
+          <li>ARA_Bodystocking_White</li>
+          <li>ARA_Bodystocking_Black</li>
+          <li>ARA_Latex_Catsuit</li>
+          <li>ARA_Pantyhose_Black</li>
+          <li>ARA_Pantyhose_White</li>
+          <li>ARA_SpiderOne_PowerArmor</li>
+        </apparelList>
+        <blackApparelList>
+          <li>Apparel_AdvancedHelmet</li>
+          <li>Apparel_ArmorHelmetRecon</li>
+          <li>Apparel_BowlerHat</li>
+          <li>Apparel_CowboyHat</li>
+          <li>Apparel_HatHood</li>
+          <li>Apparel_PowerArmorHelmet</li>
+          <li>Apparel_PsychicFoilHelmet</li>
+          <li>Apparel_SimpleHelmet</li>
+          <li>Apparel_TribalHeaddress</li>
+          <li>Apparel_Tuque</li>
+          <li>Apparel_WarMask</li>
+          <li>Apparel_WarVeil</li>
+          <li>Apparel_ArmorRecon</li>
+          <li>Apparel_BasicShirt</li>
+          <li>Apparel_Cape</li>
+          <li>Apparel_CollarShirt</li>
+          <li>Apparel_Duster</li>
+          <li>Apparel_FlakJacket</li>
+          <li>Apparel_FlakPants</li>
+          <li>Apparel_FlakVest</li>
+          <li>Apparel_Jacket</li>
+          <li>Apparel_Pants</li>
+          <li>Apparel_Parka</li>
+          <li>Apparel_PlateArmor</li>
+          <li>Apparel_PowerArmor</li>
+          <li>Apparel_Robe</li>
+          <li>Apparel_TribalA</li>
+          <li>Apparel_Sash</li>
+          <li>Apparel_Bandolier</li>
+          <li>Apparel_Broadwrap</li>
+          <li>Apparel_Headwrap</li>
+          <li>Apparel_Shadecone</li>
+          <li>Apparel_AuthorityCap</li>
+          <li>Apparel_Flophat</li>
+          <li>Apparel_Slicecap</li>
+          <li>Apparel_Tailcap</li>
+          <li>Apparel_VisageMask</li>
+        </blackApparelList>
+        <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+        <!-- 生育能力 -->
+        <onlyReproduceWithRestrictedRaces>true</onlyReproduceWithRestrictedRaces>
+        <canReproduce>false</canReproduce>
+        <workGiverList>
+          <li>ARA_SkillTraining_Building_Bills</li>
+        </workGiverList>
+        <!-- 允许的特质类型 -->
+        <traitList>
+        </traitList>
+        <blackTraitList>
+          <li>BodyPurist</li>
+          <li>Cannibal</li>
+          <li>DislikesWomen</li>
+          <li>Gourmand</li>
+          <li>Wimp</li>
+          <li>DrugDesire</li>
+        </blackTraitList>
+      </raceRestriction>
+      <!-- 想法设置 -->
+      <thoughtSettings>
+        <!-- 不会产生的想法 -->
+        <cannotReceiveThoughts>
+          <li>Naked</li>
+          <li>AnyBodyPartButGroinCovered_Disapproved_Female</li>
+          <li>AnyBodyPartButGroinCovered_Disapproved_Male</li>
+          <li>AnyBodyPartButGroinCovered_Disapproved_Memory</li>
+          <li>AnyBodyPartButGroinCovered_Disapproved_Social_Female</li>
+          <li>AnyBodyPartButGroinCovered_Disapproved_Social_Male</li>
+          <li>AnyBodyPartCovered_Disapproved_Female</li>
+          <li>AnyBodyPartCovered_Disapproved_Male</li>
+          <li>AnyBodyPartCovered_Disapproved_Memory</li>
+          <li>AnyBodyPartCovered_Disapproved_Social_Female</li>
+          <li>AnyBodyPartCovered_Disapproved_Social_Male</li>
+          <li>GroinChestHairOrFaceUncovered_Disapproved_Female</li>
+          <li>GroinChestHairOrFaceUncovered_Disapproved_Male</li>
+          <li>GroinChestHairOrFaceUncovered_Disapproved_Social_Female</li>
+          <li>GroinChestHairOrFaceUncovered_Disapproved_Social_Male</li>
+          <li>GroinChestOrHairUncovered_Disapproved_Female</li>
+          <li>GroinChestOrHairUncovered_Disapproved_Male</li>
+          <li>GroinChestOrHairUncovered_Disapproved_Social_Female</li>
+          <li>GroinChestOrHairUncovered_Disapproved_Social_Male</li>
+          <li>GroinOrChestUncovered_Disapproved_Female</li>
+          <li>GroinOrChestUncovered_Disapproved_Male</li>
+          <li>GroinOrChestUncovered_Disapproved_Social_Female</li>
+          <li>GroinOrChestUncovered_Disapproved_Social_Male</li>
+          <li>GroinUncovered_Disapproved_Female</li>
+          <li>GroinUncovered_Disapproved_Male</li>
+          <li>GroinUncovered_Disapproved_Social_Female</li>
+          <li>GroinUncovered_Disapproved_Social_Male</li>
+          <li>ApparelDamaged</li>
+          <li>ProsthophileHappy</li>
+          <li>ProsthophobeUnhappy</li>
+          <li>BrawlerUnhappy</li>
+          <li>PyromaniacHappy</li>
+          <li>Greedy</li>
+          <li>Jealous</li>
+          <li>SharedBed</li>
+          <li>AteWithoutTable</li>
+          <li>SleptOutside</li>
+          <li>SleptOnGround</li>
+          <li>SleptInCold</li>
+          <li>SleptInHeat</li>
+          <li>Ugly</li>
+          <li>AteKibble</li>
+          <li>AteInsectMeatDirect</li>
+          <li>AteInsectMeatAsIngredient</li>
+          <li>AteRawFood</li>
+          <li>AteHumanlikeMeatDirect</li>
+          <li>AteHumanlikeMeatAsIngredient</li>
+          <li>KnowButcheredHumanlikeCorpse</li>
+          <li>ButcheredHumanlikeCorpseOpinion</li>
+          <li>AteRawHumanlikeMeat</li>
+        </cannotReceiveThoughts>
+        <!-- 该种族特有想法 -->
+        <restrictedThoughts>
+        </restrictedThoughts>
+      </thoughtSettings>
+      <!-- 关系设置，不会生成任何随机关系 -->
+      <relationSettings>
+        <relationChanceModifierLover>0</relationChanceModifierLover>
+        <relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+        <relationChanceModifierFiance>0</relationChanceModifierFiance>
+        <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+        <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
+        <relationChanceModifierParent>0</relationChanceModifierParent>
+        <relationChanceModifierChild>0</relationChanceModifierChild>
+        <relationChanceModifierSibling>0</relationChanceModifierSibling>
+      </relationSettings>
+    </alienRace>
+
+    <!-- 基础属性设置 -->
+    <statBases>
+      <!-- 市场价值 -->
+      <MarketValue>5000</MarketValue>
+      <RoyalFavorValue>0</RoyalFavorValue>
+
+      <!-- 移动速度 -->
+      <MoveSpeed>3</MoveSpeed>
+      <Mass>50</Mass>
+
+      <!-- <RestRateMultiplier>1</RestRateMultiplier> -->
+      <!-- <HungerRateMultiplier>1</HungerRateMultiplier> -->
+      <MaxNutrition>1.05</MaxNutrition>
+      <EatingSpeed>2</EatingSpeed>
+
+      <CarryingCapacity>50</CarryingCapacity>
+      <MeatAmount>60</MeatAmount>
+      <LeatherAmount>30</LeatherAmount>
+
+      <PainShockThreshold>0.85</PainShockThreshold>
+      <PsychicSensitivity>1.5</PsychicSensitivity>
+      <MentalBreakThreshold>0</MentalBreakThreshold>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
+      <Flammability>0.1</Flammability>
+
+      <MeleeDodgeChance>0.75</MeleeDodgeChance>
+      <!-- <MeleeHitChance>1</MeleeHitChance> -->
+
+      <!-- <NegotiationAbility>1</NegotiationAbility> -->
+      <!-- <SellPriceFactor>1</SellPriceFactor> -->
+      <!-- <SocialImpact>1</SocialImpact> -->
+      <!-- <TradePriceImprovement>0.5</TradePriceImprovement> -->
+
+      <!-- 自带的甲壳可以防御外部攻击 -->
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.4</ArmorRating_Heat>
+
+      <!-- 虫群拥有惊人的愈合速度 -->
+      <InjuryHealingFactor>5</InjuryHealingFactor>
+
+      <!-- 在野外采集的营养 -->
+      <ForagedNutritionPerDay>0</ForagedNutritionPerDay>
+      <ComfyTemperatureMin>-3000</ComfyTemperatureMin>
+      <ComfyTemperatureMax>3000</ComfyTemperatureMax>
+    </statBases>
+
+    <race>
+      <!-- <fleshType>WULA_Fleshtype</fleshType> -->
+      <!-- AI行为，勿改 -->
+      <thinkTreeMain>ARA_Humanlike</thinkTreeMain>
+      <!-- 智力水平 -->
+      <intelligence>Humanlike</intelligence>
+      <bloodDef>Filth_BloodInsect</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <!-- 基础血量，很高 -->
+      <baseHealthScale>1.5</baseHealthScale>
+      <!-- 解剖产物 -->
+      <leatherDef>ARA_Carapace</leatherDef>
+      <!-- 身体类型 -->
+      <body>Human</body>
+      <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+        <Firefighter>0</Firefighter>
+        <Patient>0</Patient>
+        <Doctor>0</Doctor>
+        <PatientBedRest>0</PatientBedRest>
+        <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+        <BasicWorker>0</BasicWorker>
+        <Warden>0</Warden>
+        <Handling>0</Handling>
+        <Cooking>0</Cooking>
+        <Hunting>0</Hunting>
+        <Construction>0</Construction>
+        <Growing>0</Growing>
+        <Mining>0</Mining>
+        <PlantCutting>0</PlantCutting>
+        <Smithing>0</Smithing>
+        <Tailoring>0</Tailoring>
+        <Art>0</Art>
+        <Crafting>0</Crafting>
+        <Hauling>0</Hauling>
+        <Cleaning>0</Cleaning>
+        <Research>0</Research>
+        <DarkStudy MayRequire="Ludeon.RimWorld.Anomaly">0</DarkStudy>
+      </lifeStageWorkSettings>
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">
+          <def>HumanlikePreTeenager</def>
+          <minAge>0.5</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>0.75</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>1</minAge>
+          <soundWounded>Pawn_BigInsect_Pain</soundWounded>
+          <soundDeath>Pawn_BigInsect_Death</soundDeath>
+          <soundCall>Pawn_BigInsect_Call</soundCall>
+          <soundAngry>Pawn_BigInsect_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <canFlyInVacuum>false</canFlyInVacuum>
+      <!-- 身形大小，略大于常规人类 -->
+      <baseBodySize>1</baseBodySize>
+    </race>
+
+    <!-- 工具设置（攻击方式） -->
+    <tools Inherit="False">
+      <li>
+        <label>头颚</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.01</chanceFactor>
+      </li>
+    </tools>
+
+    <recipes Inherit="False">
+      <li>ARA_CureBloodRot</li>
+      <li>ARA_CureAcid</li>
+      <li>RemovePorcupineQuill</li>
+      <li>SurgicalInspection</li>
+      <li>ARA_Surgery_Install_Plasteel</li>
+      <li>ARA_Surgery_Install_Carapace_Shell</li>
+      <li>ARA_Surgery_Install_Huge_Stomach</li>
+      <li>ARA_Surgery_Install_Cycle_Suppression</li>
+      <li>ARA_Surgery_Install_Shell_Thorn</li>
+      <li>ARA_Surgery_Install_Reactive_Shell</li>
+      <li>ARA_Surgery_Install_Strengthening_Tendon</li>
+      <li>ARA_Surgery_Install_Slide_Patagium</li>
+      <li>ARA_Surgery_Install_Acidling_Pouch</li>
+      <li>ARA_Surgery_Install_Tumor_Pouch</li>
+    </recipes>
+
+    <comps>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.HeadControllerComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.EyeballControllerComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.LidControllerComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.BrowControllerComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.MouthControllerComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.SkinControllerComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.FacialAnimationControllerComp</compClass>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_HiveMindDrone</li>
+          <li>ARA_HiveStrength_Low</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+      <!--<li>
+        <compClass>FacialAnimation.EmotionControllerComp</compClass>
+      </li>
+      <li Class="CompProperties_DrugAddict"/> -->
+    </comps>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace Name="ARA_NodeBase_Huge" ParentName="ARA_NodeBase" Abstract="True">
+    <alienRace>
+      <generalSettings>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator>
+          <!-- 图像放大 -->
+          <customDrawSize>(1.2,1.2)</customDrawSize>
+          <customHeadDrawSize>(1.05,1.05)</customHeadDrawSize>
+          <customPortraitDrawSize>(0.9,0.9)</customPortraitDrawSize>
+          <borderScale>1.2</borderScale>
+          <atlasScale>1.2</atlasScale>
+        </alienPartGenerator>
+      </generalSettings>
+      <!-- 种族的允许和禁止特化设置 -->
+      <raceRestriction>
+        <!-- 武器列表 -->
+        <weaponList>
+          <li>ARA_RW_Large_Arc_Gun</li>
+          <li>ARA_RW_Acid_Mortar</li>
+          <li>ARA_RW_Basic_SniperCannon_Gun</li>
+          <li>ARA_RW_Basic_FireSpewer_Gun</li>
+          <li>ARA_RW_Missile_AR_Gun</li>
+        </weaponList>
+      </raceRestriction>
+    </alienRace>
+
+    <statBases>
+      <MaxNutrition>0.34</MaxNutrition>
+    </statBases>
+
+    <race>
+      <baseBodySize>3</baseBodySize>
+      <baseHealthScale>4</baseHealthScale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+
+  <!-- 定义阿拉克涅节点虫种族 -->
+  <AlienRace.ThingDef_AlienRace ParentName="ARA_NodeBase_Huge">
+    <defName>ArachnaeNode_Race_Myrmecocystus</defName>
+    <label>阿拉克涅蜜罐种</label>
+    <description>阿拉克涅大型督虫之一，拥有广泛食谱的大型虫族，可以吞下许多未经处理的生物并将其分解为阿拉克涅虫蜜，以滋养虫群。\n\n她可以进行搬运、烹饪和种植工作，战斗技能非常差。\n\n作为督虫，她可以繁育并监管若干阿拉克涅食腐种辅虫，以协助巢穴进行收割和播种工作。</description>
+    <alienRace>
+      <generalSettings>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator>
+          <!-- 额外身体部件 -->
+          <!-- <bodyAddons>
+            <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Myrmecocystus_Addons_Stomach</path>
+              <inFrontOfBody>false</inFrontOfBody>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <conditions>
+                <Apparel>
+                  <hiddenUnderApparelTag>
+                    <li>ARA_PowerArmor</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+            </li>
+          </bodyAddons> -->
+        </alienPartGenerator>
+      </generalSettings>
+      <!-- 种族的允许和禁止特化设置 -->
+      <raceRestriction>
+        <!-- 食物列表 -->
+        <whiteFoodList Inherit="False" />
+        <blackFoodList>
+          <li>ARA_InsectJelly</li>
+        </blackFoodList>
+        <onlyEatRaceRestrictedFood>false</onlyEatRaceRestrictedFood>
+        <recipeList>
+          <li>ARA_TrainShooting</li>
+          <li>ARA_TrainMelee</li>
+          <li>ARA_TrainCooking</li>
+          <li>ARA_TrainPlants</li>
+          <li>ARA_TrainMedicine</li>
+        </recipeList>
+        <onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
+      </raceRestriction>
+    </alienRace>
+
+    <!-- 基础属性设置 -->
+    <statBases>
+      <!-- 移动速度 -->
+      <MoveSpeed>2</MoveSpeed>
+
+      <!-- <RestRateMultiplier>1</RestRateMultiplier> -->
+      <EatingSpeed>5</EatingSpeed>
+      <MaxNutrition>1</MaxNutrition>
+
+      <CarryingCapacity>100</CarryingCapacity>
+
+      <MeleeDodgeChance>0.5</MeleeDodgeChance>
+      <!-- <MeleeHitChance>1</MeleeHitChance> -->
+
+      <!-- <NegotiationAbility>1</NegotiationAbility> -->
+      <!-- <SellPriceFactor>1</SellPriceFactor> -->
+      <!-- <SocialImpact>1</SocialImpact> -->
+      <!-- <TradePriceImprovement>0.5</TradePriceImprovement> -->
+
+      <!-- 自带的甲壳可以防御外部攻击 -->
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.05</ArmorRating_Heat>
+    </statBases>
+
+    <race>
+      <baseHungerRate>2</baseHungerRate>
+      <foodType>OmnivoreHuman,CarnivoreAnimal,OvivoreAnimal</foodType>
+      <!-- 身体类型 -->
+      <body>ArachnaeMyrmecocystus_Body</body>
+      <!-- 血量上限 -->
+      <baseHealthScale>2</baseHealthScale>
+    </race>
+
+    <comps>
+      <!-- <li Class="ArachnaeSwarm.CompProperties_MilkableArachnae">
+        <milkDef>ARA_InsectJelly</milkDef>
+        <milkIntervalDays>1</milkIntervalDays>
+        <milkAmount>10</milkAmount>
+      </li> -->
+      <li Class="ArachnaeSwarm.CompProperties_AutoMechCarrier">
+        <freeProduction>true</freeProduction>
+        <disableHediff>ARA_RaceBaseSwarmProduceSwitchHediff</disableHediff>
+        <fixedIngredient>ARA_InsectJelly</fixedIngredient>
+        <maxIngredientCount>1</maxIngredientCount>
+        <startingIngredientCount>1</startingIngredientCount>
+        <costPerPawn>999</costPerPawn>
+        <cooldownTicks>9999</cooldownTicks>
+        <productionQueue>
+          <li>
+            <pawnKind>ArachnaeBase_Race_Scavenger</pawnKind>
+            <count>2</count>
+            <cooldownTicks>1000</cooldownTicks>
+          </li>
+        </productionQueue>
+        <spawnEffecter>CocoonDestroyed</spawnEffecter>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_NodeSwarmLifetime">
+        <immuteHediff>ARA_Cycle_Suppression_Hediff</immuteHediff>
+        <lifespanHediff>ARA_LifespanHediff</lifespanHediff>
+        <lifetimeDays>120</lifetimeDays>
+        <labelOverride>寿命</labelOverride>
+        <tooltipOverride>阿拉克涅的督虫们生命如精密的发条般运转着。</tooltipOverride>
+        <showGizmoOnNonPlayerControlled>true</showGizmoOnNonPlayerControlled>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_RaceBaseSwarmProduceSwitchHediff</li>
+          <li>ARA_Myrmecocystus_Production_InsectJelly</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SkillExperienceGiver">
+        <addChance>1.0</addChance>
+        <debug>false</debug>
+        <skillExperiences>
+          <li>
+            <skillDef>Plants</skillDef>
+            <!-- <experienceAmount>0</experienceAmount> -->
+            <skillChance>1</skillChance>
+            <!-- <minSkillLevel>5</minSkillLevel> -->
+            <maxSkillLevel>10</maxSkillLevel>
+            <experienceRange>
+              <min>18000</min>
+              <max>36000</max>
+            </experienceRange>
+          </li>
+        </skillExperiences>
+      </li>
+    </comps>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="ARA_NodeBase">
+    <defName>ArachnaeNode_Race_ShieldHead</defName>
+    <label>阿拉克涅盾头种</label>
+    <description>阿拉克涅督虫之一，拥有过度生长而覆盖头部和腿部的甲壳，可以定时剥落甲壳素供虫巢使用。\n\n她可以进行搬运、采矿和建筑工作，战斗技能平平无奇，但是拥有较好的防御。\n\n作为督虫，她可以繁育并监管若干阿拉克涅坚颚种辅虫，以协助巢穴开采矿脉。</description>
+    <alienRace>
+      <generalSettings>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator>
+          <!-- 额外身体部件 -->
+          <bodyAddons>
+            <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_ShieldHead</path>
+              <offsets>
+                <south>
+                  <offset>(0,0.32)</offset>
+                </south>
+                <north>
+                  <offset>(0,0.32)</offset>
+                </north>
+                <east>
+                  <offset>(-0.1,0.32)</offset>
+                </east>
+                <west>
+                  <offset>(-0.1,0.32)</offset>
+                </west>
+              </offsets>
+              <inFrontOfBody>true</inFrontOfBody>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <conditions>
+                <Apparel>
+                  <hiddenUnderApparelTag>
+                    <li>ARA_PowerArmor</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+            </li>
+            <!-- <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_ShieldBody</path>
+              <offsets>
+                <south>
+                  <layerOffset>-0.275</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.275</layerOffset>
+                </north>
+                <east>
+                  <layerOffset>-0.275</layerOffset>
+                </east>
+                <west>
+                  <layerOffset>-0.275</layerOffset>
+                </west>
+              </offsets>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <conditions>
+                <Apparel>
+                  <hiddenUnderApparelTag>
+                    <li>ARA_PowerArmor</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+            </li> -->
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <raceRestriction>
+        <onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+        <recipeList>
+          <li>ARA_TrainShooting</li>
+          <li>ARA_TrainMelee</li>
+          <li>ARA_TrainConstruction</li>
+          <li>ARA_TrainMining</li>
+        </recipeList>
+        <onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
+      </raceRestriction>
+    </alienRace>
+
+    <!-- 基础属性设置 -->
+    <statBases>
+      <!-- 移动速度 -->
+      <MoveSpeed>2</MoveSpeed>
+
+      <!-- <RestRateMultiplier>1</RestRateMultiplier> -->
+      <!-- <HungerRateMultiplier>1</HungerRateMultiplier> -->
+      <EatingSpeed>5</EatingSpeed>
+      <MaxNutrition>1</MaxNutrition>
+
+      <CarryingCapacity>100</CarryingCapacity>
+
+      <MeleeDodgeChance>0.75</MeleeDodgeChance>
+      <!-- <MeleeHitChance>1</MeleeHitChance> -->
+
+      <!-- <NegotiationAbility>1</NegotiationAbility> -->
+      <!-- <SellPriceFactor>1</SellPriceFactor> -->
+      <!-- <SocialImpact>1</SocialImpact> -->
+      <!-- <TradePriceImprovement>0.5</TradePriceImprovement> -->
+
+      <!-- 自带的甲壳可以防御外部攻击 -->
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+    </statBases>
+
+    <race>
+      <!-- 身体类型 -->
+      <body>ArachnaeShieldHead_Body</body>
+      <!-- 身形大小 -->
+      <baseBodySize>1.5</baseBodySize>
+      <!-- 血量上限 -->
+      <baseHealthScale>3</baseHealthScale>
+    </race>
+
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_RaceBaseSwarmProduceSwitchHediff</li>
+          <li>ARA_ShieldHead_Base</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AutoMechCarrier">
+        <freeProduction>true</freeProduction>
+        <disableHediff>ARA_RaceBaseSwarmProduceSwitchHediff</disableHediff>
+        <fixedIngredient>ARA_InsectJelly</fixedIngredient>
+        <maxIngredientCount>1</maxIngredientCount>
+        <startingIngredientCount>1</startingIngredientCount>
+        <costPerPawn>999</costPerPawn>
+        <cooldownTicks>9999</cooldownTicks>
+        <productionQueue>
+          <li>
+            <pawnKind>ArachnaeBase_Race_HardJaw</pawnKind>
+            <count>2</count>
+            <cooldownTicks>1000</cooldownTicks>
+          </li>
+        </productionQueue>
+        <spawnEffecter>CocoonDestroyed</spawnEffecter>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_NodeSwarmLifetime">
+        <immuteHediff>ARA_Cycle_Suppression_Hediff</immuteHediff>
+        <lifespanHediff>ARA_LifespanHediff</lifespanHediff>
+        <lifetimeDays>60</lifetimeDays>
+        <labelOverride>寿命</labelOverride>
+        <tooltipOverride>阿拉克涅的督虫们生命如精密的发条般运转着。</tooltipOverride>
+        <showGizmoOnNonPlayerControlled>true</showGizmoOnNonPlayerControlled>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SkillExperienceGiver">
+        <addChance>1.0</addChance>
+        <debug>false</debug>
+        <skillExperiences>
+          <li>
+            <skillDef>Construction</skillDef>
+            <!-- <experienceAmount>0</experienceAmount> -->
+            <skillChance>1</skillChance>
+            <!-- <minSkillLevel>5</minSkillLevel> -->
+            <maxSkillLevel>10</maxSkillLevel>
+            <experienceRange>
+              <min>18000</min>
+              <max>36000</max>
+            </experienceRange>
+          </li>
+        </skillExperiences>
+      </li>
+    </comps>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="ARA_NodeBase">
+    <defName>ArachnaeNode_Race_WeaponSmith</defName>
+    <label>阿拉克涅工艺种</label>
+    <description>阿拉克涅督虫之一，是少数拥有结茧能力的非女皇种阿拉克涅虫族——她们可以排出一枚器官茧，这枚茧将按照其信息素所标定的方向定向演化出一个武装器官，以供虫群使用。\n\n她可以进行搬运、手工和艺术工作，战斗技能平平无奇，但本身极度脆弱。\n\n作为督虫，她可以繁育并监管若干阿拉克涅家政种辅虫，以协助巢穴进行清洁和搬运工作。</description>
+    <alienRace>
+      <generalSettings>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator>
+          <!-- 额外身体部件 -->
+          <bodyAddons>
+            <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_WeaponSmith</path>
+              <inFrontOfBody>false</inFrontOfBody>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <offsets>
+                <north>
+                  <layerOffset>-0.275</layerOffset>
+                </north>
+              </offsets>
+              <conditions>
+                <Apparel>
+                  <hiddenUnderApparelTag>
+                    <li>ARA_PowerArmor</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <raceRestriction>
+        <onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+        <recipeList>
+          <li>ARA_TrainShooting</li>
+          <li>ARA_TrainMelee</li>
+          <li>ARA_TrainCrafting</li>
+        </recipeList>
+        <onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
+      </raceRestriction>
+    </alienRace>
+
+    <!-- 基础属性设置 -->
+    <statBases>
+      <!-- 移动速度 -->
+      <MoveSpeed>3.5</MoveSpeed>
+
+      <!-- <RestRateMultiplier>1</RestRateMultiplier> -->
+      <!-- <HungerRateMultiplier>1</HungerRateMultiplier> -->
+      <!-- <EatingSpeed>5</EatingSpeed> -->
+      <MaxNutrition>3</MaxNutrition>
+
+      <CarryingCapacity>100</CarryingCapacity>
+
+      <MeleeDodgeChance>0.75</MeleeDodgeChance>
+      <!-- <MeleeHitChance>1</MeleeHitChance> -->
+
+      <!-- <NegotiationAbility>1</NegotiationAbility> -->
+      <!-- <SellPriceFactor>1</SellPriceFactor> -->
+      <!-- <SocialImpact>1</SocialImpact> -->
+      <!-- <TradePriceImprovement>0.5</TradePriceImprovement> -->
+
+      <!-- 自带的甲壳可以防御外部攻击 -->
+      <!-- <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.05</ArmorRating_Heat> -->
+    </statBases>
+
+    <race>
+      <!-- 身体类型 -->
+      <body>ArachnaeWeaponSmith_Body</body>
+      <baseBodySize>0.8</baseBodySize>
+      <baseHealthScale>0.75</baseHealthScale>
+    </race>
+
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_RaceBaseSwarmProduceSwitchHediff</li>
+          <li>ARA_WeaponSmith_0_Stage</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AutoMechCarrier">
+        <freeProduction>true</freeProduction>
+        <disableHediff>ARA_RaceBaseSwarmProduceSwitchHediff</disableHediff>
+        <fixedIngredient>ARA_InsectJelly</fixedIngredient>
+        <maxIngredientCount>1</maxIngredientCount>
+        <startingIngredientCount>1</startingIngredientCount>
+        <costPerPawn>999</costPerPawn>
+        <cooldownTicks>9999</cooldownTicks>
+        <productionQueue>
+          <li>
+            <!-- <pawnKind>ArachnaeBase_Race_Slavey</pawnKind> -->
+            <pawnKind>ArachnaeBase_Race_Maid</pawnKind>
+            <count>3</count>
+            <cooldownTicks>1000</cooldownTicks>
+          </li>
+        </productionQueue>
+        <spawnEffecter>CocoonDestroyed</spawnEffecter>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_NodeSwarmLifetime">
+        <immuteHediff>ARA_Cycle_Suppression_Hediff</immuteHediff>
+        <lifespanHediff>ARA_LifespanHediff</lifespanHediff>
+        <lifetimeDays>60</lifetimeDays>
+        <labelOverride>寿命</labelOverride>
+        <tooltipOverride>阿拉克涅的督虫们生命如精密的发条般运转着。</tooltipOverride>
+        <showGizmoOnNonPlayerControlled>true</showGizmoOnNonPlayerControlled>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SkillExperienceGiver">
+        <addChance>1.0</addChance>
+        <debug>false</debug>
+        <skillExperiences>
+          <li>
+            <skillDef>Crafting</skillDef>
+            <!-- <experienceAmount>0</experienceAmount> -->
+            <skillChance>1</skillChance>
+            <!-- <minSkillLevel>5</minSkillLevel> -->
+            <maxSkillLevel>10</maxSkillLevel>
+            <experienceRange>
+              <min>18000</min>
+              <max>36000</max>
+            </experienceRange>
+          </li>
+        </skillExperiences>
+      </li>
+    </comps>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="ARA_NodeBase">
+    <defName>ArachnaeNode_Race_Fighter</defName>
+    <label>阿拉克涅战士种</label>
+    <description>阿拉克涅督虫之一，是巢穴中真正的战士，其拥有强大的可塑性基因，随着科技的解锁其将获得更多的能力。\n\n她可以进行搬运、狩猎和驯兽工作，战斗技能非常亮眼，并且移动敏捷。\n\n作为督虫，她可以向敌人投射寿命有限但是非常恼人的阿拉克涅酸噬种辅虫，以阻止敌人的远程火力开火。</description>
+    <alienRace>
+      <generalSettings>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator>
+          <!-- 额外身体部件 -->
+          <bodyAddons>
+            <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_Fighter_Claw</path>
+              <inFrontOfBody>true</inFrontOfBody>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <conditions>
+                <Apparel>
+                  <hiddenUnderApparelTag>
+                    <li>ARA_PowerArmor</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+            </li>
+            <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_Fighter_Tail</path>
+              <inFrontOfBody>false</inFrontOfBody>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <offsets>
+                <north>
+                  <layerOffset>-0.275</layerOffset>
+                </north>
+              </offsets>
+              <conditions>
+                <Apparel>
+                  <hiddenUnderApparelTag>
+                    <li>ARA_PowerArmor</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <raceRestriction>
+        <onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+        <recipeList>
+          <li>ARA_TrainShooting</li>
+          <li>ARA_TrainMelee</li>
+          <li>ARA_TrainAnimals</li>
+        </recipeList>
+        <onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
+      </raceRestriction>
+    </alienRace>
+
+    <!-- 基础属性设置 -->
+    <statBases>
+      <!-- 移动速度 -->
+      <MoveSpeed>5</MoveSpeed>
+
+      <!-- <RestRateMultiplier>1</RestRateMultiplier> -->
+      <!-- <HungerRateMultiplier>1</HungerRateMultiplier> -->
+      <!-- <EatingSpeed>5</EatingSpeed> -->
+      <MaxNutrition>2</MaxNutrition>
+
+      <CarryingCapacity>100</CarryingCapacity>
+
+      <MeleeDodgeChance>1.25</MeleeDodgeChance>
+      <MeleeHitChance>1.25</MeleeHitChance>
+
+      <!-- <NegotiationAbility>1</NegotiationAbility> -->
+      <!-- <SellPriceFactor>1</SellPriceFactor> -->
+      <!-- <SocialImpact>1</SocialImpact> -->
+      <!-- <TradePriceImprovement>0.5</TradePriceImprovement> -->
+
+      <!-- 自带的甲壳可以防御外部攻击 -->
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.3</ArmorRating_Heat>
+    </statBases>
+
+    <tools>
+      <li>
+        <label>巨镰</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>ARA_Sickles</linkedBodyPartsGroup>
+        <!-- <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable> -->
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+
+    <race>
+      <!-- 身体类型 -->
+      <body>ArachnaeFighter_Body</body>
+      <baseBodySize>0.7</baseBodySize>
+      <baseHealthScale>3</baseHealthScale>
+    </race>
+
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_NodeSwarmLifetime">
+        <immuteHediff>ARA_Cycle_Suppression_Hediff</immuteHediff>
+        <lifespanHediff>ARA_LifespanHediff</lifespanHediff>
+        <lifetimeDays>60</lifetimeDays>
+        <labelOverride>寿命</labelOverride>
+        <tooltipOverride>阿拉克涅的督虫们生命如精密的发条般运转着。</tooltipOverride>
+        <showGizmoOnNonPlayerControlled>true</showGizmoOnNonPlayerControlled>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_Fighter_Base</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_FighterInvisible">
+        <InvisibilityDef>ARA_Fighter_Invisibility</InvisibilityDef>
+        <stealthCooldownTicks>120</stealthCooldownTicks>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SkillExperienceGiver">
+        <addChance>1.0</addChance>
+        <debug>false</debug>
+        <skillExperiences>
+          <li>
+            <skillDef>Shooting</skillDef>
+            <!-- <experienceAmount>0</experienceAmount> -->
+            <skillChance>1</skillChance>
+            <!-- <minSkillLevel>5</minSkillLevel> -->
+            <maxSkillLevel>10</maxSkillLevel>
+            <experienceRange>
+              <min>18000</min>
+              <max>36000</max>
+            </experienceRange>
+          </li>
+          <li>
+            <skillDef>Melee</skillDef>
+            <!-- <experienceAmount>0</experienceAmount> -->
+            <skillChance>1</skillChance>
+            <!-- <minSkillLevel>5</minSkillLevel> -->
+            <maxSkillLevel>10</maxSkillLevel>
+            <experienceRange>
+              <min>18000</min>
+              <max>36000</max>
+            </experienceRange>
+          </li>
+        </skillExperiences>
+      </li>
+    </comps>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="ARA_NodeBase">
+    <defName>ArachnaeNode_Race_Facehugger</defName>
+    <label>阿拉克涅原虫种</label>
+    <description>阿拉克涅督虫之一，呈现高度未分化状态的特殊督虫，可以通过独特的神经链接管控制受害者的身体，并释放灵能信号以使得周围的人忽略其存在。然而她本身实在过于脆弱，在完成寄生前难以胜任任何工作。\n\n她可以进行所有非研究工作，战斗技能约等于无。\n\n不同于普通阿拉克涅虫族，高度未分化的身体决定了其无法孕育任何辅虫。</description>
+    <alienRace>
+      <generalSettings>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator>
+          <!-- 颜色设置 -->
+          <colorChannels Inherit="false">
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>15</weight>
+                    <min>(255,255,255)</min>
+                    <max>(255,255,255)</max>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <!-- 皮肤是特殊的，因为现在由基因定义肤色 -->
+            <li>
+              <name>skin</name>
+              <first Class="AlienRace.ColorGenerator_SkinColorMelanin">
+                <minMelanin>0</minMelanin>
+                <maxMelanin>0</maxMelanin>
+              </first>
+            </li>
+          </colorChannels>
+          <!-- 额外身体部件 -->
+          <bodyAddons>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <!-- 图形，留空 -->
+      <graphicPaths Inherit="False">
+        <!-- 皮肤颜色 -->
+        <skinColor>(1,1,1,1)</skinColor>
+        <!-- 皮肤着色器 -->
+        <skinShader>Cutout</skinShader>
+        <body>ArachnaeSwarm/Things/ARA_Facehugger/Bodies/</body>
+        <head>
+          <path>ArachnaeSwarm/Things/ARA_HiveNode/Heads/</path>
+        </head>
+        <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+        <stump>ArachnaeSwarm/Things/ARA_Facehugger/Bodies/Naked_Thin</stump>
+      </graphicPaths>
+      <!-- 种族的允许和禁止特化设置 -->
+      <raceRestriction>
+        <!-- 武器列表 -->
+        <weaponList Inherit="False" />
+      </raceRestriction>
+    </alienRace>
+
+    <statBases>
+      <MoveSpeed>5</MoveSpeed>
+      <EatingSpeed>5</EatingSpeed>
+      <CarryingCapacity>100</CarryingCapacity>
+      <MeleeDodgeChance>1.5</MeleeDodgeChance>
+
+      <MaxNutrition>2.5</MaxNutrition>
+    </statBases>
+
+    <race>
+      <body>ArachnaeFacehugger_Body</body>
+      <baseBodySize>0.5</baseBodySize>
+      <baseHealthScale>0.25</baseHealthScale>
+    </race>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_Facehugger_LowOperation</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+    </comps>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="ARA_NodeBase_Huge">
+    <defName>ArachnaeNode_Race_Smokepop</defName>
+    <label>阿拉克涅浓雾种</label>
+    <description>阿拉克涅大型督虫之一，身披厚重甲壳的大型虫族，拥有在大范围内喷射信息素以召唤辅虫虫群能力，虽然移动速度比较慢，但是在战斗中就如同装甲车一样难以撼动。\n\n她可以进行搬运工作，拥有不错的战斗技能，防御力和伤害耐受能力强大。\n\n作为督虫，她可以繁育并监管大量阿拉克涅家政种辅虫，以协助巢穴进行清洁和搬运工作。</description>
+    <alienRace>
+      <generalSettings>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator>
+          <!-- 额外身体部件 -->
+          <bodyAddons>
+            <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_Smokepop_Tail</path>
+              <inFrontOfBody>false</inFrontOfBody>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <offsets>
+                <north>
+                  <layerOffset>-0.275</layerOffset>
+                </north>
+              </offsets>
+              <conditions>
+                <Apparel>
+                  <hiddenUnderApparelTag>
+                    <li>ARA_PowerArmor</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <raceRestriction>
+        <onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+        <recipeList>
+          <li>ARA_TrainShooting</li>
+          <li>ARA_TrainMelee</li>
+        </recipeList>
+        <onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
+      </raceRestriction>
+    </alienRace>
+
+    <!-- 基础属性设置 -->
+    <statBases>
+      <!-- 移动速度 -->
+      <MoveSpeed>1.55</MoveSpeed>
+
+      <!-- <RestRateMultiplier>1</RestRateMultiplier> -->
+      <!-- <HungerRateMultiplier>1</HungerRateMultiplier> -->
+      <!-- <EatingSpeed>5</EatingSpeed> -->
+      <!-- <MaxNutrition>3</MaxNutrition> -->
+
+      <CarryingCapacity>100</CarryingCapacity>
+
+      <MeleeDodgeChance>0.5</MeleeDodgeChance>
+
+      <!-- <NegotiationAbility>1</NegotiationAbility> -->
+      <!-- <SellPriceFactor>1</SellPriceFactor> -->
+      <!-- <SocialImpact>1</SocialImpact> -->
+      <!-- <TradePriceImprovement>0.5</TradePriceImprovement> -->
+
+      <!-- 自带的甲壳可以防御外部攻击 -->
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.75</ArmorRating_Heat>
+
+    </statBases>
+
+    <race>
+      <!-- 身体类型 -->
+      <body>ArachnaeSmokepop_Body</body>
+      <baseHealthScale>4</baseHealthScale>
+    </race>
+
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_RaceBaseSwarmProduceSwitchHediff</li>
+          <li>ARA_Smokepop_Base</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AutoMechCarrier">
+        <freeProduction>true</freeProduction>
+        <disableHediff>ARA_RaceBaseSwarmProduceSwitchHediff</disableHediff>
+        <fixedIngredient>ARA_InsectJelly</fixedIngredient>
+        <maxIngredientCount>1</maxIngredientCount>
+        <startingIngredientCount>1</startingIngredientCount>
+        <costPerPawn>999</costPerPawn>
+        <cooldownTicks>9999</cooldownTicks>
+        <productionQueue>
+          <li>
+            <!-- <pawnKind>ArachnaeBase_Race_Slavey</pawnKind> -->
+            <pawnKind>ArachnaeBase_Race_Maid</pawnKind>
+            <count>5</count>
+            <cooldownTicks>1000</cooldownTicks>
+          </li>
+        </productionQueue>
+        <spawnEffecter>CocoonDestroyed</spawnEffecter>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_NodeSwarmLifetime">
+        <immuteHediff>ARA_Cycle_Suppression_Hediff</immuteHediff>
+        <lifespanHediff>ARA_LifespanHediff</lifespanHediff>
+        <lifetimeDays>120</lifetimeDays>
+        <labelOverride>寿命</labelOverride>
+        <tooltipOverride>阿拉克涅的督虫们生命如精密的发条般运转着。</tooltipOverride>
+        <showGizmoOnNonPlayerControlled>true</showGizmoOnNonPlayerControlled>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SkillExperienceGiver">
+        <addChance>1.0</addChance>
+        <debug>false</debug>
+        <skillExperiences>
+          <li>
+            <skillDef>Shooting</skillDef>
+            <!-- <experienceAmount>0</experienceAmount> -->
+            <skillChance>1</skillChance>
+            <!-- <minSkillLevel>5</minSkillLevel> -->
+            <maxSkillLevel>10</maxSkillLevel>
+            <experienceRange>
+              <min>18000</min>
+              <max>24000</max>
+            </experienceRange>
+          </li>
+          <li>
+            <skillDef>Melee</skillDef>
+            <!-- <experienceAmount>0</experienceAmount> -->
+            <skillChance>1</skillChance>
+            <!-- <minSkillLevel>5</minSkillLevel> -->
+            <maxSkillLevel>10</maxSkillLevel>
+            <experienceRange>
+              <min>18000</min>
+              <max>24000</max>
+            </experienceRange>
+          </li>
+        </skillExperiences>
+      </li>
+    </comps>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="ARA_NodeBase_Huge">
+    <defName>ArachnaeNode_Race_Skyraider</defName>
+    <label>阿拉克涅空天种</label>
+    <description>阿拉克涅大型督虫之一，众督虫中的精锐，身材巨大并且拥有引以为傲的飞行能力，是巢穴中无可争议的空中霸主。\n\n她可以进行搬运工作，拥有不错的战斗技能，在战场上行动时非常灵活。\n\n作为督虫，她可以向敌人发射天巢种辅虫，这种辅虫会自动修正姿态追踪敌军，并在命中后对敌人进行持续啃咬。</description>
+    <alienRace>
+      <generalSettings>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator>
+          <!-- 额外身体部件 -->
+          <bodyAddons>
+            <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_Skyraider_Tail</path>
+              <inFrontOfBody>false</inFrontOfBody>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <offsets>
+                <north>
+                  <layerOffset>-0.275</layerOffset>
+                </north>
+              </offsets>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <raceRestriction>
+        <onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+        <recipeList>
+          <li>ARA_TrainShooting</li>
+          <li>ARA_TrainMelee</li>
+        </recipeList>
+        <onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
+        <blackApparelList>
+          <li>ARA_SpiderOne_PowerArmor</li>
+        </blackApparelList>
+      </raceRestriction>
+    </alienRace>
+
+    <!-- 基础属性设置 -->
+    <statBases>
+      <!-- 移动速度 -->
+      <MoveSpeed>2.5</MoveSpeed>
+
+      <MaxFlightTime>9999</MaxFlightTime>
+      <FlightCooldown>0</FlightCooldown>
+
+      <!-- <RestRateMultiplier>1</RestRateMultiplier> -->
+      <!-- <HungerRateMultiplier>1</HungerRateMultiplier> -->
+      <!-- <EatingSpeed>5</EatingSpeed> -->
+
+      <CarryingCapacity>100</CarryingCapacity>
+
+      <MeleeDodgeChance>1.5</MeleeDodgeChance>
+
+      <!-- <NegotiationAbility>1</NegotiationAbility> -->
+      <!-- <SellPriceFactor>1</SellPriceFactor> -->
+      <!-- <SocialImpact>1</SocialImpact> -->
+      <!-- <TradePriceImprovement>0.5</TradePriceImprovement> -->
+
+      <!-- 自带的甲壳可以防御外部攻击 -->
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.1</ArmorRating_Heat>
+
+      <!-- <MaxNutrition>1</MaxNutrition> -->
+    </statBases>
+
+    <race>
+      <!-- 身体类型 -->
+      <body>ArachnaeSkyraider_Body</body>
+      <renderTree>ARA_ArachnaeRenderTree</renderTree>
+      <flightStartChanceOnJobStart>1.0</flightStartChanceOnJobStart>
+      <!-- <baseBodySize>0.8</baseBodySize> -->
+      <baseHealthScale>2</baseHealthScale>
+    </race>
+
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_Skyraider_Base</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+      <!-- Add our new flight component here -->
+      <li Class="ArachnaeSwarm.CompProperties_PawnFlight">        <!-- 2. 添加我们的飞行组件 -->
+
+        <!-- 飞行触发条件：仅在征召时飞行 -->
+        <flightCondition>Drafted</flightCondition>
+
+        <!-- 链接到我们刚刚创建的 AnimationDef -->
+        <flyingAnimationNorth>ARA_FlyNorth</flyingAnimationNorth>
+        <flyingAnimationEast>ARA_FlyEast</flyingAnimationEast>
+        <flyingAnimationSouth>ARA_FlySouth</flyingAnimationSouth>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_NodeSwarmLifetime">
+        <immuteHediff>ARA_Cycle_Suppression_Hediff</immuteHediff>
+        <lifespanHediff>ARA_LifespanHediff</lifespanHediff>
+        <lifetimeDays>60</lifetimeDays>
+        <labelOverride>寿命</labelOverride>
+        <tooltipOverride>阿拉克涅的督虫们生命如精密的发条般运转着。</tooltipOverride>
+        <showGizmoOnNonPlayerControlled>true</showGizmoOnNonPlayerControlled>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SkillExperienceGiver">
+        <addChance>1.0</addChance>
+        <debug>false</debug>
+        <skillExperiences>
+          <li>
+            <skillDef>Shooting</skillDef>
+            <!-- <experienceAmount>0</experienceAmount> -->
+            <skillChance>1</skillChance>
+            <!-- <minSkillLevel>5</minSkillLevel> -->
+            <maxSkillLevel>10</maxSkillLevel>
+            <experienceRange>
+              <min>18000</min>
+              <max>24000</max>
+            </experienceRange>
+          </li>
+          <li>
+            <skillDef>Melee</skillDef>
+            <!-- <experienceAmount>0</experienceAmount> -->
+            <skillChance>1</skillChance>
+            <!-- <minSkillLevel>5</minSkillLevel> -->
+            <maxSkillLevel>10</maxSkillLevel>
+            <experienceRange>
+              <min>18000</min>
+              <max>24000</max>
+            </experienceRange>
+          </li>
+        </skillExperiences>
+      </li>
+    </comps>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="ARA_NodeBase">
+    <defName>ArachnaeNode_Race_NeuroSwarm</defName>
+    <label>阿拉克涅织域种</label>
+    <description>阿拉克涅督虫之一，是阿拉克涅虫群中最为特殊的虫族，织域种虽然受到女皇种监管，但仍然具有强大的高级智慧和自我意志，织域种之间能够构建一种高度互联的神经网络从而进行复杂的研究和计算工作，织域种进行计算工作时无法感知外界环境，因此她们是虫群的重要保护对象。</description>
+    <alienRace>
+      <generalSettings>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator>
+          <!-- 颜色设置 -->
+          <colorChannels Inherit="false">
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>15</weight>
+                    <min>(255,255,255)</min>
+                    <max>(255,255,255)</max>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <!-- 皮肤是特殊的，因为现在由基因定义肤色 -->
+            <li>
+              <name>skin</name>
+              <first Class="AlienRace.ColorGenerator_SkinColorMelanin">
+                <minMelanin>0</minMelanin>
+                <maxMelanin>0</maxMelanin>
+              </first>
+            </li>
+          </colorChannels>
+          <!-- 额外身体部件 -->
+          <bodyAddons Inherit="False">
+            <li>
+              <name>ArachnaeNode Hair</name>
+              <userCustomizable>true</userCustomizable>
+              <path>ArachnaeSwarm/Hair/ARA_ArachnaeNode_Hair</path>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <colorChannel>hair</colorChannel>
+              <defaultOffset>Center</defaultOffset>
+              <drawSize>1</drawSize>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <conditions>
+                <BodyPart>
+                  <bodyPart>Head</bodyPart>
+                </BodyPart>
+                <Posture>
+                  <drawnStanding>true</drawnStanding>
+                  <drawnInBed>true</drawnInBed>
+                  <drawnLaying>true</drawnLaying>
+                </Posture>
+                <RotStage>Fresh,Rotting</RotStage>
+              </conditions>
+              <offsets>
+                <west>
+                  <layerOffset>-0.274</layerOffset>
+                </west>
+                <south>
+                  <layerOffset>-0.274</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.274</layerOffset>
+                </north>
+                <east>
+                  <layerOffset>-0.274</layerOffset>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_NeuroSwarm</path>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <offsets>
+                <south>
+                  <offset>(0,0.32)</offset>
+                  <layerOffset>2</layerOffset>
+                </south>
+                <north>
+                  <offset>(0,0.32)</offset>
+                  <layerOffset>2</layerOffset>
+                </north>
+                <east>
+                  <offset>(-0.1,0.39)</offset>
+                  <layerOffset>2</layerOffset>
+                </east>
+                <west>
+                  <offset>(-0.1,0.39)</offset>
+                  <layerOffset>2</layerOffset>
+                </west>
+              </offsets>
+            </li>
+            <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_NeuroSwarm_Tail</path>
+              <inFrontOfBody>false</inFrontOfBody>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <offsets>
+                <north>
+                  <layerOffset>-0.275</layerOffset>
+                </north>
+              </offsets>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <raceRestriction>
+        <onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+        <blackApparelList>
+          <li>ARA_SpiderOne_PowerArmor</li>
+        </blackApparelList>
+      </raceRestriction>
+    </alienRace>
+
+    <!-- 基础属性设置 -->
+    <statBases>
+      <!-- 移动速度 -->
+      <MoveSpeed>1.5</MoveSpeed>
+
+      <MaxFlightTime>9999</MaxFlightTime>
+      <FlightCooldown>0</FlightCooldown>
+
+      <!-- <RestRateMultiplier>1</RestRateMultiplier> -->
+      <!-- <HungerRateMultiplier>1</HungerRateMultiplier> -->
+      <!-- <EatingSpeed>5</EatingSpeed> -->
+
+      <CarryingCapacity>100</CarryingCapacity>
+
+      <MeleeDodgeChance>0.75</MeleeDodgeChance>
+
+      <!-- <NegotiationAbility>1</NegotiationAbility> -->
+      <!-- <SellPriceFactor>1</SellPriceFactor> -->
+      <!-- <SocialImpact>1</SocialImpact> -->
+      <!-- <TradePriceImprovement>0.5</TradePriceImprovement> -->
+
+      <!-- 自带的甲壳可以防御外部攻击 -->
+      <ArmorRating_Blunt>0</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0</ArmorRating_Sharp>
+      <ArmorRating_Heat>0</ArmorRating_Heat>
+
+      <!-- <MaxNutrition>1</MaxNutrition> -->
+    </statBases>
+
+    <race>
+      <!-- 身体类型 -->
+      <body>ArachnaeNeuroSwarm_Body</body>
+      <renderTree>ARA_ArachnaeRenderTree</renderTree>
+      <flightStartChanceOnJobStart>1.0</flightStartChanceOnJobStart>
+      <baseBodySize>0.8</baseBodySize>
+      <baseHealthScale>2</baseHealthScale>
+    </race>
+
+    <comps>
+      <!-- Add our new flight component here -->
+      <li Class="ArachnaeSwarm.CompProperties_PawnFlight">        <!-- 2. 添加我们的飞行组件 -->
+
+        <!-- 飞行触发条件：仅在征召时飞行 -->
+        <flightCondition>Drafted</flightCondition>
+
+        <flyingAnimationNorth>ARA_Psi_FlyNorth</flyingAnimationNorth>
+        <flyingAnimationEast>ARA_Psi_FlyEast</flyingAnimationEast>
+        <flyingAnimationSouth>ARA_Psi_FlySouth</flyingAnimationSouth>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_RaceBaseSwarmProduceSwitchHediff</li>
+          <li>ARA_Psi_Master</li>
+          <li>PsychicAmplifier</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SkillExperienceGiver">
+        <addChance>1.0</addChance>
+        <debug>false</debug>
+        <skillExperiences>
+          <li>
+            <skillDef>Intellectual</skillDef>
+            <!-- <experienceAmount>0</experienceAmount> -->
+            <skillChance>1</skillChance>
+            <!-- <minSkillLevel>5</minSkillLevel> -->
+            <maxSkillLevel>10</maxSkillLevel>
+            <experienceRange>
+              <min>32000</min>
+              <max>48000</max>
+            </experienceRange>
+          </li>
+        </skillExperiences>
+      </li>
+    </comps>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="ARA_NodeBase">
+    <defName>ArachnaeNode_Race_Praetorian</defName>
+    <label>阿拉克涅禁卫种</label>
+    <description>阿拉克涅督虫之一，是女皇种精挑细选所培育的精兵，也是女皇种的喉舌。她们不仅拥有虫巢中稀缺的社交能力，体型比常规大型虫族小却可装备大型武装器官，能够指挥附近的虫族，并且足以灵活地应对战场上所有的情况。\n\n她可以进行搬运、社交和艺术工作，战斗技能非常亮眼，射击技能更是一骑绝尘。\n\n作为督虫，她可以一次性孵化大量的阿拉克涅酸噬种辅虫，用以构成难缠的战线。</description>
+    <alienRace>
+      <generalSettings>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator>
+          <!-- 额外身体部件 -->
+          <bodyAddons Inherit="False">
+            <li>
+              <name>ArachnaeNode Hair</name>
+              <userCustomizable>true</userCustomizable>
+              <path>ArachnaeSwarm/Hair/ARA_ArachnaeNode_Hair</path>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <colorChannel>hair</colorChannel>
+              <defaultOffset>Center</defaultOffset>
+              <drawSize>1</drawSize>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <conditions>
+                <BodyPart>
+                  <bodyPart>Head</bodyPart>
+                </BodyPart>
+                <Posture>
+                  <drawnStanding>true</drawnStanding>
+                  <drawnInBed>true</drawnInBed>
+                  <drawnLaying>true</drawnLaying>
+                </Posture>
+                <RotStage>Fresh,Rotting</RotStage>
+              </conditions>
+              <offsets>
+                <west>
+                  <layerOffset>-0.274</layerOffset>
+                </west>
+                <south>
+                  <layerOffset>-0.274</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.274</layerOffset>
+                </north>
+                <east>
+                  <layerOffset>-0.274</layerOffset>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_Praetorian_Head</path>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <offset>(0,0.32)</offset>
+                  <layerOffset>-0.273</layerOffset>
+                </south>
+                <north>
+                  <offset>(0,0.32)</offset>
+                  <layerOffset>-0.275</layerOffset>
+                </north>
+                <east>
+                  <offset>(-0.1,0.39)</offset>
+                  <layerOffset>-0.273</layerOffset>
+                </east>
+                <west>
+                  <offset>(-0.1,0.39)</offset>
+                  <layerOffset>-0.273</layerOffset>
+                </west>
+              </offsets>
+              <conditions>
+                <BodyPart>
+                  <bodyPart>Head</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+              </conditions>
+            </li>
+            <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_Praetorian</path>
+              <offsets>
+                <south>
+                  <layerOffset>-0.275</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.275</layerOffset>
+                </north>
+                <east>
+                  <layerOffset>-0.275</layerOffset>
+                </east>
+                <west>
+                  <layerOffset>-0.275</layerOffset>
+                </west>
+              </offsets>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <conditions>
+                <Apparel>
+                  <hiddenUnderApparelTag>
+                    <li>ARA_PowerArmor</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <raceRestriction>
+        <onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+        <!-- 武器列表 -->
+        <weaponList>
+          <li>ARA_RW_Acid_Mortar</li>
+          <li>ARA_RW_Basic_SniperCannon_Gun</li>
+          <li>ARA_RW_Basic_FireSpewer_Gun</li>
+          <li>ARA_RW_Missile_AR_Gun</li>
+        </weaponList>
+        <recipeList>
+          <li>ARA_TrainShooting</li>
+          <li>ARA_TrainMelee</li>
+          <li>ARA_TrainArtistic</li>
+          <li>ARA_TrainSocial</li>
+        </recipeList>
+        <onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
+      </raceRestriction>
+    </alienRace>
+
+    <!-- 基础属性设置 -->
+    <statBases>
+      <!-- 移动速度 -->
+      <MoveSpeed>4</MoveSpeed>
+
+      <!-- <RestRateMultiplier>1</RestRateMultiplier> -->
+      <!-- <HungerRateMultiplier>1</HungerRateMultiplier> -->
+      <!-- <EatingSpeed>5</EatingSpeed> -->
+      <MaxNutrition>2</MaxNutrition>
+
+      <CarryingCapacity>100</CarryingCapacity>
+
+      <MeleeDodgeChance>1.5</MeleeDodgeChance>
+      <MeleeHitChance>1.5</MeleeHitChance>
+
+      <!-- <NegotiationAbility>1</NegotiationAbility> -->
+      <!-- <SellPriceFactor>1</SellPriceFactor> -->
+      <!-- <SocialImpact>1</SocialImpact> -->
+      <!-- <TradePriceImprovement>0.5</TradePriceImprovement> -->
+
+      <!-- 自带的甲壳可以防御外部攻击 -->
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.3</ArmorRating_Heat>
+    </statBases>
+
+    <race>
+      <!-- 身体类型 -->
+      <body>ArachnaePraetorian_Body</body>
+      <baseBodySize>2</baseBodySize>
+      <baseHealthScale>3</baseHealthScale>
+    </race>
+
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_NodeSwarmLifetime">
+        <immuteHediff>ARA_Cycle_Suppression_Hediff</immuteHediff>
+        <lifespanHediff>ARA_LifespanHediff</lifespanHediff>
+        <lifetimeDays>180</lifetimeDays>
+        <labelOverride>寿命</labelOverride>
+        <tooltipOverride>阿拉克涅的督虫们生命如精密的发条般运转着。</tooltipOverride>
+        <showGizmoOnNonPlayerControlled>true</showGizmoOnNonPlayerControlled>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_Praetorian_Base</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_SkillExperienceGiver">
+        <addChance>1.0</addChance>
+        <debug>false</debug>
+        <skillExperiences>
+          <li>
+            <skillDef>Shooting</skillDef>
+            <!-- <experienceAmount>0</experienceAmount> -->
+            <skillChance>1</skillChance>
+            <!-- <minSkillLevel>5</minSkillLevel> -->
+            <maxSkillLevel>15</maxSkillLevel>
+            <experienceRange>
+              <min>48000</min>
+              <max>84000</max>
+            </experienceRange>
+          </li>
+          <li>
+            <skillDef>Social</skillDef>
+            <!-- <experienceAmount>0</experienceAmount> -->
+            <skillChance>1</skillChance>
+            <!-- <minSkillLevel>5</minSkillLevel> -->
+            <maxSkillLevel>10</maxSkillLevel>
+            <experienceRange>
+              <min>24000</min>
+              <max>36000</max>
+            </experienceRange>
+          </li>
+        </skillExperiences>
+      </li>
+    </comps>
+  </AlienRace.ThingDef_AlienRace>
+
+  <AlienRace.ThingDef_AlienRace ParentName="ARA_NodeBase">
+    <defName>ArachnaeNode_Race_MimicNematode</defName>
+    <label>阿拉克涅拟线种</label>
+    <description>拟线种严格来说属于阿拉克涅辅虫，通常以寄生的方式来接管受害者的身体，但当特殊情况下阿拉克涅虫族也会为拟线种主动培育出身体来帮助虫巢大业。\n\n由于基因缺陷，拟线体实际上仍然以寄生的方式控制一具无意识的躯体，这使得拟线体只依靠本能行动，无法链接虫巢意志。</description>
+    <alienRace>
+      <generalSettings>
+        <!-- 各种零件定义 -->
+        <alienPartGenerator>
+          <!-- 额外身体部件 -->
+          <bodyAddons>
+            <!-- <li>
+              <path>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_Fighter_Tail</path>
+              <inFrontOfBody>false</inFrontOfBody>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <offsets>
+                <north>
+                  <layerOffset>-0.275</layerOffset>
+                </north>
+              </offsets>
+            </li> -->
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <raceRestriction>
+        <onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+        <recipeList>
+          <li>ARA_TrainShooting</li>
+          <li>ARA_TrainMelee</li>
+          <li>ARA_TrainCrafting</li>
+        </recipeList>
+        <onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
+      </raceRestriction>
+    </alienRace>
+
+    <!-- 基础属性设置 -->
+    <statBases>
+      <!-- 移动速度 -->
+      <MoveSpeed>3.5</MoveSpeed>
+
+      <!-- <RestRateMultiplier>1</RestRateMultiplier> -->
+      <!-- <HungerRateMultiplier>1</HungerRateMultiplier> -->
+      <!-- <EatingSpeed>5</EatingSpeed> -->
+      <MaxNutrition>3</MaxNutrition>
+
+      <CarryingCapacity>100</CarryingCapacity>
+
+      <MeleeDodgeChance>0.75</MeleeDodgeChance>
+      <!-- <MeleeHitChance>1</MeleeHitChance> -->
+
+      <!-- <NegotiationAbility>1</NegotiationAbility> -->
+      <!-- <SellPriceFactor>1</SellPriceFactor> -->
+      <!-- <SocialImpact>1</SocialImpact> -->
+      <!-- <TradePriceImprovement>0.5</TradePriceImprovement> -->
+
+      <!-- 自带的甲壳可以防御外部攻击 -->
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.05</ArmorRating_Heat>
+    </statBases>
+
+    <race>
+      <!-- 身体类型 -->
+      <body>ArachnaeFacehugger_Body</body>
+      <baseBodySize>0.8</baseBodySize>
+      <baseHealthScale>0.75</baseHealthScale>
+    </race>
+
+    <comps Inherit="false">
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.HeadControllerComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.EyeballControllerComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.LidControllerComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.BrowControllerComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.MouthControllerComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.SkinControllerComp</compClass>
+      </li>
+      <li MayRequire="Nals.FacialAnimation">
+        <compClass>FacialAnimation.FacialAnimationControllerComp</compClass>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_HediffGiver">
+        <hediffs>
+          <li>ARA_HiveStrength_Low</li>
+        </hediffs>
+        <addChance>1.0</addChance>
+        <allowDuplicates>false</allowDuplicates>
+      </li>
+      <!--<li>
+        <compClass>FacialAnimation.EmotionControllerComp</compClass>
+      </li>
+      <li Class="CompProperties_DrugAddict"/> -->
+    </comps>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

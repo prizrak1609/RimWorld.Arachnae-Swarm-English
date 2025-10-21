@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef>
+    <defName>ARA_MimicNematode</defName>
+    <label>拟线种虫族寄生</label>
+    <description>该殖民者被阿拉克涅拟线种寄生了，如果不加以干预，拟线虫最终会杀死宿主并将其转化为没有意识的寄生体。拟线虫会通过寄生体的攻击行为感染其他躯体。</description>
+
+    <!-- 1. 指向我们创建的包含Comp的Hediff类 -->
+    <hediffClass>ArachnaeSwarm.Hediff_NecroticVirus</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+
+    <isBad>true</isBad>
+    <maxSeverity>1.0</maxSeverity>
+    <lethalSeverity>1.0</lethalSeverity>
+    <minSeverity>0.001</minSeverity>
+    <initialSeverity>0.001</initialSeverity>
+    <everCurableByItem>false</everCurableByItem>
+
+    <stages>
+      <li>
+        <label>休眠期</label>
+        <becomeVisible>false</becomeVisible>
+        <vomitMtbDays>5</vomitMtbDays>
+      </li>
+      <li>
+        <label>活跃期</label>
+        <minSeverity>0.5</minSeverity>
+        <vomitMtbDays>1</vomitMtbDays>
+        <painFactor>0.5</painFactor>
+        <totalBleedFactor>0.9</totalBleedFactor>
+        <becomeVisible>true</becomeVisible>
+        <capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0</postFactor>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>终末期</label>
+        <minSeverity>0.7</minSeverity>
+        <painFactor>0</painFactor>
+        <totalBleedFactor>0.3</totalBleedFactor>
+        <becomeVisible>true</becomeVisible>
+        <capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0</postFactor>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.45</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.1</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.1</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>0.1</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+        <regeneration>50</regeneration>
+      </li>
+      <li>
+        <label>即将转化</label>
+        <minSeverity>0.9</minSeverity>
+        <painFactor>0</painFactor>
+        <totalBleedFactor>0.3</totalBleedFactor>
+        <lifeThreatening>true</lifeThreatening>
+        <becomeVisible>true</becomeVisible>
+        <capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0</postFactor>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.45</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.1</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.1</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>0.1</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+        <regeneration>50</regeneration>
+      </li>
+    </stages>
+    <tendable>true</tendable>
+    <!-- 2. 这是最关键的配置部分 -->
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>0.3</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_TendDuration">
+        <severityPerDayTended>-1</severityPerDayTended>
+        <baseTendDurationHours>24</baseTendDurationHours>
+      </li>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1800000~2400000</disappearsAfterTicks>        <!-- 30 ! 45 days -->
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="ArachnaeSwarm.HediffCompProperties_NecroticTransformation">
+        <mutantDef>ARA_MimicNematodeShambler</mutantDef>
+        <triggerSeverity>0.7</triggerSeverity>
+      </li>
+
+      <!-- ==================== 新增的共生组件 ==================== -->
+      <li Class="ArachnaeSwarm.HediffCompProperties_Symbiosis">
+        <!-- "钥匙": 只有当Pawn拥有这个Hediff时，共生效果才会激活 -->
+        <requiredHediff>ARA_SymbioticStabilizer</requiredHediff>
+        
+        <!-- "新的上限": 在共生状态下，此Hediff的严重性最高只能达到0.8 -->
+        <newMaxSeverity>0.8</newMaxSeverity>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ProphecyGearEffect">
+        <!-- 只有当攻击者同时拥有'ARA_MimicNematode'这个仿生体时，以下效果才会触发 -->
+        <requiredBionicHediff>ARA_MimicNematode</requiredBionicHediff>
+
+        <!-- 额外造成5%的'ARA_MimicNematodeBite'伤害 -->
+        <enableExtraDamage>true</enableExtraDamage>
+        <extraDamageFactor>0.05</extraDamageFactor>
+        <extraDamageType>ARA_MimicNematodeBite</extraDamageType>
+      </li>
+    </modExtensions>
+  </HediffDef>
+
+  <!-- 这是我们的主要变异体Hediff，现在使用我们自己的可配置类 -->
+  <HediffDef>
+    <defName>ARA_MimicNematodeShambler</defName>
+    <label>阿拉克涅拟线种寄生体</label>
+    <description>这具尸体被一种阿拉克涅拟线虫所寄生并重新激活。被寄生的生物行动迟缓、没有心智，只会无情地攻击任何活物。在活动几天后，寄生体将因宿主新陈代谢衰竭而死亡。被捕获并固定后，寄生体无法移动，因此其生命活动会暂停。</description>
+    <hediffClass>ArachnaeSwarm.Hediff_ConfigurableMutant</hediffClass> <!-- 指向我们自己的类 -->
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <everCurableByItem>false</everCurableByItem>
+    <duplicationAllowed>false</duplicationAllowed>
+    <keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+    <stages>
+      <li>
+        <naturalHealingFactor>0</naturalHealingFactor>
+        <painFactor>0</painFactor>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+        <disablesNeeds>
+          <li>Mood</li>
+          <li>Joy</li>
+          <li>Beauty</li>
+          <li>Comfort</li>
+          <li>Outdoors</li>
+          <li>Indoors</li>
+          <li>DrugDesire</li>
+          <li>RoomSize</li>
+        </disablesNeeds>
+        <statFactors>
+          <MeleeCooldownFactor>1.5</MeleeCooldownFactor>
+          <PsychicSensitivity>0</PsychicSensitivity>
+        </statFactors>
+        <statOffsets>
+          <ComfyTemperatureMin>-60</ComfyTemperatureMin>
+          <ComfyTemperatureMax>30</ComfyTemperatureMax>
+          <MinimumContainmentStrength>25</MinimumContainmentStrength>
+          <ToxicResistance>1</ToxicResistance>
+        </statOffsets>
+        <capMods>
+          <li><capacity>Talking</capacity><postFactor>0</postFactor></li>
+          <li><capacity>Consciousness</capacity><postFactor>0.7</postFactor></li>
+        </capMods>
+        <regeneration>200</regeneration>
+      </li>
+    </stages>
+    <comps>
+      <!-- 原版的消失组件保持不变-->
+      <li Class="HediffCompProperties_DisappearsAndKills">
+        <compClass>HediffComp_DisappearsAndKills_Shambler</compClass>
+        <disappearsAfterTicks>1800000~2400000</disappearsAfterTicks>        <!-- 30 ! 45 days -->
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+      <li Class="HediffCompProperties_AttachPoints" />
+      
+      <!-- 添加我们的新配置组件 -->
+      <li Class="ArachnaeSwarm.HediffCompProperties_ConfigurableMutant">
+        <!-- 1. 定义起身和尸体状态 -->
+        <risingHediff>ARA_Rising</risingHediff>
+        <corpseHediff>ARA_MimicNematodeShamblerShamblerCorpse</corpseHediff>
+        
+        <!-- 2. (可选) 覆盖其他默认值 -->
+        <bioferriteOnDeathChance>0</bioferriteOnDeathChance>
+        <bioferriteAmountOnDeath>0</bioferriteAmountOnDeath>
+      </li>
+    </comps>
+    <renderNodeProperties>
+      <li>
+        <debugLabel>ARA_Swarm_claws</debugLabel>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPaths>
+          <li>ArachnaeSwarm/Things/ARA_HiveNode/Addons/ArachnaeNode_Race_Addons_Fighter_Claw</li>
+        </texPaths>
+        <baseLayer>60</baseLayer>
+        <texSeed>1</texSeed>
+        <drawData>
+          <dataNorth>
+            <flip>true</flip>
+          </dataNorth>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+
+  <!-- ====================================================================== -->
+  
+  <!-- 以下是上面引用的两个Hediff的定义，保持不变 -->
+
+  <HediffDef>
+    <defName>ARA_Rising</defName>
+    <label>起身中</label>
+    <description>阿拉克涅拟线虫寄生赋予的强大再生能力正在复苏这具身体。</description>
+    <everCurableByItem>false</everCurableByItem>
+    <recordDownedTale>false</recordDownedTale>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <stages>
+      <li>
+        <painFactor>0</painFactor>
+        <capMods>
+          <li><capacity>Moving</capacity><postFactor>0</postFactor></li>
+          <li><capacity>Manipulation</capacity><postFactor>0</postFactor></li>
+          <li><capacity>Talking</capacity><postFactor>0</postFactor></li>
+          <li><capacity>Consciousness</capacity><setMax>0.1</setMax></li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ARA_MimicNematodeShamblerShamblerCorpse</defName>
+    <label>拟线种寄生体尸体</label>
+    <description>这具身体刚刚被阿拉克涅拟线种寄生"复活"过。</description>
+    <forceRemoveOnResurrection>true</forceRemoveOnResurrection>
+    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
+    <renderNodeProperties>
+      <li Class="PawnRenderNodeProperties_Overlay">
+        <debugLabel>Shambler wounds</debugLabel>
+        <workerClass>PawnRenderNodeWorker_OverlayShambler</workerClass>
+        <overlayLayer>Body</overlayLayer>
+        <baseLayer>20</baseLayer>
+        <pawnType>HumanlikeOnly</pawnType>
+      </li>
+      <li>
+        <debugLabel>Shambler wounds</debugLabel>
+        <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+        <workerClass>PawnRenderNodeWorker_OverlayShambler</workerClass>
+        <overlayLayer>Body</overlayLayer>
+        <baseLayer>20</baseLayer>
+        <pawnType>NonHumanlikeOnly</pawnType>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+</Defs>

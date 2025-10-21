@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ShellBase">
+    <defName>ARA_DummyAmmo</defName>
+    <label>弹药</label>
+    <description>阿拉克涅虫族使用的弹药.</description>
+    <possessionCount>2</possessionCount>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Item/ARA_DummyAmmo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <destroyOnDrop>true</destroyOnDrop>
+    <tradeability>None</tradeability>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseFilth">
+    <defName>ARA_Filth_SpentAcid</defName>
+    <label>阿拉克涅残酸</label>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Beauty>-30</Beauty>
+      <Cleanliness>-5</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/Acid</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>2.5</drawSize>
+      <color>(1,1,1,0.5)</color>
+    </graphicData>
+    <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+      <disappearsInDays>0.5~1</disappearsInDays>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+      <maxThickness>1</maxThickness>
+      <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+    </filth>
+    <thingClass>ArachnaeSwarm.Filth_Toxic</thingClass>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.OPToxicDefs">
+        <OPToxicHediff>ARA_AcidCoverd</OPToxicHediff>        <!-- Name of HediffDef to apply, change to own
+        HediffDef -->
+        <OPToxicSeverity>0.1</OPToxicSeverity>        <!-- Severity build up per Tick period -->
+        <OPSevUpTickPeriod>240</OPSevUpTickPeriod>        <!-- No of game ticks per each build up, recommend
+        >= 120 -->
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <EffecterDef>
+    <defName>ARA_Shell_AcidSpitImpact</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <fleckDef>Fleck_AcidSpitImpact</fleckDef>
+        <burstCount>1</burstCount>
+        <scale>5</scale>
+        <chancePerTick>1</chancePerTick>
+        <chancePeriodTicks>2</chancePeriodTicks>
+        <lifespanMaxTicks>8</lifespanMaxTicks>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>Fleck_AcidSpitLaunchedMist</fleckDef>
+        <scale>20</scale>
+        <burstCount>3~6</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <absoluteAngle>false</absoluteAngle>
+        <angle>0~100</angle>
+        <positionRadius>1</positionRadius>
+        <speed>-1~1</speed>
+        <rotation>0</rotation>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>Fleck_AcidSpitLaunchedGlobFast</fleckDef>
+        <burstCount>6~10</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <absoluteAngle>false</absoluteAngle>
+        <positionRadius>.7</positionRadius>
+        <positionRadiusMin>.7</positionRadiusMin>
+        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+        <rotateTowardsTargetCenter>true</rotateTowardsTargetCenter>
+        <angle>0~100</angle>
+        <scale>2.5</scale>
+        <speed>20~45</speed>
+        <rotation>0~360</rotation>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>ARA_Turret_Beespikeshooter</defName>
+    <label>蜂刺射手</label>
+    <description>射出毒刺的小炮塔.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Plant/ARA_BeeSpikePlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.27,0.25,0.27)</volume>
+        <offset>(0,0,0)</offset>
+      </shadowData>
+      <drawSize>(1.2, 1.2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>8</Mass>
+      <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="ArachnaeSwarm.CompProperties_ForceTargetable" />
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition_WithKey">
+        <saveKeysPrefix>nutrition</saveKeysPrefix>
+        <fuelCapacity>3</fuelCapacity>
+        <initialFuelPercent>1</initialFuelPercent>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelGizmoLabel>虫蜜</fuelGizmoLabel>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <destroyOnNoFuel>true</destroyOnNoFuel>
+      </li>
+      <li Class="CompProperties_Lifespan">
+        <lifespanTicks>3600000</lifespanTicks>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <building>
+      <combatPower>45</combatPower>      <!-- same as a scavenger -->
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>ARA_Gun_Beespikeshooter</turretGunDef>
+      <turretBurstWarmupTime>0.5</turretBurstWarmupTime>
+      <turretBurstCooldownTime>2.4</turretBurstCooldownTime>
+      <claimable>false</claimable>
+      <expandHomeArea>false</expandHomeArea>
+      <turretTopDrawSize>1.2</turretTopDrawSize>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <designationHotKey>Misc2</designationHotKey>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>ARA_Gun_Beespikeshooter</defName>
+    <label>蜂刺射手</label>
+    <description>会发射小毒刺的组织.</description>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Weapon/ARA_BeeSpikePlant_Gun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.77</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.24</AccuracyLong>
+      <RangedWeapon_Cooldown>4.8</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>Bullet_ARA_RW_Basic_Fist_Needle_Gun</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>19.9</range>        <!-- Must be kept in sync with "explosion radius" of Grenade_TurretPack -->
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
+        <soundCast>SpitterSpit</soundCast>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <consumeFuelPerShot>0.05</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef>
+    <defName>Arachnae_AcidlingTrap</defName>
+    <label>阿拉克涅爆裂茧</label>
+    <description>一种阿拉克涅休眠茧，内藏有休眠中的阿拉克涅虫族。如果靠太近则会唤醒其中的虫族。</description>
+    <thingClass>ArachnaeSwarm.Building_TrapReleaseRandom</thingClass>
+    <category>Building</category>
+    <!-- 基础外观和物理属性 -->
+    <size>(1,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <building>
+      <isTrap>true</isTrap>
+      <trapDestroyOnSpring>true</trapDestroyOnSpring>
+      <expandHomeArea>false</expandHomeArea>
+      <ai_chillDestination>false</ai_chillDestination>
+      <claimable>false</claimable>
+    </building>
+    <repairEffect>EatVegetarian</repairEffect>
+    <filthLeaving>Filth_Slime</filthLeaving>
+    <costList>
+      <Steel>20</Steel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Plant/ARA_AcidlingTrapPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+    </graphicData>
+    <!-- 正确的配置方式 -->
+    <modExtensions>
+      <li Class="ArachnaeSwarm.TrapReleaseRandomExtension">
+        <detectionRadius>5</detectionRadius>
+        <countToSpawn>3</countToSpawn>
+        <pawnKinds>
+          <li>ArachnaeBase_Race_Acidling</li>
+          <!-- <li>ArachnaeBase_Race_Acid</li> -->
+        </pawnKinds>
+      </li>
+    </modExtensions>
+    <!-- 组件：发光、生命周期、延迟地面生成（与风格示例对应） -->
+    <comps>
+      <li Class="CompProperties_Lifespan">
+        <lifespanTicks>600000</lifespanTicks>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(220,210,171,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>ARA_AutoSniperCannon</defName>
+    <label>血链千兆炮组织</label>
+    <description>阿拉克涅虫族用于防御巢穴的组织之一。它由大量没有自主意识的高度特化器官共同构成，能以较高射速连续地发射棘刺，重创大型敌人或来犯集群。作为阿拉克涅防御组织，其可以通过获取营养来自行生成补充弹药。</description>
+    <thingClass>ArachnaeSwarm.Building_TurretGunHasSpeed</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <drawHighlight>true</drawHighlight>
+    <drawHighlightOnlyForHostile>true</drawHighlightOnlyForHostile>
+    <uiIconPath>ArachnaeSwarm/Building/ARA_AutoSniperCannon_Icon</uiIconPath>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_AutoSniperCannon_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+      <drawOffset>(0,0,-0.1)</drawOffset>
+      <shadowData>
+        <volume>(1.5, 1.5, 1.75)</volume>
+        <offset>(0,0,-0.35)</offset>
+      </shadowData>
+    </graphicData>
+    <researchPrerequisites>
+      <li>ARA_Technology_8PAV</li>
+    </researchPrerequisites>
+    <receivesSignals>true</receivesSignals>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <size>(3,3)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition_WithKey">
+        <saveKeysPrefix>nutrition</saveKeysPrefix>
+        <fuelCapacity>100.0</fuelCapacity>
+        <initialConfigurableTargetFuelLevel>100</initialConfigurableTargetFuelLevel>
+        <initialFuelPercent>1</initialFuelPercent>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelGizmoLabel>虫蜜</fuelGizmoLabel>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_ForceTargetable" />
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>6</spawnRadius>
+      </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ARA_NutrientNetworkTower</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ModExt_HasSpeedTurret">
+        <speed>0.5</speed>        <!-- 旋转速度 (度/Tick)。值越大，旋转越快。 -->
+      </li>
+    </modExtensions>
+    <statBases>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>30</Mass>
+      <ShootingAccuracyTurret>0.9</ShootingAccuracyTurret>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <costStuffCount>300</costStuffCount>
+    <stuffCategories Inherit="False">
+      <li>Stony</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <ARA_Activated_Bacterium>70</ARA_Activated_Bacterium>
+      <ARA_Carapace>100</ARA_Carapace>
+    </costList>
+    <damageMultipliers>
+      <li>
+        <damageDef>Flame</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+    </damageMultipliers>
+    <generateCommonality>4</generateCommonality>    <!-- generate more often than other problem causers
+    for mech clusters -->
+    <building>
+      <turretGunDef>Gun_ARA_AutoSniperCannonTurret</turretGunDef>
+      <turretBurstWarmupTime>0.1</turretBurstWarmupTime>
+      <turretTopDrawSize>4.0</turretTopDrawSize>
+      <relatedTerrain>
+        <li>ARA_InsectCreep</li>
+      </relatedTerrain>
+    </building>
+    <designationCategory>ARA_Buildings</designationCategory>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">    <!-- Should reorganize this XML relation at some point -->
+    <defName>Gun_ARA_AutoSniperCannonTurret</defName>    <!-- Should be called ChargeBlasterLightTurret,
+    but we keep this defName for compatibility -->
+    <label>血链千兆机炮</label>
+    <description>血链千兆机炮.</description>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_AutoSniperCannon_Tower</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>ArachnaeSwarm.Verb_ShootWithOffset</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>ARA_Bullet_SniperCannon</defaultProjectile>
+        <warmupTime>0.1</warmupTime>
+        <minRange>3.9</minRange>
+        <range>65.9</range>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>Shot_ToxicNeedleGun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>18</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+      </li>
+    </verbs>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ModExtension_ShootWithOffset">
+        <offsets>
+          <li>(0, -2.5)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <!-- Auto mortar -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>ARA_Acidling_AutoMortar</defName>
+    <label>爆裂种投射巢组织</label>
+    <description>阿拉克涅虫族用于防御巢穴的组织之一。它由大量没有自主意识的高度特化器官共同构成，能向进犯巢穴的敌军发射多只阿拉克涅爆裂种辅虫，这些辅虫将自行寻找目标以发起自杀性袭击。作为阿拉克涅防御组织，其可以通过获取营养来自行生成补充弹药。</description>
+    <thingClass>ArachnaeSwarm.Building_TurretGunHasSpeed</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <drawHighlight>true</drawHighlight>
+    <drawHighlightOnlyForHostile>true</drawHighlightOnlyForHostile>
+    <uiIconPath>ArachnaeSwarm/Building/ARA_Acidling_AutoMortar_Icon</uiIconPath>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_AutoSniperCannon_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+      <drawOffset>(0,0,-0.1)</drawOffset>
+      <shadowData>
+        <volume>(1.5, 1.5, 1.75)</volume>
+        <offset>(0,0,-0.35)</offset>
+      </shadowData>
+    </graphicData>
+    <researchPrerequisites>
+      <li>ARA_Technology_7SPV</li>
+    </researchPrerequisites>
+    <receivesSignals>true</receivesSignals>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <size>(3,3)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition_WithKey">
+        <saveKeysPrefix>nutrition</saveKeysPrefix>
+        <fuelCapacity>18</fuelCapacity>
+        <initialFuelPercent>1</initialFuelPercent>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelGizmoLabel>虫蜜</fuelGizmoLabel>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_ForceTargetable" />
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>6</spawnRadius>
+      </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ARA_NutrientNetworkTower</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ModExt_HasSpeedTurret">
+        <speed>0.5</speed>        <!-- 旋转速度 (度/Tick)。值越大，旋转越快。 -->
+      </li>
+    </modExtensions>
+    <statBases>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>30</Mass>
+      <ShootingAccuracyTurret>0.9</ShootingAccuracyTurret>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <costStuffCount>200</costStuffCount>
+    <stuffCategories Inherit="False">
+      <li>Stony</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <ARA_Activated_Bacterium>100</ARA_Activated_Bacterium>
+      <ARA_Carapace>100</ARA_Carapace>
+    </costList>
+    <damageMultipliers>
+      <li>
+        <damageDef>Flame</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+    </damageMultipliers>
+    <generateCommonality>4</generateCommonality>    <!-- generate more often than other problem causers
+    for mech clusters -->
+    <building>
+      <buildingTags>
+        <li>Artillery</li>
+      </buildingTags>
+      <turretGunDef>ARA_Acidling_Artillery_AutoMortar</turretGunDef>
+      <turretBurstWarmupTime>10.0</turretBurstWarmupTime>
+      <turretTopDrawSize>3.0</turretTopDrawSize>
+      <relatedTerrain>
+        <li>ARA_InsectCreep</li>
+      </relatedTerrain>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
+    <designationCategory>ARA_Buildings</designationCategory>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+  <ThingDef ParentName="BaseArtilleryWeapon">
+    <defName>ARA_Acidling_Artillery_AutoMortar</defName>
+    <label>爆裂种投射巢</label>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_Acidling_Artillery_AutoMortar_Tower</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>ArachnaeSwarm.Verb_ShootWithOffset</verbClass>
+        <defaultProjectile>ArachnaeBase_Race_Acidling_Proj</defaultProjectile>
+        <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+        <warmupTime>2</warmupTime>
+        <range>500</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+        <soundCast>Mortar_LaunchA</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <requireLineOfSight>false</requireLineOfSight>
+        <consumeFuelPerShot>3</consumeFuelPerShot>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ModExtension_ShootWithOffset">
+        <offsets>
+          <li>(0, -1.4)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>ArachnaeBase_Race_Acidling_Proj</defName>
+    <label>阿拉克涅爆裂种</label>
+    <thingClass>Projectile_SpawnsPawnZeroAge</thingClass>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Things/ARA_Acidling/Bodies/Naked_Thin</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <projectile>
+      <speed>41</speed>
+      <spawnsPawnKind>ArachnaeBase_Race_Acidling</spawnsPawnKind>
+      <tryAdjacentFreeSpaces>true</tryAdjacentFreeSpaces>
+      <damageDef>ARA_AcidBurn</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <flyOverhead>true</flyOverhead>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>CatastropheMissileSilo</defName>
+    <label>天灾酸烧炮组织</label>
+    <description>阿拉克涅虫族所进化出的终极生物武器之一。它由大量没有自主意识的高度特化器官共同构成，骇人的酸烧炮可以发射令生灵闻风丧胆的天灾酸烧导弹。作为复合型防御系统，它既可以向本地的目标发射导弹，也可以向远处的威胁实施精确打击，其可以通过获取营养来自行生成补充弹药。</description>
+    <thingClass>ArachnaeSwarm.Building_CatastropheMissileSilo</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <uiIconPath>ArachnaeSwarm/Building/ARA_CatastropheMissileSilo_Icon</uiIconPath>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_CatastropheMissileSilo_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(5,5)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <shadowData>
+        <volume>(2, 2, 2.5)</volume>
+        <offset>(0,0,-0.15)</offset>
+      </shadowData>
+    </graphicData>
+    <researchPrerequisites>
+      <li>ARA_Technology_11VXI</li>
+    </researchPrerequisites>
+    <size>(5,5)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <stealable>false</stealable>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>12000</WorkToBuild>
+      <Mass>800</Mass>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition_WithKey">
+        <saveKeysPrefix>nutrition</saveKeysPrefix>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelGizmoLabel>虫蜜</fuelGizmoLabel>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="ArachnaeSwarm.CompProperties_ForceTargetable" />
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>8</spawnRadius>
+      </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ARA_NutrientNetworkTower</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ModExt_HasSpeedTurret">
+        <speed>0.3</speed>
+      </li>
+    </modExtensions>
+    <building>
+      <turretGunDef>CatastropheMissile_Weapon</turretGunDef>
+      <turretBurstCooldownTime>15.0</turretBurstCooldownTime>
+      <turretTopDrawSize>7.0</turretTopDrawSize>
+      <turretTopOffset>(0,0)</turretTopOffset>
+      <buildingTags>
+        <li>Artillery</li>
+      </buildingTags>
+      <relatedTerrain>
+        <li>ARA_InsectCreep</li>
+      </relatedTerrain>
+    </building>
+    <costStuffCount>300</costStuffCount>
+    <stuffCategories Inherit="False">
+      <li>Stony</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <ARA_Activated_Bacterium>150</ARA_Activated_Bacterium>
+      <ARA_Carapace>200</ARA_Carapace>
+    </costList>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
+    <designationCategory>ARA_Buildings</designationCategory>
+    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <researchPrerequisites>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BaseArtilleryWeapon">
+    <defName>CatastropheMissile_Weapon</defName>
+    <label>天灾酸烧炮</label>
+    <description>天灾酸烧炮组织的主体结构，负责发射和引导具有半自主意识的天灾酸烧导弹。</description>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_CatastropheMissileSilo_Tower</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(7,7)</drawSize>
+    </graphicData>
+    <statBases>
+      <RangedWeapon_Cooldown>15.0</RangedWeapon_Cooldown>
+      <Mass>50</Mass>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>ArachnaeSwarm.Verb_ShootWithOffset</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_CatastropheMissile</defaultProjectile>
+        <consumeFuelPerShot>10</consumeFuelPerShot>
+        <warmupTime>3.0</warmupTime>
+        <forcedMissRadius>1</forcedMissRadius>
+        <isMortar>true</isMortar>
+        <requireLineOfSight>false</requireLineOfSight>
+        <minRange>10.9</minRange>
+        <burstShotCount>1</burstShotCount>
+        <range>500</range>
+        <soundCast>AcidSpray_Resolve</soundCast>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ModExtension_ShootWithOffset">
+        <offsets>
+          <li>(0, -5)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="ShellBase">
+    <defName>ARA_CatastropheMissile_Shell</defName>
+    <label>天灾酸烧导弹</label>
+    <description>阿拉克涅虫族使用的天灾酸烧导弹，只有天灾酸烧炮组织可以发射它。</description>
+    <possessionCount>2</possessionCount>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Mote/ARA_CatastropheMissile_Shell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <damageAmountBase>150</damageAmountBase>
+        <explosiveDamageType>ARA_AcidBurn</explosiveDamageType>
+        <explosiveRadius>10.9</explosiveRadius>
+        <postExplosionSpawnThingDef>ARA_Filth_SpentAcid</postExplosionSpawnThingDef>
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        <postExplosionSpawnThingCount>2</postExplosionSpawnThingCount>
+        <wickTicks>30~60</wickTicks>
+        <explosionSound>MortarBomb_Explode</explosionSound>
+        <explosionEffect>ARA_Shell_AcidSpitImpact</explosionEffect>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Projectile_CatastropheMissile</defName>
+    <label>天灾酸烧导弹</label>
+    <thingClass>ArachnaeSwarm.Projectile_CruiseMissile</thingClass>
+    <graphicData>
+      <graphicClass>Graphic_Single_AgeSecs</graphicClass>
+      <texPath>ArachnaeSwarm/Mote/ARA_CatastropheMissile_Shell</texPath>
+      <drawSize>(3,3)</drawSize>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <projectile>
+      <useGraphicClass>True</useGraphicClass>
+      <shadowSize>1</shadowSize>
+      <damageDef>ARA_AcidBurn</damageDef>
+      <damageAmountBase>150</damageAmountBase>
+      <speed>80</speed>
+      <flyOverhead>true</flyOverhead>
+      <filth>ARA_Filth_SpentAcid</filth>
+      <filthCount>2</filthCount>
+      <explosionEffect>ARA_Shell_AcidSpitImpact</explosionEffect>
+      <explosionEffectLifetimeTicks>60</explosionEffectLifetimeTicks>
+      <doExplosionVFX>false</doExplosionVFX>
+      <explosionRadius>10.9</explosionRadius>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+    </projectile>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.CruiseMissileProperties">
+        <customDamageDef>ARA_AcidBurn</customDamageDef>
+        <customDamageAmount>150</customDamageAmount>
+        <customExplosionRadius>10.9</customExplosionRadius>
+        <customSoundExplode>MortarBomb_Explode</customSoundExplode>
+        <useSubExplosions>true</useSubExplosions>
+        <subExplosionCount>8</subExplosionCount>
+        <subExplosionRadius>2.9</subExplosionRadius>
+        <subExplosionDamage>50</subExplosionDamage>
+        <subExplosionSpread>15</subExplosionSpread>
+        <subDamageDef>ARA_AcidBurn</subDamageDef>
+        <subSoundExplode>MortarBomb_Explode</subSoundExplode>
+        <bezierArcHeightFactor>0.01</bezierArcHeightFactor>
+        <bezierMinArcHeight>1</bezierMinArcHeight>
+        <bezierMaxArcHeight>5</bezierMaxArcHeight>
+        <bezierHorizontalOffsetFactor>0.05</bezierHorizontalOffsetFactor>
+        <bezierSideOffsetFactor>0.05</bezierSideOffsetFactor>
+        <bezierRandomOffsetScale>1.5</bezierRandomOffsetScale>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>Shell_AcidSpitStream</effecterDef>
+      </li>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>Shell_AcidSpitLaunched</effecterDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Projectile_CatastropheMissile_Fake</defName>
+    <label>天灾酸烧导弹</label>
+    <thingClass>ArachnaeSwarm.Projectile_CruiseMissile</thingClass>
+    <graphicData>
+      <graphicClass>Graphic_Single_AgeSecs</graphicClass>
+      <texPath>ArachnaeSwarm/Mote/ARA_CatastropheMissile_Shell</texPath>
+      <drawSize>(3,3)</drawSize>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <projectile>
+      <useGraphicClass>True</useGraphicClass>
+      <shadowSize>1</shadowSize>
+      <damageDef>ARA_AcidBurn</damageDef>
+      <damageAmountBase>0</damageAmountBase>
+      <speed>80</speed>
+      <flyOverhead>true</flyOverhead>
+    </projectile>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.CruiseMissileProperties">
+        <isDummy>true</isDummy>
+        <useSubExplosions>false</useSubExplosions>
+        <bezierArcHeightFactor>0.01</bezierArcHeightFactor>
+        <bezierMinArcHeight>1</bezierMinArcHeight>
+        <bezierMaxArcHeight>5</bezierMaxArcHeight>
+        <bezierHorizontalOffsetFactor>0.05</bezierHorizontalOffsetFactor>
+        <bezierSideOffsetFactor>0.05</bezierSideOffsetFactor>
+        <bezierRandomOffsetScale>1.5</bezierRandomOffsetScale>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>Shell_AcidSpitStream</effecterDef>
+      </li>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>Shell_AcidSpitLaunched</effecterDef>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

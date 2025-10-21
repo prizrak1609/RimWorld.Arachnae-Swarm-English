@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- 内衬 -->
+  <ThingDef Name="ARA_ApparelOnSkinBase" ParentName="ApparelMakeableBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <smeltable>false</smeltable>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <costStuffCount>0</costStuffCount>
+    <stuffCategories Inherit="False" />
+    <apparel>
+      <tags>
+        <li>ARA_Apparel</li>
+        <li>ARA_Inner</li>
+      </tags>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <possessionCount>1</possessionCount>
+    <statBases>
+      <Mass>0.1</Mass>
+      <MarketValue>0</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="ARA_ApparelOnSkinBase">
+    <defName>ARA_Bodystocking_White</defName>
+    <label>连身白丝</label>
+    <description>阿拉克涅虫群的装饰性织物，对于虫群来说应该是没啥用的东西。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Cloth</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Apparel/ARA_Bodystocking_White</texPath>
+    </graphicData>
+    <recipeMaker Inherit="False">
+    </recipeMaker>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <apparel>
+      <wornGraphicPath>ArachnaeSwarm/Apparel/ARA_Bodystocking_White</wornGraphicPath>
+    </apparel>
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <ARA_IncubationCost>1</ARA_IncubationCost>
+      <ARA_IncubationTime>1</ARA_IncubationTime>
+    </statBases>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Cloth</li>
+          <li>ARA_Cocoon_Cloth_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_ApparelOnSkinBase">
+    <defName>ARA_Bodystocking_Black</defName>
+    <label>连身黑丝</label>
+    <description>阿拉克涅虫群的装饰性织物，对于虫群来说应该是没啥用的东西。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Cloth</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Apparel/ARA_Bodystocking_Black</texPath>
+    </graphicData>
+    <recipeMaker Inherit="False">
+    </recipeMaker>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <apparel>
+      <wornGraphicPath>ArachnaeSwarm/Apparel/ARA_Bodystocking_Black</wornGraphicPath>
+    </apparel>
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <ARA_IncubationCost>1</ARA_IncubationCost>
+      <ARA_IncubationTime>1</ARA_IncubationTime>
+    </statBases>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Cloth</li>
+          <li>ARA_Cocoon_Cloth_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_ApparelOnSkinBase">
+    <defName>ARA_Latex_Catsuit</defName>
+    <label>紧身衣</label>
+    <description>阿拉克涅虫群的装饰性织物，对于虫群来说应该是没啥用的东西。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Cloth</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Apparel/ARA_Latex_Catsuit</texPath>
+    </graphicData>
+    <recipeMaker Inherit="False">
+    </recipeMaker>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <apparel>
+      <wornGraphicPath>ArachnaeSwarm/Apparel/ARA_Latex_Catsuit</wornGraphicPath>
+    </apparel>
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <ARA_IncubationCost>1</ARA_IncubationCost>
+      <ARA_IncubationTime>1</ARA_IncubationTime>
+    </statBases>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Cloth</li>
+          <li>ARA_Cocoon_Cloth_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_ApparelOnSkinBase">
+    <defName>ARA_Pantyhose_Black</defName>
+    <label>黑丝裤袜</label>
+    <description>阿拉克涅虫群的装饰性织物，对于虫群来说应该是没啥用的东西。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Cloth</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Apparel/ARA_Pantyhose_Black</texPath>
+    </graphicData>
+    <recipeMaker Inherit="False">
+    </recipeMaker>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <apparel>
+      <wornGraphicPath>ArachnaeSwarm/Apparel/ARA_Pantyhose_Black</wornGraphicPath>
+    </apparel>
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <ARA_IncubationCost>1</ARA_IncubationCost>
+      <ARA_IncubationTime>1</ARA_IncubationTime>
+    </statBases>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Cloth</li>
+          <li>ARA_Cocoon_Cloth_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_ApparelOnSkinBase">
+    <defName>ARA_Pantyhose_White</defName>
+    <label>白丝裤袜</label>
+    <description>阿拉克涅虫群的装饰性织物，对于虫群来说应该是没啥用的东西。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Cloth</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Apparel/ARA_Pantyhose_White</texPath>
+    </graphicData>
+    <recipeMaker Inherit="False">
+    </recipeMaker>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <apparel>
+      <wornGraphicPath>ArachnaeSwarm/Apparel/ARA_Pantyhose_White</wornGraphicPath>
+    </apparel>
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <ARA_IncubationCost>1</ARA_IncubationCost>
+      <ARA_IncubationTime>1</ARA_IncubationTime>
+    </statBases>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Cloth</li>
+          <li>ARA_Cocoon_Cloth_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="ARA_ClothBase" ParentName="ApparelMakeableBase" Abstract="True">
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <apparel>
+      <tags>
+        <li>ARA_Apparel</li>
+        <li>ARA_Clothes</li>
+      </tags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <smeltable>false</smeltable>
+    <stuffCategories Inherit="False" />
+    <recipeMaker Inherit="False" IsNull="True"/>
+    <possessionCount>1</possessionCount>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>1</Mass>
+      <WorkToMake>7000</WorkToMake>
+    </statBases>
+  </ThingDef>
+  <ThingDef Name="ARA_HatBase" ParentName="HatMakeableBase" Abstract="True">
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <apparel>
+      <tags>
+        <li>Wula_Apparel</li>
+        <li>Wula_Clothes</li>
+      </tags>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <possessionCount>1</possessionCount>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>0.2</Mass>
+      <WorkToMake>3000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ARA_ClothBase">
+    <defName>ARA_Maid_Uniform</defName>
+    <label>阿拉克涅女仆装</label>
+    <description>阿拉克涅督虫们所着织物中的一种，设计上修身轻便，可以使其在阿拉克捏菌毯上获得额外的工作速度，是她们永远服侍虫巢的形象的完美具现化。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Cloth</ThingDef>
+    </descriptionHyperlinks>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_4DIL</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+    </recipeMaker>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Apparel/ARA_Maid_Uniform</texPath>
+    </graphicData>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <!-- <li>OnSkin</li> -->
+        <li>Middle</li>
+      </layers>
+      <wornGraphicPath>ArachnaeSwarm/Apparel/ARA_Maid_Uniform</wornGraphicPath>
+    </apparel>
+    <equippedStatOffsets>
+    </equippedStatOffsets>
+    <statBases>
+      <ARA_IncubationCost>10</ARA_IncubationCost>
+      <ARA_IncubationTime>1</ARA_IncubationTime>
+    </statBases>
+    <costStuffCount>0</costStuffCount>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>ARA_TerrainWorkSpeedHediff</hediff>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Cloth</li>
+          <li>ARA_Cocoon_Cloth_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_ClothBase">
+    <defName>ARA_Bunny_Girl_Uniform</defName>
+    <label>阿拉克涅兔女郎装</label>
+    <description>阿拉克涅督虫们所着织物中的一种，紧紧贴合督虫们的身体曲线，可以使其在阿拉克捏菌毯上获得额外的移动速度。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Cloth_1Stage</ThingDef>
+    </descriptionHyperlinks>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_6DIL</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+    </recipeMaker>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Apparel/ARA_Bunny_Girl_Uniform</texPath>
+    </graphicData>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <!-- <li>OnSkin</li> -->
+        <li>Middle</li>
+      </layers>
+      <wornGraphicPath>ArachnaeSwarm/Apparel/ARA_Bunny_Girl_Uniform</wornGraphicPath>
+    </apparel>
+    <statBases>
+      <ARA_IncubationCost>50</ARA_IncubationCost>
+      <ARA_IncubationTime>2</ARA_IncubationTime>
+    </statBases>
+    <equippedStatOffsets>
+    </equippedStatOffsets>
+    <costStuffCount>0</costStuffCount>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>ARA_TerrainMoveSpeedHediff</hediff>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Cloth_1Stage</li>
+          <li>ARA_Cocoon_Cloth_1Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_ClothBase">
+    <defName>ARA_Nurse_Uniform</defName>
+    <label>阿拉克涅护士装</label>
+    <description>阿拉克涅督虫们所着织物中的一种，似乎是从人类的社会中得到了红十字元素的设计构思——只是虫群自己并不清楚为什么要使用这个标志。织物内部蕴含多根愈合素导管，可以让阿拉克涅虫族从菌毯中抽取营养以治疗其他个体。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Cloth_1Stage</ThingDef>
+      <AbilityDef>ARA_TerrainHeal_Ability</AbilityDef>
+    </descriptionHyperlinks>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_5DIL</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+    </recipeMaker>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <statBases>
+      <ARA_IncubationCost>50</ARA_IncubationCost>
+      <ARA_IncubationTime>3</ARA_IncubationTime>
+    </statBases>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Apparel/ARA_Nurse_Uniform</texPath>
+    </graphicData>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <!-- <li>OnSkin</li> -->
+        <li>Middle</li>
+      </layers>
+      <wornGraphicPath>ArachnaeSwarm/Apparel/ARA_Nurse_Uniform</wornGraphicPath>
+    </apparel>
+    <equippedStatOffsets>
+    </equippedStatOffsets>
+    <costStuffCount>0</costStuffCount>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>ARA_TerrainHealHediff</hediff>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Cloth_1Stage</li>
+          <li>ARA_Cocoon_Cloth_1Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_ClothBase">
+    <defName>ARA_Wedding_Dress</defName>
+    <label>阿拉克涅花嫁连衣裙</label>
+    <description>阿拉克涅督虫们所着织物中的一种，拥有摄人心魄的力量，可以抽取菌毯的力量发动夺取心智的能力，让敌方调转枪口攻击自己人。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Cloth_2Stage</ThingDef>
+      <AbilityDef>ARA_TerrainTempt_Ability</AbilityDef>
+    </descriptionHyperlinks>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_7DIL</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+    </recipeMaker>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Apparel/ARA_Wedding_Dress</texPath>
+    </graphicData>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <!-- <li>OnSkin</li> -->
+        <li>Middle</li>
+      </layers>
+      <wornGraphicPath>ArachnaeSwarm/Apparel/ARA_Wedding_Dress</wornGraphicPath>
+    </apparel>
+    <statBases>
+      <ARA_IncubationCost>100</ARA_IncubationCost>
+      <ARA_IncubationTime>4</ARA_IncubationTime>
+    </statBases>
+    <equippedStatOffsets>
+    </equippedStatOffsets>
+    <costStuffCount>0</costStuffCount>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>ARA_TerrainTemptHediff</hediff>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Cloth_2Stage</li>
+          <li>ARA_Cocoon_Cloth_2Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ARA_ClothBase">
+    <defName>ARA_Dragoon_Uniform</defName>
+    <label>阿拉克涅卫兵装</label>
+    <description>阿拉克涅虫群中的高阶战士所着织物，她们能够发出震耳欲聋的咆哮，并且看上去给人一种意外的庄严感——只不过她们挥着咔咔作响的鳌钳将你的同伴撕裂时，所有美好的幻想都会成为泡影。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Cocoon_Cloth_2Stage</ThingDef>
+      <AbilityDef>ARA_TerrorRoar_Ability</AbilityDef>
+    </descriptionHyperlinks>
+    <recipeMaker>
+      <recipeUsers Inherit="False" />
+      <researchPrerequisite>ARA_Technology_8DIL</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+    </recipeMaker>
+    <costList Inherit="False">
+      <ARA_Carapace>25</ARA_Carapace>
+    </costList>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Apparel/ARA_Dragoon_Uniform</texPath>
+    </graphicData>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <!-- <li>OnSkin</li> -->
+        <li>Middle</li>
+      </layers>
+      <wornGraphicPath>ArachnaeSwarm/Apparel/ARA_Dragoon_Uniform</wornGraphicPath>
+    </apparel>
+    <statBases>
+      <ARA_IncubationCost>120</ARA_IncubationCost>
+      <ARA_IncubationTime>5</ARA_IncubationTime>
+    </statBases>
+    <equippedStatOffsets>
+    </equippedStatOffsets>
+    <costStuffCount>0</costStuffCount>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>ARA_TerrainTerrorRoar_Hediff</hediff>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_ExtraIncubationInfo">
+        <cocoonDefs>
+          <li>ARA_Cocoon_Cloth_2Stage</li>
+          <li>ARA_Cocoon_Cloth_2Stage_From_Death</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </cocoonDefs>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ApparelLayerDef>
+    <defName>ARA_Shield</defName>
+    <label>盾牌和共生肌群</label>
+    <drawOrder>275</drawOrder>
+  </ApparelLayerDef>
+</Defs>

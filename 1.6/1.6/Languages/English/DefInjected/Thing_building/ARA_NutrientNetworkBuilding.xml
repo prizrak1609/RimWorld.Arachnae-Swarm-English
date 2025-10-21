@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>ARA_NutrientNetworkTower</defName>
+    <label>阿拉克涅营养供给塔</label>
+    <description>一个中央营养供给设施。它可以自动为链接到的、需要营养的建筑补充燃料。它本身需要被手动填充大量的生物质。</description>
+    <size>(4,4)</size>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_NutrientNetworkTower</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4,6.5)</drawSize>
+      <drawOffset>(0, 2, 1.5)</drawOffset>
+      <shadowData>
+        <volume>(1.25, 1.25, 2)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <tickerType>Normal</tickerType>    <!-- 改为 Normal 以匹配 CompRefuelable 的要求 -->
+    <fillPercent>0.7</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>3000</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <costList>
+      <ARA_Carapace>150</ARA_Carapace>
+      <ARA_InsectJelly>50</ARA_InsectJelly>
+      <ARA_Activated_Bacterium>10</ARA_Activated_Bacterium>
+    </costList>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <overlightRadius>7.0</overlightRadius>
+        <glowRadius>14</glowRadius>
+        <glowColor>(220,210,171,0)</glowColor>
+        <colorPickerEnabled>true</colorPickerEnabled>
+      </li>
+      <!-- 供能核心组件 -->
+      <li Class="ArachnaeSwarm.CompProperties_NutrientProvider">
+        <linkableBuildings>
+          <!-- 这里列出所有可以被供能的建筑的 defName -->
+          <!-- 您之后可以手动添加，例如: -->
+          <li>ARA_BioforgeIncubator</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+          <li>ARA_GrowthVat</li>
+          <li>ARA_MorphableResearchBench</li>
+          <li>ARANutrientDispenser</li>
+          <li>ARA_WormholePortal_A</li>
+          <li>ARA_Acidling_AutoMortar</li>
+          <li>CatastropheMissileSilo</li>
+          <li>ARA_AutoSniperCannon</li>
+        </linkableBuildings>
+        <maxDistance>80</maxDistance>        <!-- 供能范围 -->
+        <maxSimultaneous>10</maxSimultaneous>
+        <maxEfficiency>0.9</maxEfficiency>
+        <lineTexturePath>ArachnaeSwarm/Building/Nutrition_Pie</lineTexturePath>
+      </li>
+      <!-- 自身的燃料库 -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>10000.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelGizmoLabel>虫蜜</fuelGizmoLabel>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <canEjectFuel>true</canEjectFuel>
+      </li>
+      <!-- 开关 -->
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ARA_GrowthVat</li>
+        </linkableFacilities>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>18</spawnRadius>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(220,210,171,0)</glowColor>
+      </li>
+    </comps>
+    <building>
+      <relatedTerrain>
+        <li>ARA_InsectCreep</li>
+      </relatedTerrain>
+    </building>
+    <designationCategory>ARA_Buildings</designationCategory>
+    <researchPrerequisites Inherit="False">
+      <li>ARA_Technology_1NPT</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>ARA_GrowthVat</defName>
+    <label>阿拉克涅消化茧</label>
+    <description>阿拉克涅虫群用来存放和消化猎物的茧，那些被扔进茧中的倒霉鬼将逐渐被酸蚀溶解，从而为阿拉克涅营养供给塔网络提供额外的生物质传输效率和孵化速度，一个网络内最大可启用15个消化茧。</description>
+    <thingClass>ArachnaeSwarm.Building_NutrientVat</thingClass>
+    <containedPawnsSelectable>true</containedPawnsSelectable>
+    <tickerType>Normal</tickerType>
+    <uiIconPath>ArachnaeSwarm/Building/ARA_GrowthVat_Icon</uiIconPath>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_GrowthVat</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(1.25, 0.2, 0.5)</volume>
+        <offset>(0,0,-0.45)</offset>
+      </shadowData>
+    </graphicData>
+    <castEdgeShadows>false</castEdgeShadows>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <costList>
+      <ARA_Carapace>30</ARA_Carapace>
+      <ARA_InsectJelly>10</ARA_InsectJelly>
+      <ARA_Activated_Bacterium>5</ARA_Activated_Bacterium>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>42</pathCost>
+    <blockWind>true</blockWind>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <designationCategory>ARA_Buildings</designationCategory>
+    <uiOrder>2200</uiOrder>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <inspectorTabs>
+      <li>ITab_BiosculpterNutritionStorage</li>
+      <li>ITab_Genes</li>
+    </inspectorTabs>
+    <researchPrerequisites>
+      <li>GrowthVats</li>
+    </researchPrerequisites>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <haulToContainerDuration>120</haulToContainerDuration>
+      <workTableRoomRole>Laboratory</workTableRoomRole>
+      <relatedTerrain>
+        <li>ARA_InsectCreep</li>
+      </relatedTerrain>
+    </building>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <comps>
+      <!-- 1. 作为消费者，自己也需要燃料 -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>5.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelGizmoLabel>虫蜜</fuelGizmoLabel>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+      </li>
+
+      <!-- 2. 作为动态增效器，为其他建筑提供加成 -->
+      <li Class="ArachnaeSwarm.CompProperties_GrowthVatBooster">
+        <linkableBuildings>
+          <li>ARA_NutrientNetworkTower</li>
+          <li>ARA_BioforgeIncubator</li>
+          <li>ARA_BioforgeIncubator_Thing</li>
+        </linkableBuildings>
+        <maxSimultaneous>15</maxSimultaneous>
+        <maxDistance>20</maxDistance>
+        <statOffsets>
+          <NutrientTransmissionEfficiency>0.05</NutrientTransmissionEfficiency>
+          <ARA_IncubationSpeedFactor>0.1</ARA_IncubationSpeedFactor>
+        </statOffsets>
+      </li>
+
+      <!-- 3. 作为消费者，接收来自供能塔的燃料 -->
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ARA_NutrientNetworkTower</li>
+        </linkableFacilities>
+      </li>
+
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>6</spawnRadius>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.DefModExtension_NutrientVat">
+        <!-- 在这里配置您的顶部贴图 -->
+        <topGraphicPath>ArachnaeSwarm/Building/ARA_GrowthVatTop</topGraphicPath>
+        <!-- 如果是单张贴图，使用 Graphic_Single -->
+        <graphicClass>Graphic_Multi</graphicClass>
+      </li>
+    </modExtensions>
+    <researchPrerequisites Inherit="False">
+      <li>ARA_Technology_2NPT</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>ARANutrientDispenser</defName>
+    <label>阿拉克涅蜜晶巢穴</label>
+    <description>一个生产阿拉克涅蜜晶糕的巢穴，通过分解虫蜜来生产可食用的蜜晶糕。这种在巢穴内加工过的食物可以帮助虫群抵御冷血动物的影响，并且软糯的口感让非虫族殖民者也能乐在其中。</description>
+    <thingClass>ArachnaeSwarm.Building_ARANutrientDispenser</thingClass>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_NutrientDispenser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawRotated>false</drawRotated>
+      <drawSize>(5.5,5.5)</drawSize>
+      <drawOffset>(0, 2, 0.5)</drawOffset>
+      <shadowData>
+        <volume>(3.0, 2.5, 2.5)</volume>
+        <offset>(0,0,-0.45)</offset>
+      </shadowData>
+    </graphicData>
+    <size>(5,5)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <pathCost>150</pathCost>
+    <fillPercent>1.0</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <costList>
+      <ARA_Carapace>50</ARA_Carapace>
+      <ARA_InsectJelly>200</ARA_InsectJelly>
+      <ARA_Activated_Bacterium>20</ARA_Activated_Bacterium>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>10.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelGizmoLabel>虫蜜</fuelGizmoLabel>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+      </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ARA_NutrientNetworkTower</li>
+        </linkableFacilities>
+      </li>
+      <!-- This component acts as a perpetual power source with no consumption, ensuring powerComp.PowerOn is always true -->
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-1</basePowerConsumption>        <!-- Negative value makes it a generator -->
+        <transmitsPower>false</transmitsPower>        <!-- This is CRITICAL. It prevents the building from powering the whole grid. -->
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>6</spawnRadius>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.ARAFoodDispenserProperties">
+        <thingToDispense>ARA_NutrientPasteMeal</thingToDispense>
+        <nutritionCostPerDispense>1.25</nutritionCostPerDispense>
+        <soundDispense>DispensePaste</soundDispense>
+      </li>
+    </modExtensions>
+    <building>
+      <isMealSource>true</isMealSource>
+      <relatedTerrain>
+        <li>ARA_InsectCreep</li>
+      </relatedTerrain>
+    </building>
+    <interactionCellOffset>(0,0,3)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <designationCategory>ARA_Buildings</designationCategory>
+    <researchPrerequisites>
+      <li>ARA_Technology_3NPT</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- 3. 主建筑 "生物孵化池" -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>ARA_BioforgeIncubator_Thing</defName>
+    <label>物品孵化池</label>
+    <description>一个大型的、需要消耗大量营养物质的孵化设施，可以同时孵化多个物品，并能通过链接外部设备来提高效率。</description>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_BioforgeIncubator_Thing</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawRotated>false</drawRotated>
+      <drawSize>(5.5,6.5)</drawSize>
+      <drawOffset>(0, 2, 0.5)</drawOffset>
+      <shadowData>
+        <volume>(2.75, 1.2, 2)</volume>
+        <offset>(0.2,0,-1.15)</offset>
+      </shadowData>
+    </graphicData>
+    <size>(5,5)</size>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stuffCategories Inherit="False" />
+    <costStuffCount>0</costStuffCount>
+    <costList>
+      <ARA_Carapace>200</ARA_Carapace>
+      <ARA_InsectJelly>40</ARA_InsectJelly>
+      <ARA_Activated_Bacterium>10</ARA_Activated_Bacterium>
+    </costList>
+    <castEdgeShadows>false</castEdgeShadows>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <pathCost>50</pathCost>
+    <statBases>
+      <MarketValue>20000</MarketValue>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>2800</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <fillPercent>0.8</fillPercent>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <designationCategory>ARA_Buildings</designationCategory>
+    <uiOrder>2600</uiOrder>
+    <surfaceType>Item</surfaceType>
+    <building>
+      <workTableRoomRole>Laboratory</workTableRoomRole>
+      <workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+      <relatedTerrain>
+        <li>ARA_InsectCreep</li>
+      </relatedTerrain>
+    </building>
+    <researchPrerequisites>
+      <li>ARA_Technology_4NPT</li>
+    </researchPrerequisites>
+    <comps>
+      <!-- a. 我们新的队列物品生产组件 -->
+      <li Class="ArachnaeSwarm.CompProperties_QueuedInteractiveProducer">
+        <!-- 队列和交互设置 -->
+        <productionQueueLimit>3</productionQueueLimit>
+        <minNutritionToStart>1.0</minNutritionToStart>
+        <whitelist>
+          <li>ArachnaeNode_Race_WeaponSmith</li>          <!-- 示例：允许普通殖民者操作 -->
+        </whitelist>
+
+        <!-- 质量系统设置 -->
+        <minSafeTemperature>10</minSafeTemperature>
+        <maxSafeTemperature>30</maxSafeTemperature>
+        <penaltyPerDegreePerTick>0.00001</penaltyPerDegreePerTick>
+        <qualityThresholds>
+          <li>
+            <quality>Legendary</quality>
+            <threshold>0.99</threshold>
+          </li>
+          <li>
+            <quality>Masterwork</quality>
+            <threshold>0.90</threshold>
+          </li>
+          <li>
+            <quality>Excellent</quality>
+            <threshold>0.70</threshold>
+          </li>
+          <li>
+            <quality>Good</quality>
+            <threshold>0.50</threshold>
+          </li>
+          <li>
+            <quality>Normal</quality>
+            <threshold>0.20</threshold>
+          </li>
+          <li>
+            <quality>Poor</quality>
+            <threshold>0.10</threshold>
+          </li>
+        </qualityThresholds>
+      </li>
+
+      <!-- b. 我们的营养燃料组件 -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>300.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelGizmoLabel>虫蜜</fuelGizmoLabel>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+      </li>
+
+      <!-- c. 原版的设施链接接收组件 -->
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ARA_NutrientNetworkTower</li>
+          <li>ARA_GrowthVat</li>
+        </linkableFacilities>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>8</spawnRadius>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>ARA_BioforgeIncubator</defName>
+    <label>督虫孵化池</label>
+    <description>一个大型的、需要消耗大量营养物质的孵化设施，可以同时孵化多个单位，并能通过链接外部设备来提高效率。</description>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_BioforgeIncubator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(5.5,6.5)</drawSize>
+      <drawRotated>false</drawRotated>
+      <drawOffset>(0, 2, 0.5)</drawOffset>
+      <shadowData>
+        <volume>(2.75, 1.4, 2)</volume>
+        <offset>(0,0,-1.25)</offset>
+      </shadowData>
+    </graphicData>
+    <size>(5,5)</size>
+    <tickerType>Normal</tickerType>
+    <rotatable>false</rotatable>
+    <stuffCategories Inherit="False" />
+    <costStuffCount>0</costStuffCount>
+    <costList>
+      <ARA_Carapace>200</ARA_Carapace>
+      <ARA_InsectJelly>40</ARA_InsectJelly>
+      <ARA_Activated_Bacterium>10</ARA_Activated_Bacterium>
+    </costList>
+    <castEdgeShadows>false</castEdgeShadows>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <designationCategory>ARA_Buildings</designationCategory>
+    <pathCost>50</pathCost>
+    <researchPrerequisites>
+      <li>ARA_Technology_4NPT</li>
+    </researchPrerequisites>
+    <statBases>
+      <MarketValue>20000</MarketValue>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>2800</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <fillPercent>0.8</fillPercent>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <!-- <designationCategory>ARA_Buildings</designationCategory> -->
+    <uiOrder>2600</uiOrder>
+    <surfaceType>Item</surfaceType>
+    <building>
+      <workTableRoomRole>Laboratory</workTableRoomRole>
+      <workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+      <relatedTerrain>
+        <li>ARA_InsectCreep</li>
+      </relatedTerrain>
+    </building>
+    <comps>
+      <!-- a. 我们自己的队列生产组件 -->
+      <li Class="ArachnaeSwarm.CompProperties_QueuedPawnSpawner">
+        <productionQueueLimit>5</productionQueueLimit>
+        <minNutritionToStart>0.5</minNutritionToStart>
+        <whitelist>
+          <li>ARA_ArachnaeQueen</li>
+        </whitelist>
+        <spawnablePawns>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Myrmecocystus</pawnKind>
+            <delayTicks>240000</delayTicks>
+            <totalNutritionNeeded>100.0</totalNutritionNeeded>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_ShieldHead</pawnKind>
+            <delayTicks>180000</delayTicks>
+            <totalNutritionNeeded>40.0</totalNutritionNeeded>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_WeaponSmith</pawnKind>
+            <delayTicks>180000</delayTicks>
+            <totalNutritionNeeded>40.0</totalNutritionNeeded>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Fighter</pawnKind>
+            <delayTicks>90000</delayTicks>
+            <totalNutritionNeeded>20.0</totalNutritionNeeded>
+            <requiredResearch>ARA_Technology_1KYC</requiredResearch>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Smokepop</pawnKind>
+            <delayTicks>180000</delayTicks>
+            <totalNutritionNeeded>60.0</totalNutritionNeeded>
+            <requiredResearch>ARA_Technology_5KYC</requiredResearch>
+          </li>
+          <li>
+            <pawnKind>ArachnaeNode_Race_Skyraider</pawnKind>
+            <delayTicks>120000</delayTicks>
+            <totalNutritionNeeded>80.0</totalNutritionNeeded>
+            <requiredResearch>ARA_Technology_2KYC</requiredResearch>
+          </li>
+          <li>
+            <pawnKind>ARA_MimicNematodeShamblerSwarmer</pawnKind>
+            <delayTicks>600</delayTicks>
+            <totalNutritionNeeded>10.0</totalNutritionNeeded>
+            <requiredResearch>ARA_Technology_6MEN</requiredResearch>
+          </li>
+        </spawnablePawns>
+      </li>
+
+      <!-- b. 我们的营养燃料组件 -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelCapacity>20.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelGizmoLabel>虫蜜</fuelGizmoLabel>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+      </li>
+
+      <!-- c. 原版的设施链接接收组件 -->
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ARA_NutrientNetworkTower</li>
+          <li>ARA_GrowthVat</li>
+        </linkableFacilities>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>8</spawnRadius>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>ARA_MorphableResearchBench</defName>
+    <!-- <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset> -->
+    <label>阿拉克涅织域种织座</label>
+    <description>以阿拉克涅织域种为核心形成的活体结构，是推进虫群高级研究的必须建筑。该建筑无法建造，只能通过阿拉克涅织域种变形得到。</description>
+    <thingClass>ArachnaeSwarm.Building_Morphable</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>    <!-- ADDED: Force realtime rendering -->
+    <size>(2,2)</size>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_MorphableResearchBench</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+      <drawOffset>(0, 0, 0.25)</drawOffset>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <fillPercent>0.8</fillPercent>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <WorkToBuild>2800</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <ResearchSpeedFactor>1.0</ResearchSpeedFactor>
+    </statBases>
+    <uiOrder>2600</uiOrder>
+    <surfaceType>Item</surfaceType>
+    <building>
+      <workTableRoomRole>Laboratory</workTableRoomRole>
+      <workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+      <deconstructible>false</deconstructible>
+    </building>
+    <!-- 不可建造，只能通过变形生成 -->
+    <comps Inherit="False">
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>3</spawnRadius>
+      </li>
+      <li Class="CompProperties_ReportWorkSpeed">
+        <workSpeedStat>ResearchSpeedFactor</workSpeedStat>
+      </li>
+      <li Class="CompProperties_ProjectileInterceptor">
+        <radius>5.9</radius>
+        <hitPoints>300</hitPoints>
+        <interceptAirProjectiles>true</interceptAirProjectiles>
+        <interceptGroundProjectiles>true</interceptGroundProjectiles>
+        <color>(0.5, 0.3, 0.9, 0.5)</color>
+        <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
+        <activeSound>BulletShield_Ambience</activeSound>
+        <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
+        <startWithMaxHitPoints>true</startWithMaxHitPoints>
+        <alwaysShowHitpointsGizmo>true</alwaysShowHitpointsGizmo>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_Morphable">
+        <!-- 休息速度增益，例如1.0代表200%的速度 -->
+        <restGainMultiplier>1.0</restGainMultiplier>
+
+        <!-- 操作按钮的自定义标签 -->
+        <gizmoLabel>离开织座</gizmoLabel>
+
+        <!-- 操作按钮的自定义描述 -->
+        <gizmoDesc>使织域种离开织座，恢复移动状态。</gizmoDesc>
+
+        <gizmoIconPath>ArachnaeSwarm/UI/Abilities/ARA_Ability_Morph</gizmoIconPath>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition">
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>5.0</fuelCapacity>
+        <targetFuelLevelConfigurable>false</targetFuelLevelConfigurable>
+        <fuelGizmoLabel>虫蜜</fuelGizmoLabel>
+        <outOfFuelMessage>没有营养</outOfFuelMessage>
+      </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ARA_NutrientNetworkTower</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>ARA_JellyVat</defName>    <!-- defName is changed to reflect its purpose -->
+    <label>生物质酿造池</label>
+    <description>一个阿拉克涅虫族活体组织，可以充分利用活体钜菌的溶解能力，通过消化生物质，来分泌出营养丰富的阿拉克涅虫蜜。</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_JellyVat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2.2,2.2)</drawSize>
+      <drawRotated>false</drawRotated>
+      <shadowData>
+        <volume>(1.2, 0.5, 1.6)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+    </graphicData>
+    <researchPrerequisites>
+      <li>ARA_Technology_6GUT</li>
+    </researchPrerequisites>
+    <size>(2,2)</size>
+    <tickerType>Normal</tickerType>
+    <stuffCategories Inherit="False" />
+    <costStuffCount>0</costStuffCount>
+    <costList>
+      <ARA_Gene_Essence>70</ARA_Gene_Essence>
+      <ARA_Activated_Bacterium>5</ARA_Activated_Bacterium>
+    </costList>
+    <castEdgeShadows>false</castEdgeShadows>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <pathCost>50</pathCost>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>2800</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <fillPercent>0.8</fillPercent>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <designationCategory>ARA_Buildings</designationCategory>
+    <uiOrder>2600</uiOrder>
+    <surfaceType>Item</surfaceType>
+    <building>
+      <workTableRoomRole>Laboratory</workTableRoomRole>
+      <workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+      <relatedTerrain>
+        <li>ARA_InsectCreep</li>
+      </relatedTerrain>
+    </building>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+      <!--<li Class="ArachnaeSwarm.CompProperties_MultiFuelSpawner">
+        <spawnIntervalRange>
+          <min>120000</min>
+          <max>120000</max>
+        </spawnIntervalRange>
+        <products>
+          <li>
+            <thingDef>ARA_InsectJelly</thingDef>
+            <count>60</count>
+          </li>
+        </products>
+        <showMessageIfOwned>true</showMessageIfOwned>
+      </li>-->
+
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableNutrition_WithKey">
+        <saveKeysPrefix>Biomass</saveKeysPrefix>
+        <fuelLabel>生物质</fuelLabel>
+        <fuelGizmoLabel>生物质</fuelGizmoLabel>
+        <fuelFilter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>PlantFoodRaw</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>Milk</li>
+            <li>InsectJelly</li>
+          </disallowedThingDefs>
+        </fuelFilter>
+        <fuelCapacity>10</fuelCapacity>
+        <fuelConsumptionRate>0</fuelConsumptionRate>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_NutritionToFuelConverter">
+        <checkInterval>200</checkInterval>
+        <nutritionCost>0.25</nutritionCost>
+        <workAmount>2000</workAmount>
+        <fuelAmount>1</fuelAmount>
+      </li>
+
+      <li Class="ArachnaeSwarm.CompProperties_ProductStorage">
+        <fuelLabel>虫蜜</fuelLabel>
+        <fuelGizmoLabel>虫蜜</fuelGizmoLabel>
+
+        <fuelCapacity>25</fuelCapacity>
+        <fuelConsumptionRate>0</fuelConsumptionRate>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_InsectJelly</li>
+          </thingDefs>
+        </fuelFilter>
+
+        <allowRefuelIfNotEmpty>false</allowRefuelIfNotEmpty>
+        <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <targetFuelLevelConfigurable>false</targetFuelLevelConfigurable>
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <canEjectFuel>true</canEjectFuel>
+      </li>
+
+      <!-- 燃料满了自动弹出 -->
+      <li Class="ArachnaeSwarm.CompProperties_AutoEjector">
+        <checkInterval>60</checkInterval>
+        <ejectAtPercent>0.99</ejectAtPercent>
+        <allowEjectedFuel>true</allowEjectedFuel>
+        <monitorProductStorage>true</monitorProductStorage>
+        <monitorRefuelable>false</monitorRefuelable>
+      </li>
+
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>6</spawnRadius>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>ARA_Carapace_Productor</defName>
+    <label>骨花</label>
+    <description>一个阿拉克涅虫族活体组织，可以充分利用活体钜菌的催化能力，将钢铁转换为甲壳素。</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_Carapace_Productor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2.2,2.2)</drawSize>
+      <drawRotated>false</drawRotated>
+      <shadowData>
+        <volume>(1.2, 0.5, 1.6)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+    </graphicData>
+    <researchPrerequisites>
+      <li>ARA_Technology_6GUT</li>
+    </researchPrerequisites>
+    <size>(2,2)</size>
+    <tickerType>Normal</tickerType>
+    <stuffCategories Inherit="False" />
+    <costStuffCount>0</costStuffCount>
+    <costList>
+      <ARA_Gene_Essence>70</ARA_Gene_Essence>
+      <ARA_Activated_Bacterium>5</ARA_Activated_Bacterium>
+    </costList>
+    <castEdgeShadows>false</castEdgeShadows>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <pathCost>50</pathCost>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>2800</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <fillPercent>0.8</fillPercent>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <designationCategory>ARA_Buildings</designationCategory>
+    <uiOrder>2600</uiOrder>
+    <surfaceType>Item</surfaceType>
+    <building>
+      <workTableRoomRole>Laboratory</workTableRoomRole>
+      <workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+      <relatedTerrain>
+        <li>ARA_InsectCreep</li>
+      </relatedTerrain>
+    </building>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+
+      <!-- First fuel component: Steel -->
+      <li Class="ArachnaeSwarm.CompProperties_RefuelableWithKey">
+        <saveKeysPrefix>Steels</saveKeysPrefix>
+        <fuelLabel>钢铁</fuelLabel>
+        <fuelGizmoLabel>钢铁</fuelGizmoLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>50</fuelCapacity>
+        <fuelConsumptionRate>50</fuelConsumptionRate>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <!-- Our simple spawner component -->
+      <li Class="ArachnaeSwarm.CompProperties_MultiFuelSpawner">
+        <spawnIntervalRange>60000~60000</spawnIntervalRange>
+        <products>
+          <li>
+            <thingDef>ARA_Carapace</thingDef>
+            <count>25</count>
+          </li>
+        </products>
+        <showMessageIfOwned>true</showMessageIfOwned>
+      </li>
+
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>6</spawnRadius>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

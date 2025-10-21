@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef ParentName="AbilityTouchBase">
+    <defName>ARA_BindDrone</defName>
+    <label>信息素标记</label>
+    <description>使用信息素标记一只阿拉克涅督虫，受到标记的督虫和其麾下的辅虫将誓死效忠于女皇种，并与其建立心灵链接。\n\n除了手动链接外，女皇种也会每60秒尝试自动链接所有未链接的阿拉克涅督虫，此类链接和手动链接不一样，不需要目视。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_BindDrone</iconPath>    <!-- Placeholder: You'll need to create this icon -->
+
+    <hotKey>Misc1</hotKey>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <targetRequired>true</targetRequired>
+    <cooldownTicksRange>60</cooldownTicksRange>    <!-- 1 second cooldown -->
+
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0</warmupTime>
+      <range>99</range>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetAnimals>true</canTargetAnimals>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetCorpses>false</canTargetCorpses>
+        <canTargetSelf>false</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityBindDrone">
+        <!-- No custom properties needed for now -->
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef>
+    <defName>ARA_RaceBaseSwarmProduceOn</defName>
+    <label>取消繁育抑制</label>
+    <description>重启该阿拉克涅督虫自动抚育辅虫的能力。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_RaceBaseSwarmProduceOn</iconPath>
+    <cooldownTicksRange>601</cooldownTicksRange>
+    <hostile>false</hostile>
+    <showOnCharacterCard>true</showOnCharacterCard>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0</warmupTime>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <!-- 这是正确的用法 -->
+      <li Class="CompProperties_AbilityRemoveHediff">
+        <compClass>ArachnaeSwarm.CompAbilityEffect_RemoveSwitchHediff</compClass>
+        <hediffDef>ARA_RaceBaseSwarmProduceSwitchHediff</hediffDef>
+        <applyToSelf>true</applyToSelf>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef>
+    <defName>ARA_RaceBaseSwarmProduceOff</defName>
+    <label>繁育抑制</label>
+    <description>关闭该阿拉克涅督虫自动抚育辅虫的能力。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_RaceBaseSwarmProduceOff</iconPath>
+    <cooldownTicksRange>601</cooldownTicksRange>
+    <hostile>false</hostile>
+    <showOnCharacterCard>true</showOnCharacterCard>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0</warmupTime>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>ArachnaeSwarm.CompAbilityEffect_GiveSwitchHediff</compClass>
+        <hediffDef>ARA_RaceBaseSwarmProduceSwitchHediff</hediffDef>
+        <applyToSelf>true</applyToSelf>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_TrapSpew</defName>
+    <label>爆裂茧投射</label>
+    <description>发射一排阿拉克涅休眠茧，其中装有阿拉克涅爆裂种，这些危险的虫族被唤醒后就会开始寻仇，匆匆了结自己的生命.</description>
+    <iconPath>UI/Commands/EggSpew</iconPath>
+    <cooldownTicksRange>5000</cooldownTicksRange>    <!-- 2 hours -->
+    <aiCanUse>true</aiCanUse>
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>14.9</range>
+      <warmupTime>0.25</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySprayLiquid">
+        <projectileDef>ARA_Proj_StrongSludgeSpray</projectileDef>
+        <numCellsToHit>8</numCellsToHit>
+        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityLaunchMultiProjectile">
+        <projectileDef>ARA_Proj_Trap</projectileDef>
+        <numProjectiles>3</numProjectiles>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <ThingDef ParentName="ARA_EggSpew_Base_Proj">
+    <defName>ARA_Proj_Trap</defName>
+    <label>阿拉克涅爆裂茧</label>
+    <projectile>
+      <spawnsThingDef>Arachnae_AcidlingTrap</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <AbilityDef>
+    <defName>ARA_TumorSpew</defName>
+    <label>菌瘤释放</label>
+    <description>排出一枚菌瘤，将附近的大片地区转变为菌毯地形，以方便虫群进行活动，并阻碍敌军的前进。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_TumorSpew</iconPath>
+    <cooldownTicksRange>5000</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <targetRequired>false</targetRequired>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>13</range>
+      <warmupTime>1</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <drawAimPie>false</drawAimPie>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.2</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>ARA_Proj_Tumor</projectileDef>
+      </li>
+    </comps>
+  </AbilityDef>
+  <ThingDef ParentName="ARA_EggSpew_Base_Proj">
+    <defName>ARA_Proj_Tumor</defName>
+    <label>阿拉克涅菌瘤</label>
+    <projectile>
+      <spawnsThingDef>ARA_Tumor_Smokepop</spawnsThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BuildingNaturalBase">
+    <defName>ARA_Tumor_Smokepop</defName>
+    <label>阿拉克涅枯萎菌瘤</label>
+    <description>由少数虫族排出的特殊菌瘤，除了照明外还会在地上大范围地扩散菌毯，但是很快就会枯死。</description>
+    <thingClass>Building</thingClass>
+    <!-- <minifiedDef>MinifiedThing</minifiedDef> -->
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <repairEffect>EatVegetarian</repairEffect>
+    <filthLeaving>Filth_Slime</filthLeaving>
+    <statBases>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <costList>
+      <ARA_InsectJelly>1</ARA_InsectJelly>
+    </costList>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_Tumor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+    </graphicData>
+    <placeWorkers>
+      <li>PlaceWorker_GlowRadius</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>13</glowRadius>
+        <glowColor>(220,210,171,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Lifespan">
+        <lifespanTicks>9000</lifespanTicks>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>13</spawnRadius>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <AbilityDef>
+    <defName>ARA_AcidSprayBurst_Queen</defName>
+    <label>女皇种酸液轰炸</label>
+    <description>阿拉克涅女皇种向目标地点喷射大量腐蚀性酸液，喷射将持续数秒以完全覆盖一片区域。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_AcidSprayBurst</iconPath>
+    <cooldownTicksRange>5000</cooldownTicksRange>    <!-- 2 hours -->
+    <aiCanUse>false</aiCanUse>
+    <displayOrder>300</displayOrder>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>32.9</range>
+      <warmupTime>2</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilitySprayLiquidMulti">
+        <!-- CompProperties_AbilitySprayLiquid 的属性 -->
+        <projectileDef>ARA_Proj_StrongSludgeSpray</projectileDef>
+        <numCellsToHit>26</numCellsToHit>
+        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+
+        <!-- CompProperties_AbilitySprayLiquidMulti 新增的属性 -->
+        <shotCount>32</shotCount>        <!-- 总共发射5次 -->
+        <ticksBetweenShots>3</ticksBetweenShots>        <!-- 每次发射间隔12 Ticks (0.2秒) -->
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.5</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityBodyPartCheck">
+        <requiredPart>ARA_Acid_sac</requiredPart>
+        <failMessage>酸囊受损或缺失，无法喷射酸液</failMessage>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_6VXI</requiredResearch>
+        <failMessage>需要科技 节点VXI-6"酸囊" 以解锁技能</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <ThingDef>
+    <defName>ARA_Proj_StrongSludgeSpray</defName>
+    <label>阿拉克涅虫族酸液</label>
+    <thingClass>Projectile_Liquid</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <texPath>Things/Projectile/SludgeSpray</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>ARA_AcidBurn</damageDef>
+      <speed>25</speed>
+      <damageAmountBase>2</damageAmountBase>
+      <arcHeightFactor>0.4</arcHeightFactor>
+      <armorPenetrationBase>0.1</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+      <shadowSize>0</shadowSize>
+      <spawnTerrain>ARA_InsectCreep</spawnTerrain>
+      <terrainChance>0.75</terrainChance>
+      <filth>Filth_SpentAcid</filth>
+      <filthCount>1</filthCount>
+      <filthChance>0.25</filthChance>
+    </projectile>
+  </ThingDef>
+  <AbilityDef>
+    <defName>ARA_AcidSprayBurst</defName>
+    <label>酸液轰炸</label>
+    <description>阿拉克涅督虫向目标地点喷射大量腐蚀性酸液，虽然不如女皇种所喷射的酸雨那样强劲，但是虫酸的伤害依然是实打实的。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_AcidSprayBurst</iconPath>
+    <cooldownTicksRange>12000</cooldownTicksRange>    <!-- 2 hours -->
+    <aiCanUse>false</aiCanUse>
+    <displayOrder>300</displayOrder>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>15.9</range>
+      <warmupTime>3</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilitySprayLiquidMulti">
+        <!-- CompProperties_AbilitySprayLiquid 的属性 -->
+        <projectileDef>ARA_Proj_StrongSludgeSpray</projectileDef>
+        <numCellsToHit>6</numCellsToHit>
+        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+
+        <!-- CompProperties_AbilitySprayLiquidMulti 新增的属性 -->
+        <shotCount>16</shotCount>        <!-- 总共发射5次 -->
+        <ticksBetweenShots>3</ticksBetweenShots>        <!-- 每次发射间隔12 Ticks (0.2秒) -->
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.5</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityBodyPartCheck">
+        <requiredPart>ARA_Acid_sac</requiredPart>
+        <failMessage>酸囊受损或缺失，无法喷射酸液</failMessage>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_6VXI</requiredResearch>
+        <failMessage>需要科技 节点VXI-6"酸囊" 以解锁技能</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_Toxic_Needle_Fire</defName>
+    <label>毒针连射</label>
+    <description>阿拉克涅督虫使用可以喷射剧毒尾针的毒针腺对敌方进行一轮射击。</description>
+    <writeCombatLog>True</writeCombatLog>
+    <showPsycastEffects>False</showPsycastEffects>
+    <cooldownTicksRange>6000</cooldownTicksRange>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Toxic_Needle_Fire</iconPath>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>24</range>
+      <warmupTime>1</warmupTime>
+      <soundCast>Heatspikes_Shot</soundCast>
+      <soundCastTail>Heatspikes_Tail</soundCastTail>
+      <violent>false</violent>
+      <targetParams>
+        <canTargetPawns>True</canTargetPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityLaunchMultiProjectile">
+        <projectileDef>Bullet_ARA_RW_Basic_Fist_Needle_Gun</projectileDef>
+        <numProjectiles>12</numProjectiles>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.1</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityBodyPartCheck">
+        <requiredPart>ARA_Toxic_Needle</requiredPart>
+        <failMessage>毒针腺受损或缺失，无法发射毒针</failMessage>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_5PAV</requiredResearch>
+        <failMessage>需要科技 节点PAV-5"毒刺" 以解锁技能</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_BaseRace_Acid_Launcher</defName>
+    <label>酸噬种投射</label>
+    <description>将一只阿拉克涅酸噬种辅虫发射到指定地点，落地后这只寿命有限的辅虫将立刻对敌人展开攻击。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_BaseRace_Launcher</iconPath>
+    <cooldownTicksRange>5000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <charges>3</charges>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>24</range>
+      <warmupTime>1</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>ArachnaeBase_Race_Acidcut_Proj</projectileDef>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.2</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>ArachnaeBase_Race_Acidcut_Proj</defName>
+    <label>阿拉克涅酸噬种</label>
+    <thingClass>Projectile_SpawnsPawnZeroAge</thingClass>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Things/ARA_Acidcut/Bodies/Naked_Thin</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <projectile>
+      <speed>41</speed>
+      <spawnsPawnKind>ArachnaeBase_Race_Acidcut</spawnsPawnKind>
+      <tryAdjacentFreeSpaces>true</tryAdjacentFreeSpaces>
+      <damageDef>ARA_AcidBurn</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+    </projectile>
+  </ThingDef>
+
+  <AbilityDef>
+    <defName>ARA_BaseRace_Skyhive_Launcher</defName>
+    <label>天巢种喷射巢</label>
+    <description>将三只阿拉克涅天巢种辅虫发射到目标身上，天巢种将附着到敌人身上撕咬，脱落后仍然能继续对敌人展开攻击。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_BaseRace_Launcher</iconPath>
+    <cooldownTicksRange>5000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <charges>3</charges>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>24</range>
+      <warmupTime>1</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetParams>
+        <canTargetPawns>True</canTargetPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityLaunchMultiProjectile">
+        <projectileDef>Bullet_ARA_RW_Basic_SkyHive_Gun</projectileDef>
+        <numProjectiles>3</numProjectiles>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.2</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef>
+    <defName>ARA_Skyraider_jump</defName>
+    <label>高空机动</label>
+    <description>使用强壮的翅膀瞬间加力，以重定位至一处新的地点。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Skyraider_jump</iconPath>    <!-- Placeholder Icon -->
+    <cooldownTicksRange>5000</cooldownTicksRange>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <charges>2</charges>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityJump</verbClass>
+      <label>jump</label>
+      <violent>false</violent>
+      <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+      <warmupTime>0</warmupTime>
+      <range>150</range>
+      <requireLineOfSight>true</requireLineOfSight>
+      <soundCast>Longjump_Jump</soundCast>
+      <soundLanding>Longjump_Land</soundLanding>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <jobDef>CastJump</jobDef>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.3</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_Ability_Possess</defName>
+    <label>原虫种突袭寄生</label>
+    <description>跃向目标，随后尝试使用长尾刺穿对象并截断其神经中枢信号，以自己的控制信号取而代之，进而完全侵占目标躯体——它需要打穿护甲才能完成寄生，但是如果对关押的犯人和无行动能力者进行寄生，则必定成功。\n\n被侵占躯体的对象视为阿拉克涅虫族的一员，需要接受女皇种的信息素标记，并且不再拥有感情和高级需求，仅作为躯壳活着。目标的技能熟练度和背景故事会替换为原虫种的技能熟练度和背景故事，一旦宿主死亡，原虫种将从宿主身上逃离。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Ability_Possess</iconPath>
+    <cooldownTicksRange>800</cooldownTicksRange>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <hotKey>Misc1</hotKey>
+    <verbProperties>
+      <!-- 使用我们新的Verb -->
+      <verbClass>ArachnaeSwarm.Verb_JumpAndCastOnLanding</verbClass>
+      <warmupTime>1.0</warmupTime>
+      <range>9.9</range>
+      <requireLineOfSight>true</requireLineOfSight>
+      <soundCast>Longjump_Jump</soundCast>
+      <soundLanding>Longjump_Land</soundLanding>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetLocations>false</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <!-- comps部分现在只包含夺舍效果，因为跳跃由Verb处理 -->
+      <li Class="ArachnaeSwarm.CompProperties_AbilityPossess">
+        <!-- Base success chance range (60% to 100%) -->
+        <successChance>0.1</successChance>
+        <!-- Bonus success chance per point of damage dealt (1%) -->
+        <successChanceBonusPerDamage>0.01</successChanceBonusPerDamage>
+        <!-- Optional: Hediff to apply on successful possession -->
+        <hediffToApplyOnSuccess>ARA_HiveMindDrone</hediffToApplyOnSuccess>
+        <!-- Optional: A list of race ThingDefs that cannot be possessed -->
+        <raceBlacklist>
+          <li>ArachnaeQueen_Race</li>
+        </raceBlacklist>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_Ability_Smokepop</defName>
+    <label>信息素浓雾释放</label>
+    <description>浓雾种使用其腹部释放大量阿拉克涅信息素烟雾，形成一大片可以遮蔽虫族身形和阻燃的烟雾。这些信息素会吸引附近的阿拉克涅辅虫破土而出支援虫群，沾染信息素的目标越多（无论敌我），前来支援的虫族就越多。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Ability_Smokepop</iconPath>
+    <cooldownTicksRange>6000</cooldownTicksRange>
+    <targetRequired>false</targetRequired>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>1</warmupTime>
+      <range>10</range>
+      <drawAimPie>false</drawAimPie>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.25</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+      <!--<li Class="CompProperties_AbilityFirefoampop">
+        <firefoamRadius>10</firefoamRadius>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>15</clamorRadius>
+      </li>-->
+      <li Class="ArachnaeSwarm.CompProperties_AbilityDRM_Deaddustpop">
+        <damageDef>ARA_ReinforceGas</damageDef>
+        <damageAmount>5</damageAmount>
+        <armorPenetration>2.0</armorPenetration>
+        <smokeRadius>10</smokeRadius>
+        <explosionSound>Explosion_Smoke</explosionSound>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>15</clamorRadius>
+        <postExplosionSpawnThingDef>ARA_ReinforceGasCloud</postExplosionSpawnThingDef>        <!-- ARL_ToxicGasCloud -->
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      </li>
+      <!-- <li Class="ArachnaeSwarm.CompProperties_AbilityBodyPartCheck">
+        <requiredPart>ARA_Toxic_Needle</requiredPart>
+        <failMessage>毒针腺受损或缺失，无法发射毒针</failMessage>
+      </li> -->
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_Ability_TrackingCharge</defName>
+    <label>蛮力冲撞</label>
+    <description>对目标发起蓄势冲撞，对路径上的一切造成伤害。在冲击中途经的距离越远，伤害越高。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Ability_TrackingCharge</iconPath>    <!-- Placeholder Icon -->
+    <cooldownTicksRange>6000</cooldownTicksRange>
+    <charges>2</charges>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <verbProperties>
+      <verbClass>ArachnaeSwarm.Verb_CastAbilityTrackingCharge</verbClass>
+      <label>追踪冲撞</label>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetAnimals>true</canTargetAnimals>
+        <canTargetMechs>true</canTargetMechs>
+        <canTargetSelf>false</canTargetSelf>
+      </targetParams>
+      <range>18</range>
+      <warmupTime>1.0</warmupTime>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_TrackingCharge">
+        <homingSpeed>1.5</homingSpeed>
+        <initialDamage>15</initialDamage>
+        <damagePerTile>1.5</damagePerTile>
+        <inertiaDistance>6</inertiaDistance>
+        <collisionDamageDef>Blunt</collisionDamageDef>
+        <flyerDef>ARA_Flyer_TrackingCharge</flyerDef>
+        <collisionRadius>1.5</collisionRadius>        <!-- Larger collision radius -->
+        <impactSound>Pawn_Melee_BigBash_HitPawn</impactSound>
+        <damageHostileOnly>true</damageHostileOnly>        <!-- Set to false to damage everyone in the path -->
+      </li>
+      <li Class="CompProperties_AbilityEffecterOnCaster">
+        <effecterDef>WarTrumpet</effecterDef>
+        <maintainTicks>20</maintainTicks>        <!-- Long enough for the "2nd wave" to spawn -->
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.2</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <ThingDef ParentName="PawnFlyerBase">
+    <defName>ARA_Flyer_TrackingCharge</defName>
+    <thingClass>ArachnaeSwarm.PawnFlyer_TrackingCharge</thingClass>
+    <pawnFlyer>
+      <flightSpeed>0.5</flightSpeed>
+      <heightFactor>0</heightFactor>
+    </pawnFlyer>
+  </ThingDef>
+
+  <AbilityDef>
+    <defName>ARA_PsychicBrainburn</defName>
+    <label>心灵烧灼</label>
+    <description>以强大的纯净灵能冲击目标，烧毁目标的中枢神经系统——这会直接杀死目标。</description>
+    <abilityClass>Psycast</abilityClass>
+    <category>Psychic</category>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_PsychicBrainburn</iconPath>
+    <cooldownTicksRange>18000</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <showPsycastEffects>true</showPsycastEffects>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <stunTargetWhileCasting>true</stunTargetWhileCasting>
+    <moteOffsetAmountTowardsTarget>0.5</moteOffsetAmountTowardsTarget>
+    <warmupMote>Mote_HoraxSmallSpellWarmup</warmupMote>
+    <warmupEffecter>HoraxianAbilityCasting</warmupEffecter>
+    <warmupSound>AnomalyAbilityWarmup</warmupSound>
+    <writeCombatLog>true</writeCombatLog>
+    <statBases>
+      <Ability_EntropyGain>75</Ability_EntropyGain>
+      <Ability_PsyfocusCost>-1</Ability_PsyfocusCost>
+      <Ability_Duration>0</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>6</warmupTime>
+      <range>18</range>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetSelf>false</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_PsychicBrainburn">
+        <psychic>True</psychic>
+        <!-- 视觉效果 -->
+        <effecterDef>Skip_Entry</effecterDef>
+
+        <!-- 设为 true 则只能对血肉生物使用。设为 false 则也可以对机械体使用。 -->
+        <requiresFlesh>false</requiresFlesh>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef>
+    <defName>ARA_NeuroSwarm_jump</defName>
+    <label>高空机动</label>
+    <description>增强用于使身体悬浮的力量快速进入较高的高度，然后飞到一处新的地点。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Skyraider_jump</iconPath>
+    <cooldownTicksRange>5000</cooldownTicksRange>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <charges>1</charges>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityJump</verbClass>
+      <label>jump</label>
+      <violent>false</violent>
+      <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+      <warmupTime>0</warmupTime>
+      <range>50</range>
+      <requireLineOfSight>true</requireLineOfSight>
+      <soundCast>Longjump_Jump</soundCast>
+      <soundLanding>Longjump_Land</soundLanding>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <jobDef>CastJump</jobDef>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_MimicNematode_Needle_Fire</defName>
+    <label>拟线种寄生针</label>
+    <description>向目标喷射若干伤害较低但是会引发阿拉克涅拟线种寄生的囊针，随着感染的推进，目标将逐渐被拟线种控制，逐渐无视外部刺激以获得强大的抗击打能力。\n\n这是一种危险的交易，拟线种无法被女皇种控制，聪明的虫巢在使用拟线种的力量前，都需要思虑再三。</description>
+    <writeCombatLog>True</writeCombatLog>
+    <showPsycastEffects>False</showPsycastEffects>
+    <cooldownTicksRange>6000</cooldownTicksRange>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Toxic_Needle_Fire</iconPath>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <verbProperties>
+      <verbClass>Verb_AbilityShoot</verbClass>
+      <defaultProjectile>Bullet_ARA_MimicNematode_Needle</defaultProjectile>
+      <range>5</range>
+      <soundCast>Heatspikes_Shot</soundCast>
+      <soundCastTail>Heatspikes_Tail</soundCastTail>
+      <muzzleFlashScale>9</muzzleFlashScale>
+      <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+      <warmupTime>0</warmupTime>
+      <burstShotCount>32</burstShotCount>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>1</accuracyShort>
+      <accuracyMedium>1</accuracyMedium>
+      <accuracyLong>1</accuracyLong>
+      <ai_IsWeapon>false</ai_IsWeapon>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.1</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+      <!-- <li Class="ArachnaeSwarm.CompProperties_AbilityBodyPartCheck">
+        <requiredPart>ARA_Toxic_Needle</requiredPart>
+        <failMessage>毒针腺受损或缺失，无法发射毒针</failMessage>
+      </li> -->
+      <li Class="ArachnaeSwarm.CompProperties_AbilityResearchPrereq">
+        <requiredResearch>ARA_Technology_2MED</requiredResearch>
+        <failMessage>需要科技 节点MED-2"拟线寄生" 以解锁技能</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ARA_MimicNematode_Needle</defName>
+    <label>拟线种寄生针</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(117, 204, 49, 180)</color>
+    </graphicData>
+    <projectile>
+      <damageDef>ARA_MimicNematodeBite</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+
+  <AbilityDef>
+    <defName>ARA_Fighter_Invisibility_jump</defName>
+    <label>追猎种跳跃</label>
+    <description>以强力的肌腱向目标地点跳跃，跳跃期间追猎种依然保持隐形。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Fighter_Invisibility_jump</iconPath>
+    <cooldownTicksRange>1000</cooldownTicksRange>
+    <charges>3</charges>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityJump</verbClass>
+      <violent>false</violent>
+      <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+      <!-- <warmupTime>0.5</warmupTime> -->
+      <range>23</range>
+      <requireLineOfSight>false</requireLineOfSight>
+      <soundCast>Longjump_Jump</soundCast>
+      <soundLanding>Longjump_Land</soundLanding>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <jobDef>CastJump</jobDef>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.05</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef>
+    <defName>ARA_Fighter_Invisibility_Execution</defName>
+    <label>巨镰处决</label>
+    <description>追猎种挥动巨镰对敌人进行处决，造成一次高额伤害，处决完成后会暴露追猎种的身形。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Fighter_Invisibility_Execution</iconPath>
+    <cooldownTicksRange>3800</cooldownTicksRange>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <stunTargetWhileCasting>true</stunTargetWhileCasting>
+    <warmupMote>Mote_HoraxSmallSpellWarmup</warmupMote>
+    <warmupEffecter>HoraxianAbilityCasting</warmupEffecter>
+    <warmupSound>AnomalyAbilityWarmup</warmupSound>
+    <jobDef>CastAbilityOnThingMelee</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityTouch</verbClass>
+      <drawAimPie>false</drawAimPie>
+      <range>-1</range>
+      <warmupTime>0.1</warmupTime>
+      <targetParams>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ARA_Fighter_Execution_Damage</hediffDef>
+        <replaceExisting>true</replaceExisting>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_FireSpew</defName>
+    <label>爆燃火焰</label>
+    <description>爆燃种经过短暂蓄力后，向前大范围地喷出火焰。这种火焰喷射距离不是太长，但是可以形成一道致密的火墙。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_FireSpew</iconPath>
+    <cooldownTicksRange>5000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <ai_IsIncendiary>true</ai_IsIncendiary>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <warmupStartSound>FireSpew_Warmup</warmupStartSound>
+    <charges>3</charges>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>10</range>
+      <warmupTime>1</warmupTime>
+      <soundCast>FireSpew_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.25</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+      <li Class="CompProperties_AbilityFireSpew">
+        <range>10</range>
+        <lineWidthEnd>35</lineWidthEnd>
+        <filthDef>Filth_FlammableBile</filthDef>
+        <effecterDef>Fire_Spew</effecterDef>
+        <canHitFilledCells>true</canHitFilledCells>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_TerrainHeal_Ability</defName>
+    <label>护士装疗愈</label>
+    <description>从菌毯的营养管线抽取生物质，快速合成治愈素治疗目标，使其在一段时间内快速愈合，只能对拥有自愈能力的阿拉克涅虫群单位使用。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_TerrainHeal_Ability</iconPath>
+    <cooldownTicksRange>3800</cooldownTicksRange>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <hostile>false</hostile>
+    <aiCanUse>false</aiCanUse>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <stunTargetWhileCasting>true</stunTargetWhileCasting>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <warmupMote>Mote_HoraxSmallSpellWarmup</warmupMote>
+    <warmupEffecter>HoraxianAbilityCasting</warmupEffecter>
+    <warmupSound>AnomalyAbilityWarmup</warmupSound>
+    <jobDef>CastAbilityOnThingMelee</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityTouch</verbClass>
+      <drawAimPie>false</drawAimPie>
+      <range>-1</range>
+      <warmupTime>0.25</warmupTime>
+      <targetParams>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.2</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityGiveHediffWithSkillDuration">
+        <hediffDef>ARA_Heal_By_Nurse_Hediff</hediffDef>
+        <baseDurationSeconds>30</baseDurationSeconds>
+        <skillDef>Medicine</skillDef>
+        <extraSecondsPerSkillLevel>5</extraSecondsPerSkillLevel>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityTerrainRestriction">
+        <terrainDefs>
+          <li>ARA_InsectCreep</li>
+          <li>ARA_InsectCreepFloor</li>
+          <li>ARA_InsectCreepTile</li>
+        </terrainDefs>
+        <!-- <casterTerrainFailMessage>在阿拉克涅菌毯上才能使用此技能</casterTerrainFailMessage>
+        <disabledReasonKey>不在阿拉克涅菌毯上</disabledReasonKey> -->
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityHediffRestriction">
+        <requiredHediffs>
+          <li>ARA_HiveStrength</li>
+          <li>ARA_HiveStrength_Low</li>
+        </requiredHediffs>
+        <targetHediffFailMessage>目标必须是拥有自愈能力的阿拉克涅虫群</targetHediffFailMessage>
+        <disabledReasonKey>只能对拥有自愈能力的阿拉克涅虫群单位使用</disabledReasonKey>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef>
+    <defName>ARA_TerrorRoar_Ability</defName>
+    <label>威仪咆哮</label>
+    <description>阿拉克捏督虫对附近的敌方哈气，迫使其因惊骇四处逃窜，必须屹立于菌毯地形之上时才能使用。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_TerrorRoar_Ability</iconPath>
+    <cooldownTicksRange>7500</cooldownTicksRange>    <!-- 3 hours -->
+    <stunTargetWhileCasting>true</stunTargetWhileCasting>
+    <targetRequired>false</targetRequired>
+    <aiCanUse>false</aiCanUse>
+    <ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <statBases>
+      <Ability_EffectRadius>12</Ability_EffectRadius>
+      <Ability_Duration>500</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>12</range>
+      <warmupTime>0.5</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
+      <soundCast>Ability_TerrorRoar</soundCast>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetAnimals>true</canTargetAnimals>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetEntities>False</canTargetEntities>
+        <canTargetSubhumans>False</canTargetSubhumans>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.2</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+      <li Class="CompProperties_AbilityGiveMentalState">
+        <compClass>CompAbilityEffect_GiveMentalState</compClass>
+        <stateDef>PanicFlee</stateDef>
+      </li>
+      <li Class="CompProperties_AbilityEffect">
+        <compClass>CompAbilityEffect_OnlyTargetHostiles</compClass>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityTerrainRestriction">
+        <terrainDefs>
+          <li>ARA_InsectCreep</li>
+          <li>ARA_InsectCreepFloor</li>
+          <li>ARA_InsectCreepTile</li>
+        </terrainDefs>
+        <!-- <casterTerrainFailMessage>在阿拉克涅菌毯上才能使用此技能</casterTerrainFailMessage>
+        <disabledReasonKey>不在阿拉克涅菌毯上</disabledReasonKey> -->
+      </li>
+      <li Class="CompProperties_AbilityEffecterOnCaster">
+        <effecterDef>TerrorRoar</effecterDef>
+        <maintainTicks>20</maintainTicks>        <!-- Long enough for the "2nd wave" to spawn -->
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef>
+    <defName>ARA_TerrainTempt_Ability</defName>
+    <label>扭曲迷诱</label>
+    <description>阿拉克捏督虫扭曲目标的心智，使其把虫群当成自己的老婆们，并对伤害虫群的外来者发起疯狂进攻，必须于菌毯地形之上时才能使用。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_TerrainTempt_Ability</iconPath>
+    <cooldownTicksRange>13500</cooldownTicksRange>    <!-- 3 hours -->
+    <stunTargetWhileCasting>true</stunTargetWhileCasting>
+    <aiCanUse>false</aiCanUse>
+    <ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <statBases>
+      <Ability_Duration>100</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>18</range>
+      <warmupTime>0.5</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
+      <soundCast>PsychicInsanityLanceCast</soundCast>
+      <targetParams>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetEntities>False</canTargetEntities>
+        <canTargetSubhumans>False</canTargetSubhumans>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.2</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+      <li Class="CompProperties_AbilityGiveMentalState">
+        <compClass>CompAbilityEffect_GiveMentalState</compClass>
+        <stateDef>BerserkWarcall</stateDef>
+      </li>
+      <li Class="CompProperties_AbilityEffect">
+        <compClass>CompAbilityEffect_OnlyTargetHostiles</compClass>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityTerrainRestriction">
+        <terrainDefs>
+          <li>ARA_InsectCreep</li>
+          <li>ARA_InsectCreepFloor</li>
+          <li>ARA_InsectCreepTile</li>
+        </terrainDefs>
+        <!-- <casterTerrainFailMessage>在阿拉克涅菌毯上才能使用此技能</casterTerrainFailMessage>
+        <disabledReasonKey>不在阿拉克涅菌毯上</disabledReasonKey> -->
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_Strengthening_Tendon_Jump</defName>
+    <label>短距离跳跃</label>
+    <description>受到强化的肌腱可以让阿拉克涅虫群进行较短距离的跳跃。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Fighter_Invisibility_jump</iconPath>
+    <cooldownTicksRange>6000</cooldownTicksRange>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityJump</verbClass>
+      <violent>false</violent>
+      <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+      <!-- <warmupTime>0.5</warmupTime> -->
+      <range>6</range>
+      <requireLineOfSight>false</requireLineOfSight>
+      <soundCast>Longjump_Jump</soundCast>
+      <soundLanding>Longjump_Land</soundLanding>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <jobDef>CastJump</jobDef>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.1</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_BaseRace_Acidcut_Hatching</defName>
+    <label>酸噬种军团</label>
+    <description>立刻在脚下孵化五只阿拉克涅酸噬种辅虫，快速组织一道近战阵线。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_BaseRace_Launcher</iconPath>
+    <cooldownTicksRange>5000</cooldownTicksRange>
+    <charges>3</charges>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <aiCanUse>true</aiCanUse>
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>-1</range>
+      <warmupTime>0.1</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityLaunchMultiProjectile">
+        <projectileDef>ArachnaeBase_Race_Acidcut_Proj</projectileDef>
+        <numProjectiles>5</numProjectiles>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.25</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef>
+    <defName>ARA_Praetorian_jump</defName>
+    <label>禁卫种跳跃</label>
+    <description>以强力的肌腱向目标地点跳跃。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Fighter_Invisibility_jump</iconPath>
+    <cooldownTicksRange>1000</cooldownTicksRange>
+    <charges>3</charges>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityJump</verbClass>
+      <violent>false</violent>
+      <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+      <!-- <warmupTime>0.5</warmupTime> -->
+      <range>18</range>
+      <requireLineOfSight>false</requireLineOfSight>
+      <soundCast>Longjump_Jump</soundCast>
+      <soundLanding>Longjump_Land</soundLanding>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <jobDef>CastJump</jobDef>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.1</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef>
+    <defName>ARA_Praetorian_Commander_Ability_On</defName>
+    <label>虫群指挥者</label>
+    <description>启动该阿拉克涅禁卫种的指挥节点，使其可以作为建立次级蜂巢思维网络，加强附近虫族的战斗力。在此情况下，禁卫种将失去一部分战斗能力。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Praetorian_Commander_Ability_On</iconPath>
+    <cooldownTicksRange>601</cooldownTicksRange>
+    <hostile>false</hostile>
+    <showOnCharacterCard>true</showOnCharacterCard>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0</warmupTime>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <!-- 这是正确的用法 -->
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>ArachnaeSwarm.CompAbilityEffect_GiveSwitchHediff</compClass>
+        <hediffDef>ARA_Praetorian_Commander_Hediff</hediffDef>
+        <applyToSelf>true</applyToSelf>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef>
+    <defName>ARA_Praetorian_Commander_Ability_Off</defName>
+    <label>指挥结束</label>
+    <description>关闭该阿拉克涅禁卫种的指挥能力，使其专注于自身的战斗上。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Praetorian_Commander_Ability_Off</iconPath>
+    <cooldownTicksRange>601</cooldownTicksRange>
+    <hostile>false</hostile>
+    <showOnCharacterCard>true</showOnCharacterCard>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0</warmupTime>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRemoveHediff">
+        <compClass>ArachnaeSwarm.CompAbilityEffect_RemoveSwitchHediff</compClass>
+        <hediffDef>ARA_Praetorian_Commander_Hediff</hediffDef>
+        <applyToSelf>true</applyToSelf>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_Pouch_Hatching_Acidling</defName>
+    <label>蜕荚孵化：爆裂种</label>
+    <description>立刻在脚下孵化三只阿拉克涅爆裂种辅虫，它们会对敌方发起自杀性攻击。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_BaseRace_Launcher</iconPath>
+    <cooldownTicksRange>5000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>24</range>
+      <warmupTime>0.1</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityLaunchMultiProjectile">
+        <projectileDef>ArachnaeBase_Race_Acidling_Proj</projectileDef>
+        <numProjectiles>3</numProjectiles>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.2</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityDestroyOwnBodyPart">
+        <bodyPartsToDestroy>
+          <li>ARA_Pouch</li>
+        </bodyPartsToDestroy>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef>
+    <defName>ARA_Pouch_Hatching_Pouch</defName>
+    <label>蜕荚孵化：菌瘤</label>
+    <description>排出一枚菌瘤，将附近的大片地区转变为菌毯地形，以方便虫群进行活动，并阻碍敌军的前进。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_TumorSpew</iconPath>
+    <cooldownTicksRange>5000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>24</range>
+      <warmupTime>0.1</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>ARA_Proj_Tumor</projectileDef>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>0.2</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityDestroyOwnBodyPart">
+        <bodyPartsToDestroy>
+          <li>ARA_Pouch</li>
+        </bodyPartsToDestroy>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_Suicide_Ability</defName>
+    <label>自杀</label>
+    <description>只要一声令下，阿拉克涅虫族随时可以为了虫巢的大业立刻死去</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Suicide_Ability</iconPath>
+    <cooldownTicksRange>1</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <displayOrder>9900</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>24</range>
+      <warmupTime>15</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <violent>false</violent>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityDestroyOwnBodyPart">
+        <bodyPartsToDestroy>
+          <li>Brain</li>
+        </bodyPartsToDestroy>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef>
+    <defName>ARA_Hibernate_Ability</defName>
+    <label>休眠状态</label>
+    <description>阿拉克涅虫群用膜将自己包裹起来，转换为一个静态的活体组织，以降低蜂巢意志的负荷。进入休眠状态将清空休息条和饥饿条；不过在休眠状态下，虫族不需要进食。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Hibernate_Ability</iconPath>
+    <cooldownTicksRange>144000</cooldownTicksRange>
+    <targetRequired>false</targetRequired>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <displayOrder>9901</displayOrder>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <warmupTime>5</warmupTime>
+      <range>19.9</range>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityNeedCost">
+        <customLabel>饮食</customLabel>
+        <showProgressBar>true</showProgressBar>
+        <needDef>Food</needDef>
+        <needCost>1</needCost>
+        <failMessage>营养值不足，需要进食</failMessage>
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityTerrainRestriction">
+        <terrainDefs>
+          <li>ARA_InsectCreep</li>
+          <li>ARA_InsectCreepFloor</li>
+          <li>ARA_InsectCreepTile</li>
+        </terrainDefs>
+        <!-- <casterTerrainFailMessage>在阿拉克涅菌毯上才能使用此技能</casterTerrainFailMessage>
+        <disabledReasonKey>不在阿拉克涅菌毯上</disabledReasonKey> -->
+      </li>
+      <li Class="ArachnaeSwarm.CompProperties_AbilityTransform">
+        <buildingDef>ARA_Hibernate_Sac</buildingDef>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

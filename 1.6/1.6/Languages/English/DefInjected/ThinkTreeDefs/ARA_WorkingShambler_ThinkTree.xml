@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ================================================================== -->
+  <!-- ===== 2. 定义我们的“工作僵尸”思考树，并引用上面的子树 ===== -->
+  <!-- ================================================================== -->
+  <ThinkTreeDef>
+    <defName>ARA_WorkingShambler</defName>
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        <!-- 基础状态检查 (来自 Shambler) -->
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Despawned</treeDef>
+        </li>
+        <li Class="ThinkNode_ConditionalDowned">
+          <subNodes>
+            <li Class="ThinkNode_ConditionalCanCrawl">
+              <invert>true</invert>
+              <subNodes>
+                <li Class="ThinkNode_Subtree">
+                  <treeDef>Downed</treeDef>
+                </li>
+              </subNodes>
+            </li>
+          </subNodes>
+        </li>
+        <li Class="ThinkNode_Subtree">
+          <treeDef>BurningResponse</treeDef>
+        </li>
+
+        <!-- 响应直接命令和威胁 (来自 Shambler) -->
+        <li Class="ThinkNode_QueuedJob" />
+        <li Class="ThinkNodeConditional_EscapingHoldingPlatform">
+          <subNodes>
+            <li Class="JobGiver_EscapingHoldingPlatform" />
+          </subNodes>
+        </li>
+        <li Class="JobGiver_ReactToCloseMeleeThreat" />
+        <li Class="ThinkNode_Subtree">
+          <treeDef>LordDuty</treeDef>
+        </li>
+
+        <!-- 主动战斗 (来自 Shambler) -->
+        <li Class="JobGiver_ShamblerFight">
+          <targetAcquireRadius>20</targetAcquireRadius>
+          <targetKeepRadius>30</targetKeepRadius>
+        </li>
+
+        <!-- 工作逻辑 (引用我们自己的精简版工作核心) -->
+        <li Class="JobGiver_SeekAllowedArea" />
+        <li Class="JobGiver_Work">
+          <emergency>true</emergency>
+        </li>
+        <!-- 核心工作循环，但使用我们的精简版 -->
+        <li Class="JobGiver_Work"/>
+
+        <!-- 空闲时徘徊 (来自 Shambler) -->
+        <li Class="JobGiver_ShamblerWander">
+          <wanderRadius>5</wanderRadius>
+        </li>
+
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+
+</Defs>

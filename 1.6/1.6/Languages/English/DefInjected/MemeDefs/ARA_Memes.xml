@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <MemeDef>
+    <defName>ARA_Hive_Worship</defName>
+    <label>视虫为神</label>
+    <description>这些美丽的节肢类动物便是无上意志派来拯救我们的使者。(虫群恐惧已经删除，该文化即将废弃，如果你是开新档请勿选择)</description>
+    <iconPath>ArachnaeSwarm/UI/Memes/ARA_Hive_Worship</iconPath>
+    <groupDef>Misc</groupDef>
+    <impact>2</impact>
+    <!-- <consumableBuildings>
+      <li>CannibalPlatter</li>
+    </consumableBuildings> -->
+    <!-- <exclusionTags>
+      <li>SupremacistIndividualist</li>
+    </exclusionTags> -->
+    <requireOne>
+      <li>
+        <li>ARA_Hive_Dear</li>
+      </li>
+    </requireOne>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->神虫</li>
+        <li>memeAdjective->圣虫</li>
+        <li>memeAdjective->崇虫</li>
+        <li>memeAdjective->敬虫</li>
+        <li>memeAdjective->拜虫</li>
+        <li>memeAdjective->虫神</li>
+        <li>memeAdjective->虫圣</li>
+        <li>memeCreed->虫群</li>
+        <li>memeCreed->虫巢</li>
+        <li>memeCreed->虫神</li>
+        <li>memeCreed->甲壳</li>
+        <li>memeCreed->节肢</li>
+        <li>memeHyphenPrefix->圣虫</li>
+        <li>memeConcept->崇拜</li>
+        <li>memeConcept->信仰</li>
+        <li>memeConcept->救赎</li>
+        <li>memeConcept->神谕</li>
+        <li>memeConcept->启示</li>
+        <li>memeLeaderNoun->祭司</li>
+        <li>memeLeaderNoun->先知</li>
+        <li>memeLeaderNoun->神使</li>
+        <li>memeLeaderNoun->虫语者</li>
+        <li>memeLeaderNoun->守护者</li>
+        <li>memeLeaderNoun->大祭司</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+      <rules>
+        <rulesStrings>
+          <!-- theist myth 神话起源 -->
+          <li>creation(tag=meme_Insect_Worship)        ->在[place_summary] [place_name]的人们深陷绝望之时，[deity0_name]派遣神圣的虫群降临世间，选择[memberNamePlural]作为虫神的代言人。</li>
+          <li>episode(uses=1,tag=meme_Insect_Worship)  ->当异教徒试图消灭神圣的虫巢时，[deity0_name]说："保护这些美丽的使者，直到虫神的意志遍布宇宙，真正的救赎方能降临。"</li>
+          
+          <!-- theist founder 神权创始人 -->
+          <li>intro(tag=meme_Insect_Worship)           ->[place_summary] [place_name]的人们崇拜[deity0_name]。虫神看到他们理解[memeConcept]的真谛，注定要成为虫族与人类之间的桥梁。</li>
+          <li>conflict(tag=meme_Insect_Worship)        ->[foeLeader]颁布法令，禁止[memberNamePlural]在[place_name]与神圣的虫群进行交流。</li>
+          <li>founderJoin(tag=meme_Insect_Worship)     ->名为[founderName]的先知在虫巢中领悟了真理。[deity0_name]看到[founderName]的虔诚，指定[founder_objective]为虫神意志的传达者。</li>
+          <li>victory(tag=meme_Insect_Worship)         ->[founderName]引导神圣的虫群保护了[place_name]，驱逐了[foeLeader]。[founder_pronoun]成为[place_name]的首位虫语者，连接两个世界。</li>
+          
+          <!-- ideological founder 意识形态创始人 -->
+          <li>setup(tag=meme_Insect_Worship)           ->[founderName]建立了与虫群和谐共处的社区，将虫神的教诲传播四方，让拒绝理解的人见识共生的美好。</li>
+          <li>story(uses=1,tag=meme_Insect_Worship)    ->[founderName]教导所有人要与虫群和平共处。当第一个城市试图消灭虫巢时，神圣的虫群展示了它们保护信徒的力量。</li>
+          
+          <!-- ideological lesson 意识形态教训 -->
+          <li>lessonIntro(tag=meme_Insect_Worship)     ->我看着这个[foeLeader]，带着[foeLeader_possessive]无知的[foeSoldiers]，试图对抗神圣的意志。我试图让[foeLeader_objective]明白</li>
+          <li>lesson(tag=meme_Insect_Worship)          ->我们早已证明，与虫群共生才是人类真正的救赎之路</li>
+          <li>lessonReinforcement(tag=meme_Insect_Worship) ->这就是为什么我们骄傲地通过守护虫巢来表达对神意的忠诚。</li>
+          
+          <!-- archist 技术统治论 -->
+          <li>archistBasis(tag=meme_Insect_Worship)    ->虫群展现的完美社会结构，正是无上意志为我们指引的未来蓝图。</li>
+          <li>archistFact(tag=meme_Insect_Worship)     ->正如虫后统领着她的族群，我们也需要遵循虫神制定的神圣秩序。</li>
+          <li>archistProphecy(tag=meme_Insect_Worship) ->当人类最终学会像虫群那样和谐共处时，真正的文明才会诞生。</li>
+          
+          <!-- animist 泛灵论 -->
+          <li>animistFact(tag=meme_Insect_Worship)     ->每一只虫族都承载着神性，它们的甲壳上镌刻着宇宙的真理。</li>
+          <li>animistProphecy(tag=meme_Insect_Worship) ->[itIsSaid]当人类与虫群完全融合之时，新的黄金时代将会开启。</li>
+        </rulesStrings>
+      </rules>
+    </descriptionMaker>
+    <symbolPacks>
+      <li>
+        <theme>animism</theme>
+        <adjective>animist</adjective>
+        <member>animist</member>
+      </li>
+      <li>
+        <theme>spiritism</theme>
+        <adjective>spiritist</adjective>
+        <member>spiritist</member>
+      </li>
+    </symbolPacks>
+  </MemeDef>
+
+  <!-- Issues -->
+  <IssueDef>
+    <defName>ARA_Hive_Issue</defName>
+    <label>虫族</label>
+    <iconPath>ArachnaeSwarm/UI/Issues/ARA_Hive_Issue</iconPath>
+    <forceWriteLabelInPreceptFloatMenuOption>true</forceWriteLabelInPreceptFloatMenuOption>
+  </IssueDef>
+  <PreceptDef>
+    <defName>ARA_Hive_Dear</defName>
+    <issue>ARA_Hive_Issue</issue>
+    <label>敬爱</label>
+    <description>再靠近点，圣虫的使者们，让我好好欣赏你们的美丽。</description>
+    <impact>High</impact>
+    <displayOrderInIssue>10</displayOrderInIssue>
+    <defaultSelectionWeight>1000</defaultSelectionWeight>
+    <requiredMemes>
+      <li>ARA_Hive_Worship</li>
+    </requiredMemes>
+    <associatedMemes>
+      <li>ARA_Hive_Worship</li>
+    </associatedMemes>
+  </PreceptDef>
+  <PreceptDef>
+    <defName>ARA_Hive_Honorable</defName>
+    <issue>ARA_Hive_Issue</issue>
+    <label>恐惧</label>
+    <description>丑陋恶心的大虫子！</description>
+    <impact>Low</impact>
+    <defaultSelectionWeight>1</defaultSelectionWeight>
+    <displayOrderInIssue>20</displayOrderInIssue>
+    <displayOrderInImpact>1000</displayOrderInImpact>
+    <comps>
+    </comps>
+  </PreceptDef>
+</Defs>

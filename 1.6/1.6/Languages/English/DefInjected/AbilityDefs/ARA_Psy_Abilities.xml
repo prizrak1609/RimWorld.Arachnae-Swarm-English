@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <AbilityDef>
+    <defName>ARA_GuardianPsyField_On</defName>
+    <label>织域种灵能场</label>
+    <description>织域种投射一个强大的灵能防御力场，会自动拦截进入其作用范围的敌对飞行物。它的护盾总额和心灵敏感度相关，很难被击穿，但是每次拦截会积累心灵熵。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_GuardianPsyField_On</iconPath>
+    <cooldownTicksRange>601</cooldownTicksRange>
+    <hostile>false</hostile>
+    <showOnCharacterCard>true</showOnCharacterCard>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0</warmupTime>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>ArachnaeSwarm.CompAbilityEffect_GiveSwitchHediff</compClass>
+        <hediffDef>ARA_GuardianPsyField</hediffDef>
+        <applyToSelf>true</applyToSelf>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>ARA_GuardianPsyField_Off</defName>
+    <label>织域种灵能场</label>
+    <description>关闭织域种的灵能防御力场。</description>
+    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_GuardianPsyField_Off</iconPath>
+    <cooldownTicksRange>601</cooldownTicksRange>
+    <hostile>false</hostile>
+    <showOnCharacterCard>true</showOnCharacterCard>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0</warmupTime>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRemoveHediff">
+        <compClass>ArachnaeSwarm.CompAbilityEffect_RemoveSwitchHediff</compClass>
+        <hediffDef>ARA_GuardianPsyField</hediffDef>
+        <applyToSelf>true</applyToSelf>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

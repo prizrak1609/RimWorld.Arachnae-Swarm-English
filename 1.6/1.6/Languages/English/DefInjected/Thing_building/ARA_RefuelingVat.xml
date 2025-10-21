@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>ARA_RefuelingVat</defName>
+    <label>精华提取腔</label>
+    <description>一个特殊的活体建筑，可以置入阿拉克涅虫群的俘虏，使用缓慢而痛苦的方式提取其遗传物质，将其转换为精华素以供虫群使用。\n\n——怎么采集的你别问。</description>
+    <thingClass>ArachnaeSwarm.Building_RefuelingVat</thingClass>
+    <containedPawnsSelectable>true</containedPawnsSelectable>
+    <tickerType>Normal</tickerType>
+    <descriptionHyperlinks>
+      <ThingDef>ARA_Gene_Essence</ThingDef>
+    </descriptionHyperlinks>
+    <uiIconPath>ArachnaeSwarm/Building/ARA_RefuelingVat_Icon</uiIconPath>
+    <graphicData>
+      <texPath>ArachnaeSwarm/Building/ARA_RefuelingVat</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(1.25, 0.2, 0.5)</volume>
+        <offset>(0,0,-0.45)</offset>
+      </shadowData>
+    </graphicData>
+    <castEdgeShadows>false</castEdgeShadows>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <costList>
+      <ARA_Carapace>20</ARA_Carapace>
+      <ARA_InsectJelly>3</ARA_InsectJelly>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>42</pathCost>
+    <blockWind>true</blockWind>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <designationCategory>ARA_Buildings</designationCategory>
+    <uiOrder>2200</uiOrder>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <inspectorTabs>
+      <li>ITab_BiosculpterNutritionStorage</li>
+      <li>ITab_Genes</li>
+    </inspectorTabs>
+    <researchPrerequisites>
+      <li>GrowthVats</li>
+    </researchPrerequisites>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <haulToContainerDuration>120</haulToContainerDuration>
+      <workTableRoomRole>Laboratory</workTableRoomRole>
+      <relatedTerrain>
+        <li>ARA_InsectCreep</li>
+      </relatedTerrain>
+    </building>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <terrainAffordanceNeeded>ARA_Creep</terrainAffordanceNeeded>
+    <comps>
+      <!-- 标准的 CompRefuelable -->
+      <li Class="ArachnaeSwarm.CompProperties_ProductStorage">
+        <fuelLabel>精华素</fuelLabel>
+        <fuelGizmoLabel>精华素</fuelGizmoLabel>
+
+        <fuelCapacity>20</fuelCapacity>
+        <fuelConsumptionRate>0</fuelConsumptionRate>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+
+        <fuelFilter>
+          <thingDefs>
+            <li>ARA_Gene_Essence</li>
+          </thingDefs>
+        </fuelFilter>
+
+        <allowRefuelIfNotEmpty>false</allowRefuelIfNotEmpty>
+        <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <targetFuelLevelConfigurable>false</targetFuelLevelConfigurable>
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <canEjectFuel>true</canEjectFuel>
+      </li>
+
+      <!-- 燃料满了自动弹出 -->
+      <li Class="ArachnaeSwarm.CompProperties_AutoEjector">
+        <checkInterval>60</checkInterval>
+        <ejectAtPercent>0.99</ejectAtPercent>
+        <allowEjectedFuel>true</allowEjectedFuel>
+        <monitorProductStorage>true</monitorProductStorage>
+        <monitorRefuelable>false</monitorRefuelable>
+      </li>
+
+      <li Class="ArachnaeSwarm.CompProperties_RefuelingVat">
+        <fuelProductionPerDay>8</fuelProductionPerDay>      <!-- 每天生产8单位燃料 -->
+        <fuelProductionEfficiency>1</fuelProductionEfficiency> <!-- 150%效率 -->
+      </li>
+
+      <li Class="ArachnaeSwarm.CompProperties_DelayedTerrainSpawn">
+        <terrainToSpawn>ARA_InsectCreep</terrainToSpawn>
+        <spawnRadius>3</spawnRadius>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ArachnaeSwarm.DefModExtension_NutrientVat">
+        <!-- 在这里配置您的顶部贴图 -->
+        <topGraphicPath>ArachnaeSwarm/Building/ARA_RefuelingVatTop</topGraphicPath>
+        <!-- 如果是单张贴图，使用 Graphic_Single -->
+        <graphicClass>Graphic_Multi</graphicClass>
+      </li>
+    </modExtensions>
+    <researchPrerequisites Inherit="False">
+      <li>ARA_Technology_5ESS</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

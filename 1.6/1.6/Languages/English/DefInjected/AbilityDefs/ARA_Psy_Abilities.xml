@@ -1,58 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  <AbilityDef>
-    <defName>ARA_GuardianPsyField_On</defName>
-    <label>织域种灵能场</label>
-    <description>织域种投射一个强大的灵能防御力场，会自动拦截进入其作用范围的敌对飞行物。它的护盾总额和心灵敏感度相关，很难被击穿，但是每次拦截会积累心灵熵。</description>
-    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_GuardianPsyField_On</iconPath>
-    <cooldownTicksRange>601</cooldownTicksRange>
-    <hostile>false</hostile>
-    <showOnCharacterCard>true</showOnCharacterCard>
-    <aiCanUse>false</aiCanUse>
-    <verbProperties>
-      <verbClass>Verb_CastAbility</verbClass>
-      <warmupTime>0</warmupTime>
-      <drawAimPie>false</drawAimPie>
-      <requireLineOfSight>false</requireLineOfSight>
-      <targetable>false</targetable>
-      <targetParams>
-        <canTargetSelf>true</canTargetSelf>
-      </targetParams>
-    </verbProperties>
-    <comps>
-      <li Class="CompProperties_AbilityGiveHediff">
-        <compClass>ArachnaeSwarm.CompAbilityEffect_GiveSwitchHediff</compClass>
-        <hediffDef>ARA_GuardianPsyField</hediffDef>
-        <applyToSelf>true</applyToSelf>
-      </li>
-    </comps>
-  </AbilityDef>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
-  <AbilityDef>
-    <defName>ARA_GuardianPsyField_Off</defName>
-    <label>织域种灵能场</label>
-    <description>关闭织域种的灵能防御力场。</description>
-    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_GuardianPsyField_Off</iconPath>
-    <cooldownTicksRange>601</cooldownTicksRange>
-    <hostile>false</hostile>
-    <showOnCharacterCard>true</showOnCharacterCard>
-    <aiCanUse>false</aiCanUse>
-    <verbProperties>
-      <verbClass>Verb_CastAbility</verbClass>
-      <warmupTime>0</warmupTime>
-      <drawAimPie>false</drawAimPie>
-      <requireLineOfSight>false</requireLineOfSight>
-      <targetable>false</targetable>
-      <targetParams>
-        <canTargetSelf>true</canTargetSelf>
-      </targetParams>
-    </verbProperties>
-    <comps>
-      <li Class="CompProperties_AbilityRemoveHediff">
-        <compClass>ArachnaeSwarm.CompAbilityEffect_RemoveSwitchHediff</compClass>
-        <hediffDef>ARA_GuardianPsyField</hediffDef>
-        <applyToSelf>true</applyToSelf>
-      </li>
-    </comps>
-  </AbilityDef>
-</Defs>
+  <AbilityDef.ARA_GuardianPsyField_On.label>Weaver Psychic Field</AbilityDef.ARA_GuardianPsyField_On.label>
+  <AbilityDef.ARA_GuardianPsyField_On.description>The Weaver projects a powerful psychic defense field that automatically intercepts hostile projectiles entering its area of effect. Its shield strength is related to psychic sensitivity, making it hard to break, but each interception accumulates psychic entropy.</AbilityDef.ARA_GuardianPsyField_On.description>
+
+  <AbilityDef.ARA_GuardianPsyField_Off.label>Weaver Psychic Field</AbilityDef.ARA_GuardianPsyField_Off.label>
+  <AbilityDef.ARA_GuardianPsyField_Off.description>Disables the Weaver's psychic defense field.</AbilityDef.ARA_GuardianPsyField_Off.description>
+
+</LanguageData>

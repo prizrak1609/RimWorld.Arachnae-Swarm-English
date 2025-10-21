@@ -1,42 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  <!-- 变形技能的定义 -->
-  <AbilityDef>
-    <defName>ARA_Ability_Morph</defName>
-    <label>织域形态</label>
-    <description>生成织座，将自己转换为一个静态建筑。这个形态下，阿拉克涅织域种可以研究虫群更高级的科技。</description>
-    <iconPath>ArachnaeSwarm/UI/Abilities/ARA_Ability_Morph</iconPath>
-    <cooldownTicksRange>6000</cooldownTicksRange>
-    <hotKey>Misc12</hotKey>
-    <targetRequired>false</targetRequired>
-    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
-    <verbProperties>
-      <verbClass>Verb_CastAbility</verbClass>
-      <drawAimPie>false</drawAimPie>
-      <requireLineOfSight>false</requireLineOfSight>
-      <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
-      <warmupTime>1</warmupTime>
-      <range>19.9</range>
-      <targetable>false</targetable>
-      <targetParams>
-        <canTargetSelf>True</canTargetSelf>
-      </targetParams>
-    </verbProperties>
-    <comps>
-      <li Class="ArachnaeSwarm.CompProperties_AbilityTerrainRestriction">
-        <terrainDefs>
-          <li>ARA_InsectCreep</li>
-          <li>ARA_InsectCreepFloor</li>
-          <li>ARA_InsectCreepTile</li>
-        </terrainDefs>
-        <!-- <casterTerrainFailMessage>在阿拉克涅菌毯上才能使用此技能</casterTerrainFailMessage>
-        <disabledReasonKey>不在阿拉克涅菌毯上</disabledReasonKey> -->
-      </li>
-      <li Class="ArachnaeSwarm.CompProperties_AbilityTransform">
-        <buildingDef>ARA_MorphableResearchBench</buildingDef>
-      </li>
-    </comps>
-  </AbilityDef>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
+  <AbilityDef.ARA_Ability_Morph.label>Weaveform</AbilityDef.ARA_Ability_Morph.label>
+  <AbilityDef.ARA_Ability_Morph.description>Generates a Weaver's Throne, transforming the caster into a static building. In this form, the Arachnae Weaver can research more advanced insectoid swarm technologies.</AbilityDef.ARA_Ability_Morph.description>
+  <AbilityDef.ARA_Ability_Morph.comps.li.casterTerrainFailMessage>Cannot morph on the designated terrain</AbilityDef.ARA_Ability_Morph.comps.li.casterTerrainFailMessage>
+  
+  <AbilityDef.ARA_Ability_UnMorph.label>Cancel Weaveform</AbilityDef.ARA_Ability_UnMorph.label>
+  <AbilityDef.ARA_Ability_UnMorph.description>Dismisses the Weaver's Throne, transforming the caster back into a living unit.</AbilityDef.ARA_Ability_UnMorph.description>
 
-</Defs>
+</LanguageData>

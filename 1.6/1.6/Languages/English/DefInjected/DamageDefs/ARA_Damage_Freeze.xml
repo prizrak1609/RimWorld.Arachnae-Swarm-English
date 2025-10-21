@@ -1,61 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
-  <!-- 然后是冷冻伤害本身的定义 -->
-  <DamageDef Name="ARA_Damage_Freeze">
-    <defName>ARA_Damage_Freeze</defName>
-    <label>冷冻</label>
-    <workerClass>ArachnaeSwarm.DamageWorker_InstaKill</workerClass>
-    <externalViolence>true</externalViolence>
-    <deathMessage>{0}的身体在极寒中化为了冰雕，随后碎裂四散。</deathMessage>
-    <hediff>Frostbite</hediff>    <!-- 核心！将伤害转化为这个Hediff的严重性 -->
-    <harmsHealth>false</harmsHealth>    <!-- 核心！不造成常规生命值伤害 -->
-    <armorCategory>Heat</armorCategory>    <!-- 可以被抗热/冷的护甲减免 -->
-    <overkillPctToDestroyPart>0</overkillPctToDestroyPart>    <!-- 伤害足够时直接摧毁（我们的C#代码会处理这个） -->
-    <defaultDamage>3</defaultDamage>
-    <defaultArmorPenetration>1</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>0</buildingDamageFactorPassable>
-    <explosionHeatEnergyPerCell>-15</explosionHeatEnergyPerCell>
-    <!-- <explosionCellFleck>ARA_BlastFrost</explosionCellFleck>
-    <explosionColorCenter>(0.52, 0.7, 0.95,0.5)</explosionColorCenter>
-    <explosionColorEdge>(0.52, 1, 0.95,0.5)</explosionColorEdge> -->
-    <explosionInteriorFleck>ARA_Fleck_Icez_Cloud</explosionInteriorFleck>
-    <soundExplosion>Explosion_Stun</soundExplosion>
-    <modExtensions>
-      <li Class="ArachnaeSwarm.InstaKillExtension">
-        <hediff>ARA_CryoShock</hediff>
-        <requiredDamagePercentageCurve>
-          <points>
-            <li>(0.2, 0.8)</li>  <!-- 低严重性(0.2)时, 需要造成80%的伤害 -->
-            <li>(0.35, 0.65)</li>
-            <li>(0.5, 0.5)</li>
-            <li>(0.65, 0.35)</li>
-            <li>(0.85, 0.15)</li>
-            <li>(1.25, 0.01)</li>
-            <li>(2.5, 0.001)</li> <!-- 高严重性(0.85)时, 只需要造成15%的伤害 -->
-          </points>
-        </requiredDamagePercentageCurve>
-        <destroyChance>0.25</destroyChance>
-      </li>
-    </modExtensions>
-    <additionalHediffs>
-      <li>
-        <hediff>ARA_CryoShock</hediff>
-        <severityPerDamageDealt>0.01</severityPerDamageDealt>
-      </li>
-    </additionalHediffs>
-  </DamageDef>
-  <DamageDef ParentName="ARA_Damage_Freeze">
-    <defName>ARA_Damage_Freeze_ex</defName>
-    <additionalHediffs>
-      <li>
-        <hediff>ARA_Hediff_FrostCoverd_after</hediff>
-        <severityPerDamageDealt>0.01</severityPerDamageDealt>
-        <inverseStatScaling>true</inverseStatScaling>
-        <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
-      </li> 
-    </additionalHediffs>
-  </DamageDef>
-  
-</Defs>
+  <DamageDef.ARA_Damage_Freeze.label>Freeze</DamageDef.ARA_Damage_Freeze.label>
+  <DamageDef.ARA_Damage_Freeze.deathMessage>{0}'s body turned into an ice sculpture in the extreme cold, then shattered into pieces.</DamageDef.ARA_Damage_Freeze.deathMessage>
+
+  <DamageDef.ARA_Damage_Freeze_ex.label>Freeze</DamageDef.ARA_Damage_Freeze_ex.label>
+  <DamageDef.ARA_Damage_Freeze_ex.deathMessage>{0}'s body turned into an ice sculpture in the extreme cold, then shattered into pieces.</DamageDef.ARA_Damage_Freeze_ex.deathMessage>
+
+</LanguageData>

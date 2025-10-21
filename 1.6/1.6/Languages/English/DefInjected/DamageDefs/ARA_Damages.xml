@@ -1,132 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Defs>
-  <DamageDef ParentName="Flame">
-    <defName>ARA_AcidBurn</defName>
-    <label>酸蚀</label>
-    <additionalHediffs>
-      <li>
-        <hediff>ARA_AcidCoverd</hediff>
-        <severityPerDamageDealt>0.01</severityPerDamageDealt>
-      </li>
-    </additionalHediffs>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <armorCategory>Sharp</armorCategory>
-    <hediff>AcidBurn</hediff>
-    <scaleDamageToBuildingsBasedOnFlammability>false</scaleDamageToBuildingsBasedOnFlammability>
-  </DamageDef>
-  <DamageDef ParentName="Bullet">
-    <defName>ARA_Fist_Needle</defName>
-    <label>刺针毒素</label>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <armorCategory>Sharp</armorCategory>
-    <hediff>Cut</hediff>
-    <hediffSolid>Crack</hediffSolid>
-    <additionalHediffs>
-      <li>
-        <hediff>ARA_ToxicBuildup</hediff>
-        <severityPerDamageDealt>0.02</severityPerDamageDealt>
-        <victimSeverityScaling>ToxicResistance</victimSeverityScaling>
-        <inverseStatScaling>true</inverseStatScaling>
-        <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
-      </li>
-    </additionalHediffs>
-    <applyAdditionalHediffsIfHuntingForFood>false</applyAdditionalHediffsIfHuntingForFood>
-  </DamageDef>
-  <DamageDef ParentName="Bite">
-    <defName>ARA_SkyhiveBite</defName>
-    <label>天巢种撕咬</label>
-    <additionalHediffsThisPart>
-      <li>
-        <hediff>ARA_SkyhiveBite</hediff>
-      </li>
-    </additionalHediffsThisPart>
-  </DamageDef>
-  <DamageDef ParentName="CutBase">
-    <defName>ARA_AcidCut_Damage</defName>
-    <label>酸性撕咬</label>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <deathMessage>{0} 被携带酸液的巨颚咬死了。</deathMessage>
-    <additionalHediffs>
-      <li>
-        <hediff>ARA_AcidCoverd</hediff>
-        <severityPerDamageDealt>0.01</severityPerDamageDealt>
-      </li>
-    </additionalHediffs>
-  </DamageDef>
-  <DamageDef ParentName="BluntBase">
-    <defName>ARA_Whip_Damage</defName>
-    <label>鞭打</label>
-    <workerClass>DamageWorker_Stab</workerClass>
-    <deathMessage>{0} 被抽死了。</deathMessage>
-    <stabChanceOfForcedInternal>0.4</stabChanceOfForcedInternal>
-    <additionalHediffs>
-      <li>
-        <hediff>ARA_Whip_Hediff</hediff>
-        <severityPerDamageDealt>0.1</severityPerDamageDealt>
-      </li>
-    </additionalHediffs>
-  </DamageDef>
+<LanguageData>
 
-  <DamageDef ParentName="Bite">
-    <defName>ARA_MimicNematodeBite</defName>
-    <additionalHediffs>
-      <li>
-        <hediff>ARA_MimicNematode</hediff>
-        <severityPerDamageDealt>0.05</severityPerDamageDealt>
-      </li>
-    </additionalHediffs>
-  </DamageDef>
+  <DamageDef.ARA_AcidBurn.label>Acid Burn</DamageDef.ARA_AcidBurn.label>
 
-  <DamageDef>
-    <defName>ARA_ReinforceGas</defName>
-    <label>信息素烟雾</label>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <hasForcefulImpact>false</hasForcefulImpact>
-    <makesBlood>false</makesBlood>
-    <canInterruptJobs>false</canInterruptJobs>
-    <externalViolence>false</externalViolence>
-    <deathMessage>{0} 被烟呛死了。</deathMessage>
-    <hediff>Burn</hediff>
-    <minDamageToFragment>1</minDamageToFragment>
-    <defaultDamage>2</defaultDamage>
-    <defaultArmorPenetration>0</defaultArmorPenetration>
-    <explosionHeatEnergyPerCell>0</explosionHeatEnergyPerCell>
-    <armorCategory>Heat</armorCategory>
-    <soundExplosion>Explosion_Smoke</soundExplosion>
-    <combatLogRules>Damage_Smoke</combatLogRules>
-    <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
-    <scaleDamageToBuildingsBasedOnFlammability>true</scaleDamageToBuildingsBasedOnFlammability>
-    <additionalHediffs>
-      <li>
-        <hediff>ARA_ReinforceGasCoverd</hediff>
-      </li>
-    </additionalHediffs>
-  </DamageDef>
+  <DamageDef.ARA_Fist_Needle.label>Sting Toxin</DamageDef.ARA_Fist_Needle.label>
 
-  <DamageDef>
-    <defName>ARA_Psi_Damage</defName>
-    <ignoreShields>true</ignoreShields>
-    <igniteChanceByTargetFlammability>
-      <points>
-        <li>(0, 0)</li>
-        <li>(1, 0.5)</li>
-      </points>
-    </igniteChanceByTargetFlammability>
-    <label>灵能闪电</label>
-    <ignoreShields>true</ignoreShields>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <externalViolence>true</externalViolence>
-    <deathMessage>{0} 被灵能闪电烧死了。</deathMessage>
-    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <impactSoundType>Bullet</impactSoundType>
-    <hediff>Burn</hediff>
-    <armorCategory>Heat</armorCategory>
-    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
-    <isRanged>true</isRanged>
-    <makesAnimalsFlee>false</makesAnimalsFlee>
-    <defaultDamage>20</defaultDamage>
-    <defaultArmorPenetration>1.5</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>1</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>1</buildingDamageFactorPassable>
-  </DamageDef>
-</Defs>
+  <DamageDef.ARA_SkyhiveBite.label>Skyhive Bite</DamageDef.ARA_SkyhiveBite.label>
+
+  <DamageDef.ARA_AcidCut_Damage.label>Acidic Bite</DamageDef.ARA_AcidCut_Damage.label>
+  <DamageDef.ARA_AcidCut_Damage.deathMessage>{0} was killed by a giant maw carrying acid.</DamageDef.ARA_AcidCut_Damage.deathMessage>
+
+  <DamageDef.ARA_Whip_Damage.label>Whip</DamageDef.ARA_Whip_Damage.label>
+  <DamageDef.ARA_Whip_Damage.deathMessage>{0} was whipped to death.</DamageDef.ARA_Whip_Damage.deathMessage>
+
+  <DamageDef.ARA_ReinforceGas.label>Pheromone Smoke</DamageDef.ARA_ReinforceGas.label>
+  <DamageDef.ARA_ReinforceGas.deathMessage>{0} was choked to death by smoke.</DamageDef.ARA_ReinforceGas.deathMessage>
+
+  <DamageDef.ARA_Psi_Damage.label>Psychic Lightning</DamageDef.ARA_Psi_Damage.label>
+  <DamageDef.ARA_Psi_Damage.deathMessage>{0} was burned to death by psychic lightning.</DamageDef.ARA_Psi_Damage.deathMessage>
+
+</LanguageData>

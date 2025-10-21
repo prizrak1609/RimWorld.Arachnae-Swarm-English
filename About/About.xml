@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Arachnae Swarm English</name>
+  <author>Geel</author>
+  <description>
+  Geminy AI english translation for https://steamcommunity.com/sharedfiles/filedetails/?id=3584635117
+  </description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <packageId>Tourswen.arachnaeswarm.english</packageId>
+  
+  <modDependencies>
+    <li>
+      <packageId>Tourswen.arachnaeswarm</packageId>
+      <displayName>Arachnae Swarm</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3584635117</steamWorkshopUrl>
+      <downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3584635117</downloadUrl>
+    </li>
+  </modDependencies>
+  
+  <loadAfter>
+    <li>Tourswen.arachnaeswarm</li>
+  </loadAfter>
+  
+</ModMetaData>

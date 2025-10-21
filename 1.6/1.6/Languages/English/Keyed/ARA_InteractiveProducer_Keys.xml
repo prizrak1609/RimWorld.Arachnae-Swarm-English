@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EstimatedQuality>Estimated Quality</EstimatedQuality>
+  <QualityScore>Quality Score</QualityScore>
+  <TemperaturePenalty>Temperature Penalty</TemperaturePenalty>
+  <CurrentTemperature>Current Temperature: {0}</CurrentTemperature>
+  <SafeTemperatureRange>Safe Range</SafeTemperatureRange>
+  <CannotStartProduction>Cannot Start Production</CannotStartProduction>
+  <NoFuel>No Fuel</NoFuel>
+  <StartProduction>Start Production {0}</StartProduction>
+  <ARA_ProductionCost>({0} nutrition)</ARA_ProductionCost>
+  <CommandCancelProduction>Cancel Production</CommandCancelProduction>
+  <CommandCancelProductionDesc>Stop the current production process.</CommandCancelProductionDesc>
+  <Producing>Producing {0}</Producing>
+  <TimeLeft>Time Left</TimeLeft>
+  <ProjectedQuality>Projected Quality</ProjectedQuality>
+  <NotProducing>Not Producing</NotProducing>
+  <ARA_NeedSpecificArachnaeToStartIncubation>Not incubating, requires {0} interaction\n\nThe remaining nutrition will be converted back to items upon production completion.</ARA_NeedSpecificArachnaeToStartIncubation>
+  <ARA_AnyArachnaeRace>Any Arachnae Race</ARA_AnyArachnaeRace>
+  <ARA_ItemsAvailable>{0} items available</ARA_ItemsAvailable>
+  <QualityProgress>Item Quality</QualityProgress>
+
+  <NutritionNeeded>Nutrition Needed</NutritionNeeded>
+  <ARA_Incubate>Incubate {0}</ARA_Incubate>
+
+  <ARA_CocoonCooldown>Cocoon stabilizing: {0}</ARA_CocoonCooldown>
+
+  <ARA_ProducingListTitle>Producing:</ARA_ProducingListTitle>
+  
+  <ProductionSlots>Production Slots: {0} / {1}</ProductionSlots>
+  <ProductionQueue>Queue: {0}</ProductionQueue>
+  <ProductionSpeed>Production Speed</ProductionSpeed>
+</LanguageData>

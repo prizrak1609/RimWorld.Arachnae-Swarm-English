@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <CommandFireGlobal>Fire Remote Strike</CommandFireGlobal>
+  <CommandFireGlobalDesc>Select a target on the world map for a remote strike.</CommandFireGlobalDesc>
+  
+  <CommandFireLocal>Fire Local Strike</CommandFireLocal>
+  <CommandFireLocalDesc>Manually command the turret to attack a target on the local map.</CommandFireLocalDesc>
+
+  <RemoteTargetSet>Remote target set: {0}</RemoteTargetSet>
+  <MessageTargetMustBeMap>The target for a remote strike must be an explored tile.</MessageTargetMustBeMap>
+  <NoMissileToLaunch>No missile available.</NoMissileToLaunch>
+
+  <CommandClearAllTargets>Clear All Targets</CommandClearAllTargets>
+  <CommandClearAllTargetsDesc>Cancel all currently set local and remote targets.</CommandClearAllTargetsDesc>
+
+</LanguageData>

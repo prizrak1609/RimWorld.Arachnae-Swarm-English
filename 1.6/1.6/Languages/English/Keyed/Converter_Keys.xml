@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ARA_NutritionConverter_ErrorMissingComps>Error: Missing components</ARA_NutritionConverter_ErrorMissingComps>
+  
+  <ARA_NutritionConverter_StatusLabel>Status</ARA_NutritionConverter_StatusLabel>
+  <ARA_NutritionConverter_NextConversionLabel>Next conversion</ARA_NutritionConverter_NextConversionLabel>
+  
+  <ARA_NutritionConverter_State_NoNutrition>Missing nutrition</ARA_NutritionConverter_State_NoNutrition>
+  <ARA_NutritionConverter_State_TankFull>Tank full</ARA_NutritionConverter_State_TankFull>
+  <ARA_NutritionConverter_State_Converting>Converting</ARA_NutritionConverter_State_Converting>
+
+  <ARA_NutritionConverter_Gathering>Gathering: {0} / {1}</ARA_NutritionConverter_Gathering>
+  <ARA_NutritionConverter_Working>Working: {0} / {1}</ARA_NutritionConverter_Working>
+
+</LanguageData>

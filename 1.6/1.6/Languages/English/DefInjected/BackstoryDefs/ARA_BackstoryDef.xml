@@ -1,345 +1,60 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-	<AlienRace.AlienBackstoryDef Name="ARA_BaseBackStory" Abstract="True">
-    <shuffleable>true</shuffleable>
-		<requiresSpawnCategory>true</requiresSpawnCategory>
-    <forcedTraitsChance>
-      <li>
-        <defName Degree="0">ARA_CreepyCrawly</defName>
-        <chance>100</chance>
-      </li>
-    </forcedTraitsChance>
-	</AlienRace.AlienBackstoryDef>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_Queen_BS_Child_1</defName>
-		<title>本能猎手</title>
-		<titleShort>本能猎手</titleShort>
-		<description>[PAWN_nameDef]是一只阿拉克涅虫族女皇种，她与上百个姐妹一起降生并被封闭在繁育腔室中。\n\n当封堵女皇种繁育腔室的蜂蜡被工蜂打开时，[PAWN_nameDef]屹立于腔室之中——浑身沾满血液和组织液，脚下踏着姐妹们残破的肢体和身躯——她是毫无疑问的从生存游戏中胜出的唯一赢家。</description>
-		<slot>Childhood</slot>
+  <AlienRace.AlienBackstoryDef.Arachnae_Queen_BS_Child_1.title>Instinctive Hunter</AlienRace.AlienBackstoryDef.Arachnae_Queen_BS_Child_1.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_Queen_BS_Child_1.titleShort>Instinctive Hunter</AlienRace.AlienBackstoryDef.Arachnae_Queen_BS_Child_1.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_Queen_BS_Child_1.description>[PAWN_nameDef] is an Arachnae Queen, born alongside hundreds of sisters and sealed within the breeding chamber.\n\nWhen the wax sealing the Queen's breeding chamber was opened by the workers, [PAWN_nameDef] stood within—covered in blood and bodily fluids, trampling the broken limbs and bodies of her sisters—she was the undisputed sole winner of the survival game.</AlienRace.AlienBackstoryDef.Arachnae_Queen_BS_Child_1.description>
 
-		<skillGains>
-			<Shooting>2</Shooting>
-			<Melee>2</Melee>
-		</skillGains>
+  <AlienRace.AlienBackstoryDef.Arachnae_Queen_BS_Adult_1.title>Apprentice Queen</AlienRace.AlienBackstoryDef.Arachnae_Queen_BS_Adult_1.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_Queen_BS_Adult_1.titleShort>Apprentice Queen</AlienRace.AlienBackstoryDef.Arachnae_Queen_BS_Adult_1.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_Queen_BS_Adult_1.description>After successfully growing up in the hive, [PAWN_nameDef] left the nest where she was raised and came to an unfamiliar territory, preparing to establish her own influence.\n\n[PAWN_nameDef] knows she is weak, and compared to her other pampered sisters, she is more willing to handle many things personally.</AlienRace.AlienBackstoryDef.Arachnae_Queen_BS_Adult_1.description>
 
-		<spawnCategories>
-			<li>ArachnaeQueen_spawnCategoriesA</li>
-		</spawnCategories>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Child_1.title>Arachnae Overseer</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Child_1.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Child_1.titleShort>Overseer</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Child_1.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Child_1.description>[PAWN_nameDef] is an Arachnae Overseer—this caste of Arachnae are the backbone of the hive, obeying the Queen's commands while also directing their subordinate Auxiliaries. They are born with different missions and diligently serve the swarm throughout their relatively short lifespan.</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Child_1.description>
 
-		<requiresSpawnCategory>true</requiresSpawnCategory>
-	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_Queen_BS_Adult_1</defName>
-		<title>见习女皇</title>
-		<titleShort>见习女皇</titleShort>
-		<description>[PAWN_nameDef]顺利地在虫巢中长大后，她离开了生养她的巢穴并来到一片陌生的地域，着手准备建立自己的势力。\n\n[PAWN_nameDef]知道自己势单力薄，比起其他娇生惯养的姐妹，她在很多事情上更愿意亲力亲为。</description>
-		<slot>Adulthood</slot>
-		<skillGains>
-			<Shooting>3</Shooting>
-			<Melee>3</Melee>
-			<Medicine>3</Medicine>
-			<Intellectual>3</Intellectual>
-			<Social>3</Social>
-		</skillGains>
-		<workDisables>
-			<li>Cleaning</li>
-			<li>Hauling</li>
-			<li>Mining</li>
-			<li>PlantWork</li>
-			<li>Animals</li>
-			<li>Hunting</li>
-			<li>Crafting</li>
-			<li>Cooking</li>
-			<!-- <li>Constructing</li> -->
-			<!-- <li>Caring</li> -->
-			<!-- <li>Social</li> -->
-			<!-- <li>Artistic</li> -->
-			<!-- <li>Intellectual</li> -->
-		</workDisables>
+  <AlienRace.AlienBackstoryDef.Arachnae_MimicNematode_BS_Child_1.title>Arachnae Mimic Nematode</AlienRace.AlienBackstoryDef.Arachnae_MimicNematode_BS_Child_1.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_MimicNematode_BS_Child_1.titleShort>Mimic Nematode</AlienRace.AlienBackstoryDef.Arachnae_MimicNematode_BS_Child_1.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_MimicNematode_BS_Child_1.description>[PAWN_nameDef] is an Arachnae Mimic Nematode—they are not insectoids in the conventional sense. These parasites infest and control the bodies of sentient beings.</AlienRace.AlienBackstoryDef.Arachnae_MimicNematode_BS_Child_1.description>
 
-		<spawnCategories>
-			<li>ArachnaeQueen_spawnCategoriesB</li>
-		</spawnCategories>
-	</AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef.Arachnae_MimicNematode_BS_Adult_1.title>Arachnae Mimic Organism</AlienRace.AlienBackstoryDef.Arachnae_MimicNematode_BS_Adult_1.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_MimicNematode_BS_Adult_1.titleShort>Mimic Organism</AlienRace.AlienBackstoryDef.Arachnae_MimicNematode_BS_Adult_1.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_MimicNematode_BS_Adult_1.description>[PAWN_nameDef] is an Arachnae Mimic Organism. Produced as a body infested and controlled by an Arachnae Mimic Nematode, she lacks her own conscious will and cannot survive independently without the Nematode parasite.</AlienRace.AlienBackstoryDef.Arachnae_MimicNematode_BS_Adult_1.description>
 
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_Node_BS_Child_1</defName>
-		<title>阿拉克涅督虫</title>
-		<titleShort>督虫</titleShort>
-		<description>[PAWN_nameDef]是一只阿拉克涅督虫——这个种姓的阿拉克涅虫族是虫巢的中坚力量，服从于女皇种的指挥的同时，也指挥着麾下的辅虫。她们从诞生之初便肩负着不同的使命，并且在较短的寿命中尽心尽力地服侍虫群。</description>
-		<slot>Childhood</slot>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Myrmecocystus.title>Arachnae Honeypot Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Myrmecocystus.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Myrmecocystus.titleShort>Honeypot Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Myrmecocystus.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Myrmecocystus.description>[PAWN_nameDef] is an Arachnae Honeypot Overseer. Selective gene expression has resulted in a swollen stomach sac and a complex proboscis, allowing her to consume unprocessed corpses and various omnivorous materials, which are then broken down by her digestive organs and converted into Arachnae Nectar for other swarm members.\n\n[PAWN_nameDef] is not a formidable opponent in combat; her fighting skills are clumsy, and her fragile, bloated nature means she can hardly dodge any attacks.</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Myrmecocystus.description>
 
-		<spawnCategories>
-			<li>ArachnaeNode_spawnCategoriesA</li>
-		</spawnCategories>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_ShieldHead.title>Arachnae Shieldhead Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_ShieldHead.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_ShieldHead.titleShort>Shieldhead Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_ShieldHead.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_ShieldHead.description>[PAWN_nameDef] is an Arachnae Shieldhead Overseer. The Shieldheads are bulky Arachnae insectoids with thick, often overgrown carapaces. Besides producing chitin, they possess auxiliary limbs for interfacing with weapon organs, enabling them to defend the hive using the swarm's weapon organs and their innate armor.</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_ShieldHead.description>
 
-		<requiresSpawnCategory>true</requiresSpawnCategory>
-	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_MimicNematode_BS_Child_1</defName>
-		<title>阿拉克涅拟线种</title>
-		<titleShort>拟线种</titleShort>
-		<description>[PAWN_nameDef]是一只阿拉克涅拟线种——她们不是常规意义上的虫族，这些寄生虫寄生，并操控智慧生物的肉体。</description>
-		<slot>Childhood</slot>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_WeaponSmith.title>Arachnae Artificer Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_WeaponSmith.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_WeaponSmith.titleShort>Artificer Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_WeaponSmith.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_WeaponSmith.description>[PAWN_nameDef] is an Arachnae Artificer Overseer. She can produce incubation cocoons specifically for hatching Arachnae weapon organs to enhance the hive's combat strength.\n\nAlthough [PAWN_nameDef] can wield weapon organs, she is extremely fearful of any harm, so try to prevent her from being directly exposed to attacks.</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_WeaponSmith.description>
 
-		<spawnCategories>
-			<li>ArachnaeMimic_spawnCategoriesA</li>
-		</spawnCategories>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Fighter.title>Arachnae Warrior Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Fighter.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Fighter.titleShort>Warrior Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Fighter.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Fighter.description>[PAWN_nameDef] is an Arachnae Warrior Overseer. She can hunt and haul, and excels at operating all hive weapons, making her a formidable opponent in both melee and ranged combat. Although she cannot hatch Auxiliaries in the conventional sense, she can launch Arachnae Acid Maws at the enemy like projectiles, using the short lifespan of this Auxiliary to silence enemy ranged fire.</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Fighter.description>
 
-		<requiresSpawnCategory>true</requiresSpawnCategory>
-	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_MimicNematode_BS_Adult_1</defName>
-		<title>阿拉克涅拟线体</title>
-		<titleShort>拟线体</titleShort>
-		<description>[PAWN_nameDef]是一只阿拉克涅拟线体。被生产出来作为一具被阿拉克涅拟线种寄生并控制的肉体，她没有自己的自主意识，更无法脱离拟线种寄生独立存活。</description>
-		<slot>Adulthood</slot>
-		<workDisables>
-		</workDisables>
-		<skillGains>
-		</skillGains>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Smokepop.title>Arachnae Vapour Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Smokepop.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Smokepop.titleShort>Vapour Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Smokepop.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Smokepop.description>[PAWN_nameDef] is an Arachnae Vapour Overseer, a rare large insectoid caste capable of mounting large weapon organs. She possesses a massive carapace that deters invaders, which conventional handheld weapons can hardly penetrate. She also has a huge vapour sac, which can use multiple biospouts to spray white adhesive matter and white smoke over a wide area, masking swarm assaults on enemy turret positions.</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Smokepop.description>
 
-		<spawnCategories>
-			<li>ArachnaeMimic_spawnCategoriesB</li>
-		</spawnCategories>
-	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_Node_BS_Adult_Myrmecocystus</defName>
-		<title>阿拉克涅蜜罐种</title>
-		<titleShort>蜜罐种</titleShort>
-		<description>[PAWN_nameDef]是一只阿拉克涅蜜罐种督虫。基因的选择性表达使其长出了肿胀的胃囊和复杂的口器，这使得她可以吞噬那些未经过处理的尸体和各种杂食或是将其进一步分解，并通过消化器官将其转变为阿拉克涅虫蜜以供其他虫族食用。\n\n[PAWN_nameDef]在战斗中并不是一个值得正视的对手，她的战斗技能非常笨拙，脆弱臃肿的特性也决定了她几乎无法躲开任何攻击。</description>
-		<slot>Adulthood</slot>
-		<workDisables>
-			<li>Cleaning</li>
-			<!-- <li>Hauling</li> -->
-			<li>Mining</li>
-			<!-- <li>PlantWork</li> -->
-			<li>Animals</li>
-			<li>Hunting</li>
-			<li>Crafting</li>
-			<!-- <li>Cooking</li> -->
-			<li>Constructing</li>
-			<!-- <li>Caring</li> -->
-			<li>Social</li>
-			<li>Artistic</li>
-			<li>Intellectual</li>
-		</workDisables>
-		<skillGains>
-			<Shooting>-10</Shooting>
-			<Melee>-10</Melee>
-		</skillGains>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Skyraider.title>Arachnae Skyraider Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Skyraider.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Skyraider.titleShort>Skyraider Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Skyraider.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Skyraider.description>[PAWN_nameDef] is an Arachnae Skyraider Overseer. As an elite unit among the Arachnae Overseers, the Skyraider caste has evolved powerful flight capabilities, making them the undisputed masters of the air in the hive.</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Skyraider.description>
 
-		<spawnCategories>
-			<li>ArachnaeNode_spawnCategories_Myrmecocystus</li>
-		</spawnCategories>
-	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_Node_BS_Adult_ShieldHead</defName>
-		<title>阿拉克涅盾头种</title>
-		<titleShort>盾头种</titleShort>
-		<description>[PAWN_nameDef]是一只阿拉克涅盾头种督虫。盾头种是一种笨重的阿拉克涅虫族，她们拥有厚厚的经常过度生长的甲壳，除了生产甲壳素外，也拥有接入武装器官的辅肢，可以凭借虫群的武装器官和自己与生俱来的盔甲承担保卫虫巢的任务。</description>
-		<slot>Adulthood</slot>
-		<workDisables>
-			<li>Cleaning</li>
-			<!-- <li>Hauling</li> -->
-			<!-- <li>Mining</li> -->
-			<li>PlantWork</li>
-			<li>Animals</li>
-			<li>Hunting</li>
-			<li>Crafting</li>
-			<li>Cooking</li>
-			<!-- <li>Constructing</li> -->
-			<li>Caring</li>
-			<li>Social</li>
-			<li>Artistic</li>
-			<li>Intellectual</li>
-		</workDisables>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Facehugger.title>Arachnae Prime Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Facehugger.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Facehugger.titleShort>Prime Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Facehugger.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Facehugger.description>[PAWN_nameDef] is an Arachnae Prime Overseer. [PAWN_nameDef] uses a unique neuro-link tube to extend into and take over the victim's body. During the takeover, the skill proficiency will use the higher value between the Prime Caste and the victim, but any skill proficiency gained while parasitic will not be inherited by the Prime Caste when she leaves the victim.</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Facehugger.description>
 
-		<spawnCategories>
-			<li>ArachnaeNode_spawnCategories_ShieldHead</li>
-		</spawnCategories>
-	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_Node_BS_Adult_WeaponSmith</defName>
-		<title>阿拉克涅工艺种</title>
-		<titleShort>工艺种</titleShort>
-		<description>[PAWN_nameDef]是一只阿拉克涅工艺种督虫。能够产出专门用来孵化阿拉克涅武装器官的孵化茧，以强化虫巢的战斗力。\n\n尽管[PAWN_nameDef]可以拿起武装器官，但是非常害怕任何伤害，尽量避免她直接暴露在攻击下。</description>
-		<slot>Adulthood</slot>
-		<workDisables>
-			<li>Cleaning</li>
-			<!-- <li>Hauling</li> -->
-			<li>Mining</li>
-			<li>PlantWork</li>
-			<li>Animals</li>
-			<li>Hunting</li>
-			<!-- <li>Crafting</li> -->
-			<li>Cooking</li>
-			<li>Constructing</li>
-			<li>Caring</li>
-			<li>Social</li>
-			<!-- <li>Artistic</li> -->
-			<li>Intellectual</li>
-		</workDisables>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_NeuroSwarm.title>Arachnae Weaver Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_NeuroSwarm.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_NeuroSwarm.titleShort>Weaver Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_NeuroSwarm.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_NeuroSwarm.description>[PAWN_nameDef] is an Arachnae Weaver Overseer. Although supervised by the Queen, the Weaver caste possesses powerful advanced intelligence and self-will. Weavers can construct a highly interconnected neural network to conduct complex research and computational work. When performing computations, Weavers cannot perceive the external environment, making them vital protection targets for the swarm.</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_NeuroSwarm.description>
 
-		<spawnCategories>
-			<li>ArachnaeNode_spawnCategories_WeaponSmith</li>
-		</spawnCategories>
-	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_Node_BS_Adult_Fighter</defName>
-		<title>阿拉克涅战士种</title>
-		<titleShort>战士种</titleShort>
-		<description>[PAWN_nameDef]是一只阿拉克涅战士种督虫，可以进行狩猎和搬运，擅长操纵所有的虫巢武器，无论是近战还是远程都是一个难缠的对手。虽然无法在常规状态下孵化辅虫，但是其可以将阿拉克涅酸噬种像炮弹一样往敌人的脸上发射，以这种辅虫的有限寿命换取敌方的远程哑火。</description>
-		<slot>Adulthood</slot>
-		<workDisables>
-			<li>Cleaning</li>
-			<!-- <li>Hauling</li> -->
-			<li>Mining</li>
-			<li>PlantWork</li>
-			<!-- <li>Animals</li> -->
-			<!-- <li>Hunting</li> -->
-			<li>Crafting</li>
-			<li>Cooking</li>
-			<li>Constructing</li>
-			<li>Caring</li>
-			<li>Social</li>
-			<li>Artistic</li>
-			<li>Intellectual</li>
-		</workDisables>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Praetorian.title>Arachnae Praetorian Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Praetorian.title>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Praetorian.titleShort>Praetorian Caste</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Praetorian.titleShort>
+  <AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Praetorian.description>[PAWN_nameDef] is an Arachnae Praetorian Overseer. They are the elite troops of the Queen, responsible for executing her will. They can skillfully use ranged weapon organs to elegantly harvest enemies and hatch large numbers of Acid Maw Auxiliaries to establish defensive lines.</AlienRace.AlienBackstoryDef.Arachnae_Node_BS_Adult_Praetorian.description>
 
-		<spawnCategories>
-			<li>ArachnaeNode_spawnCategories_Fighter</li>
-		</spawnCategories>
-	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_Node_BS_Adult_Smokepop</defName>
-		<title>阿拉克涅浓雾种</title>
-		<titleShort>浓雾种</titleShort>
-		<description>[PAWN_nameDef]是一只阿拉克涅浓雾种督虫，是少见的大型虫族，可以装配大型武装器官。她拥有让其他侵略者望而却步的巨型甲壳，常规的手持武器难以穿透；并且她还拥有一个巨大的浓雾腔，可以通过多条生物喷管将阻碍燃烧的白色黏着物和白色烟雾喷到大范围的广阔区域中，以掩护虫群集群冲击敌方炮塔阵地。</description>
-		<slot>Adulthood</slot>
-		<workDisables>
-			<!-- <li>Cleaning</li> -->
-			<!-- <li>Hauling</li> -->
-			<li>Mining</li>
-			<li>PlantWork</li>
-			<li>Animals</li>
-			<li>Hunting</li>
-			<li>Crafting</li>
-			<li>Cooking</li>
-			<li>Constructing</li>
-			<li>Caring</li>
-			<li>Social</li>
-			<li>Artistic</li>
-			<li>Intellectual</li>
-		</workDisables>
-
-		<spawnCategories>
-			<li>ArachnaeNode_spawnCategories_Smokepop</li>
-		</spawnCategories>
-	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_Node_BS_Adult_Skyraider</defName>
-		<title>阿拉克涅空天种</title>
-		<titleShort>空天种</titleShort>
-		<description>[PAWN_nameDef]是一只阿拉克涅空天种督虫，空天种作为阿拉克涅督虫中的精锐，进化出了强大的飞行能力，是巢穴中无可争议的空中霸主。</description>
-		<slot>Adulthood</slot>
-		<workDisables>
-			<li>Cleaning</li>
-			<!-- <li>Hauling</li> -->
-			<li>Mining</li>
-			<li>PlantWork</li>
-			<li>Animals</li>
-			<li>Hunting</li>
-			<li>Crafting</li>
-			<li>Cooking</li>
-			<li>Constructing</li>
-			<li>Caring</li>
-			<li>Social</li>
-			<li>Artistic</li>
-			<li>Intellectual</li>
-		</workDisables>
-
-		<spawnCategories>
-			<li>ArachnaeNode_spawnCategories_Skyraider</li>
-		</spawnCategories>
-	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_Node_BS_Adult_Facehugger</defName>
-		<title>阿拉克涅原虫种</title>
-		<titleShort>原虫种</titleShort>
-		<description>[PAWN_nameDef]是一只阿拉克涅原虫种督虫。[PAWN_nameDef]通过独特的神经链接管伸入受害者身体来接管受害者的身体。在进行接管时，技能熟练度将采取原虫种和受害者两者间较高的一方，但是所有在寄生期间获得的技能熟练度不会被原虫种离开受害者时继承。</description>
-		<slot>Adulthood</slot>
-		<workDisables>
-			<!-- <li>Cleaning</li>
-			<li>Hauling</li>
-			<li>Mining</li>
-			<li>PlantWork</li>
-			<li>Animals</li>
-			<li>Hunting</li>
-			<li>Crafting</li>
-			<li>Cooking</li>
-			<li>Constructing</li>
-			<li>Caring</li>
-			<li>Social</li>
-			<li>Artistic</li> -->
-			<!-- <li>Intellectual</li> -->
-		</workDisables>
-
-		<spawnCategories>
-			<li>ArachnaeNode_spawnCategories_Facehugger</li>
-		</spawnCategories>
-	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_Node_BS_Adult_NeuroSwarm</defName>
-		<title>阿拉克涅织域种</title>
-		<titleShort>织域种</titleShort>
-		<description>[PAWN_nameDef]是一只阿拉克涅织域种督虫。织域种虽然受到女皇种监管，但仍然具有强大的高级智慧和自我意志，织域种之间能够构建一种高度互联的神经网络从而进行复杂的研究和计算工作，织域种进行计算工作时无法感知外界环境，因此她们是虫群的重要保护对象。</description>
-		<slot>Adulthood</slot>
-		<workDisables>
-			<li>Cleaning</li>
-			<!-- <li>Hauling</li> -->
-			<li>Mining</li>
-			<li>PlantWork</li>
-			<li>Animals</li>
-			<li>Hunting</li>
-			<li>Crafting</li>
-			<li>Cooking</li>
-			<li>Constructing</li>
-			<li>Caring</li>
-			<li>Social</li>
-			<li>Artistic</li>
-			<!-- <li>Intellectual</li> -->
-		</workDisables>
-
-		<spawnCategories>
-			<li>ArachnaeNode_spawnCategories_NeuroSwarm</li>
-		</spawnCategories>
-	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="ARA_BaseBackStory">
-		<defName>Arachnae_Node_BS_Adult_Praetorian</defName>
-		<title>阿拉克涅禁卫种</title>
-		<titleShort>禁卫种</titleShort>
-		<description>[PAWN_nameDef]是一只阿拉克涅禁卫种督虫。她们是女皇手下的精兵，肩负着履行女皇种意志的职责，她们可以熟练地使用远程武装器官优雅地收割敌人，并孵化大量的酸噬种辅虫构筑防线。</description>
-		<slot>Adulthood</slot>
-		<workDisables>
-			<li>Cleaning</li>
-			<!-- <li>Hauling</li> -->
-			<li>Mining</li>
-			<li>PlantWork</li>
-			<li>Animals</li>
-			<li>Hunting</li>
-			<li>Crafting</li>
-			<li>Cooking</li>
-			<li>Constructing</li>
-			<li>Caring</li>
-			<!-- <li>Social</li> -->
-			<!-- <li>Artistic</li> -->
-			<li>Intellectual</li>
-		</workDisables>
-
-		<spawnCategories>
-			<li>ArachnaeNode_spawnCategories_Praetorian</li>
-		</spawnCategories>
-	</AlienRace.AlienBackstoryDef>
-</Defs>
+</LanguageData>

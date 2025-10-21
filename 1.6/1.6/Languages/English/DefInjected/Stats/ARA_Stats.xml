@@ -1,73 +1,23 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  <StatDef>
-    <defName>ARA_IncubationSpeedFactor</defName>
-    <label>孵化速度</label>
-    <description>应用于孵化池的孵化速度乘数。</description>
-    <category>Building</category>
-    <defaultBaseValue>1</defaultBaseValue>
-    <minValue>0.001</minValue>
-    <toStringStyle>PercentZero</toStringStyle>
-    <showIfUndefined>false</showIfUndefined>
-  </StatDef>
-  <StatDef>
-    <defName>NutrientTransmissionEfficiency</defName>
-    <label>生物质传输损耗</label>
-    <description>减少传输生物质时的燃料消耗。最终消耗量将乘以 (1 - 效率)。</description>
-    <category>Building</category>
-    <defaultBaseValue>0</defaultBaseValue>
-    <minValue>0</minValue>
-    <toStringStyle>PercentZero</toStringStyle>
-    <displayPriorityInCategory>8000</displayPriorityInCategory>
-  </StatDef>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
+  <ARA_IncubationSpeedFactor.label>Incubation Speed</ARA_IncubationSpeedFactor.label>
+  <ARA_IncubationSpeedFactor.description>The incubation speed multiplier applied to the Hatchery.</ARA_IncubationSpeedFactor.description>
 
-  <StatCategoryDef>
-    <defName>ARA_Incubation_StatCategory</defName>
-    <label>孵化相关数据</label>
-    <displayOrder>100</displayOrder>
-  </StatCategoryDef>
-  <StatDef>
-    <defName>ARA_IncubationCost</defName>
-    <label>孵化所需营养</label>
-    <description>孵化该武装器官/织物所需的总营养</description>
-    <category>Basics</category>
-    <defaultBaseValue>1</defaultBaseValue>
-    <minValue>0</minValue>
-    <toStringStyle>FloatOne</toStringStyle>
-    <formatString>{0} 份</formatString>
-    <!-- <minifiedThingInherits>true</minifiedThingInherits> -->
-    <displayPriorityInCategory>5010</displayPriorityInCategory>
-    <!-- <showOnUnhaulables>false</showOnUnhaulables> -->
-    <showIfUndefined>false</showIfUndefined>
-    <cacheable>true</cacheable>
-  </StatDef>
-  <StatDef>
-    <defName>ARA_IncubationTime</defName>
-    <label>孵化所需时间</label>
-    <description>孵化该武装器官/织物所需的时间</description>
-    <category>Basics</category>
-    <defaultBaseValue>1</defaultBaseValue>
-    <minValue>0</minValue>
-    <toStringStyle>FloatOne</toStringStyle>
-    <formatString>{0} 天</formatString>
-    <!-- <minifiedThingInherits>true</minifiedThingInherits> -->
-    <displayPriorityInCategory>5011</displayPriorityInCategory>
-    <!-- <showOnUnhaulables>false</showOnUnhaulables> -->
-    <showIfUndefined>false</showIfUndefined>
-    <cacheable>true</cacheable>
-  </StatDef>
+  <NutrientTransmissionEfficiency.label>Biomass Transmission Loss</NutrientTransmissionEfficiency.label>
+  <NutrientTransmissionEfficiency.description>Reduces fuel consumption when transmitting biomass. The final consumption will be multiplied by (1 - efficiency).</NutrientTransmissionEfficiency.description>
 
-  <StatDef>
-    <defName>ARA_IcezKillingFactor</defName>
-    <label>急冻破坏阈值</label>
-    <description>因受到冷冻伤害，使得身体部件因冷冻被破坏所需受到的部件血量比例</description>
-    <category>PawnHealth</category>
-    <defaultBaseValue>1</defaultBaseValue>
-    <toStringStyle>PercentZero</toStringStyle>
-    <hideAtValue>1</hideAtValue>
-    <minValue>0</minValue>
-    <displayPriorityInCategory>2200</displayPriorityInCategory>
-    <showIfUndefined>false</showIfUndefined>
-  </StatDef>
-</Defs>
+  <ARA_Incubation_StatCategory.label>Incubation Stats</ARA_Incubation_StatCategory.label>
+
+  <ARA_IncubationCost.label>Incubation Nutrient Cost</ARA_IncubationCost.label>
+  <ARA_IncubationCost.description>The amount of nutrients required to hatch this armed organ/fabric.</ARA_IncubationCost.description>
+  <ARA_IncubationCost.formatString>{0} units</ARA_IncubationCost.formatString>
+
+  <ARA_IncubationTime.label>Incubation Time Required</ARA_IncubationTime.label>
+  <ARA_IncubationTime.description>The time required to hatch this armed organ/fabric.</ARA_IncubationTime.description>
+  <ARA_IncubationTime.formatString>{0} days</ARA_IncubationTime.formatString>
+
+  <ARA_IcezKillingFactor.label>Instant Freeze Damage Threshold</ARA_IcezKillingFactor.label>
+  <ARA_IcezKillingFactor.description>The maximum damage the Arachnae insectoid takes under instant freeze. Instant freeze damage will be multiplied by (1 - threshold).</ARA_IcezKillingFactor.description>
+
+</LanguageData>

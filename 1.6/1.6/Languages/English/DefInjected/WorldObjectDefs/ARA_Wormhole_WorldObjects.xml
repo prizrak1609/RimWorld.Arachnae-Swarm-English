@@ -1,19 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  <WorldObjectDef>
-    <defName>ARA_TravelingWormhole</defName>
-    <label>掘进中的虫洞</label>
-    <worldObjectClass>ArachnaeSwarm.TravelingWormhole</worldObjectClass>
-    <texture>ArachnaeSwarm/World/WorldObjects/Expanding/ARA_TravelingWormhole</texture>
-    <useDynamicDrawer>true</useDynamicDrawer>
-    <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>ArachnaeSwarm/World/WorldObjects/ARA_TravelingWormhole</expandingIconTexture>
-    <expandingIconPriority>100</expandingIconPriority>
-    <expandMore>true</expandMore>
-    <modExtensions>
-      <li Class="ArachnaeSwarm.DefModExtension_TravelingWormhole">
-        <travelSpeed>10</travelSpeed>
-      </li>
-    </modExtensions>
-  </WorldObjectDef>
-</Defs>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_TravelingWormhole.label>Tunneling Wormhole</ARA_TravelingWormhole.label>
+
+</LanguageData>

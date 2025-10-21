@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Defs>
-  <WorkGiverDef>
-    <defName>ARA_Refuel_Nutrition</defName>
-    <label>补充营养</label>
-    <giverClass>ArachnaeSwarm.WorkGiver_Refuel_Nutrition</giverClass>
-    <workType>Hauling</workType>
-    <priorityInType>60</priorityInType>
-    <verb>补充</verb>
-    <gerund>补充</gerund>
-    <scanThings>true</scanThings>
-    <scanCells>false</scanCells>
-  </WorkGiverDef>
-  <WorkGiverDef>
-    <defName>ARA_SkillTraining_Building_Bills</defName>
-    <label>技能训练</label>
-    <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>BasicWorker</workType>
-    <priorityInType>99999</priorityInType>
-    <fixedBillGiverDefs>
-      <li>ARA_SkillTraining_Building</li>
-    </fixedBillGiverDefs>
-    <verb>训练于</verb>
-    <gerund>训练于</gerund>
-    <prioritizeSustains>false</prioritizeSustains>
-    <canBeDoneByMechs>false</canBeDoneByMechs>
-  </WorkGiverDef>
-</Defs>
+<LanguageData>
+
+  <ARA_Refuel_Nutrition.label>Replenish Nutrition</ARA_Refuel_Nutrition.label>
+  <ARA_Refuel_Nutrition.verb>Replenish</ARA_Refuel_Nutrition.verb>
+  <ARA_Refuel_Nutrition.gerund>replenishing</ARA_Refuel_Nutrition.gerund>
+
+  <ARA_SkillTraining_Building_Bills.label>Skill Training</ARA_SkillTraining_Building_Bills.label>
+  <ARA_SkillTraining_Building_Bills.verb>Train at</ARA_SkillTraining_Building_Bills.verb>
+  <ARA_SkillTraining_Building_Bills.gerund>training at</ARA_SkillTraining_Building_Bills.gerund>
+
+</LanguageData>

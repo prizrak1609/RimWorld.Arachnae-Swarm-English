@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AbilityDef.ARA_BindDrone.label>Pheromone Mark</AbilityDef.ARA_BindDrone.label>
-  <AbilityDef.ARA_BindDrone.description>Marks an Arachnae Overseer with pheromones. The marked overseer and its subordinate auxiliaries will pledge undying loyalty to the Queen and establish a psychic link with her.\n\nIn addition to manual linking, the Queen will also attempt to automatically link all unlinked Arachnae Overseers every 60 seconds. This type of link is different from manual linking and does not require line of sight.</AbilityDef.ARA_BindDrone.description>
+  <ARA_BindDrone.description>Marks an Arachnae Overseer with pheromones. The marked overseer and its subordinate auxiliaries will pledge undying loyalty to the Queen and establish a psychic link with her.\n\nIn addition to manual linking, the Queen will also attempt to automatically link all unlinked Arachnae Overseers every 60 seconds. This type of link is different from manual linking and does not require line of sight.</ARA_BindDrone.description>
+  <ARA_BindDrone.label>Pheromone Mark</ARA_BindDrone.label>
 
-  <AbilityDef.ARA_RaceBaseSwarmProduceOn.label>Cancel Reproduction Suppression</AbilityDef.ARA_RaceBaseSwarmProduceOn.label>
-  <AbilityDef.ARA_RaceBaseSwarmProduceOn.description>Restarts this Arachnae Overseer's ability to automatically breed auxiliaries.</AbilityDef.ARA_RaceBaseSwarmProduceOn.description>
+  <ARA_RaceBaseSwarmProduceOn.label>Cancel Reproduction Suppression</ARA_RaceBaseSwarmProduceOn.label>
+  <ARA_RaceBaseSwarmProduceOn.description>Restarts this Arachnae Overseer's ability to automatically breed auxiliaries.</ARA_RaceBaseSwarmProduceOn.description>
 
-  <AbilityDef.ARA_RaceBaseSwarmProduceOff.label>Reproduction Suppression</AbilityDef.ARA_RaceBaseSwarmProduceOff.label>
-  <AbilityDef.ARA_RaceBaseSwarmProduceOff.description>Disables this Arachnae Overseer's ability to automatically breed auxiliaries.</AbilityDef.ARA_RaceBaseSwarmProduceOff.description>
+  <ARA_RaceBaseSwarmProduceOff.label>Reproduction Suppression</ARA_RaceBaseSwarmProduceOff.label>
+  <ARA_RaceBaseSwarmProduceOff.description>Disables this Arachnae Overseer's ability to automatically breed auxiliaries.</ARA_RaceBaseSwarmProduceOff.description>
 
-  <AbilityDef.ARA_TrapSpew.label>Burst Cocoon Projection</AbilityDef.ARA_TrapSpew.label>
-  <AbilityDef.ARA_TrapSpew.description>Launches a salvo of dormant Arachnae Cocoons, which contain Arachnae Bursters. Once awakened, these dangerous insectoids will immediately seek revenge and rush to end their own lives.</AbilityDef.ARA_TrapSpew.description>
-  <ThingDef.ARA_Proj_Trap.label>Arachnae Burst Cocoon</ThingDef.ARA_Proj_Trap.label>
+  <ARA_TrapSpew.label>Burst Cocoon Projection</ARA_TrapSpew.label>
+  <ARA_TrapSpew.description>Launches a salvo of dormant Arachnae Cocoons, which contain Arachnae Bursters. Once awakened, these dangerous insectoids will immediately seek revenge and rush to end their own lives.</ARA_TrapSpew.description>
+  <ARA_Proj_Trap.label>Arachnae Burst Cocoon</ARA_Proj_Trap.label>
 
-  <AbilityDef.ARA_TumorSpew.label>Tumor Ejection</AbilityDef.ARA_TumorSpew.label>
-  <AbilityDef.ARA_TumorSpew.description>Ejects a tumor that converts a large nearby area into insect creep terrain, facilitating swarm activity and impeding enemy movement.</AbilityDef.ARA_TumorSpew.description>
-  <AbilityDef.ARA_TumorSpew.comps.li.customLabel>Diet</AbilityDef.ARA_TumorSpew.comps.li.customLabel>
-  <AbilityDef.ARA_TumorSpew.comps.li.failMessage>Not enough nutrition, needs to feed</AbilityDef.ARA_TumorSpew.comps.li.failMessage>
-  <ThingDef.ARA_Proj_Tumor.label>Arachnae Tumor</ThingDef.ARA_Proj_Tumor.label>
-  <ThingDef.ARA_Tumor_Smokepop.label>Arachnae Withered Tumor</ThingDef.ARA_Tumor_Smokepop.label>
-  <ThingDef.ARA_Tumor_Smokepop.description>A special tumor ejected by a few insectoids. In addition to providing light, it spreads a large area of insect creep on the ground, but it withers quickly.</ThingDef.ARA_Tumor_Smokepop.description>
+  <ARA_TumorSpew.label>Tumor Ejection</ARA_TumorSpew.label>
+  <ARA_TumorSpew.description>Ejects a tumor that converts a large nearby area into insect creep terrain, facilitating swarm activity and impeding enemy movement.</ARA_TumorSpew.description>
+  <ARA_TumorSpew.comps.li.customLabel>Diet</ARA_TumorSpew.comps.li.customLabel>
+  <ARA_TumorSpew.comps.li.failMessage>Not enough nutrition, needs to feed</ARA_TumorSpew.comps.li.failMessage>
+  <ARA_Proj_Tumor.label>Arachnae Tumor</ARA_Proj_Tumor.label>
+  <ARA_Tumor_Smokepop.label>Arachnae Withered Tumor</ARA_Tumor_Smokepop.label>
+  <ARA_Tumor_Smokepop.description>A special tumor ejected by a few insectoids. In addition to providing light, it spreads a large area of insect creep on the ground, but it withers quickly.</ARA_Tumor_Smokepop.description>
 
-  <AbilityDef.ARA_AcidSprayBurst_Queen.label>Queen Acid Bombardment</AbilityDef.ARA_AcidSprayBurst_Queen.label>
-  <AbilityDef.ARA_AcidSprayBurst_Queen.description>An Arachnae Queen sprays a large amount of corrosive acid onto the target location. The spray lasts for several seconds to completely cover an area.</AbilityDef.ARA_AcidSprayBurst_Queen.description>
-  <AbilityDef.ARA_AcidSprayBurst_Queen.comps.li[1].customLabel>Diet</AbilityDef.ARA_AcidSprayBurst_Queen.comps.li[1].customLabel>
-  <AbilityDef.ARA_AcidSprayBurst_Queen.comps.li[1].failMessage>Not enough nutrition, needs to feed</AbilityDef.ARA_AcidSprayBurst_Queen.comps.li[1].failMessage>
-  <AbilityDef.ARA_AcidSprayBurst_Queen.comps.li[2].failMessage>Acid sac damaged or missing, unable to spray acid</AbilityDef.ARA_AcidSprayBurst_Queen.comps.li[2].failMessage>
-  <AbilityDef.ARA_AcidSprayBurst_Queen.comps.li[3].failMessage>Requires tech node VXI-6 "Acid Sac" to unlock the ability</AbilityDef.ARA_AcidSprayBurst_Queen.comps.li[3].failMessage>
-  <ThingDef.ARA_Proj_StrongSludgeSpray.label>Arachnae Insectoid Acid</ThingDef.ARA_Proj_StrongSludgeSpray.label>
+  <ARA_AcidSprayBurst_Queen.label>Queen Acid Bombardment</ARA_AcidSprayBurst_Queen.label>
+  <ARA_AcidSprayBurst_Queen.description>An Arachnae Queen sprays a large amount of corrosive acid onto the target location. The spray lasts for several seconds to completely cover an area.</ARA_AcidSprayBurst_Queen.description>
+  <ARA_AcidSprayBurst_Queen.comps.li[1].customLabel>Diet</ARA_AcidSprayBurst_Queen.comps.li[1].customLabel>
+  <ARA_AcidSprayBurst_Queen.comps.li[1].failMessage>Not enough nutrition, needs to feed</ARA_AcidSprayBurst_Queen.comps.li[1].failMessage>
+  <ARA_AcidSprayBurst_Queen.comps.li[2].failMessage>Acid sac damaged or missing, unable to spray acid</ARA_AcidSprayBurst_Queen.comps.li[2].failMessage>
+  <ARA_AcidSprayBurst_Queen.comps.li[3].failMessage>Requires tech node VXI-6 "Acid Sac" to unlock the ability</ARA_AcidSprayBurst_Queen.comps.li[3].failMessage>
+  <ARA_Proj_StrongSludgeSpray.label>Arachnae Insectoid Acid</ARA_Proj_StrongSludgeSpray.label>
 
-  <AbilityDef.ARA_AcidSprayBurst.label>Acid Bombardment</AbilityDef.ARA_AcidSprayBurst.label>
-  <AbilityDef.ARA_AcidSprayBurst.description>An Arachnae Overseer sprays a large amount of corrosive acid onto the target location. While not as potent as the Queen's acid rain, the insect acid still deals substantial damage.</AbilityDef.ARA_AcidSprayBurst.description>
-  <AbilityDef.ARA_AcidSprayBurst.comps.li[1].customLabel>Diet</AbilityDef.ARA_AcidSprayBurst.comps.li[1].customLabel>
-  <AbilityDef.ARA_AcidSprayBurst.comps.li[1].failMessage>Not enough nutrition, needs to feed</AbilityDef.ARA_AcidSprayBurst.comps.li[1].failMessage>
-  <AbilityDef.ARA_AcidSprayBurst.comps.li[2].failMessage>Acid sac damaged or missing, unable to spray acid</AbilityDef.ARA_AcidSprayBurst.comps.li[2].failMessage>
-  <AbilityDef.ARA_AcidSprayBurst.comps.li[3].failMessage>Requires tech node VXI-6 "Acid Sac" to unlock the ability</AbilityDef.ARA_AcidSprayBurst.comps.li[3].failMessage>
+  <ARA_AcidSprayBurst.label>Acid Bombardment</ARA_AcidSprayBurst.label>
+  <ARA_AcidSprayBurst.description>An Arachnae Overseer sprays a large amount of corrosive acid onto the target location. While not as potent as the Queen's acid rain, the insect acid still deals substantial damage.</ARA_AcidSprayBurst.description>
+  <ARA_AcidSprayBurst.comps.li[1].customLabel>Diet</ARA_AcidSprayBurst.comps.li[1].customLabel>
+  <ARA_AcidSprayBurst.comps.li[1].failMessage>Not enough nutrition, needs to feed</ARA_AcidSprayBurst.comps.li[1].failMessage>
+  <ARA_AcidSprayBurst.comps.li[2].failMessage>Acid sac damaged or missing, unable to spray acid</ARA_AcidSprayBurst.comps.li[2].failMessage>
+  <ARA_AcidSprayBurst.comps.li[3].failMessage>Requires tech node VXI-6 "Acid Sac" to unlock the ability</ARA_AcidSprayBurst.comps.li[3].failMessage>
 
-  <AbilityDef.ARA_Toxic_Needle_Fire.label>Toxic Needle Volley</AbilityDef.ARA_Toxic_Needle_Fire.label>
-  <AbilityDef.ARA_Toxic_Needle_Fire.description>An Arachnae Overseer uses its toxic needle gland to fire a volley of venomous tail needles at the enemy.</AbilityDef.ARA_Toxic_Needle_Fire.description>
-  <AbilityDef.ARA_Toxic_Needle_Fire.comps.li[1].customLabel>Diet</AbilityDef.ARA_Toxic_Needle_Fire.comps.li[1].customLabel>
-  <AbilityDef.ARA_Toxic_Needle_Fire.comps.li[1].failMessage>Not enough nutrition, needs to feed</AbilityDef.ARA_Toxic_Needle_Fire.comps.li[1].failMessage>
-  <AbilityDef.ARA_Toxic_Needle_Fire.comps.li[2].failMessage>Toxic needle gland damaged or missing, unable to fire needles</AbilityDef.ARA_Toxic_Needle_Fire.comps.li[2].failMessage>
-  <AbilityDef.ARA_Toxic_Needle_Fire.comps.li[3].failMessage>Requires tech node PAV-5 "Venomous Sting" to unlock the ability</AbilityDef.ARA_Toxic_Needle_Fire.comps.li[3].failMessage>
+  <ARA_Toxic_Needle_Fire.label>Toxic Needle Volley</ARA_Toxic_Needle_Fire.label>
+  <ARA_Toxic_Needle_Fire.description>An Arachnae Overseer uses its toxic needle gland to fire a volley of venomous tail needles at the enemy.</ARA_Toxic_Needle_Fire.description>
+  <ARA_Toxic_Needle_Fire.comps.li[1].customLabel>Diet</ARA_Toxic_Needle_Fire.comps.li[1].customLabel>
+  <ARA_Toxic_Needle_Fire.comps.li[1].failMessage>Not enough nutrition, needs to feed</ARA_Toxic_Needle_Fire.comps.li[1].failMessage>
+  <ARA_Toxic_Needle_Fire.comps.li[2].failMessage>Toxic needle gland damaged or missing, unable to fire needles</ARA_Toxic_Needle_Fire.comps.li[2].failMessage>
+  <ARA_Toxic_Needle_Fire.comps.li[3].failMessage>Requires tech node PAV-5 "Venomous Sting" to unlock the ability</ARA_Toxic_Needle_Fire.comps.li[3].failMessage>
 
-  <AbilityDef.ARA_BaseRace_Acid_Launcher.label>Acid Maw Ejection</AbilityDef.ARA_BaseRace_Acid_Launcher.label>
-  <AbilityDef.ARA_BaseRace_Acid_Launcher.description>Launches an Arachnae Acid Maw Auxiliary to a designated location. Upon landing, this short-lived auxiliary will immediately attack enemies.</AbilityDef.ARA_BaseRace_Acid_Launcher.description>
-  <AbilityDef.ARA_BaseRace_Acid_Launcher.comps.li[1].customLabel>Diet</AbilityDef.ARA_BaseRace_Acid_Launcher.comps.li[1].customLabel>
-  <AbilityDef.ARA_BaseRace_Acid_Launcher.comps.li[1].failMessage>Not enough nutrition, needs to feed</AbilityDef.ARA_BaseRace_Acid_Launcher.comps.li[1].failMessage>
-  <ThingDef.ArachnaeBase_Race_Acidcut_Proj.label>Arachnae Acid Maw</ThingDef.ArachnaeBase_Race_Acidcut_Proj.label>
+  <ARA_BaseRace_Acid_Launcher.label>Acid Maw Ejection</ARA_BaseRace_Acid_Launcher.label>
+  <ARA_BaseRace_Acid_Launcher.description>Launches an Arachnae Acid Maw Auxiliary to a designated location. Upon landing, this short-lived auxiliary will immediately attack enemies.</ARA_BaseRace_Acid_Launcher.description>
+  <ARA_BaseRace_Acid_Launcher.comps.li[1].customLabel>Diet</ARA_BaseRace_Acid_Launcher.comps.li[1].customLabel>
+  <ARA_BaseRace_Acid_Launcher.comps.li[1].failMessage>Not enough nutrition, needs to feed</ARA_BaseRace_Acid_Launcher.comps.li[1].failMessage>
+  <ArachnaeBase_Race_Acidcut_Proj.label>Arachnae Acid Maw</ArachnaeBase_Race_Acidcut_Proj.label>
 
-  <AbilityDef.ARA_BaseRace_Skyhive_Launcher.label>Skyhive Ejection Nest</AbilityDef.ARA_BaseRace_Skyhive_Launcher.label>
-  <AbilityDef.ARA_BaseRace_Skyhive_Launcher.description>Launches three Arachnae Skyhive Auxiliaries onto the target. The Skyhives will latch onto the enemy to bite, and can continue to attack the enemy after falling off.</AbilityDef.ARA_BaseRace_Skyhive_Launcher.description>
-  <AbilityDef.ARA_BaseRace_Skyhive_Launcher.comps.li[1].customLabel>Diet</AbilityDef.ARA_BaseRace_Skyhive_Launcher.comps.li[1].customLabel>
-  <AbilityDef.ARA_BaseRace_Skyhive_Launcher.comps.li[1].failMessage>Not enough nutrition, needs to feed</AbilityDef.ARA_BaseRace_Skyhive_Launcher.comps.li[1].failMessage>
+  <ARA_BaseRace_Skyhive_Launcher.label>Skyhive Ejection Nest</ARA_BaseRace_Skyhive_Launcher.label>
+  <ARA_BaseRace_Skyhive_Launcher.description>Launches three Arachnae Skyhive Auxiliaries onto the target. The Skyhives will latch onto the enemy to bite, and can continue to attack the enemy after falling off.</ARA_BaseRace_Skyhive_Launcher.description>
+  <ARA_BaseRace_Skyhive_Launcher.comps.li[1].customLabel>Diet</ARA_BaseRace_Skyhive_Launcher.comps.li[1].customLabel>
+  <ARA_BaseRace_Skyhive_Launcher.comps.li[1].failMessage>Not enough nutrition, needs to feed</ARA_BaseRace_Skyhive_Launcher.comps.li[1].failMessage>
 
-  <AbilityDef.ARA_Skyraider_jump.label>High-Altitude Maneuver</AbilityDef.ARA_Skyraider_jump.label>
-  <AbilityDef.ARA_Skyraider_jump.description>Uses powerful wings for an instantaneous burst of thrust to reposition to a new location.</AbilityDef.ARA_Skyraider_jump.description>
-  <AbilityDef.ARA_Skyraider_jump.comps.li.customLabel>Diet</AbilityDef.ARA_Skyraider_jump.comps.li.customLabel>
-  <AbilityDef.ARA_Skyraider_jump.comps.li.failMessage>Not enough nutrition, needs to feed</AbilityDef.ARA_Skyraider_jump.comps.li.failMessage>
-  <AbilityDef.ARA_Skyraider_jump.comps.li[1].casterTerrainFailMessage>Cannot move on the designated terrain</AbilityDef.ARA_Skyraider_jump.comps.li[1].casterTerrainFailMessage>
+  <ARA_Skyraider_jump.label>High-Altitude Maneuver</ARA_Skyraider_jump.label>
+  <ARA_Skyraider_jump.description>Uses powerful wings for an instantaneous burst of thrust to reposition to a new location.</ARA_Skyraider_jump.description>
+  <ARA_Skyraider_jump.comps.li.customLabel>Diet</ARA_Skyraider_jump.comps.li.customLabel>
+  <ARA_Skyraider_jump.comps.li.failMessage>Not enough nutrition, needs to feed</ARA_Skyraider_jump.comps.li.failMessage>
+  <ARA_Skyraider_jump.comps.li[1].casterTerrainFailMessage>Cannot move on the designated terrain</ARA_Skyraider_jump.comps.li[1].casterTerrainFailMessage>
 
-  <AbilityDef.ARA_Skyraider_SwarmCall.label>Swarm Call</AbilityDef.ARA_Skyraider_SwarmCall.label>
-  <AbilityDef.ARA_Skyraider_SwarmCall.description>Emits a unique sonic signal, instructing nearby allied insectoids to focus fire on the nearest enemy unit.</AbilityDef.ARA_Skyraider_SwarmCall.description>
-  <AbilityDef.ARA_Skyraider_SwarmCall.comps.li.customLabel>Diet</AbilityDef.ARA_Skyraider_SwarmCall.comps.li.customLabel>
-  <AbilityDef.ARA_Skyraider_SwarmCall.comps.li.failMessage>Not enough nutrition, needs to feed</AbilityDef.ARA_Skyraider_SwarmCall.comps.li.failMessage>
-  <AbilityDef.ARA_Skyraider_SwarmCall.comps.li[1].casterTerrainFailMessage>Cannot use on the designated terrain</AbilityDef.ARA_Skyraider_SwarmCall.comps.li[1].casterTerrainFailMessage>
+  <ARA_Skyraider_SwarmCall.label>Swarm Call</ARA_Skyraider_SwarmCall.label>
+  <ARA_Skyraider_SwarmCall.description>Emits a unique sonic signal, instructing nearby allied insectoids to focus fire on the nearest enemy unit.</ARA_Skyraider_SwarmCall.description>
+  <ARA_Skyraider_SwarmCall.comps.li.customLabel>Diet</ARA_Skyraider_SwarmCall.comps.li.customLabel>
+  <ARA_Skyraider_SwarmCall.comps.li.failMessage>Not enough nutrition, needs to feed</ARA_Skyraider_SwarmCall.comps.li.failMessage>
+  <ARA_Skyraider_SwarmCall.comps.li[1].casterTerrainFailMessage>Cannot use on the designated terrain</ARA_Skyraider_SwarmCall.comps.li[1].casterTerrainFailMessage>
 
-  <AbilityDef.ARA_HealSelf.label>Group Heal</AbilityDef.ARA_HealSelf.label>
-  <AbilityDef.ARA_HealSelf.description>Consumes the caster's biosynth reserves to provide healing for itself and nearby insectoids.</AbilityDef.ARA_HealSelf.description>
-  <AbilityDef.ARA_HealSelf.comps.li.customLabel>Diet</AbilityDef.ARA_HealSelf.comps.li.customLabel>
-  <AbilityDef.ARA_HealSelf.comps.li.failMessage>Not enough nutrition, needs to feed</AbilityDef.ARA_HealSelf.comps.li.failMessage>
-  <AbilityDef.ARA_HealSelf.comps.li[1].failMessage>Not enough biosynth to heal</AbilityDef.ARA_HealSelf.comps.li[1].failMessage>
+  <ARA_HealSelf.label>Group Heal</ARA_HealSelf.label>
+  <ARA_HealSelf.description>Consumes the caster's biosynth reserves to provide healing for itself and nearby insectoids.</ARA_HealSelf.description>
+  <ARA_HealSelf.comps.li.customLabel>Diet</ARA_HealSelf.comps.li.customLabel>
+  <ARA_HealSelf.comps.li.failMessage>Not enough nutrition, needs to feed</ARA_HealSelf.comps.li.failMessage>
+  <ARA_HealSelf.comps.li[1].failMessage>Not enough biosynth to heal</ARA_HealSelf.comps.li[1].failMessage>
 
-  <AbilityDef.ARA_Queen_Build_Nest.label>Hatch Nest</AbilityDef.ARA_Queen_Build_Nest.label>
-  <AbilityDef.ARA_Queen_Build_Nest.description>Deploys an Arachnae Hive on creep. It automatically produces auxiliaries and raises the hive's tier, but can only hatch auxiliaries near the hive.</AbilityDef.ARA_Queen_Build_Nest.description>
-  <AbilityDef.ARA_Queen_Build_Nest.comps.li.customLabel>Diet</AbilityDef.ARA_Queen_Build_Nest.comps.li.customLabel>
-  <AbilityDef.ARA_Queen_Build_Nest.comps.li.failMessage>Not enough nutrition, needs to feed</AbilityDef.ARA_Queen_Build_Nest.comps.li.failMessage>
-  <AbilityDef.ARA_Queen_Build_Nest.comps.li[1].casterTerrainFailMessage>Can only be built on insect creep</AbilityDef.ARA_Queen_Build_Nest.comps.li[1].casterTerrainFailMessage>
-  <AbilityDef.ARA_Queen_Build_Nest.comps.li[2].failMessage>Requires tech node ESS-5 "Biosynth Extraction" to unlock the ability</AbilityDef.ARA_Queen_Build_Nest.comps.li[2].failMessage>
+  <ARA_Queen_Build_Nest.label>Hatch Nest</ARA_Queen_Build_Nest.label>
+  <ARA_Queen_Build_Nest.description>Deploys an Arachnae Hive on creep. It automatically produces auxiliaries and raises the hive's tier, but can only hatch auxiliaries near the hive.</ARA_Queen_Build_Nest.description>
+  <ARA_Queen_Build_Nest.comps.li.customLabel>Diet</ARA_Queen_Build_Nest.comps.li.customLabel>
+  <ARA_Queen_Build_Nest.comps.li.failMessage>Not enough nutrition, needs to feed</ARA_Queen_Build_Nest.comps.li.failMessage>
+  <ARA_Queen_Build_Nest.comps.li[1].casterTerrainFailMessage>Can only be built on insect creep</ARA_Queen_Build_Nest.comps.li[1].casterTerrainFailMessage>
+  <ARA_Queen_Build_Nest.comps.li[2].failMessage>Requires tech node ESS-5 "Biosynth Extraction" to unlock the ability</ARA_Queen_Build_Nest.comps.li[2].failMessage>
 
 </LanguageData>

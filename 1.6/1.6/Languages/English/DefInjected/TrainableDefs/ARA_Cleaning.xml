@@ -1,22 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
-  <TrainableDef>
-    <defName>ARA_Cleaning</defName>
-    <label>清洁</label>
-    <description>允许该生物执行清洁任务。</description>
-    <!-- 标记为特殊训练，这样它就会被 PawnColumnWorker_Trainable_Special 统一管理 -->
-    <specialTrainable>true</specialTrainable>
-    
-    <!-- 训练难度和所需智力 -->
-    <difficulty>5</difficulty>
-    <requiredTrainability>Advanced</requiredTrainability>
-    
-    <!-- 训练所需步骤 -->
-    <steps>3</steps>
-    
-    <!-- 在UI中的排序 -->
-    <listPriority>100</listPriority>
-  </TrainableDef>
+  <ARA_Cleaning.label>Cleaning</ARA_Cleaning.label>
+  <ARA_Cleaning.description>Allows the creature to perform cleaning tasks.</ARA_Cleaning.description>
 
-</Defs>
+</LanguageData>

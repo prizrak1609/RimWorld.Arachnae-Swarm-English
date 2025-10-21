@@ -1,23 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
-  <TrainableDef>
-    <defName>ARA_Sowing</defName>
-    <label>种植</label>
-    <description>允许该生物执行种植任务。</description>
-    
-    <!-- 标记为特殊训练，这样它就会被 PawnColumnWorker_Trainable_Special 统一管理 -->
-    <specialTrainable>true</specialTrainable>
-    
-    <!-- 训练难度和所需智力 -->
-    <difficulty>5</difficulty>
-    <requiredTrainability>Advanced</requiredTrainability>
-    
-    <!-- 训练所需步骤 -->
-    <steps>3</steps>
-    
-    <!-- 在UI中的排序 -->
-    <listPriority>100</listPriority>
-  </TrainableDef>
+  <ARA_Sowing.label>Sowing</ARA_Sowing.label>
+  <ARA_Sowing.description>Allows the creature to perform sowing tasks.</ARA_Sowing.description>
 
-</Defs>
+</LanguageData>

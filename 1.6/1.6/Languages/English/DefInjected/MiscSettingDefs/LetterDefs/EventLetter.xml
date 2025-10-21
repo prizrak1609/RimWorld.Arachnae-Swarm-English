@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  <LetterDef>
-    <defName>ARA_EventChoiceLetter</defName>
-    <letterClass>ArachnaeSwarm.Letter_EventChoice</letterClass>
-    <arriveSound>LetterArrive_Good</arriveSound>
-    <color>(120, 150, 255)</color>
-  </LetterDef>
-</Defs>

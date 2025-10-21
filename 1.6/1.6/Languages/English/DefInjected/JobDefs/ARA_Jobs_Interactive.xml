@@ -1,32 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
-  <JobDef>
-    <defName>ARA_StartInteractiveProduction</defName>
-    <driverClass>ArachnaeSwarm.JobDriver_StartProduction</driverClass>
-    <reportString>正在启动孵化 TargetA.</reportString>
-    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
-  </JobDef>
+  <ARA_StartInteractiveProduction.reportString>starting production of TargetA.</ARA_StartInteractiveProduction.reportString>
 
-  <JobDef>
-    <defName>ARA_AddToQueueJob</defName>
-    <driverClass>ArachnaeSwarm.JobDriver_AddToQueue</driverClass>
-    <reportString>正在添加虫族孵化订单。</reportString>
-    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
-  </JobDef>
+  <ARA_AddToQueueJob.reportString>adding insectoid production order to queue.</ARA_AddToQueueJob.reportString>
 
-  <JobDef>
-    <defName>ARA_AddProcessToQueueJob</defName>
-    <driverClass>ArachnaeSwarm.JobDriver_AddProcessToQueue</driverClass>
-    <reportString>正在添加物品孵化订单。</reportString>
-    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
-  </JobDef>
+  <ARA_AddProcessToQueueJob.reportString>adding item production order to queue.</ARA_AddProcessToQueueJob.reportString>
 
+  <ARA_StartResearchProduction.reportString>starting research production of TargetA.</ARA_StartResearchProduction.reportString>
   
-  <JobDef>
-    <defName>ARA_StartResearchProduction</defName>
-    <driverClass>ArachnaeSwarm.JobDriver_StartResearchProduction</driverClass>
-    <reportString>正在启动孵化 TargetA.</reportString>
-    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
-  </JobDef>
-</Defs>
+</LanguageData>

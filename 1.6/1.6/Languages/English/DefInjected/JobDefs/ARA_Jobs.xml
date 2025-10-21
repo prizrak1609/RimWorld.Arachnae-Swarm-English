@@ -1,30 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  <JobDef>
-    <defName>ARA_IncubateJob</defName>
-    <driverClass>ArachnaeSwarm.JobDriver_Incubate</driverClass>
-    <reportString>为 TargetA 注入信息素.</reportString>
-  </JobDef>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <ARA_IncubateJob.reportString>injecting pheromones into TargetA.</ARA_IncubateJob.reportString>
 
-  <JobDef>
-    <defName>ARA_CarryPrisonerToNutrientVat</defName>
-    <driverClass>ArachnaeSwarm.JobDriver_CarryPrisonerToNutrientVat</driverClass>
-    <reportString>将 TargetA 带到 TargetB.</reportString>
-    <suspendable>false</suspendable>
-  </JobDef>
+  <ARA_CarryPrisonerToNutrientVat.reportString>carrying TargetA to TargetB.</ARA_CarryPrisonerToNutrientVat.reportString>
 
-   <JobDef>
-    <defName>ARA_EnterPowerArmor</defName>
-    <driverClass>ArachnaeSwarm.JobDriver_EnterPowerArmor</driverClass>
-    <reportString>entering TargetA.</reportString>
-    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
-  </JobDef>
+  <ARA_EnterPowerArmor.reportString>entering TargetA.</ARA_EnterPowerArmor.reportString>
 
-  <!-- 搬运俘虏到燃料转化罐的工作定义 -->
-  <JobDef>
-    <defName>ARA_CarryPrisonerToRefuelingVat</defName>
-    <driverClass>ArachnaeSwarm.JobDriver_CarryPrisonerToRefuelingVat</driverClass>
-    <reportString>将 TargetA 带到 TargetB.</reportString>
-    <suspendable>false</suspendable>
-  </JobDef>
-</Defs>
+  <ARA_CarryPrisonerToRefuelingVat.reportString>carrying TargetA to TargetB.</ARA_CarryPrisonerToRefuelingVat.reportString>
+  
+</LanguageData>

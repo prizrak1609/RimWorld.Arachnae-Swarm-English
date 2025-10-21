@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
-  <JobDef>
-    <defName>ARA_Refuel_Nutrition</defName>
-    <driverClass>ArachnaeSwarm.JobDriver_Refuel_Nutrition</driverClass>
-    <reportString>正在为 TargetA 补充营养。</reportString>
-    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
-  </JobDef>
+  <ARA_Refuel_Nutrition.reportString>refueling TargetA with nutrition.</ARA_Refuel_Nutrition.reportString>
 
-</Defs>
+</LanguageData>

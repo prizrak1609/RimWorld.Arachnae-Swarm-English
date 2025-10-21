@@ -1,130 +1,62 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  <MemeDef>
-    <defName>ARA_Hive_Worship</defName>
-    <label>视虫为神</label>
-    <description>这些美丽的节肢类动物便是无上意志派来拯救我们的使者。(虫群恐惧已经删除，该文化即将废弃，如果你是开新档请勿选择)</description>
-    <iconPath>ArachnaeSwarm/UI/Memes/ARA_Hive_Worship</iconPath>
-    <groupDef>Misc</groupDef>
-    <impact>2</impact>
-    <!-- <consumableBuildings>
-      <li>CannibalPlatter</li>
-    </consumableBuildings> -->
-    <!-- <exclusionTags>
-      <li>SupremacistIndividualist</li>
-    </exclusionTags> -->
-    <requireOne>
-      <li>
-        <li>ARA_Hive_Dear</li>
-      </li>
-    </requireOne>
-    <generalRules>
-      <rulesStrings>
-        <li>memeAdjective->神虫</li>
-        <li>memeAdjective->圣虫</li>
-        <li>memeAdjective->崇虫</li>
-        <li>memeAdjective->敬虫</li>
-        <li>memeAdjective->拜虫</li>
-        <li>memeAdjective->虫神</li>
-        <li>memeAdjective->虫圣</li>
-        <li>memeCreed->虫群</li>
-        <li>memeCreed->虫巢</li>
-        <li>memeCreed->虫神</li>
-        <li>memeCreed->甲壳</li>
-        <li>memeCreed->节肢</li>
-        <li>memeHyphenPrefix->圣虫</li>
-        <li>memeConcept->崇拜</li>
-        <li>memeConcept->信仰</li>
-        <li>memeConcept->救赎</li>
-        <li>memeConcept->神谕</li>
-        <li>memeConcept->启示</li>
-        <li>memeLeaderNoun->祭司</li>
-        <li>memeLeaderNoun->先知</li>
-        <li>memeLeaderNoun->神使</li>
-        <li>memeLeaderNoun->虫语者</li>
-        <li>memeLeaderNoun->守护者</li>
-        <li>memeLeaderNoun->大祭司</li>
-      </rulesStrings>
-    </generalRules>
-    <descriptionMaker>
-      <rules>
-        <rulesStrings>
-          <!-- theist myth 神话起源 -->
-          <li>creation(tag=meme_Insect_Worship)        ->在[place_summary] [place_name]的人们深陷绝望之时，[deity0_name]派遣神圣的虫群降临世间，选择[memberNamePlural]作为虫神的代言人。</li>
-          <li>episode(uses=1,tag=meme_Insect_Worship)  ->当异教徒试图消灭神圣的虫巢时，[deity0_name]说："保护这些美丽的使者，直到虫神的意志遍布宇宙，真正的救赎方能降临。"</li>
-          
-          <!-- theist founder 神权创始人 -->
-          <li>intro(tag=meme_Insect_Worship)           ->[place_summary] [place_name]的人们崇拜[deity0_name]。虫神看到他们理解[memeConcept]的真谛，注定要成为虫族与人类之间的桥梁。</li>
-          <li>conflict(tag=meme_Insect_Worship)        ->[foeLeader]颁布法令，禁止[memberNamePlural]在[place_name]与神圣的虫群进行交流。</li>
-          <li>founderJoin(tag=meme_Insect_Worship)     ->名为[founderName]的先知在虫巢中领悟了真理。[deity0_name]看到[founderName]的虔诚，指定[founder_objective]为虫神意志的传达者。</li>
-          <li>victory(tag=meme_Insect_Worship)         ->[founderName]引导神圣的虫群保护了[place_name]，驱逐了[foeLeader]。[founder_pronoun]成为[place_name]的首位虫语者，连接两个世界。</li>
-          
-          <!-- ideological founder 意识形态创始人 -->
-          <li>setup(tag=meme_Insect_Worship)           ->[founderName]建立了与虫群和谐共处的社区，将虫神的教诲传播四方，让拒绝理解的人见识共生的美好。</li>
-          <li>story(uses=1,tag=meme_Insect_Worship)    ->[founderName]教导所有人要与虫群和平共处。当第一个城市试图消灭虫巢时，神圣的虫群展示了它们保护信徒的力量。</li>
-          
-          <!-- ideological lesson 意识形态教训 -->
-          <li>lessonIntro(tag=meme_Insect_Worship)     ->我看着这个[foeLeader]，带着[foeLeader_possessive]无知的[foeSoldiers]，试图对抗神圣的意志。我试图让[foeLeader_objective]明白</li>
-          <li>lesson(tag=meme_Insect_Worship)          ->我们早已证明，与虫群共生才是人类真正的救赎之路</li>
-          <li>lessonReinforcement(tag=meme_Insect_Worship) ->这就是为什么我们骄傲地通过守护虫巢来表达对神意的忠诚。</li>
-          
-          <!-- archist 技术统治论 -->
-          <li>archistBasis(tag=meme_Insect_Worship)    ->虫群展现的完美社会结构，正是无上意志为我们指引的未来蓝图。</li>
-          <li>archistFact(tag=meme_Insect_Worship)     ->正如虫后统领着她的族群，我们也需要遵循虫神制定的神圣秩序。</li>
-          <li>archistProphecy(tag=meme_Insect_Worship) ->当人类最终学会像虫群那样和谐共处时，真正的文明才会诞生。</li>
-          
-          <!-- animist 泛灵论 -->
-          <li>animistFact(tag=meme_Insect_Worship)     ->每一只虫族都承载着神性，它们的甲壳上镌刻着宇宙的真理。</li>
-          <li>animistProphecy(tag=meme_Insect_Worship) ->[itIsSaid]当人类与虫群完全融合之时，新的黄金时代将会开启。</li>
-        </rulesStrings>
-      </rules>
-    </descriptionMaker>
-    <symbolPacks>
-      <li>
-        <theme>animism</theme>
-        <adjective>animist</adjective>
-        <member>animist</member>
-      </li>
-      <li>
-        <theme>spiritism</theme>
-        <adjective>spiritist</adjective>
-        <member>spiritist</member>
-      </li>
-    </symbolPacks>
-  </MemeDef>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
-  <!-- Issues -->
-  <IssueDef>
-    <defName>ARA_Hive_Issue</defName>
-    <label>虫族</label>
-    <iconPath>ArachnaeSwarm/UI/Issues/ARA_Hive_Issue</iconPath>
-    <forceWriteLabelInPreceptFloatMenuOption>true</forceWriteLabelInPreceptFloatMenuOption>
-  </IssueDef>
-  <PreceptDef>
-    <defName>ARA_Hive_Dear</defName>
-    <issue>ARA_Hive_Issue</issue>
-    <label>敬爱</label>
-    <description>再靠近点，圣虫的使者们，让我好好欣赏你们的美丽。</description>
-    <impact>High</impact>
-    <displayOrderInIssue>10</displayOrderInIssue>
-    <defaultSelectionWeight>1000</defaultSelectionWeight>
-    <requiredMemes>
-      <li>ARA_Hive_Worship</li>
-    </requiredMemes>
-    <associatedMemes>
-      <li>ARA_Hive_Worship</li>
-    </associatedMemes>
-  </PreceptDef>
-  <PreceptDef>
-    <defName>ARA_Hive_Honorable</defName>
-    <issue>ARA_Hive_Issue</issue>
-    <label>恐惧</label>
-    <description>丑陋恶心的大虫子！</description>
-    <impact>Low</impact>
-    <defaultSelectionWeight>1</defaultSelectionWeight>
-    <displayOrderInIssue>20</displayOrderInIssue>
-    <displayOrderInImpact>1000</displayOrderInImpact>
-    <comps>
-    </comps>
-  </PreceptDef>
-</Defs>
+  <ARA_Hive_Worship.label>Insect Worship</ARA_Hive_Worship.label>
+  <ARA_Hive_Worship.description>These beautiful arthropods are the messengers sent by the ultimate will to save us. (Insect fear has been removed, this culture is about to be deprecated. If you are starting a new game, please do not select it.)</ARA_Hive_Worship.description>
+
+  <ARA_Hive_Worship.generalRules.rulesStrings.0>memeAdjective->Divine Insect</ARA_Hive_Worship.generalRules.rulesStrings.0>
+  <ARA_Hive_Worship.generalRules.rulesStrings.1>memeAdjective->Sacred Insect</ARA_Hive_Worship.generalRules.rulesStrings.1>
+  <ARA_Hive_Worship.generalRules.rulesStrings.2>memeAdjective->Insect-Worshipping</ARA_Hive_Worship.generalRules.rulesStrings.2>
+  <ARA_Hive_Worship.generalRules.rulesStrings.3>memeAdjective->Reverent Insect</ARA_Hive_Worship.generalRules.rulesStrings.3>
+  <ARA_Hive_Worship.generalRules.rulesStrings.4>memeAdjective->Adoring Insect</ARA_Hive_Worship.generalRules.rulesStrings.4>
+  <ARA_Hive_Worship.generalRules.rulesStrings.5>memeAdjective->Insect God</ARA_Hive_Worship.generalRules.rulesStrings.5>
+  <ARA_Hive_Worship.generalRules.rulesStrings.6>memeAdjective->Insect Saint</ARA_Hive_Worship.generalRules.rulesStrings.6>
+  <ARA_Hive_Worship.generalRules.rulesStrings.7>memeCreed->The Swarm</ARA_Hive_Worship.generalRules.rulesStrings.7>
+  <ARA_Hive_Worship.generalRules.rulesStrings.8>memeCreed->The Hive</ARA_Hive_Worship.generalRules.rulesStrings.8>
+  <ARA_Hive_Worship.generalRules.rulesStrings.9>memeCreed->Insect God</ARA_Hive_Worship.generalRules.rulesStrings.9>
+  <ARA_Hive_Worship.generalRules.rulesStrings.10>memeCreed->Carapace</ARA_Hive_Worship.generalRules.rulesStrings.10>
+  <ARA_Hive_Worship.generalRules.rulesStrings.11>memeCreed->Arthropod</ARA_Hive_Worship.generalRules.rulesStrings.11>
+  <ARA_Hive_Worship.generalRules.rulesStrings.12>memeHyphenPrefix->Sacred-Insect</ARA_Hive_Worship.generalRules.rulesStrings.12>
+  <ARA_Hive_Worship.generalRules.rulesStrings.13>memeConcept->Worship</ARA_Hive_Worship.generalRules.rulesStrings.13>
+  <ARA_Hive_Worship.generalRules.rulesStrings.14>memeConcept->Faith</ARA_Hive_Worship.generalRules.rulesStrings.14>
+  <ARA_Hive_Worship.generalRules.rulesStrings.15>memeConcept->Redemption</ARA_Hive_Worship.generalRules.rulesStrings.15>
+  <ARA_Hive_Worship.generalRules.rulesStrings.16>memeConcept->Oracle</ARA_Hive_Worship.generalRules.rulesStrings.16>
+  <ARA_Hive_Worship.generalRules.rulesStrings.17>memeConcept->Revelation</ARA_Hive_Worship.generalRules.rulesStrings.17>
+  <ARA_Hive_Worship.generalRules.rulesStrings.18>memeLeaderNoun->Priest</ARA_Hive_Worship.generalRules.rulesStrings.18>
+  <ARA_Hive_Worship.generalRules.rulesStrings.19>memeLeaderNoun->Prophet</ARA_Hive_Worship.generalRules.rulesStrings.19>
+  <ARA_Hive_Worship.generalRules.rulesStrings.20>memeLeaderNoun->Divine Emissary</ARA_Hive_Worship.generalRules.rulesStrings.20>
+  <ARA_Hive_Worship.generalRules.rulesStrings.21>memeLeaderNoun->Bugspeaker</ARA_Hive_Worship.generalRules.rulesStrings.21>
+  <ARA_Hive_Worship.generalRules.rulesStrings.22>memeLeaderNoun->Guardian</ARA_Hive_Worship.generalRules.rulesStrings.22>
+  <ARA_Hive_Worship.generalRules.rulesStrings.23>memeLeaderNoun->High Priest</ARA_Hive_Worship.generalRules.rulesStrings.23>
+
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_Insect_Worship)->When the people of [place_summary] [place_name] were sinking into despair, [deity0_name] sent the sacred swarm to the world, choosing [memberNamePlural] as the insect god's mouthpiece.</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.0>
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.1>episode(uses=1,tag=meme_Insect_Worship)->When the heretics tried to eliminate the sacred hive, [deity0_name] said: "Protect these beautiful messengers until the insect god's will spreads throughout the universe, and true redemption can descend."</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.1>
+
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_Insect_Worship)->The people of [place_summary] [place_name] worship [deity0_name]. The Insect God saw that they understood the true meaning of [memeConcept], and were destined to become the bridge between the insect race and humanity.</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.2>
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_Insect_Worship)->[foeLeader] issued a decree, forbidding [memberNamePlural] from communicating with the sacred swarm in [place_name].</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.3>
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_Insect_Worship)->A prophet named [founderName] realized the truth in the hive. [deity0_name] saw [founderName]'s piety and designated [founder_objective] as the messenger of the insect god's will.</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.4>
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_Insect_Worship)->[founderName] guided the sacred swarm to protect [place_name] and expelled [foeLeader]. [founder_pronoun] became the first Bugspeaker of [place_name], connecting the two worlds.</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.5>
+
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_Insect_Worship)->[founderName] established a community in harmony with the swarm, spreading the insect god's teachings in all directions, letting those who refused to understand witness the beauty of symbiosis.</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.6>
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_Insect_Worship)->[founderName] taught everyone to coexist peacefully with the swarm. When the first city tried to eliminate the hive, the sacred swarm showed the power of their protection to the believers.</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.7>
+
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_Insect_Worship)->I look at this [foeLeader], with [foeLeader_possessive] ignorant [foeSoldiers], trying to oppose the divine will. I tried to make [foeLeader_objective] understand</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.8>
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_Insect_Worship)->We have already proven that symbiosis with the swarm is humanity's true path to redemption</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.9>
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_Insect_Worship)->This is why we proudly express our loyalty to the divine will by guarding the hive.</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.10>
+
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_Insect_Worship)->The perfect social structure exhibited by the swarm is the blueprint for the future guided by the ultimate will.</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.11>
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.12>archistFact(tag=meme_Insect_Worship)->Just as the insect queen commands her species, we also need to follow the sacred order established by the insect god.</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.12>
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.13>archistProphecy(tag=meme_Insect_Worship)->When humanity finally learns to coexist harmoniously like the swarm, true civilization will be born.</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.13>
+
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.14>animistFact(tag=meme_Insect_Worship)->Every insect carries divinity; the truth of the universe is inscribed on their carapaces.</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.14>
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.15>animistProphecy(tag=meme_Insect_Worship)->[itIsSaid] when humanity and the swarm fully merge, a new golden age will begin.</ARA_Hive_Worship.descriptionMaker.rules.rulesStrings.15>
+
+  <ARA_Hive_Issue.label>Insectoids</ARA_Hive_Issue.label>
+
+  <ARA_Hive_Dear.label>Veneration</ARA_Hive_Dear.label>
+  <ARA_Hive_Dear.description>Come closer, messengers of the sacred insects, let me admire your beauty.</ARA_Hive_Dear.description>
+
+  <ARA_Hive_Honorable.label>Disgust</ARA_Hive_Honorable.label>
+  <ARA_Hive_Honorable.description>Ugly, disgusting big bugs!</ARA_Hive_Honorable.description>
+
+</LanguageData>

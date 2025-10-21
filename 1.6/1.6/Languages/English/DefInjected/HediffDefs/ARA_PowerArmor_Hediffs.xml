@@ -1,96 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  <HediffDef>
-    <defName>ARA_PowerArmor_NoFuel</defName>
-    <label>共生肌群营养不良</label>
-    <description>共生肌群因缺少养分而营养不良，这会对宿主造成不良影响.</description>
-    <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.6, 0.6, 0.6)</defaultLabelColor>
-    <isBad>true</isBad>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <stages>
-      <li>
-        <capMods>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>-0.5</offset>
-          </li>
-        </capMods>
-      </li>
-    </stages>
-  </HediffDef>
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
-  <HediffDef>
-    <defName>ARA_SpiderOne_PowerArmor_MainHediff</defName>
-    <label>共生肌群</label>
-    <description>阿拉克涅虫群的特殊活体结构，本身虽然拥有生物的大部分器官，但是没有任何智能，可以与督虫的神经系统进行融合，成为类似动力装甲一样的装备。共生肌群会为宿主提供额外的重型武器，并且身上也装备了大量的微型武装器官，使得阿拉克涅虫族可以驾驭比肩人类战车的力量。</description>
-    <!--<tendable>false</tendable>  Must be removed via surgery -->
-    <!--<displayWound>true</displayWound>-->
-    <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.6, 0.4, 0.8)</defaultLabelColor>
-    <comps>
-      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
-      <li Class="HediffCompProperties_VerbGiver">
-        <tools>
-          <li>
-            <label>前肢穿刺</label>
-            <capacities>
-              <li>Blunt</li>
-            </capacities>
-            <power>25</power>
-            <cooldownTime>2.2</cooldownTime>
-            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-            <surpriseAttack>
-              <extraMeleeDamages>
-                <li>
-                  <def>Stun</def>
-                  <amount>12</amount>
-                </li>
-              </extraMeleeDamages>
-            </surpriseAttack>
-            <!-- <soundMeleeHit>Pawn_Melee_PowerClaw_Hit</soundMeleeHit>
-            <soundMeleeMiss>Pawn_Melee_PowerClaw_Miss</soundMeleeMiss> -->
-          </li>
-        </tools>
-      </li>
-    </comps>
-    <stages>
-      <li>
-        <statFactors>
-          <MeleeHitChance>2</MeleeHitChance>
-          <IncomingDamageFactor>0.5</IncomingDamageFactor>
-          <StaggerDurationFactor>0</StaggerDurationFactor>
-        </statFactors>
-      </li>
-    </stages>
-    <renderNodeProperties>
-      <li>
-        <debugLabel>ARA_SpiderOne_PowerArmor_MainHediff</debugLabel>
-        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
-        <texPaths>
-					<li>ArachnaeSwarm/Apparel/ARA_SpiderOne_PowerArmor_Thin_south_Top</li>
-        </texPaths>
-        <texSeed>1</texSeed>
-        <visibleFacing>
-          <li>South</li>
-        </visibleFacing>
-        <drawData>
-          <scale>2.1</scale>
-          <dataEast>
-            <layer>-99999</layer>
-          </dataEast>
-          <dataWest>
-            <layer>-99999</layer>
-          </dataWest>
-          <dataNorth>
-            <layer>-99999</layer>
-          </dataNorth>
-          <dataSouth>
-            <layer>50</layer>
-            <offset>(0, 0, -0.5)</offset>
-          </dataSouth>
-        </drawData>
-      </li>
-    </renderNodeProperties>
-  </HediffDef>
-</Defs>
+  <HediffDef.ARA_PowerArmor_NoFuel.label>Symbiotic Musculature Malnutrition</HediffDef.ARA_PowerArmor_NoFuel.label>
+  <HediffDef.ARA_PowerArmor_NoFuel.description>The symbiotic musculature is malnourished due to a lack of nutrients, which negatively affects the host.</HediffDef.ARA_PowerArmor_NoFuel.description>
+
+  <HediffDef.ARA_SpiderOne_PowerArmor_MainHediff.label>Symbiotic Musculature</HediffDef.ARA_SpiderOne_PowerArmor_MainHediff.label>
+  <HediffDef.ARA_SpiderOne_PowerArmor_MainHediff.description>A special living structure of the Arachnae Swarm. Although it possesses most of a biological organism's organs, it lacks intelligence. It can merge with a Node-Pawn's nervous system, becoming equipment similar to power armor. The symbiotic musculature provides the host with additional heavy weapons and is also equipped with numerous miniature armed organs, allowing the Arachnae swarmite to wield power comparable to a human tank.</HediffDef.ARA_SpiderOne_PowerArmor_MainHediff.description>
+
+  <HediffDef.ARA_SpiderOne_PowerArmor_Aux.label>Auxiliary Movement</HediffDef.ARA_SpiderOne_PowerArmor_Aux.label>
+  <HediffDef.ARA_SpiderOne_PowerArmor_Aux.description>Auxiliary organs of the symbiotic musculature, providing the Node-Pawn with additional heavy mobility, and extra limbs during combat.</HediffDef.ARA_SpiderOne_PowerArmor_Aux.description>
+
+</LanguageData>

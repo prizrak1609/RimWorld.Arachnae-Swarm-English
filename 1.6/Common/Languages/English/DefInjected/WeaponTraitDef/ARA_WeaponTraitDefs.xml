@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Huge_Weapon.label>Huge Weapon Organ</ARA_Huge_Weapon.label>
+  <ARA_Huge_Weapon.description>This weapon organ is extremely large and can only be used by large Arachne Broodlords with a body size over 2.0.</ARA_Huge_Weapon.description>
+
+  <ARA_Weapon_Damage_Acid.label>Arachne Acid</ARA_Weapon_Damage_Acid.label>
+  <ARA_Weapon_Damage_Acid.description>When this weapon organ's projectile hits an enemy, it leaves acid on the target's surface, inflicting continuous damage.</ARA_Weapon_Damage_Acid.description>
+
+  <ARA_Weapon_Damage_Toxid.label>Arachne Toxin</ARA_Weapon_Damage_Toxid.label>
+  <ARA_Weapon_Damage_Toxid.description>When this weapon organ's projectile hits an enemy, it injects toxins into the target's body, causing an intoxicated state.</ARA_Weapon_Damage_Toxid.description>
+
+  <ARA_Weapon_Damage_Spawn.label>Arachne Sub-Nest</ARA_Weapon_Damage_Spawn.label>
+  <ARA_Weapon_Damage_Spawn.description>The main attack method of this weapon organ is the release of sub-insects; some are directly projected into enemy lines, and others track and adhere to the enemy to inflict damage.</ARA_Weapon_Damage_Spawn.description>
+
+  <ARA_Weapon_ChainReload.label>Chain Reload</ARA_Weapon_ChainReload.label>
+  <ARA_Weapon_ChainReload.description>Each attack from this weapon organ releases hormones to increase metabolic speed, resulting in increased firing rate and reloading speed.</ARA_Weapon_ChainReload.description>
+
+  <ARA_Weapon_OverPenetrate.label>Over Penetration</ARA_Weapon_OverPenetrate.label>
+  <ARA_Weapon_OverPenetrate.description>This weapon organ's projectile does not stop upon hitting an enemy, instead it penetrates all enemies along its path, inflicting damage.</ARA_Weapon_OverPenetrate.description>
+
+  <ARA_Weapon_Damage_LightingChain.label>Psychic Lightning Chain</ARA_Weapon_Damage_LightingChain.label>
+  <ARA_Weapon_Damage_LightingChain.description>This weapon organ fires a lightning chain that bounces between enemies, inflicting damage.</ARA_Weapon_Damage_LightingChain.description>
+
+  <ARA_Weapon_Damage_Icez.label>Rapid Cooling Fracture</ARA_Weapon_Damage_Icez.label>
+  <ARA_Weapon_Damage_Icez.description>This weapon organ freezes enemies. This state makes the target's body structure extremely vulnerable. As the effect deepens, the "freezing" damage threshold required to destroy body parts is significantly lowered.</ARA_Weapon_Damage_Icez.description>
+
+  <ARA_Weapon_Damage_FrostExplode.label>Freezing Explosion</ARA_Weapon_Damage_FrostExplode.label>
+  <ARA_Weapon_Damage_FrostExplode.description>The frost mist fired by this weapon organ adheres to enemies, and the adhered enemies subsequently explode.</ARA_Weapon_Damage_FrostExplode.description>
+
+
+</LanguageData>

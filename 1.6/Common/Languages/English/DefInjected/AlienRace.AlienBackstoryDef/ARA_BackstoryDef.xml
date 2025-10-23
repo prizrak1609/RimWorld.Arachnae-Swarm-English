@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Arachnae_Queen_BS_Child_1.title>Instinctive Hunter</Arachnae_Queen_BS_Child_1.title>
+  <Arachnae_Queen_BS_Child_1.titleShort>Hunter</Arachnae_Queen_BS_Child_1.titleShort>
+  <Arachnae_Queen_BS_Child_1.description>{PAWN_nameDef} was born as an Arachnae Queen, confined in the breeding chamber with over a hundred sisters.\n\nWhen the wax sealing the chamber was eventually removed by worker bugs, {PAWN_nameDef} rose, covered in blood and bodily fluids. At her feet lay the broken limbs and mutilated corpses of her fallen sisters. She was the sole victor who survived the trial of existence.</Arachnae_Queen_BS_Child_1.description>
+
+  <Arachnae_Queen_BS_Adult_1.title>Apprentice Queen</Arachnae_Queen_BS_Adult_1.title>
+  <Arachnae_Queen_BS_Adult_1.titleShort>Apprentice Queen</Arachnae_Queen_BS_Adult_1.titleShort>
+  <Arachnae_Queen_BS_Adult_1.description>After successfully growing within the hive, {PAWN_nameDef} left her birthplace and journeyed to an unknown land. There, she began preparations to establish her own forces.\n\n{PAWN_nameDef} understands she is still weak and, unlike her pampered sisters, tries to do as much as possible with her own hands.</Arachnae_Queen_BS_Adult_1.description>
+
+  <Arachnae_Node_BS_Child_1.title>Arachnae Node</Arachnae_Node_BS_Child_1.title>
+  <Arachnae_Node_BS_Child_1.titleShort>Node</Arachnae_Node_BS_Child_1.titleShort>
+  <Arachnae_Node_BS_Child_1.description>{PAWN_nameDef} is an Arachnae Node. Arachnae of this caste form the core of the hive, receiving orders from the Queen while commanding their own subordinates, the Auxiliaries. Each is given a distinct mission from birth, dedicating their entire short life to serving the swarm.</Arachnae_Node_BS_Child_1.description>
+
+  <Arachnae_MimicNematode_BS_Child_1.title>Arachnae Mimic-Nematode</Arachnae_MimicNematode_BS_Child_1.title>
+  <Arachnae_MimicNematode_BS_Child_1.titleShort>Mimic-Nematode</Arachnae_MimicNematode_BS_Child_1.titleShort>
+  <Arachnae_MimicNematode_BS_Child_1.description>{PAWN_nameDef} is an Arachnae Mimic-Nematode. Unlike regular bug types, they are parasitic organisms that infest the bodies of intelligent life forms and control them.</Arachnae_MimicNematode_BS_Child_1.description>
+
+  <Arachnae_MimicNematode_BS_Adult_1.title>Arachnae Mimesis Host</Arachnae_MimicNematode_BS_Adult_1.title>
+  <Arachnae_MimicNematode_BS_Adult_1.titleShort>Mimesis Host</Arachnae_MimicNematode_BS_Adult_1.titleShort>
+  <Arachnae_MimicNematode_BS_Adult_1.description>{PAWN_nameDef} is an Arachnae Mimesis Host. Created to be a body controlled and parasitized by an Arachnae Mimic-Nematode, she has no will of her own and cannot survive independently if separated from the parasite.</Arachnae_MimicNematode_BS_Adult_1.description>
+
+  <Arachnae_Node_BS_Adult_Myrmecocystus.title>Arachnae Honeypot</Arachnae_Node_BS_Adult_Myrmecocystus.title>
+  <Arachnae_Node_BS_Adult_Myrmecocystus.titleShort>Honeypot</Arachnae_Node_BS_Adult_Myrmecocystus.titleShort>
+  <Arachnae_Node_BS_Adult_Myrmecocystus.description>{PAWN_nameDef} is an Arachnae Honeypot Node. Through selective gene expression, she has developed a swollen crop and complex mouthparts. This allows her to ingest and break down unprocessed corpses and mixed organic matter, converting it into a nutritional fluid called 'Arachnae Bug Honey' through her digestive system, which is then supplied to other bugs.\n\n{PAWN_nameDef} is defenseless in combat and slow in movement. Her fragile, hypertrophied body can avoid few attacks.</Arachnae_Node_BS_Adult_Myrmecocystus.description>
+
+  <Arachnae_Node_BS_Adult_ShieldHead.title>Arachnae Shield-Head</Arachnae_Node_BS_Adult_ShieldHead.title>
+  <Arachnae_Node_BS_Adult_ShieldHead.titleShort>Shield-Head</Arachnae_Node_BS_Adult_ShieldHead.titleShort>
+  <Arachnae_Node_BS_Adult_ShieldHead.description>{PAWN_nameDef} is an Arachnae Shield-Head Node. Shield-Heads are heavily armored Arachnae bugs with excessively thick exoskeletons. In addition to producing chitin, they possess auxiliary limbs for attaching weapon organs, serving to defend the nest with their natural armor and the swarm's armaments.</Arachnae_Node_BS_Adult_ShieldHead.description>
+
+  <Arachnae_Node_BS_Adult_WeaponSmith.title>Arachnae Artisan</Arachnae_Node_BS_Adult_WeaponSmith.title>
+  <Arachnae_Node_BS_Adult_WeaponSmith.titleShort>Artisan</Arachnae_Node_BS_Adult_WeaponSmith.titleShort>
+  <Arachnae_Node_BS_Adult_WeaponSmith.description>{PAWN_nameDef} is an Arachnae Artisan Node. To enhance the nest's combat power, she can produce specialized cocoons that hatch weapon organs.\n\nWhile {PAWN_nameDef} can manipulate weapon organs, she possesses an extreme fear of injury. As such, she strives to avoid the front lines of combat as much as possible.</Arachnae_Node_BS_Adult_WeaponSmith.description>
+
+  <Arachnae_Node_BS_Adult_Fighter.title>Arachnae Warrior</Arachnae_Node_BS_Adult_Fighter.title>
+  <Arachnae_Node_BS_Adult_Fighter.titleShort>Warrior</Arachnae_Node_BS_Adult_Fighter.titleShort>
+  <Arachnae_Node_BS_Adult_Fighter.description>{PAWN_nameDef} is an Arachnae Warrior Node. Capable of hunting and transporting, she has high aptitude for both melee and ranged combat. While normally unable to hatch Auxiliaries, she can fire acid-chomping Auxiliaries like bullets, sacrificing their short lives to suppress enemy firepower.</Arachnae_Node_BS_Adult_Fighter.description>
+
+  <Arachnae_Node_BS_Adult_Smokepop.title>Arachnae Mist-Caster</Arachnae_Node_BS_Adult_Smokepop.title>
+  <Arachnae_Node_BS_Adult_Smokepop.titleShort>Mist-Caster</Arachnae_Node_BS_Adult_Smokepop.titleShort>
+  <Arachnae_Node_BS_Adult_Smokepop.description>{PAWN_nameDef} is an Arachnae Mist-Caster Node. She is a rare, gigantic individual capable of equipping large weapon organs, and her thick exoskeleton is not easily penetrated by common firearms.\n\nFurthermore, she possesses a massive mist cavity, from which she can widely disperse sticky white smoke that inhibits combustion through multiple biological spray tubes. This allows the swarm's charges to be hidden from enemy artillery.</Arachnae_Node_BS_Adult_Smokepop.description>
+
+  <Arachnae_Node_BS_Adult_Skyraider.title>Arachnae Sky-Raider</Arachnae_Node_BS_Adult_Skyraider.title>
+  <Arachnae_Node_BS_Adult_Skyraider.titleShort>Sky-Raider</Arachnae_Node_BS_Adult_Skyraider.titleShort>
+  <Arachnae_Node_BS_Adult_Skyraider.description>{PAWN_nameDef} is an Arachnae Sky-Raider Node. Sky-Raiders are the elite among the Arachnae Nodes, dominating the skies above the nest due to their exceptional flying ability.</Arachnae_Node_BS_Adult_Skyraider.description>
+
+  <Arachnae_Node_BS_Adult_Facehugger.title>Arachnae Proto-Organism</Arachnae_Node_BS_Adult_Facehugger.title>
+  <Arachnae_Node_BS_Adult_Facehugger.titleShort>Proto-Organism</Arachnae_Node_BS_Adult_Facehugger.titleShort>
+  <Arachnae_Node_BS_Adult_Facehugger.description>{PAWN_nameDef} is an Arachnae Proto-Organism Node. She extends a unique neural connection tube into the victim's body, taking control of their flesh. During control, the higher of the skill proficiencies between the Proto-Organism and the host is applied, but proficiency gained during the parasitic period is not inherited by the Proto-Organism upon detachment.</Arachnae_Node_BS_Adult_Facehugger.description>
+
+  <Arachnae_Node_BS_Adult_NeuroSwarm.title>Arachnae Weaver-Node</Arachnae_Node_BS_Adult_NeuroSwarm.title>
+  <Arachnae_Node_BS_Adult_NeuroSwarm.titleShort>Weaver-Node</Arachnae_Node_BS_Adult_NeuroSwarm.titleShort>
+  <Arachnae_Node_BS_Adult_NeuroSwarm.description>{PAWN_nameDef} is an Arachnae Weaver-Node Node. Weaver-Nodes possess high intelligence and strong individuality, even under the Queen's supervision. They connect their nerves to each other, forming a neural network for complex research and calculation.\n\nSince they can barely perceive external stimuli during calculation work, Weaver-Nodes are a critically important protection target for the swarm.</Arachnae_Node_BS_Adult_NeuroSwarm.description>
+
+  <Arachnae_Node_BS_Adult_Praetorian.title>Arachnae Praetorian</Arachnae_Node_BS_Adult_Praetorian.title>
+  <Arachnae_Node_BS_Adult_Praetorian.titleShort>Praetorian</Arachnae_Node_BS_Adult_Praetorian.titleShort>
+  <Arachnae_Node_BS_Adult_Praetorian.description>{PAWN_nameDef} is an Arachnae Praetorian Node. They are elite soldiers serving the Queen, tasked with executing the Queen's will. They can skillfully manipulate ranged weapon organs to elegantly slaughter enemies and hatch large numbers of acid-chomping Auxiliaries to build up a defensive line.</Arachnae_Node_BS_Adult_Praetorian.description>
+
+</LanguageData>

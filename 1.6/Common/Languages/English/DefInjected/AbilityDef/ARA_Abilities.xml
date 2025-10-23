@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_BindDrone.label>Pheromone Tag</ARA_BindDrone.label>
+  <ARA_BindDrone.description>Tags an Arachne overseer (including wild swarms) with pheromones. The tagged overseer and its subordinate auxiliaries will pledge loyalty to the Queen and form a mental link.\n\nIn addition to manual linking, the Queen will attempt to automatically link with an untagged Arachne overseer every 60 seconds. Unlike manual linking, this automatic link does not require line of sight.</ARA_BindDrone.description>
+
+  <ARA_RaceBaseSwarmProduceOn.label>Unsuppress Reproduction</ARA_RaceBaseSwarmProduceOn.label>
+  <ARA_RaceBaseSwarmProduceOn.description>Re-enables this Arachne overseer's ability to automatically breed auxiliaries.</ARA_RaceBaseSwarmProduceOn.description>
+
+  <ARA_RaceBaseSwarmProduceOff.label>Suppress Reproduction</ARA_RaceBaseSwarmProduceOff.label>
+  <ARA_RaceBaseSwarmProduceOff.description>Disables this Arachne overseer's ability to automatically breed auxiliaries.</ARA_RaceBaseSwarmProduceOff.description>
+
+
+  <ARA_TumorSpew.label>Tumor Spew</ARA_TumorSpew.label>
+  <ARA_TumorSpew.description>Expels a tumor, transforming a wide area around it into fungal terrain. This facilitates the movement of the swarm.</ARA_TumorSpew.description>
+  <ARA_TumorSpew.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_TumorSpew.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_TumorSpew.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_TumorSpew.comps.CompAbilityEffect_NeedCost.failMessage>
+
+  <ARA_AcidSprayBurst_Queen.label>Queen Acid Spray</ARA_AcidSprayBurst_Queen.label>
+  <ARA_AcidSprayBurst_Queen.description>The Arachne Queen sprays a large amount of corrosive acid onto the target location. The spray lasts for a few seconds, completely covering the area.</ARA_AcidSprayBurst_Queen.description>
+  <ARA_AcidSprayBurst_Queen.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_AcidSprayBurst_Queen.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_AcidSprayBurst_Queen.comps.CompAbilityEffect_BodyPartCheck.failMessage>Cannot spray acid because the acid sac is damaged or missing</ARA_AcidSprayBurst_Queen.comps.CompAbilityEffect_BodyPartCheck.failMessage>
+  <ARA_AcidSprayBurst_Queen.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node VXI-6 "Acid Sac" to unlock skill</ARA_AcidSprayBurst_Queen.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+
+  <ARA_BaseRace_Acid_Launcher.label>Acidling Launch</ARA_BaseRace_Acid_Launcher.label>
+  <ARA_BaseRace_Acid_Launcher.description>Launches an Arachne Acidling auxiliary to the specified location. The auxiliary will burn its short life attacking enemies immediately upon landing.</ARA_BaseRace_Acid_Launcher.description>
+  <ARA_BaseRace_Acid_Launcher.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_BaseRace_Acid_Launcher.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_BaseRace_Acid_Launcher.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_BaseRace_Acid_Launcher.comps.CompAbilityEffect_NeedCost.failMessage>
+
+  <ARA_Toxic_Needle_Fire.label>Toxic Needle Volley</ARA_Toxic_Needle_Fire.label>
+  <ARA_Toxic_Needle_Fire.description>The Arachne overseer uses its toxic needle gland to fire a volley of powerful, poison-tipped tail needles at an enemy.</ARA_Toxic_Needle_Fire.description>
+  <ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_BodyPartCheck.failMessage>Cannot fire toxic needles because the toxic needle gland is damaged or missing</ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_BodyPartCheck.failMessage>
+  <ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node PAV-5 "Poison Needle" to unlock skill</ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+  <ARA_AcidSprayBurst.label>Acid Spray</ARA_AcidSprayBurst.label>
+  <ARA_AcidSprayBurst.description>The Arachne overseer sprays corrosive acid at the target location. While not as potent as the Queen's acid rain, the swarm acid remains formidable.</ARA_AcidSprayBurst.description>
+  <ARA_AcidSprayBurst.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_AcidSprayBurst.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_AcidSprayBurst.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_AcidSprayBurst.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_AcidSprayBurst.comps.CompAbilityEffect_BodyPartCheck.failMessage>Cannot spray acid because the acid sac is damaged or missing</ARA_AcidSprayBurst.comps.CompAbilityEffect_BodyPartCheck.failMessage>
+  <ARA_AcidSprayBurst.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node VXI-6 "Acid Sac" to unlock skill</ARA_AcidSprayBurst.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+
+  <ARA_BaseRace_Skyhive_Launcher.label>Skyhive Launch</ARA_BaseRace_Skyhive_Launcher.label>
+  <ARA_BaseRace_Skyhive_Launcher.description>Launches 3 Arachne Skyhive auxiliaries toward the enemy. The Skyhives will latch onto the enemy, bite them, and continue to attack even after detaching.</ARA_BaseRace_Skyhive_Launcher.description>
+  <ARA_BaseRace_Skyhive_Launcher.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_BaseRace_Skyhive_Launcher.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_BaseRace_Skyhive_Launcher.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_BaseRace_Skyhive_Launcher.comps.CompAbilityEffect_NeedCost.failMessage>
+
+  <ARA_Skyraider_jump.label>High-Altitude Maneuver</ARA_Skyraider_jump.label>
+  <ARA_Skyraider_jump.description>Vigorously drives its strong wings to instantly move to a new position.</ARA_Skyraider_jump.description>
+  <ARA_Skyraider_jump.verbProperties.label>Jump</ARA_Skyraider_jump.verbProperties.label>
+  <ARA_Skyraider_jump.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_Skyraider_jump.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_Skyraider_jump.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Skyraider_jump.comps.CompAbilityEffect_NeedCost.failMessage>
+
+
+  <ARA_Ability_Possess.label>Primal Parasitic Assault</ARA_Ability_Possess.label>
+  <ARA_Ability_Possess.description>Leaps at the target, piercing its neural center with a tail needle and replacing it with the Primal's control signals. If the parasitism is successful, the host body is completely taken over and acts as a member of the Arachne Swarm—parasitism fails if the armor cannot be penetrated, but it is guaranteed to succeed on restrained prisoners or incapacitated individuals.\n\nThe parasite requires the Queen's pheromone tag, and the host continues to live like a shell, losing emotions and higher needs. The target's skills and background are replaced by the Primal's. The Primal will escape from the body upon the host's death.</ARA_Ability_Possess.description>
+
+
+  <ARA_Ability_Smokepop.label>Pheromone Fog Release</ARA_Ability_Smokepop.label>
+  <ARA_Ability_Smokepop.description>The Mistspewer releases a large amount of Arachne pheromone smoke from its abdomen. This smoke conceals the swarm's appearance and blocks flames. The more individuals (friend or foe) stained by the pheromones, the more reinforcements will emerge from the ground.</ARA_Ability_Smokepop.description>
+  <ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.failMessage>
+
+
+  <ARA_Smokepop_Creeper_Ability_On.label>Creep Laying: Activate</ARA_Smokepop_Creeper_Ability_On.label>
+  <ARA_Smokepop_Creeper_Ability_On.description>Activates this Arachne Hive Lord's creep laying ability. It will transform the surrounding terrain into Arachne Creep at regular intervals. Additionally, enemies approaching the Hive Lord will automatically be attacked by tumor tubes. The tumor tubes fire tumor projectiles that transform the terrain and lay creep.</ARA_Smokepop_Creeper_Ability_On.description>
+
+  <ARA_Smokepop_Creeper_Ability_Off.label>Creep Laying: Stop</ARA_Smokepop_Creeper_Ability_Off.label>
+  <ARA_Smokepop_Creeper_Ability_Off.description>Stops this Arachne Hive Lord's creep laying ability, preventing it from transforming the surrounding terrain.</ARA_Smokepop_Creeper_Ability_Off.description>
+
+  <ARA_Tumorthrow.label>Tumor Projectile</ARA_Tumorthrow.label>
+  <ARA_Tumorthrow.description>Launches a tumor projectile to a target location, transforming the surrounding area into creep, facilitating the swarm's activity.</ARA_Tumorthrow.description>
+  <ARA_Tumorthrow.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_Tumorthrow.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_Tumorthrow.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Tumorthrow.comps.CompAbilityEffect_NeedCost.failMessage>
+
+
+  <ARA_Ability_TrackingCharge.label>Assault Charge</ARA_Ability_TrackingCharge.label>
+  <ARA_Ability_TrackingCharge.description>Charges towards the target, dealing damage to everything in its path. The longer the charge distance, the more damage it inflicts.</ARA_Ability_TrackingCharge.description>
+  <ARA_Ability_TrackingCharge.verbProperties.label>Tracking Charge</ARA_Ability_TrackingCharge.verbProperties.label>
+  <ARA_Ability_TrackingCharge.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_Ability_TrackingCharge.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_Ability_TrackingCharge.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Ability_TrackingCharge.comps.CompAbilityEffect_NeedCost.failMessage>
+
+
+  <ARA_PsychicBrainburn.label>Psychic Brainburn</ARA_PsychicBrainburn.label>
+  <ARA_PsychicBrainburn.description>Burns the target's neural center with pure psychic energy, instantly ending its life.</ARA_PsychicBrainburn.description>
+
+  <ARA_NeuroSwarm_jump.label>High-Altitude Maneuver</ARA_NeuroSwarm_jump.label>
+  <ARA_NeuroSwarm_jump.description>Enhances the power that lifts the body, swiftly ascending and flying to a new location.</ARA_NeuroSwarm_jump.description>
+  <ARA_NeuroSwarm_jump.verbProperties.label>Jump</ARA_NeuroSwarm_jump.verbProperties.label>
+
+  <ARA_GuardianPsyField_On.label>Weaver Psychic Field</ARA_GuardianPsyField_On.label>
+  <ARA_GuardianPsyField_On.description>The Weaver deploys a powerful psychic defense field, automatically intercepting hostile projectiles that enter its range. The total shield strength depends on psychic sensitivity, making it hard to penetrate, but psychic entropy accumulates with each interception.</ARA_GuardianPsyField_On.description>
+
+  <ARA_GuardianPsyField_Off.label>Weaver Psychic Field</ARA_GuardianPsyField_Off.label>
+  <ARA_GuardianPsyField_Off.description>Deactivates the Weaver's psychic defense field.</ARA_GuardianPsyField_Off.description>
+
+
+  <ARA_MimicNematode_Needle_Fire.label>Mimic Nematode Parasitic Needle</ARA_MimicNematode_Needle_Fire.label>
+  <ARA_MimicNematode_Needle_Fire.description>Fires a spore needle at the target, causing low-damage, but leading to Arachne Mimic Nematode parasitism. As the infection progresses, the target is controlled by the Mimic Nematode, transforming into a robust body that ignores external stimuli.\n\nHowever, since the Mimic Nematode is not controlled by the Queen, its use carries significant risk.</ARA_MimicNematode_Needle_Fire.description>
+  <ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node MED-2 "Mimic Nematode" to unlock skill</ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+
+  <ARA_Fighter_Invisibility_jump.label>Stalker Jump</ARA_Fighter_Invisibility_jump.label>
+  <ARA_Fighter_Invisibility_jump.description>Uses strong tendons to jump to the target location. The Stalker remains invisible during the jump.</ARA_Fighter_Invisibility_jump.description>
+  <ARA_Fighter_Invisibility_jump.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_Fighter_Invisibility_jump.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_Fighter_Invisibility_jump.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Fighter_Invisibility_jump.comps.CompAbilityEffect_NeedCost.failMessage>
+
+  <ARA_Fighter_Invisibility_Execution.label>Scythe Execution</ARA_Fighter_Invisibility_Execution.label>
+  <ARA_Fighter_Invisibility_Execution.description>The Stalker swings its scythe, delivering a powerful blow to execute the enemy. It becomes visible after the attack.</ARA_Fighter_Invisibility_Execution.description>
+
+
+  <ARA_FireSpew.label>Flamer Burst</ARA_FireSpew.label>
+  <ARA_FireSpew.description>After a short wind-up, the Flamer sprays flames over a wide area forward. The flamethrower's range is not very long, but it can form a dense wall of fire.</ARA_FireSpew.description>
+  <ARA_FireSpew.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_FireSpew.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_FireSpew.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_FireSpew.comps.CompAbilityEffect_NeedCost.failMessage>
+
+
+  <ARA_Genestealer_ExtractGene.label>Extract Gene</ARA_Genestealer_ExtractGene.label>
+  <ARA_Genestealer_ExtractGene.description>The Aberrant extracts 1 to 4 genes (including Archite genes) from the target's gene pool and incorporates them into its own genetic sequence. The extracted target does not die but loses these genes and is henceforth unable to awaken from a coma.</ARA_Genestealer_ExtractGene.description>
+  <ARA_Genestealer_ExtractGene.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_Genestealer_ExtractGene.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_Genestealer_ExtractGene.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Genestealer_ExtractGene.comps.CompAbilityEffect_NeedCost.failMessage>
+
+  <ARA_Genestealer_InjectGenes.label>Inject Genes</ARA_Genestealer_InjectGenes.label>
+  <ARA_Genestealer_InjectGenes.description>The Aberrant attempts to inject all of its own genes into the target's body. This injection cannot be performed if the target already possesses even one gene identical to the Aberrant's.</ARA_Genestealer_InjectGenes.description>
+  <ARA_Genestealer_InjectGenes.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_Genestealer_InjectGenes.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_Genestealer_InjectGenes.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Genestealer_InjectGenes.comps.CompAbilityEffect_NeedCost.failMessage>
+
+
+  <ARA_TerrainHeal_Ability.label>Creep Healing</ARA_TerrainHeal_Ability.label>
+  <ARA_TerrainHeal_Ability.description>Extracts biomatter from the creep's nutrient tubes to synthesize and administer healing agents to allies. Can only be used on Arachne swarm individuals with self-regeneration capabilities.</ARA_TerrainHeal_Ability.description>
+  <ARA_TerrainHeal_Ability.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_TerrainHeal_Ability.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_TerrainHeal_Ability.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_TerrainHeal_Ability.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_TerrainHeal_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>Ability must be deployed on terrain</ARA_TerrainHeal_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>
+  <ARA_TerrainHeal_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>Ability Disabled: Not on terrain</ARA_TerrainHeal_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>
+  <ARA_TerrainHeal_Ability.comps.CompAbilityEffect_HediffRestriction.disabledReasonKey>Can only be used on Arachne swarm units with self-healing ability</ARA_TerrainHeal_Ability.comps.CompAbilityEffect_HediffRestriction.disabledReasonKey>
+  <ARA_TerrainHeal_Ability.comps.CompAbilityEffect_HediffRestriction.targetHediffFailMessage>Target must be an Arachne swarm unit with self-healing ability.</ARA_TerrainHeal_Ability.comps.CompAbilityEffect_HediffRestriction.targetHediffFailMessage>
+
+  <ARA_TerrorRoar_Ability.label>Intimidating Roar</ARA_TerrorRoar_Ability.label>
+  <ARA_TerrorRoar_Ability.description>The Arachne overseer roars at surrounding enemies, causing them to flee in terror. Can only be used on fungal terrain.</ARA_TerrorRoar_Ability.description>
+  <ARA_TerrorRoar_Ability.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_TerrorRoar_Ability.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_TerrorRoar_Ability.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_TerrorRoar_Ability.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_TerrorRoar_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>Ability must be deployed on terrain</ARA_TerrorRoar_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>
+  <ARA_TerrorRoar_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>Ability Disabled: Not on terrain</ARA_TerrorRoar_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>
+
+  <ARA_TerrainTempt_Ability.label>Distorting Temptation</ARA_TerrainTempt_Ability.label>
+  <ARA_TerrainTempt_Ability.description>The Arachne overseer distorts the target's mind, making them hallucinate the swarm as "lovable beings." As a result, the target maniacally attacks external enemies harmful to the swarm. Can only be used on fungal terrain.</ARA_TerrainTempt_Ability.description>
+  <ARA_TerrainTempt_Ability.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_TerrainTempt_Ability.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_TerrainTempt_Ability.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_TerrainTempt_Ability.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_TerrainTempt_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>Ability must be deployed on terrain</ARA_TerrainTempt_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>
+  <ARA_TerrainTempt_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>Ability Disabled: Not on terrain</ARA_TerrainTempt_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>
+
+
+  <ARA_Strengthening_Tendon_Jump.label>Short Jump</ARA_Strengthening_Tendon_Jump.label>
+  <ARA_Strengthening_Tendon_Jump.description>Reinforced tendons allow Arachne swarm units to perform short-distance jumps.</ARA_Strengthening_Tendon_Jump.description>
+  <ARA_Strengthening_Tendon_Jump.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_Strengthening_Tendon_Jump.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_Strengthening_Tendon_Jump.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Strengthening_Tendon_Jump.comps.CompAbilityEffect_NeedCost.failMessage>
+
+
+  <ARA_BaseRace_Acidcut_Hatching.label>Acidling Legion</ARA_BaseRace_Acidcut_Hatching.label>
+  <ARA_BaseRace_Acidcut_Hatching.description>Hatches 5 Arachne Acidling auxiliaries at its feet, instantly forming a melee frontline.</ARA_BaseRace_Acidcut_Hatching.description>
+  <ARA_BaseRace_Acidcut_Hatching.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_BaseRace_Acidcut_Hatching.comps.CompAbilityEffect_NeedCost.customLabel>
+
+  <ARA_Praetorian_jump.label>Praetorian Jump</ARA_Praetorian_jump.label>
+  <ARA_Praetorian_jump.description>Uses strong tendons to jump to the target location.</ARA_Praetorian_jump.description>
+  <ARA_Praetorian_jump.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_Praetorian_jump.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_Praetorian_jump.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Praetorian_jump.comps.CompAbilityEffect_NeedCost.failMessage>
+
+  <ARA_Praetorian_Commander_Ability_On.label>Swarm Commander</ARA_Praetorian_Commander_Ability_On.label>
+  <ARA_Praetorian_Commander_Ability_On.description>Activates this Arachne Praetorian's command node, forming a secondary hive mind network that boosts the combat capabilities of nearby swarm units. During this time, the Praetorian's own combat abilities are partially reduced.</ARA_Praetorian_Commander_Ability_On.description>
+
+  <ARA_Praetorian_Commander_Ability_Off.label>End Command</ARA_Praetorian_Commander_Ability_Off.label>
+  <ARA_Praetorian_Commander_Ability_Off.description>Deactivates the Arachne Praetorian's command ability, allowing it to focus on its own combat.</ARA_Praetorian_Commander_Ability_Off.description>
+
+
+  <ARA_Pouch_Hatching_Acidling.label>Pouch Hatch: Exploder</ARA_Pouch_Hatching_Acidling.label>
+  <ARA_Pouch_Hatching_Acidling.description>Hatches 3 Arachne Exploder auxiliaries at its feet, causing them to perform suicidal attacks on enemies.</ARA_Pouch_Hatching_Acidling.description>
+  <ARA_Pouch_Hatching_Acidling.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_Pouch_Hatching_Acidling.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_Pouch_Hatching_Acidling.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Pouch_Hatching_Acidling.comps.CompAbilityEffect_NeedCost.failMessage>
+
+  <ARA_Pouch_Hatching_Pouch.label>Pouch Hatch: Tumor</ARA_Pouch_Hatching_Pouch.label>
+  <ARA_Pouch_Hatching_Pouch.description>Expels a tumor, transforming the surrounding terrain into creep to aid the swarm's activity and impede enemy movement.</ARA_Pouch_Hatching_Pouch.description>
+  <ARA_Pouch_Hatching_Pouch.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_Pouch_Hatching_Pouch.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_Pouch_Hatching_Pouch.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Pouch_Hatching_Pouch.comps.CompAbilityEffect_NeedCost.failMessage>
+
+
+  <ARA_Suicide_Ability.label>Self-Destruct</ARA_Suicide_Ability.label>
+  <ARA_Suicide_Ability.description>Upon command, the Arachne swarm unit will instantly end its life for the hive.</ARA_Suicide_Ability.description>
+
+  <ARA_Hibernate_Ability.label>Hibernation</ARA_Hibernate_Ability.label>
+  <ARA_Hibernate_Ability.description>The Arachne swarm unit encases itself in a membrane, transforming into static biological tissue. This reduces the burden on the hive mind. During hibernation, rest and hunger gauges are reset, and it requires no food.</ARA_Hibernate_Ability.description>
+  <ARA_Hibernate_Ability.comps.CompAbilityEffect_NeedCost.customLabel>Meal</ARA_Hibernate_Ability.comps.CompAbilityEffect_NeedCost.customLabel>
+  <ARA_Hibernate_Ability.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Hibernate_Ability.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_Hibernate_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>Ability must be deployed on terrain</ARA_Hibernate_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>
+  <ARA_Hibernate_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>Ability Disabled: Not on terrain</ARA_Hibernate_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>
+
+
+</LanguageData>

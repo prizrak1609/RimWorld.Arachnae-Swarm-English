@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Queen_0_Stage.label>Evolution Level - None</ARA_Queen_0_Stage.label>
+  <ARA_Queen_0_Stage.description>This Arachnae Queen has just set foot on the chaotic Rimworld, and her genetic expression is not yet clear. She needs further experience to figure out how to lead the hive.</ARA_Queen_0_Stage.description>
+
+
+  <ARA_Queen_1_Stage.label>Evolution Level - Level 1</ARA_Queen_1_Stage.label>
+  <ARA_Queen_1_Stage.description>This Arachnae Queen has gained some insight into developing the hive. She can use the genetic web to weave more complex and powerful swarms.</ARA_Queen_1_Stage.description>
+
+
+  <ARA_Queen_2_Stage.label>Evolution Level - Level 2</ARA_Queen_2_Stage.label>
+  <ARA_Queen_2_Stage.description>This Arachnae Queen has gained further insight into developing the hive. She can use the genetic web to weave more complex and powerful swarms.</ARA_Queen_2_Stage.description>
+
+
+  <ARA_WeaponSmith_0_Stage.label>Evolution Level - None</ARA_WeaponSmith_0_Stage.label>
+  <ARA_WeaponSmith_0_Stage.description>This Arachnae Weaponsmith has not yet been reinforced and can only hatch the most basic cocoons. It can only manage to produce some initial equipment.</ARA_WeaponSmith_0_Stage.description>
+
+
+  <ARA_WeaponSmith_1_Stage.label>Evolution Level - Level 1</ARA_WeaponSmith_1_Stage.label>
+  <ARA_WeaponSmith_1_Stage.description>Guided by the will of the hive, this Arachnae Weaponsmith has gained a more powerful hatching ability. It can now gestate more complex cocoons and obtain powerful equipment.</ARA_WeaponSmith_1_Stage.description>
+
+
+  <ARA_WeaponSmith_2_Stage.label>Evolution Level - Level 2</ARA_WeaponSmith_2_Stage.label>
+  <ARA_WeaponSmith_2_Stage.description>Guided by the will of the hive, this Arachnae Weaponsmith has gained even more powerful hatching ability. It can now gestate more complex cocoons and obtain powerful equipment.</ARA_WeaponSmith_2_Stage.description>
+
+
+  <ARA_Myrmecocystus_Production_InsectJelly.label>Produce Insect Jelly</ARA_Myrmecocystus_Production_InsectJelly.label>
+  <ARA_Myrmecocystus_Production_InsectJelly.description>This Arachnae Honey Pot is producing insect jelly to nourish the swarm. One Honey Pot produces 15 Arachnae Insect Jelly per day.</ARA_Myrmecocystus_Production_InsectJelly.description>
+
+  <ARA_Myrmecocystus_Production_Medicine.label>Subspecies - Healing Strain</ARA_Myrmecocystus_Production_Medicine.label>
+  <ARA_Myrmecocystus_Production_Medicine.description>This Arachnae Honey Pot has gained insight and no longer produces insect jelly, instead producing rare medicines and chemical substances for the hive. It can also manipulate the Mimic Nematode parasites.</ARA_Myrmecocystus_Production_Medicine.description>
+
+  <ARA_Myrmecocystus_Production_Fuel.label>Subspecies - Pyre Strain</ARA_Myrmecocystus_Production_Fuel.label>
+  <ARA_Myrmecocystus_Production_Fuel.description>This Arachnae Honey Pot has evolved and no longer produces insect jelly, instead generating compound fuel that is scarce for the hive. It can also confront enemies by spitting flames.</ARA_Myrmecocystus_Production_Fuel.description>
+
+
+  <ARA_Fighter_Base.label>Hive Warrior</ARA_Fighter_Base.label>
+  <ARA_Fighter_Base.description>Arachnae warrior bugs can transform their bodies into the strongest armament. They can learn a variety of skills when their technology is unlocked.</ARA_Fighter_Base.description>
+
+  <ARA_Fighter_Invisibility.label>Subspecies - Stalker Strain</ARA_Fighter_Invisibility.label>
+  <ARA_Fighter_Invisibility.description>The evolved warrior strain has acquired special iridescent cells covering its entire body. These cells, containing nanocrystals, refract light, allowing it to remain permanently hidden until it attacks. Its close-quarters combat ability is also improved, but its compound eyes degenerate, making shooting difficult.</ARA_Fighter_Invisibility.description>
+
+  <ARA_Fighter_Genestealer.label>Subspecies - Genestealer Strain</ARA_Fighter_Genestealer.label>
+  <ARA_Fighter_Genestealer.description>Genestealers are like walking gene banks. They are no longer warriors that exchange blood and blades in the swarm, but are dedicated to extracting and refining superior genes from prisoners and slaves and granting them to high-quality individuals within the swarm.</ARA_Fighter_Genestealer.description>
+
+
+  <ARA_Smokepop_Base.label>Bio-Smokestack</ARA_Smokepop_Base.label>
+  <ARA_Smokepop_Base.description>The Smokepop strain is a massive Arachnae bug with a thick carapace, capable of expelling pheromone-filled gas from its abdomen to cover the battlefield. This attracts smaller ancillary bugs, allowing them to launch a fierce assault against enemies.</ARA_Smokepop_Base.description>
+
+  <ARA_Smokepop_Production_Bacterium.label>Subspecies - Bacteriophage Strain</ARA_Smokepop_Production_Bacterium.label>
+  <ARA_Smokepop_Production_Bacterium.description>This Arachnae Smokepop has gained insight, and its anterior carapace has fallen off, making it unable to expel pheromones. Instead, it has gained the ability to produce activated bacteria. One Bacteriophage produces 5 activated bacteria per day.</ARA_Smokepop_Production_Bacterium.description>
+
+  <ARA_Smokepop_Creeper.label>Subspecies - Creep King Strain</ARA_Smokepop_Creeper.label>
+  <ARA_Smokepop_Creeper.description>This Arachnae Smokepop has already awakened, and can deploy creep around it while moving to modify the terrain around the hive or build paths for invading other colonies. Furthermore, it gains the ability to project bacterial nodules at enemies.</ARA_Smokepop_Creeper.description>
+
+
+  <ARA_ShieldHead_Base.label>Hard-Shell Strain</ARA_ShieldHead_Base.label>
+  <ARA_ShieldHead_Base.description>The Shield Head strain is small and lacks the intimidation of larger Arachnae bugs, but its body is covered in a carapace that provides ample defense. The carapace is prone to overgrowth and shedding, and the shed carapace can be used for hive construction. One Hard-Shell Strain produces 15 Chitin per day.</ARA_ShieldHead_Base.description>
+
+  <ARA_ShieldHead_Protector.label>Subspecies - Hive Guard Strain</ARA_ShieldHead_Protector.label>
+  <ARA_ShieldHead_Protector.description>This Arachnae Shield Head has gained insight, and its combat ability has improved. It can also knock down enemies with a powerful charging attack.</ARA_ShieldHead_Protector.description>
+
+  <ARA_ShieldHead_HiveBuilder.label>Subspecies - Builder Strain</ARA_ShieldHead_HiveBuilder.label>
+  <ARA_ShieldHead_HiveBuilder.description>This Arachnae Shield Head has evolved, gaining powerful production and construction capabilities. The Shield Head produces 25 Chitin per day.</ARA_ShieldHead_HiveBuilder.description>
+
+
+  <ARA_Skyraider_Base.label>Flying Behemoth</ARA_Skyraider_Base.label>
+  <ARA_Skyraider_Base.description>The Arachnae Skyraider is the ruler of the skies. Its massive yet agile and deadly body carries large weapons while maintaining high mobility. It can forcibly transport un-downed allied bugs, increasing the battlefield mobility of slower bugs.</ARA_Skyraider_Base.description>
+
+  <ARA_Skyraider_Hivelord.label>Subspecies - Hivelord Strain</ARA_Skyraider_Hivelord.label>
+  <ARA_Skyraider_Hivelord.description>This Arachnae Skyraider has gained insight and hurls Skyhive ancillary bugs at enemies. These agile ancillary bugs scatter upon landing and hunt surrounding targets.</ARA_Skyraider_Hivelord.description>
+
+  <ARA_Skyraider_Empthrower.label>Subspecies - Hurricane Strain</ARA_Skyraider_Empthrower.label>
+  <ARA_Skyraider_Empthrower.description>This Arachnae Skyraider has evolved and hurls EMP ancillary bugs at enemies. These ancillary bugs scatter upon landing and fight enemy mechanoids with self-destruct attacks that release an EMP.</ARA_Skyraider_Empthrower.description>
+
+
+  <ARA_Praetorian_Base.label>Queen's Throttle</ARA_Praetorian_Base.label>
+  <ARA_Praetorian_Base.description>The Arachnae Praetorian is the Queen's direct agent of will. It excels in shooting skills and can also command allies on the battlefield, making them more powerful.</ARA_Praetorian_Base.description>
+
+
+</LanguageData>

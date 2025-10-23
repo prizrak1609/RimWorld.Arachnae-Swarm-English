@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Incubate>Incubate {0}</ARA_Incubate>
+  <ARA_NeedsInteraction>Not hatched, requires contact with an Arachnae Queen</ARA_NeedsInteraction>
+
+  <ARA_BindDrone_Success>{0} has successfully linked to {1}'s hive mind.</ARA_BindDrone_Success>
+  <ARA_BindDrone_Failure>Failed to link {0} to {1}'s hive mind.</ARA_BindDrone_Failure>
+  <ARA_BindDrone_NoDroneHediff>Target {0} is not an Arachnae Drone or does not require a link.</ARA_BindDrone_NoDroneHediff>
+  <ARA_BindDrone_AlreadyBound>Target {0} is already linked to {1}.</ARA_BindDrone_AlreadyBound>
+  <ARA_BindDrone_NoMasterHediff>Caster {0} is not an Arachnae Queen.</ARA_BindDrone_NoMasterHediff>
+  <ARA_BindDrone_ConversionSuccess>Successfully converted {0} to an ally unit and linked to {1}</ARA_BindDrone_ConversionSuccess>
+  <ARA_BindDrone_ConversionFailure>Conversion of {0} succeeded, but failed to link to {1}</ARA_BindDrone_ConversionFailure>
+  <ARA_BindDrone_NoMasterForConversion>{0} is not an Arachnae Queen</ARA_BindDrone_NoMasterForConversion>
+  
+  <ARA_MustBeHumanlike>Target must be a humanlike creature.</ARA_MustBeHumanlike>
+  <ARA_AlreadyPossessed>{0} is already possessed.</ARA_AlreadyPossessed>
+  <ARA_CannotPossessRace>Cannot possess the {0} race.</ARA_CannotPossessRace>
+
+  <ARA_TipString_LinkedTo>Linked to: {0}</ARA_TipString_LinkedTo>
+  <ARA_TipString_NotLinked>Not linked to any Queen.</ARA_TipString_NotLinked>
+  <ARA_TipString_ControlledDrones>Controlled Swarm:</ARA_TipString_ControlledDrones>
+  <ARA_TipString_NoDronesBound>No swarm is linked yet.</ARA_TipString_NoDronesBound>
+
+  <MessageTrapSprung>{PAWN} has sprung {TRAP}!</MessageTrapSprung>
+  <MessageTrapSprung_NoInstigator>{TRAP} has sprung!</MessageTrapSprung_NoInstigator>
+
+  <delivery>{PAWN} has spawned {THING}.</delivery>
+
+  <AbilitySkillChanged>{USER_labelShort}'s evolution has changed their {1} skill from level {2} to level {3}, and their passion has changed.</AbilitySkillChanged>
+
+  <AbilityMustBeOnTerrain>This ability can only be used on {0}.</AbilityMustBeOnTerrain>
+  <AbilityDisabledNotOnTerrain>Not on {0}</AbilityDisabledNotOnTerrain>
+  <AbilityTerrainRestrictionTip>Usable only on the following terrain: {0}</AbilityTerrainRestrictionTip>
+
+  <AbilitySkillDurationBonus>Extended by {2} seconds based on {0} skill (level {1}), total duration: {3} seconds</AbilitySkillDurationBonus>
+
+  <AbilityCheckSafeTemperatureRangeLabel>Safe Temperature Range</AbilityCheckSafeTemperatureRangeLabel>
+  <AbilityCheckSafeTemperatureRange>{0}°C - {1}°C</AbilityCheckSafeTemperatureRange>
+  <AbilityCheckCurrentTemperature>Current Temperature: {0}°C ({1})</AbilityCheckCurrentTemperature>
+  <AbilityCheckTemperatureTooLow>Too Low</AbilityCheckTemperatureTooLow>
+  <AbilityCheckTemperatureTooHigh>Too High</AbilityCheckTemperatureTooHigh>
+  <AbilityCheckTemperatureSafe>Safe</AbilityCheckTemperatureSafe>
+
+  <CocoonRuinedByTemperature>Biostructure damaged by extreme temperatures</CocoonRuinedByTemperature>
+  
+  <WillDestroyBodyPart>Body part to be destroyed: {0}</WillDestroyBodyPart>
+  <CasterDead>Caster is dead</CasterDead>
+  <NoValidBodyParts>No valid body parts to destroy</NoValidBodyParts>
+
+  <DisallowedItems>Disallowed Items</DisallowedItems>
+  <CannotUseDisallowedFuel>{0} cannot be used as fuel for {1}</CannotUseDisallowedFuel>
+  
+  <ARA_NeedCost_RequiresAtLeast>Requires at least {0} {1}</ARA_NeedCost_RequiresAtLeast>
+  <ARA_NeedCost_Consumption>{0} consumption</ARA_NeedCost_Consumption>
+  <ARA_NeedCost_Cost>Cost: {0}</ARA_NeedCost_Cost>
+  <ARA_NeedCost_Current>Current: {0}/{1}</ARA_NeedCost_Current>
+  <ARA_NeedCost_Insufficient>Insufficient {0}</ARA_NeedCost_Insufficient>
+  <ARA_NeedCost_CanCast>Can Cast</ARA_NeedCost_CanCast>
+
+  <PrisonerPlacedInRefuelingVat>{0} has been placed in the extraction vat.</PrisonerPlacedInRefuelingVat>
+
+
+  <FuelProduction>Resource Production</FuelProduction>
+  <ProductionEfficiency>Production Efficiency</ProductionEfficiency>
+  <FuelTankFull>Resource Tank Full</FuelTankFull>
+  <CurrentFuel>Current Resource Storage</CurrentFuel>
+  <AcidDamageProgress>Progress until next damage</AcidDamageProgress>
+  <RefuelingVatIdle>Facility is idle - will produce resources when a non-swarm colonist, prisoner, or slave is placed inside</RefuelingVatIdle>
+  <RefuelingStopped>Production Stopped</RefuelingStopped>
+  <InsertPersonRefuelingVatDesc>Select a colonist, prisoner, or slave to place in the extraction vat. They will slowly take damage and produce resources.</InsertPersonRefuelingVatDesc>
+  <AssignCarryPrisoner>Assign Prisoner/Slave Carrier</AssignCarryPrisoner>
+  <AssignCarryPrisonerDesc>Select a swarm member to carry a prisoner or slave to the Arachnae building.</AssignCarryPrisonerDesc>
+  <NoAvailableHiveCarriers>No swarm members available to carry a prisoner</NoAvailableHiveCarriers>
+  <CarrierAssigned>Assigned {0} to carry {1} to the bio-building</CarrierAssigned>
+  <NoAvailableCarriers>No swarm members available to carry</NoAvailableCarriers>
+  <NoPrisonersOrSlaves>No prisoners or slaves available</NoPrisonersOrSlaves>
+
+  <StartResearchProduction>Incubate {0} Techprint</StartResearchProduction>
+  <ProducingTechprint>Producing Techprint: {0}</ProducingTechprint>
+  <TechprintsToProduce>Techprints to Produce</TechprintsToProduce>
+  <ResearchAlreadyCompleted>This research is already completed</ResearchAlreadyCompleted>
+  <ARA_TechprintCount>Produced {0} Techprints</ARA_TechprintCount>
+  <ARA_NeedSpecificArachnaeToStartResearchProduction>{0} is required to start research production</ARA_NeedSpecificArachnaeToStartResearchProduction>
+  <researchProjectsAvailable>Available Research Projects</researchProjectsAvailable>
+  <ARA_TechprintProductionComplete>Production Complete: Produced {0} {1} Techprints (Needed for research {2})</ARA_TechprintProductionComplete>
+
+  <ARA_QueenAlreadyExists>The newly born Queen has died from genetic convulsions—due to structural protection in the Arachnae Swarm's hive mind, only one Queen can exist per hive.</ARA_QueenAlreadyExists>
+  <ARA_ResurrectionPrevented>Without permission from a higher node, {0} is genetically denied any resurrection.</ARA_ResurrectionPrevented>
+
+  <ARA_Eggsac_Spawning>Incubating {0}, Time left: {1}</ARA_Eggsac_Spawning> 
+  <CannotBeUninstalled>Cannot be uninstalled during incubation</CannotBeUninstalled>
+
+  <ARAGeneExtractionComplete>{CASTER} has extracted genes from {TARGET}</ARAGeneExtractionComplete>
+  <ARAGeneExtractionFailed>Gene extraction failed</ARAGeneExtractionFailed>
+  <TargetMustBeHumanlike>Target must be a humanlike creature</TargetMustBeHumanlike>
+  <TargetHasNoGenes>Target has no extractable genes</TargetHasNoGenes>
+  <NoExtractableGenes>Target has special genes, but they are not valuable for extraction</NoExtractableGenes>
+  <CasterAtGeneCapacity>{CASTER}'s gene sequence capacity has reached its limit</CasterAtGeneCapacity>
+  <ExtractableGenesCount>Extractable genes count: {0}</ExtractableGenesCount>
+
+  <ARA_GeneInjectionComplete>{CASTER} has injected genes into {TARGET}</ARA_GeneInjectionComplete>
+  <ARA_GeneInjectionFailed>Gene injection failed</ARA_GeneInjectionFailed>
+  <CasterHasNoGenes>{CASTER} has no genes to inject</CasterHasNoGenes>
+  <NoTransferableGenes>{CASTER} has no transferable genes that meet the conditions</NoTransferableGenes>
+  <TargetCannotAcceptGenes>{TARGET} cannot accept these genes</TargetCannotAcceptGenes>
+  <CasterHasNoTransferableGenes>{CASTER} has no transferable genes</CasterHasNoTransferableGenes>
+  <TransferableGenesCount>Transferable genes count: {0}</TransferableGenesCount>
+  <TargetHasGenesCount>Target already has genes count: {0}</TargetHasGenesCount>
+
+  <ARA_AbilityReady>Ability is ready</ARA_AbilityReady>
+  <ARA_SelectValidTarget>Select a valid target</ARA_SelectValidTarget>
+  <ARA_PossibleEffects>Possible effects:</ARA_PossibleEffects>
+  <ARA_ResistChance>Resistance Chance: {0}</ARA_ResistChance>
+  <ARA_NoValidHediffAvailable>No applicable morphing mutation available</ARA_NoValidHediffAvailable>
+  <ARA_HediffApplied>{0} has caused {2} to morph into {1}</ARA_HediffApplied>
+  <ARA_PotentialHediffs>Potential mutations: {0}</ARA_PotentialHediffs>
+  <ARA_NoValidHediff>No applicable morphing mutation exists</ARA_NoValidHediff>
+  <ARA_TargetBlacklisted>Target is a component of the Swarm</ARA_TargetBlacklisted>
+  <ARA_TargetAlreadyHasHediff>Target has already completed morphing mutation</ARA_TargetAlreadyHasHediff>
+</LanguageData>

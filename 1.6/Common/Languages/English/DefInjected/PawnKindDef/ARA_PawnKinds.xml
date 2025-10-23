@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_ArachnaeQueen.label>Arachnae Queen</ARA_ArachnaeQueen.label>
+  <ARA_ArachnaeQueen.labelPlural>Arachnae Queens</ARA_ArachnaeQueen.labelPlural>
+  <ARA_ArachnaeQueen.labelMale>Arachnae Queen</ARA_ArachnaeQueen.labelMale>
+  <ARA_ArachnaeQueen.labelMalePlural>Arachnae Queens</ARA_ArachnaeQueen.labelMalePlural>
+  <ARA_ArachnaeQueen.labelFemale>Arachnae Queen</ARA_ArachnaeQueen.labelFemale>
+  <ARA_ArachnaeQueen.labelFemalePlural>Arachnae Queens</ARA_ArachnaeQueen.labelFemalePlural>
+
+  <ArachnaeNode_Race_Myrmecocystus.label>Arachnae Honey Pot</ArachnaeNode_Race_Myrmecocystus.label>
+  <ArachnaeNode_Race_Myrmecocystus.labelPlural>Arachnae Honey Pots</ArachnaeNode_Race_Myrmecocystus.labelPlural>
+  <ArachnaeNode_Race_Myrmecocystus.labelMale>Arachnae Honey Pot</ArachnaeNode_Race_Myrmecocystus.labelMale>
+  <ArachnaeNode_Race_Myrmecocystus.labelMalePlural>Arachnae Honey Pots</ArachnaeNode_Race_Myrmecocystus.labelMalePlural>
+  <ArachnaeNode_Race_Myrmecocystus.labelFemale>Arachnae Honey Pot</ArachnaeNode_Race_Myrmecocystus.labelFemale>
+  <ArachnaeNode_Race_Myrmecocystus.labelFemalePlural>Arachnae Honey Pots</ArachnaeNode_Race_Myrmecocystus.labelFemalePlural>
+
+  <ArachnaeNode_Race_ShieldHead.label>Arachnae Shield Head</ArachnaeNode_Race_ShieldHead.label>
+  <ArachnaeNode_Race_ShieldHead.labelPlural>Arachnae Shield Heads</ArachnaeNode_Race_ShieldHead.labelPlural>
+  <ArachnaeNode_Race_ShieldHead.labelMale>Arachnae Shield Head</ArachnaeNode_Race_ShieldHead.labelMale>
+  <ArachnaeNode_Race_ShieldHead.labelMalePlural>Arachnae Shield Heads</ArachnaeNode_Race_ShieldHead.labelMalePlural>
+  <ArachnaeNode_Race_ShieldHead.labelFemale>Arachnae Shield Head</ArachnaeNode_Race_ShieldHead.labelFemale>
+  <ArachnaeNode_Race_ShieldHead.labelFemalePlural>Arachnae Shield Heads</ArachnaeNode_Race_ShieldHead.labelFemalePlural>
+
+  <ArachnaeNode_Race_WeaponSmith.label>Arachnae Artificer</ArachnaeNode_Race_WeaponSmith.label>
+  <ArachnaeNode_Race_WeaponSmith.labelPlural>Arachnae Artificers</ArachnaeNode_Race_WeaponSmith.labelPlural>
+  <ArachnaeNode_Race_WeaponSmith.labelMale>Arachnae Artificer</ArachnaeNode_Race_WeaponSmith.labelMale>
+  <ArachnaeNode_Race_WeaponSmith.labelMalePlural>Arachnae Artificers</ArachnaeNode_Race_WeaponSmith.labelMalePlural>
+  <ArachnaeNode_Race_WeaponSmith.labelFemale>Arachnae Artificer</ArachnaeNode_Race_WeaponSmith.labelFemale>
+  <ArachnaeNode_Race_WeaponSmith.labelFemalePlural>Arachnae Artificers</ArachnaeNode_Race_WeaponSmith.labelFemalePlural>
+
+  <ArachnaeNode_Race_Facehugger.label>Arachnae Protozoan</ArachnaeNode_Race_Facehugger.label>
+  <ArachnaeNode_Race_Facehugger.labelPlural>Arachnae Protozoans</ArachnaeNode_Race_Facehugger.labelPlural>
+  <ArachnaeNode_Race_Facehugger.labelMale>Arachnae Protozoan</ArachnaeNode_Race_Facehugger.labelMale>
+  <ArachnaeNode_Race_Facehugger.labelMalePlural>Arachnae Protozoans</ArachnaeNode_Race_Facehugger.labelMalePlural>
+  <ArachnaeNode_Race_Facehugger.labelFemale>Arachnae Protozoan</ArachnaeNode_Race_Facehugger.labelFemale>
+  <ArachnaeNode_Race_Facehugger.labelFemalePlural>Arachnae Protozoans</ArachnaeNode_Race_Facehugger.labelFemalePlural>
+
+  <ArachnaeNode_Race_Fighter.label>Arachnae Fighter</ArachnaeNode_Race_Fighter.label>
+  <ArachnaeNode_Race_Fighter.labelPlural>Arachnae Fighters</ArachnaeNode_Race_Fighter.labelPlural>
+  <ArachnaeNode_Race_Fighter.labelMale>Arachnae Fighter</ArachnaeNode_Race_Fighter.labelMale>
+  <ArachnaeNode_Race_Fighter.labelMalePlural>Arachnae Fighters</ArachnaeNode_Race_Fighter.labelMalePlural>
+  <ArachnaeNode_Race_Fighter.labelFemale>Arachnae Fighter</ArachnaeNode_Race_Fighter.labelFemale>
+  <ArachnaeNode_Race_Fighter.labelFemalePlural>Arachnae Fighters</ArachnaeNode_Race_Fighter.labelFemalePlural>
+
+  <ArachnaeNode_Race_Smokepop.label>Arachnae Smogger</ArachnaeNode_Race_Smokepop.label>
+  <ArachnaeNode_Race_Smokepop.labelPlural>Arachnae Smoggers</ArachnaeNode_Race_Smokepop.labelPlural>
+  <ArachnaeNode_Race_Smokepop.labelMale>Arachnae Smogger</ArachnaeNode_Race_Smokepop.labelMale>
+  <ArachnaeNode_Race_Smokepop.labelMalePlural>Arachnae Smoggers</ArachnaeNode_Race_Smokepop.labelMalePlural>
+  <ArachnaeNode_Race_Smokepop.labelFemale>Arachnae Smogger</ArachnaeNode_Race_Smokepop.labelFemale>
+  <ArachnaeNode_Race_Smokepop.labelFemalePlural>Arachnae Smoggers</ArachnaeNode_Race_Smokepop.labelFemalePlural>
+
+  <ArachnaeNode_Race_Skyraider.label>Arachnae Skyraider</ArachnaeNode_Race_Skyraider.label>
+  <ArachnaeNode_Race_Skyraider.labelPlural>Arachnae Skyraiders</ArachnaeNode_Race_Skyraider.labelPlural>
+  <ArachnaeNode_Race_Skyraider.labelMale>Arachnae Skyraider</ArachnaeNode_Race_Skyraider.labelMale>
+  <ArachnaeNode_Race_Skyraider.labelMalePlural>Arachnae Skyraiders</ArachnaeNode_Race_Skyraider.labelMalePlural>
+  <ArachnaeNode_Race_Skyraider.labelFemale>Arachnae Skyraider</ArachnaeNode_Race_Skyraider.labelFemale>
+  <ArachnaeNode_Race_Skyraider.labelFemalePlural>Arachnae Skyraiders</ArachnaeNode_Race_Skyraider.labelFemalePlural>
+
+  <ArachnaeNode_Race_NeuroSwarm.label>Arachnae Weaver</ArachnaeNode_Race_NeuroSwarm.label>
+  <ArachnaeNode_Race_NeuroSwarm.labelPlural>Arachnae Weavers</ArachnaeNode_Race_NeuroSwarm.labelPlural>
+  <ArachnaeNode_Race_NeuroSwarm.labelMale>Arachnae Weaver</ArachnaeNode_Race_NeuroSwarm.labelMale>
+  <ArachnaeNode_Race_NeuroSwarm.labelMalePlural>Arachnae Weavers</ArachnaeNode_Race_NeuroSwarm.labelMalePlural>
+  <ArachnaeNode_Race_NeuroSwarm.labelFemale>Arachnae Weaver</ArachnaeNode_Race_NeuroSwarm.labelFemale>
+  <ArachnaeNode_Race_NeuroSwarm.labelFemalePlural>Arachnae Weavers</ArachnaeNode_Race_NeuroSwarm.labelFemalePlural>
+
+  <ArachnaeNode_Race_Praetorian.label>Arachnae Praetorian</ArachnaeNode_Race_Praetorian.label>
+  <ArachnaeNode_Race_Praetorian.labelPlural>Arachnae Praetorians</ArachnaeNode_Race_Praetorian.labelPlural>
+  <ArachnaeNode_Race_Praetorian.labelMale>Arachnae Praetorian</ArachnaeNode_Race_Praetorian.labelMale>
+  <ArachnaeNode_Race_Praetorian.labelMalePlural>Arachnae Praetorians</ArachnaeNode_Race_Praetorian.labelMalePlural>
+  <ArachnaeNode_Race_Praetorian.labelFemale>Arachnae Praetorian</ArachnaeNode_Race_Praetorian.labelFemale>
+  <ArachnaeNode_Race_Praetorian.labelFemalePlural>Arachnae Praetorians</ArachnaeNode_Race_Praetorian.labelFemalePlural>
+
+  <ARA_MimicNematodeShamblerSwarmer.label>Arachnae Mimic Nematode</ARA_MimicNematodeShamblerSwarmer.label>
+  <ARA_MimicNematodeShamblerSwarmer.labelPlural>Arachnae Mimic Nematodes</ARA_MimicNematodeShamblerSwarmer.labelPlural>
+  <ARA_MimicNematodeShamblerSwarmer.labelMale>Arachnae Mimic Nematode</ARA_MimicNematodeShamblerSwarmer.labelMale>
+  <ARA_MimicNematodeShamblerSwarmer.labelMalePlural>Arachnae Mimic Nematodes</ARA_MimicNematodeShamblerSwarmer.labelMalePlural>
+  <ARA_MimicNematodeShamblerSwarmer.labelFemale>Arachnae Mimic Nematode</ARA_MimicNematodeShamblerSwarmer.labelFemale>
+  <ARA_MimicNematodeShamblerSwarmer.labelFemalePlural>Arachnae Mimic Nematodes</ARA_MimicNematodeShamblerSwarmer.labelFemalePlural>
+
+  <ArachnaeBase_Race_Scavenger.label>Arachnae Scavenger</ArachnaeBase_Race_Scavenger.label>
+  <ArachnaeBase_Race_Scavenger.labelPlural>Arachnae Scavengers</ArachnaeBase_Race_Scavenger.labelPlural>
+  <ArachnaeBase_Race_Scavenger.labelMale>Arachnae Scavenger</ArachnaeBase_Race_Scavenger.labelMale>
+  <ArachnaeBase_Race_Scavenger.labelMalePlural>Arachnae Scavengers</ArachnaeBase_Race_Scavenger.labelMalePlural>
+  <ArachnaeBase_Race_Scavenger.labelFemale>Arachnae Scavenger</ArachnaeBase_Race_Scavenger.labelFemale>
+  <ArachnaeBase_Race_Scavenger.labelFemalePlural>Arachnae Scavengers</ArachnaeBase_Race_Scavenger.labelFemalePlural>
+
+  <ArachnaeBase_Race_HardJaw.label>Arachnae Hard Jaw</ArachnaeBase_Race_HardJaw.label>
+  <ArachnaeBase_Race_HardJaw.labelPlural>Arachnae Hard Jaws</ArachnaeBase_Race_HardJaw.labelPlural>
+  <ArachnaeBase_Race_HardJaw.labelMale>Arachnae Hard Jaw</ArachnaeBase_Race_HardJaw.labelMale>
+  <ArachnaeBase_Race_HardJaw.labelMalePlural>Arachnae Hard Jaws</ArachnaeBase_Race_HardJaw.labelMalePlural>
+  <ArachnaeBase_Race_HardJaw.labelFemale>Arachnae Hard Jaw</ArachnaeBase_Race_HardJaw.labelFemale>
+  <ArachnaeBase_Race_HardJaw.labelFemalePlural>Arachnae Hard Jaws</ArachnaeBase_Race_HardJaw.labelFemalePlural>
+
+  <ArachnaeBase_Race_Maid.label>Arachnae Domestic</ArachnaeBase_Race_Maid.label>
+  <ArachnaeBase_Race_Maid.labelPlural>Arachnae Domestics</ArachnaeBase_Race_Maid.labelPlural>
+  <ArachnaeBase_Race_Maid.labelMale>Arachnae Domestic</ArachnaeBase_Race_Maid.labelMale>
+  <ArachnaeBase_Race_Maid.labelMalePlural>Arachnae Domestics</ArachnaeBase_Race_Maid.labelMalePlural>
+  <ArachnaeBase_Race_Maid.labelFemale>Arachnae Domestic</ArachnaeBase_Race_Maid.labelFemale>
+  <ArachnaeBase_Race_Maid.labelFemalePlural>Arachnae Domestics</ArachnaeBase_Race_Maid.labelFemalePlural>
+
+  <ArachnaeBase_Race_Acidcut.label>Arachnae Acid Scourge</ArachnaeBase_Race_Acidcut.label>
+  <ArachnaeBase_Race_Acidcut.labelPlural>Arachnae Acid Scourges</ArachnaeBase_Race_Acidcut.labelPlural>
+  <ArachnaeBase_Race_Acidcut.labelMale>Arachnae Acid Scourge</ArachnaeBase_Race_Acidcut.labelMale>
+  <ArachnaeBase_Race_Acidcut.labelMalePlural>Arachnae Acid Scourges</ArachnaeBase_Race_Acidcut.labelMalePlural>
+  <ArachnaeBase_Race_Acidcut.labelFemale>Arachnae Acid Scourge</ArachnaeBase_Race_Acidcut.labelFemale>
+  <ArachnaeBase_Race_Acidcut.labelFemalePlural>Arachnae Acid Scourges</ArachnaeBase_Race_Acidcut.labelFemalePlural>
+
+  <ArachnaeBase_Race_Acidling.label>Arachnae Exploder</ArachnaeBase_Race_Acidling.label>
+  <ArachnaeBase_Race_Acidling.labelPlural>Arachnae Exploders</ArachnaeBase_Race_Acidling.labelPlural>
+  <ArachnaeBase_Race_Acidling.labelMale>Arachnae Exploder</ArachnaeBase_Race_Acidling.labelMale>
+  <ArachnaeBase_Race_Acidling.labelMalePlural>Arachnae Exploders</ArachnaeBase_Race_Acidling.labelMalePlural>
+  <ArachnaeBase_Race_Acidling.labelFemale>Arachnae Exploder</ArachnaeBase_Race_Acidling.labelFemale>
+  <ArachnaeBase_Race_Acidling.labelFemalePlural>Arachnae Exploders</ArachnaeBase_Race_Acidling.labelFemalePlural>
+
+  <ArachnaeBase_Race_Empsuicider.label>Arachnae EMP Exploder</ArachnaeBase_Race_Empsuicider.label>
+  <ArachnaeBase_Race_Empsuicider.labelPlural>Arachnae EMP Exploders</ArachnaeBase_Race_Empsuicider.labelPlural>
+  <ArachnaeBase_Race_Empsuicider.labelMale>Arachnae EMP Exploder</ArachnaeBase_Race_Empsuicider.labelMale>
+  <ArachnaeBase_Race_Empsuicider.labelMalePlural>Arachnae EMP Exploders</ArachnaeBase_Race_Empsuicider.labelMalePlural>
+  <ArachnaeBase_Race_Empsuicider.labelFemale>Arachnae EMP Exploder</ArachnaeBase_Race_Empsuicider.labelFemale>
+  <ArachnaeBase_Race_Empsuicider.labelFemalePlural>Arachnae EMP Exploders</ArachnaeBase_Race_Empsuicider.labelFemalePlural>
+
+  <ArachnaeBase_Race_Skyhive.label>Arachnae Sky Hive</ArachnaeBase_Race_Skyhive.label>
+  <ArachnaeBase_Race_Skyhive.labelPlural>Arachnae Sky Hives</ArachnaeBase_Race_Skyhive.labelPlural>
+  <ArachnaeBase_Race_Skyhive.labelMale>Arachnae Sky Hive</ArachnaeBase_Race_Skyhive.labelMale>
+  <ArachnaeBase_Race_Skyhive.labelMalePlural>Arachnae Sky Hives</ArachnaeBase_Race_Skyhive.labelMalePlural>
+  <ArachnaeBase_Race_Skyhive.labelFemale>Arachnae Sky Hive</ArachnaeBase_Race_Skyhive.labelFemale>
+  <ArachnaeBase_Race_Skyhive.labelFemalePlural>Arachnae Sky Hives</ArachnaeBase_Race_Skyhive.labelFemalePlural>
+
+  <ARA_MimicNematodeShamblerSwarmer.label>Arachnae Mimic Nematode Parasite</ARA_MimicNematodeShamblerSwarmer.label>
+
+
+</LanguageData>

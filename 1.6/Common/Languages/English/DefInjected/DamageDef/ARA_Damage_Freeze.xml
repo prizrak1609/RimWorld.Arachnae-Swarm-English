@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Damage_Freeze.label>Freeze</ARA_Damage_Freeze.label>
+  <ARA_Damage_Freeze.deathMessage>{0}'s body became an ice sculpture in the extreme cold, and was eventually shattered to pieces.</ARA_Damage_Freeze.deathMessage>
+
+  <ARA_Damage_Freeze_ex.label>Freeze</ARA_Damage_Freeze_ex.label>
+  <ARA_Damage_Freeze_ex.deathMessage>{0}'s body became an ice sculpture in the extreme cold, and was eventually shattered to pieces.</ARA_Damage_Freeze_ex.deathMessage>
+
+
+</LanguageData>

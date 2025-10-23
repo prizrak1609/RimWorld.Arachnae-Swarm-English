@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArachnaeBase_Race_Acidcut.label>Arachnae Acid-Bite Species</ArachnaeBase_Race_Acidcut.label>
+  <ArachnaeBase_Race_Acidcut.description>A type of Arachnae auxiliary bug with low intelligence, usually launched as a bio-projectile. If it hasn't disintegrated upon hitting the enemy, it continues to bite the foe with its acid-containing mandibles.</ArachnaeBase_Race_Acidcut.description>
+  <ArachnaeBase_Race_Acidcut.comps.CompMechPowerCell.labelOverride>Lifespan</ArachnaeBase_Race_Acidcut.comps.CompMechPowerCell.labelOverride>
+  <ArachnaeBase_Race_Acidcut.comps.CompMechPowerCell.tooltipOverride>This special Arachnae auxiliary bug is on a path to death from the moment it is born—that's how short its lifespan is.</ArachnaeBase_Race_Acidcut.comps.CompMechPowerCell.tooltipOverride>
+  <ArachnaeBase_Race_Acidcut.tools.0.label>Gigantic Jaw</ArachnaeBase_Race_Acidcut.tools.0.label>
+
+  <ArachnaeBase_Race_Skyhive.label>Arachnae Sky-Nest Species</ArachnaeBase_Race_Skyhive.label>
+  <ArachnaeBase_Race_Skyhive.description>A type of Arachnae auxiliary bug with low intelligence, usually launched like a missile by a command bug. It has the ability to adjust its posture during flight to track enemies, and after impact, it clings to the enemy and continues to bite with its mandibles until its gill-stinger loosens and falls off.</ArachnaeBase_Race_Skyhive.description>
+  <ArachnaeBase_Race_Skyhive.comps.CompMechPowerCell.labelOverride>Lifespan</ArachnaeBase_Race_Skyhive.comps.CompMechPowerCell.labelOverride>
+  <ArachnaeBase_Race_Skyhive.comps.CompMechPowerCell.tooltipOverride>This special Arachnae auxiliary bug is on a path to death from the moment it is born—that's how short its lifespan is.</ArachnaeBase_Race_Skyhive.comps.CompMechPowerCell.tooltipOverride>
+  <ArachnaeBase_Race_Skyhive.tools.0.label>Gigantic Jaw</ArachnaeBase_Race_Skyhive.tools.0.label>
+
+  <ArachnaeBase_Race_Acidling.label>Arachnae Explosive Species</ArachnaeBase_Race_Acidling.label>
+  <ArachnaeBase_Race_Acidling.description>A type of Arachnae auxiliary bug with low intelligence that attacks enemies with a suicide attack. Upon approaching the enemy, it explodes its acid sac, creating a dangerous acidic mist.</ArachnaeBase_Race_Acidling.description>
+  <ArachnaeBase_Race_Acidling.comps.CompMechPowerCell.labelOverride>Lifespan</ArachnaeBase_Race_Acidling.comps.CompMechPowerCell.labelOverride>
+  <ArachnaeBase_Race_Acidling.comps.CompMechPowerCell.tooltipOverride>This special Arachnae auxiliary bug is on a path to death from the moment it is born—that's how short its lifespan is.</ArachnaeBase_Race_Acidling.comps.CompMechPowerCell.tooltipOverride>
+  <ArachnaeBase_Race_Acidling.tools.0.label>Huge Jaw</ArachnaeBase_Race_Acidling.tools.0.label>
+
+  <ArachnaeBase_Race_Empsuicider.label>Arachnae Explosive Species (EMP)</ArachnaeBase_Race_Empsuicider.label>
+  <ArachnaeBase_Race_Empsuicider.description>A type of Arachnae auxiliary bug with low intelligence that attacks enemies with a suicide attack. Upon approaching the enemy, it emits an EMP to stun accompanying mechanoids.</ArachnaeBase_Race_Empsuicider.description>
+  <ArachnaeBase_Race_Empsuicider.comps.CompMechPowerCell.labelOverride>Lifespan</ArachnaeBase_Race_Empsuicider.comps.CompMechPowerCell.labelOverride>
+  <ArachnaeBase_Race_Empsuicider.comps.CompMechPowerCell.tooltipOverride>This special Arachnae auxiliary bug is on a path to death from the moment it is born—that's how short its lifespan is.</ArachnaeBase_Race_Empsuicider.comps.CompMechPowerCell.tooltipOverride>
+  <ArachnaeBase_Race_Empsuicider.tools.0.label>Gigantic Jaw</ArachnaeBase_Race_Empsuicider.tools.0.label>
+
+
+</LanguageData>

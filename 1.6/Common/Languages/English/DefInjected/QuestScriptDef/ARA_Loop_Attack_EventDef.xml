@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Loop_Raid_Quest.label>Insectoid Swarm Attack</ARA_Loop_Raid_Quest.label>
+  <ARA_Loop_Raid_Quest.description>Insectoid swarm attack description</ARA_Loop_Raid_Quest.description>
+  <ARA_Loop_Raid_Quest.root.nodes.ResolveQuestName.rules.slateRef>
+    <rulesStrings>
+      <li>questName->Insectoid Swarm Attack</li>
+    </rulesStrings>
+  </ARA_Loop_Raid_Quest.root.nodes.ResolveQuestName.rules.slateRef>
+
+  <ARA_Loop_Raid_Quest.root.nodes.ResolveQuestDescription.rules.slateRef>    <rulesStrings>
+      <li>questName->Insectoid Swarm Attack questDescription</li>
+    </rulesStrings>
+</ARA_Loop_Raid_Quest.root.nodes.ResolveQuestDescription.rules.slateRef>
+
+  <ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterLabel.slateRef>Insectoid Swarm Attack Label</ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterLabel.slateRef>
+  <ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterText.slateRef>Insectoid Swarm Attack Text</ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterText.slateRef>
+  <ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterTitle.slateRef>Insectoid Swarm Attack Title</ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterTitle.slateRef>
+  <ARA_Loop_Raid_Quest.root.nodes.2.options.0.label>The Attack Has Begun</ARA_Loop_Raid_Quest.root.nodes.2.options.0.label>
+
+
+</LanguageData>

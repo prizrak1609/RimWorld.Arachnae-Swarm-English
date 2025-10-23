@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Medicine.label>Arachnae Fuser</ARA_Medicine.label>
+  <ARA_Medicine.description>Medicine produced from an Arachnae Hatching Cocoon. It has the same effect as normal medicine but requires refrigeration.</ARA_Medicine.description>
+
+
+  <ARA_PheromoneSolvent.label>Arachnae Pheromone Solvent</ARA_PheromoneSolvent.label>
+  <ARA_PheromoneSolvent.description>A synthetic chemical designed to mimic the pheromones used by the Arachnae swarm to distinguish friend from foe. Regular injection deceives the parasite within the host, inducing a symbiotic dormant state and inhibiting fatal proliferation behavior.</ARA_PheromoneSolvent.description>
+  <ARA_PheromoneSolvent.ingestible.ingestCommandString>Take {0}</ARA_PheromoneSolvent.ingestible.ingestCommandString>
+  <ARA_PheromoneSolvent.ingestible.ingestReportString>Taking {0}</ARA_PheromoneSolvent.ingestible.ingestReportString>
+
+
+</LanguageData>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-  <ARA_AlertUnlinkedDroneLabel>Unlinked Swarm Drone</ARA_AlertUnlinkedDroneLabel>
-  <ARA_AlertUnlinkedDroneExplanation>An Unlinked Swarm Drone exists on the map. These drones will die after a period of time. Please link them to an Arachnae Queen as soon as possible.</ARA_AlertUnlinkedDroneExplanation>
-
-</LanguageData>

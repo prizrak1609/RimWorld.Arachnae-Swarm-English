@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_AlertUnlinkedDroneLabel>Unlinked Swarm Worker</ARA_AlertUnlinkedDroneLabel>
+  <ARA_AlertUnlinkedDroneExplanation>There are Swarm Workers on the map that are not linked to an Arachnae Queen. These workers will die after a while. Link them to an Arachnae Queen as soon as possible.</ARA_AlertUnlinkedDroneExplanation>
+
+</LanguageData>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_EggSpew.label>Lay Egg</ARA_EggSpew.label>
+  <ARA_EggSpew.description>Expels a dormant egg from the ovaries. The Arachne Queen can activate it by contact and select the type of overseer to hatch. Check the egg's detailed information for the characteristics of each overseer type.\n\nOnly small swarm units hatch from this egg.</ARA_EggSpew.description>
+  <ARA_EggSpew.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_EggSpew.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_EggSpew.comps.CompAbilityEffect_BodyPartCheck.failMessage>Cannot gestate because the ovaries are damaged or missing</ARA_EggSpew.comps.CompAbilityEffect_BodyPartCheck.failMessage>
+  <ARA_EggSpew.comps.CompAbilityEffect_ShowSpawnablePawns.customLabel>Level 0 Arachne Egg Hatchable Units</ARA_EggSpew.comps.CompAbilityEffect_ShowSpawnablePawns.customLabel>
+  <ARA_EggSpew.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_EggSpew.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+
+  <ARA_EggSpew_Huge.label>Lay Large Egg</ARA_EggSpew_Huge.label>
+  <ARA_EggSpew_Huge.description>Expels a dormant large egg from the ovaries. The Arachne Queen can activate the egg by contact and select the type of overseer to hatch. Check the egg's detailed information for the characteristics of each overseer type.\n\nOnly large swarm units hatch from this egg.</ARA_EggSpew_Huge.description>
+  <ARA_EggSpew_Huge.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_EggSpew_Huge.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_EggSpew_Huge.comps.CompAbilityEffect_BodyPartCheck.failMessage>Cannot gestate because the ovaries are damaged or missing</ARA_EggSpew_Huge.comps.CompAbilityEffect_BodyPartCheck.failMessage>
+  <ARA_EggSpew_Huge.comps.CompAbilityEffect_ShowSpawnablePawns.customLabel>Level 0 Large Arachne Egg Hatchable Units</ARA_EggSpew_Huge.comps.CompAbilityEffect_ShowSpawnablePawns.customLabel>
+  <ARA_EggSpew_Huge.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_EggSpew_Huge.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+
+
+  <ARA_EggSpew_1Stage.label>Lay Egg - Level 1</ARA_EggSpew_1Stage.label>
+  <ARA_EggSpew_1Stage.description>Expels a dormant egg from the ovaries. The Arachne Queen can activate it by contact and select the type of overseer to hatch. Check the egg's detailed information for the characteristics of each overseer type.\n\nOnly small swarm units hatch from this egg.</ARA_EggSpew_1Stage.description>
+  <ARA_EggSpew_1Stage.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_EggSpew_1Stage.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_EggSpew_1Stage.comps.CompAbilityEffect_BodyPartCheck.failMessage>Cannot gestate because the ovaries are damaged or missing</ARA_EggSpew_1Stage.comps.CompAbilityEffect_BodyPartCheck.failMessage>
+  <ARA_EggSpew_1Stage.comps.CompAbilityEffect_ShowSpawnablePawns.customLabel>Level 1 Arachne Egg Hatchable Units</ARA_EggSpew_1Stage.comps.CompAbilityEffect_ShowSpawnablePawns.customLabel>
+  <ARA_EggSpew_1Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_EggSpew_1Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+
+  <ARA_EggSpew_Huge_1Stage.label>Lay Large Egg - Level 1</ARA_EggSpew_Huge_1Stage.label>
+  <ARA_EggSpew_Huge_1Stage.description>Expels a dormant large egg from the ovaries. The Arachne Queen can activate the egg by contact and select the type of overseer to hatch. Check the egg's detailed information for the characteristics of each overseer type.\n\nOnly large swarm units hatch from this egg.</ARA_EggSpew_Huge_1Stage.description>
+  <ARA_EggSpew_Huge_1Stage.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_EggSpew_Huge_1Stage.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_EggSpew_Huge_1Stage.comps.CompAbilityEffect_BodyPartCheck.failMessage>Cannot gestate because the ovaries are damaged or missing</ARA_EggSpew_Huge_1Stage.comps.CompAbilityEffect_BodyPartCheck.failMessage>
+  <ARA_EggSpew_Huge_1Stage.comps.CompAbilityEffect_ShowSpawnablePawns.customLabel>Level 1 Large Arachne Egg Hatchable Units</ARA_EggSpew_Huge_1Stage.comps.CompAbilityEffect_ShowSpawnablePawns.customLabel>
+  <ARA_EggSpew_Huge_1Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_EggSpew_Huge_1Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+
+
+  <ARA_EggSpew_2Stage.label>Lay Egg - Level 2</ARA_EggSpew_2Stage.label>
+  <ARA_EggSpew_2Stage.description>Expels a dormant egg from the ovaries. The Arachne Queen can activate it by contact and select the type of overseer to hatch. Check the egg's detailed information for the characteristics of each overseer type.\n\nOnly small swarm units hatch from this egg.</ARA_EggSpew_2Stage.description>
+  <ARA_EggSpew_2Stage.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_EggSpew_2Stage.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_EggSpew_2Stage.comps.CompAbilityEffect_BodyPartCheck.failMessage>Cannot gestate because the ovaries are damaged or missing</ARA_EggSpew_2Stage.comps.CompAbilityEffect_BodyPartCheck.failMessage>
+  <ARA_EggSpew_2Stage.comps.CompAbilityEffect_ShowSpawnablePawns.customLabel>Level 2 Arachne Egg Hatchable Units</ARA_EggSpew_2Stage.comps.CompAbilityEffect_ShowSpawnablePawns.customLabel>
+  <ARA_EggSpew_2Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_EggSpew_2Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+
+  <ARA_EggSpew_Huge_2Stage.label>Lay Large Egg - Level 2</ARA_EggSpew_Huge_2Stage.label>
+  <ARA_EggSpew_Huge_2Stage.description>Expels a dormant large egg from the ovaries. The Arachne Queen can activate the egg by contact and select the type of overseer to hatch. Check the egg's detailed information for the characteristics of each overseer type.\n\nOnly large swarm units hatch from this egg.</ARA_EggSpew_Huge_2Stage.description>
+  <ARA_EggSpew_Huge_2Stage.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_EggSpew_Huge_2Stage.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_EggSpew_Huge_2Stage.comps.CompAbilityEffect_BodyPartCheck.failMessage>Cannot gestate because the ovaries are damaged or missing</ARA_EggSpew_Huge_2Stage.comps.CompAbilityEffect_BodyPartCheck.failMessage>
+  <ARA_EggSpew_Huge_2Stage.comps.CompAbilityEffect_ShowSpawnablePawns.customLabel>Level 2 Large Arachne Egg Hatchable Units</ARA_EggSpew_Huge_2Stage.comps.CompAbilityEffect_ShowSpawnablePawns.customLabel>
+  <ARA_EggSpew_Huge_2Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_EggSpew_Huge_2Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+
+  <ARA_EggSpew_Techprint.label>Gestation Gene Test Egg</ARA_EggSpew_Techprint.label>
+  <ARA_EggSpew_Techprint.description>A special egg expelled from the ovaries that cannot hatch an overseer but can hatch a specific research techprint. The Arachne Queen can activate it by contact.\n\nThis egg operates by consuming a large amount of essence, and which techprint can be hatched depends on the research progress at the time of deployment. Techprints corresponding to ununlocked research cannot be hatched.</ARA_EggSpew_Techprint.description>
+  <ARA_EggSpew_Techprint.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_EggSpew_Techprint.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_EggSpew_Techprint.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node ESS-5 "Essence Extraction" to unlock skill</ARA_EggSpew_Techprint.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+
+  <ARA_Cocoon_Cloth.label>Fabric Hatching Cocoon</ARA_Cocoon_Cloth.label>
+  <ARA_Cocoon_Cloth.description>Drops a Fabric Cocoon. It contains nutrients and genetic material to hatch a basic set of fabric items. -- Click the cocoon's hyperlink to check the characteristics of all craftable equipment.</ARA_Cocoon_Cloth.description>
+  <ARA_Cocoon_Cloth.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Cocoon_Cloth.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_Cocoon_Cloth.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Cloth.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_Cocoon_Cloth.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>Hatchable Item List</ARA_Cocoon_Cloth.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>
+
+  <ARA_Cocoon_Weapon.label>Weapon Organ Hatching Cocoon</ARA_Cocoon_Weapon.label>
+  <ARA_Cocoon_Weapon.description>Drops a Weapon Organ Cocoon. It contains nutrients and genetic material to hatch a basic set of weapon organs. -- Click the cocoon's hyperlink to check the characteristics of all craftable equipment.</ARA_Cocoon_Weapon.description>
+  <ARA_Cocoon_Weapon.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Cocoon_Weapon.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_Cocoon_Weapon.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Weapon.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_Cocoon_Weapon.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>Hatchable Item List</ARA_Cocoon_Weapon.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>
+
+  <ARA_Cocoon_Cloth_From_Death.label>Corpse Weave: Fabric Hatching Cocoon</ARA_Cocoon_Cloth_From_Death.label>
+  <ARA_Cocoon_Cloth_From_Death.description>Designates a non-rotting or lightly rotted corpse and converts it into a Fabric Cocoon. The nutritional value remaining in the corpse is converted into the cocoon's nutritional value. -- Click the cocoon's hyperlink to check the characteristics of all craftable equipment.</ARA_Cocoon_Cloth_From_Death.description>
+  <ARA_Cocoon_Cloth_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Cloth_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_Cocoon_Cloth_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>Hatchable Item List</ARA_Cocoon_Cloth_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>
+
+  <ARA_Cocoon_Weapon_From_Death.label>Corpse Weave: Weapon Organ Hatching Cocoon</ARA_Cocoon_Weapon_From_Death.label>
+  <ARA_Cocoon_Weapon_From_Death.description>Designates a non-rotting or lightly rotted corpse and converts it into a Weapon Organ Cocoon. The nutritional value remaining in the corpse is converted into the cocoon's nutritional value. -- Click the cocoon's hyperlink to check the characteristics of all craftable equipment.</ARA_Cocoon_Weapon_From_Death.description>
+  <ARA_Cocoon_Weapon_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Weapon_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_Cocoon_Weapon_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>Hatchable Item List</ARA_Cocoon_Weapon_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>
+
+
+  <ARA_Cocoon_Cloth_1Stage.label>Fabric Hatching Cocoon - Level 1</ARA_Cocoon_Cloth_1Stage.label>
+  <ARA_Cocoon_Cloth_1Stage.description>Drops a Fabric Cocoon. It contains nutrients and genetic material to hatch a basic set of fabric items. -- Click the cocoon's hyperlink to check the characteristics of all craftable equipment.</ARA_Cocoon_Cloth_1Stage.description>
+  <ARA_Cocoon_Cloth_1Stage.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Cocoon_Cloth_1Stage.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_Cocoon_Cloth_1Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Cloth_1Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_Cocoon_Cloth_1Stage.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>Hatchable Item List</ARA_Cocoon_Cloth_1Stage.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>
+
+  <ARA_Cocoon_Weapon_1Stage.label>Weapon Organ Hatching Cocoon - Level 1</ARA_Cocoon_Weapon_1Stage.label>
+  <ARA_Cocoon_Weapon_1Stage.description>Drops a Weapon Organ Cocoon. It contains nutrients and genetic material to hatch a basic set of weapon organs. -- Click the cocoon's hyperlink to check the characteristics of all craftable equipment.</ARA_Cocoon_Weapon_1Stage.description>
+  <ARA_Cocoon_Weapon_1Stage.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Cocoon_Weapon_1Stage.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_Cocoon_Weapon_1Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Weapon_1Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_Cocoon_Weapon_1Stage.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>Hatchable Item List</ARA_Cocoon_Weapon_1Stage.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>
+
+  <ARA_Cocoon_Cloth_1Stage_From_Death.label>Corpse Weave: Fabric Hatching Cocoon - Level 1</ARA_Cocoon_Cloth_1Stage_From_Death.label>
+  <ARA_Cocoon_Cloth_1Stage_From_Death.description>Designates a non-rotting or lightly rotted corpse and converts it into a Fabric Cocoon. The nutritional value remaining in the corpse is converted into the cocoon's nutritional value. -- Click the cocoon's hyperlink to check the characteristics of all craftable equipment.</ARA_Cocoon_Cloth_1Stage_From_Death.description>
+  <ARA_Cocoon_Cloth_1Stage_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Cloth_1Stage_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_Cocoon_Cloth_1Stage_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>Hatchable Item List</ARA_Cocoon_Cloth_1Stage_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>
+
+  <ARA_Cocoon_Weapon_1Stage_From_Death.label>Corpse Weave: Weapon Organ Hatching Cocoon - Level 1</ARA_Cocoon_Weapon_1Stage_From_Death.label>
+  <ARA_Cocoon_Weapon_1Stage_From_Death.description>Designates a non-rotting or lightly rotted corpse and converts it into a Weapon Organ Cocoon. The nutritional value remaining in the corpse is converted into the cocoon's nutritional value. -- Click the cocoon's hyperlink to check the characteristics of all craftable equipment.</ARA_Cocoon_Weapon_1Stage_From_Death.description>
+  <ARA_Cocoon_Weapon_1Stage_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Weapon_1Stage_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_Cocoon_Weapon_1Stage_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>Hatchable Item List</ARA_Cocoon_Weapon_1Stage_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>
+
+
+  <ARA_Cocoon_Cloth_2Stage.label>Fabric Hatching Cocoon - Level 2</ARA_Cocoon_Cloth_2Stage.label>
+  <ARA_Cocoon_Cloth_2Stage.description>Drops a Fabric Cocoon. It contains nutrients and genetic material to hatch a basic set of fabric items. -- Click the cocoon's hyperlink to check the characteristics of all craftable equipment.</ARA_Cocoon_Cloth_2Stage.description>
+  <ARA_Cocoon_Cloth_2Stage.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Cocoon_Cloth_2Stage.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_Cocoon_Cloth_2Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Cloth_2Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_Cocoon_Cloth_2Stage.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>Hatchable Item List</ARA_Cocoon_Cloth_2Stage.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>
+
+  <ARA_Cocoon_Weapon_2Stage.label>Weapon Organ Hatching Cocoon - Level 2</ARA_Cocoon_Weapon_2Stage.label>
+  <ARA_Cocoon_Weapon_2Stage.description>Drops a Weapon Organ Cocoon. It contains nutrients and genetic material to hatch a basic set of weapon organs. -- Click the cocoon's hyperlink to check the characteristics of all craftable equipment.</ARA_Cocoon_Weapon_2Stage.description>
+  <ARA_Cocoon_Weapon_2Stage.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Cocoon_Weapon_2Stage.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_Cocoon_Weapon_2Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Weapon_2Stage.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_Cocoon_Weapon_2Stage.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>Hatchable Item List</ARA_Cocoon_Weapon_2Stage.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>
+
+  <ARA_Cocoon_Cloth_2Stage_From_Death.label>Corpse Weave: Fabric Hatching Cocoon - Level 2</ARA_Cocoon_Cloth_2Stage_From_Death.label>
+  <ARA_Cocoon_Cloth_2Stage_From_Death.description>Designates a non-rotting or lightly rotted corpse and converts it into a Fabric Cocoon. The nutritional value remaining in the corpse is converted into the cocoon's nutritional value. -- Click the cocoon's hyperlink to check the characteristics of all craftable equipment.</ARA_Cocoon_Cloth_2Stage_From_Death.description>
+  <ARA_Cocoon_Cloth_2Stage_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Cloth_2Stage_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_Cocoon_Cloth_2Stage_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>Hatchable Item List</ARA_Cocoon_Cloth_2Stage_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>
+
+  <ARA_Cocoon_Weapon_2Stage_From_Death.label>Corpse Weave: Weapon Organ Hatching Cocoon - Level 2</ARA_Cocoon_Weapon_2Stage_From_Death.label>
+  <ARA_Cocoon_Weapon_2Stage_From_Death.description>Designates a non-rotting or lightly rotted corpse and converts it into a Weapon Organ Cocoon. The nutritional value remaining in the corpse is converted into the cocoon's nutritional value. -- Click the cocoon's hyperlink to check the characteristics of all craftable equipment.</ARA_Cocoon_Weapon_2Stage_From_Death.description>
+  <ARA_Cocoon_Weapon_2Stage_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Weapon_2Stage_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_Cocoon_Weapon_2Stage_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>Hatchable Item List</ARA_Cocoon_Weapon_2Stage_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>
+
+  <ARA_Cocoon_Medicine.label>Fabric Medical Cocoon</ARA_Cocoon_Medicine.label>
+  <ARA_Cocoon_Medicine.description>Drops one Medical Cocoon. It contains nutrients and genetic material to hatch a set of medical or chemical supplies. -- Click the cocoon's hyperlink to check the characteristics of all craftable items.</ARA_Cocoon_Medicine.description>
+  <ARA_Cocoon_Medicine.comps.CompAbilityEffect_NeedCost.failMessage>Insufficient nutrition, requires a meal</ARA_Cocoon_Medicine.comps.CompAbilityEffect_NeedCost.failMessage>
+  <ARA_Cocoon_Medicine.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Medicine.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+
+  <ARA_Cocoon_Medicine_From_Death.label>Corpse Weave: Fabric Medical Cocoon</ARA_Cocoon_Medicine_From_Death.label>
+  <ARA_Cocoon_Medicine_From_Death.description>Designates a non-rotting or lightly rotted corpse and converts it into a Medical Cocoon. The nutritional value remaining in the corpse is converted into the cocoon's nutritional value. -- Click the cocoon's hyperlink to check the characteristics of all craftable items.</ARA_Cocoon_Medicine_From_Death.description>
+  <ARA_Cocoon_Medicine_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>Temperature Requirement</ARA_Cocoon_Medicine_From_Death.comps.CompAbilityEffect_ShowTemperatureRange.customLabel>
+  <ARA_Cocoon_Medicine_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>Hatchable Item List</ARA_Cocoon_Medicine_From_Death.comps.CompAbilityEffect_ShowInteractiveThing.customLabel>
+
+
+</LanguageData>

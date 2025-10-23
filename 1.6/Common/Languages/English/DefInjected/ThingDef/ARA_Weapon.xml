@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_MW_Bone_Sword.label>Armament Organ "Bone Sword"</ARA_MW_Bone_Sword.label>
+  <ARA_MW_Bone_Sword.description>A basic melee armament organ used by the Arachnae swarm overseer bug, connected to the overseer's auxiliary limbs via multiple exposed nerve bundles. Although it is merely a hard, sword-shaped bone fragment, for an Arachnae swarm overseer bug with infinite strength, cutting down enemies who invade the nest one after another poses no hindrance whatsoever.</ARA_MW_Bone_Sword.description>
+  <ARA_MW_Bone_Sword.tools.0.label>Horizontal sweep</ARA_MW_Bone_Sword.tools.0.label>
+  <ARA_MW_Bone_Sword.tools.1.label>Downward crush</ARA_MW_Bone_Sword.tools.1.label>
+
+  <ARA_MW_Cartilage_Whip.label>Armament Organ "Cartilage Whip"</ARA_MW_Cartilage_Whip.label>
+  <ARA_MW_Cartilage_Whip.description>A melee armament organ used by the Arachnae swarm overseer bug, where segmental cartilage intertwines to form a tough whip shape. When this weapon strikes an enemy, it makes a fearsome sound and inflicts unbearable pain, and the blunt damage, focused on the strike center, effectively penetrates the enemy's armor defense.</ARA_MW_Cartilage_Whip.description>
+  <ARA_MW_Cartilage_Whip.tools.0.label>Whip lash</ARA_MW_Cartilage_Whip.tools.0.label>
+
+  <ARA_MW_Scything_Talons.label>Armament Organ "Scythe Talons"</ARA_MW_Scything_Talons.label>
+  <ARA_MW_Scything_Talons.description>A melee armament organ used by the Arachnae swarm overseer bug, shaped like a huge scythe and connected via auxiliary limbs and nerve bundles. Due to its enormous size, each swing deals area damage, allowing it to take down multiple adjacent targets at once.</ARA_MW_Scything_Talons.description>
+  <ARA_MW_Scything_Talons.tools.0.label>Swing strike</ARA_MW_Scything_Talons.tools.0.label>
+
+
+  <ARA_RW_Basic_Fist_Needle_Gun.label>Armament Organ "Fist Needle"</ARA_RW_Basic_Fist_Needle_Gun.label>
+  <ARA_RW_Basic_Fist_Needle_Gun.verbs.Verb_Shoot.label>Armament Organ "Fist Needle"</ARA_RW_Basic_Fist_Needle_Gun.verbs.Verb_Shoot.label>
+  <ARA_RW_Basic_Fist_Needle_Gun.description>A basic ranged armament organ used by the Arachnae swarm overseer bug, resembling a fist and connected to the overseer's auxiliary limbs by wrapping nerve bundles around them. This weapon is small and light, and although its range is short, it fires a stream of venomous spines at the enemy, inflicting penetrating damage.</ARA_RW_Basic_Fist_Needle_Gun.description>
+  <ARA_RW_Basic_Fist_Needle_Gun.tools.0.label>Fist needle punch</ARA_RW_Basic_Fist_Needle_Gun.tools.0.label>
+
+  <Bullet_ARA_RW_Basic_Fist_Needle_Gun.label>Venomous Spine</Bullet_ARA_RW_Basic_Fist_Needle_Gun.label>
+
+  <ARA_RW_Toxic_Needle_MG.label>Armament Organ "Tempest Stinger"</ARA_RW_Toxic_Needle_MG.label>
+  <ARA_RW_Toxic_Needle_MG.verbs.Verb_ShootWithOffset.label>Armament Organ "Tempest Stinger"</ARA_RW_Toxic_Needle_MG.verbs.Verb_ShootWithOffset.label>
+  <ARA_RW_Toxic_Needle_MG.description>An armament organ used by the Arachnae swarm overseer bug, featuring five rows of spine pipes. Under command via nerve bundles, it alternately fires a large quantity of venomous spines. Although its accuracy is low, it possesses firepower comparable to a human machine gun.</ARA_RW_Toxic_Needle_MG.description>
+
+  <Bullet_ARA_RW_Toxic_Needle_MG.label>Venomous Spine</Bullet_ARA_RW_Toxic_Needle_MG.label>
+
+  <ARA_RW_Toxic_Needle_SG.label>Armament Organ "Blossom Stinger"</ARA_RW_Toxic_Needle_SG.label>
+  <ARA_RW_Toxic_Needle_SG.verbs.Verb_ShootShotgunWithOffset.label>Armament Organ "Blossom Stinger"</ARA_RW_Toxic_Needle_SG.verbs.Verb_ShootShotgunWithOffset.label>
+  <ARA_RW_Toxic_Needle_SG.description>An armament organ used by the Arachnae swarm overseer bug, featuring a double-barreled, multi-row short-range spine pipe. Though firing accuracy is low, it can launch a large quantity of ammunition at once, possessing firepower comparable to a human shotgun.</ARA_RW_Toxic_Needle_SG.description>
+
+  <Bullet_ARA_RW_Basic_Fist_Needle_Gun_SG.label>Venomous Spine</Bullet_ARA_RW_Basic_Fist_Needle_Gun_SG.label>
+  <ARA_Bullet_SniperCannon.label>Arachnae Thorn Spine</ARA_Bullet_SniperCannon.label>
+
+  <ARA_RW_Basic_SniperCannon_Gun.label>Armament Organ "Bloodrock Thorn Cannon"</ARA_RW_Basic_SniperCannon_Gun.label>
+  <ARA_RW_Basic_SniperCannon_Gun.verbs.Verb_ShootWithOffset.label>Armament Organ "Bloodrock Thorn Cannon"</ARA_RW_Basic_SniperCannon_Gun.verbs.Verb_ShootWithOffset.label>
+  <ARA_RW_Basic_SniperCannon_Gun.description>A large Arachnae swarm armament organ, with a fang-like predatory appearance. Its mouthparts are connected to a blood-chain that grows massive thorn spines. Fired with high barrel pressure from muscle compression, the spines in the cavity have extremely high destructive power. Inspired by human weapons, the swarm adds a co-occurring hormone to the blood-chain spines, increasing the rate of fire with sustained shooting.</ARA_RW_Basic_SniperCannon_Gun.description>
+
+  <ARA_Bullet_Rail.label>Arachnae Piercing Spine</ARA_Bullet_Rail.label>
+
+  <ARA_RW_Basic_Rail_Gun.label>Armament Organ "Broadblade Spear Gun"</ARA_RW_Basic_Rail_Gun.label>
+  <ARA_RW_Basic_Rail_Gun.verbs.Verb_ShootWithOffset.label>Armament Organ "Broadblade Spear Gun"</ARA_RW_Basic_Rail_Gun.verbs.Verb_ShootWithOffset.label>
+  <ARA_RW_Basic_Rail_Gun.description>An Arachnae swarm armament organ that, despite not being overly large, fires spines with extremely high penetration power due to muscle compression, capable of piercing through a line of enemy troops. Furthermore, a small bone blade is grown on the lower jaw to counter close-range threats.</ARA_RW_Basic_Rail_Gun.description>
+  <ARA_RW_Basic_Rail_Gun.tools.0.label>Cleave</ARA_RW_Basic_Rail_Gun.tools.0.label>
+
+
+  <ARA_RW_Basic_Acid_Bladder_Gun.label>Armament Organ "Acid Bladder Gun"</ARA_RW_Basic_Acid_Bladder_Gun.label>
+  <ARA_RW_Basic_Acid_Bladder_Gun.verbs.Verb_ShootSprayMulti.label>Armament Organ "Acid Bladder Gun"</ARA_RW_Basic_Acid_Bladder_Gun.verbs.Verb_ShootSprayMulti.label>
+  <ARA_RW_Basic_Acid_Bladder_Gun.description>A basic ranged armament organ used by the Arachnae swarm overseer bug that can spray Arachnae acid solution through instantaneous muscle compression. This acid covers the target, scorching every enemy it adheres to.</ARA_RW_Basic_Acid_Bladder_Gun.description>
+
+  <ARA_Proj_StrongSludgeSpray_Eco.label>Arachnae Acid Solution</ARA_Proj_StrongSludgeSpray_Eco.label>
+
+  <ARA_RW_Basic_FireSpewer_Gun.label>Armament Organ "Flame Acid Gun"</ARA_RW_Basic_FireSpewer_Gun.label>
+  <ARA_RW_Basic_FireSpewer_Gun.verbs.Verb_ShootFireSpew.label>Armament Organ "Flame Acid Gun"</ARA_RW_Basic_FireSpewer_Gun.verbs.Verb_ShootFireSpew.label>
+  <ARA_RW_Basic_FireSpewer_Gun.description>A large Arachnae swarm ranged armament organ featuring an acid gland-filled fluid sac and a tough muscular tube. It sprays a cluster of pyro-acidic thermal solution in the aimed direction, covering enemies in the area and dissolving armor and flesh.</ARA_RW_Basic_FireSpewer_Gun.description>
+
+  <ARA_RW_Acid_Mortar.label>Armament Organ "Corrosion Mortar"</ARA_RW_Acid_Mortar.label>
+  <ARA_RW_Acid_Mortar.verbs.Verb_Shoot.label>Armament Organ "Corrosion Mortar"</ARA_RW_Acid_Mortar.verbs.Verb_Shoot.label>
+  <ARA_RW_Acid_Mortar.description>A large ranged armament organ used by the Arachnae swarm overseer bug. The interior of the cannon is filled with tough muscle tissue, which contracts momentarily to launch a block of acid solution into the air, bombarding enemy groups from a safe distance.</ARA_RW_Acid_Mortar.description>
+
+  <Bullet_ARA_RW_Acid_Mortar.label>Large Acid Shell</Bullet_ARA_RW_Acid_Mortar.label>
+
+  <ARA_RW_Missile_HG_Gun.label>Armament Organ "Double-Eye Disaster Gun"</ARA_RW_Missile_HG_Gun.label>
+  <ARA_RW_Missile_HG_Gun.verbs.Verb_ShootShotgunWithOffset.label>Armament Organ "Double-Eye Disaster Gun"</ARA_RW_Missile_HG_Gun.verbs.Verb_ShootShotgunWithOffset.label>
+  <ARA_RW_Missile_HG_Gun.description>A basic ranged armament organ used by the Arachnae swarm overseer bug, shaped like a human handgun, capable of launching missiles composed of explosive species auxiliary bugs. This armament organ has high adaptability and tracking capability, allowing even bugs with poor shooting skills to perform well.</ARA_RW_Missile_HG_Gun.description>
+
+  <Bullet_RW_Missile_HG_Gun.label>Small Acid Missile</Bullet_RW_Missile_HG_Gun.label>
+
+  <ARA_RW_Missile_AR_Gun.label>Armament Organ "Rapid Disaster Gun"</ARA_RW_Missile_AR_Gun.label>
+  <ARA_RW_Missile_AR_Gun.verbs.Verb_ShootWithOffset.label>Armament Organ "Rapid Disaster Gun"</ARA_RW_Missile_AR_Gun.verbs.Verb_ShootWithOffset.label>
+  <ARA_RW_Missile_AR_Gun.description>A large Arachnae swarm armament organ capable of launching rows of explosive species auxiliary bug missiles with overwhelming momentum. Its powerful firepower is central to the swarm's construction of a blood-and-flesh legion.</ARA_RW_Missile_AR_Gun.description>
+
+  <Bullet_RW_Missile_AR_Gun.label>Micro Acid Missile</Bullet_RW_Missile_AR_Gun.label>
+
+
+  <ARA_RW_Basic_SkyHive_Gun.label>Armament Organ "Skyhive Nest"</ARA_RW_Basic_SkyHive_Gun.label>
+  <ARA_RW_Basic_SkyHive_Gun.verbs.Verb_ShootShotgun.label>Armament Organ "Skyhive Nest"</ARA_RW_Basic_SkyHive_Gun.verbs.Verb_ShootShotgun.label>
+  <ARA_RW_Basic_SkyHive_Gun.description>A ranged armament organ used by the Arachnae swarm overseer bug. The internal cavity contains a large number of Skyhive species, which the overseer launches as missiles. These Skyhives attack the enemy for a certain period of time from behind and continue to attack even if they move away from the enemy.</ARA_RW_Basic_SkyHive_Gun.description>
+
+  <Bullet_ARA_RW_Basic_SkyHive_Gun.label>Arachnae Skyhive Species</Bullet_ARA_RW_Basic_SkyHive_Gun.label>
+
+
+  <ARA_RW_Large_Arc_Gun.label>Armament Organ "Arc Breath Cannon"</ARA_RW_Large_Arc_Gun.label>
+  <ARA_RW_Large_Arc_Gun.verbs.Verb_ShootBeamSplitAndChain.label>Armament Organ "Arc Breath Cannon"</ARA_RW_Large_Arc_Gun.verbs.Verb_ShootBeamSplitAndChain.label>
+  <ARA_RW_Large_Arc_Gun.description>A large ranged armament organ used by the Arachnae swarm overseer bug, unleashing a conductive lightning chain that links between enemy groups, defeating enemies with electric shocks.</ARA_RW_Large_Arc_Gun.description>
+
+
+  <ARA_RW_Basic_Fist_Icez_Gun.label>Armament Organ "Ice Spray Gun"</ARA_RW_Basic_Fist_Icez_Gun.label>
+  <ARA_RW_Basic_Fist_Icez_Gun.verbs.Verb_ShootBeamExplosive.label>Armament Organ "Ice Spray Gun"</ARA_RW_Basic_Fist_Icez_Gun.verbs.Verb_ShootBeamExplosive.label>
+  <ARA_RW_Basic_Fist_Icez_Gun.description>A ranged armament organ used by the Arachnae swarm overseer bug. This organ sprays a jet beam that can rapidly cool the target. Compared to the organ on the symbiotic muscle mass, this handheld version focuses more on controlling specific targets rather than outright killing them.</ARA_RW_Basic_Fist_Icez_Gun.description>
+
+  <ARA_MW_Mimic_Niddle.label>Armament Organ "Mimic Filiform Poison Needle"</ARA_MW_Mimic_Niddle.label>
+  <ARA_MW_Mimic_Niddle.description>A basic melee armament organ used by the Arachnae swarm overseer bug, connected to the auxiliary limbs via multiple exposed nerve bundles. This venomous needle contains dormant Arachnae mimic filiform eggs, infecting the target upon attack, ultimately transforming them into a parasite controlled by the filiform worm.</ARA_MW_Mimic_Niddle.description>
+  <ARA_MW_Mimic_Niddle.tools.0.label>Sever</ARA_MW_Mimic_Niddle.tools.0.label>
+  <ARA_MW_Mimic_Niddle.tools.1.label>Stab</ARA_MW_Mimic_Niddle.tools.1.label>
+
+
+  <ARA_Psi_Conductor_Turret.label>Psychic Conductor</ARA_Psi_Conductor_Turret.label>
+  <ARA_Psi_Conductor_Turret.verbs.Verb_Shoot.label>Psychic Conductor</ARA_Psi_Conductor_Turret.verbs.Verb_Shoot.label>
+  <ARA_Psi_Conductor_Turret.description>The Arachnae Weaver species launches attacks against enemies through this colonist—the activation of this attack does not depend on the colonist's state, and attacks proceed normally unless in melee combat.</ARA_Psi_Conductor_Turret.description>
+  <ARA_Psi_Conductor_Turret_ArcBeam.label>Mote</ARA_Psi_Conductor_Turret_ArcBeam.label>
+
+  <Bullet_ARA_Psi_Conductor_Turret.label>Psycho-Arc</Bullet_ARA_Psi_Conductor_Turret.label>
+
+  <ARA_Shell_Thorn_Turret.label>Thorn Turret</ARA_Shell_Thorn_Turret.label>
+  <ARA_Shell_Thorn_Turret.verbs.Verb_Shoot.label>Thorn Turret</ARA_Shell_Thorn_Turret.verbs.Verb_Shoot.label>
+  <ARA_Shell_Thorn_Turret.description>A semi-autonomous organ on the Arachnae bug carapace that can automatically fire.</ARA_Shell_Thorn_Turret.description>
+
+  <Bullet_ARA_Shell_Thorn_Turret.label>Small Thorn</Bullet_ARA_Shell_Thorn_Turret.label>
+
+  <ARA_Skyraider_Hivelord_Turret.label>Skyraider Nest</ARA_Skyraider_Hivelord_Turret.label>
+  <ARA_Skyraider_Hivelord_Turret.verbs.Verb_Shoot.label>Skyraider Nest</ARA_Skyraider_Hivelord_Turret.verbs.Verb_Shoot.label>
+  <ARA_Skyraider_Hivelord_Turret.description>A symbiotic organ of the Arachnae Hivelord species, which automatically projects Skyhive auxiliary bugs when near an enemy.</ARA_Skyraider_Hivelord_Turret.description>
+
+  <ArachnaeBase_Race_Skyhive_Proj.label>Arachnae Skyhive Species</ArachnaeBase_Race_Skyhive_Proj.label>
+
+  <ARA_Skyraider_Empthrower_Turret.label>Magnetic Storm Nest</ARA_Skyraider_Empthrower_Turret.label>
+  <ARA_Skyraider_Empthrower_Turret.verbs.Verb_Shoot.label>Magnetic Storm Nest</ARA_Skyraider_Empthrower_Turret.verbs.Verb_Shoot.label>
+  <ARA_Skyraider_Empthrower_Turret.description>A symbiotic organ possessed by the Arachnae Tempest species, which automatically projects Magnetic Storm auxiliary bugs when near an enemy.</ARA_Skyraider_Empthrower_Turret.description>
+
+  <ArachnaeBase_Race_Empthrower_Proj.label>Arachnae Magnetic Storm Species</ArachnaeBase_Race_Empthrower_Proj.label>
+
+
+  <ARA_RW_Icez_Mortar.label>Armament Organ "Frost Star Cannon"</ARA_RW_Icez_Mortar.label>
+  <ARA_RW_Icez_Mortar.verbs.Verb_Shoot.label>Armament Organ "Frost Star Cannon"</ARA_RW_Icez_Mortar.verbs.Verb_Shoot.label>
+  <ARA_RW_Icez_Mortar.description>A large ranged armament organ used by the Arachnae swarm overseer bug, firing extremely cold frost clouds. Enemies hit will suffer a frost explosion, and while not instantly killed by freezing, subsequent external attacks will instantly shatter the fragile ice statue.</ARA_RW_Icez_Mortar.description>
+
+  <Bullet_ARA_RW_Icez_Mortar.label>Large Frost Mist Cluster</Bullet_ARA_RW_Icez_Mortar.label>
+
+  <ARA_Arc_Beam_Mote.label>Mote</ARA_Arc_Beam_Mote.label>
+
+  <ARA_RW_Lighting_Cannon.label>Armament Organ "Cryolens Tube"</ARA_RW_Lighting_Cannon.label>
+  <ARA_RW_Lighting_Cannon.verbs.Verb_ShootBeamExplosive.label>Armament Organ "Cryolens Tube"</ARA_RW_Lighting_Cannon.verbs.Verb_ShootBeamExplosive.label>
+  <ARA_RW_Lighting_Cannon.description>A special ranged armament organ that appears only on the Arachnae symbiotic muscle mass. This organ emits a jet stream that rapidly cools the target, inflicting significant damage while also immobilizing them. Due to the pre-cooling mechanism, it requires a long preparation time before initiating an attack.</ARA_RW_Lighting_Cannon.description>
+
+  <Mote_ARA_RW_Lighting_Cannon_Beam.label>Mote</Mote_ARA_RW_Lighting_Cannon_Beam.label>
+
+</LanguageData>

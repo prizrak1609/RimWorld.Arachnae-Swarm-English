@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ARA_EnterPowerArmor>Merge with Symbiotic Musculature</ARA_EnterPowerArmor>
+
+  <StructurePoints>Structure Points</StructurePoints>
+
+  <PowerArmorBroken>{0} has stopped functioning! Drone {1} is exposed.</PowerArmorBroken>
+
+  <ARA_UnknownScheme>Unknown</ARA_UnknownScheme>
+  <ARA_SchemeFormat>Scheme {0}</ARA_SchemeFormat>
+  
+  <ARA_PowerArmorDamaged>Symbiotic Musculature Paralyzed</ARA_PowerArmorDamaged>
+  <ARA_SwitchedToMode>Switched to {0} Mode</ARA_SwitchedToMode>
+  <ARA_EquipPowerArmorFailed>Failed to merge with Symbiotic Musculature: Configuration Error</ARA_EquipPowerArmorFailed>
+  <ARA_AlreadySelectedScheme>This scheme is already selected</ARA_AlreadySelectedScheme>
+  
+  <ARA_SwitchWeapon>Switch Armament: {0}</ARA_SwitchWeapon>
+  <ARA_SwitchWeaponDesc>Switch to the next armament scheme\nCurrent: {0}\nAvailable Schemes: {1}</ARA_SwitchWeaponDesc>
+  <ARA_SwitchToScheme>Switch directly to {0}</ARA_SwitchToScheme>
+  
+  <ARA_Default>Default</ARA_Default>
+
+</LanguageData>

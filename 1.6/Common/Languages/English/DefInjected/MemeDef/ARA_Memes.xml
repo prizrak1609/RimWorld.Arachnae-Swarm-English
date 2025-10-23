@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Hive_Worship.label>Hive Worship</ARA_Hive_Worship.label>
+  <ARA_Hive_Worship.description>These beautiful arthropods are the messengers sent by the supreme will to save us.\n(Insectophobia has been removed. This culture is scheduled to be abolished. Please do not select this meme when creating a new save data. There is a risk of errors or save data corruption.)</ARA_Hive_Worship.description>
+  <ARA_Hive_Worship.generalRules.rulesStrings>
+    <li>memeAdjective->God-Insect</li>
+    <li>memeAdjective->Holy-Insect</li>
+    <li>memeAdjective->Worshipped-Insect</li>
+    <li>memeAdjective->Revered-Insect</li>
+    <li>memeAdjective->Adored-Insect</li>
+    <li>memeAdjective->Insect-God</li>
+    <li>memeAdjective->Insect-Holy</li>
+    <li>memeCreed->Swarm</li>
+    <li>memeCreed->Hive</li>
+    <li>memeCreed->Insect-God</li>
+    <li>memeCreed->Exoskeleton</li>
+    <li>memeCreed->Arthropod</li>
+    <li>memeHyphenPrefix->Holy-Insect</li>
+    <li>memeConcept->Worship</li>
+    <li>memeConcept->Faith</li>
+    <li>memeConcept->Salvation</li>
+    <li>memeConcept->Oracle</li>
+    <li>memeConcept->Revelation</li>
+    <li>memeLeaderNoun->Priest</li>
+    <li>memeLeaderNoun->Prophet</li>
+    <li>memeLeaderNoun->Divine-Messenger</li>
+    <li>memeLeaderNoun->Insect-Speaker</li>
+    <li>memeLeaderNoun->Guardian</li>
+    <li>memeLeaderNoun->High-Priest</li>
+  </ARA_Hive_Worship.generalRules.rulesStrings>
+
+  <ARA_Hive_Worship.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Insect_Worship)    ->When the people of [place_summary][place_name] sank into the depths of despair, [deity0_name] sent the sacred swarm and chose the [memberNamePlural] as the mouthpiece of the Insect God.</li>
+    <li>episode(uses=1,tag=meme_Insect_Worship)  ->When the heathens sought to destroy the sacred hive, [deity0_name] said: "Protect these beautiful messengers. True salvation will not come until the will of the Insect God spreads throughout the universe."</li>
+      
+    <li>intro(tag=meme_Insect_Worship)       ->The people of [place_summary][place_name] worship [deity0_name]. The Insect God saw that they understood the truth of [memeConcept] and gave them the destiny of being a bridge between the insect race and humanity.</li>
+    <li>conflict(tag=meme_Insect_Worship)    ->[foeLeader] issued a decree, forbidding the [memberNamePlural] from interacting with the sacred swarm in [place_name].</li>
+    <li>founderJoin(tag=meme_Insect_Worship)     ->A prophet named [founderName] realized the truth in the hive. [deity0_name] recognized [founderName]'s faith and designated [founder_objective] as the messenger of the Insect God's will.</li>
+    <li>victory(tag=meme_Insect_Worship)     ->[founderName] led the sacred swarm, defended [place_name], and banished [foeLeader]. [founder_pronoun] became the first Insect-Speaker of [place_name], connecting the two worlds.</li>
+      
+    <li>setup(tag=meme_Insect_Worship)       ->[founderName] built a community living in harmony with the swarm, spread the teachings of the Insect God, and showed the beauty of coexistence to those who refused to understand.</li>
+    <li>story(uses=1,tag=meme_Insect_Worship)    ->[founderName] taught everyone how to coexist peacefully with the swarm. When the first city attempted to destroy the hive, the sacred swarm demonstrated its power to protect the faithful.</li>
+      
+    <li>lessonIntro(tag=meme_Insect_Worship)     ->I saw this [foeLeader]. I saw [foeLeader_possessive] ignorant [foeSoldiers] resisting the divine will. I tried to make [foeLeader_objective] understand.</li>
+    <li>lesson(tag=meme_Insect_Worship)      ->We have already proven it. Coexisting with the swarm is the true path to salvation for humanity.</li>
+    <li>lessonReinforcement(tag=meme_Insect_Worship) ->That is why we proudly show our loyalty to the divine will by protecting the hive.</li>
+      
+    <li>archistBasis(tag=meme_Insect_Worship)    ->The perfect social structure shown by the swarm is the blueprint for the future dictated by the supreme will.</li>
+    <li>archistFact(tag=meme_Insect_Worship)     ->Just as the Queen governs the colony, we also need to follow the divine order established by the Insect God.</li>
+    <li>archistProphecy(tag=meme_Insect_Worship) ->True civilization will be born when humanity finally learns to coexist harmoniously like the swarm.</li>
+      
+    <li>animistFact(tag=meme_Insect_Worship)     ->Every insect harbors divinity, and the truth of the universe is etched upon its exoskeleton.</li>
+    <li>animistProphecy(tag=meme_Insect_Worship) ->[itIsSaid] A new Golden Age will begin when humanity completely merges with the swarm.</li>
+  </ARA_Hive_Worship.descriptionMaker.rules.rulesStrings>
+  <ARA_Hive_Worship.symbolPacks.0.adjective>Animist</ARA_Hive_Worship.symbolPacks.0.adjective>
+  <ARA_Hive_Worship.symbolPacks.0.member>Animist</ARA_Hive_Worship.symbolPacks.0.member>
+  <ARA_Hive_Worship.symbolPacks.0.theme>Animism</ARA_Hive_Worship.symbolPacks.0.theme>
+  <ARA_Hive_Worship.symbolPacks.1.adjective>Spiritist</ARA_Hive_Worship.symbolPacks.1.adjective>
+  <ARA_Hive_Worship.symbolPacks.1.member>Spiritist</ARA_Hive_Worship.symbolPacks.1.member>
+  <ARA_Hive_Worship.symbolPacks.1.theme>Spiritism</ARA_Hive_Worship.symbolPacks.1.theme>
+
+
+</LanguageData>

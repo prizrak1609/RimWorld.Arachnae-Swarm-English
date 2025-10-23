@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_RefuelingVat.label>Essence Extraction Vat</ARA_RefuelingVat.label>
+  <ARA_RefuelingVat.description>A special bio-structure that holds captives of the Arachnae swarm and slowly extracts their genetic material in a painful process, converting it into essence for the swarm.\n\n--Please don't ask how it's harvested.</ARA_RefuelingVat.description>
+  <ARA_RefuelingVat.comps.CompProductStorage.fuelGizmoLabel>Essence</ARA_RefuelingVat.comps.CompProductStorage.fuelGizmoLabel>
+  <ARA_RefuelingVat.comps.CompProductStorage.fuelLabel>Essence</ARA_RefuelingVat.comps.CompProductStorage.fuelLabel>
+
+
+</LanguageData>

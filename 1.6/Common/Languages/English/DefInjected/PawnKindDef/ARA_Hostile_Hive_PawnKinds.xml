@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArachnaeNode_Race_Fighter_Enermy.label>Arachnae Fighter</ArachnaeNode_Race_Fighter_Enermy.label>
+  <ArachnaeNode_Race_Fighter_Enermy.labelPlural>Arachnae Fighters</ArachnaeNode_Race_Fighter_Enermy.labelPlural>
+  <ArachnaeNode_Race_Fighter_Enermy.labelMale>Arachnae Fighter</ArachnaeNode_Race_Fighter_Enermy.labelMale>
+  <ArachnaeNode_Race_Fighter_Enermy.labelMalePlural>Arachnae Fighters</ArachnaeNode_Race_Fighter_Enermy.labelMalePlural>
+  <ArachnaeNode_Race_Fighter_Enermy.labelFemale>Arachnae Fighter</ArachnaeNode_Race_Fighter_Enermy.labelFemale>
+  <ArachnaeNode_Race_Fighter_Enermy.labelFemalePlural>Arachnae Fighters</ArachnaeNode_Race_Fighter_Enermy.labelFemalePlural>
+
+  <ArachnaeNode_Race_ShieldHead_Enermy.label>Arachnae Shield Head</ArachnaeNode_Race_ShieldHead_Enermy.label>
+  <ArachnaeNode_Race_ShieldHead_Enermy.labelPlural>Arachnae Shield Heads</ArachnaeNode_Race_ShieldHead_Enermy.labelPlural>
+  <ArachnaeNode_Race_ShieldHead_Enermy.labelMale>Arachnae Shield Head</ArachnaeNode_Race_ShieldHead_Enermy.labelMale>
+  <ArachnaeNode_Race_ShieldHead_Enermy.labelMalePlural>Arachnae Shield Heads</ArachnaeNode_Race_ShieldHead_Enermy.labelMalePlural>
+  <ArachnaeNode_Race_ShieldHead_Enermy.labelFemale>Arachnae Shield Head</ArachnaeNode_Race_ShieldHead_Enermy.labelFemale>
+  <ArachnaeNode_Race_ShieldHead_Enermy.labelFemalePlural>Arachnae Shield Heads</ArachnaeNode_Race_ShieldHead_Enermy.labelFemalePlural>
+
+  <ArachnaeNode_Race_Praetorian_Enermy.label>Arachnae Praetorian</ArachnaeNode_Race_Praetorian_Enermy.label>
+  <ArachnaeNode_Race_Praetorian_Enermy.labelPlural>Arachnae Praetorians</ArachnaeNode_Race_Praetorian_Enermy.labelPlural>
+  <ArachnaeNode_Race_Praetorian_Enermy.labelMale>Arachnae Praetorian</ArachnaeNode_Race_Praetorian_Enermy.labelMale>
+  <ArachnaeNode_Race_Praetorian_Enermy.labelMalePlural>Arachnae Praetorians</ArachnaeNode_Race_Praetorian_Enermy.labelMalePlural>
+  <ArachnaeNode_Race_Praetorian_Enermy.labelFemale>Arachnae Praetorian</ArachnaeNode_Race_Praetorian_Enermy.labelFemale>
+  <ArachnaeNode_Race_Praetorian_Enermy.labelFemalePlural>Arachnae Praetorians</ArachnaeNode_Race_Praetorian_Enermy.labelFemalePlural>
+
+
+  <ArachnaeBase_Race_Acidcut_Enermy.label>Arachnae Acid Scourge</ArachnaeBase_Race_Acidcut_Enermy.label>
+  <ArachnaeBase_Race_Acidcut_Enermy.labelPlural>Arachnae Acid Scourges</ArachnaeBase_Race_Acidcut_Enermy.labelPlural>
+  <ArachnaeBase_Race_Acidcut_Enermy.labelMale>Arachnae Acid Scourge</ArachnaeBase_Race_Acidcut_Enermy.labelMale>
+  <ArachnaeBase_Race_Acidcut_Enermy.labelMalePlural>Arachnae Acid Scourges</ArachnaeBase_Race_Acidcut_Enermy.labelMalePlural>
+  <ArachnaeBase_Race_Acidcut_Enermy.labelFemale>Arachnae Acid Scourge</ArachnaeBase_Race_Acidcut_Enermy.labelFemale>
+  <ArachnaeBase_Race_Acidcut_Enermy.labelFemalePlural>Arachnae Acid Scourges</ArachnaeBase_Race_Acidcut_Enermy.labelFemalePlural>
+
+  <ArachnaeBase_Race_Acidling_Enermy.label>Arachnae Exploder</ArachnaeBase_Race_Acidling_Enermy.label>
+  <ArachnaeBase_Race_Acidling_Enermy.labelPlural>Arachnae Exploders</ArachnaeBase_Race_Acidling_Enermy.labelPlural>
+  <ArachnaeBase_Race_Acidling_Enermy.labelMale>Arachnae Exploder</ArachnaeBase_Race_Acidling_Enermy.labelMale>
+  <ArachnaeBase_Race_Acidling_Enermy.labelMalePlural>Arachnae Exploders</ArachnaeBase_Race_Acidling_Enermy.labelMalePlural>
+  <ArachnaeBase_Race_Acidling_Enermy.labelFemale>Arachnae Exploder</ArachnaeBase_Race_Acidling_Enermy.labelFemale>
+  <ArachnaeBase_Race_Acidling_Enermy.labelFemalePlural>Arachnae Exploders</ArachnaeBase_Race_Acidling_Enermy.labelFemalePlural>
+
+
+</LanguageData>

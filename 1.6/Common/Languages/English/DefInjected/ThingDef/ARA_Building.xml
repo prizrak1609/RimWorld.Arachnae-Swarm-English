@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_InsectWall.label>Arachnae Carapace Wall</ARA_InsectWall.label>
+  <ARA_InsectWall.description>A wall built by Arachnae Worker-type insects using a mix of hard material and carapace substance. It's very sturdy but not aesthetically pleasing, and does not require construction on Arachnae creep.</ARA_InsectWall.description>
+
+  <ARA_InsectDoor.label>Arachnae Carapace Door</ARA_InsectDoor.label>
+  <ARA_InsectDoor.description>The entrance to an Arachnae nest. The main structure is made of a mixture of hard material and carapace substance. The opening and closing mechanism is composed of partially conscious Arachnae insect tissue, allowing it to open and close automatically. It does not require construction on Arachnae creep.</ARA_InsectDoor.description>
+  <Blueprint_ARA_InsectDoor.label>Arachnae Carapace Door (Blueprint)</Blueprint_ARA_InsectDoor.label>
+  <Frame_ARA_InsectDoor.label>Arachnae Carapace Door (Building)</Frame_ARA_InsectDoor.label>
+  <Frame_ARA_InsectDoor.description>The entrance to an Arachnae nest. The main structure is made of a mixture of hard material and carapace substance. The opening and closing mechanism is composed of partially conscious Arachnae insect tissue, allowing it to open and close automatically. It does not require construction on Arachnae creep.</Frame_ARA_InsectDoor.description>
+
+  <ARA_Tumor.label>Arachnae Fungus Nodule</ARA_Tumor.label>
+  <ARA_Tumor.description>A fungus nodule that emits a faint glow, illuminating the Arachnae nest. In addition to lighting, it spreads creep over a wide area on the ground, allowing Worker-type insects to place more Arachnae structures. It does not require construction on Arachnae creep.</ARA_Tumor.description>
+
+  <ARA_Tumor_SunLamp.label>Arachnae Light Tumor</ARA_Tumor_SunLamp.label>
+  <ARA_Tumor_SunLamp.description>Larger than a normal fungus nodule, its internal luminous organs are extremely bright and can support the light conditions for crops. However, it has a short lifespan and does not spread creep.</ARA_Tumor_SunLamp.description>
+
+  <ARA_NodeNest.label>Arachnae Overseer Nest</ARA_NodeNest.label>
+  <ARA_NodeNest.description>A nest where Arachnae Overseer-type insects reside. The "nest," made of chitinous shell, muscle, and connective tissue, serves as an excellent place for Overseers to recover.</ARA_NodeNest.description>
+
+  <ARA_ResearchBench.label>Arachnae Research Bench</ARA_ResearchBench.label>
+  <ARA_ResearchBench.description>A living structure used by the Arachnae insect tribe for research, allowing the swarm to freely explore directions of mutation and evolution.</ARA_ResearchBench.description>
+
+  <ARA_SmartThermostat.label>Arachnae Duct Worm</ARA_SmartThermostat.label>
+  <ARA_SmartThermostat.description>An auxiliary Arachnae insect with only basic reflex responses. It attempts to maintain the temperature of the room in the direction of its tail through gas exchange. It must be installed on a wall like a cooler.</ARA_SmartThermostat.description>
+
+  <ARA_Table1x2c.label>Arachnae Table (1x2)</ARA_Table1x2c.label>
+  <ARA_Table1x2c.description>A strange table composed of living tissues such as rock and tentacles, which emits a faint glow from its internal luminous organs.</ARA_Table1x2c.description>
+
+  <ARA_Chair.label>Swarm Chair</ARA_Chair.label>
+  <ARA_Chair.description>A strange chair composed of living tissues such as rock and tentacles, which emits a faint glow from its internal luminous organs.</ARA_Chair.description>
+
+  <ARA_Column.label>Swarm Pillar</ARA_Column.label>
+  <ARA_Column.description>Living tissue formed by the growth of tentacles within the Arachnae swarm. It supports the roof to prevent collapse, emits light over a wide area, and is sturdier than a normal pillar.</ARA_Column.description>
+
+  <ARA_Shelf.label>Swarm Storage Shelf</ARA_Shelf.label>
+  <ARA_Shelf.description>Similar to a human locker, it's actually just a hole dug in the ground to store things. However, its four built-in micro-neural network tentacles allow the swarm to quickly find necessary items among the clutter.</ARA_Shelf.description>
+
+  <ARA_SkillTraining_Building.label>Insect Climbing Frame</ARA_SkillTraining_Building.label>
+  <ARA_SkillTraining_Building.description>A living structure for idle Arachnae insects to pass the time. They can practice skills while passing the time, preventing them from constantly sending idle signals that bother the hive mind.</ARA_SkillTraining_Building.description>
+
+  <ARA_Hibernate_Sac.label>Arachnae Hibernation Pod</ARA_Hibernate_Sac.label>
+  <ARA_Hibernate_Sac.description>A living tissue formed when an Arachnae insect enters a state of hibernation.</ARA_Hibernate_Sac.description>
+
+  <ARA_WallCreep.label>Arachnae Fungus Nodule (Wall)</ARA_WallCreep.label>
+  <ARA_WallCreep.description>An Arachnae fungus nodule formed on a wall surface. It illuminates a wider area than the ground-spreading one but does not spread creep, and does not require construction on Arachnae creep.</ARA_WallCreep.description>
+
+
+</LanguageData>

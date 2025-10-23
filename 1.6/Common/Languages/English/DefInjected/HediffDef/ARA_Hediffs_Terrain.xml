@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_TerrainMoveSpeedHediff.label>Creep Augmentation: Move Speed</ARA_TerrainMoveSpeedHediff.label>
+  <ARA_TerrainMoveSpeedHediff.description>The woven fabric worn by this Arachnae Drone grants higher movement speed on creep. The effect strengthens the longer it remains on the creep and gradually decays upon leaving the creep.</ARA_TerrainMoveSpeedHediff.description>
+  <ARA_TerrainMoveSpeedHediff.stages.0.label>none</ARA_TerrainMoveSpeedHediff.stages.0.label>
+
+  <ARA_TerrainWorkSpeedHediff.label>Creep Augmentation: Work Speed</ARA_TerrainWorkSpeedHediff.label>
+  <ARA_TerrainWorkSpeedHediff.description>The woven fabric worn by this Arachnae Drone grants higher work speed on creep. The effect strengthens the longer it remains on the creep and gradually decays upon leaving the creep.</ARA_TerrainWorkSpeedHediff.description>
+  <ARA_TerrainWorkSpeedHediff.stages.0.label>none</ARA_TerrainWorkSpeedHediff.stages.0.label>
+
+  <ARA_TerrainCooldownHediff.label>Creep Augmentation: Combat Reaction</ARA_TerrainCooldownHediff.label>
+  <ARA_TerrainCooldownHediff.description>The woven fabric worn by this Arachnae Drone reduces the cooldown time for melee and ranged attacks on creep. The effect strengthens the longer it remains on the creep and gradually decays upon leaving the creep.</ARA_TerrainCooldownHediff.description>
+  <ARA_TerrainCooldownHediff.stages.0.label>none</ARA_TerrainCooldownHediff.stages.0.label>
+
+  <ARA_TerrainHealHediff.label>Creep Augmentation: Healing</ARA_TerrainHealHediff.label>
+  <ARA_TerrainHealHediff.description>The woven fabric worn by this Arachnae Drone grants the ability to heal others.</ARA_TerrainHealHediff.description>
+
+  <ARA_Heal_By_Nurse_Hediff.label>Swarm Healing</ARA_Heal_By_Nurse_Hediff.label>
+  <ARA_Heal_By_Nurse_Hediff.description>The healing agent of the Arachnae swarm causes abnormal proliferation of tissue cells, allowing for rapid wound healing.</ARA_Heal_By_Nurse_Hediff.description>
+
+  <ARA_TerrainTemptHediff.label>Creep Augmentation: Temptation</ARA_TerrainTemptHediff.label>
+  <ARA_TerrainTemptHediff.description>The woven fabric worn by this Arachnae Drone grants the ability to manipulate minds and confuse others.</ARA_TerrainTemptHediff.description>
+
+  <ARA_TerrainTerrorRoar_Hediff.label>Creep Augmentation: Roar</ARA_TerrainTerrorRoar_Hediff.label>
+  <ARA_TerrainTerrorRoar_Hediff.description>The woven fabric worn by this Arachnae Drone grants the ability to emit a majestic roar, terrifying and startling enemies, causing them to flee in all directions.</ARA_TerrainTerrorRoar_Hediff.description>
+
+  <ARA_Smokepop_Creeper_Hediff.label>Creep Laying</ARA_Smokepop_Creeper_Hediff.label>
+  <ARA_Smokepop_Creeper_Hediff.description>This Arachnae Creep King is currently deploying creep, transforming the surrounding terrain at regular intervals.</ARA_Smokepop_Creeper_Hediff.description>
+
+
+</LanguageData>

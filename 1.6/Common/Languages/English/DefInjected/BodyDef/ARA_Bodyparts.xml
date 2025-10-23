@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArachnaeQueen_Body.label>Arachnae Queen</ArachnaeQueen_Body.label>
+  <ArachnaeQueen_Body.corePart.parts.1.parts.3.customLabel>Left Lung (First)</ArachnaeQueen_Body.corePart.parts.1.parts.3.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.1.parts.4.customLabel>Left Lung (Second)</ArachnaeQueen_Body.corePart.parts.1.parts.4.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.1.parts.5.customLabel>Right Lung (First)</ArachnaeQueen_Body.corePart.parts.1.parts.5.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.1.parts.6.customLabel>Right Lung (Second)</ArachnaeQueen_Body.corePart.parts.1.parts.6.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.1.parts.7.customLabel>Left Kidney</ArachnaeQueen_Body.corePart.parts.1.parts.7.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.1.parts.8.customLabel>Right Kidney</ArachnaeQueen_Body.corePart.parts.1.parts.8.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.1.parts.9.customLabel>Liver (First)</ArachnaeQueen_Body.corePart.parts.1.parts.9.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.1.parts.10.customLabel>Liver (Second)</ArachnaeQueen_Body.corePart.parts.1.parts.10.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.3.parts.0.parts.2.customLabel>Left Eye</ArachnaeQueen_Body.corePart.parts.3.parts.0.parts.2.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.3.parts.0.parts.3.customLabel>Right Eye</ArachnaeQueen_Body.corePart.parts.3.parts.0.parts.3.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.3.parts.0.parts.4.customLabel>Left Ear</ArachnaeQueen_Body.corePart.parts.3.parts.0.parts.4.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.3.parts.0.parts.5.customLabel>Right Ear</ArachnaeQueen_Body.corePart.parts.3.parts.0.parts.5.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.4.customLabel>Left Auxiliary Limb Joint</ArachnaeQueen_Body.corePart.parts.4.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.4.parts.0.customLabel>Left Auxiliary Limb Exoskeleton</ArachnaeQueen_Body.corePart.parts.4.parts.0.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.4.parts.1.customLabel>Left Auxiliary Limb</ArachnaeQueen_Body.corePart.parts.4.parts.1.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.4.parts.1.parts.0.customLabel>Left Great Pincer</ArachnaeQueen_Body.corePart.parts.4.parts.1.parts.0.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.4.parts.1.parts.0.parts.0.customLabel>Right Great Pincer Mouth</ArachnaeQueen_Body.corePart.parts.4.parts.1.parts.0.parts.0.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.5.customLabel>Right Auxiliary Limb Joint</ArachnaeQueen_Body.corePart.parts.5.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.5.parts.0.customLabel>Right Auxiliary Limb Exoskeleton</ArachnaeQueen_Body.corePart.parts.5.parts.0.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.5.parts.1.customLabel>Right Auxiliary Limb</ArachnaeQueen_Body.corePart.parts.5.parts.1.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.5.parts.1.parts.0.customLabel>Right Great Pincer</ArachnaeQueen_Body.corePart.parts.5.parts.1.parts.0.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.5.parts.1.parts.0.parts.0.customLabel>Right Great Pincer Mouth</ArachnaeQueen_Body.corePart.parts.5.parts.1.parts.0.parts.0.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.6.customLabel>Segmental Boundary</ArachnaeQueen_Body.corePart.parts.6.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.7.customLabel>Left Foreleg</ArachnaeQueen_Body.corePart.parts.7.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.7.parts.1.customLabel>Left Foreleg Exoskeleton</ArachnaeQueen_Body.corePart.parts.7.parts.1.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.8.customLabel>Right Foreleg</ArachnaeQueen_Body.corePart.parts.8.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.8.parts.1.customLabel>Right Foreleg Exoskeleton</ArachnaeQueen_Body.corePart.parts.8.parts.1.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.9.customLabel>Left Hindleg</ArachnaeQueen_Body.corePart.parts.9.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.9.parts.1.customLabel>Left Hindleg Exoskeleton</ArachnaeQueen_Body.corePart.parts.9.parts.1.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.10.customLabel>Right Hindleg</ArachnaeQueen_Body.corePart.parts.10.customLabel>
+  <ArachnaeQueen_Body.corePart.parts.10.parts.1.customLabel>Right Hindleg Exoskeleton</ArachnaeQueen_Body.corePart.parts.10.parts.1.customLabel>
+
+  <ArachnaeMyrmecocystus_Body.label>Arachnae Honeypot</ArachnaeMyrmecocystus_Body.label>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.6.customLabel>Left Lung</ArachnaeMyrmecocystus_Body.corePart.parts.6.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.7.customLabel>Right Lung</ArachnaeMyrmecocystus_Body.corePart.parts.7.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.8.customLabel>Left Kidney</ArachnaeMyrmecocystus_Body.corePart.parts.8.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.9.customLabel>Right Kidney</ArachnaeMyrmecocystus_Body.corePart.parts.9.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.11.parts.0.parts.1.customLabel>Left Eye</ArachnaeMyrmecocystus_Body.corePart.parts.11.parts.0.parts.1.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.11.parts.0.parts.2.customLabel>Right Eye</ArachnaeMyrmecocystus_Body.corePart.parts.11.parts.0.parts.2.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.11.parts.0.parts.3.customLabel>Left Ear</ArachnaeMyrmecocystus_Body.corePart.parts.11.parts.0.parts.3.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.11.parts.0.parts.4.customLabel>Right Ear</ArachnaeMyrmecocystus_Body.corePart.parts.11.parts.0.parts.4.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.12.customLabel>Left Shoulder</ArachnaeMyrmecocystus_Body.corePart.parts.12.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.12.parts.0.customLabel>Left Auxiliary Limb</ArachnaeMyrmecocystus_Body.corePart.parts.12.parts.0.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.12.parts.0.parts.0.customLabel>Left Hand</ArachnaeMyrmecocystus_Body.corePart.parts.12.parts.0.parts.0.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.13.customLabel>Right Shoulder</ArachnaeMyrmecocystus_Body.corePart.parts.13.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.13.parts.0.customLabel>Right Auxiliary Limb</ArachnaeMyrmecocystus_Body.corePart.parts.13.parts.0.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.13.parts.0.parts.0.customLabel>Right Hand</ArachnaeMyrmecocystus_Body.corePart.parts.13.parts.0.parts.0.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.15.customLabel>Left Thigh</ArachnaeMyrmecocystus_Body.corePart.parts.15.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.15.parts.0.customLabel>Left Foot</ArachnaeMyrmecocystus_Body.corePart.parts.15.parts.0.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.16.customLabel>Right Thigh</ArachnaeMyrmecocystus_Body.corePart.parts.16.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.16.parts.0.customLabel>Right Foot</ArachnaeMyrmecocystus_Body.corePart.parts.16.parts.0.customLabel>
+  <ArachnaeMyrmecocystus_Body.corePart.parts.17.parts.0.customLabel>Tail Plate</ArachnaeMyrmecocystus_Body.corePart.parts.17.parts.0.customLabel>
+
+  <ArachnaeShieldHead_Body.label>Arachnae Shield-Head</ArachnaeShieldHead_Body.label>
+  <ArachnaeShieldHead_Body.corePart.parts.6.customLabel>Left Lung</ArachnaeShieldHead_Body.corePart.parts.6.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.7.customLabel>Right Lung</ArachnaeShieldHead_Body.corePart.parts.7.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.8.customLabel>Left Kidney</ArachnaeShieldHead_Body.corePart.parts.8.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.9.customLabel>Right Kidney</ArachnaeShieldHead_Body.corePart.parts.9.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.11.parts.0.customLabel>Shield Head Armor</ArachnaeShieldHead_Body.corePart.parts.11.parts.0.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.11.parts.1.parts.1.customLabel>Left Eye</ArachnaeShieldHead_Body.corePart.parts.11.parts.1.parts.1.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.11.parts.1.parts.2.customLabel>Right Eye</ArachnaeShieldHead_Body.corePart.parts.11.parts.1.parts.2.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.11.parts.1.parts.3.customLabel>Left Ear</ArachnaeShieldHead_Body.corePart.parts.11.parts.1.parts.3.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.11.parts.1.parts.4.customLabel>Right Ear</ArachnaeShieldHead_Body.corePart.parts.11.parts.1.parts.4.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.12.customLabel>Shoulder Plate</ArachnaeShieldHead_Body.corePart.parts.12.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.13.customLabel>Left Shoulder</ArachnaeShieldHead_Body.corePart.parts.13.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.13.parts.0.customLabel>Left Auxiliary Limb</ArachnaeShieldHead_Body.corePart.parts.13.parts.0.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.13.parts.0.parts.0.customLabel>Left Hand</ArachnaeShieldHead_Body.corePart.parts.13.parts.0.parts.0.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.14.customLabel>Right Shoulder</ArachnaeShieldHead_Body.corePart.parts.14.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.14.parts.0.customLabel>Right Auxiliary Limb</ArachnaeShieldHead_Body.corePart.parts.14.parts.0.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.14.parts.0.parts.0.customLabel>Right Hand</ArachnaeShieldHead_Body.corePart.parts.14.parts.0.parts.0.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.16.customLabel>Lower Limb Plate</ArachnaeShieldHead_Body.corePart.parts.16.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.17.customLabel>Left Thigh</ArachnaeShieldHead_Body.corePart.parts.17.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.17.parts.0.customLabel>Left Foot</ArachnaeShieldHead_Body.corePart.parts.17.parts.0.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.18.customLabel>Right Thigh</ArachnaeShieldHead_Body.corePart.parts.18.customLabel>
+  <ArachnaeShieldHead_Body.corePart.parts.18.parts.0.customLabel>Right Foot</ArachnaeShieldHead_Body.corePart.parts.18.parts.0.customLabel>
+
+  <ArachnaeWeaponSmith_Body.label>Arachnae Weaponsmith</ArachnaeWeaponSmith_Body.label>
+  <ArachnaeWeaponSmith_Body.corePart.parts.6.customLabel>Left Lung</ArachnaeWeaponSmith_Body.corePart.parts.6.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.7.customLabel>Right Lung</ArachnaeWeaponSmith_Body.corePart.parts.7.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.8.customLabel>Left Kidney</ArachnaeWeaponSmith_Body.corePart.parts.8.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.9.customLabel>Right Kidney</ArachnaeWeaponSmith_Body.corePart.parts.9.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.11.parts.0.parts.1.customLabel>Left Eye</ArachnaeWeaponSmith_Body.corePart.parts.11.parts.0.parts.1.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.11.parts.0.parts.2.customLabel>Right Eye</ArachnaeWeaponSmith_Body.corePart.parts.11.parts.0.parts.2.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.11.parts.0.parts.3.customLabel>Left Ear</ArachnaeWeaponSmith_Body.corePart.parts.11.parts.0.parts.3.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.11.parts.0.parts.4.customLabel>Right Ear</ArachnaeWeaponSmith_Body.corePart.parts.11.parts.0.parts.4.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.12.customLabel>Left Shoulder</ArachnaeWeaponSmith_Body.corePart.parts.12.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.12.parts.0.customLabel>Left Auxiliary Limb</ArachnaeWeaponSmith_Body.corePart.parts.12.parts.0.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.12.parts.0.parts.0.customLabel>Left Hand</ArachnaeWeaponSmith_Body.corePart.parts.12.parts.0.parts.0.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.13.customLabel>Right Shoulder</ArachnaeWeaponSmith_Body.corePart.parts.13.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.13.parts.0.customLabel>Right Auxiliary Limb</ArachnaeWeaponSmith_Body.corePart.parts.13.parts.0.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.13.parts.0.parts.0.customLabel>Right Hand</ArachnaeWeaponSmith_Body.corePart.parts.13.parts.0.parts.0.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.15.customLabel>Left Thigh</ArachnaeWeaponSmith_Body.corePart.parts.15.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.15.parts.0.customLabel>Left Foot</ArachnaeWeaponSmith_Body.corePart.parts.15.parts.0.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.16.customLabel>Right Thigh</ArachnaeWeaponSmith_Body.corePart.parts.16.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.16.parts.0.customLabel>Right Foot</ArachnaeWeaponSmith_Body.corePart.parts.16.parts.0.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.17.parts.1.customLabel>Left Auxiliary Limb (Second)</ArachnaeWeaponSmith_Body.corePart.parts.17.parts.1.customLabel>
+  <ArachnaeWeaponSmith_Body.corePart.parts.17.parts.2.customLabel>Right Auxiliary Limb (Second)</ArachnaeWeaponSmith_Body.corePart.parts.17.parts.2.customLabel>
+
+  <ArachnaeFighter_Body.label>Arachnae Fighter</ArachnaeFighter_Body.label>
+  <ArachnaeFighter_Body.corePart.parts.6.customLabel>Left Lung</ArachnaeFighter_Body.corePart.parts.6.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.7.customLabel>Right Lung</ArachnaeFighter_Body.corePart.parts.7.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.8.customLabel>Left Kidney</ArachnaeFighter_Body.corePart.parts.8.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.9.customLabel>Right Kidney</ArachnaeFighter_Body.corePart.parts.9.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.11.parts.0.parts.1.customLabel>Left Eye</ArachnaeFighter_Body.corePart.parts.11.parts.0.parts.1.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.11.parts.0.parts.2.customLabel>Right Eye</ArachnaeFighter_Body.corePart.parts.11.parts.0.parts.2.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.11.parts.0.parts.3.customLabel>Left Ear</ArachnaeFighter_Body.corePart.parts.11.parts.0.parts.3.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.11.parts.0.parts.4.customLabel>Right Ear</ArachnaeFighter_Body.corePart.parts.11.parts.0.parts.4.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.12.customLabel>Left Shoulder</ArachnaeFighter_Body.corePart.parts.12.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.12.parts.0.customLabel>Left Auxiliary Limb</ArachnaeFighter_Body.corePart.parts.12.parts.0.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.12.parts.0.parts.0.customLabel>Left Hand</ArachnaeFighter_Body.corePart.parts.12.parts.0.parts.0.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.13.customLabel>Right Shoulder</ArachnaeFighter_Body.corePart.parts.13.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.13.parts.0.customLabel>Right Auxiliary Limb</ArachnaeFighter_Body.corePart.parts.13.parts.0.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.13.parts.0.parts.0.customLabel>Right Hand</ArachnaeFighter_Body.corePart.parts.13.parts.0.parts.0.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.15.customLabel>Left Leg</ArachnaeFighter_Body.corePart.parts.15.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.15.parts.0.customLabel>Left Foot</ArachnaeFighter_Body.corePart.parts.15.parts.0.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.16.customLabel>Right Leg</ArachnaeFighter_Body.corePart.parts.16.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.16.parts.0.customLabel>Right Foot</ArachnaeFighter_Body.corePart.parts.16.parts.0.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.18.customLabel>Left Scythe</ArachnaeFighter_Body.corePart.parts.18.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.18.parts.0.customLabel>Left Scythe Armor</ArachnaeFighter_Body.corePart.parts.18.parts.0.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.19.customLabel>Right Scythe</ArachnaeFighter_Body.corePart.parts.19.customLabel>
+  <ArachnaeFighter_Body.corePart.parts.19.parts.0.customLabel>Right Scythe Armor</ArachnaeFighter_Body.corePart.parts.19.parts.0.customLabel>
+
+  <ArachnaeFacehugger_Body.label>Arachnae Protozoan</ArachnaeFacehugger_Body.label>
+  <ArachnaeFacehugger_Body.corePart.parts.6.customLabel>Left Lung</ArachnaeFacehugger_Body.corePart.parts.6.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.7.customLabel>Right Lung</ArachnaeFacehugger_Body.corePart.parts.7.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.8.customLabel>Left Kidney</ArachnaeFacehugger_Body.corePart.parts.8.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.9.customLabel>Right Kidney</ArachnaeFacehugger_Body.corePart.parts.9.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.11.parts.0.parts.1.customLabel>Left Eye</ArachnaeFacehugger_Body.corePart.parts.11.parts.0.parts.1.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.11.parts.0.parts.2.customLabel>Right Eye</ArachnaeFacehugger_Body.corePart.parts.11.parts.0.parts.2.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.11.parts.0.parts.3.customLabel>Left Ear</ArachnaeFacehugger_Body.corePart.parts.11.parts.0.parts.3.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.11.parts.0.parts.4.customLabel>Right Ear</ArachnaeFacehugger_Body.corePart.parts.11.parts.0.parts.4.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.12.customLabel>Left Shoulder</ArachnaeFacehugger_Body.corePart.parts.12.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.12.parts.0.customLabel>Left Auxiliary Limb</ArachnaeFacehugger_Body.corePart.parts.12.parts.0.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.12.parts.0.parts.0.customLabel>Left Hand</ArachnaeFacehugger_Body.corePart.parts.12.parts.0.parts.0.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.13.customLabel>Right Shoulder</ArachnaeFacehugger_Body.corePart.parts.13.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.13.parts.0.customLabel>Right Auxiliary Limb</ArachnaeFacehugger_Body.corePart.parts.13.parts.0.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.13.parts.0.parts.0.customLabel>Right Hand</ArachnaeFacehugger_Body.corePart.parts.13.parts.0.parts.0.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.15.customLabel>Left Leg</ArachnaeFacehugger_Body.corePart.parts.15.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.15.parts.0.customLabel>Left Foot</ArachnaeFacehugger_Body.corePart.parts.15.parts.0.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.16.customLabel>Right Leg</ArachnaeFacehugger_Body.corePart.parts.16.customLabel>
+  <ArachnaeFacehugger_Body.corePart.parts.16.parts.0.customLabel>Right Foot</ArachnaeFacehugger_Body.corePart.parts.16.parts.0.customLabel>
+
+  <ArachnaeSmokepop_Body.label>Arachnae Smoker</ArachnaeSmokepop_Body.label>
+  <ArachnaeSmokepop_Body.corePart.parts.6.customLabel>Left Lung</ArachnaeSmokepop_Body.corePart.parts.6.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.7.customLabel>Right Lung</ArachnaeSmokepop_Body.corePart.parts.7.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.8.customLabel>Left Kidney</ArachnaeSmokepop_Body.corePart.parts.8.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.9.customLabel>Right Kidney</ArachnaeSmokepop_Body.corePart.parts.9.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.11.parts.0.parts.1.customLabel>Left Eye</ArachnaeSmokepop_Body.corePart.parts.11.parts.0.parts.1.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.11.parts.0.parts.2.customLabel>Right Eye</ArachnaeSmokepop_Body.corePart.parts.11.parts.0.parts.2.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.11.parts.0.parts.3.customLabel>Left Ear</ArachnaeSmokepop_Body.corePart.parts.11.parts.0.parts.3.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.11.parts.0.parts.4.customLabel>Right Ear</ArachnaeSmokepop_Body.corePart.parts.11.parts.0.parts.4.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.12.customLabel>Body Surface Plate (Left)</ArachnaeSmokepop_Body.corePart.parts.12.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.13.customLabel>Body Surface Plate (Right)</ArachnaeSmokepop_Body.corePart.parts.13.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.14.customLabel>Left Shoulder</ArachnaeSmokepop_Body.corePart.parts.14.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.14.parts.0.customLabel>Left Auxiliary Limb</ArachnaeSmokepop_Body.corePart.parts.14.parts.0.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.14.parts.0.parts.0.customLabel>Left Hand</ArachnaeSmokepop_Body.corePart.parts.14.parts.0.parts.0.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.15.customLabel>Right Shoulder</ArachnaeSmokepop_Body.corePart.parts.15.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.15.parts.0.customLabel>Right Auxiliary Limb</ArachnaeSmokepop_Body.corePart.parts.15.parts.0.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.15.parts.0.parts.0.customLabel>Right Hand</ArachnaeSmokepop_Body.corePart.parts.15.parts.0.parts.0.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.17.customLabel>Left Leg</ArachnaeSmokepop_Body.corePart.parts.17.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.17.parts.0.customLabel>Left Foot</ArachnaeSmokepop_Body.corePart.parts.17.parts.0.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.18.customLabel>Right Leg</ArachnaeSmokepop_Body.corePart.parts.18.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.18.parts.0.customLabel>Right Foot</ArachnaeSmokepop_Body.corePart.parts.18.parts.0.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.19.parts.0.customLabel>Tail Plate</ArachnaeSmokepop_Body.corePart.parts.19.parts.0.customLabel>
+  <ArachnaeSmokepop_Body.corePart.parts.19.parts.1.customLabel>Lower Limb Plate</ArachnaeSmokepop_Body.corePart.parts.19.parts.1.customLabel>
+
+  <ArachnaeSkyraider_Body.label>Arachnae Skyraider</ArachnaeSkyraider_Body.label>
+  <ArachnaeSkyraider_Body.corePart.parts.6.customLabel>Left Lung</ArachnaeSkyraider_Body.corePart.parts.6.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.7.customLabel>Right Lung</ArachnaeSkyraider_Body.corePart.parts.7.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.8.customLabel>Left Kidney</ArachnaeSkyraider_Body.corePart.parts.8.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.9.customLabel>Right Kidney</ArachnaeSkyraider_Body.corePart.parts.9.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.11.parts.0.parts.1.customLabel>Left Eye</ArachnaeSkyraider_Body.corePart.parts.11.parts.0.parts.1.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.11.parts.0.parts.2.customLabel>Right Eye</ArachnaeSkyraider_Body.corePart.parts.11.parts.0.parts.2.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.11.parts.0.parts.3.customLabel>Left Ear</ArachnaeSkyraider_Body.corePart.parts.11.parts.0.parts.3.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.11.parts.0.parts.4.customLabel>Right Ear</ArachnaeSkyraider_Body.corePart.parts.11.parts.0.parts.4.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.12.customLabel>Left Shoulder</ArachnaeSkyraider_Body.corePart.parts.12.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.12.parts.0.customLabel>Left Auxiliary Limb</ArachnaeSkyraider_Body.corePart.parts.12.parts.0.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.12.parts.0.parts.0.customLabel>Left Hand</ArachnaeSkyraider_Body.corePart.parts.12.parts.0.parts.0.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.13.customLabel>Right Shoulder</ArachnaeSkyraider_Body.corePart.parts.13.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.13.parts.0.customLabel>Right Auxiliary Limb</ArachnaeSkyraider_Body.corePart.parts.13.parts.0.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.13.parts.0.parts.0.customLabel>Right Hand</ArachnaeSkyraider_Body.corePart.parts.13.parts.0.parts.0.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.15.customLabel>Left Leg</ArachnaeSkyraider_Body.corePart.parts.15.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.15.parts.0.customLabel>Left Foot</ArachnaeSkyraider_Body.corePart.parts.15.parts.0.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.16.customLabel>Right Leg</ArachnaeSkyraider_Body.corePart.parts.16.customLabel>
+  <ArachnaeSkyraider_Body.corePart.parts.16.parts.0.customLabel>Right Foot</ArachnaeSkyraider_Body.corePart.parts.16.parts.0.customLabel>
+
+  <ArachnaeNeuroSwarm_Body.label>Arachnae Neuro-Swarm</ArachnaeNeuroSwarm_Body.label>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.6.customLabel>Left Lung</ArachnaeNeuroSwarm_Body.corePart.parts.6.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.7.customLabel>Right Lung</ArachnaeNeuroSwarm_Body.corePart.parts.7.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.8.customLabel>Left Kidney</ArachnaeNeuroSwarm_Body.corePart.parts.8.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.9.customLabel>Right Kidney</ArachnaeNeuroSwarm_Body.corePart.parts.9.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.1.customLabel>Left Eye</ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.1.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.2.customLabel>Right Eye</ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.2.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.3.customLabel>Left Ear</ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.3.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.4.customLabel>Right Ear</ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.4.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.7.customLabel>First Neural Bundle</ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.7.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.8.customLabel>Second Neural Bundle</ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.8.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.9.customLabel>Third Neural Bundle</ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.9.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.10.customLabel>Fourth Neural Bundle</ArachnaeNeuroSwarm_Body.corePart.parts.11.parts.0.parts.10.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.12.customLabel>Left Shoulder</ArachnaeNeuroSwarm_Body.corePart.parts.12.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.12.parts.0.customLabel>Left Auxiliary Limb</ArachnaeNeuroSwarm_Body.corePart.parts.12.parts.0.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.12.parts.0.parts.0.customLabel>Left Hand</ArachnaeNeuroSwarm_Body.corePart.parts.12.parts.0.parts.0.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.13.customLabel>Right Shoulder</ArachnaeNeuroSwarm_Body.corePart.parts.13.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.13.parts.0.customLabel>Right Auxiliary Limb</ArachnaeNeuroSwarm_Body.corePart.parts.13.parts.0.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.13.parts.0.parts.0.customLabel>Right Hand</ArachnaeNeuroSwarm_Body.corePart.parts.13.parts.0.parts.0.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.15.customLabel>Left Leg</ArachnaeNeuroSwarm_Body.corePart.parts.15.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.15.parts.0.customLabel>Left Foot</ArachnaeNeuroSwarm_Body.corePart.parts.15.parts.0.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.16.customLabel>Right Leg</ArachnaeNeuroSwarm_Body.corePart.parts.16.customLabel>
+  <ArachnaeNeuroSwarm_Body.corePart.parts.16.parts.0.customLabel>Right Foot</ArachnaeNeuroSwarm_Body.corePart.parts.16.parts.0.customLabel>
+
+  <ArachnaePraetorian_Body.label>Arachnae Praetorian</ArachnaePraetorian_Body.label>
+  <ArachnaePraetorian_Body.corePart.parts.6.customLabel>Left Lung</ArachnaePraetorian_Body.corePart.parts.6.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.7.customLabel>Right Lung</ArachnaePraetorian_Body.corePart.parts.7.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.8.customLabel>Left Kidney</ArachnaePraetorian_Body.corePart.parts.8.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.9.customLabel>Right Kidney</ArachnaePraetorian_Body.corePart.parts.9.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.11.parts.0.parts.1.customLabel>Left Eye</ArachnaePraetorian_Body.corePart.parts.11.parts.0.parts.1.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.11.parts.0.parts.2.customLabel>Right Eye</ArachnaePraetorian_Body.corePart.parts.11.parts.0.parts.2.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.11.parts.0.parts.3.customLabel>Left Ear</ArachnaePraetorian_Body.corePart.parts.11.parts.0.parts.3.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.11.parts.0.parts.4.customLabel>Right Ear</ArachnaePraetorian_Body.corePart.parts.11.parts.0.parts.4.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.12.customLabel>Left Shoulder</ArachnaePraetorian_Body.corePart.parts.12.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.12.parts.0.customLabel>Left Auxiliary Limb</ArachnaePraetorian_Body.corePart.parts.12.parts.0.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.12.parts.0.parts.0.customLabel>Left Hand</ArachnaePraetorian_Body.corePart.parts.12.parts.0.parts.0.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.13.customLabel>Right Shoulder</ArachnaePraetorian_Body.corePart.parts.13.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.13.parts.0.customLabel>Right Auxiliary Limb</ArachnaePraetorian_Body.corePart.parts.13.parts.0.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.13.parts.0.parts.0.customLabel>Right Hand</ArachnaePraetorian_Body.corePart.parts.13.parts.0.parts.0.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.15.customLabel>Left Leg</ArachnaePraetorian_Body.corePart.parts.15.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.15.parts.0.customLabel>Left Foot</ArachnaePraetorian_Body.corePart.parts.15.parts.0.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.16.customLabel>Right Leg</ArachnaePraetorian_Body.corePart.parts.16.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.16.parts.0.customLabel>Right Foot</ArachnaePraetorian_Body.corePart.parts.16.parts.0.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.17.parts.0.customLabel>Tail Armor</ArachnaePraetorian_Body.corePart.parts.17.parts.0.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.18.customLabel>Left Hip Armor</ArachnaePraetorian_Body.corePart.parts.18.customLabel>
+  <ArachnaePraetorian_Body.corePart.parts.19.customLabel>Right Hip Armor</ArachnaePraetorian_Body.corePart.parts.19.customLabel>
+
+</LanguageData>

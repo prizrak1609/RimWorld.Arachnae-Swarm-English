@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArachnaeBase_Race_Scavenger.label>Arachnae Scavenger Species</ArachnaeBase_Race_Scavenger.label>
+  <ArachnaeBase_Race_Scavenger.description>A type of Arachnae auxiliary bug with low intelligence that can perform farming and harvesting tasks, but will meet its end after a short time.</ArachnaeBase_Race_Scavenger.description>
+  <ArachnaeBase_Race_Scavenger.comps.CompMechPowerCell.labelOverride>Lifespan</ArachnaeBase_Race_Scavenger.comps.CompMechPowerCell.labelOverride>
+  <ArachnaeBase_Race_Scavenger.comps.CompMechPowerCell.tooltipOverride>This special Arachnae auxiliary bug is on a path to death from the moment it is born—that's how short its lifespan is.</ArachnaeBase_Race_Scavenger.comps.CompMechPowerCell.tooltipOverride>
+  <ArachnaeBase_Race_Scavenger.tools.head.label>Head</ArachnaeBase_Race_Scavenger.tools.head.label>
+
+  <ArachnaeBase_Race_HardJaw.label>Arachnae Hard-Jaw Species</ArachnaeBase_Race_HardJaw.label>
+  <ArachnaeBase_Race_HardJaw.description>A type of Arachnae auxiliary bug with low intelligence that can handle mining tasks, but will meet its end after a short time.</ArachnaeBase_Race_HardJaw.description>
+  <ArachnaeBase_Race_HardJaw.comps.CompMechPowerCell.labelOverride>Lifespan</ArachnaeBase_Race_HardJaw.comps.CompMechPowerCell.labelOverride>
+  <ArachnaeBase_Race_HardJaw.comps.CompMechPowerCell.tooltipOverride>This special Arachnae auxiliary bug is on a path to death from the moment it is born—that's how short its lifespan is.</ArachnaeBase_Race_HardJaw.comps.CompMechPowerCell.tooltipOverride>
+  <ArachnaeBase_Race_HardJaw.tools.head.label>Head</ArachnaeBase_Race_HardJaw.tools.head.label>
+
+  <ArachnaeBase_Race_Maid.label>Arachnae Domestic Species</ArachnaeBase_Race_Maid.label>
+  <ArachnaeBase_Race_Maid.description>A type of Arachnae auxiliary bug with low intelligence that can perform cleaning and hauling tasks, but will meet its end after a short time.</ArachnaeBase_Race_Maid.description>
+  <ArachnaeBase_Race_Maid.comps.CompMechPowerCell.labelOverride>Lifespan</ArachnaeBase_Race_Maid.comps.CompMechPowerCell.labelOverride>
+  <ArachnaeBase_Race_Maid.comps.CompMechPowerCell.tooltipOverride>This special Arachnae auxiliary bug is on a path to death from the moment it is born—that's how short its lifespan is.</ArachnaeBase_Race_Maid.comps.CompMechPowerCell.tooltipOverride>
+  <ArachnaeBase_Race_Maid.tools.head.label>Head</ArachnaeBase_Race_Maid.tools.head.label>
+
+
+</LanguageData>

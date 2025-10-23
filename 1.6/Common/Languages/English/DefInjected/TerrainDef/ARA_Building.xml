@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<ARA_InsectCreep.label>Arachne Creep</ARA_InsectCreep.label>
+<ARA_InsectCreep.description>Ground laid down by the Arachne insectoids, composed of a mixture of fungus and chitinous secretions. It automatically spreads around various Arachne insectoid structures. This strange structure is dense in texture and contains many nutrient-transporting tissues. It can support large buildings, allow crops to be grown, and accelerates the movement speed of Arachne insectoids moving on it. However, those outside of the insectoid race probably wouldn't want to walk on this soft, biological structure.</ARA_InsectCreep.description>
+
+<ARA_InsectCreepFloor.label>Arachne Reinforced Creep</ARA_InsectCreepFloor.label>
+<ARA_InsectCreepFloor.description>Ground laid down by the Arachne insectoids, composed of a mixture of fungus and chitinous secretions. Its properties are similar to Arachne Creep, but it can also spread onto support structures and can be used as the foundation for the swarm's Grav-ship.</ARA_InsectCreepFloor.description>
+
+<ARA_InsectCreepTile.label>Arachne Creep Tile</ARA_InsectCreepTile.label>
+<ARA_InsectCreepTile.description>A floor laid down by the Arachne insectoids on top of Creep, mixed with steel and chitinous secretions. It is more orderly than simple Creep, easier to clean, and prevents slime from leaking out. While its fertility is lost, it retains the other characteristics of insectoid Creep.</ARA_InsectCreepTile.description>
+
+
+</LanguageData>

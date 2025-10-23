@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_PowerArmor_NoFuel.label>Symbiotic Musculature Malnutrition</ARA_PowerArmor_NoFuel.label>
+  <ARA_PowerArmor_NoFuel.description>This symbiotic musculature is malnourished due to a lack of nutrients, which adversely affects the host.</ARA_PowerArmor_NoFuel.description>
+
+  <ARA_SpiderOne_PowerArmor_MainHediff.label>Symbiotic Musculature</ARA_SpiderOne_PowerArmor_MainHediff.label>
+  <ARA_SpiderOne_PowerArmor_MainHediff.description>A special biological structure of the Arachnae swarm. While possessing major biological organs, it lacks intelligence, and by fusing with the Drone's nervous system, it becomes an equipment similar to power armor. The symbiotic musculature provides the host with additional heavy weaponry and is equipped with numerous micro-weapon organs on its surface, allowing the Arachnae bug to wield power comparable to human tanks.</ARA_SpiderOne_PowerArmor_MainHediff.description>
+  <ARA_SpiderOne_PowerArmor_MainHediff.comps.1.tools.0.label>forelimb stab</ARA_SpiderOne_PowerArmor_MainHediff.comps.1.tools.0.label>
+
+
+</LanguageData>

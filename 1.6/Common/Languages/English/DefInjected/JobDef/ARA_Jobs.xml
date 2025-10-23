@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_IncubateJob.reportString>injecting pheromones into TargetA.</ARA_IncubateJob.reportString>
+  <ARA_CarryPrisonerToNutrientVat.reportString>carrying TargetA to TargetB.</ARA_CarryPrisonerToNutrientVat.reportString>
+  <ARA_EnterPowerArmor.reportString>entering TargetA.</ARA_EnterPowerArmor.reportString>
+
+
+  <ARA_CarryPrisonerToRefuelingVat.reportString>carrying TargetA to TargetB.</ARA_CarryPrisonerToRefuelingVat.reportString>
+
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_EdgeDropGroups.textEnemy>{0} from {1} have arrived nearby in drop pods.</ARA_EdgeDropGroups.textEnemy>
+  <ARA_EdgeDropGroups.textFriendly>Friendly {0} from {1} have arrived nearby in drop pods.</ARA_EdgeDropGroups.textFriendly>
+  <ARA_EdgeDropGroups.textWillArrive>{0_pawnsPluralDef} will arrive in drop pods.</ARA_EdgeDropGroups.textWillArrive>
+
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_GuardianPsyField.label>Weaver Psychic Field</ARA_GuardianPsyField.label>
+  <ARA_GuardianPsyField.description>A powerful psychic defense field that automatically intercepts hostile flying objects entering its range of effect. The total shield strength depends on psychic sensitivity and is difficult to penetrate, but psychic entropy accumulates with each interception.</ARA_GuardianPsyField.description>
+
+  <ARA_Psi_Master.label>Psychic Master</ARA_Psi_Master.label>
+  <ARA_Psi_Master.description>The Arachnae Weaver is the psychic master of the colony. She is skilled in handling psychic abilities, using them not only for her own flight but also as a conduit to protect surrounding allied units and fire energy attacks at enemies.</ARA_Psi_Master.description>
+
+  <ARA_Psi_Conductor.label>Psychic Conductor</ARA_Psi_Conductor.label>
+  <ARA_Psi_Conductor.description>The Arachnae Weaver uses this colonist as a conductor for her powerful psychic energy. The Weaver controls the colonist's psychic power to launch automatic attacks against enemies and makes the colonist harder to defeat—at the cost of the colonist entering a temporary psycho-shock state.</ARA_Psi_Conductor.description>
+
+  <ARA_Praetorian_Commander_Hediff.label>Command Node</ARA_Praetorian_Commander_Hediff.label>
+  <ARA_Praetorian_Commander_Hediff.description>The Arachnae Praetorian is commanding surrounding bug units, but its combat power is reduced due to the dispersion of its consciousness to establish a secondary Hive Mind network.</ARA_Praetorian_Commander_Hediff.description>
+
+  <ARA_Praetorian_Command_Hediff.label>Hive Command</ARA_Praetorian_Command_Hediff.label>
+  <ARA_Praetorian_Command_Hediff.description>A nearby Arachnae Praetorian is serving as the battlefield commander. The commanded Arachnae bugs are connected by a secondary Hive Mind network, enhancing their overall combat capability.</ARA_Praetorian_Command_Hediff.description>
+
+
+</LanguageData>

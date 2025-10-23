@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Proj_EggSac.label>Arachnae Egg</ARA_Proj_EggSac.label>
+
+  <ARA_InteractiveEggSac.label>Arachnae Egg Sac</ARA_InteractiveEggSac.label>
+  <ARA_InteractiveEggSac.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Queen. It holds nutrients and genetic material to rear new Overseer-type insects and can be activated by contact with an Arachnae Queen—check the egg link to confirm the characteristics of each Overseer.\n\nThe egg sac is extremely temperature-sensitive, with an optimal temperature range of -25 to 30°C. Manage it carefully!</ARA_InteractiveEggSac.description>
+
+  <ARA_InteractiveEggSac_Start.label>First-born Arachnae Egg Sac</ARA_InteractiveEggSac_Start.label>
+  <ARA_InteractiveEggSac_Start.description>A fragile, flammable, slimy sac containing the first eggs laid by the Arachnae Queen in this area. It holds nutrients and genetic material to rear new Overseer-type insects and can be activated by contact with an Arachnae Queen.\n\nThe first-born egg sac can withstand extreme weather and hatches very quickly, but is limited in the types of insects it can hatch.</ARA_InteractiveEggSac_Start.description>
+
+  <ARA_Proj_EggSac_Huge.label>Large Arachnae Egg</ARA_Proj_EggSac_Huge.label>
+
+  <ARA_InteractiveEggSac_Huge.label>Large Arachnae Egg Sac</ARA_InteractiveEggSac_Huge.label>
+  <ARA_InteractiveEggSac_Huge.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Queen. It holds nutrients and genetic material to rear large Overseer-type insects and can be activated by contact with an Arachnae Queen—check the egg link to confirm the characteristics of each Overseer.\n\nThe egg sac is extremely temperature-sensitive, with an optimal temperature range of -25 to 30°C. Manage it carefully!</ARA_InteractiveEggSac_Huge.description>
+
+
+  <ARA_Proj_EggSac_1Stage.label>Arachnae Egg</ARA_Proj_EggSac_1Stage.label>
+
+  <ARA_InteractiveEggSac_1Stage.label>Arachnae Egg Sac</ARA_InteractiveEggSac_1Stage.label>
+  <ARA_InteractiveEggSac_1Stage.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Queen. It holds nutrients and genetic material to rear new Overseer-type insects and can be activated by contact with an Arachnae Queen—check the egg link to confirm the characteristics of each Overseer.\n\nThe egg sac is extremely temperature-sensitive, with an optimal temperature range of -10 to 22°C. Manage it carefully!</ARA_InteractiveEggSac_1Stage.description>
+
+  <ARA_Proj_EggSac_Huge_1Stage.label>Large Arachnae Egg</ARA_Proj_EggSac_Huge_1Stage.label>
+
+  <ARA_InteractiveEggSac_Huge_1Stage.label>Large Arachnae Egg Sac</ARA_InteractiveEggSac_Huge_1Stage.label>
+  <ARA_InteractiveEggSac_Huge_1Stage.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Queen. It holds nutrients and genetic material to rear large Overseer-type insects and can be activated by contact with an Arachnae Queen—check the egg link to confirm the characteristics of each Overseer.\n\nThe egg sac is extremely temperature-sensitive, with an optimal temperature range of -10 to 22°C. Manage it carefully!</ARA_InteractiveEggSac_Huge_1Stage.description>
+
+
+  <ARA_Proj_EggSac_2Stage.label>Arachnae Egg</ARA_Proj_EggSac_2Stage.label>
+
+  <ARA_InteractiveEggSac_2Stage.label>Arachnae Egg Sac</ARA_InteractiveEggSac_2Stage.label>
+  <ARA_InteractiveEggSac_2Stage.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Queen. It holds nutrients and genetic material to rear new Overseer-type insects and can be activated by contact with an Arachnae Queen—check the egg link to confirm the characteristics of each Overseer.\n\nThe egg sac is extremely temperature-sensitive, with an optimal temperature range of 0 to 18°C. Manage it carefully!</ARA_InteractiveEggSac_2Stage.description>
+
+  <ARA_Proj_EggSac_Huge_2Stage.label>Large Arachnae Egg</ARA_Proj_EggSac_Huge_2Stage.label>
+
+  <ARA_InteractiveEggSac_Huge_2Stage.label>Large Arachnae Egg Sac</ARA_InteractiveEggSac_Huge_2Stage.label>
+  <ARA_InteractiveEggSac_Huge_2Stage.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Queen. It holds nutrients and genetic material to rear large Overseer-type insects and can be activated by contact with an Arachnae Queen—check the egg link to confirm the characteristics of each Overseer.\n\nThe egg sac is extremely temperature-sensitive, with an optimal temperature range of -10 to 22°C. Manage it carefully!</ARA_InteractiveEggSac_Huge_2Stage.description>
+
+
+  <ARA_InteractiveEggSac_Queen.label>Arachnae Queen Egg Sac</ARA_InteractiveEggSac_Queen.label>
+  <ARA_InteractiveEggSac_Queen.description>A super-sized egg sac for hatching an Arachnae Queen. Its outer skin is as hard as a fortress, and the interior is filled with genetic material and nutrients to hatch a massive entity unparalleled on this planet.</ARA_InteractiveEggSac_Queen.description>
+  <Blueprint_Install_ARA_InteractiveEggSac_Queen.label>Arachnae Queen Egg Sac (Blueprint)</Blueprint_Install_ARA_InteractiveEggSac_Queen.label>
+
+
+  <ARA_Cocoon_Proj_Cloth.label>Arachnae Hatching Cocoon</ARA_Cocoon_Proj_Cloth.label>
+
+  <ARA_Cocoon_Cloth.label>Arachnae Hatching Cocoon: Textiles</ARA_Cocoon_Cloth.label>
+  <ARA_Cocoon_Cloth.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Crafter-type insect. It holds nutrients to hatch basic textile equipment and can be activated by contact with an Arachnae Crafter—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: -30 to 55°C). Manage it carefully!</ARA_Cocoon_Cloth.description>
+  <ARA_Cocoon_Cloth.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Cloth.comps.CompRefuelableNutrition.fuelLabel>
+
+  <ARA_Cocoon_Cloth_From_Death.label>Arachnae Hatching Cocoon: Textiles</ARA_Cocoon_Cloth_From_Death.label>
+  <ARA_Cocoon_Cloth_From_Death.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Crafter-type insect. It holds nutrients to hatch basic textile equipment and can be activated by contact with an Arachnae Crafter—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: -30 to 55°C). Manage it carefully!</ARA_Cocoon_Cloth_From_Death.description>
+  <ARA_Cocoon_Cloth_From_Death.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Cloth_From_Death.comps.CompRefuelableNutrition.fuelLabel>
+
+  <ARA_Cocoon_Proj_Weapon.label>Arachnae Hatching Cocoon</ARA_Cocoon_Proj_Weapon.label>
+
+  <ARA_Cocoon_Weapon.label>Arachnae Hatching Cocoon: Armed Organ</ARA_Cocoon_Weapon.label>
+  <ARA_Cocoon_Weapon.description>A thorny sac containing eggs laid by the Arachnae Crafter-type insect. It holds nutrients to hatch armed organs and can be activated by contact with an Arachnae Crafter—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: -20 to 35°C). Manage it carefully!</ARA_Cocoon_Weapon.description>
+  <ARA_Cocoon_Weapon.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Weapon.comps.CompRefuelableNutrition.fuelLabel>
+
+  <ARA_Cocoon_Weapon_From_Death.label>Arachnae Hatching Cocoon: Armed Organ</ARA_Cocoon_Weapon_From_Death.label>
+  <ARA_Cocoon_Weapon_From_Death.description>A thorny sac containing eggs laid by the Arachnae Crafter-type insect. It holds nutrients to hatch armed organs and can be activated by contact with an Arachnae Crafter—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: -20 to 35°C). Manage it carefully!</ARA_Cocoon_Weapon_From_Death.description>
+  <ARA_Cocoon_Weapon_From_Death.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Weapon_From_Death.comps.CompRefuelableNutrition.fuelLabel>
+
+
+  <ARA_Cocoon_Proj_Cloth_1Stage.label>Arachnae Hatching Cocoon</ARA_Cocoon_Proj_Cloth_1Stage.label>
+
+  <ARA_Cocoon_Cloth_1Stage.label>Arachnae Hatching Cocoon: Textiles Level 1</ARA_Cocoon_Cloth_1Stage.label>
+  <ARA_Cocoon_Cloth_1Stage.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Crafter-type insect. It holds nutrients to hatch basic textile equipment and can be activated by contact with an Arachnae Crafter—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: -30 to 55°C). Manage it carefully!</ARA_Cocoon_Cloth_1Stage.description>
+  <ARA_Cocoon_Cloth_1Stage.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Cloth_1Stage.comps.CompRefuelableNutrition.fuelLabel>
+
+  <ARA_Cocoon_Cloth_1Stage_From_Death.label>Arachnae Hatching Cocoon: Textiles Level 1</ARA_Cocoon_Cloth_1Stage_From_Death.label>
+  <ARA_Cocoon_Cloth_1Stage_From_Death.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Crafter-type insect. It holds nutrients to hatch basic textile equipment and can be activated by contact with an Arachnae Crafter—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: -30 to 55°C). Manage it carefully!</ARA_Cocoon_Cloth_1Stage_From_Death.description>
+  <ARA_Cocoon_Cloth_1Stage_From_Death.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Cloth_1Stage_From_Death.comps.CompRefuelableNutrition.fuelLabel>
+
+  <ARA_Cocoon_Proj_Weapon_1Stage.label>Arachnae Hatching Cocoon</ARA_Cocoon_Proj_Weapon_1Stage.label>
+
+  <ARA_Cocoon_Weapon_1Stage.label>Arachnae Hatching Cocoon: Armed Organ Level 1</ARA_Cocoon_Weapon_1Stage.label>
+  <ARA_Cocoon_Weapon_1Stage.description>A thorny sac containing eggs laid by the Arachnae Crafter-type insect. It holds nutrients to hatch armed organs and can be activated by contact with an Arachnae Crafter—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: -20 to 35°C). Manage it carefully!</ARA_Cocoon_Weapon_1Stage.description>
+  <ARA_Cocoon_Weapon_1Stage.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Weapon_1Stage.comps.CompRefuelableNutrition.fuelLabel>
+
+  <ARA_Cocoon_Weapon_1Stage_From_Death.label>Arachnae Hatching Cocoon: Armed Organ Level 1</ARA_Cocoon_Weapon_1Stage_From_Death.label>
+  <ARA_Cocoon_Weapon_1Stage_From_Death.description>A thorny sac containing eggs laid by the Arachnae Crafter-type insect. It holds nutrients to hatch armed organs and can be activated by contact with an Arachnae Crafter—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: -20 to 35°C). Manage it carefully!</ARA_Cocoon_Weapon_1Stage_From_Death.description>
+  <ARA_Cocoon_Weapon_1Stage_From_Death.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Weapon_1Stage_From_Death.comps.CompRefuelableNutrition.fuelLabel>
+
+
+  <ARA_Cocoon_Proj_Cloth_2Stage.label>Arachnae Hatching Cocoon</ARA_Cocoon_Proj_Cloth_2Stage.label>
+
+  <ARA_Cocoon_Cloth_2Stage.label>Arachnae Hatching Cocoon: Textiles Level 2</ARA_Cocoon_Cloth_2Stage.label>
+  <ARA_Cocoon_Cloth_2Stage.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Crafter-type insect. It holds nutrients to hatch basic textile equipment and can be activated by contact with an Arachnae Crafter—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: 10 to 16°C). Manage it carefully!</ARA_Cocoon_Cloth_2Stage.description>
+  <ARA_Cocoon_Cloth_2Stage.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Cloth_2Stage.comps.CompRefuelableNutrition.fuelLabel>
+
+  <ARA_Cocoon_Cloth_2Stage_From_Death.label>Arachnae Hatching Cocoon: Textiles Level 2</ARA_Cocoon_Cloth_2Stage_From_Death.label>
+  <ARA_Cocoon_Cloth_2Stage_From_Death.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Crafter-type insect. It holds nutrients to hatch basic textile equipment and can be activated by contact with an Arachnae Crafter—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: 10 to 16°C). Manage it carefully!</ARA_Cocoon_Cloth_2Stage_From_Death.description>
+  <ARA_Cocoon_Cloth_2Stage_From_Death.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Cloth_2Stage_From_Death.comps.CompRefuelableNutrition.fuelLabel>
+
+  <ARA_Cocoon_Proj_Weapon_2Stage.label>Arachnae Hatching Cocoon</ARA_Cocoon_Proj_Weapon_2Stage.label>
+
+  <ARA_Cocoon_Weapon_2Stage.label>Arachnae Hatching Cocoon: Armed Organ Level 2</ARA_Cocoon_Weapon_2Stage.label>
+  <ARA_Cocoon_Weapon_2Stage.description>A thorny sac containing eggs laid by the Arachnae Crafter-type insect. It holds nutrients to hatch armed organs and can be activated by contact with an Arachnae Crafter—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: 21 to 30°C). Manage it carefully!</ARA_Cocoon_Weapon_2Stage.description>
+  <ARA_Cocoon_Weapon_2Stage.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Weapon_2Stage.comps.CompRefuelableNutrition.fuelLabel>
+
+  <ARA_Cocoon_Weapon_2Stage_From_Death.label>Arachnae Hatching Cocoon: Armed Organ Level 2</ARA_Cocoon_Weapon_2Stage_From_Death.label>
+  <ARA_Cocoon_Weapon_2Stage_From_Death.description>A thorny sac containing eggs laid by the Arachnae Crafter-type insect. It holds nutrients to hatch armed organs and can be activated by contact with an Arachnae Crafter—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: 21 to 30°C). Manage it carefully!</ARA_Cocoon_Weapon_2Stage_From_Death.description>
+  <ARA_Cocoon_Weapon_2Stage_From_Death.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Weapon_2Stage_From_Death.comps.CompRefuelableNutrition.fuelLabel>
+
+
+  <ARA_Cocoon_Proj_Medicine.label>Arachnae Hatching Cocoon</ARA_Cocoon_Proj_Medicine.label>
+
+  <ARA_Cocoon_Medicine.label>Arachnae Hatching Cocoon: Medicine</ARA_Cocoon_Medicine.label>
+  <ARA_Cocoon_Medicine.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Honey Pot-type insect. It holds nutrients to hatch a set of medical or chemical supplies and can be activated by contact with an Arachnae Honey Pot—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: 0 to 12°C). Manage it carefully!</ARA_Cocoon_Medicine.description>
+  <ARA_Cocoon_Medicine.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Medicine.comps.CompRefuelableNutrition.fuelLabel>
+
+  <ARA_Cocoon_Medicine_From_Death.label>Arachnae Hatching Cocoon: Medicine</ARA_Cocoon_Medicine_From_Death.label>
+  <ARA_Cocoon_Medicine_From_Death.description>A fragile, flammable, slimy sac containing eggs laid by the Arachnae Honey Pot-type insect. It holds nutrients to hatch a set of medical or chemical supplies and can be activated by contact with an Arachnae Honey Pot—check the cocoon link to confirm the characteristics of the equipable items that can be produced.\n\nThe hatching cocoon is extremely temperature-sensitive (optimal temperature: 0 to 12°C). Manage it carefully!</ARA_Cocoon_Medicine_From_Death.description>
+  <ARA_Cocoon_Medicine_From_Death.comps.CompRefuelableNutrition.fuelLabel>Insect Honey</ARA_Cocoon_Medicine_From_Death.comps.CompRefuelableNutrition.fuelLabel>
+
+
+  <ARA_Proj_EggSac_Techprint.label>Arachnae Hatching Cocoon</ARA_Proj_EggSac_Techprint.label>
+
+  <ARA_InteractiveEggSac_Techprint.label>Arachnae Gene Test Egg</ARA_InteractiveEggSac_Techprint.label>
+  <ARA_InteractiveEggSac_Techprint.description>A fragile, flammable, slimy sac. It cannot hatch an Overseer-type insect, but it can hatch a specific research techprint. It can be activated by contact with an Arachnae Queen.\n\nThis egg operates by consuming a large amount of essence, and the research that can be hatched depends on the research progress at the time of installation. Techprints corresponding to ununlocked research cannot be hatched.</ARA_InteractiveEggSac_Techprint.description>
+  <ARA_InteractiveEggSac_Techprint.comps.CompRefuelableNutrition.fuelLabel>Essence</ARA_InteractiveEggSac_Techprint.comps.CompRefuelableNutrition.fuelLabel>
+
+
+</LanguageData>

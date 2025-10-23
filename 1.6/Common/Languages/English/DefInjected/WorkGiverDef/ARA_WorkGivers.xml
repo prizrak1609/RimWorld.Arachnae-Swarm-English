@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Refuel_Nutrition.label>Refuel Nutrition</ARA_Refuel_Nutrition.label>
+  <ARA_Refuel_Nutrition.verb>Refuel</ARA_Refuel_Nutrition.verb>
+  <ARA_Refuel_Nutrition.gerund>Refueling</ARA_Refuel_Nutrition.gerund>
+
+  <ARA_SkillTraining_Building_Bills.label>Skill Training</ARA_SkillTraining_Building_Bills.label>
+  <ARA_SkillTraining_Building_Bills.verb>Train</ARA_SkillTraining_Building_Bills.verb>
+  <ARA_SkillTraining_Building_Bills.gerund>Training</ARA_SkillTraining_Building_Bills.gerund>
+
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_InsectJelly.label>Arachnae Insect Jelly</ARA_InsectJelly.label>
+  <ARA_InsectJelly.description>A jelly stored and used as food by the Arachnae swarm, it is the sole food source for many Arachnae bugs. It is smooth, rich, non-perishable, and satisfies the eater's recreation need. Due to its unique biological properties, it can be eaten by non-Arachnae species without causing food poisoning.</ARA_InsectJelly.description>
+
+  <ARA_NutrientPasteMeal.label>Arachnae Nectar Crystal Cake</ARA_NutrientPasteMeal.label>
+  <ARA_NutrientPasteMeal.description>A viscous "cake" synthesized from insect jelly, mixed with information-rich elements that activate the bug's activity. Not only does it help the hive withstand harsh environments, but its unique flavor is also favored by humans.</ARA_NutrientPasteMeal.description>
+
+  <ARA_Carapace.label>Carapace Element</ARA_Carapace.label>
+  <ARA_Carapace.description>A carapace element stripped from a part of a thick-shelled Arachnae bug. It is lightweight but not very durable, and is used for various purposes within the hive.</ARA_Carapace.description>
+
+  <ARA_Activated_Bacterium.label>Activated Gigabacteria</ARA_Activated_Bacterium.label>
+  <ARA_Activated_Bacterium.description>An extremophile microbial community tamed and modified by the Arachnae swarm. It possesses powerful biocatalytic and corrosive assimilation capabilities, and is an essential material for many advanced equipment of the Arachnae bug.</ARA_Activated_Bacterium.description>
+
+  <ARA_Gene_Essence.label>Essence</ARA_Gene_Essence.label>
+  <ARA_Gene_Essence.description>Heterogeneous genetic material stored within the body of a small auxiliary bug—the Arachnae Essence Species—which is highly fragile. It is usually obtained from prisoners using the Essence Extraction Vat and is one of the critical resources for the Arachnae swarm.</ARA_Gene_Essence.description>
+
+
+</LanguageData>

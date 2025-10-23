@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_New_Hive.label>Arachne New Hive</ARA_New_Hive.label>
+  <ARA_New_Hive.description>A new Arachne hive.</ARA_New_Hive.description>
+  <ARA_New_Hive.pawnSingular>colonist</ARA_New_Hive.pawnSingular>
+  <ARA_New_Hive.pawnsPlural>colonists</ARA_New_Hive.pawnsPlural>
+  <ARA_New_Hive.leaderTitle>Leader</ARA_New_Hive.leaderTitle>
+  <ARA_New_Hive.messageDefendersAttacking>{0} of {1} is attacking your {2}.</ARA_New_Hive.messageDefendersAttacking>
+
+
+</LanguageData>

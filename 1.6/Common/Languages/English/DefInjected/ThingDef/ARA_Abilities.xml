@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Proj_Tumor.label>Arachnae Fungus Nodule</ARA_Proj_Tumor.label>
+
+  <ARA_Tumor_Smokepop.label>Arachnae Decaying Creep Nodule</ARA_Tumor_Smokepop.label>
+  <ARA_Tumor_Smokepop.description>A special creep nodule discharged by a small number of insect types. In addition to a lighting effect, it spreads creep over a wide area on the ground but decays quickly.</ARA_Tumor_Smokepop.description>
+
+  <ARA_Proj_StrongSludgeSpray.label>Arachnae Acidic Fluid</ARA_Proj_StrongSludgeSpray.label>
+
+
+  <ArachnaeBase_Race_Acidcut_Proj.label>Arachnae Acid-Bite Type</ArachnaeBase_Race_Acidcut_Proj.label>
+
+
+  <Bullet_ARA_MimicNematode_Needle.label>Mimic Nematode Parasitic Needle</Bullet_ARA_MimicNematode_Needle.label>
+  <ARA_Flyer_TrackingCharge.label>Flight</ARA_Flyer_TrackingCharge.label>
+
+
+</LanguageData>

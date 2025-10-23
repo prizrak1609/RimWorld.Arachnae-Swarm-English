@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Blueprint_ARA_InsectCreep.label>Arachnae Creep (Blueprint)</Blueprint_ARA_InsectCreep.label>
+  <Frame_ARA_InsectCreep.label>Arachnae Creep (Building)</Frame_ARA_InsectCreep.label>
+  <Frame_ARA_InsectCreep.description>Terrain being constructed.</Frame_ARA_InsectCreep.description>
+
+  <Blueprint_ARA_InsectCreepFloor.label>Arachnae Reinforced Creep (Blueprint)</Blueprint_ARA_InsectCreepFloor.label>
+  <Frame_ARA_InsectCreepFloor.label>Arachnae Reinforced Creep (Building)</Frame_ARA_InsectCreepFloor.label>
+  <Frame_ARA_InsectCreepFloor.description>Terrain being constructed.</Frame_ARA_InsectCreepFloor.description>
+
+  <Blueprint_ARA_InsectCreepTile.label>Arachnae Creep Tile (Blueprint)</Blueprint_ARA_InsectCreepTile.label>
+  <Frame_ARA_InsectCreepTile.label>Arachnae Creep Tile (Building)</Frame_ARA_InsectCreepTile.label>
+  <Frame_ARA_InsectCreepTile.description>Terrain being constructed.</Frame_ARA_InsectCreepTile.description>
+
+
+</LanguageData>

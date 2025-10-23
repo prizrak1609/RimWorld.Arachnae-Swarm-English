@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <CommandDeployWormholePortalB_Pilot>Deploy Wormhole</CommandDeployWormholePortalB_Pilot>
+  <CommandDeployWormholePortalB_PilotDesc>Deploy a wormhole at the specified location to form a passage connecting two points. A guide is required to travel to unexplored regions.</CommandDeployWormholePortalB_PilotDesc>
+  <NoPilotAvailable>No guide available</NoPilotAvailable>
+  <ForceLaunch>Force Launch</ForceLaunch>
+  <NotEnoughFuel>Not enough nutrition for deployment</NotEnoughFuel>
+  <MessageTransportPodsDestinationIsInvalid>Invalid destination</MessageTransportPodsDestinationIsInvalid>
+  <MessageTransportPodsDestinationIsImpassable>Destination is impassable</MessageTransportPodsDestinationIsImpassable>
+  <WormholeNotLinked>This Tunnel-Species has not yet deployed a wormhole</WormholeNotLinked>
+  <WormholeLinkLost>The end-point of the wormhole deployed by this Tunnel-Species was destroyed</WormholeLinkLost>
+  <WormholePortalLinked>Tunnel-Species deployment complete! You can now quickly travel from the head to the map with the end-point.</WormholePortalLinked>
+  <WormholePortalB_Destroyed>The end-point of the wormhole deployed by the Tunnel-Species was destroyed</WormholePortalB_Destroyed>
+  <Status>Status</Status>
+  <LinkedTo>Linked To</LinkedTo>
+  <Deploying>Deploying</Deploying>
+</LanguageData>

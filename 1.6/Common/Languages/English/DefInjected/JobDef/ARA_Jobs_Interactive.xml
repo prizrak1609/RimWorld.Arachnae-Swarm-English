@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_StartInteractiveProduction.reportString>starting incubation of TargetA.</ARA_StartInteractiveProduction.reportString>
+  <ARA_AddToQueueJob.reportString>adding insectoid incubation job to queue.</ARA_AddToQueueJob.reportString>
+  <ARA_AddProcessToQueueJob.reportString>adding item incubation job to queue.</ARA_AddProcessToQueueJob.reportString>
+  <ARA_StartResearchProduction.reportString>incubating TargetA.</ARA_StartResearchProduction.reportString>
+
+</LanguageData>

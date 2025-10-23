@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Plasteel_Shell.label>Plasteel Carapace</ARA_Plasteel_Shell.label>
+  <ARA_Plasteel_Shell.description>The Arachnae bug reinforces its defense by directly embedding plasteel into its carapace. This surgery does not require making a part and can be performed directly on an Arachnae command bug.</ARA_Plasteel_Shell.description>
+
+  <ARA_Shell_Thorn.label>Carapace Thorn Stinger</ARA_Shell_Thorn.label>
+  <ARA_Shell_Thorn.description>Embeds two rows of thorn stinger tubes into the Arachnae bug's carapace. It automatically fires thorns at surrounding enemies when not in melee combat. This surgery does not require making a part and can be performed directly on an Arachnae command bug.</ARA_Shell_Thorn.description>
+
+  <ARA_Reactive_Shell.label>Reactive Carapace</ARA_Reactive_Shell.label>
+  <ARA_Reactive_Shell.description>The Arachnae bug's reactive carapace can block incoming external damage once. After that, this carapace plate is ejected and loses its defensive capability. This surgery does not require making a part and can be performed directly on an Arachnae command bug.</ARA_Reactive_Shell.description>
+
+  <ARA_Gene_Essence_Shell.label>Carapace Proliferation</ARA_Gene_Essence_Shell.label>
+  <ARA_Gene_Essence_Shell.description>The Arachnae bug's reactive carapace can block incoming external damage once. After that, this carapace plate is ejected and loses its defensive capability. This surgery does not require making a part and can be performed directly on an Arachnae command bug.</ARA_Gene_Essence_Shell.description>
+
+
+  <ARA_Strengthening_Tendon.label>Strengthening Tendon</ARA_Strengthening_Tendon.label>
+  <ARA_Strengthening_Tendon.description>With reinforced tendons, the Arachnae bug can move at high speed and also gains the ability to jump. This surgery does not require making a part and can be performed directly on an Arachnae command bug.</ARA_Strengthening_Tendon.description>
+
+  <ARA_Slide_Patagium.label>Sliding Patagium</ARA_Slide_Patagium.label>
+  <ARA_Slide_Patagium.description>The sliding patagium on the Arachnae bug's legs allows for rapid movement on creep, but the effect is immediately lost upon leaving the creep. This surgery does not require making a part and can be performed directly on an Arachnae command bug.</ARA_Slide_Patagium.description>
+
+
+  <ARA_Huge_Stomach.label>Additional Stomach Sac</ARA_Huge_Stomach.label>
+  <ARA_Huge_Stomach.description>Directional mutation of the Arachnae bug results in a larger stomach sac, allowing it to store more nutrition. This surgery does not require making a part and can be performed directly on an Arachnae command bug.</ARA_Huge_Stomach.description>
+
+
+  <ARA_Internal_Circulation_Lung.label>Internal Circulation Lung</ARA_Internal_Circulation_Lung.label>
+  <ARA_Internal_Circulation_Lung.description>Directional mutation of the Arachnae bug allows its lungs to perform self-circulation, enabling it to withstand near-vacuum invasion. This surgery does not require making a part and can be performed directly on an Arachnae command bug.</ARA_Internal_Circulation_Lung.description>
+
+
+  <ARA_Cycle_Suppression.label>Life Cycle Suppression</ARA_Cycle_Suppression.label>
+  <ARA_Cycle_Suppression.description>The Arachnae bug's life cycle suppression element prevents the bug's own chaotic growth and extends its lifespan. This surgery does not require making a part and can be performed directly on an Arachnae command bug.</ARA_Cycle_Suppression.description>
+
+
+  <ARA_Acidling_Pouch.label>Explosive Species Exoskeleton Pouch</ARA_Acidling_Pouch.label>
+  <ARA_Acidling_Pouch.description>The Arachnae bug's exoskeleton pouch contains several Arachnae Explosive Species on the verge of hatching. Upon receiving a command, they immediately burst out and attack the enemy. This surgery does not require making a part and can be performed directly on an Arachnae command bug.</ARA_Acidling_Pouch.description>
+
+  <ARA_Tumor_Pouch.label>Tumor Pouch</ARA_Tumor_Pouch.label>
+  <ARA_Tumor_Pouch.description>The Arachnae bug's exoskeleton pouch contains a withered tumor. When released, it transforms a large area of the ground into creep. This surgery does not require making a part and can be performed directly on an Arachnae command bug.</ARA_Tumor_Pouch.description>
+
+
+</LanguageData>

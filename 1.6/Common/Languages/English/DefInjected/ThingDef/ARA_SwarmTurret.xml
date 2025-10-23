@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_DummyAmmo.label>Ammo</ARA_DummyAmmo.label>
+  <ARA_DummyAmmo.description>Ammunition used by the Arachnae swarm.</ARA_DummyAmmo.description>
+
+  <ARA_Filth_SpentAcid.label>Arachnae Spent Acid</ARA_Filth_SpentAcid.label>
+
+  <ARA_Turret_Beespikeshooter.label>Beespike Shooter</ARA_Turret_Beespikeshooter.label>
+  <ARA_Turret_Beespikeshooter.description>A small turret that fires venomous barbs.</ARA_Turret_Beespikeshooter.description>
+  <ARA_Turret_Beespikeshooter.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>Insect Jelly</ARA_Turret_Beespikeshooter.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
+
+  <ARA_Gun_Beespikeshooter.label>Beespike Shooter</ARA_Gun_Beespikeshooter.label>
+  <ARA_Gun_Beespikeshooter.verbs.Verb_Shoot.label>Beespike Shooter</ARA_Gun_Beespikeshooter.verbs.Verb_Shoot.label>
+  <ARA_Gun_Beespikeshooter.description>An organ that fires small venomous barbs.</ARA_Gun_Beespikeshooter.description>
+
+  <Arachnae_AcidlingTrap.label>Arachnae Explosive Cocoon</Arachnae_AcidlingTrap.label>
+  <Arachnae_AcidlingTrap.description>A dormant cocoon containing a dormant Arachnae bug. The bug inside wakes up if something gets too close.</Arachnae_AcidlingTrap.description>
+
+  <ARA_AutoSniperCannon.label>Bloodrock Gigabite Cannon Organism</ARA_AutoSniperCannon.label>
+  <ARA_AutoSniperCannon.description>One of the Arachnae swarm's hive defense organisms. It is composed of a non-autonomous, highly specialized cluster of organs that rapidly fires volleys of spines to severely wound large enemies or incoming crowds. As a defense organism, it can automatically generate resupply ammunition by consuming nutrition.</ARA_AutoSniperCannon.description>
+  <ARA_AutoSniperCannon.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>Insect Jelly</ARA_AutoSniperCannon.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
+
+  <Gun_ARA_AutoSniperCannonTurret.label>Bloodrock Gigabite Cannon</Gun_ARA_AutoSniperCannonTurret.label>
+  <Gun_ARA_AutoSniperCannonTurret.verbs.Verb_ShootWithOffset.label>Bloodrock Gigabite Cannon</Gun_ARA_AutoSniperCannonTurret.verbs.Verb_ShootWithOffset.label>
+  <Gun_ARA_AutoSniperCannonTurret.description>A Bloodrock Gigabite Cannon.</Gun_ARA_AutoSniperCannonTurret.description>
+
+
+  <ARA_Acidling_AutoMortar.label>Explosive Species Launcher Nest Organism</ARA_Acidling_AutoMortar.label>
+  <ARA_Acidling_AutoMortar.description>One of the Arachnae swarm's hive defense organisms. It is composed of a non-autonomous, highly specialized cluster of organs that launches multiple Arachnae Explosive Species auxiliary bugs at incoming enemies. The auxiliary bugs automatically seek their targets and perform suicide attacks. As a defense organism, it can automatically generate resupply ammunition by consuming nutrition.</ARA_Acidling_AutoMortar.description>
+  <ARA_Acidling_AutoMortar.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>Insect Jelly</ARA_Acidling_AutoMortar.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
+
+  <ARA_Acidling_Artillery_AutoMortar.label>Explosive Species Launcher Nest</ARA_Acidling_Artillery_AutoMortar.label>
+  <ARA_Acidling_Artillery_AutoMortar.verbs.Verb_ShootWithOffset.label>Explosive Species Launcher Nest</ARA_Acidling_Artillery_AutoMortar.verbs.Verb_ShootWithOffset.label>
+  <ArachnaeBase_Race_Acidling_Proj.label>Arachnae Explosive Species</ArachnaeBase_Race_Acidling_Proj.label>
+
+  <CatastropheMissileSilo.label>Disaster Acid Cannon Organism</CatastropheMissileSilo.label>
+  <CatastropheMissileSilo.description>One of the ultimate bio-weapons evolved by the Arachnae swarm. It is composed of a non-autonomous, highly specialized cluster of organs, and the fearsome Acid Cannon launches Disaster Acid Missiles. As a complex defense system, it can fire at local targets or perform precision strikes against distant threats, and can automatically generate resupply ammunition by consuming nutrition.</CatastropheMissileSilo.description>
+  <CatastropheMissileSilo.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>Insect Jelly</CatastropheMissileSilo.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
+
+  <CatastropheMissile_Weapon.label>Disaster Acid Cannon</CatastropheMissile_Weapon.label>
+  <CatastropheMissile_Weapon.verbs.Verb_ShootWithOffset.label>Disaster Acid Cannon</CatastropheMissile_Weapon.verbs.Verb_ShootWithOffset.label>
+  <CatastropheMissile_Weapon.description>The main body of the Disaster Acid Cannon Organism, responsible for launching and guiding the semi-autonomous Disaster Acid Missiles.</CatastropheMissile_Weapon.description>
+
+  <ARA_CatastropheMissile_Shell.label>Disaster Acid Missile</ARA_CatastropheMissile_Shell.label>
+  <ARA_CatastropheMissile_Shell.description>A Disaster Acid Missile used by the Arachnae swarm, which can only be fired by the Disaster Acid Cannon Organism.</ARA_CatastropheMissile_Shell.description>
+
+  <Projectile_CatastropheMissile.label>Disaster Acid Missile</Projectile_CatastropheMissile.label>
+  <Projectile_CatastropheMissile_Fake.label>Disaster Acid Missile</Projectile_CatastropheMissile_Fake.label>
+
+</LanguageData>

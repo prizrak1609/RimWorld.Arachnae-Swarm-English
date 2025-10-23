@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Possession.label>Arachnae Protozoan</ARA_Possession.label>
+  <ARA_Possession.description>This creature's body is controlled by an Arachnae Protozoan. The body's original owner can no longer return.</ARA_Possession.description>
+
+  <ARA_Facehugger_LowOperation.label>Arachnae Protozoan</ARA_Facehugger_LowOperation.label>
+  <ARA_Facehugger_LowOperation.description>The Arachnae Protozoan is very fragile when separated from the host, and its small body cannot perform specialized tasks.</ARA_Facehugger_LowOperation.description>
+
+
+</LanguageData>

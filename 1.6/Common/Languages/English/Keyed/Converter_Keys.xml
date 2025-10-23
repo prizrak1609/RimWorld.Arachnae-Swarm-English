@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ARA_NutritionConverter_ErrorMissingComps>Error: Missing Components</ARA_NutritionConverter_ErrorMissingComps>
+  
+  <ARA_NutritionConverter_StatusLabel>Status</ARA_NutritionConverter_StatusLabel>
+  <ARA_NutritionConverter_NextConversionLabel>Next Conversion</ARA_NutritionConverter_NextConversionLabel>
+  
+  <ARA_NutritionConverter_State_NoNutrition>Insufficient Nutrition</ARA_NutritionConverter_State_NoNutrition>
+  <ARA_NutritionConverter_State_TankFull>Ammunition Tank Full</ARA_NutritionConverter_State_TankFull>
+  <ARA_NutritionConverter_State_Converting>Assembling</ARA_NutritionConverter_State_Converting>
+
+  <ARA_NutritionConverter_Gathering>Loading: {0} / {1}</ARA_NutritionConverter_Gathering>
+  <ARA_NutritionConverter_Working>Assembling: {0} / {1}</ARA_NutritionConverter_Working>
+
+</LanguageData>

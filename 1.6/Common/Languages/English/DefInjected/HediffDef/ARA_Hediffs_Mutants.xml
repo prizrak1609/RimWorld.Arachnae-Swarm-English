@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_MimicNematode.label>Mimic Nematode Parasitism</ARA_MimicNematode.label>
+  <ARA_MimicNematode.description>This colonist is infected with the Arachnae Mimic Nematode parasite. If not intervened, the nematode will eventually kill the host, transforming it into a mindless parasite. The nematode spreads the infection to other bodies through the host's aggressive behavior.</ARA_MimicNematode.description>
+  <ARA_MimicNematode.stages.0.label>dormant stage</ARA_MimicNematode.stages.0.label>
+  <ARA_MimicNematode.stages.1.label>active stage</ARA_MimicNematode.stages.1.label>
+  <ARA_MimicNematode.stages.2.label>terminal stage</ARA_MimicNematode.stages.2.label>
+  <ARA_MimicNematode.stages.3.label>imminent change</ARA_MimicNematode.stages.3.label>
+
+
+  <ARA_MimicNematodeShambler.label>Arachnae Mimic Nematode Parasite</ARA_MimicNematodeShambler.label>
+  <ARA_MimicNematodeShambler.description>This corpse has been reanimated by the Arachnae Mimic Nematode parasite. The parasitized organism is sluggish, mindless, and attacks creatures indiscriminately. After a few days of activity, the parasite dies due to the host's declining metabolism. If captured and immobilized, the parasite cannot move and its life activities cease.</ARA_MimicNematodeShambler.description>
+
+
+  <ARA_Rising.label>Rising</ARA_Rising.label>
+  <ARA_Rising.description>The powerful regenerative ability from the Arachnae Mimic Nematode parasite is resurrecting this body.</ARA_Rising.description>
+
+  <ARA_MimicNematodeShamblerShamblerCorpse.label>Mimic Nematode Parasite Corpse</ARA_MimicNematodeShamblerShamblerCorpse.label>
+  <ARA_MimicNematodeShamblerShamblerCorpse.description>This body has just been "resurrected" by the Arachnae Mimic Nematode parasite.</ARA_MimicNematodeShamblerShamblerCorpse.description>
+  <ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.0.debugLabel>Shambler wound</ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.0.debugLabel>
+  <ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.1.debugLabel>Shambler wound</ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.1.debugLabel>
+
+
+</LanguageData>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_HiveMindMaster.label>Arachnae Queen</ARA_HiveMindMaster.label>
+  <ARA_HiveMindMaster.description>The Arachnae Queen is the central node of the swarm consciousness, controlling all Arachnae swarms as the primary brain. She possesses a large amount of undifferentiated repair cells within her body, allowing her to self-repair any injury at a speed unimaginable to a normal person.</ARA_HiveMindMaster.description>
+  <ARA_HiveMindMaster.stages.0.label>connected to {0} swarm workers</ARA_HiveMindMaster.stages.0.label>
+
+  <ARA_HiveMindDrone.label>Arachnae Drone</ARA_HiveMindDrone.label>
+  <ARA_HiveMindDrone.description>The Arachnae Drone is mentally connected to the Arachnae Queen. If the Queen dies, the Drone also ceases life activities.</ARA_HiveMindDrone.description>
+  <ARA_HiveMindDrone.comps.1.letterLabel>{0_labelShort} hatched</ARA_HiveMindDrone.comps.1.letterLabel>
+  <ARA_HiveMindDrone.comps.1.letterText>A new Arachnae Drone, {0_labelShort}, has emerged from its cocoon! She is wandering, awaiting the Queen's instruction—you can complete the link with the Arachnae Queen's pheromone mark skill or wait for the link to establish automatically.</ARA_HiveMindDrone.comps.1.letterText>
+
+  <ARA_NonPlayer_HiveMindDroneHediff.label>Wild Swarm</ARA_NonPlayer_HiveMindDroneHediff.label>
+  <ARA_NonPlayer_HiveMindDroneHediff.description>A Drone that has lost its connection to the Arachnae swarm's Hive Mind can only act like a wild beast—a Queen can re-establish control over them.</ARA_NonPlayer_HiveMindDroneHediff.description>
+
+  <ARA_HiveMindWorker.label>Arachnae Worker</ARA_HiveMindWorker.label>
+  <ARA_HiveMindWorker.description>The Arachnae Worker is mentally connected to the Arachnae Drone. If the Drone dies, the Worker also ceases life activities.</ARA_HiveMindWorker.description>
+
+  <ARA_HiveStrength.label>Swarm Vitality</ARA_HiveStrength.label>
+  <ARA_HiveStrength.description>The repair cells of this Arachnae bug are special, capable of self-repairing injuries at a very rapid pace, even regenerating lost organs. This powerful cell also grants resistance to acid corrosion and Arachnae bug acid damage.</ARA_HiveStrength.description>
+
+  <ARA_HiveStrength_Low.label>Swarm Vigor</ARA_HiveStrength_Low.label>
+  <ARA_HiveStrength_Low.description>Arachnae bugs possess a powerful wound repair ability, allowing them to quickly recover from various fatal damages. This powerful cell also grants resistance to acid corrosion and Arachnae bug acid damage.</ARA_HiveStrength_Low.description>
+
+
+  <ARA_LifespanHediff.label>Lifespan Record</ARA_LifespanHediff.label>
+  <ARA_LifespanHediff.description>A Hediff to record the lifespan of the Arachnae bug, but this is essentially a hidden one. Why are you looking at it?</ARA_LifespanHediff.description>
+
+  <ARA_TemperatureRegulation.label>Cold-Blooded Animal</ARA_TemperatureRegulation.label>
+  <ARA_TemperatureRegulation.description>Arachnae bugs are cold-blooded animals and are sensitive to external temperature changes—they become agile and deadly under suitable temperatures and find movement difficult under unsuitable temperatures.\n\nThis species can operate at temperatures between 6 and 36°C, and gains an additional consciousness bonus when the temperature is around 21°C.</ARA_TemperatureRegulation.description>
+  <ARA_TemperatureRegulation.stages.0.label>unsuitable</ARA_TemperatureRegulation.stages.0.label>
+  <ARA_TemperatureRegulation.stages.1.label>adapted</ARA_TemperatureRegulation.stages.1.label>
+  <ARA_TemperatureRegulation.stages.2.label>comfortable</ARA_TemperatureRegulation.stages.2.label>
+
+  <ARA_RaceBaseSwarmProduceSwitchHediff.label>Breeding Suppression</ARA_RaceBaseSwarmProduceSwitchHediff.label>
+  <ARA_RaceBaseSwarmProduceSwitchHediff.description>This Arachnae Drone is prohibited from breeding Workers due to hive thinking.</ARA_RaceBaseSwarmProduceSwitchHediff.description>
+
+
+</LanguageData>

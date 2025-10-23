@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PawnTransformer_SpaceBlocked>{PAWN_labelShort} cannot transform: Not enough space or there are obstacles.</PawnTransformer_SpaceBlocked>
+  <AbilityCannotBeUsedOnOthers>This ability can only be used on the user.</AbilityCannotBeUsedOnOthers>
+
+  <StoredPawn>Stored Weaver</StoredPawn>
+  <Activity>Activity</Activity>
+  <Researching>Researching</Researching>
+  <Idle>Idle</Idle>
+  <Sleeping>Sleeping</Sleeping>
+  <PawnTransformer_OutOfFuel>{PAWN_labelShort} was forcibly expelled due to running out of nutrition!</PawnTransformer_OutOfFuel>
+  <PawnTransformer_ForcedRevert>{PAWN_labelShort} was forcibly expelled due to being attacked!</PawnTransformer_ForcedRevert>
+  <PawnTransformer_BuildingDestroyed>{PAWN_labelShort} was expelled from the destroyed {BUILDING_label}!</PawnTransformer_BuildingDestroyed>
+
+</LanguageData>

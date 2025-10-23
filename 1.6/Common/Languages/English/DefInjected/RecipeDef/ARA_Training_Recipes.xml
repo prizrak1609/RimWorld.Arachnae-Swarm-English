@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_TrainShooting.label>Skill Training (Shooting)</ARA_TrainShooting.label>
+  <ARA_TrainShooting.description>Trains the level of the selected skill. It costs nothing, produces nothing, and simply gains work experience.\n\nSkill training is categorized as "Basic" type work. It is recommended to lower the priority of this work type if you do not want your hive to train continuously.</ARA_TrainShooting.description>
+  <ARA_TrainShooting.jobString>Training skill.</ARA_TrainShooting.jobString>
+
+
+  <ARA_TrainMelee.label>Skill Training (Melee)</ARA_TrainMelee.label>
+  <ARA_TrainMelee.description>Trains the level of the selected skill. It costs nothing, produces nothing, and simply gains work experience.\n\nSkill training is categorized as "Basic" type work. It is recommended to lower the priority of this work type if you do not want your hive to train continuously.</ARA_TrainMelee.description>
+  <ARA_TrainMelee.jobString>Training skill.</ARA_TrainMelee.jobString>
+
+
+  <ARA_TrainConstruction.label>Skill Training (Construction)</ARA_TrainConstruction.label>
+  <ARA_TrainConstruction.description>Trains the level of the selected skill. It costs nothing, produces nothing, and simply gains work experience.\n\nSkill training is categorized as "Basic" type work. It is recommended to lower the priority of this work type if you do not want your hive to train continuously.</ARA_TrainConstruction.description>
+  <ARA_TrainConstruction.jobString>Training skill.</ARA_TrainConstruction.jobString>
+
+
+  <ARA_TrainMining.label>Skill Training (Mining)</ARA_TrainMining.label>
+  <ARA_TrainMining.description>Trains the level of the selected skill. It costs nothing, produces nothing, and simply gains work experience.\n\nSkill training is categorized as "Basic" type work. It is recommended to lower the priority of this work type if you do not want your hive to train continuously.</ARA_TrainMining.description>
+  <ARA_TrainMining.jobString>Training skill.</ARA_TrainMining.jobString>
+
+
+  <ARA_TrainCooking.label>Skill Training (Cooking)</ARA_TrainCooking.label>
+  <ARA_TrainCooking.description>Trains the level of the selected skill. It costs nothing, produces nothing, and simply gains work experience.\n\nSkill training is categorized as "Basic" type work. It is recommended to lower the priority of this work type if you do not want your hive to train continuously.</ARA_TrainCooking.description>
+  <ARA_TrainCooking.jobString>Training skill.</ARA_TrainCooking.jobString>
+
+
+  <ARA_TrainPlants.label>Skill Training (Plants)</ARA_TrainPlants.label>
+  <ARA_TrainPlants.description>Trains the level of the selected skill. It costs nothing, produces nothing, and simply gains work experience.\n\nSkill training is categorized as "Basic" type work. It is recommended to lower the priority of this work type if you do not want your hive to train continuously.</ARA_TrainPlants.description>
+  <ARA_TrainPlants.jobString>Training skill.</ARA_TrainPlants.jobString>
+
+
+  <ARA_TrainAnimals.label>Skill Training (Animals)</ARA_TrainAnimals.label>
+  <ARA_TrainAnimals.description>Trains the level of the selected skill. It costs nothing, produces nothing, and simply gains work experience.\n\nSkill training is categorized as "Basic" type work. It is recommended to lower the priority of this work type if you do not want your hive to train continuously.</ARA_TrainAnimals.description>
+  <ARA_TrainAnimals.jobString>Training skill.</ARA_TrainAnimals.jobString>
+
+
+  <ARA_TrainMedicine.label>Skill Training (Medicine)</ARA_TrainMedicine.label>
+  <ARA_TrainMedicine.description>Trains the level of the selected skill. It costs nothing, produces nothing, and simply gains work experience.\n\nSkill training is categorized as "Basic" type work. It is recommended to lower the priority of this work type if you do not want your hive to train continuously.</ARA_TrainMedicine.description>
+  <ARA_TrainMedicine.jobString>Training skill.</ARA_TrainMedicine.jobString>
+
+
+  <ARA_TrainSocial.label>Skill Training (Social)</ARA_TrainSocial.label>
+  <ARA_TrainSocial.description>Trains the level of the selected skill. It costs nothing, produces nothing, and simply gains work experience.\n\nSkill training is categorized as "Basic" type work. It is recommended to lower the priority of this work type if you do not want your hive to train continuously.</ARA_TrainSocial.description>
+  <ARA_TrainSocial.jobString>Training skill.</ARA_TrainSocial.jobString>
+
+
+  <ARA_TrainCrafting.label>Skill Training (Crafting)</ARA_TrainCrafting.label>
+  <ARA_TrainCrafting.description>Trains the level of the selected skill. It costs nothing, produces nothing, and simply gains work experience.\n\nSkill training is categorized as "Basic" type work. It is recommended to lower the priority of this work type if you do not want your hive to train continuously.</ARA_TrainCrafting.description>
+  <ARA_TrainCrafting.jobString>Training skill.</ARA_TrainCrafting.jobString>
+
+
+  <ARA_TrainArtistic.label>Skill Training (Artistic)</ARA_TrainArtistic.label>
+  <ARA_TrainArtistic.description>Trains the level of the selected skill. It costs nothing, produces nothing, and simply gains work experience.</ARA_TrainArtistic.description>
+  <ARA_TrainArtistic.jobString>Training skill.</ARA_TrainArtistic.jobString>
+
+
+</LanguageData>

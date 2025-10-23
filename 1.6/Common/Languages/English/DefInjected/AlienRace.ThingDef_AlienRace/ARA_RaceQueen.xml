@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArachnaeQueen_Race.label>Arachnae Queen</ArachnaeQueen_Race.label>
+  <ArachnaeQueen_Race.description>The **Arachnae Queen** is the only individual in the Arachnae swarm capable of producing **Node-swarms (Tokumushi)**. She stands at the pinnacle of the swarm consciousness pyramid and bears the great mission of leading the Arachnae collective. The hive is operated with extremely high efficiency due to the **psychic link** collective consciousness network formed between her and her subordinate insectoids. However, if the Queen dies, all members of her subordinate collective will perish.</ArachnaeQueen_Race.description>
+  <ArachnaeQueen_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</ArachnaeQueen_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <ArachnaeQueen_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</ArachnaeQueen_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <ArachnaeQueen_Race.tools.0.label>crown</ArachnaeQueen_Race.tools.0.label>
+  <ArachnaeQueen_Race.tools.1.label>stomp</ArachnaeQueen_Race.tools.1.label>
+  <ArachnaeQueen_Race.tools.2.label>leg puncture</ArachnaeQueen_Race.tools.2.label>
+  <ArachnaeQueen_Race.tools.3.label>pincer attack</ArachnaeQueen_Race.tools.3.label>
+
+</LanguageData>

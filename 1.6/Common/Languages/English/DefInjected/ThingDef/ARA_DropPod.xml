@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_DropPod.label>Arachnae Air Sac Type</ARA_DropPod.label>
+  <ARA_DropPod.description>A giant Arachnae auxiliary insect. Its internal cavity can hold a large amount of supplies or insects—it uses its internal air sacs to ascend into the air and flies to a destination on the world map. However, it self-destructs upon landing.\n\nCompared to human drop pods, the Air Sac Type does not require fuel and has lower cost.</ARA_DropPod.description>
+
+  <ARA_ActiveDropPod.label>Arachnae Air Sac Type</ARA_ActiveDropPod.label>
+  <ARA_DropPodLeaving.label>Arachnae Air Sac Type (Takeoff)</ARA_DropPodLeaving.label>
+  <ARA_DropPodIncoming.label>Arachnae Air Sac Type (Landing)</ARA_DropPodIncoming.label>
+
+
+</LanguageData>

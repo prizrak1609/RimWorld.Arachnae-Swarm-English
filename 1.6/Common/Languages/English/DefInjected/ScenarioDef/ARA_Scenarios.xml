@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<ARA_Basic_Start_Scenario.label>A New Arachne Hive</ARA_Basic_Start_Scenario.label>
+<ARA_Basic_Start_Scenario.description>An Arachne Hive Queen has descended upon a desolate Rimworld, ready to begin the construction of her own hive.</ARA_Basic_Start_Scenario.description>
+<ARA_Basic_Start_Scenario.scenario.name>A New Arachne Hive</ARA_Basic_Start_Scenario.scenario.name>
+<ARA_Basic_Start_Scenario.scenario.description>An Arachne Hive Queen has descended upon a desolate Rimworld, ready to begin the construction of her own hive.</ARA_Basic_Start_Scenario.scenario.description>
+<ARA_Basic_Start_Scenario.scenario.summary>Start the game with 1 Arachne Hive Queen as your initial colonist. You begin with 4 Arachne Egg Sacs.</ARA_Basic_Start_Scenario.scenario.summary>
+<ARA_Basic_Start_Scenario.scenario.parts.GameStartDialog.text>The Hive Queen has arrived at the designated area.\nPlanet Environment Scan: Habitable.\nBiomass Resources: Abundant.\nLocal Native Civilization: Threat Level - Low.\nNeural Weave Reconstruction Complete. Welcome to 'Us'.\n\nInitial Directives:\nEnsure the survival of the Hive Queen. She is the root of the hive.\nHatch the Arachne Eggs and increase the insectoid population in this area.\nAssimilate the local biomass and accumulate resources to ensure the survival of the swarm.\nReconstruct the genetic tree and make 'Us' whole again.\n\nFor the survival of the Hive.</ARA_Basic_Start_Scenario.scenario.parts.GameStartDialog.text>
+
+
+</LanguageData>

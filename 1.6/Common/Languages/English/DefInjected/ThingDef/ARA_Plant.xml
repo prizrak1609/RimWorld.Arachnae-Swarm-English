@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_CreepPlant.label>Creep Plant</ARA_CreepPlant.label>
+  <ARA_CreepPlant.description>A strange plant that can only grow on Arachnae Creep. It grows vigorously through the creep's nutrient channels with almost no fertility consumption, and is one of the swarm's food sources.</ARA_CreepPlant.description>
+
+  <ARA_CreepFungus.label>Creep Fungus</ARA_CreepFungus.label>
+  <ARA_CreepFungus.description>A fungus harvested from a Creep Plant. It can be eaten raw, but is more delicious when cooked.</ARA_CreepFungus.description>
+
+
+  <ARA_BeeSpikePlant.label>Beespike Plant</ARA_BeeSpikePlant.label>
+  <ARA_BeeSpikePlant.description>A fungal composite cultured by the Arachnae swarm. It absorbs nutrients from the creep, and upon reaching a certain growth stage, undergoes metamorphosis, finally transforming into a Beespike Shooter—a sentient fungal unit that shoots venomous barbs at enemy forces.</ARA_BeeSpikePlant.description>
+
+  <ARA_AcidlingTrapPlant.label>Explosive Plant</ARA_AcidlingTrapPlant.label>
+  <ARA_AcidlingTrapPlant.description>A fungal composite cultured by the Arachnae swarm. It absorbs nutrients from the creep, and upon reaching a certain growth stage, undergoes metamorphosis, finally transforming into an Arachnae Explosive Cocoon—a special trap that releases self-detonating auxiliary bugs at nearby enemy forces.</ARA_AcidlingTrapPlant.description>
+
+
+</LanguageData>

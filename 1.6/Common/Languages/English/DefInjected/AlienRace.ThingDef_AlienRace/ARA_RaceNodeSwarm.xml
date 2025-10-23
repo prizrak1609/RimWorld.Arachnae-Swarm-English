@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArachnaeNode_Race_Myrmecocystus.label>Arachnae Honey-Pot</ArachnaeNode_Race_Myrmecocystus.label>
+  <ArachnaeNode_Race_Myrmecocystus.description>A large **Node-swarm** of the Arachnae, this large species has a wide-ranging diet. It can swallow and decompose many unprocessed organisms whole to nourish the swarm as **Arachnae Honey**.\n\nIt can perform **Hauling, Cooking, and Plant-cutting/Sowing** tasks, but its **combat ability is very low**.\n\nAs a Node-swarm, it can breed and manage several **Arachnae Corrosion Auxiliary-swarms (Hoshichu)** to assist with harvesting and sowing tasks for the hive.</ArachnaeNode_Race_Myrmecocystus.description>
+  <ArachnaeNode_Race_Myrmecocystus.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_Myrmecocystus.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_Myrmecocystus.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeNode_Race_Myrmecocystus.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Myrmecocystus.comps.CompNodeSwarmLifetime.tooltipOverride>The lives of the Arachnae Node-swarms move precisely and regularly, like sophisticated clockwork.</ArachnaeNode_Race_Myrmecocystus.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_Race_Myrmecocystus.tools.0.label>head</ArachnaeNode_Race_Myrmecocystus.tools.0.label>
+
+  <ArachnaeNode_Race_ShieldHead.label>Arachnae Shield-Head</ArachnaeNode_Race_ShieldHead.label>
+  <ArachnaeNode_Race_ShieldHead.description>A **Node-swarm** of the Arachnae with a highly developed carapace covering its head and legs, which it sheds regularly to supply **Chitin** to the hive.\n\nIt can perform **Hauling, Mining, and Construction** tasks. Its **combat ability is average but its defense is excellent**.\n\nAs a Node-swarm, it can breed and manage several **Arachnae Hard-Jaw Auxiliary-swarms** to assist with mineral excavation for the hive.</ArachnaeNode_Race_ShieldHead.description>
+  <ArachnaeNode_Race_ShieldHead.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_ShieldHead.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_ShieldHead.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>hair</ArachnaeNode_Race_ShieldHead.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <ArachnaeNode_Race_ShieldHead.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>skin</ArachnaeNode_Race_ShieldHead.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <ArachnaeNode_Race_ShieldHead.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeNode_Race_ShieldHead.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_ShieldHead.comps.CompNodeSwarmLifetime.tooltipOverride>The lives of the Arachnae Node-swarms move precisely and regularly, like sophisticated clockwork.</ArachnaeNode_Race_ShieldHead.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_Race_ShieldHead.tools.0.label>head</ArachnaeNode_Race_ShieldHead.tools.0.label>
+
+  <ArachnaeNode_Race_WeaponSmith.label>Arachnae Artisan</ArachnaeNode_Race_WeaponSmith.label>
+  <ArachnaeNode_Race_WeaponSmith.description>A **Node-swarm** of the Arachnae, this insectoid is rare outside of the Queen, as it possesses the ability to spin cocoons. It excretes **Organ Cocoons**, which, following pheromone information, are directed to evolve into specific **Armament Organs** for the swarm's use.\n\nIt can perform **Hauling, Crafting, and Artistic** tasks. Its **combat ability is average but it is extremely fragile**.\n\nAs a Node-swarm, it can breed and manage several **Arachnae Domestic Auxiliary-swarms** to assist with hive cleaning and hauling tasks.</ArachnaeNode_Race_WeaponSmith.description>
+  <ArachnaeNode_Race_WeaponSmith.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_WeaponSmith.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_WeaponSmith.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>hair</ArachnaeNode_Race_WeaponSmith.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <ArachnaeNode_Race_WeaponSmith.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>skin</ArachnaeNode_Race_WeaponSmith.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <ArachnaeNode_Race_WeaponSmith.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeNode_Race_WeaponSmith.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_WeaponSmith.comps.CompNodeSwarmLifetime.tooltipOverride>The lives of the Arachnae Node-swarms move precisely and regularly, like sophisticated clockwork.</ArachnaeNode_Race_WeaponSmith.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_Race_WeaponSmith.tools.0.label>head</ArachnaeNode_Race_WeaponSmith.tools.0.label>
+
+  <ArachnaeNode_Race_Fighter.label>Arachnae Warrior</ArachnaeNode_Race_Fighter.label>
+  <ArachnaeNode_Race_Fighter.description>A **Node-swarm** of the Arachnae and the true warrior of the hive. It possesses tenacious **plastic genes** and gains many abilities as technology develops.\n\nIt can perform **Hauling, Hunting, and Animal Taming/Training** tasks. Its **combat ability is excellent, and its mobility is high**.\n\nAs a Node-swarm, it can project the extremely bothersome, though short-lived, **Arachnae Acid-Bite Auxiliary-swarms** at enemies to disrupt enemy ranged fire.</ArachnaeNode_Race_Fighter.description>
+  <ArachnaeNode_Race_Fighter.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_Fighter.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_Fighter.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>hair</ArachnaeNode_Race_Fighter.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <ArachnaeNode_Race_Fighter.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>skin</ArachnaeNode_Race_Fighter.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <ArachnaeNode_Race_Fighter.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeNode_Race_Fighter.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Fighter.comps.CompNodeSwarmLifetime.tooltipOverride>The lives of the Arachnae Node-swarms move precisely and regularly, like sophisticated clockwork.</ArachnaeNode_Race_Fighter.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_Race_Fighter.tools.0.label>head</ArachnaeNode_Race_Fighter.tools.0.label>
+  <ArachnaeNode_Race_Fighter.tools.1.label>giant scythe</ArachnaeNode_Race_Fighter.tools.1.label>
+
+  <ArachnaeNode_Race_Facehugger.label>Arachnae Progenitor</ArachnaeNode_Race_Facehugger.label>
+  <ArachnaeNode_Race_Facehugger.description>A **Node-swarm** of the Arachnae, this is a highly undifferentiated, special individual. It controls the host's body through a unique **neural link tube** and can emit a **psy-signal** causing those around it to ignore its presence. However, due to its extreme fragility, proper work is difficult before **completing its parasitic phase**.\n\nIt can perform **all tasks except Research**, but its **combat ability is practically non-existent**.\n\nUnlike normal Arachnae, its undifferentiated physical structure prevents it from bearing Auxiliary-swarms.</ArachnaeNode_Race_Facehugger.description>
+  <ArachnaeNode_Race_Facehugger.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_Facehugger.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_Facehugger.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>hair</ArachnaeNode_Race_Facehugger.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <ArachnaeNode_Race_Facehugger.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>skin</ArachnaeNode_Race_Facehugger.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <ArachnaeNode_Race_Facehugger.tools.0.label>head</ArachnaeNode_Race_Facehugger.tools.0.label>
+
+  <ArachnaeNode_Race_Smokepop.label>Arachnae Mist-Shroud</ArachnaeNode_Race_Smokepop.label>
+  <ArachnaeNode_Race_Smokepop.description>A large **Node-swarm** of the Arachnae, it possesses a massive body covered in a thick carapace and the ability to **spray pheromones over a wide area to summon Auxiliary-swarms**. Although slow-moving, it boasts **armor-like durability in combat**.\n\nIt can perform **Hauling** tasks. Its **combat ability, defense, and durability are all excellent**.\n\nAs a Node-swarm, it can breed and manage many **Arachnae Domestic Auxiliary-swarms** to assist with hive cleaning and hauling tasks.</ArachnaeNode_Race_Smokepop.description>
+  <ArachnaeNode_Race_Smokepop.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_Smokepop.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_Smokepop.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>hair</ArachnaeNode_Race_Smokepop.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <ArachnaeNode_Race_Smokepop.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>skin</ArachnaeNode_Race_Smokepop.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <ArachnaeNode_Race_Smokepop.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeNode_Race_Smokepop.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Smokepop.comps.CompNodeSwarmLifetime.tooltipOverride>The lives of the Arachnae Node-swarms move precisely and regularly, like sophisticated clockwork.</ArachnaeNode_Race_Smokepop.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_Race_Smokepop.tools.0.label>head</ArachnaeNode_Race_Smokepop.tools.0.label>
+
+  <ArachnaeNode_Race_Skyraider.label>Arachnae Sky-Raider</ArachnaeNode_Race_Skyraider.label>
+  <ArachnaeNode_Race_Skyraider.description>A large **Node-swarm** of the Arachnae, considered one of the elite. It possesses a **giant physique and proud flying ability**, making it the sole sovereign of the hive's skies.\n\nIt can perform **Hauling** tasks. Its **combat ability is excellent, and it exhibits high mobility** on the battlefield.\n\nAs a Node-swarm, it can launch **Sky-Nest Auxiliary-swarms** at enemies, which automatically track and continuously bite the foe.</ArachnaeNode_Race_Skyraider.description>
+  <ArachnaeNode_Race_Skyraider.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_Skyraider.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_Skyraider.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>hair</ArachnaeNode_Race_Skyraider.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <ArachnaeNode_Race_Skyraider.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>skin</ArachnaeNode_Race_Skyraider.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <ArachnaeNode_Race_Skyraider.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeNode_Race_Skyraider.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Skyraider.comps.CompNodeSwarmLifetime.tooltipOverride>The lives of the Arachnae Node-swarms move precisely and regularly, like sophisticated clockwork.</ArachnaeNode_Race_Skyraider.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_Race_Skyraider.tools.0.label>head</ArachnaeNode_Race_Skyraider.tools.0.label>
+
+  <ArachnaeNode_Race_NeuroSwarm.label>Arachnae Neuro-Weaver</ArachnaeNode_Race_NeuroSwarm.label>
+  <ArachnaeNode_Race_NeuroSwarm.description>A **Node-swarm** of the Arachnae and the **most specialized insectoid**. While under the Queen's management, it retains **high intellect and self-awareness**, and can construct a **neural network** with others to perform complex **research and computation**. During computation, it becomes unaware of the outside world, making it a particularly protected presence within the hive.</ArachnaeNode_Race_NeuroSwarm.description>
+  <ArachnaeNode_Race_NeuroSwarm.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>hair</ArachnaeNode_Race_NeuroSwarm.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <ArachnaeNode_Race_NeuroSwarm.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>skin</ArachnaeNode_Race_NeuroSwarm.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <ArachnaeNode_Race_NeuroSwarm.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_NeuroSwarm.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_NeuroSwarm.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.name>ArachnaeNode Hair</ArachnaeNode_Race_NeuroSwarm.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.name>
+  <ArachnaeNode_Race_NeuroSwarm.tools.0.label>head</ArachnaeNode_Race_NeuroSwarm.tools.0.label>
+
+  <ArachnaeNode_Race_Praetorian.label>Arachnae Praetorian</ArachnaeNode_Race_Praetorian.label>
+  <ArachnaeNode_Race_Praetorian.description>A **Node-swarm** of the Arachnae, an **elite soldier** selected and cultivated by the Queen, serving as her spokesperson. It possesses a **rare social ability** within the hive, can equip **large armament organs** despite its small stature, and can command surrounding insectoids to **flexibly adapt to any combat situation**.\n\nIt can perform **Hauling, Social, and Artistic** tasks. Its **combat ability is excellent, and its shooting skill is unparalleled**.\n\nAs a Node-swarm, it can hatch a large number of **Arachnae Acid-Bite Auxiliary-swarms** at once to construct a troublesome frontline.</ArachnaeNode_Race_Praetorian.description>
+  <ArachnaeNode_Race_Praetorian.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_Praetorian.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_Praetorian.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.name>ArachnaeNode Hair</ArachnaeNode_Race_Praetorian.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.name>
+  <ArachnaeNode_Race_Praetorian.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>hair</ArachnaeNode_Race_Praetorian.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <ArachnaeNode_Race_Praetorian.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>skin</ArachnaeNode_Race_Praetorian.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <ArachnaeNode_Race_Praetorian.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeNode_Race_Praetorian.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Praetorian.comps.CompNodeSwarmLifetime.tooltipOverride>The lives of the Arachnae Node-swarms move precisely and regularly, like sophisticated clockwork.</ArachnaeNode_Race_Praetorian.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_

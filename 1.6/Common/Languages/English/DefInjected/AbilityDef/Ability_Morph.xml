@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Ability_Morph.label>Weaver Morph</ARA_Ability_Morph.label>
+  <ARA_Ability_Morph.description>Constructs a weaver base, transforming itself into a static building. In this form, the Arachne Weaver can research higher-level colony technology.</ARA_Ability_Morph.description>
+  <ARA_Ability_Morph.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>Ability must be deployed on terrain</ARA_Ability_Morph.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>
+  <ARA_Ability_Morph.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>Ability Disabled: Not on terrain</ARA_Ability_Morph.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>
+
+
+</LanguageData>

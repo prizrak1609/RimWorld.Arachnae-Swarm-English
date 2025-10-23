@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-  <FactionDef.ARA_Hostile_Hive.label>Arachnae Legion Remnant</FactionDef.ARA_Hostile_Hive.label>
-  <FactionDef.ARA_Hostile_Hive.description>The surviving sub-individuals of the Arachnae Swarm fleet, which were defeated by the Glitterworld Coalition while invading towards the Glitterworld. These sub-individuals, unable to establish contact with the main hive network, have organized their own aberrant network with low intelligence, causing their members to act like beasts—yet they remain a dangerous enemy, their sharp edge undiminished by the genetic reflexes honed from countless battles.\n\nThey show no mercy to anyone, even their own kin.</FactionDef.ARA_Hostile_Hive.description>
-  <FactionDef.ARA_Hostile_Hive.pawnSingular>swarmite</FactionDef.ARA_Hostile_Hive.pawnSingular>
-  <FactionDef.ARA_Hostile_Hive.pawnsPlural>swarmites</FactionDef.ARA_Hostile_Hive.pawnsPlural>
-
-</LanguageData>

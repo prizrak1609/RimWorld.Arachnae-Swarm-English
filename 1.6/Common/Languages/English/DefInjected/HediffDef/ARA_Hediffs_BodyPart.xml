@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArachnaeFighter_Swarm_Claws_Part.label>Warrior Strain Scythe Limbs</ArachnaeFighter_Swarm_Claws_Part.label>
+  <ArachnaeFighter_Swarm_Claws_Part.description>Auxiliary limbs created from the genes of the Arachnae Warrior Strain. The colonist can wield them like a weapon and use them against approaching enemies.</ArachnaeFighter_Swarm_Claws_Part.description>
+  <ArachnaeFighter_Swarm_Claws_Part.comps.0.tools.0.label>great scythe</ArachnaeFighter_Swarm_Claws_Part.comps.0.tools.0.label>
+
+  <ArachnaeNode_Race_Myrmecocystus_Tail_Part.label>Honey Pot Tail</ArachnaeNode_Race_Myrmecocystus_Tail_Part.label>
+  <ArachnaeNode_Race_Myrmecocystus_Tail_Part.labelNoun>Honey Pot Tail</ArachnaeNode_Race_Myrmecocystus_Tail_Part.labelNoun>
+  <ArachnaeNode_Race_Myrmecocystus_Tail_Part.description>A tail created from the genes of the Arachnae Honey Pot Strain. Numerous auxiliary organs severely affect the colonist's original physiological system, but in exchange, the ability to produce Arachnae insect jelly is gained. The modified colonist produces 5 units of Arachnae insect jelly per day.</ArachnaeNode_Race_Myrmecocystus_Tail_Part.description>
+
+  <ArachnaeNode_Race_Skyraider_Wings_Part.label>Skyraider Wings</ArachnaeNode_Race_Skyraider_Wings_Part.label>
+  <ArachnaeNode_Race_Skyraider_Wings_Part.description>Wings created from the genes of the Arachnae Skyraider Strain. They are not suitable for the colonist's physique, so constant flight is impossible, but short periods of hovering are possible.</ArachnaeNode_Race_Skyraider_Wings_Part.description>
+
+  <ArachnaeNode_Race_Smokepop_Armor_Part.label>Smokepop Carapace</ArachnaeNode_Race_Smokepop_Armor_Part.label>
+  <ArachnaeNode_Race_Smokepop_Armor_Part.description>Heavy armor carapace created from the genes of the Arachnae Smokepop Strain, forming over the shoulders and upper body. It provides solid defense but significantly reduces movement speed.</ArachnaeNode_Race_Smokepop_Armor_Part.description>
+
+  <ArachnaeNode_Race_ShieldHead_Armor_Part.label>Shield Head Carapace</ArachnaeNode_Race_ShieldHead_Armor_Part.label>
+  <ArachnaeNode_Race_ShieldHead_Armor_Part.description>Head carapace created from the genes of the Arachnae Shield Head Strain. It provides a degree of defense and also secretes chitin. The modified colonist produces 10 Chitin per day.</ArachnaeNode_Race_ShieldHead_Armor_Part.description>
+
+
+</LanguageData>

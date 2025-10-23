@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_AcidBurn.label>Acid Burn</ARA_AcidBurn.label>
+  <ARA_AcidBurn.deathMessage>{0} was killed.</ARA_AcidBurn.deathMessage>
+
+  <ARA_Fist_Needle.label>Stinger Toxin</ARA_Fist_Needle.label>
+  <ARA_Fist_Needle.deathMessage>{0} was killed.</ARA_Fist_Needle.deathMessage>
+
+  <ARA_SkyhiveBite.label>Skyhive Bite</ARA_SkyhiveBite.label>
+  <ARA_SkyhiveBite.deathMessage>{0} was killed.</ARA_SkyhiveBite.deathMessage>
+
+  <ARA_AcidCut_Damage.label>Acidic Laceration</ARA_AcidCut_Damage.label>
+  <ARA_AcidCut_Damage.deathMessage>{0} was bitten to death by a giant jaw containing acid liquid.</ARA_AcidCut_Damage.deathMessage>
+
+  <ARA_Whip_Damage.label>Whip Strike</ARA_Whip_Damage.label>
+  <ARA_Whip_Damage.deathMessage>{0} died from a whip strike.</ARA_Whip_Damage.deathMessage>
+
+  <ARA_MimicNematodeBite.label>Bite</ARA_MimicNematodeBite.label>
+  <ARA_MimicNematodeBite.deathMessage>{0} was killed.</ARA_MimicNematodeBite.deathMessage>
+
+  <ARA_ReinforceGas.label>Pheromone Gas</ARA_ReinforceGas.label>
+  <ARA_ReinforceGas.deathMessage>{0} suffocated from smoke.</ARA_ReinforceGas.deathMessage>
+
+  <ARA_Psi_Damage.label>Psychic Lightning Strike</ARA_Psi_Damage.label>
+  <ARA_Psi_Damage.deathMessage>{0} died from a psychic lightning strike.</ARA_Psi_Damage.deathMessage>
+
+
+</LanguageData>

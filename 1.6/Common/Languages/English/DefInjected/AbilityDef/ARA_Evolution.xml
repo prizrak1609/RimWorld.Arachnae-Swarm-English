@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Queen_Upgrade_1_Stage.label>Queen Evolution - Stage 1</ARA_Queen_Upgrade_1_Stage.label>
+  <ARA_Queen_Upgrade_1_Stage.description>Evolves the Queen through internal drive, unlocking the next level of Arachne eggs.\n\nNote: Arachne eggs hatched after the evolution can still carry lower-level swarm units, but higher levels become more temperature sensitive.</ARA_Queen_Upgrade_1_Stage.description>
+  <ARA_Queen_Upgrade_1_Stage.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node WMT-1 "Breakthrough" to unlock evolution</ARA_Queen_Upgrade_1_Stage.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+
+  <ARA_Queen_Upgrade_2_Stage.label>Queen Evolution - Stage 2</ARA_Queen_Upgrade_2_Stage.label>
+  <ARA_Queen_Upgrade_2_Stage.description>Evolves the Queen through internal drive, unlocking the next level of Arachne eggs.\n\nNote: Arachne eggs hatched after the evolution can still carry lower-level swarm units, but higher levels become more temperature sensitive.</ARA_Queen_Upgrade_2_Stage.description>
+  <ARA_Queen_Upgrade_2_Stage.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node WMT-2 "Breakthrough 2" to unlock evolution</ARA_Queen_Upgrade_2_Stage.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+
+  <ARA_WeaponSmith_Upgrade_1_Stage.label>Weaponsmith Evolution - Stage 1</ARA_WeaponSmith_Upgrade_1_Stage.label>
+  <ARA_WeaponSmith_Upgrade_1_Stage.description>Evolves the Weaponsmith through internal drive, unlocking the next level of Arachne Crafting Cocoons.\n\nNote: Unlike the Queen's evolution, once the Weaponsmith evolves to the next stage, subsequent Arachne Crafting Cocoons will no longer be able to craft equipment from the current and previous stages. Also, higher levels become more temperature sensitive.</ARA_WeaponSmith_Upgrade_1_Stage.description>
+  <ARA_WeaponSmith_Upgrade_1_Stage.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node WMT-1 "Breakthrough" to unlock evolution</ARA_WeaponSmith_Upgrade_1_Stage.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+
+  <ARA_WeaponSmith_Upgrade_2_Stage.label>Weaponsmith Evolution - Stage 2</ARA_WeaponSmith_Upgrade_2_Stage.label>
+  <ARA_WeaponSmith_Upgrade_2_Stage.description>Evolves the Weaponsmith through internal drive, unlocking the next level of Arachne Crafting Cocoons.\n\nNote: Unlike the Queen's evolution, once the Weaponsmith evolves to the next stage, subsequent Arachne Crafting Cocoons will no longer be able to craft equipment from the current and previous stages. Also, higher levels become more temperature sensitive.</ARA_WeaponSmith_Upgrade_2_Stage.description>
+  <ARA_WeaponSmith_Upgrade_2_Stage.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node WMT-2 "Breakthrough 2" to unlock evolution</ARA_WeaponSmith_Upgrade_2_Stage.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+
+  <ARA_Myrmecocystus_Production_Medicine.label>Honeypot Transformation - Medical Specialization</ARA_Myrmecocystus_Production_Medicine.label>
+  <ARA_Myrmecocystus_Production_Medicine.description>Evolves the Honeypot through internal drive, sacrificing its ability to produce Arachne Nectar in exchange for being able to hatch Medical Cocoons, enabling medical capabilities and Mimic Nematode manipulation.\n\nThis evolution process is irreversible!</ARA_Myrmecocystus_Production_Medicine.description>
+  <ARA_Myrmecocystus_Production_Medicine.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node MED-1 "Healer Strain" to unlock evolution</ARA_Myrmecocystus_Production_Medicine.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+  <ARA_Myrmecocystus_Production_Fuel.label>Honeypot Transformation - Flammable Chamber</ARA_Myrmecocystus_Production_Fuel.label>
+  <ARA_Myrmecocystus_Production_Fuel.description>Evolves the Honeypot through internal drive, sacrificing its ability to produce Arachne Nectar in exchange for generating chemical fuel. This strengthens its armor and grants the ability to spray flames.\n\nThis evolution process is irreversible!</ARA_Myrmecocystus_Production_Fuel.description>
+  <ARA_Myrmecocystus_Production_Fuel.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node FEL-8 "Flamer Chamber" to unlock evolution</ARA_Myrmecocystus_Production_Fuel.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+
+  <ARA_Fighter_Invisibility.label>Soldier Transformation - Invisible Killer</ARA_Fighter_Invisibility.label>
+  <ARA_Fighter_Invisibility.description>Evolves the Soldier Strain through internal drive, sacrificing its long-range weapon and special skill usage abilities in exchange for near-permanent invisibility and powerful melee combat capabilities.\n\nThis evolution process is irreversible!</ARA_Fighter_Invisibility.description>
+  <ARA_Fighter_Invisibility.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node CLO-4 "Stalker Strain" to unlock evolution</ARA_Fighter_Invisibility.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+  <ARA_Fighter_Genestealer.label>Soldier Transformation - Gene Thief</ARA_Fighter_Genestealer.label>
+  <ARA_Fighter_Genestealer.description>Evolves the Soldier Strain through internal drive, sacrificing its combat and skill usage abilities in exchange for the ability to steal genes from enemies and inject genes into colonists.\n\nThis evolution process is irreversible!</ARA_Fighter_Genestealer.description>
+  <ARA_Fighter_Genestealer.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node STL-5 "Gene Theft" to unlock evolution</ARA_Fighter_Genestealer.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+
+  <ARA_Smokepop_Production_Bacterium.label>Mistspewer Transformation - Giant Bacteria Specialization</ARA_Smokepop_Production_Bacterium.label>
+  <ARA_Smokepop_Production_Bacterium.description>Evolves the Mistspewer Strain through internal drive, sacrificing its pheromone spray ability and armor performance in exchange for the ability to periodically produce the high-grade Arachne material "Activated Giant Bacteria."\n\nThis evolution process is irreversible!</ARA_Smokepop_Production_Bacterium.description>
+  <ARA_Smokepop_Production_Bacterium.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node BAC-1 "Bacteria Cultivator Strain" to unlock evolution</ARA_Smokepop_Production_Bacterium.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+  <ARA_Smokepop_Creeper.label>Mistspewer Transformation - Creep Support</ARA_Smokepop_Creeper.label>
+  <ARA_Smokepop_Creeper.description>Evolves the Mistspewer Strain through internal drive, sacrificing its pheromone spray ability in exchange for increased defense, movement speed, and the ability to rapidly deploy creep over a wide area.\n\nThis evolution process is irreversible!</ARA_Smokepop_Creeper.description>
+  <ARA_Smokepop_Creeper.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node CRP-3 "Creep Laying" to unlock evolution</ARA_Smokepop_Creeper.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+
+  <ARA_ShieldHead_Protector.label>Shield Head Transformation - Hive Guardian</ARA_ShieldHead_Protector.label>
+  <ARA_ShieldHead_Protector.description>Evolves the Shield Head Strain through internal drive, sacrificing its ability to produce chitin and build in exchange for stronger combat capability, mobility, and charging attack ability.\n\nThis evolution process is irreversible!</ARA_ShieldHead_Protector.description>
+  <ARA_ShieldHead_Protector.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node VTE-1 "Guardian" to unlock evolution</ARA_ShieldHead_Protector.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+  <ARA_ShieldHead_HiveBuilder.label>Shield Head Transformation - Builder</ARA_ShieldHead_HiveBuilder.label>
+  <ARA_ShieldHead_HiveBuilder.description>Evolves the Shield Head Strain through internal drive, sacrificing its defensive capability in exchange for stronger chitin production ability and construction skills.\n\nThis evolution process is irreversible!</ARA_ShieldHead_HiveBuilder.description>
+  <ARA_ShieldHead_HiveBuilder.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node CON-3 "Constructor" to unlock evolution</ARA_ShieldHead_HiveBuilder.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+
+  <ARA_Skyraider_Hivelord.label>Sky Strain Transformation - Hive Lord</ARA_Skyraider_Hivelord.label>
+  <ARA_Skyraider_Hivelord.description>Evolves the Sky Strain through internal drive, sacrificing reduced mobility and high-altitude maneuverability in exchange for the ability to automatically launch Skyhive auxiliaries at enemies.\n\nThis evolution process is irreversible!</ARA_Skyraider_Hivelord.description>
+  <ARA_Skyraider_Hivelord.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node LOD-6 "Hive Lord" to unlock evolution</ARA_Skyraider_Hivelord.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+<ARA_Skyraider_Empthrower.label>Sky Strain Transformation - Electromagnetic Storm</ARA_Skyraider_Empthrower.label>
+<ARA_Skyraider_Empthrower.description>Evolves the Sky Strain through internal drive, sacrificing mobility and high-altitude maneuverability in exchange for the ability to automatically launch Magneto-storm auxiliaries at enemies—these auxiliaries detonate an EMP as a suicidal attack, countering mechanoids.\n\nThis evolution process is irreversible!</ARA_Skyraider_Empthrower.description>
+  <ARA_Skyraider_Empthrower.comps.CompAbilityEffect_ResearchPrereq.failMessage>Requires Research Project Node WID-9 "Magnetic Storm" to unlock evolution</ARA_Skyraider_Empthrower.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+
+
+</LanguageData>

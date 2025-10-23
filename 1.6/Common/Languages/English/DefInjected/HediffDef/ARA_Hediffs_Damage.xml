@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_AcidCoverd.label>Arachnae Acid Fluid</ARA_AcidCoverd.label>
+  <ARA_AcidCoverd.description>An Arachnae bug with an acid sac has sprayed strong acid onto the target. The adhering liquid is painful, softens armor and skin, and continues to burn the body.</ARA_AcidCoverd.description>
+  <ARA_AcidCoverd.stages.0.label>mild</ARA_AcidCoverd.stages.0.label>
+  <ARA_AcidCoverd.stages.1.label>mild</ARA_AcidCoverd.stages.1.label>
+  <ARA_AcidCoverd.stages.2.label>moderate</ARA_AcidCoverd.stages.2.label>
+  <ARA_AcidCoverd.stages.3.label>severe</ARA_AcidCoverd.stages.3.label>
+  <ARA_AcidCoverd.stages.4.label>extreme</ARA_AcidCoverd.stages.4.label>
+  <ARA_AcidCoverd.stages.5.label>total</ARA_AcidCoverd.stages.5.label>
+
+  <ARA_ToxicBuildup.label>Arachnae Neurotoxin</ARA_ToxicBuildup.label>
+  <ARA_ToxicBuildup.description>The neurotoxin from an Arachnae stinger is affecting this colonist. This powerful toxin rapidly incapacitates movement, causes nausea and dizziness, and may sometimes result in permanent brain damage.</ARA_ToxicBuildup.description>
+  <ARA_ToxicBuildup.stages.0.label>initial</ARA_ToxicBuildup.stages.0.label>
+  <ARA_ToxicBuildup.stages.1.label>initial</ARA_ToxicBuildup.stages.1.label>
+  <ARA_ToxicBuildup.stages.2.label>mild</ARA_ToxicBuildup.stages.2.label>
+  <ARA_ToxicBuildup.stages.3.label>moderate</ARA_ToxicBuildup.stages.3.label>
+  <ARA_ToxicBuildup.stages.4.label>severe</ARA_ToxicBuildup.stages.4.label>
+  <ARA_ToxicBuildup.stages.5.label>extreme</ARA_ToxicBuildup.stages.5.label>
+
+  <ARA_SkyhiveBite.label>Skyhive Bug Attachment</ARA_SkyhiveBite.label>
+  <ARA_SkyhiveBite.description>A cute Skyhive Arachnae bug has bitten you. The bug will continue to bite until it detaches from your body. It shouldn't be a big problem... probably.</ARA_SkyhiveBite.description>
+  <ARA_SkyhiveBite.renderNodeProperties.0.debugLabel>Arachnae Skyhive</ARA_SkyhiveBite.renderNodeProperties.0.debugLabel>
+
+  <ARA_ReinforceGasCoverd.label>Arachnae Pheromone Adherence</ARA_ReinforceGasCoverd.label>
+  <ARA_ReinforceGasCoverd.description>You've come into contact with Arachnae pheromone. Something is approaching from underground.</ARA_ReinforceGasCoverd.description>
+
+  <ARA_Unburnable.label>Fire-Resistant Smoke</ARA_Unburnable.label>
+  <ARA_Unburnable.description>This area is covered with special smoke, making colonists inside the smoke resistant to catching fire easily.</ARA_Unburnable.description>
+
+  <ARA_ChainReload.label>Chain Reload</ARA_ChainReload.label>
+  <ARA_ChainReload.description>The weapon in use is capable of chain reloading, increasing the reload speed with each shot.</ARA_ChainReload.description>
+  <ARA_ChainReload.stages.0.label>Level 1/5</ARA_ChainReload.stages.0.label>
+  <ARA_ChainReload.stages.1.label>Level 2/5</ARA_ChainReload.stages.1.label>
+  <ARA_ChainReload.stages.2.label>Level 3/5</ARA_ChainReload.stages.2.label>
+  <ARA_ChainReload.stages.3.label>Level 4/5</ARA_ChainReload.stages.3.label>
+  <ARA_ChainReload.stages.4.label>Level 5/5</ARA_ChainReload.stages.4.label>
+
+  <ARA_BeamAiming.label>Beam Preheating</ARA_BeamAiming.label>
+  <ARA_BeamAiming.description>The Arachnae swarm's beam-type energy weapons can fire continuously after a short period of aiming.</ARA_BeamAiming.description>
+  <ARA_BeamAiming.stages.0.label>Complete</ARA_BeamAiming.stages.0.label>
+
+  <ARA_Fighter_Execution_Damage.label>Execution</ARA_Fighter_Execution_Damage.label>
+  <ARA_Fighter_Execution_Damage.description>Deals great damage to execute the target.</ARA_Fighter_Execution_Damage.description>
+  <ARA_Fighter_Execution_Damage.stages.0.label>mild</ARA_Fighter_Execution_Damage.stages.0.label>
+
+  <ARA_Whip_Hediff.label>Whipping</ARA_Whip_Hediff.label>
+  <ARA_Whip_Hediff.description>This colonist has been struck by the soft weapon of an Arachnae bug—it's very painful.</ARA_Whip_Hediff.description>
+  <ARA_Whip_Hediff.labelNoun>whipping</ARA_Whip_Hediff.labelNoun>
+  <ARA_Whip_Hediff.injuryProps.destroyedLabel>destroyed</ARA_Whip_Hediff.injuryProps.destroyedLabel>
+  <ARA_Whip_Hediff.labelNounPretty>{0} on {1}</ARA_Whip_Hediff.labelNounPretty>
+
+  <ARA_Hediff_FrostCoverd_after.label>Frost Covered</ARA_Hediff_FrostCoverd_after.label>
+  <ARA_Hediff_FrostCoverd_after.description>This individual is covered in an ice-frost cloud and is about to trigger a frost-mist explosion.</ARA_Hediff_FrostCoverd_after.description>
+
+  <ARA_CryoShock.label>Rapid Cooling</ARA_CryoShock.label>
+  <ARA_CryoShock.description>The target is in a state of rapid freezing. In this state, the body structure becomes extremely fragile. As the effect progresses, body parts may be directly destroyed by freeze damage.</ARA_CryoShock.description>
+  <ARA_CryoShock.stages.0.label>1/8</ARA_CryoShock.stages.0.label>
+  <ARA_CryoShock.stages.1.label>2/8</ARA_CryoShock.stages.1.label>
+  <ARA_CryoShock.stages.2.label>3/8</ARA_CryoShock.stages.2.label>
+  <ARA_CryoShock.stages.3.label>4/8</ARA_CryoShock.stages.3.label>
+  <ARA_CryoShock.stages.4.label>5/8</ARA_CryoShock.stages.4.label>
+  <ARA_CryoShock.stages.5.label>6/8</ARA_CryoShock.stages.5.label>
+  <ARA_CryoShock.stages.6.label>7/8</ARA_CryoShock.stages.6.label>
+  <ARA_CryoShock.stages.7.label>8/8</ARA_CryoShock.stages.7.label>
+
+  <ARA_Genestealer_ExtractGene_Hediff.label>Forced Extraction</ARA_Genestealer_ExtractGene_Hediff.label>
+  <ARA_Genestealer_ExtractGene_Hediff.description>An Arachnae Genestealer has forcibly extracted a portion of this colonist's genetic sequence. As a result, the colonist can no longer maintain basic physiological activities. This damage is irreversible and will not recover even if the genes are returned.</ARA_Genestealer_ExtractGene_Hediff.description>
+  <ARA_Genestealer_ExtractGene_Hediff.stages.minor.label>minor</ARA_Genestealer_ExtractGene_Hediff.stages.minor.label>
+
+
+</LanguageData>

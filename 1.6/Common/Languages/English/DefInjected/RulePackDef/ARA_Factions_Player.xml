@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings>
+    <li>r_name->[hivename1] [hivename2]</li>
+    <li>hivename1->Void</li>
+    <li>hivename1->Abyss</li>
+    <li>hivename1->Gluttony</li>
+    <li>hivename1->Evolution</li>
+    <li>hivename1->Primal</li>
+    <li>hivename1->Fusion</li>
+    <li>hivename1->Bone-Eating</li>
+
+    <li>hivename2->Hive</li>
+    <li>hivename2->Swarm</li>
+    <li>hivename2->Claws</li>
+    <li>hivename2->Beast-Group</li>
+    <li>hivename2->Tentacles</li>
+  </ARA_New_Hive_NamerFaction.rulePack.rulesStrings>
+
+  <ARA_NamerSettlement.rulePack.rulesStrings>
+    <li>r_name->[hivesettlementname1] [hivesettlementname2]</li>
+    <li>hivesettlementname1->Crimson</li>
+    <li>hivesettlementname1->Supreme</li>
+    <li>hivesettlementname1->Sole</li>
+    <li>hivesettlementname1->Rampant</li>
+    <li>hivesettlementname1->Eternal</li>
+    <li>hivesettlementname1->Perpetual</li>
+
+    <li>hivesettlementname2->Core</li>
+    <li>hivesettlementname2->Inner Core</li>
+    <li>hivesettlementname2->Crux</li>
+    <li>hivesettlementname2->Center</li>
+    <li>hivesettlementname2->Focus</li>
+    <li>hivesettlementname2->Origin</li>
+    <li>hivesettlementname2->Fulcrum</li>
+    <li>hivesettlementname2->Axis</li>
+    <li>hivesettlementname2->Nerve Center</li>
+    <li>hivesettlementname2->Mother</li>
+    <li>hivesettlementname2->Fountainhead</li>
+    <li>hivesettlementname2->Source</li>
+    <li>hivesettlementname2->Base Form</li>
+    <li>hivesettlementname2->Ancestor</li>
+    <li>hivesettlementname2->Main Brain</li>
+    <li>hivesettlementname2->Hive Heart</li>
+  </ARA_NamerSettlement.rulePack.rulesStrings>
+
+  <ARA_NamerInitialSettlement.rulePack.rulesStrings>
+    <li>r_name->Hivespore</li>
+  </ARA_NamerInitialSettlement.rulePack.rulesStrings>
+
+</LanguageData>

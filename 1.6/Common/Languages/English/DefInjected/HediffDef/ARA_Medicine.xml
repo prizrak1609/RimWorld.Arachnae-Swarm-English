@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_SymbioticStabilizer.label>Pheromone Suppression</ARA_SymbioticStabilizer.label>
+  <ARA_SymbioticStabilizer.labelNoun>Pheromone Suppression Effect</ARA_SymbioticStabilizer.labelNoun>
+  <ARA_SymbioticStabilizer.description>The effect of the Arachnae pheromone solvent is active. It mimics the swarm's symbiotic signal, suppressing the activity of internal parasites. While the solvent is effective, the progression of the Mimic Nematode Parasitism will not exceed 80%.</ARA_SymbioticStabilizer.description>
+
+  <ARA_PheromoneAddiction.label>Pheromone Addiction</ARA_PheromoneAddiction.label>
+  <ARA_PheromoneAddiction.description>Chemical dependency has formed on the Arachnae pheromone solvent. It must be used regularly to maintain the ecological balance of the internal Mimic Nematodes, and not using it will result in severe withdrawal symptoms.</ARA_PheromoneAddiction.description>
+  <ARA_PheromoneAddiction.stages.1.label>withdrawal symptoms</ARA_PheromoneAddiction.stages.1.label>
+
+
+</LanguageData>

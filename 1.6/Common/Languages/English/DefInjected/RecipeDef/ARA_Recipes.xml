@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Surgery_Install_Plasteel.label>Install Plasteel Carapace</ARA_Surgery_Install_Plasteel.label>
+  <ARA_Surgery_Install_Plasteel.description>Implants plasteel into the Arachne's carapace. As the carapace tissue grows, the plasteel is encased, forming a stronger exoskeleton and enhancing the bug's defense.</ARA_Surgery_Install_Plasteel.description>
+  <ARA_Surgery_Install_Plasteel.jobString>Performing directed mutation.</ARA_Surgery_Install_Plasteel.jobString>
+
+  <ARA_Surgery_Install_Shell_Thorn.label>Install Carapace Thorns</ARA_Surgery_Install_Shell_Thorn.label>
+  <ARA_Surgery_Install_Shell_Thorn.description>Implants two rows of thorn cavities into the Arachne's carapace. These are semi-autonomous organs that automatically launch spines at nearby enemies. This mutation also thickens the carapace, improving defense.</ARA_Surgery_Install_Shell_Thorn.description>
+  <ARA_Surgery_Install_Shell_Thorn.jobString>Performing directed mutation.</ARA_Surgery_Install_Shell_Thorn.jobString>
+
+  <ARA_Surgery_Install_Reactive_Shell.label>Install Reactive Carapace</ARA_Surgery_Install_Reactive_Shell.label>
+  <ARA_Surgery_Install_Reactive_Shell.description>Implants a special reactive carapace into the Arachne. This temporarily activates, shedding the carapace to protect the main body when an attack is imminent.</ARA_Surgery_Install_Reactive_Shell.description>
+  <ARA_Surgery_Install_Reactive_Shell.jobString>Performing directed mutation.</ARA_Surgery_Install_Reactive_Shell.jobString>
+
+  <ARA_Surgery_Install_Carapace_Shell.label>Install Carapace Growth</ARA_Surgery_Install_Carapace_Shell.label>
+  <ARA_Surgery_Install_Carapace_Shell.description>Uses carapace tissue to increase the thickness of the Arachne's carapace, granting additional defensive capability.</ARA_Surgery_Install_Carapace_Shell.description>
+  <ARA_Surgery_Install_Carapace_Shell.jobString>Performing directed mutation.</ARA_Surgery_Install_Carapace_Shell.jobString>
+
+
+  <ARA_Surgery_Install_Strengthening_Tendon.label>Install Strengthening Tendon</ARA_Surgery_Install_Strengthening_Tendon.label>
+  <ARA_Surgery_Install_Strengthening_Tendon.description>Implants strengthening tendons into the Arachne's legs, granting higher movement speed and short-distance jumping ability.</ARA_Surgery_Install_Strengthening_Tendon.description>
+  <ARA_Surgery_Install_Strengthening_Tendon.jobString>Performing directed mutation.</ARA_Surgery_Install_Strengthening_Tendon.jobString>
+
+  <ARA_Surgery_Install_Slide_Patagium.label>Install Gliding Patagium</ARA_Surgery_Install_Slide_Patagium.label>
+  <ARA_Surgery_Install_Slide_Patagium.description>Implants gliding patagia into the Arachne's legs, significantly increasing movement speed on fungoid ground.</ARA_Surgery_Install_Slide_Patagium.description>
+  <ARA_Surgery_Install_Slide_Patagium.jobString>Performing directed mutation.</ARA_Surgery_Install_Slide_Patagium.jobString>
+
+
+  <ARA_Surgery_Install_Huge_Stomach.label>Install Additional Gastric Pouch</ARA_Surgery_Install_Huge_Stomach.label>
+  <ARA_Surgery_Install_Huge_Stomach.description>Induces a directed mutation in the Arachne to expand its nutrient-storing gastric pouch, allowing it to store more food.</ARA_Surgery_Install_Huge_Stomach.description>
+  <ARA_Surgery_Install_Huge_Stomach.jobString>Performing directed mutation.</ARA_Surgery_Install_Huge_Stomach.jobString>
+
+
+  <ARA_Surgery_Install_Internal_Circulation_Lung.label>Install Internal Circulation Lung</ARA_Surgery_Install_Internal_Circulation_Lung.label>
+  <ARA_Surgery_Install_Internal_Circulation_Lung.description>Induces a directed mutation in the Arachne, allowing its lungs to self-circulate, making it capable of surviving near-vacuum conditions.</ARA_Surgery_Install_Internal_Circulation_Lung.description>
+  <ARA_Surgery_Install_Internal_Circulation_Lung.jobString>Performing directed mutation.</ARA_Surgery_Install_Internal_Circulation_Lung.jobString>
+
+
+  <ARA_Surgery_Install_Cycle_Suppression.label>Install Life Cycle Suppression</ARA_Surgery_Install_Cycle_Suppression.label>
+  <ARA_Surgery_Install_Cycle_Suppression.description>Induces a directed mutation in the Arachne, allowing it to live longer without the constraints of its natural lifespan. However, injecting life cycle suppressors causes it to lose its self-healing ability.</ARA_Surgery_Install_Cycle_Suppression.description>
+  <ARA_Surgery_Install_Cycle_Suppression.jobString>Performing directed mutation.</ARA_Surgery_Install_Cycle_Suppression.jobString>
+
+
+  <ARA_Surgery_Install_Acidling_Pouch.label>Install Acidling Hatching Pouch</ARA_Surgery_Install_Acidling_Pouch.label>
+  <ARA_Surgery_Install_Acidling_Pouch.description>Induces a directed mutation in the Arachne to generate a pouch that stores three embryonic acidlings. When released, they assault enemies with suicidal attacks.</ARA_Surgery_Install_Acidling_Pouch.description>
+  <ARA_Surgery_Install_Acidling_Pouch.jobString>Performing directed mutation.</ARA_Surgery_Install_Acidling_Pouch.jobString>
+
+  <ARA_Surgery_Install_Tumor_Pouch.label>Install Tumor Hatching Pouch</ARA_Surgery_Install_Tumor_Pouch.label>
+  <ARA_Surgery_Install_Tumor_Pouch.description>Induces a directed mutation in the Arachne to store one withered tumor in a hatching pouch. When released, it transforms the surrounding ground into fungoid terrain.</ARA_Surgery_Install_Tumor_Pouch.description>
+  <ARA_Surgery_Install_Tumor_Pouch.jobString>Performing directed mutation.</ARA_Surgery_Install_Tumor_Pouch.jobString>
+
+
+  <ARA_CureAcid.label>Remove Neurotoxin</ARA_CureAcid.label>
+  <ARA_CureAcid.description>The Arachne hive can use healing tissue to remove the effects of the neurotoxin they release, returning the prey to a normal state.</ARA_CureAcid.description>
+  <ARA_CureAcid.jobString>Removing neurotoxin.</ARA_CureAcid.jobString>
+  <ARA_CureAcid.successfullyRemovedHediffMessage>{0} has successfully removed the Arachne neurotoxin from {1}'s body.</ARA_CureAcid.successfullyRemovedHediffMessage>
+
+  <ARA_CureBloodRot.label>Remove Pseudonematode Infection</ARA_CureBloodRot.label>
+  <ARA_CureBloodRot.description>The surgery to eradicate Arachne pseudonematodes from the patient's body using a combination of targeted drugs is extremely complex and can only be performed with cutting-edge medicine provided by Glitterworld.</ARA_CureBloodRot.description>
+  <ARA_CureBloodRot.jobString>Removing pseudonematode infection.</ARA_CureBloodRot.jobString>
+  <ARA_CureBloodRot.successfullyRemovedHediffMessage>{0} has successfully removed the pseudonematode infection from {1}'s body.</ARA_CureBloodRot.successfullyRemovedHediffMessage>
+
+
+</LanguageData>

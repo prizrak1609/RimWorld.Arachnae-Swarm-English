@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_WormholePortal_A.label>Arachnae Tunnel Species</ARA_WormholePortal_A.label>
+  <ARA_WormholePortal_A.description>A gigantic Arachnae auxiliary bug that forms the main body of the Arachnae wormhole network. It can receive the hive's command, extending its tail to a distant destination to form an underground passage. Objects and personnel entering the underground passage from the head are pressurized by the tunnel species and quickly moved to the tail. The wormhole supports two-way travel.</ARA_WormholePortal_A.description>
+  <ARA_WormholePortal_A.comps.CompRefuelableNutrition.fuelGizmoLabel>Insect Jelly</ARA_WormholePortal_A.comps.CompRefuelableNutrition.fuelGizmoLabel>
+  <Blueprint_ARA_WormholePortal_A.label>Arachnae Tunnel Species (Blueprint)</Blueprint_ARA_WormholePortal_A.label>
+  <Frame_ARA_WormholePortal_A.label>Arachnae Tunnel Species (Construction)</Frame_ARA_WormholePortal_A.label>
+  <Frame_ARA_WormholePortal_A.description>A gigantic Arachnae auxiliary bug that forms the main body of the Arachnae wormhole network. It can receive the hive's command, extending its tail to a distant destination to form an underground passage. Objects and personnel entering the underground passage from the head are pressurized by the tunnel species and quickly moved to the tail. The wormhole supports two-way travel.</Frame_ARA_WormholePortal_A.description>
+
+
+  <ARA_WormholePortal_B.label>Arachnae Tunnel Species Tail Exit</ARA_WormholePortal_B.label>
+  <ARA_WormholePortal_B.description>The tail end of the Arachnae Tunnel Species, the exit of the underground passage formed by its elongated body. Objects and personnel entering the underground passage from the tail are pressurized by the tunnel species and quickly moved to the head. The wormhole supports two-way travel.</ARA_WormholePortal_B.description>
+
+
+</LanguageData>

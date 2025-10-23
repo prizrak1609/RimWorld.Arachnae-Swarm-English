@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_MimicNematodeShambler.label>Arachne Mimic Nematode Parasite</ARA_MimicNematodeShambler.label>
+  <ARA_MimicNematodeShambler.description>The Arachne Mimic Nematodes are one of the most enigmatic branches of the insect swarm. Although they share an origin with the proto-species, they did not develop high intelligence during their evolution, but instead followed an entirely different path: parasitism. Mimic Nematodes are parasites that cannot survive without a host. Once they infect an organism, they lie dormant for a long period, eventually taking gradual control of the host's nervous and metabolic systems, transforming it into a manipulated, zombie-like "parasite." With remarkable cellular replication and regeneration capabilities, Mimic Nematodes can imitate and replace the host's cellular structure, granting the parasite astonishing self-repair ability. However, this parasitic relationship is extremely invasive. The Mimic Nematode's eggs spread across the parasite's entire body surface, meaning organisms attacked by the parasite can become infected and eventually turn into new parasites. Mimic Nematodes maintain the parasite's metabolism at an extremely low level, and the parasite itself does not spontaneously feed. Therefore, when its energy runs out, it eventually "dies."</ARA_MimicNematodeShambler.description>
+  <ARA_MimicNematodeShambler.namePrefix>Mimic Nematode Parasite</ARA_MimicNematodeShambler.namePrefix>
+  <ARA_MimicNematodeShambler.renderNodeProperties.0.debugLabel>Shambler wound</ARA_MimicNematodeShambler.renderNodeProperties.0.debugLabel>
+  <ARA_MimicNematodeShambler.renderNodeProperties.1.debugLabel>Shambler wound</ARA_MimicNematodeShambler.renderNodeProperties.1.debugLabel>
+  <ARA_MimicNematodeShambler.tools.0.label>bite</ARA_MimicNematodeShambler.tools.0.label>
+  <ARA_MimicNematodeShambler.tools.1.label>huge scythe</ARA_MimicNematodeShambler.tools.1.label>
+  <ARA_MimicNematodeShambler.tools.2.label>huge scythe</ARA_MimicNematodeShambler.tools.2.label>
+
+
+</LanguageData>

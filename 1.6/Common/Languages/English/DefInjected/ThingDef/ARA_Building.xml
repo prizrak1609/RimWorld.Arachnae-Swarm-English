@@ -42,7 +42,16 @@
 
   <ARA_Hibernate_Sac.label>Arachnae Hibernation Pod</ARA_Hibernate_Sac.label>
   <ARA_Hibernate_Sac.description>A living tissue formed when an Arachnae insect enters a state of hibernation.</ARA_Hibernate_Sac.description>
-
+  
+  <ARA_InsectCreepFloor.label>Arachne's Reinforced Fungal Creep</ARA_InsectCreepFloor.label>
+  <ARA_InsectCreepFloor.description>A ground surface laid by the Zerg of Arachne, composed of a mixture of fungal and chitin secretions, similar in nature to Arachne's carpet, but capable of spreading over supporting structures to serve as the foundation for the Zerg's anti-gravity ships.</ARA_InsectCreepFloor.description>
+  
+  <ARA_InsectCreep.label>Arachne's Creep</ARA_InsectCreep.label>
+  <ARA_InsectCreep.description>The ground, constructed by the Zerg of Arachne, is a mixture of fungal and chitin secretions that automatically spreads around various Arachne structures. This unique structure, with its dense texture and concealed nutrient transport mechanisms, can support heavy buildings, grow crops, and accelerate the movement of the Arachne Zerg upon it. However, no one except the Zerg wants to step on this soft, living structure.</ARA_InsectCreep.description>
+  
+  <ARA_InsectCreepTile.label>Arachne Fungal Brick</ARA_InsectCreepTile.label>
+  <ARA_InsectCreepTile.description>The floor built by the Arachne Zerg on the fungal terrain by mixing steel and chitin is much more regular than simple fungal blanket, easier to clean, and does not emit mucus. Except for the loss of fertility, it inherits other characteristics of the Zerg fungal blanket.</ARA_InsectCreepTile.description>
+  
   <ARA_WallCreep.label>Arachnae Fungus Nodule (Wall)</ARA_WallCreep.label>
   <ARA_WallCreep.description>An Arachnae fungus nodule formed on a wall surface. It illuminates a wider area than the ground-spreading one but does not spread creep, and does not require construction on Arachnae creep.</ARA_WallCreep.description>
 

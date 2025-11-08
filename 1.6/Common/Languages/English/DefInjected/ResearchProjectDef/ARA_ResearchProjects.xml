@@ -10,7 +10,6 @@
   <ARA_Technology_2WMT.label>Node WMT-2 "Breakthrough 2"</ARA_Technology_2WMT.label>
   <ARA_Technology_2WMT.description>Allows the Queen and the Artisan species to evolve to the next stage.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_2WMT.description>
 
-
   <ARA_Technology_6VXI.label>Node VXI-6 "Acid Sac"</ARA_Technology_6VXI.label>
   <ARA_Technology_6VXI.description>Allows acid-sac-bearing insectoids to repel enemies by spraying strong acid.</ARA_Technology_6VXI.description>
 
@@ -29,10 +28,8 @@
   <ARA_Technology_11VXI.label>Node VXI-11 "Disaster"</ARA_Technology_11VXI.label>
   <ARA_Technology_11VXI.description>Allows the construction of Disaster Acid Cannon organs. This powerful defensive facility can repel large enemy swarms and even launch cross-map attacks.</ARA_Technology_11VXI.description>
 
-
   <ARA_Technology_1THD.label>Node THD-1 "Psychic Lightning"</ARA_Technology_1THD.label>
   <ARA_Technology_1THD.description>Allows Artisan species to hatch new Psychic Lightning-based weapons.</ARA_Technology_1THD.description>
-
 
   <ARA_Technology_1KYC.label>Node KYC-1 "Warrior Bug"</ARA_Technology_1KYC.label>
   <ARA_Technology_1KYC.description>Allows the Queen to hatch a new insect species - the Warrior. \n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_1KYC.description>
@@ -55,7 +52,6 @@
   <ARA_Technology_6MEN.label>Node MEN-6 "Mimic Line"</ARA_Technology_6MEN.label>
   <ARA_Technology_6MEN.description>Allows the Queen to hatch a new insect species - the Mimic Line Body. These insectoids are parasitized by the Arachne Mimic Line species from birth, serving as cheap and quickly produced disposable infantry. However, they lack control and cannot be relied upon for discipline.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_6MEN.description>
 
-
   <ARA_Technology_4DIL.label>Node DIL-4 "Maid"</ARA_Technology_4DIL.label>
   <ARA_Technology_4DIL.description>Allows Artisan species to hatch new fabrics using Fabric Cocoons.</ARA_Technology_4DIL.description>
 
@@ -70,7 +66,6 @@
 
   <ARA_Technology_8DIL.label>Node DIL-8 "Guard"</ARA_Technology_8DIL.label>
   <ARA_Technology_8DIL.description>Allows Artisan species to hatch new fabrics using Fabric Cocoons.</ARA_Technology_8DIL.description>
-
 
   <ARA_Technology_5PAV.label>Node PAV-5 "Poison Needle"</ARA_Technology_5PAV.label>
   <ARA_Technology_5PAV.description>Allows Artisan species to hatch new weapons, and some spike-bearing insectoids can now shoot poisonous spikes.</ARA_Technology_5PAV.description>
@@ -87,13 +82,11 @@
   <ARA_Technology_8PAV.label>Node PAV-8 "Gigabit Cannon"</ARA_Technology_8PAV.label>
   <ARA_Technology_8PAV.description>Allows the swarm to construct a powerful defensive facility. It has strong armor-piercing capabilities and a high rate of fire, performing excellently against heavily armored targets.</ARA_Technology_8PAV.description>
 
-
   <ARA_Technology_2MEL.label>Node MEL-2 "Rage Whip"</ARA_Technology_2MEL.label>
   <ARA_Technology_2MEL.description>Allows Artisan species to hatch new weapons.</ARA_Technology_2MEL.description>
 
   <ARA_Technology_3MEL.label>Node MEL-3 "Psy Scythe"</ARA_Technology_3MEL.label>
   <ARA_Technology_3MEL.description>Allows Artisan species to hatch new weapons.</ARA_Technology_3MEL.description>
-
 
   <ARA_Technology_5ESS.label>Node ESS-5 "Essence Extraction"</ARA_Technology_5ESS.label>
   <ARA_Technology_5ESS.description>Allows the Arachne Swarm to construct a special biological structure that generates essence by placing prisoners inside.</ARA_Technology_5ESS.description>
@@ -125,13 +118,11 @@
   <ARA_Technology_4NPT.label>Node NPT-4 "Hatching Pool"</ARA_Technology_4NPT.label>
   <ARA_Technology_4NPT.description>Allows the swarm to construct a Hatching Pool. This is a specialized hatching facility for mass production of insectoids, with higher hatching efficiency than cocoons.</ARA_Technology_4NPT.description>
 
-
   <ARA_Technology_8CPE.label>Node CPE-8 "Crops"</ARA_Technology_8CPE.label>
   <ARA_Technology_8CPE.description>Allows the swarm to cultivate edible crops on creep. They grow relying on the nutrients from the creep and the land, helping supply biomass to the lair.</ARA_Technology_8CPE.description>
 
   <ARA_Technology_9CPE.label>Node CPE-9 "Bee Spike Shooter"</ARA_Technology_9CPE.label>
   <ARA_Technology_9CPE.description>Allows the swarm to cultivate special crops on creep. When fully grown, they become an aggressive fungal aggregate that shoots poisonous spikes at enemies.</ARA_Technology_9CPE.description>
-
 
   <ARA_Technology_6SPV.label>Node SPV-6 "Auxiliary Bug Nest"</ARA_Technology_6SPV.label>
   <ARA_Technology_6SPV.description>Allows Artisan species to hatch new weapons.</ARA_Technology_6SPV.description>
@@ -139,10 +130,8 @@
   <ARA_Technology_7SPV.label>Node SPV-7 "Explosive Projection"</ARA_Technology_7SPV.label>
   <ARA_Technology_7SPV.description>Allows the swarm to construct a powerful defensive facility. It launches explosive auxiliary bugs that primarily engage in suicide attacks against invading enemies.</ARA_Technology_7SPV.description>
 
-
   <ARA_Technology_2MED.label>Node MED-2 "Erosive Parasitism"</ARA_Technology_2MED.label>
   <ARA_Technology_2MED.description>Allows Honey Pot species to use the parasitic ability of Mimic Line species and unlocks the production of Mimic Line Suppressant in the Medical Cocoon.</ARA_Technology_2MED.description>
-
 
   <ARA_Technology_5STL.label>Node STL-5 "Genetic Seizure"</ARA_Technology_5STL.label>
   <ARA_Technology_5STL.description>Allows Warrior species to undergo directional evolution, giving up combat skills in exchange for the ability to extract and inject genes from colonists, prisoners, and slaves.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_5STL.description>
@@ -174,7 +163,6 @@
   <ARA_Technology_3CRP.label>Node CRP-3 "Creep Laying"</ARA_Technology_3CRP.label>
   <ARA_Technology_3CRP.description>Allows Mist species to undergo directional evolution, giving up pheromone spraying ability in exchange for enhanced defense and movement speed, and the ability to deploy creep on a large scale.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_3CRP.description>
 
-
   <ARA_Technology_1EVO.label>Node EVO-1 "Primary Evolution"</ARA_Technology_1EVO.label>
   <ARA_Technology_1EVO.description>Unlocks a new Arachne Evolution Surgery. Enhances the Arachne insectoid's nutrient storage capacity and carapace.</ARA_Technology_1EVO.description>
 
@@ -202,8 +190,13 @@
   <ARA_Technology_10EVO.label>Node EVO-10 "Advanced Lungs"</ARA_Technology_10EVO.label>
   <ARA_Technology_10EVO.description>Unlocks a new Arachne Evolution Surgery. Arachne insectoids can gain more powerful lungs.</ARA_Technology_10EVO.description>
 
-
   <ARA_Technology_2SYM.label>Node SYM-2 "Frost-Knot Body"</ARA_Technology_2SYM.label>
   <ARA_Technology_2SYM.description>Allows the Arachne swarm to construct a special biological structure - the Arachne Symbiotic Muscle Group. This structure merges with an overseer bug to form an unconscious organism, granting the overseer bug powerful combat capabilities.\n\nThe Frost-Knot Symbiotic Muscle Group allows the merged Arachne overseer bug to use a variety of rapid cooling-based weapons, enabling it to switch between large-scale group control and rapid annihilation of high-value targets.</ARA_Technology_2SYM.description>
+
+  <ARA_Technology_9NAV.label>Node NAV-9 "Navigator"</ARA_Technology_9NAV.label>
+  <ARA_Technology_9NAV.description>&lt;color=#887E78>&lt;i>Arachne swarm - main nest tentacles\nThe evolutionary path of the main nest tentacles is a universal evolutionary path contained in every swarm, which lays the foundation for the swarm's biological superiority.&lt;/i>&lt;/color>\n\nThe Guardians are allowed to undergo targeted evolution, sacrificing their direct combat capabilities and the ability to command ground-based Zerg forces in exchange for the ability to command aerial Zerg swarms. All technologies of the Arachne Swarm that require blueprints can only be obtained through genetic experiment eggs of the Queen.</ARA_Technology_9NAV.description>
+
+  <ARA_Technology_4COV.label>Node COV-4 "Sky Witch Beast Horde"</ARA_Technology_4COV.label>
+  <ARA_Technology_4COV.description>&lt;color=#887E78>&lt;i>Arachne swarm - main nest tentacles\nThe evolutionary path of the main nest tentacles is a universal evolutionary path contained in every swarm, which lays the foundation for the swarm's biological superiority.&lt;/i>&lt;/color>\n\nThe Arachne Zerg are allowed to construct special living structures—the Skywitch Beasts, semi-autonomous entities commanded by the Pilots, capable of launching aerial attacks on enemy forces and raining down death.</ARA_Technology_4COV.description>
 
 </LanguageData>

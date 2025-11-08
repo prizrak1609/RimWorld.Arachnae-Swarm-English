@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_HiveCorvette_Building.label>Heavenly Witch Beast Insect</ARA_HiveCorvette_Building.label>
+  <ARA_HiveCorvette_Building.description>The Celestial Witch Beast Insects are ground-attack aircraft in the Arachne Swarm fleet. Their long tentacles and powerful psionic levitation abilities allow them to traverse the battlefield at high speed under the command of the Pilots, striking unsuspecting enemy swarms or aiding the Swarm's attack. They need to take off to be effective!</ARA_HiveCorvette_Building.description>
+
+  <ARA_HiveCorvette_Leaving.label>Celestial Witch Beast Insect (Taking off)</ARA_HiveCorvette_Leaving.label>
+
+  <ARA_HiveShip.label>Zerg Mothership</ARA_HiveShip.label>
+  <ARA_HiveShip.comps.CompProperties_SendLetterAfterTicks.letterLabel>Zerg Mothership</ARA_HiveShip.comps.CompProperties_SendLetterAfterTicks.letterLabel>
+  <ARA_HiveShip.comps.CompProperties_SendLetterAfterTicks.letterText>A hiss echoed from the heavens as countless swarms of Zerg swept across the colony. A colossal figure cast a shadow that blotted out the sun—the Hive Mothership, the largest nodal entity in the Arachne Swarm, and the pillar of the Swarm's eternal expedition. Now, such a terrifying creature lurks above the colony. It will use every means to destroy your defenses and unleash an endless swarm of Zerg to overwhelm your colonists until it leaves orbit above the colony. Prepare for the impact!</ARA_HiveShip.comps.CompProperties_SendLetterAfterTicks.letterText>
+
+  <ARA_HiveShip.comps.CompProperties_FlyOverDropPods.customLetterLabel>Swarm airdrop attack</ARA_HiveShip.comps.CompProperties_FlyOverDropPods.customLetterLabel>
+  <ARA_HiveShip.comps.CompProperties_FlyOverDropPods.customLetterText>The Zerg Mothership is dropping a Zerg force! This force will be dropped near the Mothership to provide cover for it on the ground.</ARA_HiveShip.comps.CompProperties_FlyOverDropPods.customLetterText>
+
+  <ARA_HiveShip.comps.CompProperties_ShipArtillery.customLetterLabel>Warship shelling warning</ARA_HiveShip.comps.CompProperties_ShipArtillery.customLetterLabel>
+  <ARA_HiveShip.comps.CompProperties_ShipArtillery.customLetterText>An enemy warship is shelling the colony! Seek cover immediately!</ARA_HiveShip.comps.CompProperties_ShipArtillery.customLetterText>
+
+  <ARA_HiveShip_Fake.label>Zerg Mothership</ARA_HiveShip_Fake.label>
+
+  <ARA_HiveCorvette_Fake.label>Heavenly Demon Beast Insect</ARA_HiveCorvette_Fake.label>
+
+  <ARA_HiveCorvette.label>Celestial Witch Beast Insect (Cataclysmic Cannon)</ARA_HiveCorvette.label>
+
+  <ARA_HiveCorvette_Missile.label>Celestial Witch Beast Insect (Cataclysmic Missile)</ARA_HiveCorvette_Missile.label>
+
+  <ARA_HiveCorvette_Bombardment.label>Celestial Witch Beast Insect (Acid Bombardment)</ARA_HiveCorvette_Bombardment.label>
+
+  <Bullet_ARA_Acid_Bombardment.label>Large acid clusters</Bullet_ARA_Acid_Bombardment.label>
+
+  <ARA_HiveCorvette_Strike.label>Celestial Witch Beast Insect (Spiky Sweep)</ARA_HiveCorvette_Strike.label>
+
+  <ARA_HiveShip_Fire_Incoming.label>Cataclysmic Acid Cannon Shells (Zerg Mothership)</ARA_HiveShip_Fire_Incoming.label>
+
+  <Proj_ARA_HiveCorvette.label>Tianwu Acid Group</Proj_ARA_HiveCorvette.label>
+
+  <Bullet_ARA_HiveCorvette.label>Heavenly Witch Thorns</Bullet_ARA_HiveCorvette.label>
+
+</LanguageData>

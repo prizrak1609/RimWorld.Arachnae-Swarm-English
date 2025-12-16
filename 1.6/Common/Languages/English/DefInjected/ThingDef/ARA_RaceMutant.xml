@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_MimicNematodeShambler.label>Arachne parasite</ARA_MimicNematodeShambler.label>
+  <ARA_MimicNematodeShambler.description>*Aracipe nematodes* is one of the most mysterious branches of the nematode community. While related to protozoa, they did not develop advanced intelligence during evolution, instead taking a completely different path: parasitism. Nematodes are parasites that cannot survive independently of their hosts. Once inside an organism, they remain dormant for a long time, eventually taking over the host's nervous and metabolic systems, turning it into a mindless, controlled entity—the "parasite." Thanks to their extraordinary cell replication and regeneration capabilities, nematodes can mimic and replace the host's cellular structure, giving them astonishing self-repair abilities. However, this parasitic relationship is also extremely aggressive: nematode eggs are scattered across the parasite's surface, and any organism attacked by the parasite can become infected and eventually become a new parasite. Although the nematodes maintain the parasite's metabolism at extremely low levels, the parasite itself does not actively seek food. Therefore, when their energy is depleted, they will eventually die.</ARA_MimicNematodeShambler.description>
+  <ARA_MimicNematodeShambler.tools.0.label>tearing</ARA_MimicNematodeShambler.tools.0.label>
+  <ARA_MimicNematodeShambler.tools.1.label>Giant Scythe</ARA_MimicNematodeShambler.tools.1.label>
+  <ARA_MimicNematodeShambler.tools.2.label>Giant Scythe</ARA_MimicNematodeShambler.tools.2.label>
+
+</LanguageData>

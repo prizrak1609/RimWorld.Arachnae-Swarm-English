@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArachnaeNode_Race_Myrmecocystus.label>Arachne honey potting</ArachnaeNode_Race_Myrmecocystus.label>
+  <ArachnaeNode_Race_Myrmecocystus.description>One of the Arachne's large scavengers, this large insectoid possesses a wide-ranging diet, capable of devouring many unprocessed organisms and breaking them down into Arachne Honey to nourish the swarm. She is skilled in transporting, cooking, and planting, but her combat abilities are very poor. As a scavenger, she can breed and manage several Arachne Carrion Scavengers to assist the nest in harvesting and planting.</ArachnaeNode_Race_Myrmecocystus.description>
+  <ArachnaeNode_Race_Myrmecocystus.comps.CompNodeSwarmLifetime.labelOverride>life</ArachnaeNode_Race_Myrmecocystus.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Myrmecocystus.comps.CompNodeSwarmLifetime.tooltipOverride>The life of the Dictyophora in Arachne is like a finely wound spring.</ArachnaeNode_Race_Myrmecocystus.comps.CompNodeSwarmLifetime.tooltipOverride>
+
+
+  <ArachnaeNode_Race_ShieldHead.label>Arachne shield head</ArachnaeNode_Race_ShieldHead.label>
+  <ArachnaeNode_Race_ShieldHead.description>One of the Arachne Dominion, possessing an overgrown carapace covering her head and legs, which she periodically sheds chitin for the nest's use. She can perform tasks such as carrying, mining, and construction. Her combat skills are unremarkable, but she possesses good defense. As a Dominion, she can breed and supervise several Arachne Mangekyrion companions to assist in mining veins within the nest.</ArachnaeNode_Race_ShieldHead.description>
+  <ArachnaeNode_Race_ShieldHead.comps.CompNodeSwarmLifetime.labelOverride>life</ArachnaeNode_Race_ShieldHead.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_ShieldHead.comps.CompNodeSwarmLifetime.tooltipOverride>The life of the Dictyophora in Arachne is like a finely wound spring.</ArachnaeNode_Race_ShieldHead.comps.CompNodeSwarmLifetime.tooltipOverride>
+  
+  <ArachnaeNode_Race_WeaponSmith.label>Arachne craft varieties</ArachnaeNode_Race_WeaponSmith.label>
+  <ArachnaeNode_Race_WeaponSmith.description>One of the Arachne Dominion species, she is one of the few non-Queen Arachne insects capable of cocooning—they can expel an organ cocoon that evolves into an armed organ in a direction indicated by their pheromones, for the use of the swarm. She is capable of carrying, crafting, and artistic work; her combat skills are unremarkable, but she is extremely fragile. As a Dominion, she can breed and supervise several Arachne domestication auxiliary insects to assist with nest cleaning and carrying tasks.</ArachnaeNode_Race_WeaponSmith.description>
+  <ArachnaeNode_Race_WeaponSmith.comps.CompNodeSwarmLifetime.labelOverride>life</ArachnaeNode_Race_WeaponSmith.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_WeaponSmith.comps.CompNodeSwarmLifetime.tooltipOverride>The life of the Dictyophora in Arachne is like a finely wound spring.</ArachnaeNode_Race_WeaponSmith.comps.CompNodeSwarmLifetime.tooltipOverride>
+  
+  <ArachnaeNode_Race_Fighter.label>Arachne Warriors</ArachnaeNode_Race_Fighter.label>
+  <ArachnaeNode_Race_Fighter.description>One of the Arachne Dominion, she is a true warrior of the nest, possessing powerful plasticity genes that grant her more abilities as technology is unlocked. She can perform tasks such as carrying, hunting, and taming beasts; her combat skills are outstanding, and she is agile. As a Dominion, she can project finite-living but extremely annoying Arachne acid phalloids at enemies to disrupt their ranged fire.</ArachnaeNode_Race_Fighter.description>
+  <ArachnaeNode_Race_Fighter.comps.CompNodeSwarmLifetime.labelOverride>life</ArachnaeNode_Race_Fighter.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Fighter.comps.CompNodeSwarmLifetime.tooltipOverride>The life of the Dictyophora in Arachne is like a finely wound spring.</ArachnaeNode_Race_Fighter.comps.CompNodeSwarmLifetime.tooltipOverride>
+  
+  <ArachnaeNode_Race_Facehugger.label>Arachne protozoan species</ArachnaeNode_Race_Facehugger.label>
+  <ArachnaeNode_Race_Facehugger.description>One of the Arachne Druids, a special Druid exhibiting a highly undifferentiated state. It can control the victim's body through unique neural links and release psionic signals to make those around it ignore its presence. However, it is extremely fragile and unable to perform any work before completing its parasitism. It can perform all non-research tasks, but its combat skills are virtually nonexistent. Unlike ordinary Arachne Druids, its highly undifferentiated body prevents it from developing any secondary Druids.</ArachnaeNode_Race_Facehugger.description>
+  
+  <ArachnaeNode_Race_Smokepop.label>Arachne Mist Seed</ArachnaeNode_Race_Smokepop.label>
+  <ArachnaeNode_Race_Smokepop.description>One of the Arachne's large overlords, this massive insectoid race is covered in a thick carapace. It possesses the ability to summon swarms of auxiliary insects by spraying pheromones over a wide area. Although relatively slow, it is as impenetrable as an armored vehicle in combat. She is capable of carrying heavy loads and possesses decent combat skills, along with strong defense and damage tolerance. As an overlord, she can breed and manage large numbers of Arachne domestic auxiliary insects to assist with cleaning and carrying tasks at the nest.</ArachnaeNode_Race_Smokepop.description>
+  <ArachnaeNode_Race_Smokepop.comps.CompNodeSwarmLifetime.labelOverride>life</ArachnaeNode_Race_Smokepop.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Smokepop.comps.CompNodeSwarmLifetime.tooltipOverride>The life of the Dictyophora in Arachne is like a finely wound spring.</ArachnaeNode_Race_Smokepop.comps.CompNodeSwarmLifetime.tooltipOverride>
+  
+  <ArachnaeNode_Race_Skyraider.label>Arachne Sky Seed</ArachnaeNode_Race_Skyraider.label>
+  <ArachnaeNode_Race_Skyraider.description>One of the Arachne's largest Overseers, an elite among them, she is enormous and possesses the formidable ability to fly, making her the undisputed aerial ruler of her nest. She is capable of carrying heavy loads and possesses considerable combat skills, moving with great agility on the battlefield. As an Overseer, she can launch Skyhive Necromancers at enemies. These Necromancers automatically adjust their attitude to track enemy units and continuously bite upon impact.</ArachnaeNode_Race_Skyraider.description>
+  <ArachnaeNode_Race_Skyraider.comps.CompNodeSwarmLifetime.labelOverride>life</ArachnaeNode_Race_Skyraider.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Skyraider.comps.CompNodeSwarmLifetime.tooltipOverride>The life of the Dictyophora in Arachne is like a finely wound spring.</ArachnaeNode_Race_Skyraider.comps.CompNodeSwarmLifetime.tooltipOverride>
+  
+  <ArachnaeNode_Race_NeuroSwarm.label>Arachne weave species</ArachnaeNode_Race_NeuroSwarm.label>
+  <ArachnaeNode_Race_NeuroSwarm.description>One of the Arakneids, the Weavers are the most unique insectoid race in the Arakneid swarm. Although they are under the supervision of the Queen, they still possess powerful advanced intelligence and self-will. The Weavers can construct a highly interconnected neural network to perform complex research and computation. The Weavers cannot perceive the external environment when performing computation, so they are an important protected species in the swarm.</ArachnaeNode_Race_NeuroSwarm.description>
+  
+  <ArachnaeNode_Race_Praetorian.label>Arachne Guard</ArachnaeNode_Race_Praetorian.label>
+  <ArachnaeNode_Race_Praetorian.description>One of the Arachne Dominators, they are elite soldiers carefully selected and bred by the Queen, and serve as the Queen's mouthpiece. They possess social abilities rare within the Hive, are smaller than typical large Zerg yet can be equipped with large weapon systems, can command nearby Zerg, and are adept at adapting to any situation on the battlefield. She can perform tasks such as transporting, socializing, and engaging in artistic pursuits; her combat skills are outstanding, and her marksmanship is unparalleled. As a Dominator, she can hatch large numbers of Arachne Acid Eater Necrophos at once to create a formidable battle line.</ArachnaeNode_Race_Praetorian.description>
+  <ArachnaeNode_Race_Praetorian.comps.CompNodeSwarmLifetime.labelOverride>life</ArachnaeNode_Race_Praetorian.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Praetorian.comps.CompNodeSwarmLifetime.tooltipOverride>The life of the Dictyophora in Arachne is like a finely wound spring.</ArachnaeNode_Race_Praetorian.comps.CompNodeSwarmLifetime.tooltipOverride>
+  
+  <ArachnaeNode_Race_MimicNematode.label>Arachne pseudo-line species</ArachnaeNode_Race_MimicNematode.label>
+  <ArachnaeNode_Race_MimicNematode.description>Nematomorphs are strictly speaking Arachne support insects, typically taking over the bodies of their victims through parasitism. However, under special circumstances, the Arachne insects may also actively cultivate bodies for nematomorphs to aid in the hive's grand scheme. Due to a genetic defect, nematomorphs actually still control an unconscious body through parasitism, which makes them act solely on instinct and unable to connect with the hive's will.</ArachnaeNode_Race_MimicNematode.description>
+
+</LanguageData>

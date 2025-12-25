@@ -1,7 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <ARA_Creep.label>Arachne Creep</ARA_Creep.label>
-
-
+  <ARA_Incubator_Nutrient_Solution.label>Arachne nutrient solution</ARA_Incubator_Nutrient_Solution.label>
 </LanguageData>

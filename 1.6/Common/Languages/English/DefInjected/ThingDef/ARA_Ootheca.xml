@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_Pawn_Ootheca.label>Arachne oocysts</ARA_Pawn_Ootheca.label>
+  <ARA_Pawn_Ootheca.description>A fragile, flammable, slimy sac that contains the nutrients and genetic material needed to nurture a new insect or beast insect. A spacious incubator filled with Arachne's nutrient solution will be the best place to place it. It needs to be entered by the Arachne Larvae to initiate the hatching process.</ARA_Pawn_Ootheca.description>
+  <ARA_Pawn_Ootheca.comps.CompProperties_CustomRadius.label>Absorption radius</ARA_Pawn_Ootheca.comps.CompProperties_CustomRadius.label>
+  <ARA_Pawn_Ootheca.comps.CompProperties_CustomRadius.description>The absorption radius of this egg during the hatching process ensures that these grids are filled with Arachne nutrient solution and there are no other eggs to obtain the best hatching speed and hatching quality.</ARA_Pawn_Ootheca.comps.CompProperties_CustomRadius.description>
+  <ARA_Pawn_Ootheca.comps.CompProperties_IncubatorData.buttonLabel>incubation···</ARA_Pawn_Ootheca.comps.CompProperties_IncubatorData.buttonLabel>
+  <ARA_Pawn_Ootheca.comps.CompProperties_IncubatorData.buttonDesc>Select hatched Arachneid...</ARA_Pawn_Ootheca.comps.CompProperties_IncubatorData.buttonDesc>
+  <ARA_Pawn_Ootheca.comps.CompProperties_IncubatorData.menuTitle>hatch menu</ARA_Pawn_Ootheca.comps.CompProperties_IncubatorData.menuTitle>
+  <ARA_Equipment_Ootheca.label>Arachne cocoon</ARA_Equipment_Ootheca.label>
+  <ARA_Equipment_Ootheca.description>The pagoda-like living structure of Arachne can hatch out incomplete individuals after metamorphosis - armed organs and fabrics, that is, the weapons and clothes of the insect swarm. It needs to be entered by the Arachne larvae to start the hatching process. A spacious incubator filled with Arachne nutrient solution will be the best place for it.</ARA_Equipment_Ootheca.description>
+  <ARA_Equipment_Ootheca.comps.CompProperties_CustomRadius.label>Absorption radius</ARA_Equipment_Ootheca.comps.CompProperties_CustomRadius.label>
+  <ARA_Equipment_Ootheca.comps.CompProperties_CustomRadius.description>The absorption radius of this egg during the hatching process ensures that these grids are filled with Arachne nutrient solution and there are no other eggs to obtain the best hatching speed and hatching quality.</ARA_Equipment_Ootheca.comps.CompProperties_CustomRadius.description>
+  <ARA_InteractiveEggSac_Techprint.label>Arachne gene test egg</ARA_InteractiveEggSac_Techprint.label>
+  <ARA_InteractiveEggSac_Techprint.description>An egg with almost disordered internal development cannot hatch any Zerg species and is mainly used for experimenting with the direction of mutation. \n\nArachne technology that requires a blueprint can only be completed by genetic test eggs. When completed, the genetic information of the technology will be stored in the eggs. Once all the genetic test eggs storing the same technology are damaged, the technology will be lost!</ARA_InteractiveEggSac_Techprint.description>
+</LanguageData>

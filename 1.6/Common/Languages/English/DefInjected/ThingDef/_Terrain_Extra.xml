@@ -13,5 +13,7 @@
   <Frame_ARA_InsectCreepTile.label>Arachnae Creep Tile (Building)</Frame_ARA_InsectCreepTile.label>
   <Frame_ARA_InsectCreepTile.description>Terrain being constructed.</Frame_ARA_InsectCreepTile.description>
 
+  <Blueprint_ARA_Incubator_Nutrient_Solution.label>Arachne nutrient solution</Blueprint_ARA_Incubator_Nutrient_Solution.label>
+  <Frame_ARA_Incubator_Nutrient_Solution.label>Arachne nutrient solution</Frame_ARA_Incubator_Nutrient_Solution.label>
 
 </LanguageData>

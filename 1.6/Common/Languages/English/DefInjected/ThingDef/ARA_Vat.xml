@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_DormancyVat.label>Arachne dormant cocoon</ARA_DormancyVat.label>
+  <ARA_DormancyVat.description>The Arachne Swarm is a special living facility used to store excess Zerg. The Zerg stored in it will fall into an immortal state of dormancy, waiting for the main nest to be summoned again.</ARA_DormancyVat.description>
+  <ARA_RefuelingVat.label>Essence extraction chamber</ARA_RefuelingVat.label>
+  <ARA_RefuelingVat.description>A special living structure that can house captives of the Arachne swarm, extract their genetic material in a slow and painful way, and convert it into essence for use by the swarm. \n\n——Don’t ask how it was collected.</ARA_RefuelingVat.description>
+  <ARA_RefuelingVat.comps.CompProperties_ProductStorage.fuelLabel>Essence</ARA_RefuelingVat.comps.CompProperties_ProductStorage.fuelLabel>
+  <ARA_RefuelingVat.comps.CompProperties_ProductStorage.fuelGizmoLabel>Essence</ARA_RefuelingVat.comps.CompProperties_ProductStorage.fuelGizmoLabel>
+</LanguageData>

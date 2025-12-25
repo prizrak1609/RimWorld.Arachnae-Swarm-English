@@ -1,202 +1,133 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_Base_Technology.label>Basic Gene Sequence Acquisition</ARA_Base_Technology.label>
-  <ARA_Base_Technology.description>Unlocks the swarm's basic technology, allowing you to hatch basic auxiliary bugs and armed organs.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Base_Technology.description>
-
+  <ARA_Base_Technology.label>Basic gene sequence acquisition</ARA_Base_Technology.label>
+  <ARA_Base_Technology.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nUnlock the basic technology of the swarm, allowing the hatching of basic auxiliary insects and armed organs. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Base_Technology.description>
   <ARA_Technology_1WMT.label>Node WMT-1 "Breakthrough"</ARA_Technology_1WMT.label>
-  <ARA_Technology_1WMT.description>Allows the Queen and the Artisan species to evolve to the next stage.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_1WMT.description>
-
+  <ARA_Technology_1WMT.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows queen species and craft species to evolve to the next stage. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_1WMT.description>
   <ARA_Technology_2WMT.label>Node WMT-2 "Breakthrough 2"</ARA_Technology_2WMT.label>
-  <ARA_Technology_2WMT.description>Allows the Queen and the Artisan species to evolve to the next stage.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_2WMT.description>
-
+  <ARA_Technology_2WMT.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows queen species and craft species to evolve to the next stage. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_2WMT.description>
   <ARA_Technology_6VXI.label>Node VXI-6 "Acid Sac"</ARA_Technology_6VXI.label>
-  <ARA_Technology_6VXI.description>Allows acid-sac-bearing insectoids to repel enemies by spraying strong acid.</ARA_Technology_6VXI.description>
-
-  <ARA_Technology_7VXI.label>Node VXI-7 "External Acid Sac"</ARA_Technology_7VXI.label>
-  <ARA_Technology_7VXI.description>Allows Artisan species to hatch new weapons.</ARA_Technology_7VXI.description>
-
-  <ARA_Technology_8VXI.label>Node VXI-8 "Large Acid Gland"</ARA_Technology_8VXI.label>
-  <ARA_Technology_8VXI.description>Allows Artisan species to hatch new weapons.</ARA_Technology_8VXI.description>
-
+  <ARA_Technology_6VXI.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows Zerg with acid sacs to spray strong acid to repel enemies.</ARA_Technology_6VXI.description>
+  <ARA_Technology_7VXI.label>Node VXI-7 "External Acid Bag"</ARA_Technology_7VXI.label>
+  <ARA_Technology_7VXI.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting species to hatch new weapons.</ARA_Technology_7VXI.description>
+  <ARA_Technology_8VXI.label>Node VXI-8 "Giant Acid Gland"</ARA_Technology_8VXI.label>
+  <ARA_Technology_8VXI.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting species to hatch new weapons.</ARA_Technology_8VXI.description>
   <ARA_Technology_9VXI.label>Node VXI-9 "Acid Rain"</ARA_Technology_9VXI.label>
-  <ARA_Technology_9VXI.description>Allows Artisan species to hatch new weapons.</ARA_Technology_9VXI.description>
-
-  <ARA_Technology_10VXI.label>Node VXI-10 "Mini Disaster"</ARA_Technology_10VXI.label>
-  <ARA_Technology_10VXI.description>Allows Artisan species to hatch new weapons.</ARA_Technology_10VXI.description>
-
-  <ARA_Technology_11VXI.label>Node VXI-11 "Disaster"</ARA_Technology_11VXI.label>
-  <ARA_Technology_11VXI.description>Allows the construction of Disaster Acid Cannon organs. This powerful defensive facility can repel large enemy swarms and even launch cross-map attacks.</ARA_Technology_11VXI.description>
-
+  <ARA_Technology_9VXI.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting species to hatch new weapons.</ARA_Technology_9VXI.description>
+  <ARA_Technology_10VXI.label>Node VXI-10 "Micro Catastrophe"</ARA_Technology_10VXI.label>
+  <ARA_Technology_10VXI.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting species to hatch new weapons.</ARA_Technology_10VXI.description>
+  <ARA_Technology_11VXI.label>Node VXI-11 "Act of God"</ARA_Technology_11VXI.label>
+  <ARA_Technology_11VXI.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the construction of the Scourge Acid Burning Cannon Organization, a powerful defense facility that can not only deal with swarms of invading enemies, but can also launch strikes across the map.</ARA_Technology_11VXI.description>
   <ARA_Technology_1THD.label>Node THD-1 "Psychic Lightning"</ARA_Technology_1THD.label>
-  <ARA_Technology_1THD.description>Allows Artisan species to hatch new Psychic Lightning-based weapons.</ARA_Technology_1THD.description>
-
+  <ARA_Technology_1THD.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting species to hatch new psychic lightning weapons.</ARA_Technology_1THD.description>
+  <ARA_Technology_2HAG.label>Node HAG-2 "Incubation Pool"</ARA_Technology_2HAG.label>
+  <ARA_Technology_2HAG.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Arachne Zerg to build a series of hatchery-related structures to start hatching new Zerg.</ARA_Technology_2HAG.description>
   <ARA_Technology_1KYC.label>Node KYC-1 "Warrior Bug"</ARA_Technology_1KYC.label>
-  <ARA_Technology_1KYC.description>Allows the Queen to hatch a new insect species - the Warrior. \n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_1KYC.description>
-
-  <ARA_Technology_4KYC.label>Node KYC-4 "Progenitor Bug"</ARA_Technology_4KYC.label>
-  <ARA_Technology_4KYC.description>Allows the Queen to hatch a new insect species - the Progenitor. This is a special overseer bug that parasitizes and controls other species.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_4KYC.description>
-
-  <ARA_Technology_2KYC.label>Node KYC-2 "Flight Membrane"</ARA_Technology_2KYC.label>
-  <ARA_Technology_2KYC.description>Allows the Queen to hatch a new insect species - the Sky-Air species. They are agile, lethal elite insectoids with the ability to traverse the battlefield in a flying posture.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_2KYC.description>
-
-  <ARA_Technology_5KYC.label>Node KYC-5 "Giant Carapace"</ARA_Technology_5KYC.label>
-  <ARA_Technology_5KYC.description>Allows the Queen to hatch a new insect species - the Mist species. This is a large overseer bug with a thick carapace that aids in group attacks using smoke screens, flame retardants, and swarm reinforcement pheromones.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_5KYC.description>
-
-  <ARA_Technology_6KYC.label>Node KYC-6 "Spirit Brain"</ARA_Technology_6KYC.label>
-  <ARA_Technology_6KYC.description>Allows the Queen to hatch a new insect species - the Weave species. They possess longevity and powerful psychic abilities, assisting the swarm with research and capable of casting powerful magic.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_6KYC.description>
-
-  <ARA_Technology_7KYC.label>Node KYC-7 "Royal Guard"</ARA_Technology_7KYC.label>
-  <ARA_Technology_7KYC.description>Allows the Queen to hatch a new insect species - the Guard species. They have a longer lifespan than other insectoids, excellent long-range combat and social skills, and can lead the swarm as commanders.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_7KYC.description>
-
-  <ARA_Technology_6MEN.label>Node MEN-6 "Mimic Line"</ARA_Technology_6MEN.label>
-  <ARA_Technology_6MEN.description>Allows the Queen to hatch a new insect species - the Mimic Line Body. These insectoids are parasitized by the Arachne Mimic Line species from birth, serving as cheap and quickly produced disposable infantry. However, they lack control and cannot be relied upon for discipline.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_6MEN.description>
-
-  <ARA_Technology_4DIL.label>Node DIL-4 "Maid"</ARA_Technology_4DIL.label>
-  <ARA_Technology_4DIL.description>Allows Artisan species to hatch new fabrics using Fabric Cocoons.</ARA_Technology_4DIL.description>
-
-  <ARA_Technology_5DIL.label>Node DIL-5 "Nurse"</ARA_Technology_5DIL.label>
-  <ARA_Technology_5DIL.description>Allows Artisan species to hatch new fabrics using Fabric Cocoons.</ARA_Technology_5DIL.description>
-
-  <ARA_Technology_6DIL.label>Node DIL-6 "Bunny Girl"</ARA_Technology_6DIL.label>
-  <ARA_Technology_6DIL.description>Allows Artisan species to hatch new fabrics using Fabric Cocoons.</ARA_Technology_6DIL.description>
-
-  <ARA_Technology_7DIL.label>Node DIL-7 "Wedding"</ARA_Technology_7DIL.label>
-  <ARA_Technology_7DIL.description>Allows Artisan species to hatch new fabrics using Fabric Cocoons.</ARA_Technology_7DIL.description>
-
-  <ARA_Technology_8DIL.label>Node DIL-8 "Guard"</ARA_Technology_8DIL.label>
-  <ARA_Technology_8DIL.description>Allows Artisan species to hatch new fabrics using Fabric Cocoons.</ARA_Technology_8DIL.description>
-
-  <ARA_Technology_5PAV.label>Node PAV-5 "Poison Needle"</ARA_Technology_5PAV.label>
-  <ARA_Technology_5PAV.description>Allows Artisan species to hatch new weapons, and some spike-bearing insectoids can now shoot poisonous spikes.</ARA_Technology_5PAV.description>
-
-  <ARA_Technology_6PAV.label>Node PAV-6 "Tempest"</ARA_Technology_6PAV.label>
-  <ARA_Technology_6PAV.description>Allows Artisan species to hatch new weapons.</ARA_Technology_6PAV.description>
-
-  <ARA_Technology_7PAV.label>Node PAV-7 "Blood Needle"</ARA_Technology_7PAV.label>
-  <ARA_Technology_7PAV.description>Allows Artisan species to hatch new weapons.</ARA_Technology_7PAV.description>
-
-  <ARA_Technology_7XPAV.label>Node PAV-7X "Sloth"</ARA_Technology_7XPAV.label>
-  <ARA_Technology_7XPAV.description>Allows Artisan species to hatch new weapons.</ARA_Technology_7XPAV.description>
-
+  <ARA_Technology_1KYC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the queen species to hatch new zerg species - warrior species. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_1KYC.description>
+  <ARA_Technology_4KYC.label>Node KYC-4 "Protozoa"</ARA_Technology_4KYC.label>
+  <ARA_Technology_4KYC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Queen species to hatch a new zerg species - the protozoa species, a special type of worm that can parasitize other races to control them. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_4KYC.description>
+  <ARA_Technology_2KYC.label>Node KYC-2 "Flying Wing Membrane"</ARA_Technology_2KYC.label>
+  <ARA_Technology_2KYC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Queen Seed to hatch a new Zerg race - the Sky Seed, an agile and deadly elite Zerg race that has the ability to shuttle through the battlefield in a flying posture. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_2KYC.description>
+  <ARA_Technology_5KYC.label>Node KYC-5 "Jujia"</ARA_Technology_5KYC.label>
+  <ARA_Technology_5KYC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Queen Seed to hatch a new zerg species - the Mist Seed, a large Overlord Bug with a thick carapace that can emit smoke, fire retardants and pheromones that summon zerg reinforcements to assist the swarm in swarming attacks. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_5KYC.description>
+  <ARA_Technology_6KYC.label>Node KYC-6 "Ling Nao"</ARA_Technology_6KYC.label>
+  <ARA_Technology_6KYC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Queen species to hatch a new Zerg species - the Weaver species, a special Zerg species with long lifespan and powerful psychic abilities. It can not only assist the scientific research work of the Zerg swarm, but is also a powerful spellcaster. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_6KYC.description>
+  <ARA_Technology_7KYC.label>Node KYC-7 "Guard"</ARA_Technology_7KYC.label>
+  <ARA_Technology_7KYC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Queen species to hatch a new Zerg species - the Guard species, an elite Zerg species with a longer lifespan than other Zerg species. It has excellent long-range combat capabilities and social skills, and can also serve as a commander to command the Zerg swarm. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_7KYC.description>
+  <ARA_Technology_6MEN.label>Node MEN-6 "quasi-line"</ARA_Technology_6MEN.label>
+  <ARA_Technology_6MEN.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Queen species to hatch a new zerg species - the Pseudomonas, a zerg whose body has been parasitized by the Arachne Pseudomonas at birth. Cannon fodder is cheap and can be obtained quickly, but there is no discipline. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_6MEN.description>
+  <ARA_Technology_4DIL.label>Node DIL-4 "Primary Fabric"</ARA_Technology_4DIL.label>
+  <ARA_Technology_4DIL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting to hatch new fabrics in fabric cocoons.</ARA_Technology_4DIL.description>
+  <ARA_Technology_5DIL.label>Node DIL-5 "Intermediate Fabric"</ARA_Technology_5DIL.label>
+  <ARA_Technology_5DIL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting to hatch new fabrics in fabric cocoons.</ARA_Technology_5DIL.description>
+  <ARA_Technology_6DIL.label>Node DIL-6 "Advanced Fabric"</ARA_Technology_6DIL.label>
+  <ARA_Technology_6DIL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting to hatch new fabrics in fabric cocoons.</ARA_Technology_6DIL.description>
+  <ARA_Technology_5PAV.label>Node PAV-5 "Stinger"</ARA_Technology_5PAV.label>
+  <ARA_Technology_5PAV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllow craft species to hatch new weapons, and allow some Zerg with poison needles to spray poison needles.</ARA_Technology_5PAV.description>
+  <ARA_Technology_6PAV.label>Node PAV-6 "Heavy Rain"</ARA_Technology_6PAV.label>
+  <ARA_Technology_6PAV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting species to hatch new weapons.</ARA_Technology_6PAV.description>
+  <ARA_Technology_7PAV.label>Node PAV-7 "Bloodthorn"</ARA_Technology_7PAV.label>
+  <ARA_Technology_7PAV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting species to hatch new weapons.</ARA_Technology_7PAV.description>
+  <ARA_Technology_7XPAV.label>Node PAV-7X "Sparedar"</ARA_Technology_7XPAV.label>
+  <ARA_Technology_7XPAV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting species to hatch new weapons.</ARA_Technology_7XPAV.description>
   <ARA_Technology_8PAV.label>Node PAV-8 "Gigabit Cannon"</ARA_Technology_8PAV.label>
-  <ARA_Technology_8PAV.description>Allows the swarm to construct a powerful defensive facility. It has strong armor-piercing capabilities and a high rate of fire, performing excellently against heavily armored targets.</ARA_Technology_8PAV.description>
-
-  <ARA_Technology_2MEL.label>Node MEL-2 "Rage Whip"</ARA_Technology_2MEL.label>
-  <ARA_Technology_2MEL.description>Allows Artisan species to hatch new weapons.</ARA_Technology_2MEL.description>
-
-  <ARA_Technology_3MEL.label>Node MEL-3 "Psy Scythe"</ARA_Technology_3MEL.label>
-  <ARA_Technology_3MEL.description>Allows Artisan species to hatch new weapons.</ARA_Technology_3MEL.description>
-
+  <ARA_Technology_8PAV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Zerg to build a powerful defense facility with strong armor-piercing capabilities and a high rate of fire, specializing in fighting heavily armored targets.</ARA_Technology_8PAV.description>
+  <ARA_Technology_2MEL.label>Node MEL-2 "Bone Whip"</ARA_Technology_2MEL.label>
+  <ARA_Technology_2MEL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting species to hatch new weapons.</ARA_Technology_2MEL.description>
+  <ARA_Technology_3MEL.label>Node MEL-3 "Sickle Claw"</ARA_Technology_3MEL.label>
+  <ARA_Technology_3MEL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting species to hatch new weapons.</ARA_Technology_3MEL.description>
   <ARA_Technology_5ESS.label>Node ESS-5 "Essence Extraction"</ARA_Technology_5ESS.label>
-  <ARA_Technology_5ESS.description>Allows the Arachne Swarm to construct a special biological structure that generates essence by placing prisoners inside.</ARA_Technology_5ESS.description>
-
-  <ARA_Technology_8POD.label>Node POD-8 "Air Sac Bug"</ARA_Technology_8POD.label>
-  <ARA_Technology_8POD.description>Allows the swarm to construct a special auxiliary bug. This auxiliary bug can be used to transport items and insectoids to other locations on the world map without consuming fuel.</ARA_Technology_8POD.description>
-
+  <ARA_Technology_5ESS.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllow the Arachne swarm to build special living buildings, invest prisoners to produce essence, and at the same time build Arachne gene experimental eggs to develop special swarm technology.</ARA_Technology_5ESS.description>
+  <ARA_Technology_8POD.label>Node POD-8 "Air Bag Species"</ARA_Technology_8POD.label>
+  <ARA_Technology_8POD.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Zerg to build a special auxiliary insect that can airdrop items and Zerg to other places on the map without fuel.</ARA_Technology_8POD.description>
   <ARA_Technology_1NPT.label>Node NPT-1 "Central Tower"</ARA_Technology_1NPT.label>
-  <ARA_Technology_1NPT.description>Allows the swarm to construct a central nutrient supply facility. It automatically replenishes nutrients to linked nutrient-requiring structures.</ARA_Technology_1NPT.description>
-
-  <ARA_Technology_5SHL.label>Node SHL-5 "Light Nodule"</ARA_Technology_5SHL.label>
-  <ARA_Technology_5SHL.description>Allows the swarm to construct a special fungal nodule that provides direct light to promote plant growth.</ARA_Technology_5SHL.description>
-
+  <ARA_Technology_1NPT.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Zerg to build a central nutrient supply facility that can automatically replenish nutrients to linked buildings that require nutrients.</ARA_Technology_1NPT.description>
+  <ARA_Technology_5SHL.label>Node SHL-5 "Photooma"</ARA_Technology_5SHL.label>
+  <ARA_Technology_5SHL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Zerg to build a special tumor that provides direct light for plant growth.</ARA_Technology_5SHL.description>
   <ARA_Technology_6SHL.label>Node SHL-6 "Temperature Control"</ARA_Technology_6SHL.label>
-  <ARA_Technology_6SHL.description>Allows the swarm to construct a special stationary auxiliary bug that can control room temperature.</ARA_Technology_6SHL.description>
-
-  <ARA_Technology_1TUN.label>Node TUN-1 "Tunnel Bug"</ARA_Technology_1TUN.label>
-  <ARA_Technology_1TUN.description>Allows the swarm to construct a special stationary auxiliary bug that can dig underground paths connecting two points for rapid transport of personnel and materials.</ARA_Technology_1TUN.description>
-
-  <ARA_Technology_6GUT.label>Node GUT-6 "Catalyst"</ARA_Technology_6GUT.label>
-  <ARA_Technology_6GUT.description>Allows the swarm to utilize the catalytic ability of biological giant fungi to construct various production buildings.</ARA_Technology_6GUT.description>
-
-  <ARA_Technology_2NPT.label>Node NPT-2 "Digestive Cavity"</ARA_Technology_2NPT.label>
-  <ARA_Technology_2NPT.description>Allows the swarm to construct a cocoon for storing and digesting prey. The dissolved prey is supplied to the Arachne Nutrient Supply Tower network, improving the efficiency of biomass transport and hatching speed.</ARA_Technology_2NPT.description>
-
+  <ARA_Technology_6SHL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Zerg to build a special stationary auxiliary that can control the temperature of a room.</ARA_Technology_6SHL.description>
+  <ARA_Technology_1TUN.label>Node TUN-1 "tunnel species"</ARA_Technology_1TUN.label>
+  <ARA_Technology_1TUN.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Zerg to build a special fixed auxiliary insect that can connect two places by digging tunnels to quickly transport personnel and materials between the two places.</ARA_Technology_1TUN.description>
+  <ARA_Technology_6GUT.label>Node GUT-6 "Catalysis"</ARA_Technology_6GUT.label>
+  <ARA_Technology_6GUT.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the worms to use the catalytic ability of living bacteria, allowing the swarm to build a series of output buildings.</ARA_Technology_6GUT.description>
+  <ARA_Technology_2NPT.label>Node NPT-2 "Sleep Cocoon"</ARA_Technology_2NPT.label>
+  <ARA_Technology_2NPT.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Zerg to build cocoons for storing excess Zerg. The Zerg inside will sleep until the Hive Mind calls again.</ARA_Technology_2NPT.description>
   <ARA_Technology_3NPT.label>Node NPT-3 "Honey Crystal Cake"</ARA_Technology_3NPT.label>
-  <ARA_Technology_3NPT.description>Allows the swarm to construct a lair for producing Arachne Honey Crystal Cake. It breaks down insect honey to create edible honey crystal cake. This in-lair processed food helps the swarm endure the effects of being cold-blooded and has a soft texture enjoyable even by non-insectoid colonists.</ARA_Technology_3NPT.description>
-
-  <ARA_Technology_4NPT.label>Node NPT-4 "Hatching Pool"</ARA_Technology_4NPT.label>
-  <ARA_Technology_4NPT.description>Allows the swarm to construct a Hatching Pool. This is a specialized hatching facility for mass production of insectoids, with higher hatching efficiency than cocoons.</ARA_Technology_4NPT.description>
-
-  <ARA_Technology_8CPE.label>Node CPE-8 "Crops"</ARA_Technology_8CPE.label>
-  <ARA_Technology_8CPE.description>Allows the swarm to cultivate edible crops on creep. They grow relying on the nutrients from the creep and the land, helping supply biomass to the lair.</ARA_Technology_8CPE.description>
-
-  <ARA_Technology_9CPE.label>Node CPE-9 "Bee Spike Shooter"</ARA_Technology_9CPE.label>
-  <ARA_Technology_9CPE.description>Allows the swarm to cultivate special crops on creep. When fully grown, they become an aggressive fungal aggregate that shoots poisonous spikes at enemies.</ARA_Technology_9CPE.description>
-
-  <ARA_Technology_6SPV.label>Node SPV-6 "Auxiliary Bug Nest"</ARA_Technology_6SPV.label>
-  <ARA_Technology_6SPV.description>Allows Artisan species to hatch new weapons.</ARA_Technology_6SPV.description>
-
+  <ARA_Technology_3NPT.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Zerg to build a lair that produces Arachne honey crystal cake, and produces edible honey crystal cake by decomposing insect honey. This food processed in the nest can help the insect swarm resist the influence of cold-blooded animals, and its soft and chewy texture makes it enjoyable for non-zerg colonists.</ARA_Technology_3NPT.description>
+  <ARA_Technology_8CPE.label>Node CPE-8 "Bacteria Cultivation"</ARA_Technology_8CPE.label>
+  <ARA_Technology_8CPE.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Zerg to grow a crop on the creep, which can grow on the nutrients of the creep and the land to provide the nest with activated bacteria.</ARA_Technology_8CPE.description>
+  <ARA_Technology_9CPE.label>Node CPE-9 "Stinger Shooter"</ARA_Technology_9CPE.label>
+  <ARA_Technology_9CPE.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Zerg to grow a special crop on the carpet, which will grow into an aggressive fungus aggregate that shoots poisonous stingers at enemies.</ARA_Technology_9CPE.description>
+  <ARA_Technology_6SPV.label>Node SPV-6 "auxiliary insect nest"</ARA_Technology_6SPV.label>
+  <ARA_Technology_6SPV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows crafting species to hatch new weapons.</ARA_Technology_6SPV.description>
   <ARA_Technology_7SPV.label>Node SPV-7 "Explosive Projection"</ARA_Technology_7SPV.label>
-  <ARA_Technology_7SPV.description>Allows the swarm to construct a powerful defensive facility. It launches explosive auxiliary bugs that primarily engage in suicide attacks against invading enemies.</ARA_Technology_7SPV.description>
-
-  <ARA_Technology_2MED.label>Node MED-2 "Erosive Parasitism"</ARA_Technology_2MED.label>
-  <ARA_Technology_2MED.description>Allows Honey Pot species to use the parasitic ability of Mimic Line species and unlocks the production of Mimic Line Suppressant in the Medical Cocoon.</ARA_Technology_2MED.description>
-
-  <ARA_Technology_5STL.label>Node STL-5 "Genetic Seizure"</ARA_Technology_5STL.label>
-  <ARA_Technology_5STL.description>Allows Warrior species to undergo directional evolution, giving up combat skills in exchange for the ability to extract and inject genes from colonists, prisoners, and slaves.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_5STL.description>
-
+  <ARA_Technology_7SPV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Zerg to build a powerful defense capable of projecting blaster auxiliaries focused on suicide attacks at invading enemies.</ARA_Technology_7SPV.description>
+  <ARA_Technology_2MED.label>Node MED-2 "Erosion Parasitism"</ARA_Technology_2MED.label>
+  <ARA_Technology_2MED.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows honeypot species to use the ability of parasitoid species to parasitize, and unlocks the production of nemesis inhibitors in medical cocoons.</ARA_Technology_2MED.description>
+  <ARA_Technology_5STL.label>Node STL-5 "Gene Stealing"</ARA_Technology_5STL.label>
+  <ARA_Technology_5STL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the warrior species to undergo directed evolution, abandoning its combat skills in exchange for its ability to extract and inject genes from colonists, prisoners, and slaves. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_5STL.description>
   <ARA_Technology_1VTE.label>Node VTE-1 "Guardian"</ARA_Technology_1VTE.label>
-  <ARA_Technology_1VTE.description>Allows Shield-Head species to undergo directional evolution, giving up chitin generation and construction abilities in exchange for enhanced combat ability, movement speed, and a charge attack skill.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_1VTE.description>
-
-  <ARA_Technology_1MED.label>Node MED-1 "Healing Bug"</ARA_Technology_1MED.label>
-  <ARA_Technology_1MED.description>Allows Honey Pot species to undergo directional evolution, giving up the ability to produce insect honey in exchange for strengthening their medical abilities and unlocking the skill to hatch Medical Cocoons.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_1MED.description>
-
-  <ARA_Technology_4CLO.label>Node CLO-4 "Tracker Bug"</ARA_Technology_4CLO.label>
-  <ARA_Technology_4CLO.description>Allows Warrior species to undergo directional evolution, giving up the ability to use ranged weapons in exchange for powerful melee combat ability and permanent stealth.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_4CLO.description>
-
-  <ARA_Technology_1BAC.label>Node BAC-1 "Bacta Bug"</ARA_Technology_1BAC.label>
-  <ARA_Technology_1BAC.description>Allows Mist species to undergo directional evolution, giving up defensive power and pheromone spraying ability in exchange for producing the high-level resource "Active Giant Fungus" required by the swarm.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_1BAC.description>
-
+  <ARA_Technology_1VTE.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllow Shieldheads to undergo directed evolution, abandoning their ability to produce chitin and building buildings in exchange for combat capabilities, movement capabilities, and ramming attack skills. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_1VTE.description>
+  <ARA_Technology_1MED.label>Node MED-1 "Healing Seed"</ARA_Technology_1MED.label>
+  <ARA_Technology_1MED.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllow honeypot species to undergo directed evolution and abandon the ability to produce insect honey in order to strengthen their own medical capabilities and regularly produce medicines. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_1MED.description>
+  <ARA_Technology_4CLO.label>Node CLO-4 "Hunter Species"</ARA_Technology_4CLO.label>
+  <ARA_Technology_4CLO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the warrior species to undergo directed evolution, sacrificing its ability to use ranged weapons in exchange for powerful melee combat and permanent invisibility. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_4CLO.description>
+  <ARA_Technology_1BAC.label>Node BAC-1 "Breeding Breed"</ARA_Technology_1BAC.label>
+  <ARA_Technology_1BAC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the mist species to undergo directed evolution, sacrificing its armor and ability to spray pheromones in exchange for the ability to produce the advanced resource "activated giant bacteria" required by the insect swarm. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_1BAC.description>
   <ARA_Technology_9WID.label>Node WID-9 "Magnetic Storm"</ARA_Technology_9WID.label>
-  <ARA_Technology_9WID.description>Allows Sky-Air species to undergo directional evolution, giving up high-speed flight and high-altitude maneuverability in exchange for the ability to hurl a large number of Magnetic Storm bugs at the enemy. This bug swarm releases an EMP in the form of a suicide attack, capable of fighting mechs.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_9WID.description>
-
-  <ARA_Technology_6LOD.label>Node LOD-6 "Nest Lord"</ARA_Technology_6LOD.label>
-  <ARA_Technology_6LOD.description>Allows Sky-Air species to undergo directional evolution, giving up high-speed movement and high-altitude maneuverability in exchange for the ability to project a large number of Sky-Nest bugs onto the enemy.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_6LOD.description>
-
+  <ARA_Technology_9WID.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the directional evolution of aerial species, sacrificing the ability to maneuver at high speed and high altitude in exchange for the ability to project a large number of magnetic storm species at the enemy. This swarm can release EMP in a suicidal attack to fight against the mechanical race. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_9WID.description>
+  <ARA_Technology_6LOD.label>Node LOD-6 "Lord of the Nest"</ARA_Technology_6LOD.label>
+  <ARA_Technology_6LOD.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllow Sky Seeds to undergo directed evolution, sacrificing the ability to maneuver at high speeds and high altitudes in exchange for the ability to project a large number of Sky Nest Seeds at the enemy. This flying auxiliary insect is very fast and difficult to deal with in close combat. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_6LOD.description>
   <ARA_Technology_3CON.label>Node CON-3 "Builder"</ARA_Technology_3CON.label>
-  <ARA_Technology_3CON.description>Allows Shield-Head species to undergo directional evolution, giving up defensive ability in exchange for stronger chitin production and construction abilities.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_3CON.description>
-
-  <ARA_Technology_8FEL.label>Node FEL-8 "Blast Cavity"</ARA_Technology_8FEL.label>
-  <ARA_Technology_8FEL.description>Allows Honey Pot species to undergo directional evolution, giving up insect honey production ability in exchange for enhanced defense, compound fuel production, and flame jet ability.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_8FEL.description>
-
-  <ARA_Technology_3CRP.label>Node CRP-3 "Creep Laying"</ARA_Technology_3CRP.label>
-  <ARA_Technology_3CRP.description>Allows Mist species to undergo directional evolution, giving up pheromone spraying ability in exchange for enhanced defense and movement speed, and the ability to deploy creep on a large scale.\n\nThe blueprints required for all Arachne Swarm technology can only be obtained from the Queen's Gene Experiment Egg.</ARA_Technology_3CRP.description>
-
-  <ARA_Technology_1EVO.label>Node EVO-1 "Primary Evolution"</ARA_Technology_1EVO.label>
-  <ARA_Technology_1EVO.description>Unlocks a new Arachne Evolution Surgery. Enhances the Arachne insectoid's nutrient storage capacity and carapace.</ARA_Technology_1EVO.description>
-
-  <ARA_Technology_3EVO.label>Node EVO-3 "Gliding Wing Membrane"</ARA_Technology_3EVO.label>
-  <ARA_Technology_3EVO.description>Unlocks a new Arachne Evolution Surgery. Implants gliding wing membranes onto the legs of Arachne insectoids, improving movement speed on creep.</ARA_Technology_3EVO.description>
-
-  <ARA_Technology_4EVO.label>Node EVO-4 "Explosive Emergence"</ARA_Technology_4EVO.label>
-  <ARA_Technology_4EVO.description>Unlocks a new Arachne Evolution Surgery. Allows Arachne insectoids to use Explosive species that emerge from their cocoons for suicide attacks.</ARA_Technology_4EVO.description>
-
-  <ARA_Technology_5EVO.label>Node EVO-5 "Reactive Carapace"</ARA_Technology_5EVO.label>
-  <ARA_Technology_5EVO.description>Unlocks a new Arachne Evolution Surgery. Can implant a reactive carapace onto Arachne insectoids that can block any damage once.</ARA_Technology_5EVO.description>
-
-  <ARA_Technology_6EVO.label>Node EVO-6 "Enhanced Tendons"</ARA_Technology_6EVO.label>
-  <ARA_Technology_6EVO.description>Unlocks a new Arachne Evolution Surgery. Can implant tendons that assist with jumping ability onto Arachne insectoids.</ARA_Technology_6EVO.description>
-
-  <ARA_Technology_7EVO.label>Node EVO-7 "Carapace Spines"</ARA_Technology_7EVO.label>
-  <ARA_Technology_7EVO.description>Unlocks a new Arachne Evolution Surgery. Can implant spine tubes onto Arachne insectoids that automatically attack nearby enemies.</ARA_Technology_7EVO.description>
-
-  <ARA_Technology_8EVO.label>Node EVO-8 "Plasteel Carapace"</ARA_Technology_8EVO.label>
-  <ARA_Technology_8EVO.description>Unlocks a new Arachne Evolution Surgery. Can implant plasteel into the carapace of Arachne insectoids, granting high defense.</ARA_Technology_8EVO.description>
-
-  <ARA_Technology_9EVO.label>Node EVO-9 "Physiological Suppression"</ARA_Technology_9EVO.label>
-  <ARA_Technology_9EVO.description>Unlocks a new Arachne Evolution Surgery. Arachne insectoids lose their self-healing ability but are freed from lifespan limitations.</ARA_Technology_9EVO.description>
-
-  <ARA_Technology_10EVO.label>Node EVO-10 "Advanced Lungs"</ARA_Technology_10EVO.label>
-  <ARA_Technology_10EVO.description>Unlocks a new Arachne Evolution Surgery. Arachne insectoids can gain more powerful lungs.</ARA_Technology_10EVO.description>
-
-  <ARA_Technology_2SYM.label>Node SYM-2 "Frost-Knot Body"</ARA_Technology_2SYM.label>
-  <ARA_Technology_2SYM.description>Allows the Arachne swarm to construct a special biological structure - the Arachne Symbiotic Muscle Group. This structure merges with an overseer bug to form an unconscious organism, granting the overseer bug powerful combat capabilities.\n\nThe Frost-Knot Symbiotic Muscle Group allows the merged Arachne overseer bug to use a variety of rapid cooling-based weapons, enabling it to switch between large-scale group control and rapid annihilation of high-value targets.</ARA_Technology_2SYM.description>
-
+  <ARA_Technology_3CON.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllow shield-headed species to undergo directed evolution, abandoning their defensive capabilities in exchange for stronger chitin production capabilities and the ability to build buildings. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_3CON.description>
+  <ARA_Technology_8FEL.label>Node FEL-8 "deflagration chamber"</ARA_Technology_8FEL.label>
+  <ARA_Technology_8FEL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllow honeypot species to undergo directed evolution, abandoning the ability to produce insect honey in order to gain the ability to increase defense, produce chemical fuel, and shoot fire. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_8FEL.description>
+  <ARA_Technology_3CRP.label>Node CRP-3 "Certificate Laying"</ARA_Technology_3CRP.label>
+  <ARA_Technology_3CRP.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllow mist species to undergo directed evolution, abandoning the ability to spray pheromones in order to gain increased defense, movement speed, and the ability to lay large-scale creeps. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_3CRP.description>
   <ARA_Technology_9NAV.label>Node NAV-9 "Navigator"</ARA_Technology_9NAV.label>
-  <ARA_Technology_9NAV.description>&lt;color=#887E78>&lt;i>Arachne swarm - main nest tentacles\nThe evolutionary path of the main nest tentacles is a universal evolutionary path contained in every swarm, which lays the foundation for the swarm's biological superiority.&lt;/i>&lt;/color>\n\nThe Guardians are allowed to undergo targeted evolution, sacrificing their direct combat capabilities and the ability to command ground-based Zerg forces in exchange for the ability to command aerial Zerg swarms. All technologies of the Arachne Swarm that require blueprints can only be obtained through genetic experiment eggs of the Queen.</ARA_Technology_9NAV.description>
-
-  <ARA_Technology_4COV.label>Node COV-4 "Sky Witch Beast Horde"</ARA_Technology_4COV.label>
-  <ARA_Technology_4COV.description>&lt;color=#887E78>&lt;i>Arachne swarm - main nest tentacles\nThe evolutionary path of the main nest tentacles is a universal evolutionary path contained in every swarm, which lays the foundation for the swarm's biological superiority.&lt;/i>&lt;/color>\n\nThe Arachne Zerg are allowed to construct special living structures—the Skywitch Beasts, semi-autonomous entities commanded by the Pilots, capable of launching aerial attacks on enemy forces and raining down death.</ARA_Technology_4COV.description>
-
+  <ARA_Technology_9NAV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Guard species to undergo directed evolution, abandoning direct combat capabilities and the ability to command ground insect swarms in exchange for the ability to command aerial insect swarms. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_9NAV.description>
+  <ARA_Technology_1EVO.label>Node EVO-1 "Primary Evolution"</ARA_Technology_1EVO.label>
+  <ARA_Technology_1EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the implementation of the new Arachne evolution surgery, allowing the Arachne zerg to gain greater nutrient storage capacity and a thicker carapace.</ARA_Technology_1EVO.description>
+  <ARA_Technology_3EVO.label>Node EVO-3 "Gliding Wing Membrane"</ARA_Technology_3EVO.label>
+  <ARA_Technology_3EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the implementation of the new Arachne evolution surgery, which allows the Arachne Zerg to implant gliding wing membranes on its legs to gain higher movement speed on creep.</ARA_Technology_3EVO.description>
+  <ARA_Technology_4EVO.label>Node EVO-4 "Exploding Pod"</ARA_Technology_4EVO.label>
+  <ARA_Technology_4EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the implementation of the new Arachne evolution surgery, allowing Arachne zerg to use molt pods to hatch blasters capable of launching suicide attacks.</ARA_Technology_4EVO.description>
+  <ARA_Technology_5EVO.label>Node EVO-5 "Reactive Carapace"</ARA_Technology_5EVO.label>
+  <ARA_Technology_5EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the implementation of the new Arachne evolution surgery, allowing the Arachne Zerg to implant a reactive carapace that can withstand any amount of damage at a time.</ARA_Technology_5EVO.description>
+  <ARA_Technology_6EVO.label>Node EVO-6 "Strengthening tendons"</ARA_Technology_6EVO.label>
+  <ARA_Technology_6EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the new Arachne evolution surgery, allowing the Arachne Zerg to implant tendons that support the ability to jump.</ARA_Technology_6EVO.description>
+  <ARA_Technology_7EVO.label>Node EVO-7 "Carapace Thorn"</ARA_Technology_7EVO.label>
+  <ARA_Technology_7EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the implementation of the new Arachne evolution surgery, which allows Arachne Zerg to implant spiny tubes that automatically attack nearby enemies.</ARA_Technology_7EVO.description>
+  <ARA_Technology_8EVO.label>Node EVO-8 "GRP Shell"</ARA_Technology_8EVO.label>
+  <ARA_Technology_8EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the implementation of the new Arachne evolution surgery, allowing the Arachne Zerg to implant fiberglass into the carapace to obtain strong defense.</ARA_Technology_8EVO.description>
+  <ARA_Technology_9EVO.label>Node EVO-9 "Physiological Suppression"</ARA_Technology_9EVO.label>
+  <ARA_Technology_9EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the implementation of the new Arachne evolution surgery, allowing the Arachne Zerg to get rid of the lifespan limit at the cost of losing its self-healing ability.</ARA_Technology_9EVO.description>
+  <ARA_Technology_10EVO.label>Node EVO-10 "Advanced Lung"</ARA_Technology_10EVO.label>
+  <ARA_Technology_10EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the new Arachne evolution surgery, giving the Arachne zerg more powerful lungs.</ARA_Technology_10EVO.description>
+  <ARA_Technology_2SYM.label>Node SYM-2 "Frost Formation"</ARA_Technology_2SYM.label>
+  <ARA_Technology_2SYM.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Arachne Zerg to build a special living structure - the Arachne Symbiosis Muscle Group, an unconscious tissue that can be fused with the Overlord Bug, providing powerful combat effectiveness to the Overlord Bug. \n\nThe frost-bound symbiotic muscle group can support the Arachnidok fused with it to use a variety of freezing weapons, and can switch between controlling large-scale crowds and quickly killing high-value targets.</ARA_Technology_2SYM.description>
+  <ARA_Technology_8SLA.label>Node SLA-8 "Beast of Slaughter"</ARA_Technology_8SLA.label>
+  <ARA_Technology_8SLA.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the queen species to hatch new beasts and insects - the violent slaughter species. \n\nAll technologies in the Arachne swarm that require blueprints can only be researched through genetic test eggs.</ARA_Technology_8SLA.description>
+  <ARA_Technology_4COV.label>Node COV-4 "Sky Witch Herd"</ARA_Technology_4COV.label>
+  <ARA_Technology_4COV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Swarm - Main Hive Tentacles\nThe evolutionary path of the Main Hive Tentacles is a common evolutionary path included in every swarm. They establish the biological superiority of the swarm. &lt;/i&gt;&lt;/color&gt;\n\nAllows the Arachne Zerg to build a special living structure - the Sky Witch Beast Bug, a semi-autonomous individual commanded by the Pilot Species, which can flexibly attack the enemy from the sky according to instructions to rain death.</ARA_Technology_4COV.description>
 </LanguageData>

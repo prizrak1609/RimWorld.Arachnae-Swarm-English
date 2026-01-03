@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<ARA_TerrainChanger.InsufficientFuel>Insufficient biomass to generate terrain</ARA_TerrainChanger.InsufficientFuel>
+<ARA_TerrainChanger.InsufficientFuelForMarking>Insufficient biomass to mark for demolition</ARA_TerrainChanger.InsufficientFuelForMarking>
+<ARA_TerrainChanger.AutoMarkEnabled>Automatic tag removal is enabled</ARA_TerrainChanger.AutoMarkEnabled>
+<ARA_TerrainChanger.AutoMarkDisabled>Automatic tag removal is disabled</ARA_TerrainChanger.AutoMarkDisabled>
+<ARA_TerrainChanger.ToggleAutoMark>Toggle auto-tagging</ARA_TerrainChanger.ToggleAutoMark>
+<ARA_TerrainChanger.ToggleAutoMarkDesc>Enable or disable automatic tag removal. When enabled, the structure will periodically call nearby Zerg to collect secretions.</ARA_TerrainChanger.ToggleAutoMarkDesc>
+<ARA_TerrainChanger.Power>Electricity: {0}</ARA_TerrainChanger.Power>
+<ARA_TerrainChanger.Fuel>Biomass: {0}/{1}</ARA_TerrainChanger.Fuel>
+<ARA_TerrainChanger.FuelPerChange>Biomass consumed per conversion: {0}</ARA_TerrainChanger.FuelPerChange>
+<ARA_TerrainChanger.FuelPerMark>Biomass consumed per mark: {0}</ARA_TerrainChanger.FuelPerMark>
+<ARA_TerrainChanger.NoFuelComponent>Biomass component not found!</ARA_TerrainChanger.NoFuelComponent>
+<ARA_TerrainChanger.WorkingProgress>At work: {0}</ARA_TerrainChanger.WorkingProgress>
+<ARA_TerrainChanger.TargetCell>Target location: {0}</ARA_TerrainChanger.TargetCell>
+<ARA_TerrainChanger.NextChange>Next secretion: {0} days later</ARA_TerrainChanger.NextChange>
+<ARA_TerrainChanger.TargetTerrain>Target terrain: {0}</ARA_TerrainChanger.TargetTerrain>
+<ARA_TerrainChanger.ChangeRadius>Secretion radius: {0} grid</ARA_TerrainChanger.ChangeRadius>
+<ARA_TerrainChanger.AutoMarkStatus>Auto tag: {0}</ARA_TerrainChanger.AutoMarkStatus>
+<ARA_TerrainChanger.NextMark>Next time mark: {0} days after</ARA_TerrainChanger.NextMark>
+<ARA_TerrainChanger.MarkingProgress>Marking: {0}</ARA_TerrainChanger.MarkingProgress>
+<ARA_TerrainChanger.MarkTarget>Tag target: {0}</ARA_TerrainChanger.MarkTarget>
+<ARA_TerrainChanger.MarkRadius>Marker radius: {0} grid</ARA_TerrainChanger.MarkRadius>
+<ARA_TerrainChanger.Enabled>Enabled</ARA_TerrainChanger.Enabled>
+<ARA_TerrainChanger.Disabled>Disabled</ARA_TerrainChanger.Disabled>
+</LanguageData>

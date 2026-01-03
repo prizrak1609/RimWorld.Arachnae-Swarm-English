@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<DormancyVat_Occupied>Dormant cocoon is occupied</DormancyVat_Occupied>
+<DormancyVat_WaitingForArachnae>Waiting for designated Zerg member</DormancyVat_WaitingForArachnae>
+<DormancyVat_OnlyArachnaeAllowed>Only Zerg members can enter hibernation cocoons</DormancyVat_OnlyArachnaeAllowed>
+<DormancyVat_CannotAcceptDeadPawn>Cannot place dead Zerg members</DormancyVat_CannotAcceptDeadPawn>
+<DormancyVat_Contains>in dormant cocoon</DormancyVat_Contains>
+<DormancyVat_TypeLabel>type</DormancyVat_TypeLabel>
+<DormancyVat_DormancyTime>Hibernated</DormancyVat_DormancyTime>
+<DormancyVat_HealthStatus>health status</DormancyVat_HealthStatus>
+<DormancyVat_EjectButton>Pop up Zerg members</DormancyVat_EjectButton>
+<DormancyVat_EjectButtonDesc>Eject zerg members from their dormant cocoons</DormancyVat_EjectButtonDesc>
+<DormancyVat_InsertButton>Add Zerg members</DormancyVat_InsertButton>
+<DormancyVat_InsertButtonDesc>Choose a Zerg member to put into the dormant cocoon</DormancyVat_InsertButtonDesc>
+<DormancyVat_NoArachnaeAvailable>No Zerg members available</DormancyVat_NoArachnaeAvailable>
+<DormancyVat_AssignCarrierButton>Assigned to transport Zerg members</DormancyVat_AssignCarrierButton>
+<DormancyVat_AssignCarrierButtonDesc>Assign one Zerg member to carry another Zerg member to the dormant cocoon</DormancyVat_AssignCarrierButtonDesc>
+<DormancyVat_ArachnaeType_Master>dominate</DormancyVat_ArachnaeType_Master>
+<DormancyVat_ArachnaeType_Drone>worker bee</DormancyVat_ArachnaeType_Drone>
+<DormancyVat_ArachnaeType_Worker>worker insect</DormancyVat_ArachnaeType_Worker>
+<DormancyVat_ArachnaeType_Unknown>unknown</DormancyVat_ArachnaeType_Unknown>
+<DormancyVat_Label>dormant cocoon</DormancyVat_Label>
+<DormancyVat_CannotEnter>Unable to enter hibernation cocoon</DormancyVat_CannotEnter>
+<DormancyVat_NoPath>no path</DormancyVat_NoPath>
+<DormancyVat_Enter>Entering a dormant cocoon</DormancyVat_Enter>
+<DormancyVat_NoAvailableCarriers>No Zerg Carriers available</DormancyVat_NoAvailableCarriers>
+<DormancyVat_CarrierAssigned>mover assigned</DormancyVat_CarrierAssigned>
+<DormancyVat_Days>sky</DormancyVat_Days>
+<DormancyVat_Hours>Hour</DormancyVat_Hours>
+<DormancyVat_DormancyDescription>A special hibernation device that only allows members of the Zerg to enter. It does not cause any harm to the members inside and can safely store Zerg members.</DormancyVat_DormancyDescription>
+<DormancyVat_ErrorEjecting>Error popping up {0} from hibernation cocoon</DormancyVat_ErrorEjecting>
+<DormancyVat_JobDescription>Carrying Zerg members to their dormant cocoons.</DormancyVat_JobDescription>
+<DormancyVat_Colonist>colonizer</DormancyVat_Colonist>
+<DormancyVat_Prisoner>prisoner</DormancyVat_Prisoner>
+<DormancyVat_Slave>slave</DormancyVat_Slave>
+</LanguageData>

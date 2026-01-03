@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <CommandDeployWormholePortalB_Pilot>Deploy Wormhole</CommandDeployWormholePortalB_Pilot>
-  <CommandDeployWormholePortalB_PilotDesc>Deploy a wormhole at the specified location to form a passage connecting two points. A guide is required to travel to unexplored regions.</CommandDeployWormholePortalB_PilotDesc>
-  <NoPilotAvailable>No guide available</NoPilotAvailable>
-  <ForceLaunch>Force Launch</ForceLaunch>
-  <NotEnoughFuel>Not enough nutrition for deployment</NotEnoughFuel>
-  <MessageTransportPodsDestinationIsInvalid>Invalid destination</MessageTransportPodsDestinationIsInvalid>
-  <MessageTransportPodsDestinationIsImpassable>Destination is impassable</MessageTransportPodsDestinationIsImpassable>
-  <WormholeNotLinked>This Tunnel-Species has not yet deployed a wormhole</WormholeNotLinked>
-  <WormholeLinkLost>The end-point of the wormhole deployed by this Tunnel-Species was destroyed</WormholeLinkLost>
-  <WormholePortalLinked>Tunnel-Species deployment complete! You can now quickly travel from the head to the map with the end-point.</WormholePortalLinked>
-  <WormholePortalB_Destroyed>The end-point of the wormhole deployed by the Tunnel-Species was destroyed</WormholePortalB_Destroyed>
-  <Status>Status</Status>
-  <LinkedTo>Linked To</LinkedTo>
-  <Deploying>Deploying</Deploying>
+<CommandDeployWormholePortalB_Pilot>Deploy Wormhole</CommandDeployWormholePortalB_Pilot>
+<CommandDeployWormholePortalB_PilotDesc>Deploy a wormhole to a target location to create a path spanning the two locations. A guide is needed to travel to unexplored areas.</CommandDeployWormholePortalB_PilotDesc>
+<NoPilotAvailable>No facilitator available</NoPilotAvailable>
+<ForceLaunch>Autonomous deployment</ForceLaunch>
+<NotEnoughFuel>Need more nutrients for deployment</NotEnoughFuel>
+<MessageTransportPodsDestinationIsInvalid>Invalid destination</MessageTransportPodsDestinationIsInvalid>
+<MessageTransportPodsDestinationIsImpassable>The destination is inaccessible</MessageTransportPodsDestinationIsImpassable>
+<WormholeNotLinked>This tunnel species has not yet deployed any wormholes</WormholeNotLinked>
+<WormholeLinkLost>The tail of the wormhole deployed by this tunnel species was destroyed.</WormholeLinkLost>
+<WormholePortalLinked>The deployment of tunnel species is completed! You can now quickly travel to the map of the tail of the tunnel species through its head.</WormholePortalLinked>
+<WormholePortalB_Destroyed>The tail of the wormhole deployed by the tunnel species was destroyed</WormholePortalB_Destroyed>
+<Status>state</Status>
+<LinkedTo>Link to</LinkedTo>
+<Deploying>Deploying</Deploying>
 </LanguageData>

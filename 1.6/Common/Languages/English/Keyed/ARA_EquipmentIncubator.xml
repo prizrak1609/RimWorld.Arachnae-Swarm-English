@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<ARA_EquipmentIncubator.SpeedFactors>speed factor</ARA_EquipmentIncubator.SpeedFactors>
+<ARA_EquipmentIncubator.InIncubatorRoom>✓ Located in the incubator</ARA_EquipmentIncubator.InIncubatorRoom>
+<ARA_EquipmentIncubator.NotInIncubatorRoom>✗ Not in the hatchery</ARA_EquipmentIncubator.NotInIncubatorRoom>
+<ARA_EquipmentIncubator.NutrientSolutions>Nutrient solution: {0} (+{1}%)</ARA_EquipmentIncubator.NutrientSolutions>
+<ARA_EquipmentIncubator.NoNutrientSolutionsNearby>No nutrient solution nearby</ARA_EquipmentIncubator.NoNutrientSolutionsNearby>
+<ARA_EquipmentIncubator.NutrientDetectionRadius>Nutrient solution detection radius: {0} grid</ARA_EquipmentIncubator.NutrientDetectionRadius>
+<ARA_EquipmentIncubator.TotalSpeedMultiplier>Total speed multiplier: {0}</ARA_EquipmentIncubator.TotalSpeedMultiplier>
+<ARA_EquipmentIncubator.QualityFactors>quality factor</ARA_EquipmentIncubator.QualityFactors>
+<ARA_EquipmentIncubator.BuildingHealth>Building health: {0}</ARA_EquipmentIncubator.BuildingHealth>
+<ARA_EquipmentIncubator.RoomFactorNormal>Room factor: normal</ARA_EquipmentIncubator.RoomFactorNormal>
+<ARA_EquipmentIncubator.RoomFactorModified>Room factor:</ARA_EquipmentIncubator.RoomFactorModified>
+<ARA_EquipmentIncubator.NearbyOothecas>Nearby eggs: {0} (-{1}%)</ARA_EquipmentIncubator.NearbyOothecas>
+<ARA_EquipmentIncubator.NoNearbyOothecas>No eggs nearby</ARA_EquipmentIncubator.NoNearbyOothecas>
+<ARA_EquipmentIncubator.OothecaDetectionRadius>Egg detection radius: {0} blocks</ARA_EquipmentIncubator.OothecaDetectionRadius>
+<ARA_EquipmentIncubator.TotalQualityMultiplier>Total mass multiplier: {0}</ARA_EquipmentIncubator.TotalQualityMultiplier>
+<ARA_EquipmentIncubator.CallLarvaTitle>call larvae</ARA_EquipmentIncubator.CallLarvaTitle>
+<ARA_EquipmentIncubator.LarvaWillCome>Larvae will travel to egg pods to produce equipment</ARA_EquipmentIncubator.LarvaWillCome>
+<ARA_EquipmentIncubator.LarvaSearchRadius>Larva search radius: {0} blocks</ARA_EquipmentIncubator.LarvaSearchRadius>
+<ARA_EquipmentIncubator.AlreadyIncubating>Already in production</ARA_EquipmentIncubator.AlreadyIncubating>
+<ARA_EquipmentIncubator.CancelFirst>Please cancel current production first</ARA_EquipmentIncubator.CancelFirst>
+<ARA_EquipmentIncubator.LarvaAlreadyOnWay>The larvae are on their way</ARA_EquipmentIncubator.LarvaAlreadyOnWay>
+<ARA_EquipmentIncubator.NoLarvaeFound>No available larva found</ARA_EquipmentIncubator.NoLarvaeFound>
+<ARA_EquipmentIncubator.LarvaMustBeRace>Larva must be of ArachnaeBase_Race_Larva race</ARA_EquipmentIncubator.LarvaMustBeRace>
+<ARA_EquipmentIncubator.LarvaCalled>The larvae have called</ARA_EquipmentIncubator.LarvaCalled>
+<ARA_EquipmentIncubator.ArriveShortly>Arriving soon</ARA_EquipmentIncubator.ArriveShortly>
+<ARA_EquipmentIncubator.LarvaArrived>The larvae have arrived</ARA_EquipmentIncubator.LarvaArrived>
+<ARA_EquipmentIncubator.ActivatingOotheca>Activating equipment egg pods</ARA_EquipmentIncubator.ActivatingOotheca>
+<ARA_EquipmentIncubator.IncubationStarted>Start production</ARA_EquipmentIncubator.IncubationStarted>
+<ARA_EquipmentIncubator.ProcessWillComplete>The process will be</ARA_EquipmentIncubator.ProcessWillComplete>
+<ARA_EquipmentIncubator.DaysBaseTime>Complete within days (basic time)</ARA_EquipmentIncubator.DaysBaseTime>
+<ARA_EquipmentIncubator.IncubationCancelled>Production has been cancelled</ARA_EquipmentIncubator.IncubationCancelled>
+<ARA_EquipmentIncubator.ContentsLost>Contents have been lost</ARA_EquipmentIncubator.ContentsLost>
+<ARA_EquipmentIncubator.IncubationComplete>Production completed</ARA_EquipmentIncubator.IncubationComplete>
+<ARA_EquipmentIncubator.HasEmergedWith>has been produced, the quality is</ARA_EquipmentIncubator.HasEmergedWith>
+<ARA_EquipmentIncubator.QualityExcellent>legend</ARA_EquipmentIncubator.QualityExcellent>
+<ARA_EquipmentIncubator.QualityGood>masterpiece</ARA_EquipmentIncubator.QualityGood>
+<ARA_EquipmentIncubator.QualityAverage>Excellent</ARA_EquipmentIncubator.QualityAverage>
+<ARA_EquipmentIncubator.QualityPoor>good</ARA_EquipmentIncubator.QualityPoor>
+<ARA_EquipmentIncubator.QualityVeryPoor>generally</ARA_EquipmentIncubator.QualityVeryPoor>
+<ARA_EquipmentIncubator.Quality>quality</ARA_EquipmentIncubator.Quality>
+<ARA_EquipmentIncubator.Incubating>in production</ARA_EquipmentIncubator.Incubating>
+<ARA_EquipmentIncubator.Progress>schedule</ARA_EquipmentIncubator.Progress>
+<ARA_EquipmentIncubator.TimeRemaining>time left</ARA_EquipmentIncubator.TimeRemaining>
+<ARA_EquipmentIncubator.Days>sky</ARA_EquipmentIncubator.Days>
+<ARA_EquipmentIncubator.Hours>Hour</ARA_EquipmentIncubator.Hours>
+<ARA_EquipmentIncubator.Speed>speed</ARA_EquipmentIncubator.Speed>
+<ARA_EquipmentIncubator.Quality>quality</ARA_EquipmentIncubator.Quality>
+<ARA_EquipmentIncubator.LarvaOperating>larvae in action</ARA_EquipmentIncubator.LarvaOperating>
+<ARA_EquipmentIncubator.SRemaining>seconds remaining</ARA_EquipmentIncubator.SRemaining>
+<ARA_EquipmentIncubator.LarvaOnWay>larvae on the way</ARA_EquipmentIncubator.LarvaOnWay>
+<ARA_EquipmentIncubator.Target>Target</ARA_EquipmentIncubator.Target>
+<ARA_EquipmentIncubator.SpeedMultiplier>speed multiplier</ARA_EquipmentIncubator.SpeedMultiplier>
+<ARA_EquipmentIncubator.QualityMultiplier>mass multiplier</ARA_EquipmentIncubator.QualityMultiplier>
+<ARA_EquipmentIncubator.CallLarva>call larvae</ARA_EquipmentIncubator.CallLarva>
+<ARA_EquipmentIncubator.CancelIncubation>Cancel production</ARA_EquipmentIncubator.CancelIncubation>
+<ARA_EquipmentIncubator.CancelIncubationDesc>Canceling the current production process, the egg pod contents will be lost</ARA_EquipmentIncubator.CancelIncubationDesc>
+<ARA_EquipmentIncubator.IncubateLabel>Production: {0}</ARA_EquipmentIncubator.IncubateLabel>
+<ARA_EquipmentIncubator.ButtonDesc>Select the type of equipment to produce. Larvae will come to activate the equipment egg pods.</ARA_EquipmentIncubator.ButtonDesc>
+<ARA_EquipmentIncubator.ButtonLabel>Current selection: {0}</ARA_EquipmentIncubator.ButtonLabel>
+<ARA_EquipmentIncubator.IncubationTime>Production time: {0} days</ARA_EquipmentIncubator.IncubationTime>
+<ARA_EquipmentIncubator.MenuTitle>Select production target</ARA_EquipmentIncubator.MenuTitle>
+<ARA_EquipmentIncubator.ResearchRequired>Research needed:</ARA_EquipmentIncubator.ResearchRequired>
+<ARA_EquipmentIncubator.TargetSwitched>Production target has been switched to: {0}</ARA_EquipmentIncubator.TargetSwitched>
+<ARA_EquipmentIncubator.IncubationTab>Equipment production</ARA_EquipmentIncubator.IncubationTab>
+<ARA_EquipmentIncubator.NotAnEquipmentOotheca>This is not an equipment egg pod</ARA_EquipmentIncubator.NotAnEquipmentOotheca>
+<ARA_EquipmentIncubator.IncubationProgress>Production progress</ARA_EquipmentIncubator.IncubationProgress>
+<ARA_EquipmentIncubator.IncubationProgressLabel>Production progress</ARA_EquipmentIncubator.IncubationProgressLabel>
+<ARA_EquipmentIncubator.QualityProgress>quality progress</ARA_EquipmentIncubator.QualityProgress>
+<ARA_EquipmentIncubator.LarvaIsActivatingOotheca>Larvae activating egg pods</ARA_EquipmentIncubator.LarvaIsActivatingOotheca>
+<ARA_EquipmentIncubator.SecondsRemaining>seconds remaining</ARA_EquipmentIncubator.SecondsRemaining>
+<ARA_EquipmentIncubator.LarvaIsOnTheWay>larvae on the way</ARA_EquipmentIncubator.LarvaIsOnTheWay>
+<ARA_EquipmentIncubator.ReadyToIncubate>Ready for production</ARA_EquipmentIncubator.ReadyToIncubate>
+<ARA_EquipmentIncubator.NoIncubationTargetSelected>No production target selected</ARA_EquipmentIncubator.NoIncubationTargetSelected>
+<ARA_EquipmentIncubator.IncubationTarget>Production target: {0}</ARA_EquipmentIncubator.IncubationTarget>
+<ARA_EquipmentIncubator.Requires>need</ARA_EquipmentIncubator.Requires>
+<ARA_EquipmentIncubator.NoDescription>No description</ARA_EquipmentIncubator.NoDescription>
+<ARA_EquipmentIncubator.ResearchCompleted>Research requirements: {0} (Completed)</ARA_EquipmentIncubator.ResearchCompleted>
+<ARA_EquipmentIncubator.ResearchRequired>Research requirements: {0} (required)</ARA_EquipmentIncubator.ResearchRequired>
+<ARA_EquipmentIncubator.NoResearchRequired>Research requirements: None</ARA_EquipmentIncubator.NoResearchRequired>
+<ARA_EquipmentIncubator.ResearchRequiredFor>Producing {0} requires completion of research: {1}</ARA_EquipmentIncubator.ResearchRequiredFor>
+<ARA_EquipmentIncubator.ResearchNotCompleted>research not completed</ARA_EquipmentIncubator.ResearchNotCompleted>
+<ARA_EquipmentIncubator.NoTargetSelected>No production target selected</ARA_EquipmentIncubator.NoTargetSelected>
+</LanguageData>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <SuperCarry>Force carry {0}</SuperCarry>
-
+<SuperCarry>Mandatory carrying {0}</SuperCarry>
 </LanguageData>

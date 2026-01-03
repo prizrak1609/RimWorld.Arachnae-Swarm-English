@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_AlertUnlinkedDroneLabel>Unlinked Swarm Worker</ARA_AlertUnlinkedDroneLabel>
-  <ARA_AlertUnlinkedDroneExplanation>There are Swarm Workers on the map that are not linked to an Arachnae Queen. These workers will die after a while. Link them to an Arachnae Queen as soon as possible.</ARA_AlertUnlinkedDroneExplanation>
-
+<ARA_AlertUnlinkedDroneLabel>Unconnected swarm worker bees</ARA_AlertUnlinkedDroneLabel>
+<ARA_AlertUnlinkedDroneExplanation>There are swarm workers on the map that are not connected to the Queen Arachne species. These worker bees will die after a while. Please connect them to Queen Arachne as soon as possible.</ARA_AlertUnlinkedDroneExplanation>
 </LanguageData>

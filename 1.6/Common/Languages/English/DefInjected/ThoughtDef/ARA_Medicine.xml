@@ -1,8 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_PheromoneWithdrawal.stages.1.label>Pheromone withdrawal</ARA_PheromoneWithdrawal.stages.1.label>
-  <ARA_PheromoneWithdrawal.stages.1.description>I feel terribly ill, and something inside my body is activating... I need a pheromone dissolving agent.</ARA_PheromoneWithdrawal.stages.1.description>
-
-
+<ARA_PheromoneWithdrawal.stages.1.label>Pheromone withdrawal symptoms</ARA_PheromoneWithdrawal.stages.1.label>
+<ARA_PheromoneWithdrawal.stages.1.description>I'm feeling really bad and something in my body is activating...I need a pheromone dissolver.</ARA_PheromoneWithdrawal.stages.1.description>
 </LanguageData>

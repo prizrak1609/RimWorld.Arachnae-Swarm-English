@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ArachnaeBase_Race_Larva.label>Arachne larva species</ArachnaeBase_Race_Larva.label>
-  <ArachnaeBase_Race_Larva.description>One of the auxiliary insects of Arachne, it is the foundation of the Zerg race.</ArachnaeBase_Race_Larva.description>
-  <ArachnaeBase_Race_Scavenger.label>Arachne Scavenger</ArachnaeBase_Race_Scavenger.label>
-  <ArachnaeBase_Race_Scavenger.description>One of Arachne's parasitic worms, a creature of low intelligence that can perform the work of planting, harvesting, carrying, cleaning, and digging, and is destined to die after spending a short time.</ArachnaeBase_Race_Scavenger.description>
+<ArachnaeBase_Race_Larva.label>Arachne larval species</ArachnaeBase_Race_Larva.label>
+<ArachnaeBase_Race_Larva.description>It is a type of Arachne argentina and forms the basis of the insect family.</ArachnaeBase_Race_Larva.description>
+<ArachnaeBase_Race_Larva.tools.head.label>head</ArachnaeBase_Race_Larva.tools.head.label>
+<ArachnaeBase_Race_Scavenger.label>Arachne corrosive species</ArachnaeBase_Race_Scavenger.label>
+<ArachnaeBase_Race_Scavenger.description>A type of arachne beetles, it has low intelligence and can do cultivation and harvesting work, but it dies after a short period of time.</ArachnaeBase_Race_Scavenger.description>
+<ArachnaeBase_Race_Scavenger.tools.head.label>head</ArachnaeBase_Race_Scavenger.tools.head.label>
 </LanguageData>

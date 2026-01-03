@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ARA_Bodystocking_White.label>Jumpsuit in white silk</ARA_Bodystocking_White.label>
-  <ARA_Bodystocking_White.description>The decorative fabrics of the Arachne swarm should be of little use to the swarm.</ARA_Bodystocking_White.description>
-  <ARA_Bodystocking_Black.label>One-piece black stockings</ARA_Bodystocking_Black.label>
-  <ARA_Bodystocking_Black.description>The decorative fabrics of the Arachne swarm should be of little use to the swarm.</ARA_Bodystocking_Black.description>
-  <ARA_Latex_Catsuit.label>tights</ARA_Latex_Catsuit.label>
-  <ARA_Latex_Catsuit.description>The decorative fabrics of the Arachne swarm should be of little use to the swarm.</ARA_Latex_Catsuit.description>
-  <ARA_Pantyhose_Black.label>black stockings</ARA_Pantyhose_Black.label>
-  <ARA_Pantyhose_Black.description>The decorative fabrics of the Arachne swarm should be of little use to the swarm.</ARA_Pantyhose_Black.description>
-  <ARA_Pantyhose_White.label>white stockings</ARA_Pantyhose_White.label>
-  <ARA_Pantyhose_White.description>The decorative fabrics of the Arachne swarm should be of little use to the swarm.</ARA_Pantyhose_White.description>
-  <ARA_Maid_Uniform.label>Arachne maid outfit</ARA_Maid_Uniform.label>
-  <ARA_Maid_Uniform.description>One of the fabrics worn by the Arachnids, it is designed to be slim and lightweight, allowing them to gain extra working speed on the Arachne Creep. It is the perfect embodiment of their image of always serving the insect hive.</ARA_Maid_Uniform.description>
-  <ARA_Maid_Dress.label>Arachne armed maid outfit</ARA_Maid_Dress.label>
-  <ARA_Maid_Dress.description>It is one of the fabrics worn by the Arachneid bugs. It has an elegant and simple design that allows them to stabilize their body shape on the Arachne germ carpet to achieve shooting accuracy. It is the perfect embodiment of their image of always serving the insect nest.</ARA_Maid_Dress.description>
-  <ARA_Daily_Wear.label>Arachne regular service</ARA_Daily_Wear.label>
-  <ARA_Daily_Wear.description>One of the fabrics worn by the Arachnidok, which allows them to gain caravan movement speed on the Arachne creep, which slowly decays after leaving the creep. This cute uniform can work with the psychic distortion effect of the insect swarm on humans, making them say "so cute".</ARA_Daily_Wear.description>
-  <ARA_Bunny_Girl_Uniform.label>Arachne bunny outfit</ARA_Bunny_Girl_Uniform.label>
-  <ARA_Bunny_Girl_Uniform.description>One of the fabrics worn by the Arachnids, which closely fits the body curves of the Arachnids, allowing them to gain extra movement speed on the Arachne carpet.</ARA_Bunny_Girl_Uniform.description>
-  <ARA_Nurse_Uniform.label>Arachne nurse outfit</ARA_Nurse_Uniform.label>
-  <ARA_Nurse_Uniform.description>One of the fabrics worn by the Arachnedo worms seems to have obtained the design concept of the red cross element from human society - but the worms themselves do not know why they use this symbol. The fabric contains multiple healing conduits that allow the Arachne to extract nutrients from the creep to heal other individuals.</ARA_Nurse_Uniform.description>
-  <ARA_Nightdress.label>Arachne nightgown</ARA_Nightdress.label>
-  <ARA_Nightdress.description>One of the fabrics worn by the Arachnedo worms, which allows them to gain extra resting efficiency speed on the Arachneid fungus carpet. Sleep is a need that a few insect nests need to maintain frequently, so the value of this set of fabrics is self-evident.</ARA_Nightdress.description>
-  <ARA_Eveningdress.label>Arachne evening dress</ARA_Eveningdress.label>
-  <ARA_Eveningdress.description>One of the fabrics worn by Arachnedo, it is noble and charming, and contains powerful psychic power. This fabric can increase the wearer's psychic power.</ARA_Eveningdress.description>
-  <ARA_Wedding_Dress.label>Arachne wedding dress</ARA_Wedding_Dress.label>
-  <ARA_Wedding_Dress.description>One of the fabrics worn by Arachnedo has breathtaking power. It can extract the power of the creep to launch the ability to steal the mind, allowing the enemy to turn their guns and attack their own people.</ARA_Wedding_Dress.description>
-  <ARA_Dragoon_Uniform.label>Arachne guard uniform</ARA_Dragoon_Uniform.label>
-  <ARA_Dragoon_Uniform.description>The high-ranking warriors of the Arachne swarm are clothed in fabrics that let out deafening roars and look surprisingly majestic—but all good illusions will come to naught when they tear your companions apart with their clicking claws.</ARA_Dragoon_Uniform.description>
-  <ARA_Shield.label>Shield and symbiotic muscles</ARA_Shield.label>
+<ARA_Bodystocking_White.label>Arachne body stockings (white)</ARA_Bodystocking_White.label>
+<ARA_Bodystocking_White.description>This is a decorative fabric of the Arachne insect group, and is not particularly useful for the insect group.</ARA_Bodystocking_White.description>
+<ARA_Bodystocking_Black.label>Arachne body stockings (black)</ARA_Bodystocking_Black.label>
+<ARA_Bodystocking_Black.description>This is a decorative fabric of the Arachne insect group, and is not particularly useful for the insect group.</ARA_Bodystocking_Black.description>
+<ARA_Latex_Catsuit.label>Arachne tight suit</ARA_Latex_Catsuit.label>
+<ARA_Latex_Catsuit.description>This is a decorative fabric of the Arachne insect group, and is not particularly useful for the insect group.</ARA_Latex_Catsuit.description>
+<ARA_Pantyhose_Black.label>Arachne stockings (black)</ARA_Pantyhose_Black.label>
+<ARA_Pantyhose_Black.description>This is a decorative fabric of the Arachne insect group, and is not particularly useful for the insect group.</ARA_Pantyhose_Black.description>
+<ARA_Pantyhose_White.label>Arachne stockings (white)</ARA_Pantyhose_White.label>
+<ARA_Pantyhose_White.description>This is a decorative fabric of the Arachne insect group, and is not particularly useful for the insect group.</ARA_Pantyhose_White.description>
+<ARA_Maid_Uniform.label>arachne maid uniform</ARA_Maid_Uniform.label>
+<ARA_Maid_Uniform.description>A type of fabric worn by Arachne insects, the design is form-fitting, lightweight, and increases the speed of work on Arachne creeps.It perfectly embodies the symbol of their eternal service to insect nests.</ARA_Maid_Uniform.description>
+<ARA_Maid_Dress.label>Arachne armed maid uniform</ARA_Maid_Dress.label>
+<ARA_Maid_Dress.description>A type of fabric worn by Arachne insects, with a classic and elegant design, which allows them to maintain a stable position on the creep and improve their shooting accuracy.This is the perfect embodiment of their eternal service to the insect nest.</ARA_Maid_Dress.description>
+<ARA_Daily_Wear.label>Arachne everyday clothes</ARA_Daily_Wear.label>
+<ARA_Daily_Wear.description>A type of fabric worn by Arachne insects that increases the speed of the caravan's movement on creeps, and slowly slows down when the caravan leaves.This cute everyday clothing, combined with the mind control effect of the insects, has the power to make humans admire how cute it is.</ARA_Daily_Wear.description>
+<ARA_Bunny_Girl_Uniform.label>arachne bunny girl clothes</ARA_Bunny_Girl_Uniform.label>
+<ARA_Bunny_Girl_Uniform.description>A type of fabric worn by Arachne insects that hugs the contours of the body and increases movement speed on Arachne creep.</ARA_Bunny_Girl_Uniform.description>
+<ARA_Nurse_Uniform.label>arachne nurse uniform</ARA_Nurse_Uniform.label>
+<ARA_Nurse_Uniform.description>A type of textile worn by the Arachne insects, whose design is inspired by elements of the Red Cross in human society, but the insects themselves do not understand its meaning.There are multiple healing conduits inside the fabric, allowing the Arachne insects to extract nutrients from the creep and heal other individuals.</ARA_Nurse_Uniform.description>
+<ARA_Nightdress.label>arachne nightgown</ARA_Nightdress.label>
+<ARA_Nightdress.description>It is a type of fabric worn by the Arachne insect, which can further increase its resting efficiency on the creep.Sleeping is one of the few demands that the insect nest requires frequent maintenance, so the value of this fabric is obvious.</ARA_Nightdress.description>
+<ARA_Eveningdress.label>arachne evening dress</ARA_Eveningdress.label>
+<ARA_Eveningdress.description>A type of textile worn by Arachne insects that has a noble and enchanting design and is imbued with powerful psychic energy.This textile can amplify the wearer's psychic abilities.</ARA_Eveningdress.description>
+<ARA_Wedding_Dress.label>arachne wedding dress</ARA_Wedding_Dress.label>
+<ARA_Wedding_Dress.description>A type of fabric worn by the Arachne insect, which has overwhelming strength and can use the power of creeps to seize hearts and direct enemy fire toward allies.</ARA_Wedding_Dress.description>
+<ARA_Dragoon_Uniform.label>Arachne Guard Uniform</ARA_Dragoon_Uniform.label>
+<ARA_Dragoon_Uniform.description>A type of fabric worn by the most advanced warriors of the Arachnoid group, it emits a deafening roar and conveys an unexpected sense of majesty—but all illusions of beauty disappear when they tear apart their fellows with their clanking shears.</ARA_Dragoon_Uniform.description>
 </LanguageData>

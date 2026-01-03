@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ARA_NutrientNetworkTower.label>Arachne Nutrient Supply Tower</ARA_NutrientNetworkTower.label>
-  <ARA_NutrientNetworkTower.description>A central nutrient supply facility. It can automatically refuel linked buildings that require nutrients. It itself needs to be manually filled with large amounts of biomass.</ARA_NutrientNetworkTower.description>
-  <ARA_NutrientNetworkTower.comps.CompProperties_RefuelableNutrition.fuelGizmoLabel>insect honey</ARA_NutrientNetworkTower.comps.CompProperties_RefuelableNutrition.fuelGizmoLabel>
-  <ARANutrientDispenser.label>Arachne's Crystal Lair</ARANutrientDispenser.label>
-  <ARANutrientDispenser.description>A lair that produces Arachne nectar, which is produced by breaking down insect honey to produce edible nectar. This food processed in the nest can help the insect swarm resist the influence of cold-blooded animals, and its soft and chewy texture makes it enjoyable for non-zerg colonists.</ARANutrientDispenser.description>
-  <ARANutrientDispenser.comps.CompProperties_RefuelableNutrition.fuelGizmoLabel>insect honey</ARANutrientDispenser.comps.CompProperties_RefuelableNutrition.fuelGizmoLabel>
-  <ARA_MorphableResearchBench.label>Arachne Weaver Seat</ARA_MorphableResearchBench.label>
-  <ARA_MorphableResearchBench.description>The living structure formed with the Arachne Weaver Species as the core is a necessary building to advance the advanced research of the insect swarm. This building cannot be constructed and can only be obtained by transforming the Arachneweaver species.</ARA_MorphableResearchBench.description>
-  <ARA_MorphableResearchBench.comps.CompProperties_Morphable.gizmoDesc>Make the weaving domain species leave the weaving seat and resume its moving state.</ARA_MorphableResearchBench.comps.CompProperties_Morphable.gizmoDesc>
-  <ARA_MorphableResearchBench.comps.CompProperties_RefuelableNutrition.fuelGizmoLabel>insect honey</ARA_MorphableResearchBench.comps.CompProperties_RefuelableNutrition.fuelGizmoLabel>
-  <ARA_JellyVat.label>Biomass brewing tank</ARA_JellyVat.label>
-  <ARA_JellyVat.description>An Arachne living tissue can make full use of the dissolving ability of living giant bacteria to secrete nutritious Arachne honey by digesting biomass. Arachne honey will spread throughout the room, forming honey pools, and the biomass brewing pit will periodically mark these flowing nectars, ordering other bugs to collect them.</ARA_JellyVat.description>
-  <ARA_JellyVat.comps.CompProperties_RefuelableNutrition_WithKey.fuelLabel>biomass</ARA_JellyVat.comps.CompProperties_RefuelableNutrition_WithKey.fuelLabel>
-  <ARA_JellyVat.comps.CompProperties_RefuelableNutrition_WithKey.fuelGizmoLabel>biomass</ARA_JellyVat.comps.CompProperties_RefuelableNutrition_WithKey.fuelGizmoLabel>
-  <ARA_InsectJelly_Terrain.label>Arachne Honey</ARA_InsectJelly_Terrain.label>
-  <ARA_Carapace_Productor.label>bone flower</ARA_Carapace_Productor.label>
-  <ARA_Carapace_Productor.description>An Arachne zerg living tissue can make full use of the catalytic ability of living giant bacteria to convert nearby corpses into bone pillars and order other swarm members to dismantle them to obtain chitin.</ARA_Carapace_Productor.description>
-  <ARA_Carapace_Column.label>bone column</ARA_Carapace_Column.label>
-  <ARA_Carapace_Column.description>Arachne's bone flower catalyzes the conversion of corpses into pillars, which can be dismantled by the swarm to obtain chitin.</ARA_Carapace_Column.description>
+<ARA_NutrientNetworkTower.label>Arachne Nutrient Supply Tower</ARA_NutrientNetworkTower.label>
+<ARA_NutrientNetworkTower.description>A central nutrient supply facility that automatically refuels linked structures that require nutrients.The main body must be manually refilled with large amounts of biomass.</ARA_NutrientNetworkTower.description>
+<ARA_NutrientNetworkTower.comps.CompRefuelableNutrition.fuelGizmoLabel>insect honey</ARA_NutrientNetworkTower.comps.CompRefuelableNutrition.fuelGizmoLabel>
+<ARANutrientDispenser.label>Arachne honey crystal burrow</ARANutrientDispenser.label>
+<ARANutrientDispenser.description>This is a burrow that produces Arachne honey cake. It decomposes insect nectar to create edible honey cake. The food processed in this burrow helps the insect group withstand the effects of cold-blooded animals, and its soft texture can be enjoyed by non-bug settlers.</ARANutrientDispenser.description>
+<ARANutrientDispenser.comps.CompRefuelableNutrition.fuelGizmoLabel>insect honey</ARANutrientDispenser.comps.CompRefuelableNutrition.fuelGizmoLabel>
+<ARA_MorphableResearchBench.label>Arachne Origen Seoriza</ARA_MorphableResearchBench.label>
+<ARA_MorphableResearchBench.description>It is a biological structure formed mainly by the Arachne species, and is an essential building for advanced research on insect groups.This building cannot be constructed and can only be obtained from the transformation of the Arachne species.</ARA_MorphableResearchBench.description>
+<ARA_MorphableResearchBench.comps.CompRefuelableNutrition.fuelGizmoLabel>insect honey</ARA_MorphableResearchBench.comps.CompRefuelableNutrition.fuelGizmoLabel>
+<ARA_MorphableResearchBench.comps.CompRefuelableNutrition.outOfFuelMessage>no nutrition</ARA_MorphableResearchBench.comps.CompRefuelableNutrition.outOfFuelMessage>
+<ARA_JellyVat.label>Biomass brewing pond</ARA_JellyVat.label>
+<ARA_JellyVat.description>It is a biological tissue of the Arachneid family, which digests biomass using the lytic ability of living macrobacteria and secretes nutrient-rich Arachnoid nectar.</ARA_JellyVat.description>
+<ARA_JellyVat.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>biomass</ARA_JellyVat.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
+<ARA_JellyVat.comps.CompRefuelableNutrition_WithKey.fuelLabel>biomass</ARA_JellyVat.comps.CompRefuelableNutrition_WithKey.fuelLabel>
+<ARA_JellyVat.comps.CompProductStorage.fuelGizmoLabel>insect honey</ARA_JellyVat.comps.CompProductStorage.fuelGizmoLabel>
+<ARA_JellyVat.comps.CompProductStorage.fuelLabel>insect honey</ARA_JellyVat.comps.CompProductStorage.fuelLabel>
+<ARA_Carapace_Productor.label>bone flower</ARA_Carapace_Productor.label>
+<ARA_Carapace_Productor.description>It is a biological tissue of the Arachnidae family that uses the catalytic ability of living giant bacteria to convert steel into chitin.</ARA_Carapace_Productor.description>
+<ARA_Carapace_Column.label>bone column</ARA_Carapace_Column.label>
+<ARA_Carapace_Column.description>A pillar formed by Arachne's bone flower using a corpse as a catalyst to transform the body, and the insects can obtain chitin by destroying it.</ARA_Carapace_Column.description>
 </LanguageData>

@@ -1,17 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_Building_SpiderOne.label>Frost-Knot Symbiotic Muscle Cluster</ARA_Building_SpiderOne.label>
-  <ARA_Building_SpiderOne.description>A special biological structure of the Arachnae swarm. While possessing major biological organs, it has no intellect and fuses with the nervous system of a command bug to become equipment similar to power armor. The symbiotic muscle cluster provides the host with additional heavy weaponry, and its surface is equipped with numerous micro-weapon organs, allowing the Arachnae bug to wield power comparable to a human tank.</ARA_Building_SpiderOne.description>
-  <ARA_Building_SpiderOne.comps.CompRefuelableNutrition.fuelGizmoLabel>Insect Jelly</ARA_Building_SpiderOne.comps.CompRefuelableNutrition.fuelGizmoLabel>
-
-  <ARA_SpiderOne_PowerArmor.label>Frost-Knot Symbiotic Muscle Cluster</ARA_SpiderOne_PowerArmor.label>
-  <ARA_SpiderOne_PowerArmor.description>A special biological structure of the Arachnae swarm. While possessing major biological organs, it has no intellect and fuses with the nervous system of a command bug to become equipment similar to power armor. The symbiotic muscle cluster provides the host with additional heavy weaponry, and its surface is equipped with numerous micro-weapon organs, allowing the Arachnae bug to wield power comparable to a human tank.</ARA_SpiderOne_PowerArmor.description>
-  <ARA_SpiderOne_PowerArmor.comps.CompRefuelableNutrition.fuelGizmoLabel>Insect Jelly</ARA_SpiderOne_PowerArmor.comps.CompRefuelableNutrition.fuelGizmoLabel>
-  <ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.0.label>Freezing Armament</ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.0.label>
-  <ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.0.description>Equipped with ice-type weapons that deal low damage but apply powerful area-of-effect debuffs, increasing the swarm's survival rate when exposed to enemy fire.</ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.0.description>
-  <ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.1.label>High-Output Armament</ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.1.label>
-  <ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.1.description>Uses ice-type weapons that deal extremely high single-target damage to quickly eliminate high-value enemy targets.</ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.1.description>
-
-
+<ARA_Building_SpiderOne.label>frost-associated symbiotic muscle group</ARA_Building_SpiderOne.label>
+<ARA_Building_SpiderOne.description>This is a special biological structure of the Arachne insects. Although they have the main organs of living organisms, they lack intelligence, and by merging with the nervous system of the insects, they become equipped like a powered armor. The symbiotic muscles provide the host with additional heavy weapons, and the body surface is equipped with numerous micro-armed organs, allowing the Arachne insects to handle forces comparable to human tanks.</ARA_Building_SpiderOne.description>
+<ARA_Building_SpiderOne.comps.CompRefuelableNutrition.fuelGizmoLabel>insect honey</ARA_Building_SpiderOne.comps.CompRefuelableNutrition.fuelGizmoLabel>
+<ARA_SpiderOne_PowerArmor.label>frost-associated symbiotic muscle group</ARA_SpiderOne_PowerArmor.label>
+<ARA_SpiderOne_PowerArmor.description>This is a special biological structure of the Arachne insects. Although they have the main organs of living organisms, they lack intelligence, and by merging with the nervous system of the insects, they become equipped like a powered armor. The symbiotic muscles provide the host with additional heavy weapons, and the body surface is equipped with numerous micro-armed organs, allowing the Arachne insects to handle forces comparable to human tanks.</ARA_SpiderOne_PowerArmor.description>
+<ARA_SpiderOne_PowerArmor.comps.CompRefuelableNutrition.fuelGizmoLabel>insect honey</ARA_SpiderOne_PowerArmor.comps.CompRefuelableNutrition.fuelGizmoLabel>
+<ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.0.label>frozen armament</ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.0.label>
+<ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.0.description>Equipped with an ice-based weapon that deals low damage but gives a powerful range debuff, increasing the survival rate when the insect swarm is exposed to enemy fire.</ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.0.description>
+<ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.1.label>high power armament</ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.1.label>
+<ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.1.description>Use ice-based weapons that deal extremely high damage to single targets to quickly eliminate high-value enemy targets.</ARA_SpiderOne_PowerArmor.modExtensions.0.weaponSets.1.description>
 </LanguageData>

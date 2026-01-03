@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ARA_InsectWall.label>Arachne's Carapace Wall</ARA_InsectWall.label>
-  <ARA_InsectWall.description>The walls formed by the Arachne worker bees mixed with hard materials and chitin are very hard, but they don’t look very beautiful and do not need to be built on the Arachne carpet.</ARA_InsectWall.description>
-  <ARA_SmoothedInsectWall.label>Smooth Arachne Carapace Wall</ARA_SmoothedInsectWall.label>
-  <ARA_SmoothedInsectWall.description>Arachne worker bees mixed hard materials and chitin to form a wall. The Zerg carefully polished this wall, making it hard in texture and much more beautiful in appearance.</ARA_SmoothedInsectWall.description>
-  <ARA_InsectDoor.label>Arachne Carapace Door</ARA_InsectDoor.label>
-  <ARA_InsectDoor.description>The main body of the entrance to the Arachne Hive is made of a mixture of hard materials and chitin, and the opening and closing mechanism is an Arachne tissue structure without complete consciousness, which allows it to open and close automatically without the need to build on the Arachne carpet.</ARA_InsectDoor.description>
-  <ARA_SmoothedInsectDoor.label>Smooth Arachne Carapace Door</ARA_SmoothedInsectDoor.label>
-  <ARA_SmoothedInsectDoor.description>The main body of the entrance to the Arachne Hive is made of a mixture of hard materials and chitin, and the opening and closing mechanism is an Arachne tissue structure without complete consciousness, which allows it to open and close automatically without the need to build on the Arachne carpet. \n\nIt has been polished by the insect swarm and is now smooth and beautiful.</ARA_SmoothedInsectDoor.description>
-  <ARA_Tumor.label>Arachne's tumor</ARA_Tumor.label>
-  <ARA_Tumor.description>The fungus will emit a faint light to illuminate Arachne's nest. In addition to lighting, it will also spread the fungus over a large area on the ground, allowing worker bees to build more Arachne structures. No need to build on Arachne creep.</ARA_Tumor.description>
-  <ARA_Tumor_SunLamp.label>Arachne photoma</ARA_Tumor_SunLamp.label>
-  <ARA_Tumor_SunLamp.description>A bacterial tumor is larger than an ordinary bacterial tumor, and the internal light-emitting organ is unimaginably bright. It can support the lighting conditions of crops, but its lifespan is much shorter than an ordinary bacterial tumor, and it will not spread the bacterial carpet.</ARA_Tumor_SunLamp.description>
-  <ARA_NodeNest.label>Arachneid's Lair</ARA_NodeNest.label>
-  <ARA_NodeNest.description>The nest for the Arachneid worm to inhabit, the "quilt" formed by chitin carapace, muscle and connective tissue, is a very good place for the worm to replenish energy.</ARA_NodeNest.description>
-  <ARA_ResearchBench.label>Arachne Research Station</ARA_ResearchBench.label>
-  <ARA_ResearchBench.description>A living structure for the Arachne zerg to study, allowing the swarm to explore mutation and evolutionary directions to their heart's content.</ARA_ResearchBench.description>
-  <ARA_SmartThermostat.label>Arachne</ARA_SmartThermostat.label>
-  <ARA_SmartThermostat.description>An Arachne with only basic reflexes will try to maintain the temperature of the room toward which its tail is directed through gas exchange. Must be mounted on the wall like a cooler.</ARA_SmartThermostat.description>
-  <ARA_Table1x2c.label>Arachne's Table (1x2)</ARA_Table1x2c.label>
-  <ARA_Table1x2c.description>The strange table seems to be made of living tissue such as rocks and tentacles, and it glows slightly because of the luminous tissue on its body.</ARA_Table1x2c.description>
-  <ARA_Chair.label>Swarm Chair</ARA_Chair.label>
-  <ARA_Chair.description>The strange chair seems to be made of living tissue such as rocks and tentacles, and it glows because of the luminous tissue on its body.</ARA_Chair.description>
-  <ARA_Column.label>Pillar of the Swarm</ARA_Column.label>
-  <ARA_Column.description>The living tissue grown from the tentacles in the Arachne swarm can support the roof from collapsing, emit a wide range of light, and is much stronger than ordinary support columns.</ARA_Column.description>
-  <ARA_Shelf.label>Insect Swarm Storage Point</ARA_Shelf.label>
-  <ARA_Shelf.description>Something similar to a human item rack is actually just a hole dug by the Zerg in the ground to store things - but thanks to the four tentacles with embedded micro-neural networks, the Zerg can quickly find what they need in the messy pile of items.</ARA_Shelf.description>
-  <ARA_SkillTraining_Building.label>Insect climbing frame</ARA_SkillTraining_Building.label>
-  <ARA_SkillTraining_Building.description>A living organization for idle Arachne zerg to kill time, so that they can practice their skills while killing time, so as not to bother the hive mind by sending idle signals all the time.</ARA_SkillTraining_Building.description>
-  <ARA_Hibernate_Sac.label>Arachne's hypnotic body</ARA_Hibernate_Sac.label>
-  <ARA_Hibernate_Sac.description>Living tissue formed by the Arachne Zerg entering a dormant state.</ARA_Hibernate_Sac.description>
+<ARA_InsectWall.label>arachne shell wall</ARA_InsectWall.label>
+<ARA_InsectWall.description>It is a wall built by Arachne worker bees using a mixture of hard materials and chitin, and although it is very sturdy, it does not look very beautiful, so there is no need to build it on Arachne creep.</ARA_InsectWall.description>
+<ARA_SmoothedInsectWall.label>smooth arachne carapace wall</ARA_SmoothedInsectWall.label>
+<ARA_SmoothedInsectWall.description>This wall was built by Arachne's worker bees by stacking a mixture of hard materials and chitin.It has been carefully polished by the Insects, making it extremely sturdy and at the same time more beautiful to look at.</ARA_SmoothedInsectWall.description>
+<ARA_InsectDoor.label>arachne shell door</ARA_InsectDoor.label>
+<ARA_InsectDoor.description>At the entrance to the Arachne burrow, the main body is made of a mixture of hard materials and chitin.The opening and closing mechanism is composed of completely unconscious Arachne insect tissue and can open and close automatically.There is no need to build on the Arachne creep.</ARA_InsectDoor.description>
+<Blueprint_ARA_InsectDoor.label>Arachne shell door (blueprint)</Blueprint_ARA_InsectDoor.label>
+<Frame_ARA_InsectDoor.label>Arachne shell door (construction)</Frame_ARA_InsectDoor.label>
+<Frame_ARA_InsectDoor.description>At the entrance to the Arachne burrow, the main body is made of a mixture of hard materials and chitin.The opening and closing mechanism is composed of completely unconscious Arachne insect tissue and can open and close automatically.There is no need to build on the Arachne creep.</Frame_ARA_InsectDoor.description>
+<ARA_SmoothedInsectDoor.label>smooth arachne shell door</ARA_SmoothedInsectDoor.label>
+<ARA_SmoothedInsectDoor.description>At the entrance to the Arachne burrow, the main body is made of a mixture of hard materials and chitin.The opening and closing mechanism is composed of completely unconscious Arachne insect tissue and can be opened and closed automatically. There is no need to build on the Arachne creep.\n\nIt has already been polished by the insect swarm and now has a smooth and beautiful appearance.</ARA_SmoothedInsectDoor.description>
+<ARA_Tumor.label>arachne fungus</ARA_Tumor.label>
+<ARA_Tumor.description>A fungus that emits a faint light and illuminates the Arachne burrow.In addition to illuminating it, it also spreads the creep over a wide area on the ground, allowing the worker bees to set up more Arachne buildings.There is no need to build on Arachne creep.</ARA_Tumor.description>
+<ARA_Tumor_SunLamp.label>Arachne light tumor</ARA_Tumor_SunLamp.label>
+<ARA_Tumor_SunLamp.description>It is larger than the ordinary fungus, and the internal light-emitting organs are very bright and can support the light conditions of crops.However, the lifespan is short and the creep does not spread.</ARA_Tumor_SunLamp.description>
+<ARA_NodeNest.label>Arachne insect burrow</ARA_NodeNest.label>
+<ARA_NodeNest.description>The burrow, which the Arachne insect lives in, is a "nest" made of chitinous carapace, muscle, and connective tissue, and is an excellent recovery site for the insect.</ARA_NodeNest.description>
+<ARA_ResearchBench.label>Arachne research table</ARA_ResearchBench.label>
+<ARA_ResearchBench.description>It is a living structure for research by the Arachne insect group, allowing the insect group to freely explore the direction of mutation and evolution.</ARA_ResearchBench.description>
+<ARA_SmartThermostat.label>Arachne tube type</ARA_SmartThermostat.label>
+<ARA_SmartThermostat.description>It is an auxiliary insect that has only basic reflexes and tries to maintain the temperature of the room toward its tail by gas exchange.It must be installed on the wall like a cooler.</ARA_SmartThermostat.description>
+<ARA_Table1x2c.label>Arachne table (1x2)</ARA_Table1x2c.label>
+<ARA_Table1x2c.description>It is a strange table, made of living tissue such as rocks and tentacles, and emits a faint glow due to the luminescent tissue inside its body.</ARA_Table1x2c.description>
+<ARA_Chair.label>bug group chair</ARA_Chair.label>
+<ARA_Chair.description>It is a strange chair, made of living tissue such as rocks and tentacles, and emits a faint glow due to the luminescent tissue inside its body.</ARA_Chair.description>
+<ARA_Column.label>insect swarm pillar</ARA_Column.label>
+<ARA_Column.description>It is a living tissue formed by the growth of tentacles within the arachne insect colony, supports the roof and prevents it from collapsing, emits light over a wide area, and is stronger than ordinary pillars.</ARA_Column.description>
+<ARA_Shelf.label>Insect storage shelf</ARA_Shelf.label>
+<ARA_Shelf.description>It resembles a human locker, but it actually just digs a hole in the ground and stores things there.However, thanks to its four tentacles with built-in micro-neural networks, the insects can quickly find what they need among the clutter.</ARA_Shelf.description>
+<ARA_SkillTraining_Building.label>Insect rack</ARA_SkillTraining_Building.label>
+<ARA_SkillTraining_Building.description>It's a living organization for bored Arachnebugs to kill time, allowing them to practice their skills while killing time, and prevent them from interfering with the will of the hive by constantly sending idle signals.</ARA_SkillTraining_Building.description>
+<ARA_Hibernate_Sac.label>Arachne dormant body</ARA_Hibernate_Sac.label>
+<ARA_Hibernate_Sac.description>It is a living tissue formed when Arachne insects enter a dormant state.</ARA_Hibernate_Sac.description>
 </LanguageData>

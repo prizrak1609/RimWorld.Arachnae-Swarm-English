@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ARA_CreepFungus.label>carpet fungi</ARA_CreepFungus.label>
-  <ARA_CreepFungus.description>Fungi harvested from creeping flowers. It can be eaten raw but tastes better after cooking.</ARA_CreepFungus.description>
-  <ARA_CreepPlant.label>Fungus carpet</ARA_CreepPlant.label>
-  <ARA_CreepPlant.description>A strange plant that can only grow on Arachne's carpet. Although it must grow in the dark, it consumes almost no fertility and produces mushrooms that can be eaten by the insects.</ARA_CreepPlant.description>
-  <ARA_BeeSpikePlant.label>Bee sting flower</ARA_BeeSpikePlant.label>
-  <ARA_BeeSpikePlant.description>A fungal hybrid cultivated by the Arachne swarm, it absorbs the nutrients of the fungus carpet, undergoes metamorphosis after growing to a certain stage, and finally transforms into a stinger-a sentient fungus that can use poisonous needles to attack the enemy.</ARA_BeeSpikePlant.description>
-  <ARA_AcidlingTrapPlant.label>Exploding Nest Flower</ARA_AcidlingTrapPlant.label>
-  <ARA_AcidlingTrapPlant.description>A fungal mixture cultivated by the Arachne swarm, it absorbs nutrients from the carpet, undergoes metamorphosis after growing to a certain stage, and eventually transforms into an Arachne explosion cocoon - a special trap that releases suicidal auxiliary insects to nearby enemies.</ARA_AcidlingTrapPlant.description>
-  <ARA_Bacterium_Plant.label>Ju bacteria</ARA_Bacterium_Plant.label>
-  <ARA_Bacterium_Plant.description>A peculiar plant that can only grow on the Arachne carpet. Although it must grow in the dark, it consumes almost no fertility and produces the activated bacteria needed by the insect colony.</ARA_Bacterium_Plant.description>
+<ARA_CreepFungus.label>creepfungus</ARA_CreepFungus.label>
+<ARA_CreepFungus.description>This mushroom is harvested from the creep plant. It can be eaten raw, but it tastes better when cooked.</ARA_CreepFungus.description>
+<ARA_CreepPlant.label>creep plant</ARA_CreepPlant.label>
+<ARA_CreepPlant.description>A strange plant that grows only on Arachne creep.It must grow in the dark, consumes very little fertility, and produces mushrooms that the insect swarms can eat.</ARA_CreepPlant.description>
+<ARA_BeeSpikePlant.label>bee spike plant</ARA_BeeSpikePlant.label>
+<ARA_BeeSpikePlant.description>It is a fungal mixture cultivated by Arachne insects. It absorbs nutrients from creep, and when it reaches a certain growth stage, it undergoes metamorphosis and eventually transforms into a bee-stinging archer - a sentient mushroom-shaped unit that shoots poisonous stingers at enemy troops.</ARA_BeeSpikePlant.description>
+<ARA_AcidlingTrapPlant.label>explosion plant</ARA_AcidlingTrapPlant.label>
+<ARA_AcidlingTrapPlant.description>It is a fungal mixture cultivated by a group of Arachne insects. It absorbs the nutrients of the creep, and when it reaches a certain growth stage, it undergoes metamorphosis and eventually transforms into an Arachne exploding cocoon - a special trap that releases self-destructing auxiliary insects at nearby enemy troops.</ARA_AcidlingTrapPlant.description>
+<ARA_Bacterium_Plant.label>bacterium plant</ARA_Bacterium_Plant.label>
+<ARA_Bacterium_Plant.description>It is a strange plant that only grows on Arachne creep.It needs to grow in the dark, but it consumes very little fertility and produces an active bacterium plant, which is necessary for the insect population.</ARA_Bacterium_Plant.description>
 </LanguageData>

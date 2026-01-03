@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ARA_Pawn_Ootheca.label>Arachne oocysts</ARA_Pawn_Ootheca.label>
-  <ARA_Pawn_Ootheca.description>A fragile, flammable, slimy sac that contains the nutrients and genetic material needed to nurture a new insect or beast insect. A spacious incubator filled with Arachne's nutrient solution will be the best place to place it. It needs to be entered by the Arachne Larvae to initiate the hatching process.</ARA_Pawn_Ootheca.description>
-  <ARA_Pawn_Ootheca.comps.CompProperties_CustomRadius.label>Absorption radius</ARA_Pawn_Ootheca.comps.CompProperties_CustomRadius.label>
-  <ARA_Pawn_Ootheca.comps.CompProperties_CustomRadius.description>The absorption radius of this egg during the hatching process ensures that these grids are filled with Arachne nutrient solution and there are no other eggs to obtain the best hatching speed and hatching quality.</ARA_Pawn_Ootheca.comps.CompProperties_CustomRadius.description>
-  <ARA_Pawn_Ootheca.comps.CompProperties_IncubatorData.buttonLabel>incubation···</ARA_Pawn_Ootheca.comps.CompProperties_IncubatorData.buttonLabel>
-  <ARA_Pawn_Ootheca.comps.CompProperties_IncubatorData.buttonDesc>Select hatched Arachneid...</ARA_Pawn_Ootheca.comps.CompProperties_IncubatorData.buttonDesc>
-  <ARA_Pawn_Ootheca.comps.CompProperties_IncubatorData.menuTitle>hatch menu</ARA_Pawn_Ootheca.comps.CompProperties_IncubatorData.menuTitle>
-  <ARA_Equipment_Ootheca.label>Arachne cocoon</ARA_Equipment_Ootheca.label>
-  <ARA_Equipment_Ootheca.description>The pagoda-like living structure of Arachne can hatch out incomplete individuals after metamorphosis - armed organs and fabrics, that is, the weapons and clothes of the insect swarm. It needs to be entered by the Arachne larvae to start the hatching process. A spacious incubator filled with Arachne nutrient solution will be the best place for it.</ARA_Equipment_Ootheca.description>
-  <ARA_Equipment_Ootheca.comps.CompProperties_CustomRadius.label>Absorption radius</ARA_Equipment_Ootheca.comps.CompProperties_CustomRadius.label>
-  <ARA_Equipment_Ootheca.comps.CompProperties_CustomRadius.description>The absorption radius of this egg during the hatching process ensures that these grids are filled with Arachne nutrient solution and there are no other eggs to obtain the best hatching speed and hatching quality.</ARA_Equipment_Ootheca.comps.CompProperties_CustomRadius.description>
-  <ARA_InteractiveEggSac_Techprint.label>Arachne gene test egg</ARA_InteractiveEggSac_Techprint.label>
-  <ARA_InteractiveEggSac_Techprint.description>An egg with almost disordered internal development cannot hatch any Zerg species and is mainly used for experimenting with the direction of mutation. \n\nArachne technology that requires a blueprint can only be completed by genetic test eggs. When completed, the genetic information of the technology will be stored in the eggs. Once all the genetic test eggs storing the same technology are damaged, the technology will be lost!</ARA_InteractiveEggSac_Techprint.description>
+<ARA_Pawn_Ootheca.label>Arachnid egg sac</ARA_Pawn_Ootheca.label>
+<ARA_Pawn_Ootheca.description>It is a fragile, highly flammable, slimy, sac-like structure that contains the nutrients and genetic material necessary to raise a single new larva or larva. A large, incubation chamber filled with Arachne nutrient fluid is the best location. In order to begin hatching, an Arachne larval species must enter the interior.</ARA_Pawn_Ootheca.description>
+<Blueprint_ARA_Pawn_Ootheca.label>Arachne insect egg sac (blueprint)</Blueprint_ARA_Pawn_Ootheca.label>
+<Frame_ARA_Pawn_Ootheca.label>Arachne insect egg sac (construction)</Frame_ARA_Pawn_Ootheca.label>
+<Frame_ARA_Pawn_Ootheca.description>It is a fragile, highly flammable, slimy, sac-like structure that contains the nutrients and genetic material necessary to raise a single new larva or larva. A large, incubation chamber filled with Arachne nutrient fluid is the best location. In order to begin hatching, an Arachne larval species must enter the interior.</Frame_ARA_Pawn_Ootheca.description>
+<ARA_Pawn_Ootheca.comps.CompRefuelableNutrition.fuelGizmoLabel>insect honey</ARA_Pawn_Ootheca.comps.CompRefuelableNutrition.fuelGizmoLabel>
+<ARA_Equipment_Ootheca.label>Arachne cocoon</ARA_Equipment_Ootheca.label>
+<ARA_Equipment_Ootheca.description>It is a living body structure of Arachne shaped like a treasure tower. It hatches incomplete individuals that have undergone metamorphosis, i.e. armed organs, fabrics, weapons and clothing for the insect swarm. To start hatching, the Arachne larva species must enter inside. The ideal installation location is a large incubation chamber filled with Arachne nutrient solution.</ARA_Equipment_Ootheca.description>
+<Blueprint_ARA_Equipment_Ootheca.label>Arachne cocoon (blueprint)</Blueprint_ARA_Equipment_Ootheca.label>
+<Frame_ARA_Equipment_Ootheca.label>Arachne cocoon (construction)</Frame_ARA_Equipment_Ootheca.label>
+<Frame_ARA_Equipment_Ootheca.description>It is a living body structure of Arachne shaped like a treasure tower. It hatches incomplete individuals that have undergone metamorphosis, i.e. armed organs, fabrics, weapons and clothing for the insect swarm. To start hatching, the Arachne larva species must enter inside. The ideal installation location is a large incubation chamber filled with Arachne nutrient solution.</Frame_ARA_Equipment_Ootheca.description>
+<ARA_Equipment_Ootheca.comps.CompRefuelableNutrition.fuelGizmoLabel>insect honey</ARA_Equipment_Ootheca.comps.CompRefuelableNutrition.fuelGizmoLabel>
+<ARA_InteractiveEggSac_Techprint.label>Arachne genetic experiment egg</ARA_InteractiveEggSac_Techprint.label>
+<ARA_InteractiveEggSac_Techprint.description>It is an egg whose interior grows almost randomly, and cannot be hatched by any type of insects. It is mainly used for experiments in the direction of mutation.\n\nArachne's technology, which requires a blueprint, can only be completed with this genetic experiment egg. When completed, the genetic information of the technology will be stored in the egg, and if all genetic experiment eggs with the same technology are destroyed, the technology will be lost!</ARA_InteractiveEggSac_Techprint.description>
+<ARA_BioforgeIncubator_Thing.label>Item hatching pond</ARA_BioforgeIncubator_Thing.label>
+<ARA_BioforgeIncubator_Thing.description>Large-scale nutrient-intensive hatching facilities can hatch multiple items at the same time and can increase efficiency by connecting external equipment.</ARA_BioforgeIncubator_Thing.description>
+<ARA_BioforgeIncubator_Thing.comps.CompRefuelableNutrition.fuelGizmoLabel>insect honey</ARA_BioforgeIncubator_Thing.comps.CompRefuelableNutrition.fuelGizmoLabel>
+<ARA_BioforgeIncubator.label>Insect hatching pond</ARA_BioforgeIncubator.label>
+<ARA_BioforgeIncubator.description>Large-scale, nutrient-intensive hatching facilities can hatch multiple units simultaneously and can improve efficiency by connecting external equipment.</ARA_BioforgeIncubator.description>
+<ARA_BioforgeIncubator.comps.CompRefuelableNutrition.fuelGizmoLabel>insect honey</ARA_BioforgeIncubator.comps.CompRefuelableNutrition.fuelGizmoLabel>
 </LanguageData>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ARA_DormancyVat.label>Arachne dormant cocoon</ARA_DormancyVat.label>
-  <ARA_DormancyVat.description>The Arachne Swarm is a special living facility used to store excess Zerg. The Zerg stored in it will fall into an immortal state of dormancy, waiting for the main nest to be summoned again.</ARA_DormancyVat.description>
-  <ARA_RefuelingVat.label>Essence extraction chamber</ARA_RefuelingVat.label>
-  <ARA_RefuelingVat.description>A special living structure that can house captives of the Arachne swarm, extract their genetic material in a slow and painful way, and convert it into essence for use by the swarm. \n\n——Don’t ask how it was collected.</ARA_RefuelingVat.description>
-  <ARA_RefuelingVat.comps.CompProperties_ProductStorage.fuelLabel>Essence</ARA_RefuelingVat.comps.CompProperties_ProductStorage.fuelLabel>
-  <ARA_RefuelingVat.comps.CompProperties_ProductStorage.fuelGizmoLabel>Essence</ARA_RefuelingVat.comps.CompProperties_ProductStorage.fuelGizmoLabel>
+<ARA_DormancyVat.label>Arachne dormant cocoon</ARA_DormancyVat.label>
+<ARA_DormancyVat.description>It is a special biological facility for storing surplus insects of Arachne insects.The insects stored inside enter a dormant state where they neither age nor die, waiting to be called again from the main nest.</ARA_DormancyVat.description>
+<ARA_RefuelingVat.label>essence extraction chamber</ARA_RefuelingVat.label>
+<ARA_RefuelingVat.description>It is a specialized biological construct that can hold prisoners of the Arachne bugs. It uses a slow and painful method to extract genetic material and convert it into an essence that the bugs can use.\n\n——Please don't ask how we do it.</ARA_RefuelingVat.description>
+<ARA_RefuelingVat.comps.CompProductStorage.fuelGizmoLabel>essence</ARA_RefuelingVat.comps.CompProductStorage.fuelGizmoLabel>
+<ARA_RefuelingVat.comps.CompProductStorage.fuelLabel>essence</ARA_RefuelingVat.comps.CompProductStorage.fuelLabel>
 </LanguageData>

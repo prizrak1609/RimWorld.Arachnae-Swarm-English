@@ -1,19 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Blueprint_ARA_InsectCreep.label>Arachnae Creep (Blueprint)</Blueprint_ARA_InsectCreep.label>
-  <Frame_ARA_InsectCreep.label>Arachnae Creep (Building)</Frame_ARA_InsectCreep.label>
-  <Frame_ARA_InsectCreep.description>Terrain being constructed.</Frame_ARA_InsectCreep.description>
-
-  <Blueprint_ARA_InsectCreepFloor.label>Arachnae Reinforced Creep (Blueprint)</Blueprint_ARA_InsectCreepFloor.label>
-  <Frame_ARA_InsectCreepFloor.label>Arachnae Reinforced Creep (Building)</Frame_ARA_InsectCreepFloor.label>
-  <Frame_ARA_InsectCreepFloor.description>Terrain being constructed.</Frame_ARA_InsectCreepFloor.description>
-
-  <Blueprint_ARA_InsectCreepTile.label>Arachnae Creep Tile (Blueprint)</Blueprint_ARA_InsectCreepTile.label>
-  <Frame_ARA_InsectCreepTile.label>Arachnae Creep Tile (Building)</Frame_ARA_InsectCreepTile.label>
-  <Frame_ARA_InsectCreepTile.description>Terrain being constructed.</Frame_ARA_InsectCreepTile.description>
-
-  <Blueprint_ARA_Incubator_Nutrient_Solution.label>Arachne nutrient solution</Blueprint_ARA_Incubator_Nutrient_Solution.label>
-  <Frame_ARA_Incubator_Nutrient_Solution.label>Arachne nutrient solution</Frame_ARA_Incubator_Nutrient_Solution.label>
-
+<Blueprint_ARA_InsectCreep.label>Arachne Creep (Blueprint)</Blueprint_ARA_InsectCreep.label>
+<Frame_ARA_InsectCreep.label>Arachne Creep (construction)</Frame_ARA_InsectCreep.label>
+<Frame_ARA_InsectCreep.description>Terrain construction in progress.</Frame_ARA_InsectCreep.description>
+<Blueprint_ARA_InsectCreepFloor.label>Arachne Enhanced Creep (Blueprint)</Blueprint_ARA_InsectCreepFloor.label>
+<Frame_ARA_InsectCreepFloor.label>Arachne reinforced creep (construction)</Frame_ARA_InsectCreepFloor.label>
+<Frame_ARA_InsectCreepFloor.description>Terrain construction in progress.</Frame_ARA_InsectCreepFloor.description>
+<Blueprint_ARA_InsectCreepTile.label>Arachne Creep Tile (Blueprint)</Blueprint_ARA_InsectCreepTile.label>
+<Frame_ARA_InsectCreepTile.label>Arachne creep tile (construction)</Frame_ARA_InsectCreepTile.label>
+<Frame_ARA_InsectCreepTile.description>Terrain construction in progress.</Frame_ARA_InsectCreepTile.description>
+<Blueprint_ARA_Incubator_Nutrient_Solution.label>Arachne nutrient solution (blueprint)</Blueprint_ARA_Incubator_Nutrient_Solution.label>
+<Frame_ARA_Incubator_Nutrient_Solution.label>Arachne nutrient solution (construction)</Frame_ARA_Incubator_Nutrient_Solution.label>
+<Frame_ARA_Incubator_Nutrient_Solution.description>Terrain construction in progress.</Frame_ARA_Incubator_Nutrient_Solution.description>
 </LanguageData>

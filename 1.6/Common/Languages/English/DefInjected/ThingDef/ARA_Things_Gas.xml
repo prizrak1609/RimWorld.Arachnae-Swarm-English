@@ -1,10 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_ReinforceGasCloud.label>Arachnae Information Pheromone Gas</ARA_ReinforceGasCloud.label>
-  <ARA_AcidGasCloud.label>Arachnae Acid Mist</ARA_AcidGasCloud.label>
-  <ARA_FrostGasCloud_Ex.label>Frost Cloud</ARA_FrostGasCloud_Ex.label>
-  <ARA_FrostGasCloud.label>Frost Cloud</ARA_FrostGasCloud.label>
-
-
+<ARA_ReinforceGasCloud.label>Arachne information pheromone gas</ARA_ReinforceGasCloud.label>
+<ARA_AcidGasCloud.label>arachnea acid mist</ARA_AcidGasCloud.label>
+<ARA_FrostGasCloud_Ex.label>frost cloud</ARA_FrostGasCloud_Ex.label>
+<ARA_FrostGasCloud.label>frost cloud</ARA_FrostGasCloud.label>
 </LanguageData>

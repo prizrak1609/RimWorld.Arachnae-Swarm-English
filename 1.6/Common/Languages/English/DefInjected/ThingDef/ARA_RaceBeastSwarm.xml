@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ArachnaeBeast_Race_Slayer.label>Arachne massacres the species</ArachnaeBeast_Race_Slayer.label>
-  <ArachnaeBeast_Race_Slayer.description>One of the Arachne Beast Bugs, it is tall and covered with thick carapace. Its huge feet trample the surrounding enemies without distinction, and it has a pair of thick sickle claws that can knock down a group of enemies. Its purpose of existence is to resist and absorb attacks, and crush the enemy's spearheads attacking the back row of the insect swarm.</ArachnaeBeast_Race_Slayer.description>
-  <ArachnaeBeast_Race_Slayer.comps.CompProperties_NodeSwarmLifetime.labelOverride>life</ArachnaeBeast_Race_Slayer.comps.CompProperties_NodeSwarmLifetime.labelOverride>
-  <ArachnaeBeast_Race_Slayer.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>Even the Arachne Beast Worm with its well-developed limbs and simple mind cannot escape the destined death engraved in its genes.</ArachnaeBeast_Race_Slayer.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>
-  <ArachnaeBeast_Race_Slayer.comps.CompProperties_AreaDamage.toggleLabel>trample</ArachnaeBeast_Race_Slayer.comps.CompProperties_AreaDamage.toggleLabel>
-  <ArachnaeBeast_Race_Slayer.comps.CompProperties_AreaDamage.toggleDescription>The body of this Arachne Zerg is so huge that any enemy that gets close to it will be directly trampled to death.</ArachnaeBeast_Race_Slayer.comps.CompProperties_AreaDamage.toggleDescription>
-  <ArachnaeBeast_Race_Slayer.tools.0.label>sickle claw swipe</ArachnaeBeast_Race_Slayer.tools.0.label>
-  <ARA_PawnBodyWeapon_Cleave.label>sickle claw swipe</ARA_PawnBodyWeapon_Cleave.label>
+<ArachnaeBeast_Race_Slayer.label>Arachne violent breed</ArachnaeBeast_Race_Slayer.label>
+<ArachnaeBeast_Race_Slayer.description>A type of Arachne beast insect, it has a huge body and a heavy carapace that covers its entire body.It uses its huge legs to indiscriminately crush surrounding enemies, and uses a pair of thick sickle claws to mow down groups of enemies.Its raison d'être is to intercept and absorb attacks, and to crush the enemy's offensive toward the rear of the insect swarm.</ArachnaeBeast_Race_Slayer.description>
+<ArachnaeBeast_Race_Slayer.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBeast_Race_Slayer.comps.CompNodeSwarmLifetime.labelOverride>
+<ArachnaeBeast_Race_Slayer.comps.CompNodeSwarmLifetime.tooltipOverride>Even if you are an arachne beast with well-developed limbs and a simple brain, you cannot escape the fate of death written in your genes.</ArachnaeBeast_Race_Slayer.comps.CompNodeSwarmLifetime.tooltipOverride>
+<ArachnaeBeast_Race_Slayer.tools.0.label>sickle claw mowing</ArachnaeBeast_Race_Slayer.tools.0.label>
 </LanguageData>

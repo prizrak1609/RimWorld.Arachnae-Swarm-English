@@ -1,8 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_Whip.label>Whip</ARA_Whip.label>
-  <ARA_MW_Scything_Talons_Cut.label>Scything Talons Cut</ARA_MW_Scything_Talons_Cut.label>
-
-
+<ARA_Whip.label>whipping</ARA_Whip.label>
+<ARA_MW_Scything_Talons_Cut.label>Slash with sickle claw</ARA_MW_Scything_Talons_Cut.label>
 </LanguageData>

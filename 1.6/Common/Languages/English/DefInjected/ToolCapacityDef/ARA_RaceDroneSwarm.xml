@@ -1,8 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_AcidCut.label>Acidic Bite</ARA_AcidCut.label>
-  <ARA_Bite.label>Bite</ARA_Bite.label>
-
-
+<ARA_AcidCut.label>acidic bite</ARA_AcidCut.label>
+<ARA_Bite.label>bite</ARA_Bite.label>
 </LanguageData>

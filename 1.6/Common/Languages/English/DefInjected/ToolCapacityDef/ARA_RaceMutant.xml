@@ -1,7 +1,4 @@
-﻿<?xml "1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_MimicNematodeShamblerBite.label>Bite</ARA_MimicNematodeShamblerBite.label>
-
-
+<ARA_MimicNematodeShamblerBite.label>bite</ARA_MimicNematodeShamblerBite.label>
 </LanguageData>

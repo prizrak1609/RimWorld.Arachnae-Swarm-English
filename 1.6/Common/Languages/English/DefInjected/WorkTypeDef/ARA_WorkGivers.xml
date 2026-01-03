@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<ARA_SwarmJob.label>insect swarm work</ARA_SwarmJob.label>
+<ARA_SwarmJob.labelShort>insect swarm work</ARA_SwarmJob.labelShort>
+<ARA_SwarmJob.pawnLabel>insect swarm</ARA_SwarmJob.pawnLabel>
+<ARA_SwarmJob.gerundLabel>Working for the insect swarm</ARA_SwarmJob.gerundLabel>
+<ARA_SwarmJob.description>All work related to the insect colony, including maintenance of insect colony architecture, feeding with honey cans, and peeling off chitin.</ARA_SwarmJob.description>
+<ARA_SwarmJob.verb>work for the insect population</ARA_SwarmJob.verb>
+</LanguageData>

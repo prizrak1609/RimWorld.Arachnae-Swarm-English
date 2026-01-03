@@ -1,11 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_CreepyCrawly.degreeDatas.0.label>Arthropod</ARA_CreepyCrawly.degreeDatas.0.label>
-  <ARA_CreepyCrawly.degreeDatas.0.description>{PAWN_nameDef}'s enormous arthropod body, with its numerous limbs, reflective exoskeleton, and undulating, segmented physique, is enough to invoke a deep-seated fear in the human mind.\n\nWell, you didn't really think of them as beautiful girls, did you?</ARA_CreepyCrawly.degreeDatas.0.description>
-
-  <ARA_Queen_Main_Trait.degreeDatas.0.label>I Am The Swarm</ARA_Queen_Main_Trait.degreeDatas.0.label>
-  <ARA_Queen_Main_Trait.degreeDatas.0.description>{PAWN_nameDef} is the only individual within the Arachne colony capable of producing the Drone, and as the pinnacle of the hive mind, she bears the great mission of leading the Arachne Swarm.\n\nShe controls the majority of the swarm's autonomous consciousness, and the Drones under her dominion no longer feel sadness or fear, becoming a powerful army of flesh and blood—however, when she suffers a mental break, that state of collapse propagates through the hive network to all her offspring!</ARA_Queen_Main_Trait.degreeDatas.0.description>
-
-
+<ARA_CreepyCrawly.degreeDatas.0.label>arthropod</ARA_CreepyCrawly.degreeDatas.0.label>
+<ARA_CreepyCrawly.degreeDatas.0.description>{PAWN_nameDef} are gigantic arthropods whose numerous appendages, mirror-like exoskeletons, and undulating, segmented bodies are enough to evoke deep fear in humans.\n\nWell, you don't really think of them as beautiful girls, do you?</ARA_CreepyCrawly.degreeDatas.0.description>
+<ARA_Queen_Main_Trait.degreeDatas.0.label>I am a swarm of insects</ARA_Queen_Main_Trait.degreeDatas.0.label>
+<ARA_Queen_Main_Trait.degreeDatas.0.description>{PAWN_nameDef} is the only individual in the Arachne swarm that can produce supervisor insects, and as a being at the top of the hive mind, she has the great mission of guiding the Arachne swarm.\n\nShe controls the autonomous consciousness of most of the insect swarm. The insects under her control no longer feel sadness or fear, and become a mighty army of flesh and blood - but when she causes a mental breakdown, that breakdown is transmitted to all of her offspring through the hive network!</ARA_Queen_Main_Trait.degreeDatas.0.description>
 </LanguageData>

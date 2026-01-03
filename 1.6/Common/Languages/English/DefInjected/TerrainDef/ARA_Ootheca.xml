@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ARA_Incubator_Nutrient_Solution.label>Arachne nutrient solution</ARA_Incubator_Nutrient_Solution.label>
-  <ARA_Incubator_Nutrient_Solution.description>The nutrient solution of the Arachne Zerg hatching tank, eggs and cocoons all need this liquid rich in various nutrients to maintain the progress of hatching. The cocoon will consume nutrient solution during the hatching process, and Zerg must refill the nutrient solution regularly.</ARA_Incubator_Nutrient_Solution.description>
-  <ARA_Incubator_Nutrient_Solution.tools.0.label>water</ARA_Incubator_Nutrient_Solution.tools.0.label>
+<ARA_Incubator_Nutrient_Solution.label>arachne nutrient solution</ARA_Incubator_Nutrient_Solution.label>
+<ARA_Incubator_Nutrient_Solution.description>This is a nutrient solution used in the hatching ponds of Arachnidae. Eggs and cocoons require this fluid rich in a wide variety of nutrients to maintain their hatching progress.</ARA_Incubator_Nutrient_Solution.description>
+<ARA_Incubator_Nutrient_Solution.tools.water.label>water</ARA_Incubator_Nutrient_Solution.tools.water.label>
 </LanguageData>

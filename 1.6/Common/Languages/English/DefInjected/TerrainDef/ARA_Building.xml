@@ -1,14 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-<ARA_InsectCreep.label>Arachne Creep</ARA_InsectCreep.label>
-<ARA_InsectCreep.description>Ground laid down by the Arachne insectoids, composed of a mixture of fungus and chitinous secretions. It automatically spreads around various Arachne insectoid structures. This strange structure is dense in texture and contains many nutrient-transporting tissues. It can support large buildings, allow crops to be grown, and accelerates the movement speed of Arachne insectoids moving on it. However, those outside of the insectoid race probably wouldn't want to walk on this soft, biological structure.</ARA_InsectCreep.description>
-
-<ARA_InsectCreepFloor.label>Arachne Reinforced Creep</ARA_InsectCreepFloor.label>
-<ARA_InsectCreepFloor.description>Ground laid down by the Arachne insectoids, composed of a mixture of fungus and chitinous secretions. Its properties are similar to Arachne Creep, but it can also spread onto support structures and can be used as the foundation for the swarm's Grav-ship.</ARA_InsectCreepFloor.description>
-
-<ARA_InsectCreepTile.label>Arachne Creep Tile</ARA_InsectCreepTile.label>
-<ARA_InsectCreepTile.description>A floor laid down by the Arachne insectoids on top of Creep, mixed with steel and chitinous secretions. It is more orderly than simple Creep, easier to clean, and prevents slime from leaking out. While its fertility is lost, it retains the other characteristics of insectoid Creep.</ARA_InsectCreepTile.description>
-
-
+<ARA_InsectCreep.label>arachne creep</ARA_InsectCreep.label>
+<ARA_InsectCreep.description>A ground made of a mixture of fungi and crustacean secretions laid down by the Arachnid, which automatically spreads around various Arachnid structures.This strange structure is densely textured and contains many nutrient-transporting tissues, allowing it to support large buildings, grow crops, and accelerate the speed of the Arachnids as they move above it, although non-Insects are unlikely to want to walk on this soft biological structure.</ARA_InsectCreep.description>
+<ARA_InsectCreepFloor.label>Arachne Enhanced Creep</ARA_InsectCreepFloor.label>
+<ARA_InsectCreepFloor.description>A ground made of a mixture of fungi and crustacean secretions laid down by the Arachne Bugs.Its properties are similar to Arachne Creep, but it can also spread on support structures and can be used as a base for the Bug Ships' Gravships.</ARA_InsectCreepFloor.description>
+<ARA_InsectCreepTile.label>arachne creep tile</ARA_InsectCreepTile.label>
+<ARA_InsectCreepTile.description>A bed of creep made by the Arachne insects with a mixture of steel and crustacean material, which is more tidy than ordinary creep, easier to clean, and does not leak mucus. Fertility is lost, but other characteristics of the insect creep are inherited.</ARA_InsectCreepTile.description>
 </LanguageData>

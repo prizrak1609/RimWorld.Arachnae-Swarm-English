@@ -1,20 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_Dorsum.label>Dorsal Tissue Cluster</ARA_Dorsum.label>
-  <ARA_Sternum.label>Sternal Tissue Cluster</ARA_Sternum.label>
-  <ARA_Tail.label>Tail Tissue Cluster</ARA_Tail.label>
-  <ARA_Exoskeleton_Dorsum.label>Dorsal Exoskeleton</ARA_Exoskeleton_Dorsum.label>
-  <ARA_Chitin_Shell.label>Chitinous Shell</ARA_Chitin_Shell.label>
-  <ARA_Exoskeleton_Sternum.label>Sternal Exoskeleton</ARA_Exoskeleton_Sternum.label>
-  <ARA_Gonad.label>Gonad</ARA_Gonad.label>
-  <ARA_Ovary.label>Ovary</ARA_Ovary.label>
-  <ARA_Acid_sac.label>Acid Sac</ARA_Acid_sac.label>
-  <ARA_Toxic_Needle.label>Toxic Needle Gland</ARA_Toxic_Needle.label>
-  <ARA_Sickle.label>Giant Sickle</ARA_Sickle.label>
-  <ARA_Smoke_Chamber.label>Smoke Chamber</ARA_Smoke_Chamber.label>
-  <ARA_Psy_Nerve_Tract.label>Psychic Nerve Tract</ARA_Psy_Nerve_Tract.label>
-  <ARA_Pouch.label>Molting Pouch</ARA_Pouch.label>
-
-
+<ARA_Dorsum.label>back tissue group</ARA_Dorsum.label>
+<ARA_Sternum.label>breast tissue group</ARA_Sternum.label>
+<ARA_Tail.label>caudal tissue group</ARA_Tail.label>
+<ARA_Exoskeleton_Dorsum.label>dorsal exoskeleton</ARA_Exoskeleton_Dorsum.label>
+<ARA_Chitin_Shell.label>chitin carapace</ARA_Chitin_Shell.label>
+<ARA_Exoskeleton_Sternum.label>thoracic exoskeleton</ARA_Exoskeleton_Sternum.label>
+<ARA_Gonad.label>gonads</ARA_Gonad.label>
+<ARA_Ovary.label>ovary</ARA_Ovary.label>
+<ARA_Acid_sac.label>acid sac</ARA_Acid_sac.label>
+<ARA_Toxic_Needle.label>poisonous gland</ARA_Toxic_Needle.label>
+<ARA_Sickle.label>giant sickle</ARA_Sickle.label>
+<ARA_Smoke_Chamber.label>smoke chamber</ARA_Smoke_Chamber.label>
+<ARA_Psy_Nerve_Tract.label>psychic nerve bundle</ARA_Psy_Nerve_Tract.label>
+<ARA_Pouch.label>shedding sac</ARA_Pouch.label>
 </LanguageData>

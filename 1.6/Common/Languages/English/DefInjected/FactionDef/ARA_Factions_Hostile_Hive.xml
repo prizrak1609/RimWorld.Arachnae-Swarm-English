@@ -1,12 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_Hostile_Hive.label>Arachne Swarm - Mutilated</ARA_Hostile_Hive.label>
-  <ARA_Hostile_Hive.description>The Arachne hive fleet attempting to invade the Glitterworld was annihilated by the Glitterworld Coalition Forces. Since then, isolated groups of swarm entities stranded within the star system have continued to operate. These swarm individuals have lost connection to the Hive Network and now only possess a low-level intelligence via their autonomously formed, anomalous network, acting like wild beasts. Nevertheless, they remain dangerous enemies, and the genetic reflexes etched across thousands of battles have not dulled their blades.\n\nThey will show no mercy to any being, even their own kind.</ARA_Hostile_Hive.description>
-  <ARA_Hostile_Hive.pawnSingular>swarm</ARA_Hostile_Hive.pawnSingular>
-  <ARA_Hostile_Hive.pawnsPlural>swarms</ARA_Hostile_Hive.pawnsPlural>
-  <ARA_Hostile_Hive.leaderTitle>Leader</ARA_Hostile_Hive.leaderTitle>
-  <ARA_Hostile_Hive.messageDefendersAttacking>{0} of {1} is attacking your {2}.</ARA_Hostile_Hive.messageDefendersAttacking>
-
-
+<ARA_Hostile_Hive.label>Arachne Corps/Kasu</ARA_Hostile_Hive.label>
+<ARA_Hostile_Hive.description>The Arachne Insect Fleet that attempted to invade Glitterworld was destroyed by the Glitterworld Allied Forces.After that, the insect swarm population left behind within the star area was still active.Since these insect swarm offspring lost the connection with the hive network, the anomalous network that they had autonomously formed was Possessing only low intelligence and acting like beasts, they remain dangerous foes, their genetic reflexes carved through thousands of battles still undulled.\n\nThey will show no mercy to any being, even their own kind.</ARA_Hostile_Hive.description>
+<ARA_Hostile_Hive.pawnSingular>insect swarm</ARA_Hostile_Hive.pawnSingular>
+<ARA_Hostile_Hive.pawnsPlural>swarms of insects</ARA_Hostile_Hive.pawnsPlural>
+<ARA_Hostile_Hive.leaderTitle>leader</ARA_Hostile_Hive.leaderTitle>
+<ARA_Hostile_Hive.messageDefendersAttacking>{1}'s {0} is attacking your {2}.</ARA_Hostile_Hive.messageDefendersAttacking>
 </LanguageData>

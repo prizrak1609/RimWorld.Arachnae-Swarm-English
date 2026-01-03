@@ -1,9 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_StartInteractiveProduction.reportString>starting incubation of TargetA.</ARA_StartInteractiveProduction.reportString>
-  <ARA_AddToQueueJob.reportString>adding insectoid incubation job to queue.</ARA_AddToQueueJob.reportString>
-  <ARA_AddProcessToQueueJob.reportString>adding item incubation job to queue.</ARA_AddProcessToQueueJob.reportString>
-  <ARA_StartResearchProduction.reportString>incubating TargetA.</ARA_StartResearchProduction.reportString>
-
+<ARA_StartInteractiveProduction.reportString>Target A is starting to hatch.</ARA_StartInteractiveProduction.reportString>
+<ARA_AddToQueueJob.reportString>I'm adding a bug hatching job to my schedule.</ARA_AddToQueueJob.reportString>
+<ARA_AddProcessToQueueJob.reportString>An item hatching job has been added to the schedule.</ARA_AddProcessToQueueJob.reportString>
+<ARA_StartResearchProduction.reportString>TargetA is being hatched.</ARA_StartResearchProduction.reportString>
 </LanguageData>

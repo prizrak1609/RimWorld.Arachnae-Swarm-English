@@ -1,8 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Chemical_ARA_Pheromone.label>Pheromone Dependency</Chemical_ARA_Pheromone.label>
-  <Chemical_ARA_Pheromone.description>This person's body has become accustomed to the presence of external pheromones due to long-term use of the Arachne Pheromone Solution. If use is discontinued, the internal pseudonematodes will lose suppression and react violently.</Chemical_ARA_Pheromone.description>
-
-
+<Chemical_ARA_Pheromone.label>information element dependence</Chemical_ARA_Pheromone.label>
+<Chemical_ARA_Pheromone.description>Because of long-term use of the Arachne information cell solution, this person's body has become accustomed to the presence of external information cells. If use is discontinued, the pseudonematodes in the body lose control and fight back violently.</Chemical_ARA_Pheromone.description>
 </LanguageData>

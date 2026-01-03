@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<ARA_DefaultIncubatorRewards.label>Default hatching reward settings</ARA_DefaultIncubatorRewards.label>
+<ARA_DefaultIncubatorRewards.description>This is the default hatching characteristic reward rule for the Arachne insect group.It is classified into 7 stages based on hatching quality, and rewards are drawn from a different characteristic pool for each stage.The upper limit of quality is 150%.</ARA_DefaultIncubatorRewards.description>
+<ARA_DefaultIncubatorRewards.hediffPools.0.label>poor characteristics</ARA_DefaultIncubatorRewards.hediffPools.0.label>
+<ARA_DefaultIncubatorRewards.hediffPools.1.label>Standard characteristics</ARA_DefaultIncubatorRewards.hediffPools.1.label>
+<ARA_DefaultIncubatorRewards.hediffPools.2.label>Excellent characteristics</ARA_DefaultIncubatorRewards.hediffPools.2.label>
+</LanguageData>

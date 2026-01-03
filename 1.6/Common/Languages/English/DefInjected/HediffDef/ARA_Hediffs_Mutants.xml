@@ -1,25 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_MimicNematode.label>Mimic Nematode Parasitism</ARA_MimicNematode.label>
-  <ARA_MimicNematode.description>This colonist is infected with the Arachnae Mimic Nematode parasite. If not intervened, the nematode will eventually kill the host, transforming it into a mindless parasite. The nematode spreads the infection to other bodies through the host's aggressive behavior.</ARA_MimicNematode.description>
-  <ARA_MimicNematode.stages.0.label>dormant stage</ARA_MimicNematode.stages.0.label>
-  <ARA_MimicNematode.stages.1.label>active stage</ARA_MimicNematode.stages.1.label>
-  <ARA_MimicNematode.stages.2.label>terminal stage</ARA_MimicNematode.stages.2.label>
-  <ARA_MimicNematode.stages.3.label>imminent change</ARA_MimicNematode.stages.3.label>
-
-
-  <ARA_MimicNematodeShambler.label>Arachnae Mimic Nematode Parasite</ARA_MimicNematodeShambler.label>
-  <ARA_MimicNematodeShambler.description>This corpse has been reanimated by the Arachnae Mimic Nematode parasite. The parasitized organism is sluggish, mindless, and attacks creatures indiscriminately. After a few days of activity, the parasite dies due to the host's declining metabolism. If captured and immobilized, the parasite cannot move and its life activities cease.</ARA_MimicNematodeShambler.description>
-
-
-  <ARA_Rising.label>Rising</ARA_Rising.label>
-  <ARA_Rising.description>The powerful regenerative ability from the Arachnae Mimic Nematode parasite is resurrecting this body.</ARA_Rising.description>
-
-  <ARA_MimicNematodeShamblerShamblerCorpse.label>Mimic Nematode Parasite Corpse</ARA_MimicNematodeShamblerShamblerCorpse.label>
-  <ARA_MimicNematodeShamblerShamblerCorpse.description>This body has just been "resurrected" by the Arachnae Mimic Nematode parasite.</ARA_MimicNematodeShamblerShamblerCorpse.description>
-  <ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.0.debugLabel>Shambler wound</ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.0.debugLabel>
-  <ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.1.debugLabel>Shambler wound</ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.1.debugLabel>
-
-
+<ARA_MimicNematode.label>pseudonematode parasitism</ARA_MimicNematode.label>
+<ARA_MimicNematode.description>This colonizer is parasitized by the Arachne pseudonematode. Without intervention, the pseudonematode will eventually kill the host and turn it into an unconscious parasite. The pseudonematode will spread the infection to other bodies through the parasite's aggressive behavior.</ARA_MimicNematode.description>
+<ARA_MimicNematode.stages.0.label>dormant period</ARA_MimicNematode.stages.0.label>
+<ARA_MimicNematode.stages.1.label>active phase</ARA_MimicNematode.stages.1.label>
+<ARA_MimicNematode.stages.2.label>terminal stage</ARA_MimicNematode.stages.2.label>
+<ARA_MimicNematode.stages.3.label>Change is coming soon</ARA_MimicNematode.stages.3.label>
+<ARA_MimicNematodeShambler.label>Arachne pseudolinear parasite</ARA_MimicNematodeShambler.label>
+<ARA_MimicNematodeShambler.description>This corpse has been parasitized and reactivated by Arachne pseudonematodes. The parasitized organisms are slow, have no intelligence, and attack living things indiscriminately. After being active for several days, the parasite dies due to the decline in the host's metabolism. Once captured and fixed, the parasite is unable to move and its life activities cease.</ARA_MimicNematodeShambler.description>
+<ARA_Rising.label>getting up</ARA_Rising.label>
+<ARA_Rising.description>The strong regenerative ability caused by Arachne pseudonematode parasitism has revived this body.</ARA_Rising.description>
+<ARA_MimicNematodeShamblerShamblerCorpse.label>Pseudoline parasite corpse</ARA_MimicNematodeShamblerShamblerCorpse.label>
+<ARA_MimicNematodeShamblerShamblerCorpse.description>This body has just been ``resurrected'' by being parasitized by Arachne pseudolines.</ARA_MimicNematodeShamblerShamblerCorpse.description>
+<ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.0.debugLabel>shambler scar</ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.0.debugLabel>
+<ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.1.debugLabel>shambler scar</ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.1.debugLabel>
 </LanguageData>

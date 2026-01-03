@@ -1,22 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_IncubationSpeedFactor.label>Incubation Speed</ARA_IncubationSpeedFactor.label>
-  <ARA_IncubationSpeedFactor.description>This indicates the multiplier for the incubation speed applied to the incubation vat.</ARA_IncubationSpeedFactor.description>
-
-  <NutrientTransmissionEfficiency.label>Biomass Transmission Loss</NutrientTransmissionEfficiency.label>
-  <NutrientTransmissionEfficiency.description>Reduces fuel consumption when transmitting biomass. The final consumption amount is multiplied by (1 - Efficiency).</NutrientTransmissionEfficiency.description>
-
-  <ARA_IncubationCost.label>Nutrients Required for Incubation</ARA_IncubationCost.label>
-  <ARA_IncubationCost.description>This indicates the total amount of nutrients required to incubate this armed organ/tissue.</ARA_IncubationCost.description>
-  <ARA_IncubationCost.formatString>{0} minutes</ARA_IncubationCost.formatString>
-
-  <ARA_IncubationTime.label>Time Required for Incubation</ARA_IncubationTime.label>
-  <ARA_IncubationTime.description>This indicates the time it takes to incubate this armed organ/tissue.</ARA_IncubationTime.description>
-  <ARA_IncubationTime.formatString>{0} days</ARA_IncubationTime.formatString>
-
-  <ARA_IcezKillingFactor.label>Flash-freeze Destruction Threshold</ARA_IcezKillingFactor.label>
-  <ARA_IcezKillingFactor.description>Indicates the percentage of body part HP required for a body part to be destroyed by freezing when taking cold damage.</ARA_IcezKillingFactor.description>
-
-
+<ARA_IncubationSpeedFactor.label>Hatching speed</ARA_IncubationSpeedFactor.label>
+<ARA_IncubationSpeedFactor.description>Indicates the hatching rate multiplier applied to the hatching pond.</ARA_IncubationSpeedFactor.description>
+<NutrientTransmissionEfficiency.label>Biomass transfer loss</NutrientTransmissionEfficiency.label>
+<NutrientTransmissionEfficiency.description>Reduces fuel consumption when transferring biomass. Final consumption is multiplied by (1-efficiency).</NutrientTransmissionEfficiency.description>
+<ARA_IncubationCost.label>Nutrition required for hatching</ARA_IncubationCost.label>
+<ARA_IncubationCost.description>Indicates the total amount of nutrients required to hatch this weapon organ/fabric.</ARA_IncubationCost.description>
+<ARA_IncubationCost.formatString>{0} minutes</ARA_IncubationCost.formatString>
+<ARA_IncubationTime.label>Time required for hatching</ARA_IncubationTime.label>
+<ARA_IncubationTime.description>Indicates how long it takes to hatch this weapon organ/fabric.</ARA_IncubationTime.description>
+<ARA_IncubationTime.formatString>{0} days</ARA_IncubationTime.formatString>
+<ARA_IcezKillingFactor.label>Rapid cooling failure threshold</ARA_IcezKillingFactor.label>
+<ARA_IcezKillingFactor.description>Indicates the percentage of HP required for a body part to be destroyed by freezing when receiving cooling damage.</ARA_IcezKillingFactor.description>
 </LanguageData>

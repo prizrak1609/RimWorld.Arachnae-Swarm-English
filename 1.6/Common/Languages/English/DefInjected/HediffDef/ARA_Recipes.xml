@@ -1,43 +1,26 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_Plasteel_Shell_Hediff.label>Plasteel Carapace</ARA_Plasteel_Shell_Hediff.label>
-  <ARA_Plasteel_Shell_Hediff.description>The Arachnid Zerg embedded plasteel directly into their carapace, greatly enhancing their defense.</ARA_Plasteel_Shell_Hediff.description>
-
-  <ARA_Shell_Thorn_Hediff.label>Carapace Thorns</ARA_Shell_Thorn_Hediff.label>
-  <ARA_Shell_Thorn_Hediff.description>The Arachnid Zerg embedded two rows of thorn tubes into their carapace, which automatically attack approaching enemies with thorns when not engaged in melee combat.</ARA_Shell_Thorn_Hediff.description>
-
-  <ARA_Reactive_Shell_Hediff.label>Reactive Carapace</ARA_Reactive_Shell_Hediff.label>
-  <ARA_Reactive_Shell_Hediff.description>The Arachnid Zerg's reactive carapace can negate a single instance of external damage, but the carapace is then blown off, losing its defensive capability.</ARA_Reactive_Shell_Hediff.description>
-
-  <ARA_Gene_Essence_Shell_Hediff.label>Carapace Proliferation</ARA_Gene_Essence_Shell_Hediff.label>
-  <ARA_Gene_Essence_Shell_Hediff.description>This Arachnid Zerg's carapace has gained extra defense by thickening with chitin.</ARA_Gene_Essence_Shell_Hediff.description>
-
-
-  <ARA_Strengthening_Tendon_Hediff.label>Strengthening Tendons</ARA_Strengthening_Tendon_Hediff.label>
-  <ARA_Strengthening_Tendon_Hediff.description>The Arachnid Zerg's reinforced tendons allow for high-speed movement and jumping ability.</ARA_Strengthening_Tendon_Hediff.description>
-
-  <ARA_Slide_Patagium_Hediff.label>Gliding Patagium</ARA_Slide_Patagium_Hediff.label>
-  <ARA_Slide_Patagium_Hediff.description>The gliding patagium on the Arachnid Zerg's legs allows for high-speed movement over Creep. However, the effect is quickly lost when away from the Creep.</ARA_Slide_Patagium_Hediff.description>
-  <ARA_Slide_Patagium_Hediff.stages.0.label>None</ARA_Slide_Patagium_Hediff.stages.0.label>
-
-
-  <ARA_Huge_Stomach_Hediff.label>Additional Gastric Sac</ARA_Huge_Stomach_Hediff.label>
-  <ARA_Huge_Stomach_Hediff.description>Directional mutation in the Arachnid Zerg has resulted in a larger gastric sac, allowing them to store more nutrients.</ARA_Huge_Stomach_Hediff.description>
-
-
-  <ARA_Internal_Circulation_Lung_Hediff.label>Internal Circulation Lung</ARA_Internal_Circulation_Lung_Hediff.label>
-  <ARA_Internal_Circulation_Lung_Hediff.description>Directional mutation in the Arachnid Zerg has allowed their lungs to perform self-circulation, enabling them to withstand invasion in near-vacuum conditions.</ARA_Internal_Circulation_Lung_Hediff.description>
-
-
-  <ARA_Cycle_Suppression_Hediff.label>Lifecycle Suppression</ARA_Cycle_Suppression_Hediff.label>
-  <ARA_Cycle_Suppression_Hediff.description>The Arachnid Zerg's lifecycle suppressor inhibits the Zerg's disorderly growth and prolongs their lifespan.</ARA_Cycle_Suppression_Hediff.description>
-
-
-  <ARA_Acidling_Pouch_Hediff.label>Acidling Egg Sac</ARA_Acidling_Pouch_Hediff.label>
-  <ARA_Acidling_Pouch_Hediff.description>The Arachnid Zerg's egg sac contains numerous Acidlings close to hatching, which immediately burst out and attack enemies upon command.</ARA_Acidling_Pouch_Hediff.description>
-
-  <ARA_Tumor_Pouch_Hediff.label>Tumor Egg Sac</ARA_Tumor_Pouch_Hediff.label>
-  <ARA_Tumor_Pouch_Hediff.description>The Arachnid Zerg's egg sac contains dead Creep Tumors, which, upon release, change the surrounding ground into Creep terrain.</ARA_Tumor_Pouch_Hediff.description>
-
+<ARA_Plasteel_Shell_Hediff.label>plasteel carapace</ARA_Plasteel_Shell_Hediff.label>
+<ARA_Plasteel_Shell_Hediff.description>By embedding plasteel directly into their shells, the Arachne insects greatly improved their defense power.</ARA_Plasteel_Shell_Hediff.description>
+<ARA_Shell_Thorn_Hediff.label>carapace spine</ARA_Shell_Thorn_Hediff.label>
+<ARA_Shell_Thorn_Hediff.description>Arachne insects have two rows of spinous tubes embedded in their shells, and when they are not in close combat, they will automatically attack enemies that approach them.</ARA_Shell_Thorn_Hediff.description>
+<ARA_Reactive_Shell_Hediff.label>reactive carapace</ARA_Reactive_Shell_Hediff.label>
+<ARA_Reactive_Shell_Hediff.description>The Arachne insect's reactive shell can negate external damage once, but after that the shell will be blown away and lose its defensive power.</ARA_Reactive_Shell_Hediff.description>
+<ARA_Gene_Essence_Shell_Hediff.label>shell proliferation</ARA_Gene_Essence_Shell_Hediff.label>
+<ARA_Gene_Essence_Shell_Hediff.description>The shell of this arachnoid is thickened with chitin, giving it additional protection.</ARA_Gene_Essence_Shell_Hediff.description>
+<ARA_Strengthening_Tendon_Hediff.label>reinforced tendon</ARA_Strengthening_Tendon_Hediff.label>
+<ARA_Strengthening_Tendon_Hediff.description>The Arachne Bug's enhanced tendons allow it to move at high speeds and jump.</ARA_Strengthening_Tendon_Hediff.description>
+<ARA_Slide_Patagium_Hediff.label>gliding wing membrane</ARA_Slide_Patagium_Hediff.label>
+<ARA_Slide_Patagium_Hediff.description>The gliding wing membranes on the legs of Arachne insects allow them to move at high speeds on the bacterial envelope.However, once they leave the bacterial envelope, the effectiveness is quickly lost.</ARA_Slide_Patagium_Hediff.description>
+<ARA_Slide_Patagium_Hediff.stages.0.label>Nothing</ARA_Slide_Patagium_Hediff.stages.0.label>
+<ARA_Huge_Stomach_Hediff.label>additional gastric pouch</ARA_Huge_Stomach_Hediff.label>
+<ARA_Huge_Stomach_Hediff.description>A directional mutation in the Arachnidae family allows them to have larger stomach pouches and store more nutrients.</ARA_Huge_Stomach_Hediff.description>
+<ARA_Internal_Circulation_Lung_Hediff.label>internal circulation lung</ARA_Internal_Circulation_Lung_Hediff.label>
+<ARA_Internal_Circulation_Lung_Hediff.description>A directed mutation in the Arachnidae family allows its lungs to self-circulate and withstand near-vacuum insults.</ARA_Internal_Circulation_Lung_Hediff.description>
+<ARA_Cycle_Suppression_Hediff.label>Life cycle control</ARA_Cycle_Suppression_Hediff.label>
+<ARA_Cycle_Suppression_Hediff.description>Life cycle inhibitors of the Arachnid insects suppress their disordered growth and extend their lifespans.</ARA_Cycle_Suppression_Hediff.description>
+<ARA_Acidling_Pouch_Hediff.label>Explosive egg sac</ARA_Acidling_Pouch_Hediff.label>
+<ARA_Acidling_Pouch_Hediff.description>The egg sacs of Arachne insects contain many explosive species that are about to hatch, and upon receiving a command, they immediately fly out and attack the enemy.</ARA_Acidling_Pouch_Hediff.description>
+<ARA_Tumor_Pouch_Hediff.label>mycocele egg sac</ARA_Tumor_Pouch_Hediff.label>
+<ARA_Tumor_Pouch_Hediff.description>The egg sacs of Arachnidae contain fungal aneurysms, which, when released, transform the surrounding ground into a fungal blanket.</ARA_Tumor_Pouch_Hediff.description>
 </LanguageData>

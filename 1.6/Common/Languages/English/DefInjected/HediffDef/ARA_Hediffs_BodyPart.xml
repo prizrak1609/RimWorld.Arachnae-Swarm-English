@@ -1,22 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ArachnaeFighter_Swarm_Claws_Part.label>Warrior Strain Scythe Limbs</ArachnaeFighter_Swarm_Claws_Part.label>
-  <ArachnaeFighter_Swarm_Claws_Part.description>Auxiliary limbs created from the genes of the Arachnae Warrior Strain. The colonist can wield them like a weapon and use them against approaching enemies.</ArachnaeFighter_Swarm_Claws_Part.description>
-  <ArachnaeFighter_Swarm_Claws_Part.comps.0.tools.0.label>great scythe</ArachnaeFighter_Swarm_Claws_Part.comps.0.tools.0.label>
-
-  <ArachnaeNode_Race_Myrmecocystus_Tail_Part.label>Honey Pot Tail</ArachnaeNode_Race_Myrmecocystus_Tail_Part.label>
-  <ArachnaeNode_Race_Myrmecocystus_Tail_Part.labelNoun>Honey Pot Tail</ArachnaeNode_Race_Myrmecocystus_Tail_Part.labelNoun>
-  <ArachnaeNode_Race_Myrmecocystus_Tail_Part.description>A tail created from the genes of the Arachnae Honey Pot Strain. Numerous auxiliary organs severely affect the colonist's original physiological system, but in exchange, the ability to produce Arachnae insect jelly is gained. The modified colonist produces 5 units of Arachnae insect jelly per day.</ArachnaeNode_Race_Myrmecocystus_Tail_Part.description>
-
-  <ArachnaeNode_Race_Skyraider_Wings_Part.label>Skyraider Wings</ArachnaeNode_Race_Skyraider_Wings_Part.label>
-  <ArachnaeNode_Race_Skyraider_Wings_Part.description>Wings created from the genes of the Arachnae Skyraider Strain. They are not suitable for the colonist's physique, so constant flight is impossible, but short periods of hovering are possible.</ArachnaeNode_Race_Skyraider_Wings_Part.description>
-
-  <ArachnaeNode_Race_Smokepop_Armor_Part.label>Smokepop Carapace</ArachnaeNode_Race_Smokepop_Armor_Part.label>
-  <ArachnaeNode_Race_Smokepop_Armor_Part.description>Heavy armor carapace created from the genes of the Arachnae Smokepop Strain, forming over the shoulders and upper body. It provides solid defense but significantly reduces movement speed.</ArachnaeNode_Race_Smokepop_Armor_Part.description>
-
-  <ArachnaeNode_Race_ShieldHead_Armor_Part.label>Shield Head Carapace</ArachnaeNode_Race_ShieldHead_Armor_Part.label>
-  <ArachnaeNode_Race_ShieldHead_Armor_Part.description>Head carapace created from the genes of the Arachnae Shield Head Strain. It provides a degree of defense and also secretes chitin. The modified colonist produces 10 Chitin per day.</ArachnaeNode_Race_ShieldHead_Armor_Part.description>
-
-
+<ArachnaeFighter_Swarm_Claws_Part.label>warrior's sickle limbs</ArachnaeFighter_Swarm_Claws_Part.label>
+<ArachnaeFighter_Swarm_Claws_Part.description>A secondary limb created from the genes of the Arachne warrior species. The colonist can manipulate it like a weapon and use it against incoming enemies.</ArachnaeFighter_Swarm_Claws_Part.description>
+<ArachnaeFighter_Swarm_Claws_Part.comps.0.tools.0.label>scythe</ArachnaeFighter_Swarm_Claws_Part.comps.0.tools.0.label>
+<ArachnaeNode_Race_Myrmecocystus_Tail_Part.label>The tail of the honeycan species</ArachnaeNode_Race_Myrmecocystus_Tail_Part.label>
+<ArachnaeNode_Race_Myrmecocystus_Tail_Part.labelNoun>The tail of the honeycan species</ArachnaeNode_Race_Myrmecocystus_Tail_Part.labelNoun>
+<ArachnaeNode_Race_Myrmecocystus_Tail_Part.description>A tail created from the genes of the Arachne Honeypot species. A number of additional organs severely impact the colonist's natural physiological system, but in exchange it gains the ability to produce Arachne Nectar. Modified colonists will produce 5 units of Arachne Nectar per day.</ArachnaeNode_Race_Myrmecocystus_Tail_Part.description>
+<ArachnaeNode_Race_Skyraider_Wings_Part.label>Sky Wings</ArachnaeNode_Race_Skyraider_Wings_Part.label>
+<ArachnaeNode_Race_Skyraider_Wings_Part.description>These wings are made from the genes of the Arachne sky species.As they are not compatible with the colonists' physique, they cannot fly constantly, but they can stay in the air for short periods of time.</ArachnaeNode_Race_Skyraider_Wings_Part.description>
+<ArachnaeNode_Race_Smokepop_Armor_Part.label>Stray Mist Shell</ArachnaeNode_Race_Smokepop_Armor_Part.label>
+<ArachnaeNode_Race_Smokepop_Armor_Part.description>It is a heavily armored shell created from the genes of the Arachne Maze species, and is formed from the shoulders to the upper body.It provides solid defense, but it greatly reduces its movement speed.</ArachnaeNode_Race_Smokepop_Armor_Part.description>
+<ArachnaeNode_Race_ShieldHead_Armor_Part.label>shieldhead skull</ArachnaeNode_Race_ShieldHead_Armor_Part.label>
+<ArachnaeNode_Race_ShieldHead_Armor_Part.description>A head shell created from the genes of the Arachne shield species that provides some protection and also secretes chitin. Modified colonists produce 10 pieces of chitin per day.</ArachnaeNode_Race_ShieldHead_Armor_Part.description>
 </LanguageData>

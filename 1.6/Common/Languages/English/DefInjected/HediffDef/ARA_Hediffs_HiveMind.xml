@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ARA_HiveMindMaster.label>Queen Arachne</ARA_HiveMindMaster.label>
-  <ARA_HiveMindMaster.description>The Arachne Queen species is the central node of the insect swarm's consciousness, serving as the mastermind to govern the entire Arachne insect swarm. There are a large number of undifferentiated repair cells in its body, which can heal all wounds on its own at a speed that ordinary people cannot imagine.</ARA_HiveMindMaster.description>
-  <ARA_HiveMindMaster.stages.0.label>Connect to {0} Swarm Workers</ARA_HiveMindMaster.stages.0.label>
-  <ARA_HiveMindDrone.label>Arachneid</ARA_HiveMindDrone.label>
-  <ARA_HiveMindDrone.description>The Arachneid is linked to the Arachne Empress species through the mind. If the queen dies, the insect will also cease life activities.</ARA_HiveMindDrone.description>
-  <ARA_HiveMindDrone.comps.HediffCompProperties_MessageAfterTicks.letterLabel>{0_labelShort} is born</ARA_HiveMindDrone.comps.HediffCompProperties_MessageAfterTicks.letterLabel>
-  <ARA_HiveMindDrone.comps.HediffCompProperties_MessageAfterTicks.letterText>A new Arachneid {0_labelShort} has emerged from its cocoon! She is wandering around, waiting for instructions from the Queen Species - to use the Arachne Queen Species' pheromone marking skill to complete the link, or to wait for it to establish the link on its own.</ARA_HiveMindDrone.comps.HediffCompProperties_MessageAfterTicks.letterText>
-  <ARA_NonPlayer_HiveMindDroneHediff.label>feral swarm</ARA_NonPlayer_HiveMindDroneHediff.label>
-  <ARA_NonPlayer_HiveMindDroneHediff.description>Overlords disconnected from the hive mind of the Arachne Swarm will only act like beasts - the Queenseed can take over them again.</ARA_NonPlayer_HiveMindDroneHediff.description>
-  <ARA_HiveMindWorker.label>Arachne</ARA_HiveMindWorker.label>
-  <ARA_HiveMindWorker.description>The Arachneid is linked to the Arachneid species through the mind. If the worm dies, the auxiliary worm will also stop life activities.</ARA_HiveMindWorker.description>
-  <ARA_HiveMindBeast.label>Arachne</ARA_HiveMindBeast.label>
-  <ARA_HiveMindBeast.description>The Arachne Beast Bug is a more primitive life form than other Arachne Bugs. It has a simple mind and well-developed limbs, but it does not follow the pyramid thinking of the hive. Any Overlord and Queen in the hive can command them.</ARA_HiveMindBeast.description>
-  <ARA_HiveStrength_Pluse.label>Insect swarm alien blood</ARA_HiveStrength_Pluse.label>
-  <ARA_HiveStrength_Pluse.description>The repair cells of this Arachne Zerg are beyond common sense, and it is almost impossible to kill it no matter how serious the injury is. In addition, this powerful cell also confers protection against acid corrosion and arachnid acid.</ARA_HiveStrength_Pluse.description>
-  <ARA_HiveStrength.label>Swarm Vitality</ARA_HiveStrength.label>
-  <ARA_HiveStrength.description>The repair cells of this Arachne Zerg are unique. They can automatically heal injuries at a very fast speed and even regenerate some lost organs. In addition, this powerful cell also confers protection against acid corrosion and arachnid acid.</ARA_HiveStrength.description>
-  <ARA_HiveStrength_Low.label>The swarm is strong</ARA_HiveStrength_Low.label>
-  <ARA_HiveStrength_Low.description>The Arachne Zerg's ability to repair injuries is quite powerful, and they can quickly recover from various fatal blows. In addition, this powerful cell also confers protection against acid corrosion and arachnid acid.</ARA_HiveStrength_Low.description>
-  <ARA_LifespanHediff.label>life record</ARA_LifespanHediff.label>
-  <ARA_LifespanHediff.description>The Arachne Zerg's hediff records lifespan. Normally you shouldn't see this.</ARA_LifespanHediff.description>
-  <ARA_TemperatureRegulation.label>cold blooded animals</ARA_TemperatureRegulation.label>
-  <ARA_TemperatureRegulation.description>The Arachne Zerg are cold-blooded animals, which means they are more sensitive to changes in external temperature - they will become agile and deadly under suitable temperatures, but they will be unable to move under uncomfortable temperatures. \n\nThis type of Arachne Zerg can accept activities at temperatures of 6~36°C, and will gain additional awareness bonuses when the temperature approaches 21°C.</ARA_TemperatureRegulation.description>
-  <ARA_TemperatureRegulation.stages.0.label>discomfort</ARA_TemperatureRegulation.stages.0.label>
-  <ARA_TemperatureRegulation.stages.1.label>adapt</ARA_TemperatureRegulation.stages.1.label>
-  <ARA_TemperatureRegulation.stages.2.label>Comfortable</ARA_TemperatureRegulation.stages.2.label>
-  <ARA_RaceBaseSwarmProduceSwitchHediff.label>breeding inhibition</ARA_RaceBaseSwarmProduceSwitchHediff.label>
-  <ARA_RaceBaseSwarmProduceSwitchHediff.description>This Arachnidok has been prohibited from breeding auxiliaries by the hive mind.</ARA_RaceBaseSwarmProduceSwitchHediff.description>
-  <ARA_Hive_Cannot_Speak.label>Can't speak</ARA_Hive_Cannot_Speak.label>
-  <ARA_Hive_Cannot_Speak.description>Well, actually Chongchong can't speak, you should know this, right?</ARA_Hive_Cannot_Speak.description>
-  <ARA_ChitinArmor.label>Carapace Armor</ARA_ChitinArmor.label>
-  <ARA_ChitinArmor.description>The carapace on the Arachne Zerg can provide protection for the Arachne Zerg depending on its thickness.</ARA_ChitinArmor.description>
-  <ARA_ChitinArmor.stages.0.label>Extremely thin</ARA_ChitinArmor.stages.0.label>
-  <ARA_ChitinArmor.stages.1.label>Thin</ARA_ChitinArmor.stages.1.label>
-  <ARA_ChitinArmor.stages.2.label>Moderate</ARA_ChitinArmor.stages.2.label>
-  <ARA_ChitinArmor.stages.3.label>thicker</ARA_ChitinArmor.stages.3.label>
-  <ARA_ChitinArmor.stages.4.label>thick</ARA_ChitinArmor.stages.4.label>
-  <ARA_ChitinArmor.stages.5.label>Extremely thick</ARA_ChitinArmor.stages.5.label>
-  <ARA_ChitinArmor.stages.6.label>solid as a rock</ARA_ChitinArmor.stages.6.label>
-  <ARA_ChitinArmor.stages.7.label>indestructible</ARA_ChitinArmor.stages.7.label>
+<ARA_HiveMindMaster.label>Arachne Empress</ARA_HiveMindMaster.label>
+<ARA_HiveMindMaster.description>The Arachne Empress species is the central node of insect group consciousness, and controls all Arachne insect groups as the main brain.It has a large number of undifferentiated repair cells in its body, and is able to self-repair any damage at a speed unimaginable to ordinary people.</ARA_HiveMindMaster.description>
+<ARA_HiveMindMaster.stages.0.label>Connect to {0} insect swarm workers</ARA_HiveMindMaster.stages.0.label>
+<ARA_HiveMindDrone.label>Arachne insect</ARA_HiveMindDrone.label>
+<ARA_HiveMindDrone.description>The Arachne insect is connected to the Arachne empress species in its heart.When the Empress dies, the Arachne insect also ceases its life activities.</ARA_HiveMindDrone.description>
+<ARA_HiveMindDrone.comps.1.letterLabel>{0_labelShort} is born</ARA_HiveMindDrone.comps.1.letterLabel>
+<ARA_HiveMindDrone.comps.1.letterText>A new Arachne insect {0_labelShort} has broken out of its cocoon and emerged! She wanders around waiting for instructions from the Empress species - she can complete the link with the Arachne Empress' information mark skill, or she can wait for the link to be built automatically.</ARA_HiveMindDrone.comps.1.letterText>
+<ARA_NonPlayer_HiveMindDroneHediff.label>wild insect swarm</ARA_NonPlayer_HiveMindDroneHediff.label>
+<ARA_NonPlayer_HiveMindDroneHediff.description>Having lost their connection to the hive mind of the Arachne insects, they can no longer act like wild beasts.</ARA_NonPlayer_HiveMindDroneHediff.description>
+<ARA_HiveMindWorker.label>arachne arachne</ARA_HiveMindWorker.label>
+<ARA_HiveMindWorker.description>Arachne flocculata is connected to the Arachne ficus in the heart.When the fibril dies, the flocculent also ceases its life activities.</ARA_HiveMindWorker.description>
+<ARA_HiveMindBeast.label>arachne beast insect</ARA_HiveMindBeast.label>
+<ARA_HiveMindBeast.description>Arachne beasts are more primitive life forms than other members of the Arachne family. Although they have simple heads and well-developed limbs, they do not follow the hive's pyramidal thinking as much. Within their hives, they receive command from any governor and empress species.</ARA_HiveMindBeast.description>
+<ARA_HiveStrength_Pluse.label>insect swarm blood</ARA_HiveStrength_Pluse.label>
+<ARA_HiveStrength_Pluse.description>The repair cells of this Arachnidae family have reached a level that cannot be measured by common sense anymore.No matter how severe the injury, they are almost never destroyed.Furthermore, these powerful cells also provide resistance to damage caused by acid erosion and Arachnid acid.</ARA_HiveStrength_Pluse.description>
+<ARA_HiveStrength.label>Insect colony vitality</ARA_HiveStrength.label>
+<ARA_HiveStrength.description>The repair cells of this arachnoid family are special and can self-repair wounds at an extremely rapid rate and even regenerate lost organs.These powerful cells also provide resistance to acid erosion and damage from arachnoid acids.</ARA_HiveStrength.description>
+<ARA_HiveStrength_Low.label>Insect colony health</ARA_HiveStrength_Low.label>
+<ARA_HiveStrength_Low.description>Arachnoid insects have strong wound repair abilities and can quickly recover from various fatal damages. These powerful cells also make them resistant to acid erosion and damage from arachnoid acid.</ARA_HiveStrength_Low.description>
+<ARA_LifespanHediff.label>record of lifespan</ARA_LifespanHediff.label>
+<ARA_LifespanHediff.description>Hediff records the lifespan of Arachne insects, but it is basically hidden. Why are you looking at it?</ARA_LifespanHediff.description>
+<ARA_TemperatureRegulation.label>cold blooded animal</ARA_TemperatureRegulation.label>
+<ARA_TemperatureRegulation.description>The Arachnidae are cold-blooded animals and sensitive to changes in external temperature; agile and deadly in moderate temperatures, and difficult to move in unsuitable temperatures.\n\nThis species can operate at temperatures between 6 and 36°C, and gains an additional awareness bonus when temperatures are around 21°C.</ARA_TemperatureRegulation.description>
+<ARA_TemperatureRegulation.stages.0.label>unsuitable</ARA_TemperatureRegulation.stages.0.label>
+<ARA_TemperatureRegulation.stages.1.label>adaptation</ARA_TemperatureRegulation.stages.1.label>
+<ARA_TemperatureRegulation.stages.2.label>comfortable</ARA_TemperatureRegulation.stages.2.label>
+<ARA_RaceBaseSwarmProduceSwitchHediff.label>Breeding suppression</ARA_RaceBaseSwarmProduceSwitchHediff.label>
+<ARA_RaceBaseSwarmProduceSwitchHediff.description>This arachne insect is prohibited from breeding due to its hive thinking.</ARA_RaceBaseSwarmProduceSwitchHediff.description>
+<ARA_Hive_Cannot_Speak.label>I can't speak</ARA_Hive_Cannot_Speak.label>
+<ARA_Hive_Cannot_Speak.description>Well, actually, this insect can't talk, you already knew that, right?</ARA_Hive_Cannot_Speak.description>
+<ARA_ChitinArmor.label>chitin armor</ARA_ChitinArmor.label>
+<ARA_ChitinArmor.description>It is a shell that covers the body of Arachne insects.Depending on its thickness, it provides protection for Arachne insects.</ARA_ChitinArmor.description>
+<ARA_ChitinArmor.stages.0.label>Ultra thin</ARA_ChitinArmor.stages.0.label>
+<ARA_ChitinArmor.stages.1.label>thin</ARA_ChitinArmor.stages.1.label>
+<ARA_ChitinArmor.stages.2.label>Moderately</ARA_ChitinArmor.stages.2.label>
+<ARA_ChitinArmor.stages.3.label>somewhat thick</ARA_ChitinArmor.stages.3.label>
+<ARA_ChitinArmor.stages.4.label>thick</ARA_ChitinArmor.stages.4.label>
+<ARA_ChitinArmor.stages.5.label>Extremely thick</ARA_ChitinArmor.stages.5.label>
+<ARA_ChitinArmor.stages.6.label>rock solid</ARA_ChitinArmor.stages.6.label>
+<ARA_ChitinArmor.stages.7.label>Unrivaled in robustness</ARA_ChitinArmor.stages.7.label>
 </LanguageData>

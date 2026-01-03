@@ -1,41 +1,69 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ArachnaeNode_Race_Fighter_Enermy.label>Arachnae Fighter</ArachnaeNode_Race_Fighter_Enermy.label>
-  <ArachnaeNode_Race_Fighter_Enermy.labelPlural>Arachnae Fighters</ArachnaeNode_Race_Fighter_Enermy.labelPlural>
-  <ArachnaeNode_Race_Fighter_Enermy.labelMale>Arachnae Fighter</ArachnaeNode_Race_Fighter_Enermy.labelMale>
-  <ArachnaeNode_Race_Fighter_Enermy.labelMalePlural>Arachnae Fighters</ArachnaeNode_Race_Fighter_Enermy.labelMalePlural>
-  <ArachnaeNode_Race_Fighter_Enermy.labelFemale>Arachnae Fighter</ArachnaeNode_Race_Fighter_Enermy.labelFemale>
-  <ArachnaeNode_Race_Fighter_Enermy.labelFemalePlural>Arachnae Fighters</ArachnaeNode_Race_Fighter_Enermy.labelFemalePlural>
-
-  <ArachnaeNode_Race_ShieldHead_Enermy.label>Arachnae Shield Head</ArachnaeNode_Race_ShieldHead_Enermy.label>
-  <ArachnaeNode_Race_ShieldHead_Enermy.labelPlural>Arachnae Shield Heads</ArachnaeNode_Race_ShieldHead_Enermy.labelPlural>
-  <ArachnaeNode_Race_ShieldHead_Enermy.labelMale>Arachnae Shield Head</ArachnaeNode_Race_ShieldHead_Enermy.labelMale>
-  <ArachnaeNode_Race_ShieldHead_Enermy.labelMalePlural>Arachnae Shield Heads</ArachnaeNode_Race_ShieldHead_Enermy.labelMalePlural>
-  <ArachnaeNode_Race_ShieldHead_Enermy.labelFemale>Arachnae Shield Head</ArachnaeNode_Race_ShieldHead_Enermy.labelFemale>
-  <ArachnaeNode_Race_ShieldHead_Enermy.labelFemalePlural>Arachnae Shield Heads</ArachnaeNode_Race_ShieldHead_Enermy.labelFemalePlural>
-
-  <ArachnaeNode_Race_Praetorian_Enermy.label>Arachnae Praetorian</ArachnaeNode_Race_Praetorian_Enermy.label>
-  <ArachnaeNode_Race_Praetorian_Enermy.labelPlural>Arachnae Praetorians</ArachnaeNode_Race_Praetorian_Enermy.labelPlural>
-  <ArachnaeNode_Race_Praetorian_Enermy.labelMale>Arachnae Praetorian</ArachnaeNode_Race_Praetorian_Enermy.labelMale>
-  <ArachnaeNode_Race_Praetorian_Enermy.labelMalePlural>Arachnae Praetorians</ArachnaeNode_Race_Praetorian_Enermy.labelMalePlural>
-  <ArachnaeNode_Race_Praetorian_Enermy.labelFemale>Arachnae Praetorian</ArachnaeNode_Race_Praetorian_Enermy.labelFemale>
-  <ArachnaeNode_Race_Praetorian_Enermy.labelFemalePlural>Arachnae Praetorians</ArachnaeNode_Race_Praetorian_Enermy.labelFemalePlural>
-
-
-  <ArachnaeBase_Race_Acidcut_Enermy.label>Arachnae Acid Scourge</ArachnaeBase_Race_Acidcut_Enermy.label>
-  <ArachnaeBase_Race_Acidcut_Enermy.labelPlural>Arachnae Acid Scourges</ArachnaeBase_Race_Acidcut_Enermy.labelPlural>
-  <ArachnaeBase_Race_Acidcut_Enermy.labelMale>Arachnae Acid Scourge</ArachnaeBase_Race_Acidcut_Enermy.labelMale>
-  <ArachnaeBase_Race_Acidcut_Enermy.labelMalePlural>Arachnae Acid Scourges</ArachnaeBase_Race_Acidcut_Enermy.labelMalePlural>
-  <ArachnaeBase_Race_Acidcut_Enermy.labelFemale>Arachnae Acid Scourge</ArachnaeBase_Race_Acidcut_Enermy.labelFemale>
-  <ArachnaeBase_Race_Acidcut_Enermy.labelFemalePlural>Arachnae Acid Scourges</ArachnaeBase_Race_Acidcut_Enermy.labelFemalePlural>
-
-  <ArachnaeBase_Race_Acidling_Enermy.label>Arachnae Exploder</ArachnaeBase_Race_Acidling_Enermy.label>
-  <ArachnaeBase_Race_Acidling_Enermy.labelPlural>Arachnae Exploders</ArachnaeBase_Race_Acidling_Enermy.labelPlural>
-  <ArachnaeBase_Race_Acidling_Enermy.labelMale>Arachnae Exploder</ArachnaeBase_Race_Acidling_Enermy.labelMale>
-  <ArachnaeBase_Race_Acidling_Enermy.labelMalePlural>Arachnae Exploders</ArachnaeBase_Race_Acidling_Enermy.labelMalePlural>
-  <ArachnaeBase_Race_Acidling_Enermy.labelFemale>Arachnae Exploder</ArachnaeBase_Race_Acidling_Enermy.labelFemale>
-  <ArachnaeBase_Race_Acidling_Enermy.labelFemalePlural>Arachnae Exploders</ArachnaeBase_Race_Acidling_Enermy.labelFemalePlural>
-
-
+<ArachnaeNode_Race_Myrmecocystus_Enermy.label>Arachne honey can type</ArachnaeNode_Race_Myrmecocystus_Enermy.label>
+<ArachnaeNode_Race_Myrmecocystus_Enermy.labelPlural>Arachne honey can type</ArachnaeNode_Race_Myrmecocystus_Enermy.labelPlural>
+<ArachnaeNode_Race_Myrmecocystus_Enermy.labelMale>Arachne honey can type</ArachnaeNode_Race_Myrmecocystus_Enermy.labelMale>
+<ArachnaeNode_Race_Myrmecocystus_Enermy.labelMalePlural>Arachne honey can type</ArachnaeNode_Race_Myrmecocystus_Enermy.labelMalePlural>
+<ArachnaeNode_Race_Myrmecocystus_Enermy.labelFemale>Arachne honey can type</ArachnaeNode_Race_Myrmecocystus_Enermy.labelFemale>
+<ArachnaeNode_Race_Myrmecocystus_Enermy.labelFemalePlural>Arachne honey can type</ArachnaeNode_Race_Myrmecocystus_Enermy.labelFemalePlural>
+<ArachnaeNode_Race_WeaponSmith_Enermy.label>Arachne craft type</ArachnaeNode_Race_WeaponSmith_Enermy.label>
+<ArachnaeNode_Race_WeaponSmith_Enermy.labelPlural>Arachne craft type</ArachnaeNode_Race_WeaponSmith_Enermy.labelPlural>
+<ArachnaeNode_Race_WeaponSmith_Enermy.labelMale>Arachne craft type</ArachnaeNode_Race_WeaponSmith_Enermy.labelMale>
+<ArachnaeNode_Race_WeaponSmith_Enermy.labelMalePlural>Arachne craft type</ArachnaeNode_Race_WeaponSmith_Enermy.labelMalePlural>
+<ArachnaeNode_Race_WeaponSmith_Enermy.labelFemale>Arachne craft type</ArachnaeNode_Race_WeaponSmith_Enermy.labelFemale>
+<ArachnaeNode_Race_WeaponSmith_Enermy.labelFemalePlural>Arachne craft type</ArachnaeNode_Race_WeaponSmith_Enermy.labelFemalePlural>
+<ArachnaeNode_Race_ShieldHead_Enermy.label>Arachne shield species</ArachnaeNode_Race_ShieldHead_Enermy.label>
+<ArachnaeNode_Race_ShieldHead_Enermy.labelPlural>Arachne shield species</ArachnaeNode_Race_ShieldHead_Enermy.labelPlural>
+<ArachnaeNode_Race_ShieldHead_Enermy.labelMale>Arachne shield species</ArachnaeNode_Race_ShieldHead_Enermy.labelMale>
+<ArachnaeNode_Race_ShieldHead_Enermy.labelMalePlural>Arachne shield species</ArachnaeNode_Race_ShieldHead_Enermy.labelMalePlural>
+<ArachnaeNode_Race_ShieldHead_Enermy.labelFemale>Arachne shield species</ArachnaeNode_Race_ShieldHead_Enermy.labelFemale>
+<ArachnaeNode_Race_ShieldHead_Enermy.labelFemalePlural>Arachne shield species</ArachnaeNode_Race_ShieldHead_Enermy.labelFemalePlural>
+<ArachnaeNode_Race_Fighter_Enermy.label>Arachne warrior type</ArachnaeNode_Race_Fighter_Enermy.label>
+<ArachnaeNode_Race_Fighter_Enermy.labelPlural>Arachne warrior type</ArachnaeNode_Race_Fighter_Enermy.labelPlural>
+<ArachnaeNode_Race_Fighter_Enermy.labelMale>Arachne warrior type</ArachnaeNode_Race_Fighter_Enermy.labelMale>
+<ArachnaeNode_Race_Fighter_Enermy.labelMalePlural>Arachne warrior type</ArachnaeNode_Race_Fighter_Enermy.labelMalePlural>
+<ArachnaeNode_Race_Fighter_Enermy.labelFemale>Arachne warrior type</ArachnaeNode_Race_Fighter_Enermy.labelFemale>
+<ArachnaeNode_Race_Fighter_Enermy.labelFemalePlural>Arachne warrior type</ArachnaeNode_Race_Fighter_Enermy.labelFemalePlural>
+<ArachnaeNode_Race_ShieldHead_Adv_Enermy.label>Arachne shield species</ArachnaeNode_Race_ShieldHead_Adv_Enermy.label>
+<ArachnaeNode_Race_ShieldHead_Adv_Enermy.labelPlural>Arachne shield species</ArachnaeNode_Race_ShieldHead_Adv_Enermy.labelPlural>
+<ArachnaeNode_Race_ShieldHead_Adv_Enermy.labelMale>Arachne shield species</ArachnaeNode_Race_ShieldHead_Adv_Enermy.labelMale>
+<ArachnaeNode_Race_ShieldHead_Adv_Enermy.labelMalePlural>Arachne shield species</ArachnaeNode_Race_ShieldHead_Adv_Enermy.labelMalePlural>
+<ArachnaeNode_Race_ShieldHead_Adv_Enermy.labelFemale>Arachne shield species</ArachnaeNode_Race_ShieldHead_Adv_Enermy.labelFemale>
+<ArachnaeNode_Race_ShieldHead_Adv_Enermy.labelFemalePlural>Arachne shield species</ArachnaeNode_Race_ShieldHead_Adv_Enermy.labelFemalePlural>
+<ArachnaeNode_Race_Fighter_Adv_Enermy.label>Arachne warrior type</ArachnaeNode_Race_Fighter_Adv_Enermy.label>
+<ArachnaeNode_Race_Fighter_Adv_Enermy.labelPlural>Arachne warrior type</ArachnaeNode_Race_Fighter_Adv_Enermy.labelPlural>
+<ArachnaeNode_Race_Fighter_Adv_Enermy.labelMale>Arachne warrior type</ArachnaeNode_Race_Fighter_Adv_Enermy.labelMale>
+<ArachnaeNode_Race_Fighter_Adv_Enermy.labelMalePlural>Arachne warrior type</ArachnaeNode_Race_Fighter_Adv_Enermy.labelMalePlural>
+<ArachnaeNode_Race_Fighter_Adv_Enermy.labelFemale>Arachne warrior type</ArachnaeNode_Race_Fighter_Adv_Enermy.labelFemale>
+<ArachnaeNode_Race_Fighter_Adv_Enermy.labelFemalePlural>Arachne warrior type</ArachnaeNode_Race_Fighter_Adv_Enermy.labelFemalePlural>
+<ArachnaeNode_Race_Smokepop_Enermy.label>Arachne stray mist type</ArachnaeNode_Race_Smokepop_Enermy.label>
+<ArachnaeNode_Race_Smokepop_Enermy.labelPlural>Arachne stray mist type</ArachnaeNode_Race_Smokepop_Enermy.labelPlural>
+<ArachnaeNode_Race_Smokepop_Enermy.labelMale>Arachne stray mist type</ArachnaeNode_Race_Smokepop_Enermy.labelMale>
+<ArachnaeNode_Race_Smokepop_Enermy.labelMalePlural>Arachne stray mist type</ArachnaeNode_Race_Smokepop_Enermy.labelMalePlural>
+<ArachnaeNode_Race_Smokepop_Enermy.labelFemale>Arachne stray mist type</ArachnaeNode_Race_Smokepop_Enermy.labelFemale>
+<ArachnaeNode_Race_Smokepop_Enermy.labelFemalePlural>Arachne stray mist type</ArachnaeNode_Race_Smokepop_Enermy.labelFemalePlural>
+<ArachnaeNode_Race_Praetorian_Enermy.label>Arachne forbidden species</ArachnaeNode_Race_Praetorian_Enermy.label>
+<ArachnaeNode_Race_Praetorian_Enermy.labelPlural>Arachne forbidden species</ArachnaeNode_Race_Praetorian_Enermy.labelPlural>
+<ArachnaeNode_Race_Praetorian_Enermy.labelMale>Arachne forbidden species</ArachnaeNode_Race_Praetorian_Enermy.labelMale>
+<ArachnaeNode_Race_Praetorian_Enermy.labelMalePlural>Arachne forbidden species</ArachnaeNode_Race_Praetorian_Enermy.labelMalePlural>
+<ArachnaeNode_Race_Praetorian_Enermy.labelFemale>Arachne forbidden species</ArachnaeNode_Race_Praetorian_Enermy.labelFemale>
+<ArachnaeNode_Race_Praetorian_Enermy.labelFemalePlural>Arachne forbidden species</ArachnaeNode_Race_Praetorian_Enermy.labelFemalePlural>
+<ArachnaeBeast_Race_Slayer_Enermy.label>Arachne violent breed</ArachnaeBeast_Race_Slayer_Enermy.label>
+<ArachnaeBeast_Race_Slayer_Enermy.labelPlural>Arachne violent breed</ArachnaeBeast_Race_Slayer_Enermy.labelPlural>
+<ArachnaeBeast_Race_Slayer_Enermy.labelMale>Arachne violent breed</ArachnaeBeast_Race_Slayer_Enermy.labelMale>
+<ArachnaeBeast_Race_Slayer_Enermy.labelMalePlural>Arachne violent breed</ArachnaeBeast_Race_Slayer_Enermy.labelMalePlural>
+<ArachnaeBeast_Race_Slayer_Enermy.labelFemale>Arachne violent breed</ArachnaeBeast_Race_Slayer_Enermy.labelFemale>
+<ArachnaeBeast_Race_Slayer_Enermy.labelFemalePlural>Arachne violent breed</ArachnaeBeast_Race_Slayer_Enermy.labelFemalePlural>
+<ArachnaeBase_Race_Acidcut_Enermy.label>arachne acid spp.</ArachnaeBase_Race_Acidcut_Enermy.label>
+<ArachnaeBase_Race_Acidcut_Enermy.labelPlural>arachne acid spp.</ArachnaeBase_Race_Acidcut_Enermy.labelPlural>
+<ArachnaeBase_Race_Acidcut_Enermy.labelMale>arachne acid spp.</ArachnaeBase_Race_Acidcut_Enermy.labelMale>
+<ArachnaeBase_Race_Acidcut_Enermy.labelMalePlural>arachne acid spp.</ArachnaeBase_Race_Acidcut_Enermy.labelMalePlural>
+<ArachnaeBase_Race_Acidcut_Enermy.labelFemale>arachne acid spp.</ArachnaeBase_Race_Acidcut_Enermy.labelFemale>
+<ArachnaeBase_Race_Acidcut_Enermy.labelFemalePlural>arachne acid spp.</ArachnaeBase_Race_Acidcut_Enermy.labelFemalePlural>
+<ArachnaeBase_Race_Acidling_Enermy.label>Arachne explosive type</ArachnaeBase_Race_Acidling_Enermy.label>
+<ArachnaeBase_Race_Acidling_Enermy.labelPlural>Arachne explosive type</ArachnaeBase_Race_Acidling_Enermy.labelPlural>
+<ArachnaeBase_Race_Acidling_Enermy.labelMale>Arachne explosive type</ArachnaeBase_Race_Acidling_Enermy.labelMale>
+<ArachnaeBase_Race_Acidling_Enermy.labelMalePlural>Arachne explosive type</ArachnaeBase_Race_Acidling_Enermy.labelMalePlural>
+<ArachnaeBase_Race_Acidling_Enermy.labelFemale>Arachne explosive type</ArachnaeBase_Race_Acidling_Enermy.labelFemale>
+<ArachnaeBase_Race_Acidling_Enermy.labelFemalePlural>Arachne explosive type</ArachnaeBase_Race_Acidling_Enermy.labelFemalePlural>
 </LanguageData>

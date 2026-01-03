@@ -1,11 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_IncubateJob.reportString>injecting pheromones into TargetA.</ARA_IncubateJob.reportString>
-  <ARA_CarryPrisonerToNutrientVat.reportString>carrying TargetA to TargetB.</ARA_CarryPrisonerToNutrientVat.reportString>
-  <ARA_EnterPowerArmor.reportString>entering TargetA.</ARA_EnterPowerArmor.reportString>
-
-
-  <ARA_CarryPrisonerToRefuelingVat.reportString>carrying TargetA to TargetB.</ARA_CarryPrisonerToRefuelingVat.reportString>
-
+<ARA_IncubateJob.reportString>Pheromone is injected into Target A.</ARA_IncubateJob.reportString>
+<ARA_CarryPrisonerToNutrientVat.reportString>Carrying TarjetA to TarjetA.</ARA_CarryPrisonerToNutrientVat.reportString>
+<ARA_EnterPowerArmor.reportString>It is in Target A.</ARA_EnterPowerArmor.reportString>
+<ARA_CarryPrisonerToRefuelingVat.reportString>Carrying TarjetA to Target.</ARA_CarryPrisonerToRefuelingVat.reportString>
+<ARA_OperateIncubator.reportString>Arachne is contained in the egg sac.</ARA_OperateIncubator.reportString>
+<ARA_OperateEquipmentIncubator.reportString>Activating Arachne's cocoon.</ARA_OperateEquipmentIncubator.reportString>
+<ARA_FeedWithHoney.reportString>Feeding Target A.</ARA_FeedWithHoney.reportString>
+<ARA_ExtractHoney.reportString>Extracting honey from insects.</ARA_ExtractHoney.reportString>
+<ARA_StripChitin.reportString>Peeling off the shell.</ARA_StripChitin.reportString>
+<ARA_SwarmMaintain.reportString>Maintains and manages TargetA.</ARA_SwarmMaintain.reportString>
 </LanguageData>

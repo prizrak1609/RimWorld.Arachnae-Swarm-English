@@ -1,7 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_Chrony.label>"Warrior Strain" Chrony</ARA_Chrony.label>
-  <ARA_Chrony.description>Chrony is the overseer insect of the Arachne warrior strain. Despite its small size, it's highly aggressive and launches even more powerful, large-scale attacks with each cycle. It also sends fewer visitors and passing wanderers, and will not send the Man In Black even when the colony is on the verge of collapse.</ARA_Chrony.description>
-
+<ARA_Chrony.label>"Warrior Type" Crony</ARA_Chrony.label>
+<ARA_Chrony.description>Cronies are the rulers of the Arachne warrior species, and although small, they are extremely aggressive, launching more powerful large-scale attacks each cycle.They also keep fewer visitors and passing wanderers, and will not dispatch the Man in Black even if the colony is about to fall.</ARA_Chrony.description>
 </LanguageData>

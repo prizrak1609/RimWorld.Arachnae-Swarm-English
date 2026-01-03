@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <SuperCarry.reportString>super-carrying TargetA.</SuperCarry.reportString>
-
+<SuperCarry.reportString>I carry TargetA with me.</SuperCarry.reportString>
 </LanguageData>

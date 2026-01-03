@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<ARA_Cleaning.label>cleaning</ARA_Cleaning.label>
+<ARA_Cleaning.description>It allows this creature to carry out scavenging tasks.</ARA_Cleaning.description>
+<ARA_Sowing.label>cultivation</ARA_Sowing.label>
+<ARA_Sowing.description>It allows this organism to carry out cultivation tasks.</ARA_Sowing.description>
+<ARA_Slayer_Ability1_Train.label>violent clash</ARA_Slayer_Ability1_Train.label>
+<ARA_Slayer_Ability1_Train.description>It charges at the target with its huge body, damaging everything in its path.The longer the distance it moves while charging, the more damage it deals.</ARA_Slayer_Ability1_Train.description>
+</LanguageData>

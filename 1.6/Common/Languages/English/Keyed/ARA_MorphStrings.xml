@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<PawnTransformer_SpaceBlocked>{PAWN_labelShort} cannot be transformed: insufficient space or obstacles.</PawnTransformer_SpaceBlocked>
-<AbilityCannotBeUsedOnOthers>This ability can only be cast on yourself.</AbilityCannotBeUsedOnOthers>
-<StoredPawn>Domainweaver</StoredPawn>
-<Activity>Activity</Activity>
+<PawnTransformer_SpaceBlocked>{PAWN_labelShort} cannot be transformed: There is insufficient space or there is an obstruction.</PawnTransformer_SpaceBlocked>
+<AbilityCannotBeUsedOnOthers>This ability can only be used on yourself.</AbilityCannotBeUsedOnOthers>
+<StoredPawn>Weaver</StoredPawn>
+<Activity>activity</Activity>
 <Researching>Under research</Researching>
-<Idle>idle</Idle>
+<Idle>Waiting</Idle>
 <Sleeping>sleeping</Sleeping>
-<PawnTransformer_OutOfFuel>{PAWN_labelShort} was forced to eject due to depletion of nutrients!</PawnTransformer_OutOfFuel>
-<PawnTransformer_ForcedRevert>{PAWN_labelShort} was forced to eject due to attack!</PawnTransformer_ForcedRevert>
-<PawnTransformer_BuildingDestroyed>{PAWN_labelShort} pops out of the destroyed {BUILDING_label}!</PawnTransformer_BuildingDestroyed>
+<PawnTransformer_OutOfFuel>{PAWN_labelShort} has been forcibly ejected due to exhaustion of nutrients!</PawnTransformer_OutOfFuel>
+<PawnTransformer_ForcedRevert>{PAWN_labelShort} was attacked and forced to eject!</PawnTransformer_ForcedRevert>
+<PawnTransformer_BuildingDestroyed>{PAWN_labelShort} has been ejected from destroyed {BUILDING_label}!</PawnTransformer_BuildingDestroyed>
 </LanguageData>

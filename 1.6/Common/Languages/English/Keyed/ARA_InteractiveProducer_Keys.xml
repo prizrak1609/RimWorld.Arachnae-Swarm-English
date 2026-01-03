@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<EstimatedQuality>expected quality</EstimatedQuality>
-<QualityScore>Quality rating</QualityScore>
+<EstimatedQuality>Prediction quality</EstimatedQuality>
+<QualityScore>quality score</QualityScore>
 <TemperaturePenalty>temperature penalty</TemperaturePenalty>
 <CurrentTemperature>Current temperature: {0}</CurrentTemperature>
 <SafeTemperatureRange>safety range</SafeTemperatureRange>
 <CannotStartProduction>Unable to start production</CannotStartProduction>
 <NoFuel>no fuel</NoFuel>
-<StartProduction>Start production {0}</StartProduction>
+<StartProduction>Start of production of {0}</StartProduction>
 <ARA_ProductionCost>({0} nutrition)</ARA_ProductionCost>
-<CommandCancelProduction>Cancel production</CommandCancelProduction>
+<CommandCancelProduction>discontinued production</CommandCancelProduction>
 <CommandCancelProductionDesc>Stop the current production process.</CommandCancelProductionDesc>
-<Producing>{0} is being produced</Producing>
-<TimeLeft>time left</TimeLeft>
-<ProjectedQuality>expected quality</ProjectedQuality>
-<NotProducing>Not in production</NotProducing>
-<ARA_NeedSpecificArachnaeToStartIncubation>Not hatched, requires {0} interaction\n\nWhen production is complete, remaining nutrients will be converted back into items.</ARA_NeedSpecificArachnaeToStartIncubation>
-<ARA_AnyArachnaeRace>Any Arachne Zerg</ARA_AnyArachnaeRace>
+<Producing>Currently producing {0}</Producing>
+<TimeLeft>Remaining time</TimeLeft>
+<ProjectedQuality>Prediction quality</ProjectedQuality>
+<NotProducing>No production</NotProducing>
+<ARA_NeedSpecificArachnaeToStartIncubation>Unhatched, {0} contact required\n\nAfter production is complete, the remaining nutrients will be converted into items again.</ARA_NeedSpecificArachnaeToStartIncubation>
+<ARA_AnyArachnaeRace>any arachne bug</ARA_AnyArachnaeRace>
 <ARA_ItemsAvailable>{0} items available</ARA_ItemsAvailable>
-<QualityProgress>Hatching quality</QualityProgress>
-<NutritionNeeded>Required nutrients</NutritionNeeded>
+<QualityProgress>hatching quality</QualityProgress>
+<NutritionNeeded>Nutrient requirements</NutritionNeeded>
 <ARA_Incubate>hatch {0}</ARA_Incubate>
-<ARA_CocoonCooldown>Cocoon is stabilizing: {0}</ARA_CocoonCooldown>
-<ARA_ProducingListTitle>Currently producing:</ARA_ProducingListTitle>
+<ARA_CocoonCooldown>Stabilizing cocoon: {0}</ARA_CocoonCooldown>
+<ARA_ProducingListTitle>Current production:</ARA_ProducingListTitle>
 <ProductionSlots>Production slot: {0} / {1}</ProductionSlots>
 <ProductionQueue>Waiting queue: {0}</ProductionQueue>
 <ProductionSpeed>production speed</ProductionSpeed>
-<ARA_Chitin.ShellParts>Number of carapace parts</ARA_Chitin.ShellParts>
+<ARA_Chitin.ShellParts>Number of shell parts</ARA_Chitin.ShellParts>
 <ARA_Chitin.GrowthRate>growth rate</ARA_Chitin.GrowthRate>
-<ARA_ChitinStripping_Toggle>carapace peeling</ARA_ChitinStripping_Toggle>
-<ARA_ChitinStripping_ToggleDesc>Toggles whether this unit is allowed to automatically strip its carapace. When the carapace is too thick, the unit will automatically peel off the carapace to produce chitin.</ARA_ChitinStripping_ToggleDesc>
-<ARA_StripChitin_Message>{0} carapace peeled off</ARA_StripChitin_Message>
-<ARA_ChitinStripping_Disabled>Carapace peeling feature disabled</ARA_ChitinStripping_Disabled>
-<ARA_ChitinStripping_Cooldown>Cooling: Can be peeled off again after {0} seconds</ARA_ChitinStripping_Cooldown>
-<ARA_ChitinStripping_Threshold>Carapace stock has not reached the threshold ({0}%)</ARA_ChitinStripping_Threshold>
-<ARA_ChitinStripping_Ready>You can start peeling off the carapace</ARA_ChitinStripping_Ready>
+<ARA_ChitinStripping_Toggle>carapace detachment</ARA_ChitinStripping_Toggle>
+<ARA_ChitinStripping_ToggleDesc>Toggles whether this unit automatically exfoliates the carapace. When the carapace becomes too thick, the unit automatically exfoliates the carapace and generates chitin.</ARA_ChitinStripping_ToggleDesc>
+<ARA_StripChitin_Message>{0} carapaces were removed</ARA_StripChitin_Message>
+<ARA_ChitinStripping_Disabled>Shell detachment function is disabled</ARA_ChitinStripping_Disabled>
+<ARA_ChitinStripping_Cooldown>During cooldown: Can be peeled off again after {0} seconds</ARA_ChitinStripping_Cooldown>
+<ARA_ChitinStripping_Threshold>The amount of shell accumulated has not reached the threshold ({0}%)</ARA_ChitinStripping_Threshold>
+<ARA_ChitinStripping_Ready>Carapace exfoliation can begin</ARA_ChitinStripping_Ready>
 </LanguageData>

@@ -1,216 +1,214 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ARA_OothecaIncubator.SpeedFactors>speed factor</ARA_OothecaIncubator.SpeedFactors>
-<ARA_OothecaIncubator.InIncubatorRoom>✓ In the hatchery</ARA_OothecaIncubator.InIncubatorRoom>
-<ARA_OothecaIncubator.NotInIncubatorRoom>✗ Not in the hatchery</ARA_OothecaIncubator.NotInIncubatorRoom>
-<ARA_OothecaIncubator.NutrientSolutions>Nutrient solution: {0} pieces (+{1}%)</ARA_OothecaIncubator.NutrientSolutions>
+<ARA_OothecaIncubator.SpeedFactors>rate factor</ARA_OothecaIncubator.SpeedFactors>
+<ARA_OothecaIncubator.InIncubatorRoom>✓ Inside the hatching room</ARA_OothecaIncubator.InIncubatorRoom>
+<ARA_OothecaIncubator.NotInIncubatorRoom>✗ Outside the hatching room</ARA_OothecaIncubator.NotInIncubatorRoom>
+<ARA_OothecaIncubator.NutrientSolutions>Nutrient liquid: {0} pieces (+{1}%)</ARA_OothecaIncubator.NutrientSolutions>
 <ARA_OothecaIncubator.NoNutrientSolutionsNearby>There is no nutrient solution nearby</ARA_OothecaIncubator.NoNutrientSolutionsNearby>
-<ARA_OothecaIncubator.NutrientDetectionRadius>Nutrient solution detection radius: {0} grid</ARA_OothecaIncubator.NutrientDetectionRadius>
+<ARA_OothecaIncubator.NutrientDetectionRadius>Nutrient liquid detection radius: {0} squares</ARA_OothecaIncubator.NutrientDetectionRadius>
 <ARA_OothecaIncubator.TotalSpeedMultiplier>Total speed multiplier: {0}</ARA_OothecaIncubator.TotalSpeedMultiplier>
 <ARA_OothecaIncubator.QualityFactors>quality factor</ARA_OothecaIncubator.QualityFactors>
-<ARA_OothecaIncubator.BuildingHealth>Building HP: {0}</ARA_OothecaIncubator.BuildingHealth>
+<ARA_OothecaIncubator.BuildingHealth>Building durability: {0}</ARA_OothecaIncubator.BuildingHealth>
 <ARA_OothecaIncubator.RoomFactorNormal>Room factor: normal</ARA_OothecaIncubator.RoomFactorNormal>
 <ARA_OothecaIncubator.RoomFactorModified>Room factor: {0}</ARA_OothecaIncubator.RoomFactorModified>
-<ARA_OothecaIncubator.NearbyOothecas>Other nearby eggs: {0} (-{1}%)</ARA_OothecaIncubator.NearbyOothecas>
-<ARA_OothecaIncubator.NoNearbyOothecas>There are no other eggs nearby</ARA_OothecaIncubator.NoNearbyOothecas>
-<ARA_OothecaIncubator.OothecaDetectionRadius>Other egg detection radius: {0} squares</ARA_OothecaIncubator.OothecaDetectionRadius>
-<ARA_OothecaIncubator.TotalQualityMultiplier>Total mass ratio: {0}</ARA_OothecaIncubator.TotalQualityMultiplier>
-<ARA_OothecaIncubator.CallLarvaTitle>call larvae</ARA_OothecaIncubator.CallLarvaTitle>
-<ARA_OothecaIncubator.LarvaWillCome>The larvae will come to activate the egg sac and hatch:</ARA_OothecaIncubator.LarvaWillCome>
-<ARA_OothecaIncubator.LarvaSearchRadius>Larva search radius: {0} blocks</ARA_OothecaIncubator.LarvaSearchRadius>
-<ARA_OothecaIncubator.AlreadyIncubating>Already incubating</ARA_OothecaIncubator.AlreadyIncubating>
-<ARA_OothecaIncubator.CancelFirst>Please cancel the current incubation first</ARA_OothecaIncubator.CancelFirst>
-<ARA_OothecaIncubator.LarvaAlreadyOnWay>The larvae are on their way</ARA_OothecaIncubator.LarvaAlreadyOnWay>
-<ARA_OothecaIncubator.NoLarvaeFound>larvae not found</ARA_OothecaIncubator.NoLarvaeFound>
-<ARA_OothecaIncubator.LarvaMustBeRace>Larva must be of ArachnaeBase_Race_Larva race</ARA_OothecaIncubator.LarvaMustBeRace>
-<ARA_OothecaIncubator.LarvaCalled>Larvae called</ARA_OothecaIncubator.LarvaCalled>
+<ARA_OothecaIncubator.NearbyOothecas>Other egg sacs nearby: {0}(-{1}%)</ARA_OothecaIncubator.NearbyOothecas>
+<ARA_OothecaIncubator.NoNearbyOothecas>There are no other sacs nearby</ARA_OothecaIncubator.NoNearbyOothecas>
+<ARA_OothecaIncubator.OothecaDetectionRadius>Detection radius of other egg sacs: {0} squares</ARA_OothecaIncubator.OothecaDetectionRadius>
+<ARA_OothecaIncubator.TotalQualityMultiplier>Total quality multiplier: {0}</ARA_OothecaIncubator.TotalQualityMultiplier>
+<ARA_OothecaIncubator.CallLarvaTitle>call the larva</ARA_OothecaIncubator.CallLarvaTitle>
+<ARA_OothecaIncubator.LarvaWillCome>The larva launches the egg sac and begins hatching:</ARA_OothecaIncubator.LarvaWillCome>
+<ARA_OothecaIncubator.LarvaSearchRadius>Larva search radius: {0} squares</ARA_OothecaIncubator.LarvaSearchRadius>
+<ARA_OothecaIncubator.AlreadyIncubating>Already hatching</ARA_OothecaIncubator.AlreadyIncubating>
+<ARA_OothecaIncubator.CancelFirst>Please cancel the current hatch first</ARA_OothecaIncubator.CancelFirst>
+<ARA_OothecaIncubator.LarvaAlreadyOnWay>The larva is already on its way</ARA_OothecaIncubator.LarvaAlreadyOnWay>
+<ARA_OothecaIncubator.NoLarvaeFound>No larvae found</ARA_OothecaIncubator.NoLarvaeFound>
+<ARA_OothecaIncubator.LarvaMustBeRace>Larva must be of the ArachnaeBase_Race_Larva race</ARA_OothecaIncubator.LarvaMustBeRace>
+<ARA_OothecaIncubator.LarvaCalled>called the larva</ARA_OothecaIncubator.LarvaCalled>
 <ARA_OothecaIncubator.ArriveShortly>will arrive soon</ARA_OothecaIncubator.ArriveShortly>
-<ARA_OothecaIncubator.LarvaArrived>The larvae have arrived</ARA_OothecaIncubator.LarvaArrived>
-<ARA_OothecaIncubator.ActivatingOotheca>Activating egg sac</ARA_OothecaIncubator.ActivatingOotheca>
-<ARA_OothecaIncubator.IncubationStarted>Incubation begins:</ARA_OothecaIncubator.IncubationStarted>
-<ARA_OothecaIncubator.ProcessWillComplete>The process will be</ARA_OothecaIncubator.ProcessWillComplete>
-<ARA_OothecaIncubator.DaysBaseTime>Complete within days (basic time)</ARA_OothecaIncubator.DaysBaseTime>
-<ARA_OothecaIncubator.IncubationCancelled>Incubation canceled</ARA_OothecaIncubator.IncubationCancelled>
-<ARA_OothecaIncubator.ContentsLost>Contents have been lost</ARA_OothecaIncubator.ContentsLost>
-<ARA_OothecaIncubator.IncubationComplete>Hatching completed:</ARA_OothecaIncubator.IncubationComplete>
-<ARA_OothecaIncubator.HasEmergedWith>Generated, quality:</ARA_OothecaIncubator.HasEmergedWith>
-<ARA_OothecaIncubator.QualityExcellent>Excellent</ARA_OothecaIncubator.QualityExcellent>
-<ARA_OothecaIncubator.QualityGood>good</ARA_OothecaIncubator.QualityGood>
-<ARA_OothecaIncubator.QualityAverage>ordinary</ARA_OothecaIncubator.QualityAverage>
-<ARA_OothecaIncubator.QualityPoor>Difference</ARA_OothecaIncubator.QualityPoor>
-<ARA_OothecaIncubator.QualityVeryPoor>Very poor</ARA_OothecaIncubator.QualityVeryPoor>
-<ARA_OothecaIncubator.Incubating>incubating</ARA_OothecaIncubator.Incubating>
-<ARA_OothecaIncubator.Progress>schedule</ARA_OothecaIncubator.Progress>
-<ARA_OothecaIncubator.TimeRemaining>time left</ARA_OothecaIncubator.TimeRemaining>
-<ARA_OothecaIncubator.Days>sky</ARA_OothecaIncubator.Days>
-<ARA_OothecaIncubator.Hours>Hour</ARA_OothecaIncubator.Hours>
+<ARA_OothecaIncubator.LarvaArrived>The larva has arrived</ARA_OothecaIncubator.LarvaArrived>
+<ARA_OothecaIncubator.ActivatingOotheca>Activating the egg sac</ARA_OothecaIncubator.ActivatingOotheca>
+<ARA_OothecaIncubator.IncubationStarted>Started hatching:</ARA_OothecaIncubator.IncubationStarted>
+<ARA_OothecaIncubator.ProcessWillComplete>The process is</ARA_OothecaIncubator.ProcessWillComplete>
+<ARA_OothecaIncubator.DaysBaseTime>Completed in 1 day (basic time)</ARA_OothecaIncubator.DaysBaseTime>
+<ARA_OothecaIncubator.IncubationCancelled>Hatching has been canceled</ARA_OothecaIncubator.IncubationCancelled>
+<ARA_OothecaIncubator.ContentsLost>contents lost</ARA_OothecaIncubator.ContentsLost>
+<ARA_OothecaIncubator.IncubationComplete>Hatching is complete:</ARA_OothecaIncubator.IncubationComplete>
+<ARA_OothecaIncubator.HasEmergedWith>Generated.Quality:</ARA_OothecaIncubator.HasEmergedWith>
+<ARA_OothecaIncubator.QualityExcellent>finest</ARA_OothecaIncubator.QualityExcellent>
+<ARA_OothecaIncubator.QualityGood>Good product</ARA_OothecaIncubator.QualityGood>
+<ARA_OothecaIncubator.QualityAverage>Standard product</ARA_OothecaIncubator.QualityAverage>
+<ARA_OothecaIncubator.QualityPoor>low quality</ARA_OothecaIncubator.QualityPoor>
+<ARA_OothecaIncubator.QualityVeryPoor>Almost broken</ARA_OothecaIncubator.QualityVeryPoor>
+<ARA_OothecaIncubator.Incubating>Hatching</ARA_OothecaIncubator.Incubating>
+<ARA_OothecaIncubator.Progress>progress</ARA_OothecaIncubator.Progress>
+<ARA_OothecaIncubator.TimeRemaining>Remaining time</ARA_OothecaIncubator.TimeRemaining>
+<ARA_OothecaIncubator.Days>day</ARA_OothecaIncubator.Days>
+<ARA_OothecaIncubator.Hours>time</ARA_OothecaIncubator.Hours>
 <ARA_OothecaIncubator.Speed>speed</ARA_OothecaIncubator.Speed>
 <ARA_OothecaIncubator.Quality>quality</ARA_OothecaIncubator.Quality>
-<ARA_OothecaIncubator.LarvaOperating>Larvae in operation</ARA_OothecaIncubator.LarvaOperating>
-<ARA_OothecaIncubator.SRemaining>seconds remaining</ARA_OothecaIncubator.SRemaining>
-<ARA_OothecaIncubator.LarvaOnWay>larvae on the road</ARA_OothecaIncubator.LarvaOnWay>
-<ARA_OothecaIncubator.Target>Target</ARA_OothecaIncubator.Target>
+<ARA_OothecaIncubator.LarvaOperating>The larva is working</ARA_OothecaIncubator.LarvaOperating>
+<ARA_OothecaIncubator.SRemaining>Seconds left</ARA_OothecaIncubator.SRemaining>
+<ARA_OothecaIncubator.LarvaOnWay>The larva is on its way</ARA_OothecaIncubator.LarvaOnWay>
+<ARA_OothecaIncubator.Target>subject</ARA_OothecaIncubator.Target>
 <ARA_OothecaIncubator.SpeedMultiplier>speed multiplier</ARA_OothecaIncubator.SpeedMultiplier>
-<ARA_OothecaIncubator.QualityMultiplier>mass magnification</ARA_OothecaIncubator.QualityMultiplier>
-<ARA_OothecaIncubator.CallLarva>call larvae</ARA_OothecaIncubator.CallLarva>
-<ARA_OothecaIncubator.CancelIncubation>Cancel hatching</ARA_OothecaIncubator.CancelIncubation>
-<ARA_OothecaIncubator.CancelIncubationDesc>If you cancel the current incubation, the consumed resources will be lost.</ARA_OothecaIncubator.CancelIncubationDesc>
+<ARA_OothecaIncubator.QualityMultiplier>quality magnification</ARA_OothecaIncubator.QualityMultiplier>
+<ARA_OothecaIncubator.CallLarva>call the larva</ARA_OothecaIncubator.CallLarva>
+<ARA_OothecaIncubator.CancelIncubation>cancel hatching</ARA_OothecaIncubator.CancelIncubation>
+<ARA_OothecaIncubator.CancelIncubationDesc>Cancels the current hatch. Consumed resources will be lost.</ARA_OothecaIncubator.CancelIncubationDesc>
 <ARA_OothecaIncubator.IncubateLabel>Hatching: {0}</ARA_OothecaIncubator.IncubateLabel>
 <ARA_OothecaIncubator.ButtonLabel>Hatching: {0}</ARA_OothecaIncubator.ButtonLabel>
-<ARA_OothecaIncubator.IncubationTime>Incubation time: {0} days</ARA_OothecaIncubator.IncubationTime>
-<ARA_OothecaIncubator.ButtonDesc>Click to select the species you want to hatch</ARA_OothecaIncubator.ButtonDesc>
-<ARA_OothecaIncubator.ResearchRequired>Need research: {0}</ARA_OothecaIncubator.ResearchRequired>
-<ARA_OothecaIncubator.MenuTitle>Choose your incubation target</ARA_OothecaIncubator.MenuTitle>
+<ARA_OothecaIncubator.IncubationTime>Hatching time: {0} days</ARA_OothecaIncubator.IncubationTime>
+<ARA_OothecaIncubator.ButtonDesc>Please select the species to hatch</ARA_OothecaIncubator.ButtonDesc>
+<ARA_OothecaIncubator.ResearchRequired>Research required: {0}</ARA_OothecaIncubator.ResearchRequired>
+<ARA_OothecaIncubator.MenuTitle>Select hatching target</ARA_OothecaIncubator.MenuTitle>
 <ARA_OothecaIncubator.TargetSwitched>Switched target: {0}</ARA_OothecaIncubator.TargetSwitched>
 <NoDescriptionAvailable>No description available</NoDescriptionAvailable>
-<IncubationTime>hatching time</IncubationTime>
-<DaysRequired>sky</DaysRequired>
-<Research>Research</Research>
-<Completed>Completed</Completed>
+<IncubationTime>Hatching time</IncubationTime>
+<DaysRequired>day</DaysRequired>
+<Research>the study</Research>
+<Completed>completion</Completed>
 <Required>need</Required>
-<HediffRewards>Incubation quality reward</HediffRewards>
-<QualityThresholds>Quality threshold reward</QualityThresholds>
-<AllHediffsReward>Get all status effects</AllHediffsReward>
-<HediffCountReward>Gain {0} random status effects</HediffCountReward>
-<IncubatorButtonLabel>incubation···</IncubatorButtonLabel>
-<IncubatorButtonDesc>Select hatched Arachneid...</IncubatorButtonDesc>
-<IncubatorMenuTitle>hatch menu</IncubatorMenuTitle>
-<IncubationTarget>Incubation goals:</IncubationTarget>
+<HediffRewards>Hatching quality bonus</HediffRewards>
+<QualityThresholds>quality threshold bonus</QualityThresholds>
+<AllHediffsReward>Obtain all status effects</AllHediffsReward>
+<HediffCountReward>Obtain {0} random status effects</HediffCountReward>
+<IncubatorButtonLabel>hatching···</IncubatorButtonLabel>
+<IncubatorButtonDesc>Select the Arachne insect to hatch...</IncubatorButtonDesc>
+<IncubatorMenuTitle>hatching menu</IncubatorMenuTitle>
+<IncubationTarget>Target for hatching:</IncubationTarget>
 <Requires>need</Requires>
 <IncubationTab>Hatching progress</IncubationTab>
-<NotAnOotheca>This is not an egg sac</NotAnOotheca>
+<NotAnOotheca>this is not an egg sac</NotAnOotheca>
 <IncubationProgress>Hatching progress</IncubationProgress>
 <Speed>speed</Speed>
 <Quality>quality</Quality>
 <IncubationProgressLabel>Hatching progress</IncubationProgressLabel>
 <QualityProgress>quality progress</QualityProgress>
-<Target>Target</Target>
-<Days>sky</Days>
-<Hours>Hour</Hours>
-<LarvaIsActivatingOotheca>Larva activating egg sac</LarvaIsActivatingOotheca>
-<SecondsRemaining>seconds remaining</SecondsRemaining>
-<LarvaIsOnTheWay>Larvae on their way</LarvaIsOnTheWay>
-<ReadyToIncubate>ready to hatch</ReadyToIncubate>
-<NoIncubationTargetSelected>No hatch target selected</NoIncubationTargetSelected>
+<Target>subject</Target>
+<Days>day</Days>
+<Hours>time</Hours>
+<LarvaIsActivatingOotheca>Larva launches egg sac</LarvaIsActivatingOotheca>
+<SecondsRemaining>Seconds left</SecondsRemaining>
+<LarvaIsOnTheWay>The larva is on its way</LarvaIsOnTheWay>
+<ReadyToIncubate>Ready to hatch</ReadyToIncubate>
+<NoIncubationTargetSelected>No hatching target selected</NoIncubationTargetSelected>
 <ActivatingOotheca>Activating egg sac</ActivatingOotheca>
-<ARA_QualityReward_1Hediff>{0}obtained an additional status effect due to high-quality hatching!</ARA_QualityReward_1Hediff>
-<ARA_QualityReward_2Hediff>{0}obtained 2 additional status effects due to high-quality hatching!</ARA_QualityReward_2Hediff>
-<ARA_QualityReward_3Hediff>{0}obtained 3 additional status effects due to high-quality hatching!</ARA_QualityReward_3Hediff>
-<ARA_QualityReward_4Hediff>{0}obtained 4 additional status effects due to high-quality hatching!</ARA_QualityReward_4Hediff>
-<ARA_QualityReward_AllHediff>{0}Received all additional status effects due to excellent hatching quality!</ARA_QualityReward_AllHediff>
-<ARA_QualityReward_Default>{0} gained {1} additional status effects!</ARA_QualityReward_Default>
-<ARA_EquipmentIncubator.Incubating>incubating</ARA_EquipmentIncubator.Incubating>
-<ARA_EquipmentIncubator.Progress>schedule</ARA_EquipmentIncubator.Progress>
-<ARA_EquipmentIncubator.TimeRemaining>time left</ARA_EquipmentIncubator.TimeRemaining>
-<ARA_EquipmentIncubator.Days>sky</ARA_EquipmentIncubator.Days>
-<ARA_EquipmentIncubator.Hours>Hour</ARA_EquipmentIncubator.Hours>
+<ARA_QualityReward_1Hediff>{0} has acquired one additional status effect due to high-quality hatching!</ARA_QualityReward_1Hediff>
+<ARA_QualityReward_2Hediff>{0} has acquired two additional status effects through high-quality hatching!</ARA_QualityReward_2Hediff>
+<ARA_QualityReward_3Hediff>{0} has acquired 3 additional status effects through high-quality hatching!</ARA_QualityReward_3Hediff>
+<ARA_QualityReward_4Hediff>{0} has acquired 4 additional status effects through high-quality hatching!</ARA_QualityReward_4Hediff>
+<ARA_QualityReward_AllHediff>{0} has acquired all additional status effects due to its outstanding hatching quality!</ARA_QualityReward_AllHediff>
+<ARA_QualityReward_Default>{0} has gained {1} additional status effects!</ARA_QualityReward_Default>
+<ARA_EquipmentIncubator.Incubating>Hatching</ARA_EquipmentIncubator.Incubating>
+<ARA_EquipmentIncubator.Progress>progress</ARA_EquipmentIncubator.Progress>
+<ARA_EquipmentIncubator.TimeRemaining>Remaining time</ARA_EquipmentIncubator.TimeRemaining>
+<ARA_EquipmentIncubator.Days>day</ARA_EquipmentIncubator.Days>
+<ARA_EquipmentIncubator.Hours>time</ARA_EquipmentIncubator.Hours>
 <ARA_EquipmentIncubator.Speed>speed</ARA_EquipmentIncubator.Speed>
-<ARA_EquipmentIncubator.Quality>quality</ARA_EquipmentIncubator.Quality>
-<ARA_EquipmentIncubator.Target>Target</ARA_EquipmentIncubator.Target>
+<ARA_EquipmentIncubator.Target>subject</ARA_EquipmentIncubator.Target>
 <ARA_EquipmentIncubator.SpeedMultiplier>speed multiplier</ARA_EquipmentIncubator.SpeedMultiplier>
-<ARA_EquipmentIncubator.QualityMultiplier>quality ratio</ARA_EquipmentIncubator.QualityMultiplier>
-<ARA_EquipmentIncubator.SpeedFactors>speed factor</ARA_EquipmentIncubator.SpeedFactors>
-<ARA_EquipmentIncubator.InIncubatorRoom>✓ In the incubator</ARA_EquipmentIncubator.InIncubatorRoom>
-<ARA_EquipmentIncubator.NotInIncubatorRoom>✗ Not in the incubator</ARA_EquipmentIncubator.NotInIncubatorRoom>
-<ARA_EquipmentIncubator.NutrientSolutions>Nutrient solution: {0} pieces (+{1}%)</ARA_EquipmentIncubator.NutrientSolutions>
+<ARA_EquipmentIncubator.QualityMultiplier>quality magnification</ARA_EquipmentIncubator.QualityMultiplier>
+<ARA_EquipmentIncubator.SpeedFactors>rate factor</ARA_EquipmentIncubator.SpeedFactors>
+<ARA_EquipmentIncubator.InIncubatorRoom>✓ Inside the hatching room</ARA_EquipmentIncubator.InIncubatorRoom>
+<ARA_EquipmentIncubator.NotInIncubatorRoom>✗ Not in an incubation room</ARA_EquipmentIncubator.NotInIncubatorRoom>
+<ARA_EquipmentIncubator.NutrientSolutions>Nutrient liquid: {0} pieces (+{1}%)</ARA_EquipmentIncubator.NutrientSolutions>
 <ARA_EquipmentIncubator.NoNutrientSolutionsNearby>There is no nutrient solution nearby</ARA_EquipmentIncubator.NoNutrientSolutionsNearby>
-<ARA_EquipmentIncubator.NutrientDetectionRadius>Nutrient solution detection radius: {0} grid</ARA_EquipmentIncubator.NutrientDetectionRadius>
+<ARA_EquipmentIncubator.NutrientDetectionRadius>Nutrient liquid detection radius: {0} squares</ARA_EquipmentIncubator.NutrientDetectionRadius>
 <ARA_EquipmentIncubator.TotalSpeedMultiplier>Total speed multiplier: {0}</ARA_EquipmentIncubator.TotalSpeedMultiplier>
 <ARA_EquipmentIncubator.QualityFactors>quality factor</ARA_EquipmentIncubator.QualityFactors>
-<ARA_EquipmentIncubator.BuildingHealth>Building HP: {0}</ARA_EquipmentIncubator.BuildingHealth>
+<ARA_EquipmentIncubator.BuildingHealth>Building durability: {0}</ARA_EquipmentIncubator.BuildingHealth>
 <ARA_EquipmentIncubator.RoomFactorNormal>Room factor: normal</ARA_EquipmentIncubator.RoomFactorNormal>
 <ARA_EquipmentIncubator.RoomFactorModified>Room factor: {0}</ARA_EquipmentIncubator.RoomFactorModified>
-<ARA_EquipmentIncubator.NearbyOothecas>Other nearby eggs: {0} (-{1}%)</ARA_EquipmentIncubator.NearbyOothecas>
-<ARA_EquipmentIncubator.NoNearbyOothecas>There are no other eggs nearby</ARA_EquipmentIncubator.NoNearbyOothecas>
-<ARA_EquipmentIncubator.OothecaDetectionRadius>Other egg detection radius: {0} squares</ARA_EquipmentIncubator.OothecaDetectionRadius>
-<ARA_EquipmentIncubator.TotalQualityMultiplier>Total quality ratio: {0}</ARA_EquipmentIncubator.TotalQualityMultiplier>
-<ARA_EquipmentIncubator.CallLarvaTitle>call larvae</ARA_EquipmentIncubator.CallLarvaTitle>
-<ARA_EquipmentIncubator.LarvaWillCome>The larvae will come to activate the egg sac and hatch:</ARA_EquipmentIncubator.LarvaWillCome>
-<ARA_EquipmentIncubator.LarvaSearchRadius>Larva search radius: {0} blocks</ARA_EquipmentIncubator.LarvaSearchRadius>
-<ARA_EquipmentIncubator.AlreadyIncubating>Already incubating</ARA_EquipmentIncubator.AlreadyIncubating>
-<ARA_EquipmentIncubator.CancelFirst>Please cancel the current incubation first</ARA_EquipmentIncubator.CancelFirst>
-<ARA_EquipmentIncubator.LarvaAlreadyOnWay>The larvae are on their way</ARA_EquipmentIncubator.LarvaAlreadyOnWay>
-<ARA_EquipmentIncubator.NoTargetSelected>No hatch target selected</ARA_EquipmentIncubator.NoTargetSelected>
-<ARA_EquipmentIncubator.ResearchRequiredFor>Requires research: {1} to hatch {0}</ARA_EquipmentIncubator.ResearchRequiredFor>
-<ARA_EquipmentIncubator.ResearchNotCompleted>research not completed</ARA_EquipmentIncubator.ResearchNotCompleted>
-<ARA_EquipmentIncubator.NoLarvaeFound>larvae not found</ARA_EquipmentIncubator.NoLarvaeFound>
-<ARA_EquipmentIncubator.LarvaMustBeRace>Larva must be of ArachnaeBase_Race_Larva race</ARA_EquipmentIncubator.LarvaMustBeRace>
-<ARA_EquipmentIncubator.LarvaCalled>Larvae called</ARA_EquipmentIncubator.LarvaCalled>
+<ARA_EquipmentIncubator.NearbyOothecas>Other egg sacs nearby: {0}(-{1}%)</ARA_EquipmentIncubator.NearbyOothecas>
+<ARA_EquipmentIncubator.NoNearbyOothecas>There are no other sacs nearby.</ARA_EquipmentIncubator.NoNearbyOothecas>
+<ARA_EquipmentIncubator.OothecaDetectionRadius>Detection radius of other egg sacs: {0} squares</ARA_EquipmentIncubator.OothecaDetectionRadius>
+<ARA_EquipmentIncubator.TotalQualityMultiplier>Total quality multiplier: {0}</ARA_EquipmentIncubator.TotalQualityMultiplier>
+<ARA_EquipmentIncubator.CallLarvaTitle>call the larva</ARA_EquipmentIncubator.CallLarvaTitle>
+<ARA_EquipmentIncubator.LarvaWillCome>The larva launches the egg sac and begins hatching:</ARA_EquipmentIncubator.LarvaWillCome>
+<ARA_EquipmentIncubator.LarvaSearchRadius>Larva search radius: {0} squares</ARA_EquipmentIncubator.LarvaSearchRadius>
+<ARA_EquipmentIncubator.AlreadyIncubating>Already hatching</ARA_EquipmentIncubator.AlreadyIncubating>
+<ARA_EquipmentIncubator.CancelFirst>Please cancel the current hatch first</ARA_EquipmentIncubator.CancelFirst>
+<ARA_EquipmentIncubator.LarvaAlreadyOnWay>The larva is already on its way</ARA_EquipmentIncubator.LarvaAlreadyOnWay>
+<ARA_EquipmentIncubator.NoTargetSelected>No hatching target selected</ARA_EquipmentIncubator.NoTargetSelected>
+<ARA_EquipmentIncubator.ResearchRequiredFor>Research is required to hatch {0}: {1}</ARA_EquipmentIncubator.ResearchRequiredFor>
+<ARA_EquipmentIncubator.ResearchNotCompleted>Research not completed</ARA_EquipmentIncubator.ResearchNotCompleted>
+<ARA_EquipmentIncubator.NoLarvaeFound>No larvae found</ARA_EquipmentIncubator.NoLarvaeFound>
+<ARA_EquipmentIncubator.LarvaMustBeRace>Larva must be of the ArachnaeBase_Race_Larva race</ARA_EquipmentIncubator.LarvaMustBeRace>
+<ARA_EquipmentIncubator.LarvaCalled>called the larva</ARA_EquipmentIncubator.LarvaCalled>
 <ARA_EquipmentIncubator.ArriveShortly>will arrive soon</ARA_EquipmentIncubator.ArriveShortly>
-<ARA_EquipmentIncubator.LarvaArrived>The larvae have arrived</ARA_EquipmentIncubator.LarvaArrived>
-<ARA_EquipmentIncubator.ActivatingOotheca>Activating egg sac</ARA_EquipmentIncubator.ActivatingOotheca>
-<ARA_EquipmentIncubator.IncubationStarted>Incubation begins:</ARA_EquipmentIncubator.IncubationStarted>
-<ARA_EquipmentIncubator.ProcessWillComplete>The process will be</ARA_EquipmentIncubator.ProcessWillComplete>
-<ARA_EquipmentIncubator.DaysBaseTime>Complete within days (basic time)</ARA_EquipmentIncubator.DaysBaseTime>
-<ARA_EquipmentIncubator.LarvaOperating>Larvae in operation</ARA_EquipmentIncubator.LarvaOperating>
-<ARA_EquipmentIncubator.SRemaining>seconds remaining</ARA_EquipmentIncubator.SRemaining>
-<ARA_EquipmentIncubator.LarvaOnWay>larvae on the road</ARA_EquipmentIncubator.LarvaOnWay>
-<ARA_EquipmentIncubator.IncubationCancelled>Incubation canceled</ARA_EquipmentIncubator.IncubationCancelled>
-<ARA_EquipmentIncubator.ContentsLost>Contents have been lost</ARA_EquipmentIncubator.ContentsLost>
+<ARA_EquipmentIncubator.LarvaArrived>The larva has arrived</ARA_EquipmentIncubator.LarvaArrived>
+<ARA_EquipmentIncubator.ActivatingOotheca>Activating the egg sac</ARA_EquipmentIncubator.ActivatingOotheca>
+<ARA_EquipmentIncubator.IncubationStarted>Start hatching:</ARA_EquipmentIncubator.IncubationStarted>
+<ARA_EquipmentIncubator.ProcessWillComplete>The process is</ARA_EquipmentIncubator.ProcessWillComplete>
+<ARA_EquipmentIncubator.DaysBaseTime>Completed in 1 day (basic time)</ARA_EquipmentIncubator.DaysBaseTime>
+<ARA_EquipmentIncubator.LarvaOperating>The larva is working</ARA_EquipmentIncubator.LarvaOperating>
+<ARA_EquipmentIncubator.SRemaining>seconds left</ARA_EquipmentIncubator.SRemaining>
+<ARA_EquipmentIncubator.LarvaOnWay>The larva is on its way</ARA_EquipmentIncubator.LarvaOnWay>
+<ARA_EquipmentIncubator.IncubationCancelled>Hatching has been canceled</ARA_EquipmentIncubator.IncubationCancelled>
+<ARA_EquipmentIncubator.ContentsLost>contents lost</ARA_EquipmentIncubator.ContentsLost>
 <ARA_EquipmentIncubator.IncubationComplete>Hatching completed:</ARA_EquipmentIncubator.IncubationComplete>
-<ARA_EquipmentIncubator.HasEmergedWith>Generated, quality:</ARA_EquipmentIncubator.HasEmergedWith>
-<ARA_EquipmentIncubator.QualityExcellent>Excellent</ARA_EquipmentIncubator.QualityExcellent>
-<ARA_EquipmentIncubator.QualityGood>good</ARA_EquipmentIncubator.QualityGood>
-<ARA_EquipmentIncubator.QualityAverage>ordinary</ARA_EquipmentIncubator.QualityAverage>
-<ARA_EquipmentIncubator.QualityPoor>Difference</ARA_EquipmentIncubator.QualityPoor>
-<ARA_EquipmentIncubator.QualityVeryPoor>Very poor</ARA_EquipmentIncubator.QualityVeryPoor>
-<ARA_EquipmentIncubator.CallLarva>call larvae</ARA_EquipmentIncubator.CallLarva>
-<ARA_EquipmentIncubator.CancelIncubation>Cancel hatching</ARA_EquipmentIncubator.CancelIncubation>
-<ARA_EquipmentIncubator.CancelIncubationDesc>If you cancel the current incubation, the consumed resources will be lost.</ARA_EquipmentIncubator.CancelIncubationDesc>
+<ARA_EquipmentIncubator.HasEmergedWith>Generated.Quality:</ARA_EquipmentIncubator.HasEmergedWith>
+<ARA_EquipmentIncubator.QualityExcellent>finest</ARA_EquipmentIncubator.QualityExcellent>
+<ARA_EquipmentIncubator.QualityGood>Good product</ARA_EquipmentIncubator.QualityGood>
+<ARA_EquipmentIncubator.QualityAverage>Standard product</ARA_EquipmentIncubator.QualityAverage>
+<ARA_EquipmentIncubator.QualityPoor>low quality</ARA_EquipmentIncubator.QualityPoor>
+<ARA_EquipmentIncubator.QualityVeryPoor>Almost broken</ARA_EquipmentIncubator.QualityVeryPoor>
+<ARA_EquipmentIncubator.CallLarva>call the larva</ARA_EquipmentIncubator.CallLarva>
+<ARA_EquipmentIncubator.CancelIncubation>cancel hatching</ARA_EquipmentIncubator.CancelIncubation>
+<ARA_EquipmentIncubator.CancelIncubationDesc>Cancels the current hatch. Consumed resources will be lost.</ARA_EquipmentIncubator.CancelIncubationDesc>
 <ARA_EquipmentIncubator.IncubateLabel>Hatching: {0}</ARA_EquipmentIncubator.IncubateLabel>
 <ARA_EquipmentIncubator.ButtonLabel>Hatching: {0}</ARA_EquipmentIncubator.ButtonLabel>
-<ARA_EquipmentIncubator.IncubationTime>Incubation time: {0} days</ARA_EquipmentIncubator.IncubationTime>
-<ARA_EquipmentIncubator.ResearchCompleted>Research Completed: {0}</ARA_EquipmentIncubator.ResearchCompleted>
-<ARA_EquipmentIncubator.ResearchRequired>Need research: {0}</ARA_EquipmentIncubator.ResearchRequired>
+<ARA_EquipmentIncubator.IncubationTime>Hatching time: {0} days</ARA_EquipmentIncubator.IncubationTime>
+<ARA_EquipmentIncubator.ResearchCompleted>Research completed: {0}</ARA_EquipmentIncubator.ResearchCompleted>
 <ARA_EquipmentIncubator.NoResearchRequired>No research required</ARA_EquipmentIncubator.NoResearchRequired>
-<ARA_EquipmentIncubator.ButtonDesc>Click to select the item you want to hatch</ARA_EquipmentIncubator.ButtonDesc>
-<ARA_EquipmentIncubator.MenuTitle>Choose your incubation target</ARA_EquipmentIncubator.MenuTitle>
+<ARA_EquipmentIncubator.ButtonDesc>Please select an item to hatch</ARA_EquipmentIncubator.ButtonDesc>
+<ARA_EquipmentIncubator.MenuTitle>Select hatching target</ARA_EquipmentIncubator.MenuTitle>
 <ARA_EquipmentIncubator.TargetSwitched>Switched target: {0}</ARA_EquipmentIncubator.TargetSwitched>
 <ARA_EquipmentIncubator.StartedNutrientConsumption>Start consuming nutrient solution...</ARA_EquipmentIncubator.StartedNutrientConsumption>
-<ARA_EquipmentIncubator.NutrientRequirementsMet>Nutrient solution needs have been met!</ARA_EquipmentIncubator.NutrientRequirementsMet>
-<ARA_EquipmentIncubator.NutrientConsumption>Nutrient solution consumption</ARA_EquipmentIncubator.NutrientConsumption>
+<ARA_EquipmentIncubator.NutrientRequirementsMet>You have fulfilled your nutrient solution requirements!</ARA_EquipmentIncubator.NutrientRequirementsMet>
+<ARA_EquipmentIncubator.NutrientConsumption>nutrient solution consumption</ARA_EquipmentIncubator.NutrientConsumption>
 <ARA_EquipmentIncubator.NoNutrientCost>No nutrient solution required</ARA_EquipmentIncubator.NoNutrientCost>
-<ARA_EquipmentIncubator.NutrientRequirement>Nutrient solution plot required: {0}</ARA_EquipmentIncubator.NutrientRequirement>
+<ARA_EquipmentIncubator.NutrientRequirement>Nutrient liquid tile required: {0}</ARA_EquipmentIncubator.NutrientRequirement>
 <ARA_EquipmentIncubator.NutrientConsumed>Consumed: {0}</ARA_EquipmentIncubator.NutrientConsumed>
 <ARA_EquipmentIncubator.NutrientProgress>Progress: {0}</ARA_EquipmentIncubator.NutrientProgress>
 <ARA_EquipmentIncubator.ConsumingNutrients>Consuming nutrient solution...</ARA_EquipmentIncubator.ConsumingNutrients>
-<ARA_EquipmentIncubator.NutrientDeficiencyDamage>The cocoon takes {0} points of damage due to lack of nutrient solution!</ARA_EquipmentIncubator.NutrientDeficiencyDamage>
-<ARA_EquipmentIncubator.IncubationPausedNoNutrients>Incubation of {0} is suspended due to lack of nutrient solution</ARA_EquipmentIncubator.IncubationPausedNoNutrients>
+<ARA_EquipmentIncubator.NutrientDeficiencyDamage>The cocoon received {0} damage due to lack of nutrient solution!</ARA_EquipmentIncubator.NutrientDeficiencyDamage>
+<ARA_EquipmentIncubator.IncubationPausedNoNutrients>Hatching of {0} has been temporarily halted due to lack of nutrient solution.</ARA_EquipmentIncubator.IncubationPausedNoNutrients>
 <ARA_EquipmentIncubator.IncubationPausedWarning>Warning: Hatching paused - no nutrient solution available!</ARA_EquipmentIncubator.IncubationPausedWarning>
-<ARA_EquipmentIncubator.NutrientDeficiencyWarning>Warning: No nutrient solution available - taking damage!</ARA_EquipmentIncubator.NutrientDeficiencyWarning>
-<ARA_EquipmentIncubator.LowHealthWarning>Building health is extremely low: {0}</ARA_EquipmentIncubator.LowHealthWarning>
-<ARA_EquipmentIncubator.EstimatedNutrientCost>Estimated nutrient solution required: {0}</ARA_EquipmentIncubator.EstimatedNutrientCost>
-<ARA_EquipmentIncubator.NutrientSearchRadius>Nutrient solution absorption radius: {0} grid</ARA_EquipmentIncubator.NutrientSearchRadius>
-<ARA_EquipmentIncubator.SearchRadius>Search radius: {0} grid</ARA_EquipmentIncubator.SearchRadius>
-<ARA_EquipmentIncubator.AvailableCells>Available nutrient solution plots: {0}</ARA_EquipmentIncubator.AvailableCells>
-<ARA_EquipmentIncubator.NoAvailableCells>There are no available nutrient solution plots in the range!</ARA_EquipmentIncubator.NoAvailableCells>
+<ARA_EquipmentIncubator.NutrientDeficiencyWarning>Warning: No nutrient fluid available - damage taken!</ARA_EquipmentIncubator.NutrientDeficiencyWarning>
+<ARA_EquipmentIncubator.LowHealthWarning>The durability of the building has decreased significantly: {0}</ARA_EquipmentIncubator.LowHealthWarning>
+<ARA_EquipmentIncubator.EstimatedNutrientCost>Estimated required nutrient solution: {0}</ARA_EquipmentIncubator.EstimatedNutrientCost>
+<ARA_EquipmentIncubator.NutrientSearchRadius>Nutrient liquid absorption radius: {0} squares</ARA_EquipmentIncubator.NutrientSearchRadius>
+<ARA_EquipmentIncubator.SearchRadius>Search radius: {0} spaces</ARA_EquipmentIncubator.SearchRadius>
+<ARA_EquipmentIncubator.AvailableCells>Available nutrient liquid tiles: {0}</ARA_EquipmentIncubator.AvailableCells>
+<ARA_EquipmentIncubator.NoAvailableCells>There are no nutrient liquid tiles available within range!</ARA_EquipmentIncubator.NoAvailableCells>
 <ARA_EquipmentIncubator.IncubationTab>Hatching progress</ARA_EquipmentIncubator.IncubationTab>
-<ARA_EquipmentIncubator.NotAnEquipmentOotheca>This is not a gear cocoon</ARA_EquipmentIncubator.NotAnEquipmentOotheca>
+<ARA_EquipmentIncubator.NotAnEquipmentOotheca>This is not a cocoon for equipment</ARA_EquipmentIncubator.NotAnEquipmentOotheca>
 <ARA_EquipmentIncubator.IncubationProgress>Hatching progress</ARA_EquipmentIncubator.IncubationProgress>
 <ARA_EquipmentIncubator.IncubationProgressLabel>Hatching progress</ARA_EquipmentIncubator.IncubationProgressLabel>
-<ARA_EquipmentIncubator.QualityProgress>Quality progress</ARA_EquipmentIncubator.QualityProgress>
-<ARA_EquipmentIncubator.LarvaIsActivatingOotheca>Larva activating cocoon</ARA_EquipmentIncubator.LarvaIsActivatingOotheca>
-<ARA_EquipmentIncubator.SecondsRemaining>seconds remaining</ARA_EquipmentIncubator.SecondsRemaining>
-<ARA_EquipmentIncubator.LarvaIsOnTheWay>Larvae on their way</ARA_EquipmentIncubator.LarvaIsOnTheWay>
-<ARA_EquipmentIncubator.ReadyToIncubate>ready to hatch</ARA_EquipmentIncubator.ReadyToIncubate>
+<ARA_EquipmentIncubator.QualityProgress>quality progress</ARA_EquipmentIncubator.QualityProgress>
+<ARA_EquipmentIncubator.LarvaIsActivatingOotheca>The larva is starting a cocoon</ARA_EquipmentIncubator.LarvaIsActivatingOotheca>
+<ARA_EquipmentIncubator.SecondsRemaining>seconds left</ARA_EquipmentIncubator.SecondsRemaining>
+<ARA_EquipmentIncubator.LarvaIsOnTheWay>The larva is on its way</ARA_EquipmentIncubator.LarvaIsOnTheWay>
+<ARA_EquipmentIncubator.ReadyToIncubate>Ready to hatch</ARA_EquipmentIncubator.ReadyToIncubate>
 <ARA_EquipmentIncubator.Requires>need</ARA_EquipmentIncubator.Requires>
-<ARA_EquipmentIncubator.NoIncubationTargetSelected>No hatch target selected</ARA_EquipmentIncubator.NoIncubationTargetSelected>
+<ARA_EquipmentIncubator.NoIncubationTargetSelected>No hatching target selected</ARA_EquipmentIncubator.NoIncubationTargetSelected>
 <ARA_EquipmentIncubator.WaitingForNutrients>Waiting for nutrient solution...</ARA_EquipmentIncubator.WaitingForNutrients>
 <ARA_Consumed>Consumed</ARA_Consumed>
-<ARA_Gizmo_SelectIncubationTarget>Choose your incubation target...</ARA_Gizmo_SelectIncubationTarget>
+<ARA_Gizmo_SelectIncubationTarget>Selecting hatching target...</ARA_Gizmo_SelectIncubationTarget>
 <ARA_Label_Quality>quality:</ARA_Label_Quality>
-<ARA_Label_Progress>schedule:</ARA_Label_Progress>
-<ARA_Status_SelectTarget>Click above to select your target</ARA_Status_SelectTarget>
-<ARA_Status_NeedResearch>Need to complete research</ARA_Status_NeedResearch>
-<ARA_Status_LarvaActivating>Larvae are activating...</ARA_Status_LarvaActivating>
-<ARA_Status_LarvaOnTheWay>The larvae are on their way...</ARA_Status_LarvaOnTheWay>
-<ARA_Days>sky</ARA_Days>
-<ARA_Tooltip_Incubating>【Incubating】</ARA_Tooltip_Incubating>
+<ARA_Label_Progress>Progress:</ARA_Label_Progress>
+<ARA_Status_SelectTarget>Click above to select target</ARA_Status_SelectTarget>
+<ARA_Status_NeedResearch>Research must be completed</ARA_Status_NeedResearch>
+<ARA_Status_LarvaActivating>Starting up Tsukemushi...</ARA_Status_LarvaActivating>
+<ARA_Status_LarvaOnTheWay>The caterpillar is on the move...</ARA_Status_LarvaOnTheWay>
+<ARA_Days>day</ARA_Days>
+<ARA_Tooltip_Incubating>[Hatching]</ARA_Tooltip_Incubating>
 <ARA_Tooltip_Target>Target: {0}</ARA_Tooltip_Target>
 <ARA_Tooltip_Progress>Progress: {0}</ARA_Tooltip_Progress>
 <ARA_Tooltip_Quality>Quality: {0}{1}</ARA_Tooltip_Quality>
 <ARA_Tooltip_Remaining>Remaining: {0}</ARA_Tooltip_Remaining>
-<ARA_Tooltip_Ready>【Ready】</ARA_Tooltip_Ready>
+<ARA_Tooltip_Ready>[Ready completed]</ARA_Tooltip_Ready>
 <ARA_Tooltip_Duration>Hatching time: {0}</ARA_Tooltip_Duration>
-<ARA_Tooltip_NoTarget>[No target selected]\nClick on the title to select the incubation target</ARA_Tooltip_NoTarget>
+<ARA_Tooltip_NoTarget>[Target not selected]\nClick on the title to select the hatching target</ARA_Tooltip_NoTarget>
 </LanguageData>

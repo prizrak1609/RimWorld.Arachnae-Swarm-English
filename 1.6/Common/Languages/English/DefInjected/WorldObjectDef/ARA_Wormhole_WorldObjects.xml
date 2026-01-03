@@ -1,7 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_TravelingWormhole.label>Excavating Wormhole</ARA_TravelingWormhole.label>
-
-
+<ARA_TravelingWormhole.label>Wormhole being excavated</ARA_TravelingWormhole.label>
 </LanguageData>

@@ -1,12 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ARA_Refuel_Nutrition.label>Refuel Nutrition</ARA_Refuel_Nutrition.label>
-  <ARA_Refuel_Nutrition.verb>Refuel</ARA_Refuel_Nutrition.verb>
-  <ARA_Refuel_Nutrition.gerund>Refueling</ARA_Refuel_Nutrition.gerund>
-
-  <ARA_SkillTraining_Building_Bills.label>Skill Training</ARA_SkillTraining_Building_Bills.label>
-  <ARA_SkillTraining_Building_Bills.verb>Train</ARA_SkillTraining_Building_Bills.verb>
-  <ARA_SkillTraining_Building_Bills.gerund>Training</ARA_SkillTraining_Building_Bills.gerund>
-
+<ARA_Refuel_Nutrition.label>nourish</ARA_Refuel_Nutrition.label>
+<ARA_Refuel_Nutrition.verb>supply</ARA_Refuel_Nutrition.verb>
+<ARA_Refuel_Nutrition.gerund>replenish</ARA_Refuel_Nutrition.gerund>
+<ARA_SkillTraining_Building_Bills.label>skills training</ARA_SkillTraining_Building_Bills.label>
+<ARA_SkillTraining_Building_Bills.verb>training</ARA_SkillTraining_Building_Bills.verb>
+<ARA_SkillTraining_Building_Bills.gerund>train</ARA_SkillTraining_Building_Bills.gerund>
+<ARA_SwarmMaintain.label>maintain</ARA_SwarmMaintain.label>
+<ARA_SwarmMaintain.verb>maintain</ARA_SwarmMaintain.verb>
+<ARA_SwarmMaintain.gerund>maintain</ARA_SwarmMaintain.gerund>
+<ARA_ExtractHoney.label>excrete honey</ARA_ExtractHoney.label>
+<ARA_ExtractHoney.verb>Excrete insect nectar</ARA_ExtractHoney.verb>
+<ARA_ExtractHoney.gerund>excrete honey</ARA_ExtractHoney.gerund>
+<ARA_StripChitin.label>peel off the shell</ARA_StripChitin.label>
+<ARA_StripChitin.verb>peel off the shell</ARA_StripChitin.verb>
+<ARA_StripChitin.gerund>peel off the shell</ARA_StripChitin.gerund>
+<ARA_FeedWithHoney.label>feeding</ARA_FeedWithHoney.label>
+<ARA_FeedWithHoney.verb>feeding</ARA_FeedWithHoney.verb>
+<ARA_FeedWithHoney.gerund>feed</ARA_FeedWithHoney.gerund>
 </LanguageData>

@@ -3,12 +3,31 @@
   <name>Arachnae Swarm English</name>
   <author>Geel</author>
   <description>
-  Geminy AI english translation for https://steamcommunity.com/sharedfiles/filedetails/?id=3584635117
-  If original developer requests to remove this mod, it will be removed
-  
-  If you want to fix translation or do some changes in this mod, here is a github link: https://github.com/prizrak1609/Arachnae-Swarm-English
-  Or just write your proposal in comments
-  If you find something not translated, write please this in comments with information how to find not translated text in game
+  [h1]Gemini AI English Translation For [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3584635117]Arachnae Swarm[/url][/h1]
+
+This mod provides a full English translation for the [b]Arachnae Swarm[/b] mod, generated and refined using Gemini AI.
+
+[hr]
+
+[h3]Contributions and Feedback[/h3]
+If you would like to help improve the translation or suggest changes, feel free to:
+[list]
+[*] [b]Contribute on GitHub:[/b] [url=https://github.com/prizrak1609/Arachnae-Swarm-English]Arachnae-Swarm-English[/url]
+[*] [b]Leave a Comment:[/b] Post your suggestions or feedback in the comments section below.
+[/list]
+
+[h3]Reporting Missing Text[/h3]
+If you find any text that is still untranslated, please let me know in the comments.
+
+To help me fix it quickly, please include:
+[list]
+[*] 1. A description of the untranslated text.
+[*] 2. Where or how to find it in-game (e.g., specific menus, item descriptions, or events).
+[/list]
+
+[hr]
+
+[quote][b]Note:[/b] If the original developer of Arachnae Swarm wishes for this translation to be removed, I will do so immediately upon request.[/quote]
   </description>
   <supportedVersions>
     <li>1.6</li>

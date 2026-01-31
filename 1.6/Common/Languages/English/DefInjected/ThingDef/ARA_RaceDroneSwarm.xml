@@ -10,12 +10,12 @@
 <ArachnaeBase_Race_Skyhive.comps.CompMechPowerCell.labelOverride>lifespan</ArachnaeBase_Race_Skyhive.comps.CompMechPowerCell.labelOverride>
 <ArachnaeBase_Race_Skyhive.comps.CompMechPowerCell.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Skyhive.comps.CompMechPowerCell.tooltipOverride>
 <ArachnaeBase_Race_Skyhive.tools.0.label>giant jaw</ArachnaeBase_Race_Skyhive.tools.0.label>
-<ArachnaeBase_Race_Acidling.label>Arachne explosive type</ArachnaeBase_Race_Acidling.label>
+<ArachnaeBase_Race_Acidling.label>Arachne explosive species</ArachnaeBase_Race_Acidling.label>
 <ArachnaeBase_Race_Acidling.description>A type of arachne beetle, it has low intelligence and attacks its enemies with a self-destructive attack. When it gets close to an enemy, it explodes acid sac, creating a dangerous acidic mist.</ArachnaeBase_Race_Acidling.description>
 <ArachnaeBase_Race_Acidling.comps.CompMechPowerCell.labelOverride>lifespan</ArachnaeBase_Race_Acidling.comps.CompMechPowerCell.labelOverride>
 <ArachnaeBase_Race_Acidling.comps.CompMechPowerCell.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Acidling.comps.CompMechPowerCell.tooltipOverride>
 <ArachnaeBase_Race_Acidling.tools.0.label>giant jaw</ArachnaeBase_Race_Acidling.tools.0.label>
-<ArachnaeBase_Race_Empsuicider.label>Arachne explosive type</ArachnaeBase_Race_Empsuicider.label>
+<ArachnaeBase_Race_Empsuicider.label>Arachne explosive species</ArachnaeBase_Race_Empsuicider.label>
 <ArachnaeBase_Race_Empsuicider.description>It is a type of Arachne worm that has low intelligence and attacks enemies with a self-destruct attack.When it approaches an enemy, it emits an EMP and stuns the accompanying mechanoid.</ArachnaeBase_Race_Empsuicider.description>
 <ArachnaeBase_Race_Empsuicider.comps.CompMechPowerCell.labelOverride>lifespan</ArachnaeBase_Race_Empsuicider.comps.CompMechPowerCell.labelOverride>
 <ArachnaeBase_Race_Empsuicider.comps.CompMechPowerCell.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Empsuicider.comps.CompMechPowerCell.tooltipOverride>

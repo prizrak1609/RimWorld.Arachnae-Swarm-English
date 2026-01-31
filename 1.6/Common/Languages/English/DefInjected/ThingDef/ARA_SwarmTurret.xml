@@ -22,7 +22,7 @@
 <ARA_Acidling_AutoMortar.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>insect honey</ARA_Acidling_AutoMortar.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
 <ARA_Acidling_Artillery_AutoMortar.label>Explosive launcher nest</ARA_Acidling_Artillery_AutoMortar.label>
 <ARA_Acidling_Artillery_AutoMortar.verbs.Verb_ShootWithOffset.label>Explosive launcher nest</ARA_Acidling_Artillery_AutoMortar.verbs.Verb_ShootWithOffset.label>
-<ArachnaeBase_Race_Acidling_Proj.label>Arachne explosive type</ArachnaeBase_Race_Acidling_Proj.label>
+<ArachnaeBase_Race_Acidling_Proj.label>Arachne explosive species</ArachnaeBase_Race_Acidling_Proj.label>
 <CatastropheMissileSilo.label>disaster acid cannon organization</CatastropheMissileSilo.label>
 <CatastropheMissileSilo.description>It is one of the ultimate biological weapons evolved by the Arachne insects. It is composed of a group of highly specialized organs without autonomy, and a formidable acid cannon fires disaster acid missiles. As a complex defense system, it is capable of firing at local targets and precision strikes against long-range threats, and can automatically generate replenishment ammunition by acquiring nutrients.</CatastropheMissileSilo.description>
 <CatastropheMissileSilo.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>insect honey</CatastropheMissileSilo.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>

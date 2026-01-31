@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<ARA_Wave_Scout_Patrol.label>reconnaissance patrol</ARA_Wave_Scout_Patrol.label>
+<ARA_Wave_Scout_Patrol.description>A small reconnaissance unit, mainly consisting of long-range combat units, that fire shots to confuse the enemy.</ARA_Wave_Scout_Patrol.description>
+<ARA_Wave_Assault_Team.label>assault platoon</ARA_Wave_Assault_Team.label>
+<ARA_Wave_Assault_Team.description>A high-speed assault force centered on close combat units that excels at rushing battles.</ARA_Wave_Assault_Team.description>
+<ARA_Wave_Acid_Swarm.label>Acid fluid insect group</ARA_Wave_Acid_Swarm.label>
+<ARA_Wave_Acid_Swarm.description>It is a swarm tactic of insects made up of many acidic species, and although they are large in number, the individuals are vulnerable.</ARA_Wave_Acid_Swarm.description>
+<ARA_Wave_Heavy_Defense.label>heavy defense force</ARA_Wave_Heavy_Defense.label>
+<ARA_Wave_Heavy_Defense.description>This is a defensive unit made up mainly of shieldhead types, and although their movement is slow, they have excellent defensive power.</ARA_Wave_Heavy_Defense.description>
+<ARA_Wave_Mixed_Forces.label>mixed troops</ARA_Wave_Mixed_Forces.label>
+<ARA_Wave_Mixed_Forces.description>This is a mixed force with a well-balanced mix of all units.</ARA_Wave_Mixed_Forces.description>
+</LanguageData>

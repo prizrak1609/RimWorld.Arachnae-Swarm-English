@@ -11,7 +11,7 @@
 <ARA_Rising.label>getting up</ARA_Rising.label>
 <ARA_Rising.description>The strong regenerative ability caused by Arachne pseudonematode parasitism has revived this body.</ARA_Rising.description>
 <ARA_MimicNematodeShamblerShamblerCorpse.label>Pseudoline parasite corpse</ARA_MimicNematodeShamblerShamblerCorpse.label>
-<ARA_MimicNematodeShamblerShamblerCorpse.description>This body has just been ``resurrected'' by being parasitized by Arachne pseudolines.</ARA_MimicNematodeShamblerShamblerCorpse.description>
+<ARA_MimicNematodeShamblerShamblerCorpse.description>This body has just been ``resurrected'' after being parasitized by Arachne pseudolines.</ARA_MimicNematodeShamblerShamblerCorpse.description>
 <ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.0.debugLabel>shambler scar</ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.0.debugLabel>
 <ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.1.debugLabel>shambler scar</ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.1.debugLabel>
 </LanguageData>

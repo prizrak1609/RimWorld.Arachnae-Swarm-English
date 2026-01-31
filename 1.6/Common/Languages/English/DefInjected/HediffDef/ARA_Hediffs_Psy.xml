@@ -3,7 +3,7 @@
 <ARA_GuardianPsyField.label>Origen Psychic Field</ARA_GuardianPsyField.label>
 <ARA_GuardianPsyField.description>A powerful psychic defense field that automatically intercepts hostile flying objects that enter its range of action.The total amount of the shield depends on psychic sensitivity and is difficult to penetrate, but psychic entropy is accumulated each time it is intercepted.</ARA_GuardianPsyField.description>
 <ARA_Psi_Master.label>psychic master</ARA_Psi_Master.label>
-<ARA_Psi_Master.description>The Arachne Orioles are the psychic masters of the colony. They are adept at using psychic abilities, and can use them not only for their own flight, but also as a conduit to protect nearby friendly units and fire energy attacks at their enemies.</ARA_Psi_Master.description>
+<ARA_Psi_Master.description>The Arachne Orioles are the psychic masters of the colony. They are adept at using psychic abilities, and can use them not only for their own flight, but also as a conduit to protect nearby friendly units and fire energy attacks at enemies.</ARA_Psi_Master.description>
 <ARA_Psi_Conductor.label>psychic conductor</ARA_Psi_Conductor.label>
 <ARA_Psi_Conductor.description>The arachne Oria species uses this colonist as a conductor for its own powerful psychic energy. The Oria species controls the colonist's psychic ability to perform automatic attacks on enemies, making the colonist more difficult to defeat—at the cost of putting the colonist into a short period of psychoshock.</ARA_Psi_Conductor.description>
 <ARA_Praetorian_Commander_Hediff.label>command node</ARA_Praetorian_Commander_Hediff.label>

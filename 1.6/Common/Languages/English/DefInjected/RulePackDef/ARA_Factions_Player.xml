@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<li>r_name->[hivename2] in [hivename1]</li>
-<li>hivename1->nihility</li>
-<li>hivename1->Abyss</li>
-<li>hivename1->devour</li>
-<li>hivename1->evolution</li>
-<li>hivename1->primitive</li>
-<li>hivename1->fusion</li>
-<li>hivename1->Ecchial bone</li>
-<li>hivename2->bee hive</li>
-<li>hivename2->insect swarm</li>
-<li>hivename2->Claw Fang</li>
-<li>hivename2->beast group</li>
-<li>hivename2->tentacle</li>
-<li>r_name->[hivesettlementname2] in [hivesettlementname1]</li>
-<li>hivesettlementname1->scarlet</li>
-<li>hivesettlementname1->Supreme</li>
-<li>hivesettlementname1->only</li>
-<li>hivesettlementname1->infestation</li>
-<li>hivesettlementname1->Eihei</li>
-<li>hivesettlementname1->permanent</li>
-<li>hivesettlementname2->core</li>
-<li>hivesettlementname2->inner core</li>
-<li>hivesettlementname2->Gist</li>
-<li>hivesettlementname2->center</li>
-<li>hivesettlementname2->Focus</li>
-<li>hivesettlementname2->origin</li>
-<li>hivesettlementname2->fulcrum</li>
-<li>hivesettlementname2->Axis</li>
-<li>hivesettlementname2->central</li>
-<li>hivesettlementname2->mother</li>
-<li>hivesettlementname2->source</li>
-<li>hivesettlementname2->source</li>
-<li>hivesettlementname2->substrate</li>
-<li>hivesettlementname2->Progenitor</li>
-<li>hivesettlementname2->main brain</li>
-<li>hivesettlementname2->Sushin</li>
-<li>r_name->worm nest</li>
+<li>r_name-&gt;[hivename2] of [hivename1]</li>
+<li>hivename1-&gt;nihility</li>
+<li>hivename1-&gt;Abyss</li>
+<li>hivename1-&gt;devour</li>
+<li>hivename1-&gt;evolution</li>
+<li>hivename1-&gt;primitive</li>
+<li>hivename1-&gt;fusion</li>
+<li>hivename1-&gt;Ecchial bone</li>
+<li>hivename2-&gt;bee hive</li>
+<li>hivename2-&gt;insect swarm</li>
+<li>hivename2-&gt;Claw Fang</li>
+<li>hivename2-&gt;beast group</li>
+<li>hivename2-&gt;tentacle</li>
+<li>r_name-&gt;[hivesettlementname2] in [hivesettlementname1]</li>
+<li>hivesettlementname1-&gt;scarlet</li>
+<li>hivesettlementname1-&gt;Supreme</li>
+<li>hivesettlementname1-&gt;only</li>
+<li>hivesettlementname1-&gt;infestation</li>
+<li>hivesettlementname1-&gt;Eihei</li>
+<li>hivesettlementname1-&gt;permanent</li>
+<li>hivesettlementname2-&gt;core</li>
+<li>hivesettlementname2-&gt;inner core</li>
+<li>hivesettlementname2-&gt;Gist</li>
+<li>hivesettlementname2-&gt;center</li>
+<li>hivesettlementname2-&gt;Focus</li>
+<li>hivesettlementname2-&gt;origin</li>
+<li>hivesettlementname2-&gt;fulcrum</li>
+<li>hivesettlementname2-&gt;Axis</li>
+<li>hivesettlementname2-&gt;central</li>
+<li>hivesettlementname2-&gt;mother</li>
+<li>hivesettlementname2-&gt;source</li>
+<li>hivesettlementname2-&gt;source</li>
+<li>hivesettlementname2-&gt;substrate</li>
+<li>hivesettlementname2-&gt;Progenitor</li>
+<li>hivesettlementname2-&gt;main brain</li>
+<li>hivesettlementname2-&gt;Sushin</li>
+<li>r_name-&gt;worm nest</li>
 </LanguageData>

@@ -15,7 +15,7 @@
 <ARA_Tumor.description>A fungus that emits a faint light and illuminates the Arachne burrow.In addition to illuminating it, it also spreads the creep over a wide area on the ground, allowing the worker bees to set up more Arachne buildings.There is no need to build on Arachne creep.</ARA_Tumor.description>
 <ARA_Tumor_SunLamp.label>Arachne light tumor</ARA_Tumor_SunLamp.label>
 <ARA_Tumor_SunLamp.description>It is larger than the ordinary fungus, and the internal light-emitting organs are very bright and can support the light conditions of crops.However, the lifespan is short and the creep does not spread.</ARA_Tumor_SunLamp.description>
-<ARA_NodeNest.label>Arachne insect burrow</ARA_NodeNest.label>
+<ARA_NodeNest.label>Arachne insect nest</ARA_NodeNest.label>
 <ARA_NodeNest.description>The burrow, which the Arachne insect lives in, is a "nest" made of chitinous carapace, muscle, and connective tissue, and is an excellent recovery site for the insect.</ARA_NodeNest.description>
 <ARA_ResearchBench.label>Arachne research table</ARA_ResearchBench.label>
 <ARA_ResearchBench.description>It is a living structure for research by the Arachne insect group, allowing the insect group to freely explore the direction of mutation and evolution.</ARA_ResearchBench.description>

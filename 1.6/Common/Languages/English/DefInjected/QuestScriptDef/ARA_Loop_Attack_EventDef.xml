@@ -2,8 +2,8 @@
 <LanguageData>
 <ARA_Loop_Raid_Quest.label>Insect swarm attack</ARA_Loop_Raid_Quest.label>
 <ARA_Loop_Raid_Quest.description>Insect swarm attack description</ARA_Loop_Raid_Quest.description>
-<li>questName->Insect Swarm Attack</li>
-<li>questName->Insect Swarm AttackquestDescription</li>
+<li>questName-&gt;Insect Swarm Attack</li>
+<li>questName-&gt;Insect Swarm AttackquestDescription</li>
 <ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterLabel.slateRef>Insect Swarm Attack Label</ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterLabel.slateRef>
 <ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterText.slateRef>Insect Swarm AttackText</ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterText.slateRef>
 <ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterTitle.slateRef>Insect Swarm AttackTitle</ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterTitle.slateRef>

@@ -2,7 +2,7 @@
 <LanguageData>
 <AircraftManagerNotFound>Air management unit not found!</AircraftManagerNotFound>
 <AircraftStrikeInitiated>Start air attack: {0}</AircraftStrikeInitiated>
-<AircraftStrikeSuccess>Air attack: Successful using {1} with {0} aircraft</AircraftStrikeSuccess>
+<AircraftStrikeSuccess>Aerial attack: Successful using {1} with {0} aircraft</AircraftStrikeSuccess>
 <NoAvailableAircraft>There are no aerial insects available: {0}</NoAvailableAircraft>
 <AircraftStrikeFailed>Aerial beast attack failure: {0} is not available for {1}</AircraftStrikeFailed>
 <NoAircraftForStrike>There are no insects available for attack by {0}.</NoAircraftForStrike>
@@ -21,7 +21,7 @@
 <HangarDamaged>The insect is damaged</HangarDamaged>
 <AircraftLaunched>The beast takes off: {1} to {0}</AircraftLaunched>
 <TakeoffEffectMapNull>Unable to generate takeoff effect: parent map does not exist</TakeoffEffectMapNull>
-<TakeoffSkyfallerCreated>Generate a take-off sky crasher with one stack of bio-liquefied fuel on {0}</TakeoffSkyfallerCreated>
+<TakeoffSkyfallerCreated>Create a take-off sky crasher with one stack of bio-liquefied fuel on {0}</TakeoffSkyfallerCreated>
 <TakeoffEffectError>Error occurred while generating takeoff effect: {0}</TakeoffEffectError>
 <AddAircraftNullFaction>Attempted to add air units to the Sky faction</AddAircraftNullFaction>
 <AircraftCooldownEnded>{0} can attack again</AircraftCooldownEnded>

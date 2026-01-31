@@ -11,7 +11,7 @@
 <ARA_ProductionCost>({0} nutrition)</ARA_ProductionCost>
 <CommandCancelProduction>discontinued production</CommandCancelProduction>
 <CommandCancelProductionDesc>Stop the current production process.</CommandCancelProductionDesc>
-<Producing>Currently producing {0}</Producing>
+<Producing>{0} in production</Producing>
 <TimeLeft>Remaining time</TimeLeft>
 <ProjectedQuality>Prediction quality</ProjectedQuality>
 <NotProducing>No production</NotProducing>

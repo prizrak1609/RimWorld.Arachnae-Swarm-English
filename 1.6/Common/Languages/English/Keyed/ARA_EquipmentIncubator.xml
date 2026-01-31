@@ -36,7 +36,7 @@
 <ARA_EquipmentIncubator.HasEmergedWith>Produced.Quality:</ARA_EquipmentIncubator.HasEmergedWith>
 <ARA_EquipmentIncubator.QualityExcellent>legend</ARA_EquipmentIncubator.QualityExcellent>
 <ARA_EquipmentIncubator.QualityGood>Masterpiece</ARA_EquipmentIncubator.QualityGood>
-<ARA_EquipmentIncubator.QualityAverage>Excellent product</ARA_EquipmentIncubator.QualityAverage>
+<ARA_EquipmentIncubator.QualityAverage>Excellent item</ARA_EquipmentIncubator.QualityAverage>
 <ARA_EquipmentIncubator.QualityPoor>Good product</ARA_EquipmentIncubator.QualityPoor>
 <ARA_EquipmentIncubator.QualityVeryPoor>Standard product</ARA_EquipmentIncubator.QualityVeryPoor>
 <ARA_EquipmentIncubator.Quality>quality</ARA_EquipmentIncubator.Quality>
@@ -53,7 +53,7 @@
 <ARA_EquipmentIncubator.SpeedMultiplier>speed multiplier</ARA_EquipmentIncubator.SpeedMultiplier>
 <ARA_EquipmentIncubator.QualityMultiplier>quality magnification</ARA_EquipmentIncubator.QualityMultiplier>
 <ARA_EquipmentIncubator.CallLarva>call the larvae</ARA_EquipmentIncubator.CallLarva>
-<ARA_EquipmentIncubator.CancelIncubation>production canceled</ARA_EquipmentIncubator.CancelIncubation>
+<ARA_EquipmentIncubator.CancelIncubation>cancel production</ARA_EquipmentIncubator.CancelIncubation>
 <ARA_EquipmentIncubator.CancelIncubationDesc>Cancel the current production process.The contents of the eggplant will be lost.</ARA_EquipmentIncubator.CancelIncubationDesc>
 <ARA_EquipmentIncubator.IncubateLabel>Production: {0}</ARA_EquipmentIncubator.IncubateLabel>
 <ARA_EquipmentIncubator.ButtonDesc>Select the equipment type to produce.The larva will come and launch the equipment egg.</ARA_EquipmentIncubator.ButtonDesc>

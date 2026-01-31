@@ -49,7 +49,7 @@
 <FuelTankFull>Resources are full</FuelTankFull>
 <CurrentFuel>Current resource stock</CurrentFuel>
 <AcidDamageProgress>Progress until the next damage occurs</AcidDamageProgress>
-<RefuelingVatIdle>Facility Waiting - Produces fuel when housing non-Insect settlers, prisoners, and slaves</RefuelingVatIdle>
+<RefuelingVatIdle>Facility on standby - Produces fuel when housing non-Insect settlers, prisoners, and slaves</RefuelingVatIdle>
 <RefuelingStopped>production stopped</RefuelingStopped>
 <InsertPersonRefuelingVatDesc>Select colonists, prisoners, or slaves and house them in extraction vats. They will slowly take damage and produce resources.</InsertPersonRefuelingVatDesc>
 <AssignCarryPrisoner>Assign a prisoner/slave carrier</AssignCarryPrisoner>
@@ -63,7 +63,7 @@
 <TechprintsToProduce>Production plan blueprint</TechprintsToProduce>
 <ResearchAlreadyCompleted>This research has already been completed</ResearchAlreadyCompleted>
 <ARA_TechprintCount>Generate blueprint for {0}</ARA_TechprintCount>
-<ARA_NeedSpecificArachnaeToStartResearchProduction>{0} required to start generating research</ARA_NeedSpecificArachnaeToStartResearchProduction>
+<ARA_NeedSpecificArachnaeToStartResearchProduction>Requires {0} to start generating research</ARA_NeedSpecificArachnaeToStartResearchProduction>
 <researchProjectsAvailable>Available research plans</researchProjectsAvailable>
 <ARA_TechprintProductionComplete>Production completed: Generated blueprint {0} for {1} (required for research {2})</ARA_TechprintProductionComplete>
 <ARA_QueenAlreadyExists>The newly born Empress died due to genetic convulsions—due to structural protection in the Arachnidae hive mind, there can only be one Empress per hive.</ARA_QueenAlreadyExists>

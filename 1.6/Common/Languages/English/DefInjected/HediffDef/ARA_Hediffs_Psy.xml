@@ -10,4 +10,6 @@
 <ARA_Praetorian_Commander_Hediff.description>The Arachne Forbidden Species commands the insect tribe troops around them, but their combat power is reduced because they have dispersed their consciousness to create a secondary hive mind network.</ARA_Praetorian_Commander_Hediff.description>
 <ARA_Praetorian_Command_Hediff.label>hive command</ARA_Praetorian_Command_Hediff.label>
 <ARA_Praetorian_Command_Hediff.description>Nearby Arachne Forbidden Species serve as battlefield commanders. The Arachne Bug Tribes under their command are connected by a secondary hive mind network, enhancing their overall combat capabilities.</ARA_Praetorian_Command_Hediff.description>
+<ARA_SwarmSpell_Overdrive.label>psychic nerve bundle overload</ARA_SwarmSpell_Overdrive.label>
+<ARA_SwarmSpell_Overdrive.description>An Arachne spirit sucker's nerve bundles enter a state of overload with repeated spells; this condition continually puts pressure on the spirit sucker's nervous system until it is completely burnt out.\n\nThis condition cannot be relieved on its own, and the spirit sucker has no choice but to divert this high load to other individuals. For individuals with a psy-link, this diversion is not fatal, but for individuals without a psy-link, this is not necessarily the case.</ARA_SwarmSpell_Overdrive.description>
 </LanguageData>

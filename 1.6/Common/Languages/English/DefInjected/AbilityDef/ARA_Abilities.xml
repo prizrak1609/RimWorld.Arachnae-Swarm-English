@@ -6,6 +6,10 @@
 <ARA_RaceBaseSwarmProduceOn.description>This will re-enable the ability of Arachne Insects to automatically raise Insects.</ARA_RaceBaseSwarmProduceOn.description>
 <ARA_RaceBaseSwarmProduceOff.label>Breeding suppression</ARA_RaceBaseSwarmProduceOff.label>
 <ARA_RaceBaseSwarmProduceOff.description>This will automatically disable the Arachne Insect's ability to cultivate the Arachne Insect.</ARA_RaceBaseSwarmProduceOff.description>
+<ARA_Suicide_Ability.label>suicide</ARA_Suicide_Ability.label>
+<ARA_Suicide_Ability.description>With a single command, the arachne bugs instantly end their lives for the sake of their nest.</ARA_Suicide_Ability.description>
+<ARA_Suicide_Fast_Ability.label>suicide</ARA_Suicide_Fast_Ability.label>
+<ARA_Suicide_Fast_Ability.description>With a single command, the arachne bugs instantly end their lives for the sake of their nest.</ARA_Suicide_Fast_Ability.description>
 <ARA_TumorSpew.label>Mycocele release</ARA_TumorSpew.label>
 <ARA_TumorSpew.description>It expels the mycelium and transforms a wide area around it into a mycelium.This facilitates the activity of the insect swarm.</ARA_TumorSpew.description>
 <ARA_TumorSpew.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_TumorSpew.comps.CompAbilityEffect_NeedCost.customLabel>
@@ -19,7 +23,7 @@
 <ARA_Toxic_Needle_Fire.description>Arachne insects use their venomous sting glands to fire a series of powerful poisonous tail stingers at their enemies.</ARA_Toxic_Needle_Fire.description>
 <ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_NeedCost.failMessage>
-<ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_BodyPartCheck.failMessage>The stinger cannot be emitted because the stinger gland is damaged or missing.</ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_BodyPartCheck.failMessage>
+<ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_BodyPartCheck.failMessage>The venomous stinger cannot be fired because the stinger gland is damaged or missing.</ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_BodyPartCheck.failMessage>
 <ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_ResearchPrereq.failMessage>Research plan/node PAV-5 "Poison Needle" is required to unlock the skill.</ARA_Toxic_Needle_Fire.comps.CompAbilityEffect_ResearchPrereq.failMessage>
 <ARA_AcidSprayBurst.label>Acid liquid injection</ARA_AcidSprayBurst.label>
 <ARA_AcidSprayBurst.description>The Arachne Insect sprays a corrosive acid liquid at the target location.Although it is not as strong as the Empress type's acid rain, the power of the insect acid is still brutal.</ARA_AcidSprayBurst.description>
@@ -27,10 +31,6 @@
 <ARA_AcidSprayBurst.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_AcidSprayBurst.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_AcidSprayBurst.comps.CompAbilityEffect_BodyPartCheck.failMessage>Acid solution cannot be sprayed because the acid sac is damaged or missing.</ARA_AcidSprayBurst.comps.CompAbilityEffect_BodyPartCheck.failMessage>
 <ARA_AcidSprayBurst.comps.CompAbilityEffect_ResearchPrereq.failMessage>Research plan/node VXI-6 "acid sac" is required to unlock the skill.</ARA_AcidSprayBurst.comps.CompAbilityEffect_ResearchPrereq.failMessage>
-<ARA_BaseRace_Skyhive_Launcher.label>Tensu seed nest ejaculation</ARA_BaseRace_Skyhive_Launcher.label>
-<ARA_BaseRace_Skyhive_Launcher.description>Fires 3 Arachne Tensu seed insects at the enemy.The Tensu seeds attach to the enemy, bite them, and then continue attacking even if they move away.</ARA_BaseRace_Skyhive_Launcher.description>
-<ARA_BaseRace_Skyhive_Launcher.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_BaseRace_Skyhive_Launcher.comps.CompAbilityEffect_NeedCost.customLabel>
-<ARA_BaseRace_Skyhive_Launcher.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_BaseRace_Skyhive_Launcher.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_Skyraider_jump.label>high altitude maneuver</ARA_Skyraider_jump.label>
 <ARA_Skyraider_jump.description>It drives its strong wings all at once and instantly moves to a new position.</ARA_Skyraider_jump.description>
 <ARA_Skyraider_jump.verbProperties.label>jump</ARA_Skyraider_jump.verbProperties.label>
@@ -42,6 +42,8 @@
 <ARA_Ability_Smokepop.description>The stray mist species releases a large amount of Arachne pheromone smoke from its abdomen. This smoke hides the appearance of the insect swarm and blocks the flames. The more people (both friend and foe) stained with the pheromones, the more reinforcement insect people will appear from underground.</ARA_Ability_Smokepop.description>
 <ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.failMessage>
+<ARA_Baneling_Suicide_Ability.label>benign self-destruction</ARA_Baneling_Suicide_Ability.label>
+<ARA_Baneling_Suicide_Ability.description>The Arachne explosive species self-destructs without activating the highly corrosive acid. This self-destruction causes only minor damage, does not produce acid mist, and leaves a wide-spread creep.</ARA_Baneling_Suicide_Ability.description>
 <ARA_Smokepop_Creeper_Ability_On.label>Creep laying: start</ARA_Smokepop_Creeper_Ability_On.label>
 <ARA_Smokepop_Creeper_Ability_On.description>Activates the creep-laying ability of this Arachne Kingworm species. It changes the surrounding terrain into Arachne Creep at regular intervals. Enemies that approach this Kingworm species will also receive automatic attacks from the Mycocele tube. The Mycocele tube changes the terrain and fires a Mycocele bullet that lays creep.</ARA_Smokepop_Creeper_Ability_On.description>
 <ARA_Smokepop_Creeper_Ability_Off.label>Creep laying: stop</ARA_Smokepop_Creeper_Ability_Off.label>
@@ -56,7 +58,7 @@
 <ARA_Ability_TrackingCharge.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Ability_TrackingCharge.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_Ability_TrackingCharge.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Ability_TrackingCharge.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_PsychicBrainburn.label>psychic cauterization</ARA_PsychicBrainburn.label>
-<ARA_PsychicBrainburn.description>Pure psychic energy burns out the target's nerve centers, instantly ending their life.</ARA_PsychicBrainburn.description>
+<ARA_PsychicBrainburn.description>Pure psychic energy consumes the target's nerve centers, instantly ending their life.</ARA_PsychicBrainburn.description>
 <ARA_NeuroSwarm_jump.label>high altitude maneuver</ARA_NeuroSwarm_jump.label>
 <ARA_NeuroSwarm_jump.description>It strengthens your body's ability to float, allowing you to rise quickly and fly to new locations.</ARA_NeuroSwarm_jump.description>
 <ARA_NeuroSwarm_jump.verbProperties.label>jump</ARA_NeuroSwarm_jump.verbProperties.label>
@@ -64,7 +66,11 @@
 <ARA_GuardianPsyField_On.description>Origen types develop a powerful psychic defense field that automatically intercepts hostile projectiles that enter within its range.The total amount of the shield depends on psychosensitivity, and although it is difficult to penetrate, Scienttropy accumulates each time it is intercepted.</ARA_GuardianPsyField_On.description>
 <ARA_GuardianPsyField_Off.label>Weaving area type Cyfield</ARA_GuardianPsyField_Off.label>
 <ARA_GuardianPsyField_Off.description>Stops the psychic defense field of the Ori region species.</ARA_GuardianPsyField_Off.description>
-<ARA_MimicNematode_Needle_Fire.label>Pseudoline parasitic needles</ARA_MimicNematode_Needle_Fire.label>
+<ARA_Ability_Morph.label>Weaving area form</ARA_Ability_Morph.label>
+<ARA_Ability_Morph.description>It generates oriza and transforms itself into a static structure. In this form, the Arachne weaving species can explore the more advanced techniques of insect swarms.</ARA_Ability_Morph.description>
+<ARA_Ability_Morph.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>Ability must be on the terrain</ARA_Ability_Morph.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>
+<ARA_Ability_Morph.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>Ability is disabled because it is not on terrain</ARA_Ability_Morph.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>
+<ARA_MimicNematode_Needle_Fire.label>Pseudoline parasitic needle</ARA_MimicNematode_Needle_Fire.label>
 <ARA_MimicNematode_Needle_Fire.description>It injects a needle that causes the target to be parasitized by the Arachne Pseudolines.As the infection progresses, the target becomes dominated by the Pseudolines and transforms into a strong body that ignores external stimuli.\n\nHowever, since the Pseudolines are not controlled by the Empress species, there is great danger in its use.</ARA_MimicNematode_Needle_Fire.description>
 <ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_NeedCost.failMessage>
@@ -123,14 +129,14 @@
 <ARA_Praetorian_Commander_Ability_On.description>This Arachne Guard type command node will be activated to form a secondary hive mind network that will enhance the fighting ability of the surrounding Insects. During this time, the fighting ability of the Guard type itself will be partially reduced.</ARA_Praetorian_Commander_Ability_On.description>
 <ARA_Praetorian_Commander_Ability_Off.label>Command ended</ARA_Praetorian_Commander_Ability_Off.label>
 <ARA_Praetorian_Commander_Ability_Off.description>Stops the command ability of the Arachne Guards and allows them to focus on their own battles.</ARA_Praetorian_Commander_Ability_Off.description>
-<ARA_Pouch_Hatching_Acidling.label>Cocoon hatching: explosive species</ARA_Pouch_Hatching_Acidling.label>
-<ARA_Pouch_Hatching_Acidling.description>Hatches 3 Arachne Explosive Seed Insects at your feet and causes the enemy to perform a suicide attack.</ARA_Pouch_Hatching_Acidling.description>
-<ARA_Pouch_Hatching_Acidling.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Pouch_Hatching_Acidling.comps.CompAbilityEffect_NeedCost.customLabel>
-<ARA_Pouch_Hatching_Acidling.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Pouch_Hatching_Acidling.comps.CompAbilityEffect_NeedCost.failMessage>
+<ARA_Locust_Needle_Fire.label>Poison needle shooting</ARA_Locust_Needle_Fire.label>
+<ARA_Locust_Needle_Fire.description>Arachne locusts use their venomous stinger glands to fire volleys at their enemies.</ARA_Locust_Needle_Fire.description>
+<ARA_Pouch_Hatching_Baneling.label>Cocoon hatching: explosive species</ARA_Pouch_Hatching_Baneling.label>
+<ARA_Pouch_Hatching_Baneling.description>Hatches 3 Arachne Explosive Seed Insects at your feet and causes the enemy to perform a suicide attack.</ARA_Pouch_Hatching_Baneling.description>
+<ARA_Pouch_Hatching_Baneling.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Pouch_Hatching_Baneling.comps.CompAbilityEffect_NeedCost.customLabel>
+<ARA_Pouch_Hatching_Baneling.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Pouch_Hatching_Baneling.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_Pouch_Hatching_Pouch.label>Cocoon hatching: mycocele</ARA_Pouch_Hatching_Pouch.label>
 <ARA_Pouch_Hatching_Pouch.description>It expels fungal growths and transforms the surrounding area into creep terrain, aiding the activities of insect swarms and hindering the enemy's progress.</ARA_Pouch_Hatching_Pouch.description>
 <ARA_Pouch_Hatching_Pouch.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Pouch_Hatching_Pouch.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_Pouch_Hatching_Pouch.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Pouch_Hatching_Pouch.comps.CompAbilityEffect_NeedCost.failMessage>
-<ARA_Suicide_Ability.label>suicide</ARA_Suicide_Ability.label>
-<ARA_Suicide_Ability.description>With a single command, the arachne bugs instantly end their lives for the sake of their nest.</ARA_Suicide_Ability.description>
 </LanguageData>

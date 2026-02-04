@@ -26,7 +26,7 @@
 <ARA_Bullet_SniperCannon.label>Arachne thorns</ARA_Bullet_SniperCannon.label>
 <ARA_RW_Basic_SniperCannon_Gun.label>Weapon organ "Blood Rock Spiny Cannon"</ARA_RW_Basic_SniperCannon_Gun.label>
 <ARA_RW_Basic_SniperCannon_Gun.verbs.Verb_ShootWithOffset.label>Weapon organ "Blood Rock Spiny Cannon"</ARA_RW_Basic_SniperCannon_Gun.verbs.Verb_ShootWithOffset.label>
-<ARA_RW_Basic_SniperCannon_Gun.description>It is a large weapon organ of Arachne insects, which has an invasive appearance like a fang, and its mouthparts are connected to a blood chain that grows giant barbs.It is fired with high pressure by muscle compression, and the spines in the cavity have extremely high destructive power.Inspired by human weapons, the insect group adds accompaniment hormones to the blood chain barbs, increasing the speed of fire by continuing to fire.</ARA_RW_Basic_SniperCannon_Gun.description>
+<ARA_RW_Basic_SniperCannon_Gun.description>It is a large weapon organ of Arachne insects, which has an invasive appearance like a fang, and its mouthparts are connected to a blood chain that grows giant barbs.It is fired with high pressure due to muscle compression, and the spines in the cavity have extremely high destructive power.Inspired by human weapons, the insect group adds accompaniment hormones to the blood chain barbs, increasing the speed of fire by continuing to fire.</ARA_RW_Basic_SniperCannon_Gun.description>
 <ARA_Bullet_Rail.label>Arachne perforation thorns</ARA_Bullet_Rail.label>
 <ARA_RW_Basic_Rail_Gun.label>Weapon organ "Broadblade Speargun"</ARA_RW_Basic_Rail_Gun.label>
 <ARA_RW_Basic_Rail_Gun.verbs.Verb_ShootWithOffset.label>Weapon organ "Broadblade Speargun"</ARA_RW_Basic_Rail_Gun.verbs.Verb_ShootWithOffset.label>
@@ -38,7 +38,7 @@
 <ARA_Proj_StrongSludgeSpray_Eco.label>Arachnoid acid solution</ARA_Proj_StrongSludgeSpray_Eco.label>
 <ARA_RW_Basic_FireSpewer_Gun.label>Weapon organ "Flame Acid Gun"</ARA_RW_Basic_FireSpewer_Gun.label>
 <ARA_RW_Basic_FireSpewer_Gun.verbs.Verb_ShootFireSpew.label>Weapon organ "Flame Acid Gun"</ARA_RW_Basic_FireSpewer_Gun.verbs.Verb_ShootFireSpew.label>
-<ARA_RW_Basic_FireSpewer_Gun.description>It is a large long-range weapon organ of the Arachne insect group, which has a liquid sac filled with acid glands and a strong muscle tube, and sprays a hot molten air mass of fire and acid in the targeted direction.It covers enemies within range and melts their armor and flesh.</ARA_RW_Basic_FireSpewer_Gun.description>
+<ARA_RW_Basic_FireSpewer_Gun.description>It is a large long-range weapon organ of Arachne insects, which has fluid sacs filled with acid glands and strong muscle tubes, and sprays a hot molten air mass of fire and acid in the targeted direction.It covers enemies within range and melts their armor and flesh.</ARA_RW_Basic_FireSpewer_Gun.description>
 <ARA_RW_Acid_Mortar.label>Weapon organ "corrosion mortar"</ARA_RW_Acid_Mortar.label>
 <ARA_RW_Acid_Mortar.verbs.Verb_Shoot.label>Weapon organ "corrosion mortar"</ARA_RW_Acid_Mortar.verbs.Verb_Shoot.label>
 <ARA_RW_Acid_Mortar.description>It is a large long-range weapon used by Arachne insects.The cannon is filled with strong muscle tissue, and when it contracts momentarily, it shoots a mass of acid into the air, bombarding enemy groups from a safe distance.</ARA_RW_Acid_Mortar.description>
@@ -88,7 +88,7 @@
 <ARA_Skyraider_Empthrower_Turret.label>magnetophobic nest</ARA_Skyraider_Empthrower_Turret.label>
 <ARA_Skyraider_Empthrower_Turret.verbs.Verb_Shoot.label>magnetophobic nest</ARA_Skyraider_Empthrower_Turret.verbs.Verb_Shoot.label>
 <ARA_Skyraider_Empthrower_Turret.description>It is a symbiotic organ possessed by the Arachne Volcano species, which automatically projects magneto-violent seeds when it is near an enemy.</ARA_Skyraider_Empthrower_Turret.description>
-<ArachnaeBase_Race_Empthrower_Proj.label>Arachne magnetic species</ArachnaeBase_Race_Empthrower_Proj.label>
+<ArachnaeBase_Race_Empthrower_Proj.label>Arachne magneto-violent species</ArachnaeBase_Race_Empthrower_Proj.label>
 <ARA_RW_Icez_Mortar.label>Weapon organ "Frost Star Cannon"</ARA_RW_Icez_Mortar.label>
 <ARA_RW_Icez_Mortar.verbs.Verb_Shoot.label>Weapon organ "Frost Star Cannon"</ARA_RW_Icez_Mortar.verbs.Verb_Shoot.label>
 <ARA_RW_Icez_Mortar.description>A large long-range weapon used by the Arachne insects, which fires an air mass of extremely cold frost.Enemies that come into contact with it will experience a frost explosion, and although they will not die instantly if frozen, the fragile ice statue will be immediately destroyed by subsequent attacks from outside.</ARA_RW_Icez_Mortar.description>

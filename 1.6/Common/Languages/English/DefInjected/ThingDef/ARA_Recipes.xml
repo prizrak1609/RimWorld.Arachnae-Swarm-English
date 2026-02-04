@@ -11,15 +11,15 @@
 <ARA_Strengthening_Tendon.label>reinforced tendon</ARA_Strengthening_Tendon.label>
 <ARA_Strengthening_Tendon.description>Arachne insects can move at high speed and gain the ability to jump due to their strengthened tendons.This surgery does not require the creation of parts and can be performed directly on Arachne insects.</ARA_Strengthening_Tendon.description>
 <ARA_Slide_Patagium.label>gliding membrane</ARA_Slide_Patagium.label>
-<ARA_Slide_Patagium.description>The gliding membranes on the legs of the Arachnid insects allow them to move quickly on the creep, but the effect is immediately lost when they move away from the creep.This surgery does not require the creation of any parts and can be performed directly on the Arachnid insects.</ARA_Slide_Patagium.description>
+<ARA_Slide_Patagium.description>The gliding membranes on the Arachne insect's legs allow it to move quickly on the creep, but the effect is immediately lost when it leaves the creep.This surgery does not require the creation of any parts and can be performed directly on the Arachne insect.</ARA_Slide_Patagium.description>
 <ARA_Huge_Stomach.label>additional gastric sac</ARA_Huge_Stomach.label>
 <ARA_Huge_Stomach.description>Due to the directional mutation of Arachne insects, they have larger stomach sacs and can store more nutrients.This surgery does not require the creation of parts and can be performed directly on Arachne insects.</ARA_Huge_Stomach.description>
 <ARA_Internal_Circulation_Lung.label>internal circulation lung</ARA_Internal_Circulation_Lung.label>
 <ARA_Internal_Circulation_Lung.description>Directed mutations in the Arachneid species allow their lungs to self-circulate and withstand near-vacuum attacks.This surgery does not require the creation of any parts and can be performed directly on the Arachneid.</ARA_Internal_Circulation_Lung.description>
 <ARA_Cycle_Suppression.label>Life cycle control</ARA_Cycle_Suppression.label>
 <ARA_Cycle_Suppression.description>The life cycle inhibitor of Arachne insects prevents the insects themselves from growing disorderly and extends their lifespan.This surgery does not require the production of parts and can be applied directly to Arachne insects.</ARA_Cycle_Suppression.description>
-<ARA_Acidling_Pouch.label>Explosive seed capsule</ARA_Acidling_Pouch.label>
-<ARA_Acidling_Pouch.description>The pods of the Arachne Insects contain several Arachne Explosive species that are about to hatch, and upon receiving instructions, they immediately burst their bodies and attack the enemy.This surgery does not require the creation of any parts, and can be performed directly on the Arachne Insects.</ARA_Acidling_Pouch.description>
+<ARA_Baneling_Pouch.label>Explosive seed capsule</ARA_Baneling_Pouch.label>
+<ARA_Baneling_Pouch.description>The pods of the Arachne Insects contain several Arachne Explosive species that are about to hatch, and upon receiving instructions, they immediately burst their bodies and attack the enemy.This surgery does not require the creation of any parts, and can be performed directly on the Arachne Insects.</ARA_Baneling_Pouch.description>
 <ARA_Tumor_Pouch.label>Mycocele shedding</ARA_Tumor_Pouch.label>
-<ARA_Tumor_Pouch.description>The pods of Arachne insects contain withered fungi, and when released, they turn a wide area of ​​the ground into creep.This surgery does not require the creation of parts and can be performed directly on Arachne insects.</ARA_Tumor_Pouch.description>
+<ARA_Tumor_Pouch.description>The pods of the Arachne insects contain withered fungi, and when released, they turn a wide area of ​​the ground into creep.This surgery does not require the creation of any parts and can be performed directly on the Arachne insects.</ARA_Tumor_Pouch.description>
 </LanguageData>

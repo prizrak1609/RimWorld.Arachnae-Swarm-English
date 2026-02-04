@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ArachnaeBase_Race_Larva.label>Arachne larva species</ArachnaeBase_Race_Larva.label>
-<ArachnaeBase_Race_Larva.description>It is a type of Arachne argentina and forms the basis of the insect family.</ArachnaeBase_Race_Larva.description>
+<ArachnaeBase_Race_Larva.description>It is a type of Arachne argentina, and it contains all the genetic information necessary for the insect group to expand to the surface of the earth, and forms the basis of the insect family.It invades Arachne eggs and Arachne cocoons, and transforms into new control insects and equipment through complete metamorphosis.</ArachnaeBase_Race_Larva.description>
 <ArachnaeBase_Race_Larva.tools.head.label>head</ArachnaeBase_Race_Larva.tools.head.label>
 <ArachnaeBase_Race_Scavenger.label>Arachne corrosive species</ArachnaeBase_Race_Scavenger.label>
-<ArachnaeBase_Race_Scavenger.description>A type of arachne beetles, it has low intelligence and can do cultivation and harvesting work, but it dies after a short period of time.</ArachnaeBase_Race_Scavenger.description>
+<ArachnaeBase_Race_Scavenger.description>It is a type of arachne beetle, and has a very wide range of eating habits, and can be used for cultivation, harvesting, and transportation.It has a small honey can cavity, and can produce honey just like the overseer.</ArachnaeBase_Race_Scavenger.description>
+<ArachnaeBase_Race_Scavenger.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Scavenger.comps.CompNodeSwarmLifetime.labelOverride>
+<ArachnaeBase_Race_Scavenger.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Scavenger.comps.CompNodeSwarmLifetime.tooltipOverride>
 <ArachnaeBase_Race_Scavenger.tools.head.label>head</ArachnaeBase_Race_Scavenger.tools.head.label>
+<ArachnaeBase_Race_Longpincer.label>Arachne hard-jawed species</ArachnaeBase_Race_Longpincer.label>
+<ArachnaeBase_Race_Longpincer.description>It is a type of Arachne frugivore, and has a pair of jaws that are excessively large for its body size, allowing it to carry things around and do digging work.If its supervisor, the Arachne bug, is in a conscripted state, it will accompany the Arachne bug.</ArachnaeBase_Race_Longpincer.description>
+<ArachnaeBase_Race_Longpincer.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Longpincer.comps.CompNodeSwarmLifetime.labelOverride>
+<ArachnaeBase_Race_Longpincer.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Longpincer.comps.CompNodeSwarmLifetime.tooltipOverride>
+<ArachnaeBase_Race_Longpincer.tools.0.label>giant jaw</ArachnaeBase_Race_Longpincer.tools.0.label>
+<ArachnaeBase_Race_Hivekeeping.label>Arachne domestic species</ArachnaeBase_Race_Hivekeeping.label>
+<ArachnaeBase_Race_Hivekeeping.description>It is a type of Arachneum, and although its intelligence is low, it is responsible for transportation, cleaning, and maintenance of insect colony buildings.It is a member of the maintenance cluster that is essential for insect nests.</ArachnaeBase_Race_Hivekeeping.description>
+<ArachnaeBase_Race_Hivekeeping.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Hivekeeping.comps.CompNodeSwarmLifetime.labelOverride>
+<ArachnaeBase_Race_Hivekeeping.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Hivekeeping.comps.CompNodeSwarmLifetime.tooltipOverride>
+<ArachnaeBase_Race_Hivekeeping.tools.head.label>head</ArachnaeBase_Race_Hivekeeping.tools.head.label>
+<ArachnaeBase_Race_Acidcut.label>arachne acid spp.</ArachnaeBase_Race_Acidcut.label>
+<ArachnaeBase_Race_Acidcut.description>It is a type of Arachne frugivore.It has low intelligence and bites its enemies to pieces with its acid-filled jaws.Its simple body structure makes it easy to raise.If its supervisor is in a conscript state, it will accompany the arachne bug.</ArachnaeBase_Race_Acidcut.description>
+<ArachnaeBase_Race_Acidcut.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Acidcut.comps.CompNodeSwarmLifetime.labelOverride>
+<ArachnaeBase_Race_Acidcut.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Acidcut.comps.CompNodeSwarmLifetime.tooltipOverride>
+<ArachnaeBase_Race_Acidcut.tools.0.label>acid giant jaw</ArachnaeBase_Race_Acidcut.tools.0.label>
+<ArachnaeBase_Race_Baneling.label>Arachne explosive type</ArachnaeBase_Race_Baneling.label>
+<ArachnaeBase_Race_Baneling.description>A type of Arachne frugivore, it mainly attacks enemies with suicide attacks. When it gets close to the enemy, it explodes its acid sac, creating a dangerous acid mist. It can also select a low-yield self-destruct to leave behind creeps to support the advancement of the following Insect troops. If the Insect insect it supervises is in conscript status, it will accompany the Admin insect.</ArachnaeBase_Race_Baneling.description>
+<ArachnaeBase_Race_Baneling.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Baneling.comps.CompNodeSwarmLifetime.labelOverride>
+<ArachnaeBase_Race_Baneling.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Baneling.comps.CompNodeSwarmLifetime.tooltipOverride>
+<ArachnaeBase_Race_Baneling.tools.head.label>head</ArachnaeBase_Race_Baneling.tools.head.label>
+<ArachnaeBase_Race_Empsuicider.label>Arachne electromagnetic species</ArachnaeBase_Race_Empsuicider.label>
+<ArachnaeBase_Race_Empsuicider.description>A type of arachne insect, it has low intelligence and mainly attacks enemies with suicide attacks. When it approaches the enemy, it emits EMP and paralyzes the machines. If the supervisor insect is in conscript state, it will accompany the insect.</ArachnaeBase_Race_Empsuicider.description>
+<ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.labelOverride>
+<ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.tooltipOverride>
+<ArachnaeBase_Race_Empsuicider.tools.head.label>head</ArachnaeBase_Race_Empsuicider.tools.head.label>
+<ArachnaeBase_Race_Skyhive.label>Arachne Tensu species</ArachnaeBase_Race_Skyhive.label>
+<ArachnaeBase_Race_Skyhive.description>It is a type of Arachne insect that has the ability to fly close to the ground, and has very good attack speed and movement speed.If the supervisor, the insect, is in a conscript state, it will accompany the insect.</ArachnaeBase_Race_Skyhive.description>
+<ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.labelOverride>
+<ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.tooltipOverride>
+<ArachnaeBase_Race_Skyhive.tools.0.label>compound jaw</ArachnaeBase_Race_Skyhive.tools.0.label>
+<ArachnaeBase_Race_Locust.label>Arachne locust species</ArachnaeBase_Race_Locust.label>
+<ArachnaeBase_Race_Locust.description>It is a type of Arachne frugivore, and is one of the few highly intelligent individuals.It autonomously avoids danger and fires at enemy groups using its venomous stingers.If its supervisor, Takuma, is in a conscript state, it will accompany it, but it will give priority to guarding the control insect rather than actively moving forward.</ArachnaeBase_Race_Locust.description>
+<ArachnaeBase_Race_Locust.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Locust.comps.CompNodeSwarmLifetime.labelOverride>
+<ArachnaeBase_Race_Locust.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Locust.comps.CompNodeSwarmLifetime.tooltipOverride>
+<ArachnaeBase_Race_Locust.tools.0.label>compound jaw</ArachnaeBase_Race_Locust.tools.0.label>
 </LanguageData>

@@ -2,27 +2,27 @@
 <LanguageData>
 <ARA_DummyAmmo.label>ammunition</ARA_DummyAmmo.label>
 <ARA_DummyAmmo.description>Ammunition used by the Arachne Bug Tribe.</ARA_DummyAmmo.description>
-<ARA_Filth_SpentAcid.label>arachne residual acid</ARA_Filth_SpentAcid.label>
+<ARA_Filth_SpentAcid.label>Arachne residual acid</ARA_Filth_SpentAcid.label>
 <ARA_Turret_Beespikeshooter.label>bee spike shooter</ARA_Turret_Beespikeshooter.label>
 <ARA_Turret_Beespikeshooter.description>A small turret that fires poisonous stingers.</ARA_Turret_Beespikeshooter.description>
 <ARA_Turret_Beespikeshooter.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>insect honey</ARA_Turret_Beespikeshooter.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
 <ARA_Gun_Beespikeshooter.label>bee spike shooter</ARA_Gun_Beespikeshooter.label>
 <ARA_Gun_Beespikeshooter.verbs.Verb_Shoot.label>bee spike shooter</ARA_Gun_Beespikeshooter.verbs.Verb_Shoot.label>
 <ARA_Gun_Beespikeshooter.description>It is an organization that fires small poisonous stingers.</ARA_Gun_Beespikeshooter.description>
-<Arachnae_AcidlingTrap.label>Arachne exploding cocoon</Arachnae_AcidlingTrap.label>
-<Arachnae_AcidlingTrap.description>It is a dormant cocoon that contains dormant Arachne insects.If you get too close, the insects inside will wake up.</Arachnae_AcidlingTrap.description>
+<Arachnae_BanelingTrap.label>Arachne exploding cocoon</Arachnae_BanelingTrap.label>
+<Arachnae_BanelingTrap.description>It is a dormant cocoon that contains dormant Arachne insects.If you get too close, the insects inside will wake up.</Arachnae_BanelingTrap.description>
 <ARA_AutoSniperCannon.label>blood rock gigabit cannon organization</ARA_AutoSniperCannon.label>
 <ARA_AutoSniperCannon.description>It is one of the burrow defense organizations of the Arachne insects.It is composed of highly specialized organs without autonomy, and fires barbs at high speed, seriously injuring large enemies and invading groups.As a defense organization, it can automatically generate replenishment ammunition by acquiring nutrients.</ARA_AutoSniperCannon.description>
 <ARA_AutoSniperCannon.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>insect honey</ARA_AutoSniperCannon.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
 <Gun_ARA_AutoSniperCannonTurret.label>blood rock gigabit cannon</Gun_ARA_AutoSniperCannonTurret.label>
 <Gun_ARA_AutoSniperCannonTurret.verbs.Verb_ShootWithOffset.label>blood rock gigabit cannon</Gun_ARA_AutoSniperCannonTurret.verbs.Verb_ShootWithOffset.label>
 <Gun_ARA_AutoSniperCannonTurret.description>Bloodrock Gigabit Cannon.</Gun_ARA_AutoSniperCannonTurret.description>
-<ARA_Acidling_AutoMortar.label>Explosive Launcher Nest Organization</ARA_Acidling_AutoMortar.label>
-<ARA_Acidling_AutoMortar.description>It is one of the burrow defense organizations of the Arachne insects.It is composed of a group of highly specialized organs without autonomy, and fires multiple Arachne explosive seed insects at invading enemies.The insects automatically search for targets and carry out suicide attacks.As a defense organization, they can automatically generate replenishment ammunition by acquiring nutrients.</ARA_Acidling_AutoMortar.description>
-<ARA_Acidling_AutoMortar.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>insect honey</ARA_Acidling_AutoMortar.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
-<ARA_Acidling_Artillery_AutoMortar.label>Explosive launcher nest</ARA_Acidling_Artillery_AutoMortar.label>
-<ARA_Acidling_Artillery_AutoMortar.verbs.Verb_ShootWithOffset.label>Explosive launcher nest</ARA_Acidling_Artillery_AutoMortar.verbs.Verb_ShootWithOffset.label>
-<ArachnaeBase_Race_Acidling_Proj.label>Arachne explosive species</ArachnaeBase_Race_Acidling_Proj.label>
+<ARA_Baneling_AutoMortar.label>Explosive Launcher Nest Organization</ARA_Baneling_AutoMortar.label>
+<ARA_Baneling_AutoMortar.description>It is one of the burrow defense organizations of the Arachne insects.It is composed of a group of highly specialized organs without autonomy, and fires multiple Arachne explosive seed insects at invading enemies.The insects automatically search for targets and carry out suicide attacks.As a defense organization, they can automatically generate replenishment ammunition by acquiring nutrients.</ARA_Baneling_AutoMortar.description>
+<ARA_Baneling_AutoMortar.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>insect honey</ARA_Baneling_AutoMortar.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
+<ARA_Baneling_Artillery_AutoMortar.label>Explosive launcher nest</ARA_Baneling_Artillery_AutoMortar.label>
+<ARA_Baneling_Artillery_AutoMortar.verbs.Verb_ShootWithOffset.label>Explosive launcher nest</ARA_Baneling_Artillery_AutoMortar.verbs.Verb_ShootWithOffset.label>
+<ArachnaeBase_Race_Baneling_Proj.label>Arachne explosive type</ArachnaeBase_Race_Baneling_Proj.label>
 <CatastropheMissileSilo.label>disaster acid cannon organization</CatastropheMissileSilo.label>
 <CatastropheMissileSilo.description>It is one of the ultimate biological weapons evolved by the Arachne insects. It is composed of a group of highly specialized organs without autonomy, and a formidable acid cannon fires disaster acid missiles. As a complex defense system, it is capable of firing at local targets and precision strikes against long-range threats, and can automatically generate replenishment ammunition by acquiring nutrients.</CatastropheMissileSilo.description>
 <CatastropheMissileSilo.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>insect honey</CatastropheMissileSilo.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>

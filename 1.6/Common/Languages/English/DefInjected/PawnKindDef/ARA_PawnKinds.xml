@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ARA_ArachnaeQueen.label>Arachne Empress</ARA_ArachnaeQueen.label>
-<ARA_ArachnaeQueen.labelPlural>Arachne Empress</ARA_ArachnaeQueen.labelPlural>
-<ARA_ArachnaeQueen.labelMale>Arachne Empress</ARA_ArachnaeQueen.labelMale>
-<ARA_ArachnaeQueen.labelMalePlural>Arachne Empress</ARA_ArachnaeQueen.labelMalePlural>
-<ARA_ArachnaeQueen.labelFemale>Arachne Empress</ARA_ArachnaeQueen.labelFemale>
-<ARA_ArachnaeQueen.labelFemalePlural>Arachne Empress</ARA_ArachnaeQueen.labelFemalePlural>
+<ARA_ArachnaeQueen.label>Arachne type</ARA_ArachnaeQueen.label>
+<ARA_ArachnaeQueen.labelPlural>Arachne type</ARA_ArachnaeQueen.labelPlural>
+<ARA_ArachnaeQueen.labelMale>Arachne type</ARA_ArachnaeQueen.labelMale>
+<ARA_ArachnaeQueen.labelMalePlural>Arachne type</ARA_ArachnaeQueen.labelMalePlural>
+<ARA_ArachnaeQueen.labelFemale>Arachne type</ARA_ArachnaeQueen.labelFemale>
+<ARA_ArachnaeQueen.labelFemalePlural>Arachne type</ARA_ArachnaeQueen.labelFemalePlural>
+<ArachnaeQueen_Race_Neurotyrant.label>Absorption type</ArachnaeQueen_Race_Neurotyrant.label>
+<ArachnaeQueen_Race_Neurotyrant.labelPlural>Absorption type</ArachnaeQueen_Race_Neurotyrant.labelPlural>
+<ArachnaeQueen_Race_Neurotyrant.labelMale>Absorption type</ArachnaeQueen_Race_Neurotyrant.labelMale>
+<ArachnaeQueen_Race_Neurotyrant.labelMalePlural>Absorption type</ArachnaeQueen_Race_Neurotyrant.labelMalePlural>
+<ArachnaeQueen_Race_Neurotyrant.labelFemale>Absorption type</ArachnaeQueen_Race_Neurotyrant.labelFemale>
+<ArachnaeQueen_Race_Neurotyrant.labelFemalePlural>Absorption type</ArachnaeQueen_Race_Neurotyrant.labelFemalePlural>
 <ArachnaeNode_Race_Myrmecocystus.label>Arachne honey can type</ArachnaeNode_Race_Myrmecocystus.label>
 <ArachnaeNode_Race_Myrmecocystus.labelPlural>Arachne honey can type</ArachnaeNode_Race_Myrmecocystus.labelPlural>
 <ArachnaeNode_Race_Myrmecocystus.labelMale>Arachne honey can type</ArachnaeNode_Race_Myrmecocystus.labelMale>
@@ -36,12 +42,12 @@
 <ArachnaeNode_Race_Fighter.labelMalePlural>Arachne warrior type</ArachnaeNode_Race_Fighter.labelMalePlural>
 <ArachnaeNode_Race_Fighter.labelFemale>Arachne warrior type</ArachnaeNode_Race_Fighter.labelFemale>
 <ArachnaeNode_Race_Fighter.labelFemalePlural>Arachne warrior type</ArachnaeNode_Race_Fighter.labelFemalePlural>
-<ArachnaeNode_Race_Smokepop.label>Arachne mist type</ArachnaeNode_Race_Smokepop.label>
-<ArachnaeNode_Race_Smokepop.labelPlural>Arachne mist type</ArachnaeNode_Race_Smokepop.labelPlural>
-<ArachnaeNode_Race_Smokepop.labelMale>Arachne mist type</ArachnaeNode_Race_Smokepop.labelMale>
-<ArachnaeNode_Race_Smokepop.labelMalePlural>Arachne mist type</ArachnaeNode_Race_Smokepop.labelMalePlural>
-<ArachnaeNode_Race_Smokepop.labelFemale>Arachne mist type</ArachnaeNode_Race_Smokepop.labelFemale>
-<ArachnaeNode_Race_Smokepop.labelFemalePlural>Arachne mist type</ArachnaeNode_Race_Smokepop.labelFemalePlural>
+<ArachnaeNode_Race_Smokepop.label>Arachne stray mist type</ArachnaeNode_Race_Smokepop.label>
+<ArachnaeNode_Race_Smokepop.labelPlural>Arachne stray mist type</ArachnaeNode_Race_Smokepop.labelPlural>
+<ArachnaeNode_Race_Smokepop.labelMale>Arachne stray mist type</ArachnaeNode_Race_Smokepop.labelMale>
+<ArachnaeNode_Race_Smokepop.labelMalePlural>Arachne stray mist type</ArachnaeNode_Race_Smokepop.labelMalePlural>
+<ArachnaeNode_Race_Smokepop.labelFemale>Arachne stray mist type</ArachnaeNode_Race_Smokepop.labelFemale>
+<ArachnaeNode_Race_Smokepop.labelFemalePlural>Arachne stray mist type</ArachnaeNode_Race_Smokepop.labelFemalePlural>
 <ArachnaeNode_Race_Skyraider.label>Arachne sky type</ArachnaeNode_Race_Skyraider.label>
 <ArachnaeNode_Race_Skyraider.labelPlural>Arachne sky type</ArachnaeNode_Race_Skyraider.labelPlural>
 <ArachnaeNode_Race_Skyraider.labelMale>Arachne sky type</ArachnaeNode_Race_Skyraider.labelMale>
@@ -78,30 +84,48 @@
 <ArachnaeBase_Race_Scavenger.labelMalePlural>Arachne corrosive species</ArachnaeBase_Race_Scavenger.labelMalePlural>
 <ArachnaeBase_Race_Scavenger.labelFemale>Arachne corrosive species</ArachnaeBase_Race_Scavenger.labelFemale>
 <ArachnaeBase_Race_Scavenger.labelFemalePlural>Arachne corrosive species</ArachnaeBase_Race_Scavenger.labelFemalePlural>
-<ArachnaeBase_Race_Acidcut.label>arachne acid erosion species</ArachnaeBase_Race_Acidcut.label>
-<ArachnaeBase_Race_Acidcut.labelPlural>arachne acid erosion species</ArachnaeBase_Race_Acidcut.labelPlural>
-<ArachnaeBase_Race_Acidcut.labelMale>arachne acid erosion species</ArachnaeBase_Race_Acidcut.labelMale>
-<ArachnaeBase_Race_Acidcut.labelMalePlural>arachne acid erosion species</ArachnaeBase_Race_Acidcut.labelMalePlural>
-<ArachnaeBase_Race_Acidcut.labelFemale>arachne acid erosion species</ArachnaeBase_Race_Acidcut.labelFemale>
-<ArachnaeBase_Race_Acidcut.labelFemalePlural>arachne acid erosion species</ArachnaeBase_Race_Acidcut.labelFemalePlural>
-<ArachnaeBase_Race_Acidling.label>Arachne explosive species</ArachnaeBase_Race_Acidling.label>
-<ArachnaeBase_Race_Acidling.labelPlural>Arachne explosive species</ArachnaeBase_Race_Acidling.labelPlural>
-<ArachnaeBase_Race_Acidling.labelMale>Arachne explosive species</ArachnaeBase_Race_Acidling.labelMale>
-<ArachnaeBase_Race_Acidling.labelMalePlural>Arachne explosive species</ArachnaeBase_Race_Acidling.labelMalePlural>
-<ArachnaeBase_Race_Acidling.labelFemale>Arachne explosive species</ArachnaeBase_Race_Acidling.labelFemale>
-<ArachnaeBase_Race_Acidling.labelFemalePlural>Arachne explosive species</ArachnaeBase_Race_Acidling.labelFemalePlural>
-<ArachnaeBase_Race_Empsuicider.label>Arachne explosive species</ArachnaeBase_Race_Empsuicider.label>
-<ArachnaeBase_Race_Empsuicider.labelPlural>Arachne explosive species</ArachnaeBase_Race_Empsuicider.labelPlural>
-<ArachnaeBase_Race_Empsuicider.labelMale>Arachne explosive species</ArachnaeBase_Race_Empsuicider.labelMale>
-<ArachnaeBase_Race_Empsuicider.labelMalePlural>Arachne explosive species</ArachnaeBase_Race_Empsuicider.labelMalePlural>
-<ArachnaeBase_Race_Empsuicider.labelFemale>Arachne explosive species</ArachnaeBase_Race_Empsuicider.labelFemale>
-<ArachnaeBase_Race_Empsuicider.labelFemalePlural>Arachne explosive species</ArachnaeBase_Race_Empsuicider.labelFemalePlural>
+<ArachnaeBase_Race_Longpincer.label>Arachne hard-jawed species</ArachnaeBase_Race_Longpincer.label>
+<ArachnaeBase_Race_Longpincer.labelPlural>Arachne hard-jawed species</ArachnaeBase_Race_Longpincer.labelPlural>
+<ArachnaeBase_Race_Longpincer.labelMale>Arachne hard-jawed species</ArachnaeBase_Race_Longpincer.labelMale>
+<ArachnaeBase_Race_Longpincer.labelMalePlural>Arachne hard-jawed species</ArachnaeBase_Race_Longpincer.labelMalePlural>
+<ArachnaeBase_Race_Longpincer.labelFemale>Arachne hard-jawed species</ArachnaeBase_Race_Longpincer.labelFemale>
+<ArachnaeBase_Race_Longpincer.labelFemalePlural>Arachne hard-jawed species</ArachnaeBase_Race_Longpincer.labelFemalePlural>
+<ArachnaeBase_Race_Hivekeeping.label>Arachne domestic species</ArachnaeBase_Race_Hivekeeping.label>
+<ArachnaeBase_Race_Hivekeeping.labelPlural>Arachne domestic species</ArachnaeBase_Race_Hivekeeping.labelPlural>
+<ArachnaeBase_Race_Hivekeeping.labelMale>Arachne domestic species</ArachnaeBase_Race_Hivekeeping.labelMale>
+<ArachnaeBase_Race_Hivekeeping.labelMalePlural>Arachne domestic species</ArachnaeBase_Race_Hivekeeping.labelMalePlural>
+<ArachnaeBase_Race_Hivekeeping.labelFemale>Arachne domestic species</ArachnaeBase_Race_Hivekeeping.labelFemale>
+<ArachnaeBase_Race_Hivekeeping.labelFemalePlural>Arachne domestic species</ArachnaeBase_Race_Hivekeeping.labelFemalePlural>
 <ArachnaeBase_Race_Skyhive.label>Arachne Tensu species</ArachnaeBase_Race_Skyhive.label>
 <ArachnaeBase_Race_Skyhive.labelPlural>Arachne Tensu species</ArachnaeBase_Race_Skyhive.labelPlural>
 <ArachnaeBase_Race_Skyhive.labelMale>Arachne Tensu species</ArachnaeBase_Race_Skyhive.labelMale>
 <ArachnaeBase_Race_Skyhive.labelMalePlural>Arachne Tensu species</ArachnaeBase_Race_Skyhive.labelMalePlural>
 <ArachnaeBase_Race_Skyhive.labelFemale>Arachne Tensu species</ArachnaeBase_Race_Skyhive.labelFemale>
 <ArachnaeBase_Race_Skyhive.labelFemalePlural>Arachne Tensu species</ArachnaeBase_Race_Skyhive.labelFemalePlural>
+<ArachnaeBase_Race_Acidcut.label>arachne acid erosion species</ArachnaeBase_Race_Acidcut.label>
+<ArachnaeBase_Race_Acidcut.labelPlural>arachne acid erosion species</ArachnaeBase_Race_Acidcut.labelPlural>
+<ArachnaeBase_Race_Acidcut.labelMale>arachne acid erosion species</ArachnaeBase_Race_Acidcut.labelMale>
+<ArachnaeBase_Race_Acidcut.labelMalePlural>arachne acid erosion species</ArachnaeBase_Race_Acidcut.labelMalePlural>
+<ArachnaeBase_Race_Acidcut.labelFemale>arachne acid erosion species</ArachnaeBase_Race_Acidcut.labelFemale>
+<ArachnaeBase_Race_Acidcut.labelFemalePlural>arachne acid erosion species</ArachnaeBase_Race_Acidcut.labelFemalePlural>
+<ArachnaeBase_Race_Baneling.label>Arachne explosive type</ArachnaeBase_Race_Baneling.label>
+<ArachnaeBase_Race_Baneling.labelPlural>Arachne explosive type</ArachnaeBase_Race_Baneling.labelPlural>
+<ArachnaeBase_Race_Baneling.labelMale>Arachne explosive type</ArachnaeBase_Race_Baneling.labelMale>
+<ArachnaeBase_Race_Baneling.labelMalePlural>Arachne explosive type</ArachnaeBase_Race_Baneling.labelMalePlural>
+<ArachnaeBase_Race_Baneling.labelFemale>Arachne explosive type</ArachnaeBase_Race_Baneling.labelFemale>
+<ArachnaeBase_Race_Baneling.labelFemalePlural>Arachne explosive type</ArachnaeBase_Race_Baneling.labelFemalePlural>
+<ArachnaeBase_Race_Empsuicider.label>Arachne explosive type</ArachnaeBase_Race_Empsuicider.label>
+<ArachnaeBase_Race_Empsuicider.labelPlural>Arachne explosive type</ArachnaeBase_Race_Empsuicider.labelPlural>
+<ArachnaeBase_Race_Empsuicider.labelMale>Arachne explosive type</ArachnaeBase_Race_Empsuicider.labelMale>
+<ArachnaeBase_Race_Empsuicider.labelMalePlural>Arachne explosive type</ArachnaeBase_Race_Empsuicider.labelMalePlural>
+<ArachnaeBase_Race_Empsuicider.labelFemale>Arachne explosive type</ArachnaeBase_Race_Empsuicider.labelFemale>
+<ArachnaeBase_Race_Empsuicider.labelFemalePlural>Arachne explosive type</ArachnaeBase_Race_Empsuicider.labelFemalePlural>
+<ArachnaeBase_Race_Locust.label>Arachne locust species</ArachnaeBase_Race_Locust.label>
+<ArachnaeBase_Race_Locust.labelPlural>Arachne locust species</ArachnaeBase_Race_Locust.labelPlural>
+<ArachnaeBase_Race_Locust.labelMale>Arachne locust species</ArachnaeBase_Race_Locust.labelMale>
+<ArachnaeBase_Race_Locust.labelMalePlural>Arachne locust species</ArachnaeBase_Race_Locust.labelMalePlural>
+<ArachnaeBase_Race_Locust.labelFemale>Arachne locust species</ArachnaeBase_Race_Locust.labelFemale>
+<ArachnaeBase_Race_Locust.labelFemalePlural>Arachne locust species</ArachnaeBase_Race_Locust.labelFemalePlural>
 <ArachnaeBeast_Race_Slayer.label>Arachne violent breed</ArachnaeBeast_Race_Slayer.label>
 <ArachnaeBeast_Race_Slayer.labelPlural>Arachne violent breed</ArachnaeBeast_Race_Slayer.labelPlural>
 <ArachnaeBeast_Race_Slayer.labelMale>Arachne violent breed</ArachnaeBeast_Race_Slayer.labelMale>

@@ -39,6 +39,42 @@
 <ArachnaeQueen_Body.corePart.parts.10.customLabel>right hind leg</ArachnaeQueen_Body.corePart.parts.10.customLabel>
 <ArachnaeQueen_Body.corePart.parts.10.parts.0.customLabel>right hind thigh shell</ArachnaeQueen_Body.corePart.parts.10.parts.0.customLabel>
 <ArachnaeQueen_Body.corePart.parts.10.parts.1.customLabel>Right hind leg exoskeleton</ArachnaeQueen_Body.corePart.parts.10.parts.1.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.label>Arachne spirit sucker</ArachnaeQueen_Neurotyrant_Body.label>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.0.parts.0.customLabel>dorsal carapace</ArachnaeQueen_Neurotyrant_Body.corePart.parts.0.parts.0.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.3.customLabel>Left lung (first)</ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.3.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.4.customLabel>Left lung (second)</ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.4.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.5.customLabel>Right lung (first)</ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.5.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.6.customLabel>Right lung (second)</ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.6.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.7.customLabel>left kidney</ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.7.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.8.customLabel>right kidney</ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.8.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.9.customLabel>liver (first)</ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.9.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.10.customLabel>liver (secondary)</ArachnaeQueen_Neurotyrant_Body.corePart.parts.1.parts.10.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.2.parts.0.customLabel>caudal carapace</ArachnaeQueen_Neurotyrant_Body.corePart.parts.2.parts.0.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.0.customLabel>head shell</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.0.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.1.customLabel>first nerve bundle</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.1.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.2.customLabel>second nerve bundle</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.2.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.3.customLabel>third nerve bundle</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.3.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.4.customLabel>fourth nerve bundle</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.4.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.5.customLabel>fourth nerve bundle</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.5.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.6.customLabel>fifth nerve bundle</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.6.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.7.customLabel>sixth nerve bundle</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.7.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.8.customLabel>seventh nerve bundle</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.8.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.9.customLabel>eighth nerve bundle</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.9.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.11.customLabel>left eye</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.11.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.12.customLabel>right eye</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.12.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.13.customLabel>left ear</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.13.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.14.customLabel>right ear</ArachnaeQueen_Neurotyrant_Body.corePart.parts.3.parts.0.parts.14.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.4.customLabel>left accessory limb joint</ArachnaeQueen_Neurotyrant_Body.corePart.parts.4.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.4.parts.0.customLabel>Left accessory limb exoskeleton</ArachnaeQueen_Neurotyrant_Body.corePart.parts.4.parts.0.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.4.parts.1.customLabel>left accessory limb</ArachnaeQueen_Neurotyrant_Body.corePart.parts.4.parts.1.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.4.parts.1.parts.0.customLabel>left scissors</ArachnaeQueen_Neurotyrant_Body.corePart.parts.4.parts.1.parts.0.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.4.parts.1.parts.0.parts.0.customLabel>right scissors mouth</ArachnaeQueen_Neurotyrant_Body.corePart.parts.4.parts.1.parts.0.parts.0.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.5.customLabel>right accessory limb joint</ArachnaeQueen_Neurotyrant_Body.corePart.parts.5.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.5.parts.0.customLabel>Right accessory limb exoskeleton</ArachnaeQueen_Neurotyrant_Body.corePart.parts.5.parts.0.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.5.parts.1.customLabel>right accessory limb</ArachnaeQueen_Neurotyrant_Body.corePart.parts.5.parts.1.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.5.parts.1.parts.0.customLabel>right scissors</ArachnaeQueen_Neurotyrant_Body.corePart.parts.5.parts.1.parts.0.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.5.parts.1.parts.0.parts.0.customLabel>right scissors mouth</ArachnaeQueen_Neurotyrant_Body.corePart.parts.5.parts.1.parts.0.parts.0.customLabel>
+<ArachnaeQueen_Neurotyrant_Body.corePart.parts.6.customLabel>segment boundaries</ArachnaeQueen_Neurotyrant_Body.corePart.parts.6.customLabel>
 <ArachnaeMyrmecocystus_Body.label>Arachne honey can type</ArachnaeMyrmecocystus_Body.label>
 <ArachnaeMyrmecocystus_Body.corePart.parts.6.customLabel>left lung</ArachnaeMyrmecocystus_Body.corePart.parts.6.customLabel>
 <ArachnaeMyrmecocystus_Body.corePart.parts.7.customLabel>right lung</ArachnaeMyrmecocystus_Body.corePart.parts.7.customLabel>
@@ -144,7 +180,7 @@
 <ArachnaeFacehugger_Body.corePart.parts.15.parts.0.customLabel>left foot</ArachnaeFacehugger_Body.corePart.parts.15.parts.0.customLabel>
 <ArachnaeFacehugger_Body.corePart.parts.16.customLabel>right leg</ArachnaeFacehugger_Body.corePart.parts.16.customLabel>
 <ArachnaeFacehugger_Body.corePart.parts.16.parts.0.customLabel>right foot</ArachnaeFacehugger_Body.corePart.parts.16.parts.0.customLabel>
-<ArachnaeSmokepop_Body.label>Arachne mist type</ArachnaeSmokepop_Body.label>
+<ArachnaeSmokepop_Body.label>Arachne stray mist type</ArachnaeSmokepop_Body.label>
 <ArachnaeSmokepop_Body.corePart.parts.6.customLabel>left lung</ArachnaeSmokepop_Body.corePart.parts.6.customLabel>
 <ArachnaeSmokepop_Body.corePart.parts.7.customLabel>right lung</ArachnaeSmokepop_Body.corePart.parts.7.customLabel>
 <ArachnaeSmokepop_Body.corePart.parts.8.customLabel>left kidney</ArachnaeSmokepop_Body.corePart.parts.8.customLabel>
@@ -265,7 +301,7 @@
 <ArachnaeSlayer_Body.corePart.parts.8.parts.0.customLabel>right forelimb carapace</ArachnaeSlayer_Body.corePart.parts.8.parts.0.customLabel>
 <ArachnaeSlayer_Body.corePart.parts.8.parts.1.customLabel>Right front leg exoskeleton</ArachnaeSlayer_Body.corePart.parts.8.parts.1.customLabel>
 <ArachnaeSlayer_Body.corePart.parts.9.customLabel>left hind leg</ArachnaeSlayer_Body.corePart.parts.9.customLabel>
-<ArachnaeSlayer_Body.corePart.parts.9.parts.0.customLabel>left hind leg shell</ArachnaeSlayer_Body.corePart.parts.9.parts.0.customLabel>
+<ArachnaeSlayer_Body.corePart.parts.9.parts.0.customLabel>left hind leg carapace</ArachnaeSlayer_Body.corePart.parts.9.parts.0.customLabel>
 <ArachnaeSlayer_Body.corePart.parts.9.parts.1.customLabel>left hind leg exoskeleton</ArachnaeSlayer_Body.corePart.parts.9.parts.1.customLabel>
 <ArachnaeSlayer_Body.corePart.parts.10.customLabel>right hind leg</ArachnaeSlayer_Body.corePart.parts.10.customLabel>
 <ArachnaeSlayer_Body.corePart.parts.10.parts.0.customLabel>right hind leg shell</ArachnaeSlayer_Body.corePart.parts.10.parts.0.customLabel>

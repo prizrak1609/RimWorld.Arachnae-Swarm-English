@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ArachnaeQueen_Race.label>Arachne Empress</ArachnaeQueen_Race.label>
-<ArachnaeQueen_Race.description>The Arachne Empress is the only individual in the Arachne nest group that can give birth to a master insect, and as the top of the pyramid of nest group consciousness, she has the great mission of guiding the Arachne colony.The nest group is operated with extremely high efficiency due to the group consciousness network formed by the Cylink between her and the insect tribes under her control.However, if the Empress dies, all of the colonies under her will perish.</ArachnaeQueen_Race.description>
+<ArachnaeQueen_Race.label>Arachne type</ArachnaeQueen_Race.label>
+<ArachnaeQueen_Race.description>The Arachne Taitan species is one of the subspecies of the Empress species, and belongs to the Arachne Taitan tentacles.They command the main group, which is the most robust and adaptable of the Arachne insect group, and are responsible for maintaining the front line on the battlefield. \n\nThe Empress of the Taitan species not only has the special technique of Taitan tentacles, but she also has a powerful carapace as a layer of defense, and can attack enemies that get close to her with stomps and high melee attack power.</ArachnaeQueen_Race.description>
 <ArachnaeQueen_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</ArachnaeQueen_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
 <ArachnaeQueen_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</ArachnaeQueen_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
 <ArachnaeQueen_Race.tools.0.label>top of head</ArachnaeQueen_Race.tools.0.label>
 <ArachnaeQueen_Race.tools.1.label>Trampling</ArachnaeQueen_Race.tools.1.label>
 <ArachnaeQueen_Race.tools.2.label>leg puncture</ArachnaeQueen_Race.tools.2.label>
 <ArachnaeQueen_Race.tools.3.label>force attack</ArachnaeQueen_Race.tools.3.label>
+<ArachnaeQueen_Race_Neurotyrant.label>Arachne spirit sucker</ArachnaeQueen_Race_Neurotyrant.label>
+<ArachnaeQueen_Race_Neurotyrant.description>The Arachne spirit-sucking species is one of the subspecies of the Empress species and belongs to Arachne's psychic tentacles.They maintain the communication of the psychic network in the insect tribe's burrows, and serve as relay points to connect the Empress species in each war zone and their burrows.\n \nSpirits are natural-born psychic masters, and their powerful psychic abilities allow them to dominate the battlefield with supernatural power.In addition, by absorbing local creatures one after another, their psychic abilities undergo adaptive evolution.</ArachnaeQueen_Race_Neurotyrant.description>
+<ArachnaeQueen_Race_Neurotyrant.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</ArachnaeQueen_Race_Neurotyrant.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+<ArachnaeQueen_Race_Neurotyrant.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</ArachnaeQueen_Race_Neurotyrant.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+<ArachnaeQueen_Race_Neurotyrant.tools.0.label>Limb puncture</ArachnaeQueen_Race_Neurotyrant.tools.0.label>
 </LanguageData>

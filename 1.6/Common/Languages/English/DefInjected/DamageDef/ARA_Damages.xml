@@ -10,6 +10,10 @@
 <ARA_AcidCut_Damage.deathMessage>{0} was bitten to death by a giant jaw containing acid.</ARA_AcidCut_Damage.deathMessage>
 <ARA_Whip_Damage.label>whipping</ARA_Whip_Damage.label>
 <ARA_Whip_Damage.deathMessage>{0} died from being whipped.</ARA_Whip_Damage.deathMessage>
+<ARA_AcidBomb.label>acid liquid explosion</ARA_AcidBomb.label>
+<ARA_AcidBomb.deathMessage>{0} was killed.</ARA_AcidBomb.deathMessage>
+<ARA_CreepBomb.label>Mycocele explosion</ARA_CreepBomb.label>
+<ARA_CreepBomb.deathMessage>{0} was killed.</ARA_CreepBomb.deathMessage>
 <ARA_MimicNematodeBite.label>bite</ARA_MimicNematodeBite.label>
 <ARA_MimicNematodeBite.deathMessage>{0} was killed.</ARA_MimicNematodeBite.deathMessage>
 <ARA_ReinforceGas.label>pheromone gas</ARA_ReinforceGas.label>

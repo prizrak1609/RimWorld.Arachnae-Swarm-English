@@ -22,7 +22,7 @@
 <ARA_Msg_IncubationStarted>Start of hatching: {0}</ARA_Msg_IncubationStarted>
 <ARA_Quality_Legendary>A fantastic item</ARA_Quality_Legendary>
 <ARA_Quality_Masterwork>Masterpiece</ARA_Quality_Masterwork>
-<ARA_Quality_Excellent>Excellent item</ARA_Quality_Excellent>
+<ARA_Quality_Excellent>Excellent product</ARA_Quality_Excellent>
 <ARA_Quality_Good>Good product</ARA_Quality_Good>
 <ARA_Quality_Normal>Standard product</ARA_Quality_Normal>
 <ARA_Quality_Poor>low quality</ARA_Quality_Poor>
@@ -49,6 +49,7 @@
 <ARA_Gizmo_AddOrder>Add order ({0}/{1})</ARA_Gizmo_AddOrder>
 <ARA_Gizmo_AddOrderDesc_Pawn>Select the type of unit to hatch (multiple clicks possible)</ARA_Gizmo_AddOrderDesc_Pawn>
 <ARA_Gizmo_AddOrderDesc_Item>Select the item to produce (multiple clicks possible)</ARA_Gizmo_AddOrderDesc_Item>
+<ARA_Gizmo_NoavliableOrder>No orders currently in progress</ARA_Gizmo_NoavliableOrder>
 <ARA_Gizmo_CallLarva>call the larvae</ARA_Gizmo_CallLarva>
 <ARA_Gizmo_CallLarvaDesc>Call the larva to start the next order (waiting {0} orders)</ARA_Gizmo_CallLarvaDesc>
 <ARA_Gizmo_LarvaWorking>Working on larvae</ARA_Gizmo_LarvaWorking>
@@ -78,7 +79,7 @@
 <ARA_Tooltip_Ready>[Ready completed]</ARA_Tooltip_Ready>
 <ARA_Tooltip_Target>subject:</ARA_Tooltip_Target>
 <ARA_Tooltip_IncubationTime>Hatching time: {0} days</ARA_Tooltip_IncubationTime>
-<ARA_Tooltip_Quality>Quality: {0} ({1})</ARA_Tooltip_Quality>
+<ARA_Tooltip_Quality>Quality: {0}({1})</ARA_Tooltip_Quality>
 <ARA_Tooltip_Progress>Progress: {0}</ARA_Tooltip_Progress>
 <ARA_Tooltip_Remaining>Remaining: {0}</ARA_Tooltip_Remaining>
 <ARA_NutrientDispenser_MealsAvailable>Can be created: {0} food</ARA_NutrientDispenser_MealsAvailable>
@@ -89,10 +90,10 @@
 <ARA_SwarmMaintenance_TooltipCurrent>Currently: {0} / {1}</ARA_SwarmMaintenance_TooltipCurrent>
 <ARA_SwarmMaintenance_TooltipDecay>Consumption per day: {0}</ARA_SwarmMaintenance_TooltipDecay>
 <ARA_SwarmMaintenance_TooltipCritical>⚠ Serious lack of maintenance! building is damaged</ARA_SwarmMaintenance_TooltipCritical>
-<ARA_SwarmMaintenance_TooltipNeedsMaintenance>Needs maintenance by craft type</ARA_SwarmMaintenance_TooltipNeedsMaintenance>
+<ARA_SwarmMaintenance_TooltipNeedsMaintenance>Maintenance must be done by the burrow manager</ARA_SwarmMaintenance_TooltipNeedsMaintenance>
 <ARA_SwarmMaintenance_TooltipGood>Good condition</ARA_SwarmMaintenance_TooltipGood>
-<ARA_SwarmMaintenance_TooltipHint>Craft types will automatically maintain structures with a maintenance level of less than 90%.</ARA_SwarmMaintenance_TooltipHint>
-<ARA_Gizmo_CallMaintainer>Call the person in charge of craft maintenance</ARA_Gizmo_CallMaintainer>
+<ARA_SwarmMaintenance_TooltipHint>Burrow maintainers will automatically perform maintenance on buildings that are less than 50%</ARA_SwarmMaintenance_TooltipHint>
+<ARA_Gizmo_CallMaintainer>Call a maintainer. Both the Arachne craft species and its facilitator domestic species can perform maintenance tasks.</ARA_Gizmo_CallMaintainer>
 <ARA_Msg_MaintainerCalled>Called {0} to maintain the structure.</ARA_Msg_MaintainerCalled>
-<ARA_Msg_NoMaintainerAvailable>No craft maintenance personnel on standby and reachable could be found!</ARA_Msg_NoMaintainerAvailable>
+<ARA_Msg_NoMaintainerAvailable>No maintainers found who have free time and are accessible!</ARA_Msg_NoMaintainerAvailable>
 </LanguageData>

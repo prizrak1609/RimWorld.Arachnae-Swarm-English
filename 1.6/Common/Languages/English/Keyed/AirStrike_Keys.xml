@@ -2,7 +2,7 @@
 <LanguageData>
 <AircraftManagerNotFound>Air management unit not found!</AircraftManagerNotFound>
 <AircraftStrikeInitiated>Start air attack: {0}</AircraftStrikeInitiated>
-<AircraftStrikeSuccess>Aerial attack: Successful using {1} with {0} aircraft</AircraftStrikeSuccess>
+<AircraftStrikeSuccess>Air attack: Successful using {1} with {0} aircraft</AircraftStrikeSuccess>
 <NoAvailableAircraft>There are no aerial insects available: {0}</NoAvailableAircraft>
 <AircraftStrikeFailed>Aerial beast attack failure: {0} is not available for {1}</AircraftStrikeFailed>
 <NoAircraftForStrike>There are no insects available for attack by {0}.</NoAircraftForStrike>
@@ -26,5 +26,5 @@
 <AddAircraftNullFaction>Attempted to add air units to the Sky faction</AddAircraftNullFaction>
 <AircraftCooldownEnded>{0} can attack again</AircraftCooldownEnded>
 <NoAircraftStatus>No insects available</NoAircraftStatus>
-<AircraftStatusLine>{0}: {1}/{2} (on cooldown: {3})</AircraftStatusLine>
+<AircraftStatusLine>{0}: {1}/{2}(On cooldown: {3})</AircraftStatusLine>
 </LanguageData>

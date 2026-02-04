@@ -47,7 +47,7 @@
 <ARA_OothecaIncubator.Speed>speed</ARA_OothecaIncubator.Speed>
 <ARA_OothecaIncubator.Quality>quality</ARA_OothecaIncubator.Quality>
 <ARA_OothecaIncubator.LarvaOperating>The larva is working</ARA_OothecaIncubator.LarvaOperating>
-<ARA_OothecaIncubator.SRemaining>Seconds left</ARA_OothecaIncubator.SRemaining>
+<ARA_OothecaIncubator.SRemaining>seconds left</ARA_OothecaIncubator.SRemaining>
 <ARA_OothecaIncubator.LarvaOnWay>The larva is on its way</ARA_OothecaIncubator.LarvaOnWay>
 <ARA_OothecaIncubator.Target>subject</ARA_OothecaIncubator.Target>
 <ARA_OothecaIncubator.SpeedMultiplier>speed multiplier</ARA_OothecaIncubator.SpeedMultiplier>
@@ -88,7 +88,7 @@
 <Days>day</Days>
 <Hours>time</Hours>
 <LarvaIsActivatingOotheca>Larva launches egg sac</LarvaIsActivatingOotheca>
-<SecondsRemaining>Seconds left</SecondsRemaining>
+<SecondsRemaining>seconds left</SecondsRemaining>
 <LarvaIsOnTheWay>The larva is on its way</LarvaIsOnTheWay>
 <ReadyToIncubate>Ready to hatch</ReadyToIncubate>
 <NoIncubationTargetSelected>No hatching target selected</NoIncubationTargetSelected>
@@ -211,4 +211,20 @@
 <ARA_Tooltip_Ready>[Ready completed]</ARA_Tooltip_Ready>
 <ARA_Tooltip_Duration>Hatching time: {0}</ARA_Tooltip_Duration>
 <ARA_Tooltip_NoTarget>[Target not selected]\nClick on the title to select the hatching target</ARA_Tooltip_NoTarget>
+<ARA_Gizmo_AddOrder_Multi>{0}/{1} currently selected</ARA_Gizmo_AddOrder_Multi>
+<ARA_Gizmo_AddOrderDesc_Multi>Set a hatching goal for the selected {0} eggs</ARA_Gizmo_AddOrderDesc_Multi>
+<ARA_Menu_SelectIncubationTarget_Multi>Select {0} egg hatching goals</ARA_Menu_SelectIncubationTarget_Multi>
+<ARA_Menu_ClearSelection>Deselect</ARA_Menu_ClearSelection>
+<ARA_Msg_MultiSelectConfigSet>Target set for {0} eggs: {1}</ARA_Msg_MultiSelectConfigSet>
+<ARA_Msg_MultiSelectConfigCleared>{0} eggs goal unlocked</ARA_Msg_MultiSelectConfigCleared>
+<ARA_Msg_MultiCallLarva>Summoned larvae to {0} eggs</ARA_Msg_MultiCallLarva>
+<ARA_Msg_MultiCancelIncubation>Hatching of {0} eggs has been canceled</ARA_Msg_MultiCancelIncubation>
+<ARA_OothecaIncubator.NoValidTargets>No valid goals</ARA_OothecaIncubator.NoValidTargets>
+<ARA_Gizmo_MultiSelectTitle>Multiple selection ({0} items)</ARA_Gizmo_MultiSelectTitle>
+<ARA_Gizmo_MoreBuildings>{0} other buildings...</ARA_Gizmo_MoreBuildings>
+<ARA_Status_Empty>Waiting</ARA_Status_Empty>
+<ARA_Gizmo_Manual>manual</ARA_Gizmo_Manual>
+<ARA_Gizmo_Quality>quality</ARA_Gizmo_Quality>
+<ARA_Gizmo_Balance>balance</ARA_Gizmo_Balance>
+<ARA_Gizmo_Speed>speed</ARA_Gizmo_Speed>
 </LanguageData>

@@ -1,4 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ARA_GuardianFieldGizmoLabel>guardian field</ARA_GuardianFieldGizmoLabel>
+<ARA_GestaltGroup>hive network</ARA_GestaltGroup>
+<ARA_NoGestaltPawns>Node-unconnected individual</ARA_NoGestaltPawns>
+<ARA_GestaltBandwidth>integrated network load</ARA_GestaltBandwidth>
+<ARA_GestaltBandwidthTip>The Hive Network is a system for the Arachne Insects to build Gestalt thinking clusters. This allows the entire tribe to achieve a strong unity under the unified command of the Empress species.\n\nTo raise the upper limit, it is necessary to maintain more Arachne Origen species in the network.</ARA_GestaltBandwidthTip>
+<ARA_AvailableBandwidth>Available nodes: {0}</ARA_AvailableBandwidth>
+<ARA_GestaltBandwidthExceeded>Warning: The Hive network is overloaded. This will directly affect the Empress race's state of mind and may cause a conduction collapse of the entire network!</ARA_GestaltBandwidthExceeded>
+<ARA_NetworkOverloadCleared>Hive network overload has been resolved</ARA_NetworkOverloadCleared>
+<MessageGestaltLostControl>{1} has broken the link with {0}!</MessageGestaltLostControl>
+<ARA_SwarmSpell_Title>Insect swarm technique (Lv.{0})</ARA_SwarmSpell_Title>
+<ARA_SwarmSpell_Research>{0}/{1}</ARA_SwarmSpell_Research>
+<ARA_SwarmSpell_Load>{0:F1}/{1:F1}</ARA_SwarmSpell_Load>
+<ARA_SwarmSpell_Level>technique</ARA_SwarmSpell_Level>
+<ARA_SwarmSpell_Research_Title>Insect group research points</ARA_SwarmSpell_Research_Title>
+<ARA_SwarmSpell_Research_Current>Storage amount: {0} / {1}</ARA_SwarmSpell_Research_Current>
+<ARA_SwarmSpell_Research_Description>Insect group research point label</ARA_SwarmSpell_Research_Description>
+<ARA_SwarmSpell_Research_DescriptionText>Insect group research points text</ARA_SwarmSpell_Research_DescriptionText>
+<ARA_SwarmSpell_Load_Title>psychic load</ARA_SwarmSpell_Load_Title>
+<ARA_SwarmSpell_Load_Current>Load amount: {0:F1} / {1:F1}</ARA_SwarmSpell_Load_Current>
+<ARA_SwarmSpell_Level_Title>Technique level</ARA_SwarmSpell_Level_Title>
+<ARA_SwarmSpell_Level_Current>Current level: {0}</ARA_SwarmSpell_Level_Current>
+<ARA_SwarmSpell_Load_CapacityFormula>Maximum psychic load: 10 × {0} (technique level)</ARA_SwarmSpell_Load_CapacityFormula>
+<ARA_SwarmSpell_Load_Warning>Warning: High psychic load!</ARA_SwarmSpell_Load_Warning>
+<ARA_SwarmSpell_Load_Critical>Warning: Psychic load approaching limit!</ARA_SwarmSpell_Load_Critical>
+<ARA_SwarmSpell_Load_Description>psychic load label</ARA_SwarmSpell_Load_Description>
+<ARA_SwarmSpell_Load_DescriptionText>psychic load text</ARA_SwarmSpell_Load_DescriptionText>
+<ARA_SwarmSpell_Gizmo_Title>insect swarm technique label</ARA_SwarmSpell_Gizmo_Title>
+<ARA_SwarmSpell_Gizmo_Desc>Insect swarm technique text</ARA_SwarmSpell_Gizmo_Desc>
+<ARA_SwarmSpell_Gizmo_Hint>Hover your mouse over the indicator to see detailed information</ARA_SwarmSpell_Gizmo_Hint>
+<ARA_SwarmSpell_SystemNotAvailable>{0}'s insect swarm technique system cannot be used.</ARA_SwarmSpell_SystemNotAvailable>
+<ARA_SwarmSpell_Title_Overload>[Overload] Insect swarm technique system</ARA_SwarmSpell_Title_Overload>
+<ARA_SwarmSpell_Load_Overload>{0:F1}/{1:F1}(+{2})</ARA_SwarmSpell_Load_Overload>
+<ARA_SwarmSpell_Load_Title_Overload>Psychic load [overload]</ARA_SwarmSpell_Load_Title_Overload>
+<ARA_SwarmSpell_Load_OverloadWarning>Warning: Psychic load exceeds capacity!</ARA_SwarmSpell_Load_OverloadWarning>
+<ARA_SwarmSpell_Gizmo_OverloadWarning>Warning: Unit is overloaded. Cooling system locked!</ARA_SwarmSpell_Gizmo_OverloadWarning>
+<ARA_SwarmSpell_Cooldown>{0:F1} seconds</ARA_SwarmSpell_Cooldown>
+<ARA_SwarmSpell_Cooldown_Status>cooling system</ARA_SwarmSpell_Cooldown_Status>
+<ARA_SwarmSpell_Cooldown_Remaining>Remaining time: {0:F1} seconds</ARA_SwarmSpell_Cooldown_Remaining>
+<ARA_SwarmSpell_Cooldown_Behavior>After cooling, the load will be reduced by 1 every 60 ticks.</ARA_SwarmSpell_Cooldown_Behavior>
+<ARA_SwarmSpell_Load_Recovery>After cooling is finished, the load will be automatically reduced</ARA_SwarmSpell_Load_Recovery>
 </LanguageData>

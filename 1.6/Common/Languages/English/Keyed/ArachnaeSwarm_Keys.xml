@@ -63,7 +63,7 @@
 <TechprintsToProduce>Production plan blueprint</TechprintsToProduce>
 <ResearchAlreadyCompleted>This research has already been completed</ResearchAlreadyCompleted>
 <ARA_TechprintCount>Generate blueprint for {0}</ARA_TechprintCount>
-<ARA_NeedSpecificArachnaeToStartResearchProduction>Requires {0} to start generating research</ARA_NeedSpecificArachnaeToStartResearchProduction>
+<ARA_NeedSpecificArachnaeToStartResearchProduction>{0} required to start generating research</ARA_NeedSpecificArachnaeToStartResearchProduction>
 <researchProjectsAvailable>Available research plans</researchProjectsAvailable>
 <ARA_TechprintProductionComplete>Production completed: Generated blueprint {0} for {1} (required for research {2})</ARA_TechprintProductionComplete>
 <ARA_QueenAlreadyExists>The newly born Empress died due to genetic convulsions—due to structural protection in the Arachnidae hive mind, there can only be one Empress per hive.</ARA_QueenAlreadyExists>
@@ -97,4 +97,7 @@
 <ARA_TargetAlreadyHasHediff>Subject has already completed insect transformation</ARA_TargetAlreadyHasHediff>
 <ARA_EjectedOrgans>All organs of {0} were removed.</ARA_EjectedOrgans>
 <ARA_NoEjectableOrgans>Target has no organs to extract.</ARA_NoEjectableOrgans>
+<AreaDamageEnabled>Area damage enabled</AreaDamageEnabled>
+<AreaDamageDisabled>Area damage nullification</AreaDamageDisabled>
+<ARA_ProductionQueue_Description>Add {0}{1} to the worm hatching sequence</ARA_ProductionQueue_Description>
 </LanguageData>

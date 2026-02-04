@@ -12,4 +12,10 @@
 <ARA_IncubationTime.formatString>{0} days</ARA_IncubationTime.formatString>
 <ARA_IcezKillingFactor.label>Rapid cooling failure threshold</ARA_IcezKillingFactor.label>
 <ARA_IcezKillingFactor.description>Indicates the percentage of HP required for a body part to be destroyed by freezing when receiving cooling damage.</ARA_IcezKillingFactor.description>
+<ARA_GestaltBandwidth.label>hive network capacity</ARA_GestaltBandwidth.label>
+<ARA_GestaltBandwidth.description>This is the upper limit of the maximum node of the Gestalt network of the Arachne insect group.Each Arachne insect will affect the network load, some insect clans will share the network pressure, and other insect clans will increase the load.When the load becomes too large, the thinking of the Arachne insect race will be oppressed, and the state of mind and consciousness will decrease.</ARA_GestaltBandwidth.description>
+<ARA_GestaltBandwidthCost.label>hive network load</ARA_GestaltBandwidthCost.label>
+<ARA_GestaltBandwidthCost.description>This is the load that the Arachne insect exerts on the Gestalt network. A negative value indicates that this insect is sharing the pressure of the Gestalt network.</ARA_GestaltBandwidthCost.description>
+<ARA_SwarmSpell_Cooldown_Delay.label>Psychic nerve bundle cooldown delay (seconds)</ARA_SwarmSpell_Cooldown_Delay.label>
+<ARA_SwarmSpell_Cooldown_Delay.description>The psychic load that occurs when an Arachne spirit sucker uses an insect swarm psychic ability will begin to gradually decrease after this time has passed. Any treatment will reset the cooldown time.</ARA_SwarmSpell_Cooldown_Delay.description>
 </LanguageData>

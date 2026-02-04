@@ -27,9 +27,9 @@
 <ARA_Surgery_Install_Cycle_Suppression.label>Embed lifecycle suppression</ARA_Surgery_Install_Cycle_Suppression.label>
 <ARA_Surgery_Install_Cycle_Suppression.description>It induces directed mutations in the Arachne insects, allowing them to survive for a long time without being limited by lifespan. However, when life cycle inhibitors are injected, self-healing ability is lost.</ARA_Surgery_Install_Cycle_Suppression.description>
 <ARA_Surgery_Install_Cycle_Suppression.jobString>Directed mutation in progress.</ARA_Surgery_Install_Cycle_Suppression.jobString>
-<ARA_Surgery_Install_Acidling_Pouch.label>Embed the explosive seed hatching sac</ARA_Surgery_Install_Acidling_Pouch.label>
-<ARA_Surgery_Install_Acidling_Pouch.description>It induces a directed mutation in the Arachne insects and creates a sac that stores 3 explosive species that are scheduled to hatch in advance.When released, they attack the enemy with a suicide attack.</ARA_Surgery_Install_Acidling_Pouch.description>
-<ARA_Surgery_Install_Acidling_Pouch.jobString>Directed mutation in progress.</ARA_Surgery_Install_Acidling_Pouch.jobString>
+<ARA_Surgery_Install_Baneling_Pouch.label>Embed the explosive seed hatching sac</ARA_Surgery_Install_Baneling_Pouch.label>
+<ARA_Surgery_Install_Baneling_Pouch.description>It induces a directed mutation in the Arachne insects and creates a sac that stores 3 explosive species that are scheduled to hatch in advance.When released, they attack the enemy with a suicide attack.</ARA_Surgery_Install_Baneling_Pouch.description>
+<ARA_Surgery_Install_Baneling_Pouch.jobString>Directed mutation in progress.</ARA_Surgery_Install_Baneling_Pouch.jobString>
 <ARA_Surgery_Install_Tumor_Pouch.label>Implant the mycocele hatching sac</ARA_Surgery_Install_Tumor_Pouch.label>
 <ARA_Surgery_Install_Tumor_Pouch.description>It induces directed mutation in Arachne insects and stores one withering fungus in the hatching sac.When released, it transforms the surrounding ground into a fungal bed topography.</ARA_Surgery_Install_Tumor_Pouch.description>
 <ARA_Surgery_Install_Tumor_Pouch.jobString>Directed mutation in progress.</ARA_Surgery_Install_Tumor_Pouch.jobString>
@@ -38,7 +38,7 @@
 <ARA_CureAcid.jobString>Removes neurotoxins.</ARA_CureAcid.jobString>
 <ARA_CureAcid.successfullyRemovedHediffMessage>{0} successfully removed the Arachne neurotoxin from {1}'s body.</ARA_CureAcid.successfullyRemovedHediffMessage>
 <ARA_CureBloodRot.label>Eliminate pseudonematode infections</ARA_CureBloodRot.label>
-<ARA_CureBloodRot.description>The surgery to eliminate Arachne pseudonematodes within a patient's body through targeted therapy using multiple drugs is extremely complex and can only be performed using cutting-edge medicines provided by Glitterworld.</ARA_CureBloodRot.description>
+<ARA_CureBloodRot.description>The surgery to eliminate Arachne pseudonematodes in patients through targeted therapy using multiple drugs is extremely complex and can only be performed using cutting-edge medicines provided by Glitterworld.</ARA_CureBloodRot.description>
 <ARA_CureBloodRot.jobString>Eliminates pseudonematode infection.</ARA_CureBloodRot.jobString>
 <ARA_CureBloodRot.successfullyRemovedHediffMessage>{0} successfully removed the pseudonematode infection from {1}'s body.</ARA_CureBloodRot.successfullyRemovedHediffMessage>
 </LanguageData>

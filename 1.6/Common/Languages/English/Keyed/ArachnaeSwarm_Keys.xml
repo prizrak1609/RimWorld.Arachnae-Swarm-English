@@ -15,7 +15,7 @@
 <ARA_CannotPossessRace>{0}Cannot parasitize species.</ARA_CannotPossessRace>
 <ARA_TipString_LinkedTo>Link destination: {0}</ARA_TipString_LinkedTo>
 <ARA_TipString_NotLinked>It is not linked to any Empress species.</ARA_TipString_NotLinked>
-<ARA_TipString_ControlledDrones>Insects under control:</ARA_TipString_ControlledDrones>
+<ARA_TipString_ControlledDrones>Insect tribe under control:</ARA_TipString_ControlledDrones>
 <ARA_TipString_NoDronesBound>No insects have been linked yet.</ARA_TipString_NoDronesBound>
 <MessageTrapSprung>{PAWN} activated {TRAP}!</MessageTrapSprung>
 <MessageTrapSprung_NoInstigator>{TRAP} has activated!</MessageTrapSprung_NoInstigator>
@@ -100,4 +100,19 @@
 <AreaDamageEnabled>Area damage enabled</AreaDamageEnabled>
 <AreaDamageDisabled>Area damage nullification</AreaDamageDisabled>
 <ARA_ProductionQueue_Description>Add {0}{1} to the worm hatching sequence</ARA_ProductionQueue_Description>
+<ARA_SwarmSpell_ResearchHarvest>{0} harvested {2} insect swarm evolution points from {1}</ARA_SwarmSpell_ResearchHarvest>
+<ARA_SwarmSpell_ResearchHarvest_Message>{0} absorbed {1}'s essence and gained {2} evolution points.</ARA_SwarmSpell_ResearchHarvest_Message>
+<ARA_UsePsychicLoadSkill>Activate skill: {0}</ARA_UsePsychicLoadSkill>
+<ARA_SwarmSpell_LoadCost>Cumulative nerve bundle load:</ARA_SwarmSpell_LoadCost>
+<ARA_SwarmSpell_LoadCost_Fixed>{0}</ARA_SwarmSpell_LoadCost_Fixed>
+<ARA_SwarmSpell_LoadCost_Range>{0}～{1}</ARA_SwarmSpell_LoadCost_Range>
+<ARA_SwarmSpell_Overload_Penalty_Description>If the nerve bundle is already overloaded, any insect swarm psychic technique will result in instant death!</ARA_SwarmSpell_Overload_Penalty_Description>
+<ARA_SwarmSpell_LoadDumped_Entropy>{0} converted the nerve bundle load of {1} into an entropy value and transferred it to {2}</ARA_SwarmSpell_LoadDumped_Entropy>
+<ARA_SwarmSpell_LoadDumped_Destruction>{0} transferred the nerve bundle load of {1} to {2} as destructive energy</ARA_SwarmSpell_LoadDumped_Destruction>
+<ARA_SwarmSpell_EntropyTransferred>{0} transferred {2} entropy value to {1}</ARA_SwarmSpell_EntropyTransferred>
+<ARA_SwarmSpell_ConsciousnessDestroyed>{0}'s brain has been destroyed</ARA_SwarmSpell_ConsciousnessDestroyed>
+<ARA_SwarmSpell_NoConsciousnessFallback>{0} received {1} damage</ARA_SwarmSpell_NoConsciousnessFallback>
+<ARA_SwarmSpell_OverloadRelieved>{0} has been released from overload status</ARA_SwarmSpell_OverloadRelieved>
+<ARA_SwarmSpell_NoLoadToDump>{0} has no transferable nerve bundle load</ARA_SwarmSpell_NoLoadToDump>
+<ARA_SwarmSpell_EntropyTransferFailed>Failed to transfer nerve bundle load to {0}</ARA_SwarmSpell_EntropyTransferFailed>
 </LanguageData>

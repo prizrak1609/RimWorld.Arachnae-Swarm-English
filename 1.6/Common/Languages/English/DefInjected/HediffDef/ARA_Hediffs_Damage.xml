@@ -32,7 +32,7 @@
 <ARA_ChainReload.stages.4.label>Level 5/5</ARA_ChainReload.stages.4.label>
 <ARA_BeamAiming.label>beam preheating</ARA_BeamAiming.label>
 <ARA_BeamAiming.description>The Arachne Bug's beam-based energy weapon can continue firing continuously after aiming for a short period of time.</ARA_BeamAiming.description>
-<ARA_BeamAiming.stages.0.label>Completed</ARA_BeamAiming.stages.0.label>
+<ARA_BeamAiming.stages.0.label>Completion</ARA_BeamAiming.stages.0.label>
 <ARA_Fighter_Execution_Damage.label>execution</ARA_Fighter_Execution_Damage.label>
 <ARA_Fighter_Execution_Damage.description>Deals heavy damage to execute the target.</ARA_Fighter_Execution_Damage.description>
 <ARA_Fighter_Execution_Damage.stages.0.label>Mild</ARA_Fighter_Execution_Damage.stages.0.label>

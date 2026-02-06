@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ARA_Neurotyrant_PsychicBrainburn.label>psychic brain burn</ARA_Neurotyrant_PsychicBrainburn.label>
-<ARA_Neurotyrant_PsychicBrainburn.description>Releases a powerful, pure psychic shock into the subject, scorching the central nervous system - killing the subject instantly.</ARA_Neurotyrant_PsychicBrainburn.description>
-<ARA_Neurotyrant_PsychicBrainburn.comps.0.customLabel>psychic load cost</ARA_Neurotyrant_PsychicBrainburn.comps.0.customLabel>
+<ARA_Neurotyrant_Harvest.label>Evolution point harvest</ARA_Neurotyrant_Harvest.label>
+<ARA_Neurotyrant_Harvest.description>The spirit absorber drains the target's intelligence and converts it into evolution points. Absorption takes a short amount of time, but the target dies instantly.</ARA_Neurotyrant_Harvest.description>
+<ARA_Neurotyrant_Harvest.comps.CompAbilityEffect_PsychicLoadCost.customLabel>psychic load cost</ARA_Neurotyrant_Harvest.comps.CompAbilityEffect_PsychicLoadCost.customLabel>
+<ARA_Neurotyrant_PsychicLoadDump.label>load recoil</ARA_Neurotyrant_PsychicLoadDump.label>
+<ARA_Neurotyrant_PsychicLoadDump.description>It forces the enormous load that the spirit absorbing species is subjected to onto the target. If the target does not have psychic abilities, this recoil will cause instant death. Individuals with psychic abilities will be able to avoid the fatal impact, but will accumulate a large amount of psychic entropy.</ARA_Neurotyrant_PsychicLoadDump.description>
 </LanguageData>

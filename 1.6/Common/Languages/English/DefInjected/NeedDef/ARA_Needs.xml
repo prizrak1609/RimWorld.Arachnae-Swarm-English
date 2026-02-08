@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ARA_HoneyProduction.label>honey can</ARA_HoneyProduction.label>
-<ARA_HoneyProduction.description>Indicates how much honeydew this organism stores. If other insect families are starving, the creature with the honey can will try to feed them. When the honey can is full, the creature will try to extract it.</ARA_HoneyProduction.description>
+<ARA_HoneyProduction.description>Indicates how much honeydew this creature stores. If other insect families are starving, the creature with the honey can will try to feed them. When the honey can is full, the creature will try to extract it.</ARA_HoneyProduction.description>
 <ARA_HoneyProduction_Animal.label>honey can</ARA_HoneyProduction_Animal.label>
 <ARA_HoneyProduction_Animal.description>This shows how much honey is stored in this organism.When the honey can is full, this organism tries to extract it.</ARA_HoneyProduction_Animal.description>
 <ARA_ChitinArmor.label>shell</ARA_ChitinArmor.label>
-<ARA_ChitinArmor.description>This shows the thickness of the Arachne carapace on this creature's body.The thicker the carapace, the more powerful the insect's defenses are.Insects can also peel it off from their body and produce chitin.</ARA_ChitinArmor.description>
+<ARA_ChitinArmor.description>This shows the thickness of the Arachne carapace on this creature's body.The thicker the carapace, the more powerful the insect's defenses are.Insects can also peel it off from their own bodies and produce chitin.</ARA_ChitinArmor.description>
 </LanguageData>

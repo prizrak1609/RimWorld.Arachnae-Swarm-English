@@ -38,7 +38,7 @@
 <ARA_Proj_StrongSludgeSpray_Eco.label>Arachnoid acid solution</ARA_Proj_StrongSludgeSpray_Eco.label>
 <ARA_RW_Basic_FireSpewer_Gun.label>Weapon organ "Flame Acid Gun"</ARA_RW_Basic_FireSpewer_Gun.label>
 <ARA_RW_Basic_FireSpewer_Gun.verbs.Verb_ShootFireSpew.label>Weapon organ "Flame Acid Gun"</ARA_RW_Basic_FireSpewer_Gun.verbs.Verb_ShootFireSpew.label>
-<ARA_RW_Basic_FireSpewer_Gun.description>It is a large long-range weapon organ of Arachne insects, which has fluid sacs filled with acid glands and strong muscle tubes, and sprays a hot molten air mass of fire and acid in the targeted direction.It covers enemies within range and melts their armor and flesh.</ARA_RW_Basic_FireSpewer_Gun.description>
+<ARA_RW_Basic_FireSpewer_Gun.description>It is a large long-range weapon organ of the Arachne insect group, which has a liquid sac filled with acid glands and a strong muscle tube, and sprays a hot molten air mass of fire and acid in the targeted direction.It covers enemies within range and melts their armor and flesh.</ARA_RW_Basic_FireSpewer_Gun.description>
 <ARA_RW_Acid_Mortar.label>Weapon organ "corrosion mortar"</ARA_RW_Acid_Mortar.label>
 <ARA_RW_Acid_Mortar.verbs.Verb_Shoot.label>Weapon organ "corrosion mortar"</ARA_RW_Acid_Mortar.verbs.Verb_Shoot.label>
 <ARA_RW_Acid_Mortar.description>It is a large long-range weapon used by Arachne insects.The cannon is filled with strong muscle tissue, and when it contracts momentarily, it shoots a mass of acid into the air, bombarding enemy groups from a safe distance.</ARA_RW_Acid_Mortar.description>
@@ -80,7 +80,7 @@
 <ARA_Praetorian_Base_Turret.label>acid nest</ARA_Praetorian_Base_Turret.label>
 <ARA_Praetorian_Base_Turret.verbs.Verb_ShootSelfUnderfoot.label>acid nest</ARA_Praetorian_Base_Turret.verbs.Verb_ShootSelfUnderfoot.label>
 <ARA_Praetorian_Base_Turret.description>It is a symbiotic organ that is built into the body of the Arachne species.When an enemy approaches, it automatically releases acidic seeds.</ARA_Praetorian_Base_Turret.description>
-<ArachnaeBase_Race_Acidcut_Proj.label>arachne acid spp.</ArachnaeBase_Race_Acidcut_Proj.label>
+<ArachnaeBase_Race_Acidcut_Proj.label>arachne acid strain</ArachnaeBase_Race_Acidcut_Proj.label>
 <ARA_Skyraider_Hivelord_Turret.label>skyraider nest</ARA_Skyraider_Hivelord_Turret.label>
 <ARA_Skyraider_Hivelord_Turret.verbs.Verb_Shoot.label>skyraider nest</ARA_Skyraider_Hivelord_Turret.verbs.Verb_Shoot.label>
 <ARA_Skyraider_Hivelord_Turret.description>It is a symbiotic organ of the Arachne lord species that automatically projects Tenshu Seinsuke insects when it is near an enemy.</ARA_Skyraider_Hivelord_Turret.description>

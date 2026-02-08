@@ -8,7 +8,7 @@
 <CannotStartProduction>Unable to start production</CannotStartProduction>
 <NoFuel>no fuel</NoFuel>
 <StartProduction>Start of production of {0}</StartProduction>
-<ARA_ProductionCost>({0} nutrition)</ARA_ProductionCost>
+<ARA_ProductionCost>(Nutrition of {0})</ARA_ProductionCost>
 <CommandCancelProduction>discontinued production</CommandCancelProduction>
 <CommandCancelProductionDesc>Stop the current production process.</CommandCancelProductionDesc>
 <Producing>Currently producing {0}</Producing>

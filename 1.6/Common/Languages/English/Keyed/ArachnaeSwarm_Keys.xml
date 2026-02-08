@@ -15,7 +15,7 @@
 <ARA_CannotPossessRace>{0}Cannot parasitize species.</ARA_CannotPossessRace>
 <ARA_TipString_LinkedTo>Link destination: {0}</ARA_TipString_LinkedTo>
 <ARA_TipString_NotLinked>It is not linked to any Empress species.</ARA_TipString_NotLinked>
-<ARA_TipString_ControlledDrones>Insect tribe under control:</ARA_TipString_ControlledDrones>
+<ARA_TipString_ControlledDrones>Insects under control:</ARA_TipString_ControlledDrones>
 <ARA_TipString_NoDronesBound>No insects have been linked yet.</ARA_TipString_NoDronesBound>
 <MessageTrapSprung>{PAWN} activated {TRAP}!</MessageTrapSprung>
 <MessageTrapSprung_NoInstigator>{TRAP} has activated!</MessageTrapSprung_NoInstigator>
@@ -49,7 +49,7 @@
 <FuelTankFull>Resources are full</FuelTankFull>
 <CurrentFuel>Current resource stock</CurrentFuel>
 <AcidDamageProgress>Progress until the next damage occurs</AcidDamageProgress>
-<RefuelingVatIdle>Facility on standby - Produces fuel when housing non-Insect settlers, prisoners, and slaves</RefuelingVatIdle>
+<RefuelingVatIdle>Facility Waiting - Produces fuel when housing non-Insect settlers, prisoners, and slaves</RefuelingVatIdle>
 <RefuelingStopped>production stopped</RefuelingStopped>
 <InsertPersonRefuelingVatDesc>Select colonists, prisoners, or slaves and house them in extraction vats. They will slowly take damage and produce resources.</InsertPersonRefuelingVatDesc>
 <AssignCarryPrisoner>Assign a prisoner/slave carrier</AssignCarryPrisoner>
@@ -58,7 +58,7 @@
 <CarrierAssigned>Assign {0} to transport {1} to the living building</CarrierAssigned>
 <NoAvailableCarriers>There are no members of the insect group that can be transported.</NoAvailableCarriers>
 <NoPrisonersOrSlaves>No prisoners or slaves available</NoPrisonersOrSlaves>
-<StartResearchProduction>Incubate {0} blueprint</StartResearchProduction>
+<StartResearchProduction>Incubate blueprint for {0}</StartResearchProduction>
 <ProducingTechprint>Generating blueprint: {0}</ProducingTechprint>
 <TechprintsToProduce>Production plan blueprint</TechprintsToProduce>
 <ResearchAlreadyCompleted>This research has already been completed</ResearchAlreadyCompleted>

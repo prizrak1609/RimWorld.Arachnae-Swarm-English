@@ -22,7 +22,7 @@
 <ARA_Msg_IncubationStarted>Start of hatching: {0}</ARA_Msg_IncubationStarted>
 <ARA_Quality_Legendary>A fantastic item</ARA_Quality_Legendary>
 <ARA_Quality_Masterwork>Masterpiece</ARA_Quality_Masterwork>
-<ARA_Quality_Excellent>Excellent product</ARA_Quality_Excellent>
+<ARA_Quality_Excellent>Excellent item</ARA_Quality_Excellent>
 <ARA_Quality_Good>Good product</ARA_Quality_Good>
 <ARA_Quality_Normal>Standard product</ARA_Quality_Normal>
 <ARA_Quality_Poor>low quality</ARA_Quality_Poor>
@@ -51,7 +51,7 @@
 <ARA_Gizmo_AddOrderDesc_Item>Select the item to produce (multiple clicks possible)</ARA_Gizmo_AddOrderDesc_Item>
 <ARA_Gizmo_NoavliableOrder>No orders currently in progress</ARA_Gizmo_NoavliableOrder>
 <ARA_Gizmo_CallLarva>call the larvae</ARA_Gizmo_CallLarva>
-<ARA_Gizmo_CallLarvaDesc>Call the larva to start the next order (waiting {0} orders)</ARA_Gizmo_CallLarvaDesc>
+<ARA_Gizmo_CallLarvaDesc>Call the larva to start the next order (waiting {0} items)</ARA_Gizmo_CallLarvaDesc>
 <ARA_Gizmo_LarvaWorking>Working on larvae</ARA_Gizmo_LarvaWorking>
 <ARA_Gizmo_LarvaWorkingDesc>1 larva is operating the incubator (waiting order {0})</ARA_Gizmo_LarvaWorkingDesc>
 <ARA_Gizmo_LarvaActivating>Larva starting</ARA_Gizmo_LarvaActivating>
@@ -61,7 +61,7 @@
 <ARA_Gizmo_TotalSpeedMultiplier>Total speed multiplier: {0}</ARA_Gizmo_TotalSpeedMultiplier>
 <ARA_Gizmo_TotalQualityMultiplier>Total quality multiplier: {0}</ARA_Gizmo_TotalQualityMultiplier>
 <ARA_Gizmo_NeutronFlux_Title>activity strength</ARA_Gizmo_NeutronFlux_Title>
-<ARA_Gizmo_NeutronFlux_TooltipTitle>[Hatching activity control]</ARA_Gizmo_NeutronFlux_TooltipTitle>
+<ARA_Gizmo_NeutronFlux_TooltipTitle>[Hatchling activity control]</ARA_Gizmo_NeutronFlux_TooltipTitle>
 <ARA_Gizmo_NeutronFlux_CoreMechanic>▸ High activity → Fast hatching\n▸ Low activity → High quality</ARA_Gizmo_NeutronFlux_CoreMechanic>
 <ARA_Gizmo_NeutronFlux_Operations>Click and drag to adjust | Switch mode at top right</ARA_Gizmo_NeutronFlux_Operations>
 <ARA_Gizmo_CallLarvaActivationDesc>Call the larva and start the manufacturing pod\n\nTarget: {0}</ARA_Gizmo_CallLarvaActivationDesc>
@@ -84,7 +84,7 @@
 <ARA_Tooltip_Remaining>Remaining: {0}</ARA_Tooltip_Remaining>
 <ARA_NutrientDispenser_MealsAvailable>Can be created: {0} food</ARA_NutrientDispenser_MealsAvailable>
 <ARA_FuelLabel_Nutrition>insect honey</ARA_FuelLabel_Nutrition>
-<ARA_SwarmMaintenance_Title>Retention level</ARA_SwarmMaintenance_Title>
+<ARA_SwarmMaintenance_Title>Retention degree</ARA_SwarmMaintenance_Title>
 <ARA_SwarmMaintenance_DailyDecay_Short>Consumption: {0}/day</ARA_SwarmMaintenance_DailyDecay_Short>
 <ARA_SwarmMaintenance_TooltipTitle>[Building maintenance level]</ARA_SwarmMaintenance_TooltipTitle>
 <ARA_SwarmMaintenance_TooltipCurrent>Currently: {0} / {1}</ARA_SwarmMaintenance_TooltipCurrent>

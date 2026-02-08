@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ARA_DropPod.label>Arachne air sac species</ARA_DropPod.label>
-<ARA_DropPod.description>It is a gigantic Arachnid worm that can store large amounts of supplies and insects in its internal cavity; it uses its internal air sacs to rise into the air and fly to its destination on the world map. However, it self-destructs upon landing.\n\nCompared to the drop pods used by humans, air sacs do not require fuel and cost less.</ARA_DropPod.description>
+<ARA_DropPod.description>It is a gigantic Arachne worm that can store a large amount of supplies and insects in its internal cavity; it uses its internal air sacs to rise into the air and fly to its destination on the world map. However, it self-destructs upon landing.\n\nCompared to the drop pods used by humans, air sacs do not require fuel and cost less.</ARA_DropPod.description>
 <ARA_ActiveDropPod.label>Arachne air sac species</ARA_ActiveDropPod.label>
 <ARA_DropPodLeaving.label>Arachne air sac species (takeoff)</ARA_DropPodLeaving.label>
 <ARA_DropPodIncoming.label>Arachne air sac species (landing)</ARA_DropPodIncoming.label>

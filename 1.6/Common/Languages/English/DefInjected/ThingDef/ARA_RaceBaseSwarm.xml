@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ArachnaeBase_Race_Larva.label>Arachne larva species</ArachnaeBase_Race_Larva.label>
+<ArachnaeBase_Race_Larva.label>Arachne larval species</ArachnaeBase_Race_Larva.label>
 <ArachnaeBase_Race_Larva.description>It is a type of Arachne argentina, and it contains all the genetic information necessary for the insect group to expand to the surface of the earth, and forms the basis of the insect family.It invades Arachne eggs and Arachne cocoons, and transforms into new control insects and equipment through complete metamorphosis.</ArachnaeBase_Race_Larva.description>
 <ArachnaeBase_Race_Larva.tools.head.label>head</ArachnaeBase_Race_Larva.tools.head.label>
 <ArachnaeBase_Race_Scavenger.label>Arachne corrosive species</ArachnaeBase_Race_Scavenger.label>
@@ -9,7 +9,7 @@
 <ArachnaeBase_Race_Scavenger.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Scavenger.comps.CompNodeSwarmLifetime.tooltipOverride>
 <ArachnaeBase_Race_Scavenger.tools.head.label>head</ArachnaeBase_Race_Scavenger.tools.head.label>
 <ArachnaeBase_Race_Longpincer.label>Arachne hard-jawed species</ArachnaeBase_Race_Longpincer.label>
-<ArachnaeBase_Race_Longpincer.description>It is a type of Arachne frugivore, and has a pair of jaws that are excessively large for its body size, allowing it to carry things around and do digging work.If its supervisor, the Arachne bug, is in a conscripted state, it will accompany the Arachne bug.</ArachnaeBase_Race_Longpincer.description>
+<ArachnaeBase_Race_Longpincer.description>It is a type of Arachne frugivore, and has a pair of jaws that are excessively large for its body size, allowing it to carry things around and do digging work.If its supervisor is in a conscripted state, it will accompany it.</ArachnaeBase_Race_Longpincer.description>
 <ArachnaeBase_Race_Longpincer.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Longpincer.comps.CompNodeSwarmLifetime.labelOverride>
 <ArachnaeBase_Race_Longpincer.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Longpincer.comps.CompNodeSwarmLifetime.tooltipOverride>
 <ArachnaeBase_Race_Longpincer.tools.0.label>giant jaw</ArachnaeBase_Race_Longpincer.tools.0.label>
@@ -18,7 +18,7 @@
 <ArachnaeBase_Race_Hivekeeping.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Hivekeeping.comps.CompNodeSwarmLifetime.labelOverride>
 <ArachnaeBase_Race_Hivekeeping.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Hivekeeping.comps.CompNodeSwarmLifetime.tooltipOverride>
 <ArachnaeBase_Race_Hivekeeping.tools.head.label>head</ArachnaeBase_Race_Hivekeeping.tools.head.label>
-<ArachnaeBase_Race_Acidcut.label>arachne acid spp.</ArachnaeBase_Race_Acidcut.label>
+<ArachnaeBase_Race_Acidcut.label>arachne acid strain</ArachnaeBase_Race_Acidcut.label>
 <ArachnaeBase_Race_Acidcut.description>It is a type of Arachne frugivore.It has low intelligence and bites its enemies to pieces with its acid-filled jaws.Its simple body structure makes it easy to raise.If its supervisor is in a conscript state, it will accompany the arachne bug.</ArachnaeBase_Race_Acidcut.description>
 <ArachnaeBase_Race_Acidcut.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Acidcut.comps.CompNodeSwarmLifetime.labelOverride>
 <ArachnaeBase_Race_Acidcut.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Acidcut.comps.CompNodeSwarmLifetime.tooltipOverride>
@@ -29,12 +29,12 @@
 <ArachnaeBase_Race_Baneling.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Baneling.comps.CompNodeSwarmLifetime.tooltipOverride>
 <ArachnaeBase_Race_Baneling.tools.head.label>head</ArachnaeBase_Race_Baneling.tools.head.label>
 <ArachnaeBase_Race_Empsuicider.label>Arachne electromagnetic species</ArachnaeBase_Race_Empsuicider.label>
-<ArachnaeBase_Race_Empsuicider.description>A type of arachne insect, it has low intelligence and mainly attacks enemies with suicide attacks. When it approaches the enemy, it emits EMP and paralyzes the machines. If the supervisor insect is in conscript state, it will accompany the insect.</ArachnaeBase_Race_Empsuicider.description>
+<ArachnaeBase_Race_Empsuicider.description>A type of arachne insect, it has low intelligence and mainly attacks enemies with suicide attacks. When it approaches the enemy, it emits EMP and paralyzes the machines. If the supervisor insect is in a conscript state, it will accompany the insect.</ArachnaeBase_Race_Empsuicider.description>
 <ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.labelOverride>
 <ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.tooltipOverride>
 <ArachnaeBase_Race_Empsuicider.tools.head.label>head</ArachnaeBase_Race_Empsuicider.tools.head.label>
 <ArachnaeBase_Race_Skyhive.label>Arachne Tensu species</ArachnaeBase_Race_Skyhive.label>
-<ArachnaeBase_Race_Skyhive.description>It is a type of Arachne insect that has the ability to fly close to the ground, and has very good attack speed and movement speed.If the supervisor, the insect, is in a conscript state, it will accompany the insect.</ArachnaeBase_Race_Skyhive.description>
+<ArachnaeBase_Race_Skyhive.description>A type of arachne insect, it has the ability to fly close to the ground, and has very good attack speed and movement speed.If the supervisor insect is in a conscript state, it will accompany the insect.</ArachnaeBase_Race_Skyhive.description>
 <ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.labelOverride>
 <ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.tooltipOverride>
 <ArachnaeBase_Race_Skyhive.tools.0.label>compound jaw</ArachnaeBase_Race_Skyhive.tools.0.label>

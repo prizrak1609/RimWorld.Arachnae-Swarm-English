@@ -39,7 +39,7 @@
 <ARA_Ability_Possess.label>Protozoan species parasitic attack</ARA_Ability_Possess.label>
 <ARA_Ability_Possess.description>It leaps onto its target, pierces its nerve center with its tail stinger, and replaces it with its own control signals. If the infestation is successful, the target's body is completely taken over and it acts as a member of the Arachne swarm—the infestation will fail if it cannot penetrate the armor, but it will not be able to penetrate the captive or inactive body. It is guaranteed to succeed against the powerful.\n\nThe parasite must receive the pheromone tag of the Empress species, and continues to live like a shell without emotions or higher-order desires.The target's skills and background are replaced by those of the protozoan species, and when the host dies, the protozoan species escapes from the body.</ARA_Ability_Possess.description>
 <ARA_Ability_Smokepop.label>Pheromone fog release</ARA_Ability_Smokepop.label>
-<ARA_Ability_Smokepop.description>The stray mist species releases a large amount of Arachne pheromone smoke from its abdomen. This smoke hides the appearance of the insect swarm and blocks the flames. The more people (both friend and foe) stained with the pheromones, the more reinforcement insect people will appear from underground.</ARA_Ability_Smokepop.description>
+<ARA_Ability_Smokepop.description>The stray mist species releases a large amount of Arachne pheromone smoke from its abdomen. This smoke hides the appearance of the insect swarm and blocks the flames. The more people (friend or foe) stained with the pheromones, the more reinforcement insect people will appear from underground.</ARA_Ability_Smokepop.description>
 <ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_Baneling_Suicide_Ability.label>benign self-destruction</ARA_Baneling_Suicide_Ability.label>
@@ -58,7 +58,7 @@
 <ARA_Ability_TrackingCharge.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Ability_TrackingCharge.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_Ability_TrackingCharge.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Ability_TrackingCharge.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_PsychicBrainburn.label>psychic cauterization</ARA_PsychicBrainburn.label>
-<ARA_PsychicBrainburn.description>Pure psychic energy consumes the target's nerve centers, instantly ending their life.</ARA_PsychicBrainburn.description>
+<ARA_PsychicBrainburn.description>Pure psychic energy burns out the target's nerve centers, instantly ending their life.</ARA_PsychicBrainburn.description>
 <ARA_NeuroSwarm_jump.label>high altitude maneuver</ARA_NeuroSwarm_jump.label>
 <ARA_NeuroSwarm_jump.description>It strengthens your body's ability to float, allowing you to rise quickly and fly to new locations.</ARA_NeuroSwarm_jump.description>
 <ARA_NeuroSwarm_jump.verbProperties.label>jump</ARA_NeuroSwarm_jump.verbProperties.label>

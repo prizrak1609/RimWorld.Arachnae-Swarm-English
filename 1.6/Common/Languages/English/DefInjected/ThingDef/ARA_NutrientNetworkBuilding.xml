@@ -4,7 +4,7 @@
 <ARA_NutrientNetworkTower.description>A central nutrient supply facility that automatically refuels linked structures that require nutrients.The main body must be manually refilled with large amounts of biomass.</ARA_NutrientNetworkTower.description>
 <ARA_NutrientNetworkTower.comps.CompRefuelableNutrition.fuelGizmoLabel>insect honey</ARA_NutrientNetworkTower.comps.CompRefuelableNutrition.fuelGizmoLabel>
 <ARANutrientDispenser.label>Arachne honey crystal burrow</ARANutrientDispenser.label>
-<ARANutrientDispenser.description>This is a burrow that produces Arachne honey cake. It decomposes insect nectar to create edible honey cake. The food processed in this burrow helps the insect group withstand the influence of cold-blooded animals, and its soft texture can be enjoyed by non-bug settlers.</ARANutrientDispenser.description>
+<ARANutrientDispenser.description>This is a burrow that produces Arachne honey cake. It decomposes insect nectar to create edible honey cake. The food processed in this burrow helps the insect group withstand the effects of cold-blooded animals, and its soft texture can be enjoyed by non-bug settlers.</ARANutrientDispenser.description>
 <ARANutrientDispenser.comps.CompRefuelableNutrition.fuelGizmoLabel>insect honey</ARANutrientDispenser.comps.CompRefuelableNutrition.fuelGizmoLabel>
 <ARA_MorphableResearchBench.label>Arachne Origen Seoriza</ARA_MorphableResearchBench.label>
 <ARA_MorphableResearchBench.description>It is a biological structure formed mainly by the Arachne species, and is an essential building for advanced research on insect groups.This building cannot be constructed and can only be obtained from the transformation of the Arachne species.</ARA_MorphableResearchBench.description>

@@ -18,7 +18,7 @@
 <UnknownFaction>unknown faction</UnknownFaction>
 <LaunchAircraft>take off beast insect</LaunchAircraft>
 <LaunchAircraftDesc>Commands an aerial beast to take off. Once taken off, a beast does not return to the ground and must be commanded by a towing species in order to use it.</LaunchAircraftDesc>
-<HangarDamaged>The insect is damaged</HangarDamaged>
+<HangarDamaged>The beast is damaged</HangarDamaged>
 <AircraftLaunched>The beast takes off: {1} to {0}</AircraftLaunched>
 <TakeoffEffectMapNull>Unable to generate takeoff effect: parent map does not exist</TakeoffEffectMapNull>
 <TakeoffSkyfallerCreated>Create a take-off sky crasher with one stack of bio-liquefied fuel on {0}</TakeoffSkyfallerCreated>

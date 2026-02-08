@@ -21,7 +21,7 @@
 <ARA_TrainAnimals.label>Skill training (animals)</ARA_TrainAnimals.label>
 <ARA_TrainAnimals.description>Trains the selected skill level. It costs nothing, does not produce anything, and simply gives you work experience points.\n\nSkill training is classified as a "basic" type of work. If you do not want your swarm to continuously train, it is recommended to lower the priority of that type of work.</ARA_TrainAnimals.description>
 <ARA_TrainAnimals.jobString>Training skills.</ARA_TrainAnimals.jobString>
-<ARA_TrainMedicine.label>Skill training (medical)</ARA_TrainMedicine.label>
+<ARA_TrainMedicine.label>Skill training (medicine)</ARA_TrainMedicine.label>
 <ARA_TrainMedicine.description>Trains the selected skill level. It costs nothing, does not produce anything, and simply gives you work experience points.\n\nSkill training is classified as a "basic" type of work. If you do not want your swarm to continuously train, it is recommended to lower the priority of that type of work.</ARA_TrainMedicine.description>
 <ARA_TrainMedicine.jobString>Training skills.</ARA_TrainMedicine.jobString>
 <ARA_TrainSocial.label>Skill training (social)</ARA_TrainSocial.label>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ARA_Medicine.label>Arachne healing element</ARA_Medicine.label>
-<ARA_Medicine.description>This medicine is produced from hatched Arachne cocoons and has the same effect as regular medicines, but requires refrigerated storage.</ARA_Medicine.description>
+<ARA_Medicine.description>This medicine is produced from Arachne cocoons and has the same effect as regular medicines, but it must be kept refrigerated.</ARA_Medicine.description>
 <ARA_PheromoneSolvent.label>arachne pheromone solvent</ARA_PheromoneSolvent.label>
 <ARA_PheromoneSolvent.description>This is a synthetic chemical that mimics the pheromones used within the Arachne group to distinguish between friend and foe.When injected regularly, it tricks the parasites within the host, inducing them into a symbiotic dormancy state and suppressing their deadly reproductive behavior.</ARA_PheromoneSolvent.description>
 <ARA_PheromoneSolvent.ingestible.ingestCommandString>Take {0}</ARA_PheromoneSolvent.ingestible.ingestCommandString>

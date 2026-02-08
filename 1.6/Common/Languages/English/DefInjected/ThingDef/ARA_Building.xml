@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ARA_InsectWall.label>arachne shell wall</ARA_InsectWall.label>
-<ARA_InsectWall.description>It is a wall built by Arachne worker bees using a mixture of hard materials and chitin, and although it is very sturdy, it does not look very beautiful, so there is no need to build it on Arachne creep.</ARA_InsectWall.description>
+<ARA_InsectWall.description>The walls are built by Arachne worker bees using a mixture of hard materials and chitin, and although they are very sturdy, they are not very aesthetically pleasing, and there is no need to build them on top of Arachne creeps.</ARA_InsectWall.description>
 <ARA_SmoothedInsectWall.label>smooth arachne carapace wall</ARA_SmoothedInsectWall.label>
 <ARA_SmoothedInsectWall.description>This wall was built by Arachne's worker bees by stacking a mixture of hard materials and chitin.It has been carefully polished by the Insects, making it extremely sturdy and at the same time more beautiful to look at.</ARA_SmoothedInsectWall.description>
 <ARA_InsectDoor.label>arachne shell door</ARA_InsectDoor.label>
@@ -10,12 +10,12 @@
 <Frame_ARA_InsectDoor.label>Arachne shell door (construction)</Frame_ARA_InsectDoor.label>
 <Frame_ARA_InsectDoor.description>At the entrance to the Arachne burrow, the main body is made of a mixture of hard materials and chitin.The opening and closing mechanism is composed of completely unconscious Arachne insect tissue and can open and close automatically.There is no need to build on the Arachne creep.</Frame_ARA_InsectDoor.description>
 <ARA_SmoothedInsectDoor.label>smooth arachne shell door</ARA_SmoothedInsectDoor.label>
-<ARA_SmoothedInsectDoor.description>At the entrance to the Arachne burrow, the main body is made of a mixture of hard materials and chitin.The opening and closing mechanism is composed of completely unconscious Arachne insect tissue and can open and close automatically. There is no need to build on the Arachne creep.\n\nIt has already been polished by the insect swarm and now has a smooth and beautiful appearance.</ARA_SmoothedInsectDoor.description>
+<ARA_SmoothedInsectDoor.description>At the entrance to the Arachne burrow, the main body is made of a mixture of hard materials and chitin.The opening and closing mechanism is composed of completely unconscious Arachne insect tissue and can open and close automatically. There is no need to build on Arachne creep.\n\nIt has already been polished by the insect swarm and now has a smooth and beautiful appearance.</ARA_SmoothedInsectDoor.description>
 <ARA_Tumor.label>arachne fungus</ARA_Tumor.label>
 <ARA_Tumor.description>A fungus that emits a faint light and illuminates the Arachne burrow.In addition to illuminating it, it also spreads the creep over a wide area on the ground, allowing the worker bees to set up more Arachne buildings.There is no need to build on Arachne creep.</ARA_Tumor.description>
 <ARA_Tumor_SunLamp.label>Arachne light tumor</ARA_Tumor_SunLamp.label>
 <ARA_Tumor_SunLamp.description>It is larger than the ordinary fungus, and the internal light-emitting organs are very bright and can support the light conditions of crops.However, the lifespan is short and the creep does not spread.</ARA_Tumor_SunLamp.description>
-<ARA_NodeNest.label>Arachne insect burrow</ARA_NodeNest.label>
+<ARA_NodeNest.label>Arachne insect nest</ARA_NodeNest.label>
 <ARA_NodeNest.description>The burrow, which the Arachne insect lives in, is a "nest" made of chitinous carapace, muscle, and connective tissue, and is an excellent recovery site for the insect.</ARA_NodeNest.description>
 <ARA_ResearchBench.label>Arachne research table</ARA_ResearchBench.label>
 <ARA_ResearchBench.description>It is a living structure for research by the Arachne insect group, allowing the insect group to freely explore the direction of mutation and evolution.</ARA_ResearchBench.description>

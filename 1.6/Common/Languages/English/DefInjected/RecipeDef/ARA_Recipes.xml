@@ -38,7 +38,7 @@
 <ARA_CureAcid.jobString>Removes neurotoxins.</ARA_CureAcid.jobString>
 <ARA_CureAcid.successfullyRemovedHediffMessage>{0} successfully removed the Arachne neurotoxin from {1}'s body.</ARA_CureAcid.successfullyRemovedHediffMessage>
 <ARA_CureBloodRot.label>Eliminate pseudonematode infections</ARA_CureBloodRot.label>
-<ARA_CureBloodRot.description>The surgery to eliminate Arachne pseudonematodes in patients through targeted therapy using multiple drugs is extremely complex and can only be performed using cutting-edge medicines provided by Glitterworld.</ARA_CureBloodRot.description>
+<ARA_CureBloodRot.description>The surgery to eliminate Arachne pseudonematodes within a patient's body through targeted therapy using multiple drugs is extremely complex and can only be performed using cutting-edge medicines provided by Glitterworld.</ARA_CureBloodRot.description>
 <ARA_CureBloodRot.jobString>Eliminates pseudonematode infection.</ARA_CureBloodRot.jobString>
 <ARA_CureBloodRot.successfullyRemovedHediffMessage>{0} successfully removed the pseudonematode infection from {1}'s body.</ARA_CureBloodRot.successfullyRemovedHediffMessage>
 </LanguageData>

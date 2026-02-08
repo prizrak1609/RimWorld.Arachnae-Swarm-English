@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ARA_EnterPowerArmor>Fuses with symbiotic muscle group</ARA_EnterPowerArmor>
-<StructurePoints>structure points</StructurePoints>
+<StructurePoints>structure point</StructurePoints>
 <PowerArmorBroken>{0} has stopped functioning! The insect {1} has been exposed.</PowerArmorBroken>
 <ARA_UnknownScheme>not clear</ARA_UnknownScheme>
 <ARA_SchemeFormat>Plan {0}</ARA_SchemeFormat>

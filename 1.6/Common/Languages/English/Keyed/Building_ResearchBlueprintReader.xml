@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ResearchBlueprintReader_LockedBuilding>This building has technology locked and new research cannot be started.</ResearchBlueprintReader_LockedBuilding>
-<ResearchBlueprintReader_PrerequisitesNotMet>Prerequisite technology has not been achieved</ResearchBlueprintReader_PrerequisitesNotMet>
-<ResearchBlueprintReader_ResearchStarted>Research start: {0} (linked)</ResearchBlueprintReader_ResearchStarted>
-<ResearchBlueprintReader_ResearchCompleted>Research completed: {0}</ResearchBlueprintReader_ResearchCompleted>
+<ResearchBlueprintReader_LockedBuilding>The building is locked to store technology and new research cannot be started.</ResearchBlueprintReader_LockedBuilding>
+<ResearchBlueprintReader_PrerequisitesNotMet>Prerequisites for technology are not met</ResearchBlueprintReader_PrerequisitesNotMet>
+<ResearchBlueprintReader_ResearchStarted>Start researching: {0} (bound)</ResearchBlueprintReader_ResearchStarted>
+<ResearchBlueprintReader_ResearchCompleted>Technology research completed: {0}</ResearchBlueprintReader_ResearchCompleted>
 <ResearchBlueprintReader_BuildingUnlocked>Building unlocked: {0}</ResearchBlueprintReader_BuildingUnlocked>
 <ResearchBlueprintReader_TabNotFound>ARA_ResearchTab not found</ResearchBlueprintReader_TabNotFound>
-<ResearchBlueprintReader_NoProjectsAvailable>No research plans available</ResearchBlueprintReader_NoProjectsAvailable>
-<ResearchBlueprintReader_MenuError>Error while displaying research menu: {0}</ResearchBlueprintReader_MenuError>
-<ResearchBlueprintReader_UnlockBuilding>unlock buildings</ResearchBlueprintReader_UnlockBuilding>
-<ResearchBlueprintReader_UnlockBuildingDesc>Releases stored technology and enables re-research</ResearchBlueprintReader_UnlockBuildingDesc>
-<ResearchBlueprintReader_StoredInfo>Saved: {0}</ResearchBlueprintReader_StoredInfo>
-<ResearchBlueprintReader_ClickForDetails>Click for details</ResearchBlueprintReader_ClickForDetails>
+<ResearchBlueprintReader_NoProjectsAvailable>No technology items available</ResearchBlueprintReader_NoProjectsAvailable>
+<ResearchBlueprintReader_MenuError>An error occurred while displaying the research menu: {0}</ResearchBlueprintReader_MenuError>
+<ResearchBlueprintReader_UnlockBuilding>Unlock buildings</ResearchBlueprintReader_UnlockBuilding>
+<ResearchBlueprintReader_UnlockBuildingDesc>Releases stored technology, allowing re-research</ResearchBlueprintReader_UnlockBuildingDesc>
+<ResearchBlueprintReader_StoredInfo>Storage: {0}</ResearchBlueprintReader_StoredInfo>
+<ResearchBlueprintReader_ClickForDetails>Click to view details</ResearchBlueprintReader_ClickForDetails>
 <ResearchBlueprintReader_StoredDetails>This building stores: {0}\nStatus: {1}\nDescription: {2}</ResearchBlueprintReader_StoredDetails>
-<ResearchBlueprintReader_SelectProject>Select research plan</ResearchBlueprintReader_SelectProject>
-<ResearchBlueprintReader_SelectProjectDesc>Select a plan to research (permanently linked after selection)</ResearchBlueprintReader_SelectProjectDesc>
-<ResearchBlueprintReader_DebugComplete>Debugging: Immediate completion</ResearchBlueprintReader_DebugComplete>
-<ResearchBlueprintReader_DebugCompleteDesc>Complete current research instantly</ResearchBlueprintReader_DebugCompleteDesc>
+<ResearchBlueprintReader_SelectProject>Select a research project</ResearchBlueprintReader_SelectProject>
+<ResearchBlueprintReader_SelectProjectDesc>Select the technology project you want to research (once selected, it will be permanently bound)</ResearchBlueprintReader_SelectProjectDesc>
+<ResearchBlueprintReader_DebugComplete>Debugging: force completion</ResearchBlueprintReader_DebugComplete>
+<ResearchBlueprintReader_DebugCompleteDesc>Complete current research now</ResearchBlueprintReader_DebugCompleteDesc>
 <ResearchBlueprintReader_StatusCompleted>✓ Researched: {0}</ResearchBlueprintReader_StatusCompleted>
-<ResearchBlueprintReader_StatusResearching>Under research: {0}</ResearchBlueprintReader_StatusResearching>
-<ResearchBlueprintReader_BuildingProgress>Building progress: {0:F0}/{1:F0}({2:F1}%)</ResearchBlueprintReader_BuildingProgress>
-<ResearchBlueprintReader_GlobalProgress>Overall progress: {0:F0}/{1:F0}</ResearchBlueprintReader_GlobalProgress>
-<ResearchBlueprintReader_ResearchSpeed>Research speed: {0:F1}/sec</ResearchBlueprintReader_ResearchSpeed>
-<ResearchBlueprintReader_ResearchTime>Research elapsed time: {0} days</ResearchBlueprintReader_ResearchTime>
-<ResearchBlueprintReader_NoProjectSelected>No research plan selected</ResearchBlueprintReader_NoProjectSelected>
-<ResearchBlueprintReader_Completed>completion</ResearchBlueprintReader_Completed>
+<ResearchBlueprintReader_StatusResearching>Researching: {0}</ResearchBlueprintReader_StatusResearching>
+<ResearchBlueprintReader_BuildingProgress>Progress of this building: {0:F0}/{1:F0} ({2:F1}%)</ResearchBlueprintReader_BuildingProgress>
+<ResearchBlueprintReader_GlobalProgress>Global progress: {0:F0}/{1:F0}</ResearchBlueprintReader_GlobalProgress>
+<ResearchBlueprintReader_ResearchSpeed>Research speed: {0:F1}/second</ResearchBlueprintReader_ResearchSpeed>
+<ResearchBlueprintReader_ResearchTime>Researched time: {0} days</ResearchBlueprintReader_ResearchTime>
+<ResearchBlueprintReader_NoProjectSelected>No research project selected</ResearchBlueprintReader_NoProjectSelected>
+<ResearchBlueprintReader_Completed>Completed</ResearchBlueprintReader_Completed>
 <ResearchBlueprintReader_Researching>Under research</ResearchBlueprintReader_Researching>
-<ResearchBlueprintReader_HiddenPrerequisite>Hidden premise required</ResearchBlueprintReader_HiddenPrerequisite>
-<ResearchBlueprintReader_PrerequisitesNeeded>Prerequisites required</ResearchBlueprintReader_PrerequisitesNeeded>
-<ResearchBlueprintReader_MissingHiddenPrerequisites>Missing hidden premise</ResearchBlueprintReader_MissingHiddenPrerequisites>
-<ResearchBlueprintReader_MissingPrerequisites>Prerequisite technology is lacking</ResearchBlueprintReader_MissingPrerequisites>
+<ResearchBlueprintReader_HiddenPrerequisite>Need to hide the prefix</ResearchBlueprintReader_HiddenPrerequisite>
+<ResearchBlueprintReader_PrerequisitesNeeded>Requires preconditions</ResearchBlueprintReader_PrerequisitesNeeded>
+<ResearchBlueprintReader_MissingHiddenPrerequisites>Need to hide the prefix</ResearchBlueprintReader_MissingHiddenPrerequisites>
+<ResearchBlueprintReader_MissingPrerequisites>Missing front-end technology</ResearchBlueprintReader_MissingPrerequisites>
 <ResearchBlueprintReader_ProjectCost>cost</ResearchBlueprintReader_ProjectCost>
 <ResearchBlueprintReader_BlueprintCount>Number of blueprints required</ResearchBlueprintReader_BlueprintCount>
-<ResearchBlueprintReader_CurrentProgress>Current overall progress</ResearchBlueprintReader_CurrentProgress>
+<ResearchBlueprintReader_CurrentProgress>Current global progress</ResearchBlueprintReader_CurrentProgress>
 <ResearchManager_ResearchLost>Technology lost: {0}</ResearchManager_ResearchLost>
 <ResearchManager_StatusTitle>=== Research Manager Status ===</ResearchManager_StatusTitle>
 <ResearchManager_TotalBuildings>All buildings: {0}</ResearchManager_TotalBuildings>
 <ResearchManager_ActiveResearch>Ongoing research: {0}</ResearchManager_ActiveResearch>
-<ResearchManager_ProjectStatus>{0}: Active buildings {1} / Total buildings {2}</ResearchManager_ProjectStatus>
-<ARA_ResearchProgress_NoProject>Plan not selected</ARA_ResearchProgress_NoProject>
+<ResearchManager_ProjectStatus>{0}: {1} active buildings / {2} total buildings</ResearchManager_ProjectStatus>
+<ARA_ResearchProgress_NoProject>No items selected</ARA_ResearchProgress_NoProject>
 <ARA_ResearchProgress_Completed>✓ Research completed</ARA_ResearchProgress_Completed>
 <ARA_ResearchProgress_Researching>⚡ Researching...</ARA_ResearchProgress_Researching>
 <ARA_ResearchProgress_Paused>⏸ Paused</ARA_ResearchProgress_Paused>
-<ARA_ResearchProgress_SelectProject>Click to select plan</ARA_ResearchProgress_SelectProject>
-<ARA_ResearchProgress_TooltipTitle>[Research blueprint analysis device]</ARA_ResearchProgress_TooltipTitle>
-<ARA_ResearchProgress_TooltipProject>Current plan: {0}</ARA_ResearchProgress_TooltipProject>
-<ARA_ResearchProgress_TooltipProgress>Progress: {0} / {1}</ARA_ResearchProgress_TooltipProgress>
-<ARA_ResearchProgress_TooltipPercentage>Achievement level: {0}</ARA_ResearchProgress_TooltipPercentage>
-<ARA_ResearchProgress_TooltipCompleted>Research is complete!</ARA_ResearchProgress_TooltipCompleted>
-<ARA_ResearchProgress_TooltipTimeRemaining>Estimated remaining time: {0}</ARA_ResearchProgress_TooltipTimeRemaining>
-<ARA_ResearchProgress_TooltipPaused>Research is temporarily suspended (due to power shortage, etc.)</ARA_ResearchProgress_TooltipPaused>
-<ARA_ResearchProgress_TooltipNoProject>No research plan has been selected.\nClick on the "Select Research Plan" button to start.</ARA_ResearchProgress_TooltipNoProject>
+<ARA_ResearchProgress_SelectProject>Click to select item</ARA_ResearchProgress_SelectProject>
+<ARA_ResearchProgress_TooltipTitle>【Research Blueprint Interpreter】</ARA_ResearchProgress_TooltipTitle>
+<ARA_ResearchProgress_TooltipProject>Current project: {0}</ARA_ResearchProgress_TooltipProject>
+<ARA_ResearchProgress_TooltipProgress>Progress: {0}/{1}</ARA_ResearchProgress_TooltipProgress>
+<ARA_ResearchProgress_TooltipPercentage>Completeness: {0}</ARA_ResearchProgress_TooltipPercentage>
+<ARA_ResearchProgress_TooltipCompleted>Research done!</ARA_ResearchProgress_TooltipCompleted>
+<ARA_ResearchProgress_TooltipTimeRemaining>Estimated time remaining: {0}</ARA_ResearchProgress_TooltipTimeRemaining>
+<ARA_ResearchProgress_TooltipPaused>Research has been suspended (no power or other reasons)</ARA_ResearchProgress_TooltipPaused>
+<ARA_ResearchProgress_TooltipNoProject>No research project has been selected yet. \nClick the "Select Research Project" button to get started.</ARA_ResearchProgress_TooltipNoProject>
 </LanguageData>

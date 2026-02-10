@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<CommandFireGlobal>Firing a ranged attack</CommandFireGlobal>
-<CommandFireGlobalDesc>Select a target on the world map and perform a ranged attack.</CommandFireGlobalDesc>
-<CommandFireLocal>Local attack launch</CommandFireLocal>
-<CommandFireLocalDesc>Manually command the turret to attack targets on the local map.</CommandFireLocalDesc>
-<RemoteTargetSet>Set remote target: {0}</RemoteTargetSet>
-<MessageTargetMustBeMap>The target of a ranged attack must be a location that has already been explored.</MessageTargetMustBeMap>
+<CommandFireGlobal>Launch a long-range strike</CommandFireGlobal>
+<CommandFireGlobalDesc>Select a target on the world map to strike from a distance.</CommandFireGlobalDesc>
+<CommandFireLocal>launch local strike</CommandFireLocal>
+<CommandFireLocalDesc>Manually order the turret to attack a target on the local map.</CommandFireLocalDesc>
+<RemoteTargetSet>Remote target set: {0}</RemoteTargetSet>
+<MessageTargetMustBeMap>The target of the ranged strike must be an explored location.</MessageTargetMustBeMap>
 <NoMissileToLaunch>There are no missiles available.</NoMissileToLaunch>
-<CommandClearAllTargets>Unlock all objectives</CommandClearAllTargets>
-<CommandClearAllTargetsDesc>Clears all currently set local and remote goals.</CommandClearAllTargetsDesc>
+<CommandClearAllTargets>Cancel all goals</CommandClearAllTargets>
+<CommandClearAllTargetsDesc>Cancels all currently set local and remote targets.</CommandClearAllTargetsDesc>
 </LanguageData>

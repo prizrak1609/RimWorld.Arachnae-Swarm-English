@@ -1,99 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ARA_FluxMode_Manual>manual</ARA_FluxMode_Manual>
+<ARA_FluxMode_Manual>Manual</ARA_FluxMode_Manual>
 <ARA_FluxMode_Quality>quality</ARA_FluxMode_Quality>
 <ARA_FluxMode_Balance>balance</ARA_FluxMode_Balance>
 <ARA_FluxMode_Speed>speed</ARA_FluxMode_Speed>
-<ARA_FluxMode_Manual_Desc>Adjust the activation value manually</ARA_FluxMode_Manual_Desc>
-<ARA_FluxMode_Quality_Desc>Pursuing high quality output with low activity</ARA_FluxMode_Quality_Desc>
-<ARA_FluxMode_Balance_Desc>Automatically adjusts and balances speed and quality</ARA_FluxMode_Balance_Desc>
-<ARA_FluxMode_Speed_Desc>Produces at maximum speed with high activity</ARA_FluxMode_Speed_Desc>
-<ARA_Msg_QueueFull>Queue is full!</ARA_Msg_QueueFull>
-<ARA_Msg_LarvaWorking>The larva is already working on it. Please wait until it is completed.</ARA_Msg_LarvaWorking>
-<ARA_Msg_NoOrderToActivate>There are no orders to launch</ARA_Msg_NoOrderToActivate>
+<ARA_FluxMode_Manual_Desc>Manually adjust activity value</ARA_FluxMode_Manual_Desc>
+<ARA_FluxMode_Quality_Desc>Low activity, pursuit of high quality output</ARA_FluxMode_Quality_Desc>
+<ARA_FluxMode_Balance_Desc>Automatically adjusts to balance speed and quality</ARA_FluxMode_Balance_Desc>
+<ARA_FluxMode_Speed_Desc>High activity, production at maximum speed</ARA_FluxMode_Speed_Desc>
+<ARA_Msg_QueueFull>The queue is full!</ARA_Msg_QueueFull>
+<ARA_Msg_LarvaWorking>There are already larvae working, please wait for completion</ARA_Msg_LarvaWorking>
+<ARA_Msg_NoOrderToActivate>There are no orders to activate</ARA_Msg_NoOrderToActivate>
 <ARA_Msg_NoLarvaFound>No available larvae found!</ARA_Msg_NoLarvaFound>
-<ARA_Msg_LarvaCalled>called the larva</ARA_Msg_LarvaCalled>
-<ARA_Msg_LarvaCannotAccept>Larva cannot accept tasks</ARA_Msg_LarvaCannotAccept>
-<ARA_Msg_NoIncubationOptions>No incubation options available (check CompIncubatorData settings)</ARA_Msg_NoIncubationOptions>
-<ARA_Msg_NoProducibleItems>There are no items that can be produced (please check that the building settings are correct)</ARA_Msg_NoProducibleItems>
-<ARA_Msg_IncubatorBrokenQualityZero>The production pod has been damaged because the quality has dropped to zero!</ARA_Msg_IncubatorBrokenQualityZero>
-<ARA_Msg_IncubationCancelled>Hatching has been canceled.</ARA_Msg_IncubationCancelled>
+<ARA_Msg_LarvaCalled>Larvae called</ARA_Msg_LarvaCalled>
+<ARA_Msg_LarvaCannotAccept>Larvae cannot accept tasks</ARA_Msg_LarvaCannotAccept>
+<ARA_Msg_NoIncubationOptions>No incubation options available (check CompIncubatorData configuration)</ARA_Msg_NoIncubationOptions>
+<ARA_Msg_NoProducibleItems>No items to produce (check if the building is configured correctly)</ARA_Msg_NoProducibleItems>
+<ARA_Msg_IncubatorBrokenQualityZero>The manufacturing cabin was damaged due to quality zero!</ARA_Msg_IncubatorBrokenQualityZero>
+<ARA_Msg_IncubationCancelled>Hatching has been cancelled.</ARA_Msg_IncubationCancelled>
 <ARA_Msg_IncubationComplete>Hatching completed: {0}</ARA_Msg_IncubationComplete>
-<ARA_Msg_IncubationStarted>Start of hatching: {0}</ARA_Msg_IncubationStarted>
-<ARA_Quality_Legendary>A fantastic item</ARA_Quality_Legendary>
-<ARA_Quality_Masterwork>Masterpiece</ARA_Quality_Masterwork>
-<ARA_Quality_Excellent>Excellent item</ARA_Quality_Excellent>
-<ARA_Quality_Good>Good product</ARA_Quality_Good>
-<ARA_Quality_Normal>Standard product</ARA_Quality_Normal>
-<ARA_Quality_Poor>low quality</ARA_Quality_Poor>
+<ARA_Msg_IncubationStarted>Hatching started: {0}</ARA_Msg_IncubationStarted>
+<ARA_Quality_Legendary>legend</ARA_Quality_Legendary>
+<ARA_Quality_Masterwork>masterpiece</ARA_Quality_Masterwork>
+<ARA_Quality_Excellent>excellent</ARA_Quality_Excellent>
+<ARA_Quality_Good>good</ARA_Quality_Good>
+<ARA_Quality_Normal>ordinary</ARA_Quality_Normal>
+<ARA_Quality_Poor>Poor</ARA_Quality_Poor>
 <ARA_Status_Waiting>Waiting</ARA_Status_Waiting>
-<ARA_Status_WaitingForLarva>Waiting for larvae</ARA_Status_WaitingForLarva>
+<ARA_Status_WaitingForLarva>waiting for larvae</ARA_Status_WaitingForLarva>
 <ARA_Status_Ready>Ready - Click to select target</ARA_Status_Ready>
 <ARA_Status_Incubating>Hatching: {0}</ARA_Status_Incubating>
-<ARA_Status_LarvaActivating>Starting the larva...</ARA_Status_LarvaActivating>
-<ARA_Status_LarvaOnTheWay>The larvae are on the move...</ARA_Status_LarvaOnTheWay>
+<ARA_Status_LarvaActivating>Larvae are activating...</ARA_Status_LarvaActivating>
+<ARA_Status_LarvaOnTheWay>The larvae are on their way...</ARA_Status_LarvaOnTheWay>
 <ARA_Status_Target>Target: {0}</ARA_Status_Target>
 <ARA_Status_Progress>Progress: {0}</ARA_Status_Progress>
 <ARA_Status_CurrentFlux>Current activity: {0}</ARA_Status_CurrentFlux>
 <ARA_Status_IncubationSpeed>Hatching speed: {0}x</ARA_Status_IncubationSpeed>
 <ARA_Status_Efficiency>efficiency</ARA_Status_Efficiency>
+<ARA_Status_Speed>speed</ARA_Status_Speed>
 <ARA_Status_Quality>quality</ARA_Status_Quality>
 <ARA_Status_Mode>Mode: {0}</ARA_Status_Mode>
-<ARA_Status_DormantWarning>⚠ Quality will decrease while dormant!</ARA_Status_DormantWarning>
-<ARA_Status_RemainingTime>Remaining time: {0} days</ARA_Status_RemainingTime>
-<ARA_Status_SpeedAndQuality>Speed: {0} | Quality: {1}</ARA_Status_SpeedAndQuality>
+<ARA_Status_DormantWarning>⚠ Sleeping, quality deteriorates!</ARA_Status_DormantWarning>
+<ARA_Status_RemainingTime>Time remaining: {0} days</ARA_Status_RemainingTime>
+<ARA_Status_SpeedAndQuality>Speed: {0} | Mass: {1}</ARA_Status_SpeedAndQuality>
 <ARA_Status_Speed>Speed: {0}</ARA_Status_Speed>
 <ARA_Inspect_Orders>Order: {0} / {1}</ARA_Inspect_Orders>
 <ARA_Inspect_WaitingAndIncubating>Waiting for larvae: {0} Hatching: {1}</ARA_Inspect_WaitingAndIncubating>
-<ARA_Inspect_WaitingAndProducing>Waiting for larvae: {0} In production: {1}</ARA_Inspect_WaitingAndProducing>
+<ARA_Inspect_WaitingAndProducing>Waiting for larvae: {0} Producing: {1}</ARA_Inspect_WaitingAndProducing>
 <ARA_Gizmo_AddOrder>Add order ({0}/{1})</ARA_Gizmo_AddOrder>
-<ARA_Gizmo_AddOrderDesc_Pawn>Select the type of unit to hatch (multiple clicks possible)</ARA_Gizmo_AddOrderDesc_Pawn>
-<ARA_Gizmo_AddOrderDesc_Item>Select the item to produce (multiple clicks possible)</ARA_Gizmo_AddOrderDesc_Item>
-<ARA_Gizmo_NoavliableOrder>No orders currently in progress</ARA_Gizmo_NoavliableOrder>
-<ARA_Gizmo_CallLarva>call the larvae</ARA_Gizmo_CallLarva>
-<ARA_Gizmo_CallLarvaDesc>Call the larva to start the next order (waiting {0} items)</ARA_Gizmo_CallLarvaDesc>
-<ARA_Gizmo_LarvaWorking>Working on larvae</ARA_Gizmo_LarvaWorking>
-<ARA_Gizmo_LarvaWorkingDesc>1 larva is operating the incubator (waiting order {0})</ARA_Gizmo_LarvaWorkingDesc>
-<ARA_Gizmo_LarvaActivating>Larva starting</ARA_Gizmo_LarvaActivating>
-<ARA_Gizmo_LarvaOnTheWay>Larva on the move</ARA_Gizmo_LarvaOnTheWay>
+<ARA_Gizmo_AddOrderDesc_Pawn>Select the type of unit to hatch (can be clicked multiple times)</ARA_Gizmo_AddOrderDesc_Pawn>
+<ARA_Gizmo_AddOrderDesc_Item>Select items to produce (can be clicked multiple times)</ARA_Gizmo_AddOrderDesc_Item>
+<ARA_Gizmo_NoavliableOrder>No orders in progress</ARA_Gizmo_NoavliableOrder>
+<ARA_Gizmo_CallLarva>call larvae</ARA_Gizmo_CallLarva>
+<ARA_Gizmo_CallLarvaDesc>Call a larva to activate the next order (there are {0} more waiting)</ARA_Gizmo_CallLarvaDesc>
+<ARA_Gizmo_LarvaWorking>Larvae at work</ARA_Gizmo_LarvaWorking>
+<ARA_Gizmo_LarvaWorkingDesc>A larva is operating the incubator (there are {0} orders waiting)</ARA_Gizmo_LarvaWorkingDesc>
+<ARA_Gizmo_LarvaActivating>larvae activating</ARA_Gizmo_LarvaActivating>
+<ARA_Gizmo_LarvaOnTheWay>Larvae on their way</ARA_Gizmo_LarvaOnTheWay>
 <ARA_Gizmo_SpeedFactors>speed factor</ARA_Gizmo_SpeedFactors>
-<ARA_Gizmo_QualityFactors>quality factors</ARA_Gizmo_QualityFactors>
+<ARA_Gizmo_QualityFactors>quality factor</ARA_Gizmo_QualityFactors>
 <ARA_Gizmo_TotalSpeedMultiplier>Total speed multiplier: {0}</ARA_Gizmo_TotalSpeedMultiplier>
-<ARA_Gizmo_TotalQualityMultiplier>Total quality multiplier: {0}</ARA_Gizmo_TotalQualityMultiplier>
-<ARA_Gizmo_NeutronFlux_Title>activity strength</ARA_Gizmo_NeutronFlux_Title>
-<ARA_Gizmo_NeutronFlux_TooltipTitle>[Hatchling activity control]</ARA_Gizmo_NeutronFlux_TooltipTitle>
-<ARA_Gizmo_NeutronFlux_CoreMechanic>▸ High activity → Fast hatching\n▸ Low activity → High quality</ARA_Gizmo_NeutronFlux_CoreMechanic>
-<ARA_Gizmo_NeutronFlux_Operations>Click and drag to adjust | Switch mode at top right</ARA_Gizmo_NeutronFlux_Operations>
-<ARA_Gizmo_CallLarvaActivationDesc>Call the larva and start the manufacturing pod\n\nTarget: {0}</ARA_Gizmo_CallLarvaActivationDesc>
-<ARA_Menu_SelectIncubationTarget>Select hatching target</ARA_Menu_SelectIncubationTarget>
+<ARA_Gizmo_TotalQualityMultiplier>Total mass magnification: {0}</ARA_Gizmo_TotalQualityMultiplier>
+<ARA_Gizmo_NeutronFlux_Title>Activity intensity</ARA_Gizmo_NeutronFlux_Title>
+<ARA_Gizmo_NeutronFlux_TooltipTitle>[Hatching Activity Control]</ARA_Gizmo_NeutronFlux_TooltipTitle>
+<ARA_Gizmo_NeutronFlux_CoreMechanic>▸ The higher the activity → the faster the hatching\n▸ The lower the activity → the higher the quality</ARA_Gizmo_NeutronFlux_CoreMechanic>
+<ARA_Gizmo_NeutronFlux_Operations>Click and drag to adjust | Switch modes in the upper right corner</ARA_Gizmo_NeutronFlux_Operations>
+<ARA_Gizmo_CallLarvaActivationDesc>Call the larvae to activate the crafting bay\n\nTarget: {0}</ARA_Gizmo_CallLarvaActivationDesc>
+<ARA_Menu_SelectIncubationTarget>Choose your incubation target</ARA_Menu_SelectIncubationTarget>
 <ARA_Menu_SelectProductionTarget>Select production target</ARA_Menu_SelectProductionTarget>
-<ARA_Menu_RequiresResearch>Research required: {0}</ARA_Menu_RequiresResearch>
+<ARA_Menu_RequiresResearch>Needs research: {0}</ARA_Menu_RequiresResearch>
 <ARA_Menu_Days>{0} days</ARA_Menu_Days>
-<ARA_Gizmo_SelectIncubationTarget>Selecting hatching target...</ARA_Gizmo_SelectIncubationTarget>
-<ARA_Gizmo_SelectProductionTarget>Selecting production target...</ARA_Gizmo_SelectProductionTarget>
-<ARA_Gizmo_ReadyClickAbove>Ready - Click above to select target</ARA_Gizmo_ReadyClickAbove>
-<ARA_Gizmo_WaitingForLarvaActivation>Waiting for larva to start</ARA_Gizmo_WaitingForLarvaActivation>
-<ARA_Tooltip_NotSelected>[Target not selected]</ARA_Tooltip_NotSelected>
-<ARA_Tooltip_ClickToSelectIncubation>Click on the title above to select your hatching target</ARA_Tooltip_ClickToSelectIncubation>
-<ARA_Tooltip_ClickToSelectProduction>Click on the title above to select production target</ARA_Tooltip_ClickToSelectProduction>
-<ARA_Tooltip_Ready>[Ready completed]</ARA_Tooltip_Ready>
-<ARA_Tooltip_Target>subject:</ARA_Tooltip_Target>
-<ARA_Tooltip_IncubationTime>Hatching time: {0} days</ARA_Tooltip_IncubationTime>
-<ARA_Tooltip_Quality>Quality: {0}({1})</ARA_Tooltip_Quality>
+<ARA_Gizmo_SelectIncubationTarget>Choose your incubation target...</ARA_Gizmo_SelectIncubationTarget>
+<ARA_Gizmo_SelectProductionTarget>Select production target...</ARA_Gizmo_SelectProductionTarget>
+<ARA_Gizmo_ReadyClickAbove>Ready - Click above to select your target</ARA_Gizmo_ReadyClickAbove>
+<ARA_Gizmo_WaitingForLarvaActivation>Wait for larvae to activate</ARA_Gizmo_WaitingForLarvaActivation>
+<ARA_Tooltip_NotSelected>[No target selected]</ARA_Tooltip_NotSelected>
+<ARA_Tooltip_ClickToSelectIncubation>Click on the title above to select the incubation target</ARA_Tooltip_ClickToSelectIncubation>
+<ARA_Tooltip_ClickToSelectProduction>Click on the title above to select a production target</ARA_Tooltip_ClickToSelectProduction>
+<ARA_Tooltip_Ready>【Ready】</ARA_Tooltip_Ready>
+<ARA_Tooltip_Target>Target:</ARA_Tooltip_Target>
+<ARA_Tooltip_IncubationTime>Incubation time: {0} days</ARA_Tooltip_IncubationTime>
+<ARA_Tooltip_Quality>Quality: {0} ({1})</ARA_Tooltip_Quality>
 <ARA_Tooltip_Progress>Progress: {0}</ARA_Tooltip_Progress>
 <ARA_Tooltip_Remaining>Remaining: {0}</ARA_Tooltip_Remaining>
-<ARA_NutrientDispenser_MealsAvailable>Can be created: {0} food</ARA_NutrientDispenser_MealsAvailable>
+<ARA_NutrientDispenser_MealsAvailable>Makes: {0} servings</ARA_NutrientDispenser_MealsAvailable>
 <ARA_FuelLabel_Nutrition>insect honey</ARA_FuelLabel_Nutrition>
-<ARA_SwarmMaintenance_Title>Retention degree</ARA_SwarmMaintenance_Title>
+<ARA_SwarmMaintenance_Title>Maintenance</ARA_SwarmMaintenance_Title>
 <ARA_SwarmMaintenance_DailyDecay_Short>Consumption: {0}/day</ARA_SwarmMaintenance_DailyDecay_Short>
-<ARA_SwarmMaintenance_TooltipTitle>[Building maintenance level]</ARA_SwarmMaintenance_TooltipTitle>
-<ARA_SwarmMaintenance_TooltipCurrent>Currently: {0} / {1}</ARA_SwarmMaintenance_TooltipCurrent>
-<ARA_SwarmMaintenance_TooltipDecay>Consumption per day: {0}</ARA_SwarmMaintenance_TooltipDecay>
-<ARA_SwarmMaintenance_TooltipCritical>⚠ Serious lack of maintenance! building is damaged</ARA_SwarmMaintenance_TooltipCritical>
-<ARA_SwarmMaintenance_TooltipNeedsMaintenance>Maintenance must be done by the burrow manager</ARA_SwarmMaintenance_TooltipNeedsMaintenance>
-<ARA_SwarmMaintenance_TooltipGood>Good condition</ARA_SwarmMaintenance_TooltipGood>
-<ARA_SwarmMaintenance_TooltipHint>Burrow maintainers will automatically perform maintenance on buildings that are less than 50%</ARA_SwarmMaintenance_TooltipHint>
-<ARA_Gizmo_CallMaintainer>Call a maintainer. Both the Arachne craft species and its facilitator domestic species can perform maintenance tasks.</ARA_Gizmo_CallMaintainer>
-<ARA_Msg_MaintainerCalled>Called {0} to maintain the structure.</ARA_Msg_MaintainerCalled>
-<ARA_Msg_NoMaintainerAvailable>No maintainers found who have free time and are accessible!</ARA_Msg_NoMaintainerAvailable>
+<ARA_SwarmMaintenance_TooltipTitle>【Building maintenance degree】</ARA_SwarmMaintenance_TooltipTitle>
+<ARA_SwarmMaintenance_TooltipCurrent>Current: {0} / {1}</ARA_SwarmMaintenance_TooltipCurrent>
+<ARA_SwarmMaintenance_TooltipDecay>Daily consumption: {0}</ARA_SwarmMaintenance_TooltipDecay>
+<ARA_SwarmMaintenance_TooltipCritical>⚠ Serious lack of maintenance! Buildings are being damaged</ARA_SwarmMaintenance_TooltipCritical>
+<ARA_SwarmMaintenance_TooltipNeedsMaintenance>Requires nest maintainers for maintenance</ARA_SwarmMaintenance_TooltipNeedsMaintenance>
+<ARA_SwarmMaintenance_TooltipGood>in good condition</ARA_SwarmMaintenance_TooltipGood>
+<ARA_SwarmMaintenance_TooltipHint>Nest maintainers will automatically come to maintain buildings with less than 50%</ARA_SwarmMaintenance_TooltipHint>
+<ARA_Gizmo_CallMaintainer>Call a maintainer. Both the Arachne craft species and its auxiliary housekeeping species can perform maintenance tasks.</ARA_Gizmo_CallMaintainer>
+<ARA_Msg_MaintainerCalled>{0} has been called to maintain the building</ARA_Msg_MaintainerCalled>
+<ARA_Msg_NoMaintainerAvailable>No free and reachable maintainer found!</ARA_Msg_NoMaintainerAvailable>
 </LanguageData>

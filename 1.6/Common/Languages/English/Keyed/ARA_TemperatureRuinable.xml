@@ -2,11 +2,11 @@
 <LanguageData>
 <ARA_TemperatureRuinable.SafeTemperatureRange>Safe temperature range: {0} - {1}</ARA_TemperatureRuinable.SafeTemperatureRange>
 <ARA_TemperatureRuinable.CurrentTemperature>Current temperature: {0}</ARA_TemperatureRuinable.CurrentTemperature>
-<ARA_TemperatureRuinable.DamageProgress>Damage progression: {0}</ARA_TemperatureRuinable.DamageProgress>
-<ARA_TemperatureRuinable.TakingDamage>Damaged by temperature</ARA_TemperatureRuinable.TakingDamage>
+<ARA_TemperatureRuinable.DamageProgress>Damage progress: {0}</ARA_TemperatureRuinable.DamageProgress>
+<ARA_TemperatureRuinable.TakingDamage>Suffering temperature damage</ARA_TemperatureRuinable.TakingDamage>
 <ARA_TemperatureRuinable.NoDamage>Not affected by temperature</ARA_TemperatureRuinable.NoDamage>
-<ARA_TemperatureRuinable.TooCold>too low temperature</ARA_TemperatureRuinable.TooCold>
-<ARA_TemperatureRuinable.TooHot>too high temperature</ARA_TemperatureRuinable.TooHot>
-<ARA_TemperatureRuinable.DamageLetterLabel>{0} is suffering from temperature damage</ARA_TemperatureRuinable.DamageLetterLabel>
-<ARA_TemperatureRuinable.DamageLetterText>{0} has suffered temperature damage from {1}.\n\nCurrent temperature: {2}\nSafe temperature range: {3} - {4}\n\nPlease adjust the temperature to within the safe range as soon as possible to avoid structural damage.</ARA_TemperatureRuinable.DamageLetterText>
+<ARA_TemperatureRuinable.TooCold>too cold</ARA_TemperatureRuinable.TooCold>
+<ARA_TemperatureRuinable.TooHot>overheat</ARA_TemperatureRuinable.TooHot>
+<ARA_TemperatureRuinable.DamageLetterLabel>{0} takes temperature damage</ARA_TemperatureRuinable.DamageLetterLabel>
+<ARA_TemperatureRuinable.DamageLetterText>{0} is suffering from temperature damage. \n\nCurrent temperature: {2}\nSafe temperature range: {3} - {4}\n\nIt is recommended to adjust the temperature to a safe range as soon as possible to avoid structural damage.</ARA_TemperatureRuinable.DamageLetterText>
 </LanguageData>

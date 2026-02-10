@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<AircraftManagerNotFound>Air management unit not found!</AircraftManagerNotFound>
-<AircraftStrikeInitiated>Start air attack: {0}</AircraftStrikeInitiated>
-<AircraftStrikeSuccess>Air attack: Successful using {1} with {0} aircraft</AircraftStrikeSuccess>
-<NoAvailableAircraft>There are no aerial insects available: {0}</NoAvailableAircraft>
-<AircraftStrikeFailed>Aerial beast attack failure: {0} is not available for {1}</AircraftStrikeFailed>
-<NoAircraftForStrike>There are no insects available for attack by {0}.</NoAircraftForStrike>
+<AircraftManagerNotFound>Fighter Manager not found!</AircraftManagerNotFound>
+<AircraftStrikeInitiated>Air strike initiated: {0}</AircraftStrikeInitiated>
+<AircraftStrikeSuccess>Air Strike: Successfully used {0} only {1}</AircraftStrikeSuccess>
+<NoAvailableAircraft>No Aerial Beasts available: {0}</NoAvailableAircraft>
+<AircraftStrikeFailed>Aerial Beast Strike: {1} No {0} available</AircraftStrikeFailed>
+<NoAircraftForStrike>No {0} available to strike</NoAircraftForStrike>
 <AvailableAircraft>{0}:{1}</AvailableAircraft>
-<CooldownAircraft>On cooldown: {0}</CooldownAircraft>
+<CooldownAircraft>Cooling down: {0}</CooldownAircraft>
 <CostPerUse>Consumption: {0}</CostPerUse>
-<AircraftStatusTooltip>The state of the insect colony:</AircraftStatusTooltip>
-<TotalAircraft>Total number of insects: {0}</TotalAircraft>
-<ReadyAircraft>Available for deployment: {0}</ReadyAircraft>
+<AircraftStatusTooltip>Beast swarm status:</AircraftStatusTooltip>
+<TotalAircraft>Total number of beasts and insects: {0}</TotalAircraft>
+<ReadyAircraft>Ready to launch: {0}</ReadyAircraft>
+<CooldownAircraft>Cooling down: {0}</CooldownAircraft>
 <AircraftCost>Consumption per use: {0}</AircraftCost>
-<AircraftCooldownTime>Cooldown time: {0} hours</AircraftCooldownTime>
-<AircraftAbilityDescription>\nNumber required: {0}\nBeast consumption per use: {1}\nCooldown time: {2} hours</AircraftAbilityDescription>
+<AircraftCooldownTime>Cooling time: {0} hours</AircraftCooldownTime>
+<AircraftAbilityDescription>\nRequires {0} to participate in the attack\nEach use consumes {1} beast\nCooling time: {2} hours</AircraftAbilityDescription>
 <UnknownFaction>unknown faction</UnknownFaction>
-<LaunchAircraft>take off beast insect</LaunchAircraft>
-<LaunchAircraftDesc>Commands an aerial beast to take off. Once taken off, a beast does not return to the ground and must be commanded by a towing species in order to use it.</LaunchAircraftDesc>
-<HangarDamaged>The beast is damaged</HangarDamaged>
-<AircraftLaunched>The beast takes off: {1} to {0}</AircraftLaunched>
-<TakeoffEffectMapNull>Unable to generate takeoff effect: parent map does not exist</TakeoffEffectMapNull>
-<TakeoffSkyfallerCreated>Create a take-off sky crasher with one stack of bio-liquefied fuel on {0}</TakeoffSkyfallerCreated>
-<TakeoffEffectError>Error occurred while generating takeoff effect: {0}</TakeoffEffectError>
-<AddAircraftNullFaction>Attempted to add air units to the Sky faction</AddAircraftNullFaction>
-<AircraftCooldownEnded>{0} can attack again</AircraftCooldownEnded>
-<NoAircraftStatus>No insects available</NoAircraftStatus>
-<AircraftStatusLine>{0}: {1}/{2}(On cooldown: {3})</AircraftStatusLine>
+<LaunchAircraft>Beasts take off</LaunchAircraft>
+<LaunchAircraftDesc>Command the air beasts and insects to take off. The flying bugs will never land. If you want to use them, you need to be commanded by a pilot species.</LaunchAircraftDesc>
+<HangarDamaged>Damaged beasts and insects</HangarDamaged>
+<AircraftLaunched>Beast bugs have taken off: {0} {1}</AircraftLaunched>
+<AircraftManagerNotFound>Fighter Manager not found!</AircraftManagerNotFound>
+<TakeoffEffectMapNull>Unable to create takeoff effect: parent map is empty</TakeoffEffectMapNull>
+<TakeoffSkyfallerCreated>Created a take-off Skyfaller on {0}, carrying 1 unit of chemical fuel</TakeoffSkyfallerCreated>
+<TakeoffEffectError>Error creating takeoff effect: {0}</TakeoffEffectError>
+<AddAircraftNullFaction>Try adding a fighter to an empty faction</AddAircraftNullFaction>
+<AircraftCooldownEnded>{0} Get ready to strike again</AircraftCooldownEnded>
+<NoAircraftStatus>No beasts available</NoAircraftStatus>
+<AircraftStatusLine>{0}: {1}/{2} (cooling down: {3})</AircraftStatusLine>
 </LanguageData>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ARA_HoneyProduction.CurrentLevel>Current storage amount</ARA_HoneyProduction.CurrentLevel>
-<ARA_HoneyProduction.Category>storage level</ARA_HoneyProduction.Category>
-<ARA_HoneyProduction.Efficiency>Production efficiency: (relative to food consumption rate)</ARA_HoneyProduction.Efficiency>
+<ARA_HoneyProduction.CurrentLevel>Current reserves</ARA_HoneyProduction.CurrentLevel>
+<ARA_HoneyProduction.Category>Reserve grade</ARA_HoneyProduction.Category>
+<ARA_HoneyProduction.Efficiency>Production efficiency: (rate of dietary consumption)</ARA_HoneyProduction.Efficiency>
 <ARA_HoneyProduction.FoodDrainRate>food consumption rate</ARA_HoneyProduction.FoodDrainRate>
-<ARA_HoneyProduction.HoneyGainRate>Honey can increase speed</ARA_HoneyProduction.HoneyGainRate>
-<ARA_HoneyProduction.FullWarning>Warning: Honey can is full, production will stop!</ARA_HoneyProduction.FullWarning>
-<ARA_HoneyProduction.Full>full</ARA_HoneyProduction.Full>
-<ARA_HoneyProduction.High>high</ARA_HoneyProduction.High>
-<ARA_HoneyProduction.Medium>Medium</ARA_HoneyProduction.Medium>
-<ARA_HoneyProduction.Low>low</ARA_HoneyProduction.Low>
-<ARA_HoneyProduction.Empty>sky</ARA_HoneyProduction.Empty>
-<ARA_ExtractHoney_Message>I squeezed out the honey from {0}</ARA_ExtractHoney_Message>
-<ARA_Message_HoneyFed>{0} gave insect nectar to {1}</ARA_Message_HoneyFed>
-<ARA_ExtractHoney>squeeze out honey</ARA_ExtractHoney>
-<ARA_FeedWithHoney>feeding with insect nectar</ARA_FeedWithHoney>
-<ARA_HoneyProduction>honey can production</ARA_HoneyProduction>
+<ARA_HoneyProduction.HoneyGainRate>honeypot growth rate</ARA_HoneyProduction.HoneyGainRate>
+<ARA_HoneyProduction.FullWarning>Warning: The honeypot is full and production is stopped!</ARA_HoneyProduction.FullWarning>
+<ARA_HoneyProduction.Full>Full warehouse</ARA_HoneyProduction.Full>
+<ARA_HoneyProduction.High>high inventory</ARA_HoneyProduction.High>
+<ARA_HoneyProduction.Medium>Medium stock</ARA_HoneyProduction.Medium>
+<ARA_HoneyProduction.Low>low inventory</ARA_HoneyProduction.Low>
+<ARA_HoneyProduction.Empty>short position</ARA_HoneyProduction.Empty>
+<ARA_ExtractHoney_Message>Squeezed out {0} insect honey</ARA_ExtractHoney_Message>
+<ARA_Message_HoneyFed>{0} fed {1} with insect honey</ARA_Message_HoneyFed>
+<ARA_ExtractHoney>squeeze out insect honey</ARA_ExtractHoney>
+<ARA_FeedWithHoney>Feeding with insect honey</ARA_FeedWithHoney>
+<ARA_HoneyProduction>Honeypot production</ARA_HoneyProduction>
 <ARA_InsectJelly>insect honey</ARA_InsectJelly>
 </LanguageData>

@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ARA_GuardianFieldGizmoLabel>guardian field</ARA_GuardianFieldGizmoLabel>
-<ARA_GestaltGroup>hive network</ARA_GestaltGroup>
-<ARA_NoGestaltPawns>Node-unconnected individual</ARA_NoGestaltPawns>
-<ARA_GestaltBandwidth>integrated network load</ARA_GestaltBandwidth>
-<ARA_GestaltBandwidthTip>The Hive Network is a system for Arachne insects to construct Gestalt thought clusters. Through this, the entire tribe gains a strong unity under the unified command of the Empress species.</ARA_GestaltBandwidthTip>
+<ARA_GuardianFieldGizmoLabel>Guardian force field</ARA_GuardianFieldGizmoLabel>
+<ARA_GestaltGroup>cellular network</ARA_GestaltGroup>
+<ARA_NoGestaltPawns>nodeless creature</ARA_NoGestaltPawns>
+<ARA_GestaltBandwidth>Monitor network load</ARA_GestaltBandwidth>
+<ARA_GestaltBandwidthTip>The hive network is the system used by the Arachne swarm to establish Gestalt thought clusters, which allows the entire swarm to gain strong consistency under the unified command of the Queen species.</ARA_GestaltBandwidthTip>
 <ARA_AvailableBandwidth>Available nodes: {0}</ARA_AvailableBandwidth>
-<ARA_GestaltBandwidthExceeded>Warning: The Hive network is overloaded. This will directly affect the Empress race's state of mind and may cause a conduction collapse of the entire network!</ARA_GestaltBandwidthExceeded>
-<ARA_NetworkOverloadCleared>Hive network overload has been resolved</ARA_NetworkOverloadCleared>
-<MessageGestaltLostControl>{1} has broken the link with {0}!</MessageGestaltLostControl>
-<ARA_SwarmSpell_Title>Insect swarm technique (Lv.{0})</ARA_SwarmSpell_Title>
+<ARA_GestaltBandwidthExceeded>Warning: The hive network is being overloaded, which will directly affect the queen's mood and may lead to a conductive collapse of the entire network!</ARA_GestaltBandwidthExceeded>
+<ARA_NetworkOverloadCleared>Cellular network overload is over</ARA_NetworkOverloadCleared>
+<MessageGestaltLostControl>{1} has disconnected from {0}!</MessageGestaltLostControl>
+<ARA_SwarmSpell_Title>Insect Swarm Spell (Lv.{0})</ARA_SwarmSpell_Title>
 <ARA_SwarmSpell_Research>{0}/{1}</ARA_SwarmSpell_Research>
 <ARA_SwarmSpell_Load>{0}/{1}</ARA_SwarmSpell_Load>
-<ARA_SwarmSpell_Level>technique</ARA_SwarmSpell_Level>
-<ARA_SwarmSpell_Research_Title>Insect swarm evolution points</ARA_SwarmSpell_Research_Title>
-<ARA_SwarmSpell_Research_Current>Storage amount: {0} / {1}</ARA_SwarmSpell_Research_Current>
-<ARA_SwarmSpell_Research_Description>Insect group evolution point label</ARA_SwarmSpell_Research_Description>
-<ARA_SwarmSpell_Research_DescriptionText>Insect swarm evolution points are a special resource that exists only in Arachne's spirit-sucking species. Spirit-sucking species acquire evolution points by absorbing incapacitated captives, and these can be used to strengthen individual abilities and research special insect swarm technologies.</ARA_SwarmSpell_Research_DescriptionText>
-<ARA_SwarmSpell_Load_Title>nerve bundle load</ARA_SwarmSpell_Load_Title>
-<ARA_SwarmSpell_Load_Current>Load amount: {0} / {1}</ARA_SwarmSpell_Load_Current>
-<ARA_SwarmSpell_Level_Title>Technique level</ARA_SwarmSpell_Level_Title>
+<ARA_SwarmSpell_Level>Spell</ARA_SwarmSpell_Level>
+<ARA_SwarmSpell_Research_Title>Swarm evolution point</ARA_SwarmSpell_Research_Title>
+<ARA_SwarmSpell_Research_Current>Storage: {0} / {1}</ARA_SwarmSpell_Research_Current>
+<ARA_SwarmSpell_Research_Description>Swarm evolution point</ARA_SwarmSpell_Research_Description>
+<ARA_SwarmSpell_Research_DescriptionText>Insect swarm evolution points are special resources unique to the Arachne Isthid. Illithids can acquire evolution points by devouring incapacitated captives, and invest them in upgrading personal abilities or researching the special technology of the swarm.</ARA_SwarmSpell_Research_DescriptionText>
+<ARA_SwarmSpell_Load_Title>bundle load</ARA_SwarmSpell_Load_Title>
+<ARA_SwarmSpell_Load_Current>Load capacity: {0} / {1}</ARA_SwarmSpell_Load_Current>
+<ARA_SwarmSpell_Level_Title>Spell level</ARA_SwarmSpell_Level_Title>
 <ARA_SwarmSpell_Level_Current>Current level: {0}</ARA_SwarmSpell_Level_Current>
-<ARA_SwarmSpell_Load_CapacityFormula>Maximum psychic load: 10 × {0} (technique level)</ARA_SwarmSpell_Load_CapacityFormula>
-<ARA_SwarmSpell_Load_Warning>Warning: High nerve bundle load!</ARA_SwarmSpell_Load_Warning>
+<ARA_SwarmSpell_Load_CapacityFormula>Maximum psionic load: 10 × {0} (spell level)</ARA_SwarmSpell_Load_CapacityFormula>
+<ARA_SwarmSpell_Load_Warning>Warning: High bundle load!</ARA_SwarmSpell_Load_Warning>
 <ARA_SwarmSpell_Load_Critical>Warning: Nerve bundle load approaching limit!</ARA_SwarmSpell_Load_Critical>
-<ARA_SwarmSpell_Load_Description>nerve bundle load label</ARA_SwarmSpell_Load_Description>
-<ARA_SwarmSpell_Load_DescriptionText>Nerve bundle load is an index that evaluates the degree of load on the nerve bundle that occurs when an Arachne spirit sucker uses psychic techniques.As a mobile artillery, a spirit sucker can activate various psychic techniques almost infinitely, but at the cost of doing so, there is a risk of burning out its own brain.If the load becomes excessive, this must be discharged as mental entropy.</ARA_SwarmSpell_Load_DescriptionText>
-<ARA_SwarmSpell_Gizmo_Title>Insect swarm psychic technique</ARA_SwarmSpell_Gizmo_Title>
-<ARA_SwarmSpell_Gizmo_Desc>Insect swarm psychic technique</ARA_SwarmSpell_Gizmo_Desc>
-<ARA_SwarmSpell_Gizmo_Hint>Hover your mouse over the indicator to see detailed information</ARA_SwarmSpell_Gizmo_Hint>
-<ARA_SwarmSpell_SystemNotAvailable>{0}'s insect swarm technique system cannot be used.</ARA_SwarmSpell_SystemNotAvailable>
-<ARA_SwarmSpell_Title_Overload>[Overload] Insect swarm psychic technique</ARA_SwarmSpell_Title_Overload>
+<ARA_SwarmSpell_Load_Description>bundle load</ARA_SwarmSpell_Load_Description>
+<ARA_SwarmSpell_Load_DescriptionText>The nerve bundle load is evaluated based on the degree of nerve bundle load caused by the Arachne Isthid's use of insect swarm psychic spells - as a mobile spell turret, the Illithid can release various insect swarm psychic spells almost infinitely, at the cost of possibly burning its own brain, and it must be discharged as psychic entropy when the load is too large.</ARA_SwarmSpell_Load_DescriptionText>
+<ARA_SwarmSpell_Gizmo_Title>Swarm Psychic Spell</ARA_SwarmSpell_Gizmo_Title>
+<ARA_SwarmSpell_Gizmo_Desc>Swarm Psychic Spell</ARA_SwarmSpell_Gizmo_Desc>
+<ARA_SwarmSpell_Gizmo_Hint>Move your mouse over the indicator bar to see further details</ARA_SwarmSpell_Gizmo_Hint>
+<ARA_SwarmSpell_SystemNotAvailable>{0}'s swarm psionic spell system is unavailable</ARA_SwarmSpell_SystemNotAvailable>
+<ARA_SwarmSpell_Title_Overload>[Overload] Swarm Psychic Spell</ARA_SwarmSpell_Title_Overload>
 <ARA_SwarmSpell_Load_Overload>{0}/{1} (+{2})</ARA_SwarmSpell_Load_Overload>
-<ARA_SwarmSpell_Load_Title_Overload>Nerve bundle load [overload]</ARA_SwarmSpell_Load_Title_Overload>
-<ARA_SwarmSpell_Load_OverloadWarning>Warning: Nerve bundle load exceeds capacity!</ARA_SwarmSpell_Load_OverloadWarning>
-<ARA_SwarmSpell_Gizmo_OverloadWarning>Warning: Unit is overloaded and cannot self-cool down!</ARA_SwarmSpell_Gizmo_OverloadWarning>
-<ARA_SwarmSpell_Cooldown>{0} seconds</ARA_SwarmSpell_Cooldown>
-<ARA_SwarmSpell_Cooldown_Status>nerve bundle cool down</ARA_SwarmSpell_Cooldown_Status>
-<ARA_SwarmSpell_Cooldown_Remaining>Remaining time: {0} seconds</ARA_SwarmSpell_Cooldown_Remaining>
-<ARA_SwarmSpell_Cooldown_Behavior>After cooldown ends, load will be reduced by 1 every 2 seconds.</ARA_SwarmSpell_Cooldown_Behavior>
-<ARA_SwarmSpell_Load_Recovery>After the cooldown ends, the nerve bundle load will automatically decrease</ARA_SwarmSpell_Load_Recovery>
+<ARA_SwarmSpell_Load_Title_Overload>nerve bundle load [overload]</ARA_SwarmSpell_Load_Title_Overload>
+<ARA_SwarmSpell_Load_OverloadWarning>Warning: Nerve bundles loaded beyond capacity!</ARA_SwarmSpell_Load_OverloadWarning>
+<ARA_SwarmSpell_Gizmo_OverloadWarning>Warning: The unit is overloaded and cannot cool down on its own!</ARA_SwarmSpell_Gizmo_OverloadWarning>
+<ARA_SwarmSpell_Cooldown>{0}s</ARA_SwarmSpell_Cooldown>
+<ARA_SwarmSpell_Cooldown_Status>nerve bundle cooling</ARA_SwarmSpell_Cooldown_Status>
+<ARA_SwarmSpell_Cooldown_Remaining>Time remaining: {0} seconds</ARA_SwarmSpell_Cooldown_Remaining>
+<ARA_SwarmSpell_Cooldown_Behavior>After the cooldown is over, the load is reduced by 1 point every 2 seconds.</ARA_SwarmSpell_Cooldown_Behavior>
+<ARA_SwarmSpell_Load_Recovery>After cooling down, the nerve bundle load will be automatically reduced</ARA_SwarmSpell_Load_Recovery>
 </LanguageData>

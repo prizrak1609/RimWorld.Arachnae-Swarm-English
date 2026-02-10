@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Arachnae Swarm English</name>
   <author>Geel</author>
@@ -29,7 +29,7 @@ To help me fix it quickly, please include:
 
 [quote][b]Note:[/b] If the original developer of Arachnae Swarm wishes for this translation to be removed, I will do so immediately upon request.[/quote]
   </description>
-  <modVersion IgnoreIfNoMatchingField="True">1.2.2</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.2.3</modVersion>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>

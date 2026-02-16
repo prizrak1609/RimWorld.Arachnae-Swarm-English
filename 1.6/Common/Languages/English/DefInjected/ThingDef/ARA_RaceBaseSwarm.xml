@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ArachnaeBase_Race_Larva.label>Arachne larval species</ArachnaeBase_Race_Larva.label>
-<ArachnaeBase_Race_Larva.description>It is a type of Arachne argentina, and it contains all the genetic information necessary for the insect group to expand to the surface of the earth, and forms the basis of the insect family.It invades Arachne eggs and Arachne cocoons, and transforms into new control insects and equipment through complete metamorphosis.</ArachnaeBase_Race_Larva.description>
+<ArachnaeBase_Race_Larva.label>Arachne larva species</ArachnaeBase_Race_Larva.label>
+<ArachnaeBase_Race_Larva.description>It is a type of Arachne argentina, and it contains all the genetic information necessary for the insect group to expand to the earth's surface, and forms the basis of the insect family.It invades Arachne eggs and Arachne cocoons, and transforms into new control insects and equipment through complete metamorphosis.</ArachnaeBase_Race_Larva.description>
 <ArachnaeBase_Race_Larva.tools.head.label>head</ArachnaeBase_Race_Larva.tools.head.label>
 <ArachnaeBase_Race_Scavenger.label>Arachne corrosive species</ArachnaeBase_Race_Scavenger.label>
 <ArachnaeBase_Race_Scavenger.description>It is a type of arachne beetle, and has a very wide range of eating habits, and can be used for cultivation, harvesting, and transportation.It has a small honey can cavity, and can produce honey just like the overseer.</ArachnaeBase_Race_Scavenger.description>
@@ -34,7 +34,7 @@
 <ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.tooltipOverride>
 <ArachnaeBase_Race_Empsuicider.tools.head.label>head</ArachnaeBase_Race_Empsuicider.tools.head.label>
 <ArachnaeBase_Race_Skyhive.label>Arachne Tensu species</ArachnaeBase_Race_Skyhive.label>
-<ArachnaeBase_Race_Skyhive.description>A type of arachne insect, it has the ability to fly close to the ground, and has very good attack speed and movement speed.If the supervisor insect is in a conscript state, it will accompany the insect.</ArachnaeBase_Race_Skyhive.description>
+<ArachnaeBase_Race_Skyhive.description>It is a type of Arachne insect that has the ability to fly close to the ground, and has very good attack speed and movement speed.If the supervisor, the insect, is in a conscript state, it will accompany the insect.</ArachnaeBase_Race_Skyhive.description>
 <ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.labelOverride>
 <ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.tooltipOverride>From the moment they are born, this special Arachnid worm is on the road to death—its lifespan is so short.</ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.tooltipOverride>
 <ArachnaeBase_Race_Skyhive.tools.0.label>compound jaw</ArachnaeBase_Race_Skyhive.tools.0.label>

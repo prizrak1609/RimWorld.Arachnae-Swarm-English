@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ARA_EnterPowerArmor>Fusion with symbiotic muscle groups</ARA_EnterPowerArmor>
+<ARA_EnterPowerArmor>Fuses with symbiotic muscle group</ARA_EnterPowerArmor>
 <StructurePoints>structure point</StructurePoints>
-<PowerArmorBroken>{0} is paralyzed! The Overlord {1} is exposed.</PowerArmorBroken>
-<ARA_UnknownScheme>unknown</ARA_UnknownScheme>
+<PowerArmorBroken>{0} has stopped functioning! The insect {1} has been exposed.</PowerArmorBroken>
+<ARA_UnknownScheme>not clear</ARA_UnknownScheme>
 <ARA_SchemeFormat>Plan {0}</ARA_SchemeFormat>
-<ARA_PowerArmorDamaged>Symbiotic muscle paralysis</ARA_PowerArmorDamaged>
-<ARA_SwitchedToMode>Switched to {0} mode</ARA_SwitchedToMode>
-<ARA_EquipPowerArmorFailed>Symbiotic muscle group fusion failed: configuration error</ARA_EquipPowerArmorFailed>
-<ARA_AlreadySelectedScheme>This plan is currently selected</ARA_AlreadySelectedScheme>
-<ARA_SwitchWeapon>Switch arms: {0}</ARA_SwitchWeapon>
-<ARA_SwitchWeaponDesc>Switch to the next weapon configuration plan\nCurrent: {0}\nAvailable plans: {1}</ARA_SwitchWeaponDesc>
+<ARA_PowerArmorDamaged>Paralysis of symbiotic muscles</ARA_PowerArmorDamaged>
+<ARA_SwitchedToMode>Switch to {0} mode</ARA_SwitchedToMode>
+<ARA_EquipPowerArmorFailed>Failed to fuse with symbiotic muscle group: configuration error</ARA_EquipPowerArmorFailed>
+<ARA_AlreadySelectedScheme>This plan is already selected</ARA_AlreadySelectedScheme>
+<ARA_SwitchWeapon>Weapon switching: {0}</ARA_SwitchWeapon>
+<ARA_SwitchWeaponDesc>Switch to next armed plan\nCurrently: {0}\nAvailable plans: {1}</ARA_SwitchWeaponDesc>
 <ARA_SwitchToScheme>Switch directly to {0}</ARA_SwitchToScheme>
 <ARA_Default>default</ARA_Default>
 </LanguageData>

@@ -6,12 +6,12 @@
 <ARA_ArachnaeQueen.labelMalePlural>Arachne type</ARA_ArachnaeQueen.labelMalePlural>
 <ARA_ArachnaeQueen.labelFemale>Arachne type</ARA_ArachnaeQueen.labelFemale>
 <ARA_ArachnaeQueen.labelFemalePlural>Arachne type</ARA_ArachnaeQueen.labelFemalePlural>
-<ArachnaeQueen_Race_Neurotyrant.label>Absorption type</ArachnaeQueen_Race_Neurotyrant.label>
-<ArachnaeQueen_Race_Neurotyrant.labelPlural>Absorption type</ArachnaeQueen_Race_Neurotyrant.labelPlural>
-<ArachnaeQueen_Race_Neurotyrant.labelMale>Absorption type</ArachnaeQueen_Race_Neurotyrant.labelMale>
-<ArachnaeQueen_Race_Neurotyrant.labelMalePlural>Absorption type</ArachnaeQueen_Race_Neurotyrant.labelMalePlural>
-<ArachnaeQueen_Race_Neurotyrant.labelFemale>Absorption type</ArachnaeQueen_Race_Neurotyrant.labelFemale>
-<ArachnaeQueen_Race_Neurotyrant.labelFemalePlural>Absorption type</ArachnaeQueen_Race_Neurotyrant.labelFemalePlural>
+<ArachnaeQueen_Race_Neurotyrant.label>Arachne spirit sucker</ArachnaeQueen_Race_Neurotyrant.label>
+<ArachnaeQueen_Race_Neurotyrant.labelPlural>Arachne spirit sucker</ArachnaeQueen_Race_Neurotyrant.labelPlural>
+<ArachnaeQueen_Race_Neurotyrant.labelMale>Arachne spirit sucker</ArachnaeQueen_Race_Neurotyrant.labelMale>
+<ArachnaeQueen_Race_Neurotyrant.labelMalePlural>Arachne spirit sucker</ArachnaeQueen_Race_Neurotyrant.labelMalePlural>
+<ArachnaeQueen_Race_Neurotyrant.labelFemale>Arachne spirit sucker</ArachnaeQueen_Race_Neurotyrant.labelFemale>
+<ArachnaeQueen_Race_Neurotyrant.labelFemalePlural>Arachne spirit sucker</ArachnaeQueen_Race_Neurotyrant.labelFemalePlural>
 <ArachnaeNode_Race_Myrmecocystus.label>Arachne honey can type</ArachnaeNode_Race_Myrmecocystus.label>
 <ArachnaeNode_Race_Myrmecocystus.labelPlural>Arachne honey can type</ArachnaeNode_Race_Myrmecocystus.labelPlural>
 <ArachnaeNode_Race_Myrmecocystus.labelMale>Arachne honey can type</ArachnaeNode_Race_Myrmecocystus.labelMale>
@@ -72,12 +72,12 @@
 <ARA_MimicNematodeShamblerSwarmer.labelMalePlural>arachne pseudolinear</ARA_MimicNematodeShamblerSwarmer.labelMalePlural>
 <ARA_MimicNematodeShamblerSwarmer.labelFemale>arachne pseudolinear</ARA_MimicNematodeShamblerSwarmer.labelFemale>
 <ARA_MimicNematodeShamblerSwarmer.labelFemalePlural>arachne pseudolinear</ARA_MimicNematodeShamblerSwarmer.labelFemalePlural>
-<ArachnaeBase_Race_Larva.label>Arachne larval species</ArachnaeBase_Race_Larva.label>
-<ArachnaeBase_Race_Larva.labelPlural>Arachne larval species</ArachnaeBase_Race_Larva.labelPlural>
-<ArachnaeBase_Race_Larva.labelMale>Arachne larval species</ArachnaeBase_Race_Larva.labelMale>
-<ArachnaeBase_Race_Larva.labelMalePlural>Arachne larval species</ArachnaeBase_Race_Larva.labelMalePlural>
-<ArachnaeBase_Race_Larva.labelFemale>Arachne larval species</ArachnaeBase_Race_Larva.labelFemale>
-<ArachnaeBase_Race_Larva.labelFemalePlural>Arachne larval species</ArachnaeBase_Race_Larva.labelFemalePlural>
+<ArachnaeBase_Race_Larva.label>Arachne larva species</ArachnaeBase_Race_Larva.label>
+<ArachnaeBase_Race_Larva.labelPlural>Arachne larva species</ArachnaeBase_Race_Larva.labelPlural>
+<ArachnaeBase_Race_Larva.labelMale>Arachne larva species</ArachnaeBase_Race_Larva.labelMale>
+<ArachnaeBase_Race_Larva.labelMalePlural>Arachne larva species</ArachnaeBase_Race_Larva.labelMalePlural>
+<ArachnaeBase_Race_Larva.labelFemale>Arachne larva species</ArachnaeBase_Race_Larva.labelFemale>
+<ArachnaeBase_Race_Larva.labelFemalePlural>Arachne larva species</ArachnaeBase_Race_Larva.labelFemalePlural>
 <ArachnaeBase_Race_Scavenger.label>Arachne corrosive species</ArachnaeBase_Race_Scavenger.label>
 <ArachnaeBase_Race_Scavenger.labelPlural>Arachne corrosive species</ArachnaeBase_Race_Scavenger.labelPlural>
 <ArachnaeBase_Race_Scavenger.labelMale>Arachne corrosive species</ArachnaeBase_Race_Scavenger.labelMale>

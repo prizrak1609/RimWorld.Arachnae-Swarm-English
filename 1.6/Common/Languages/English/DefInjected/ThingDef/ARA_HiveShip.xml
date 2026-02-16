@@ -4,7 +4,7 @@
 <ARA_HiveShip_Heart.description>It is the heart of the Arachne Colony's Hunter Hive Ship, and its function is similar to humanity's anti-gravity engine.</ARA_HiveShip_Heart.description>
 <ARA_PilotConsole.label>neural link console</ARA_PilotConsole.label>
 <ARA_PilotConsole.description>The Neural Link Console is a platform used by the Arachne Hive to communicate and interact with Hunter Hive Ships.</ARA_PilotConsole.description>
-<ARA_HiveShip_Stomach.label>Hunter Hive Ship - Stomach Pouch</ARA_HiveShip_Stomach.label>
+<ARA_HiveShip_Stomach.label>Hunter Hive Ship - Stomach Sac</ARA_HiveShip_Stomach.label>
 <ARA_HiveShip_Stomach.description>It is a gastric pouch provided in the Arachne colony's hunter hive ships, and its role is to store biomass for the hive ships to travel.</ARA_HiveShip_Stomach.description>
 <ARA_HiveShip_Stomach.comps.CompRefuelable.fuelGizmoLabel>bio liquefied fuel</ARA_HiveShip_Stomach.comps.CompRefuelable.fuelGizmoLabel>
 <ARA_HiveShip_Stomach.comps.CompRefuelable.fuelLabel>bio liquefied fuel</ARA_HiveShip_Stomach.comps.CompRefuelable.fuelLabel>

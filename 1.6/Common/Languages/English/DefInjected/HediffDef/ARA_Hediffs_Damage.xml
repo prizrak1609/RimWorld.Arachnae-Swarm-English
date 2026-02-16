@@ -56,4 +56,7 @@
 <ARA_Genestealer_ExtractGene_Hediff.label>Forced peeling</ARA_Genestealer_ExtractGene_Hediff.label>
 <ARA_Genestealer_ExtractGene_Hediff.description>The Arachne variant has forcibly extracted some genetic sequences from this colonist. As a result, the colonist is no longer able to maintain basic physiological activities. This damage is irreversible and cannot be reversed even if the genes are returned.</ARA_Genestealer_ExtractGene_Hediff.description>
 <ARA_Genestealer_ExtractGene_Hediff.stages.minor.label>Mild</ARA_Genestealer_ExtractGene_Hediff.stages.minor.label>
+<ARA_Dissolver_Touch_Damage.label>Solvent acid</ARA_Dissolver_Touch_Damage.label>
+<ARA_Dissolver_Touch_Damage.labelNoun>Solvent acid</ARA_Dissolver_Touch_Damage.labelNoun>
+<ARA_Dissolver_Touch_Damage.description>The Arachne-lipospecies has showered this subject with a large amount of liquefied acid, and its body will soon turn into a jelly-like honey can.\n\nHow pathetic.</ARA_Dissolver_Touch_Damage.description>
 </LanguageData>

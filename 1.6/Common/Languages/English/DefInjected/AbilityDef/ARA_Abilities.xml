@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ARA_BindDrone.label>pheromone label</ARA_BindDrone.label>
-<ARA_BindDrone.description>Pheromones are used to mark Arachne insects (including wild insect groups). Marked insects and their subordinates swear loyalty to the Empress species and form a mental link.\n\nIn addition to manual linking, the Empress species will automatically attempt to link with unlinked Arachne insects every 60 seconds. Unlike manual linking, this automatic link does not require visual recognition.</ARA_BindDrone.description>
+<ARA_BindDrone.description>When you use pheromones to mark a wild Arachne Insect or Beast Insect, it leaves its wild state, swears allegiance to the Empress, and establishes a spiritual bond.\n\nThe Empress automatically establishes a link with allied Insects and Beast Insects. No skills are required.</ARA_BindDrone.description>
 <ARA_RaceBaseSwarmProduceOn.label>Removal of reproductive suppression</ARA_RaceBaseSwarmProduceOn.label>
 <ARA_RaceBaseSwarmProduceOn.description>This will re-enable the ability of Arachne Insects to automatically raise Insects.</ARA_RaceBaseSwarmProduceOn.description>
 <ARA_RaceBaseSwarmProduceOff.label>Breeding suppression</ARA_RaceBaseSwarmProduceOff.label>
@@ -14,8 +14,8 @@
 <ARA_TumorSpew.description>It expels the mycelium and transforms a wide area around it into a mycelium.This facilitates the activity of the insect swarm.</ARA_TumorSpew.description>
 <ARA_TumorSpew.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_TumorSpew.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_TumorSpew.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_TumorSpew.comps.CompAbilityEffect_NeedCost.failMessage>
-<ARA_AcidSprayBurst_Queen.label>Empress seed acid liquid injection</ARA_AcidSprayBurst_Queen.label>
-<ARA_AcidSprayBurst_Queen.description>The Arachne Empress sprays a large amount of corrosive acid at the target location.The spray lasts for several seconds, completely covering the area.</ARA_AcidSprayBurst_Queen.description>
+<ARA_AcidSprayBurst_Queen.label>Acid liquid injection</ARA_AcidSprayBurst_Queen.label>
+<ARA_AcidSprayBurst_Queen.description>It sprays a large amount of corrosive acid toward the target location, completely covering the area, annihilating enemy forces and reducing the armor of survivors.</ARA_AcidSprayBurst_Queen.description>
 <ARA_AcidSprayBurst_Queen.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_AcidSprayBurst_Queen.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_AcidSprayBurst_Queen.comps.CompAbilityEffect_BodyPartCheck.failMessage>Acid solution cannot be sprayed because the acid sac is damaged or missing.</ARA_AcidSprayBurst_Queen.comps.CompAbilityEffect_BodyPartCheck.failMessage>
 <ARA_AcidSprayBurst_Queen.comps.CompAbilityEffect_ResearchPrereq.failMessage>Research plan/node VXI-6 "acid sac" is required to unlock the skill.</ARA_AcidSprayBurst_Queen.comps.CompAbilityEffect_ResearchPrereq.failMessage>
@@ -37,9 +37,9 @@
 <ARA_Skyraider_jump.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Skyraider_jump.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_Skyraider_jump.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Skyraider_jump.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_Ability_Possess.label>Protozoan species parasitic attack</ARA_Ability_Possess.label>
-<ARA_Ability_Possess.description>It leaps onto its target, pierces its nerve center with its tail stinger, and replaces it with its own control signals. If the infestation is successful, the target's body is completely taken over and it acts as a member of the Arachne swarm—the infestation will fail if it cannot penetrate the armor, but it will not be able to penetrate the captive or inactive body. It is guaranteed to succeed against the powerful.\n\nThe parasite must receive the pheromone tag of the Empress species, and continues to live like a shell without emotions or higher-order desires.The target's skills and background are replaced by those of the protozoan species, and when the host dies, the protozoan species escapes from the body.</ARA_Ability_Possess.description>
+<ARA_Ability_Possess.description>It leaps onto its target, pierces its nerve center with its tail stinger, and replaces it with its own control signals. If the parasitism is successful, the target's body is completely taken over and it acts as a member of the Arachne swarm; if it cannot penetrate the armor, the parasitism fails, but it is unable to penetrate the captive or inactive body. It is always successful against the powerful.\n\nThe parasite needs to receive the pheromone tag of the Empress species, and continues to live like a shell without emotions or higher-order desires.The target's skills and background are replaced with those of the protozoan species, and when the host dies, the protozoan species escapes from the body.</ARA_Ability_Possess.description>
 <ARA_Ability_Smokepop.label>Pheromone fog release</ARA_Ability_Smokepop.label>
-<ARA_Ability_Smokepop.description>The stray mist species releases a large amount of Arachne pheromone smoke from its abdomen. This smoke hides the appearance of the insect swarm and blocks the flames. The more people (friend or foe) stained with the pheromones, the more reinforcement insect people will appear from underground.</ARA_Ability_Smokepop.description>
+<ARA_Ability_Smokepop.description>The stray mist species releases a large amount of Arachne pheromone smoke from its abdomen. This smoke hides the appearance of the insect swarm and blocks the flames. The more people (both friend and foe) stained with the pheromones, the more reinforcement insect people will appear from underground.</ARA_Ability_Smokepop.description>
 <ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Ability_Smokepop.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_Baneling_Suicide_Ability.label>benign self-destruction</ARA_Baneling_Suicide_Ability.label>
@@ -75,16 +75,20 @@
 <ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_ResearchPrereq.failMessage>Research plan/node MED-2 "Pseudoline type" is required to unlock the skill.</ARA_MimicNematode_Needle_Fire.comps.CompAbilityEffect_ResearchPrereq.failMessage>
+<ARA_FireSpew.label>deflagration flame</ARA_FireSpew.label>
+<ARA_FireSpew.description>Deflagration seeds emit flame over a wide area in front after a short reservoir. Although the range of this flame emission is not very long, it can form a dense wall of flame.</ARA_FireSpew.description>
+<ARA_FireSpew.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_FireSpew.comps.CompAbilityEffect_NeedCost.customLabel>
+<ARA_FireSpew.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_FireSpew.comps.CompAbilityEffect_NeedCost.failMessage>
+<ARA_Dissolver_Touch.label>strong acid</ARA_Dissolver_Touch.label>
+<ARA_Dissolver_Touch.description>Sprays the target with soluble strong acid at close range. The target's organs are rapidly decomposed and converted into a large amount of honey cans. Due to extremely low accuracy, it cannot be used in combat, and can only be used on targets that do not resist.</ARA_Dissolver_Touch.description>
+<ARA_Dissolver_Touch.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Dissolver_Touch.comps.CompAbilityEffect_NeedCost.customLabel>
+<ARA_Dissolver_Touch.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Dissolver_Touch.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_Fighter_Invisibility_jump.label>pursuit type jump</ARA_Fighter_Invisibility_jump.label>
 <ARA_Fighter_Invisibility_jump.description>It uses its strong tendons to jump to the target location.The pursuing species remains hidden during the jump.</ARA_Fighter_Invisibility_jump.description>
 <ARA_Fighter_Invisibility_jump.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Fighter_Invisibility_jump.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_Fighter_Invisibility_jump.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Fighter_Invisibility_jump.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_Fighter_Invisibility_Execution.label>scythe execution</ARA_Fighter_Invisibility_Execution.label>
 <ARA_Fighter_Invisibility_Execution.description>The pursuit species wields a scythe and deals a powerful blow to the enemy, executing them. After the attack, they reveal themselves.</ARA_Fighter_Invisibility_Execution.description>
-<ARA_FireSpew.label>deflagration flame</ARA_FireSpew.label>
-<ARA_FireSpew.description>Deflagration seeds emit flame over a wide area in front after a short reservoir. Although the range of this flame emission is not very long, it can form a dense wall of flame.</ARA_FireSpew.description>
-<ARA_FireSpew.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_FireSpew.comps.CompAbilityEffect_NeedCost.customLabel>
-<ARA_FireSpew.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_FireSpew.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_Genestealer_ExtractGene.label>Gene stealing</ARA_Genestealer_ExtractGene.label>
 <ARA_Genestealer_ExtractGene.description>The variant extracts 1 to 4 genes (including the Alkite gene) from the target's gene pool and incorporates them into its own genetic sequence.The extracted subject will not die, but will lose this gene and be unable to wake up from the coma.</ARA_Genestealer_ExtractGene.description>
 <ARA_Genestealer_ExtractGene.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Genestealer_ExtractGene.comps.CompAbilityEffect_NeedCost.customLabel>
@@ -98,7 +102,7 @@
 <ARA_Genestealer_EjectOrgans.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Genestealer_EjectOrgans.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_Genestealer_EjectOrgans.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Genestealer_EjectOrgans.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_TerrainHeal_Ability.label>creep treatment</ARA_TerrainHeal_Ability.label>
-<ARA_TerrainHeal_Ability.description>Extracts biological material from the creep's feeding tube and synthesizes healing elements to heal allies. Can only be used on individuals of the Arachne insect group that have the ability to self-regenerate.</ARA_TerrainHeal_Ability.description>
+<ARA_TerrainHeal_Ability.description>Extracts biological material from the creep's nutrient tube and synthesizes healing elements to heal allies. Can only be used on individuals of the Arachne insect group that have the ability to self-regenerate.</ARA_TerrainHeal_Ability.description>
 <ARA_TerrainHeal_Ability.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_TerrainHeal_Ability.comps.CompAbilityEffect_NeedCost.customLabel>
 <ARA_TerrainHeal_Ability.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_TerrainHeal_Ability.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_TerrainHeal_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>Abilities must be placed on terrain</ARA_TerrainHeal_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>
@@ -129,8 +133,16 @@
 <ARA_Praetorian_Commander_Ability_On.description>This Arachne Guard type command node will be activated to form a secondary hive mind network that will enhance the fighting ability of the surrounding Insects. During this time, the fighting ability of the Guard type itself will be partially reduced.</ARA_Praetorian_Commander_Ability_On.description>
 <ARA_Praetorian_Commander_Ability_Off.label>Command ended</ARA_Praetorian_Commander_Ability_Off.label>
 <ARA_Praetorian_Commander_Ability_Off.description>Stops the command ability of the Arachne Guards and allows them to focus on their own battles.</ARA_Praetorian_Commander_Ability_Off.description>
-<ARA_Locust_Needle_Fire.label>Poison needle shooting</ARA_Locust_Needle_Fire.label>
-<ARA_Locust_Needle_Fire.description>Arachne locusts use their venomous stinger glands to fire volleys at their enemies.</ARA_Locust_Needle_Fire.description>
+<ARA_Locust_AcidSprayBurst.label>Acid liquid spraying</ARA_Locust_AcidSprayBurst.label>
+<ARA_Locust_AcidSprayBurst.description>The Arachne locust species sprays a corrosive acid solution at a target location.</ARA_Locust_AcidSprayBurst.description>
+<ARA_Praetorian_TailSweep.label>tail sweep</ARA_Praetorian_TailSweep.label>
+<ARA_Praetorian_TailSweep.description>Swings its tail and slams enemies in front of it. It deals damage to all enemies within a fan-shaped area, and even if they survive, they will be blown away and stunned for a certain period of time.</ARA_Praetorian_TailSweep.description>
+<ARA_Praetorian_TailSweep.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Praetorian_TailSweep.comps.CompAbilityEffect_NeedCost.customLabel>
+<ARA_Praetorian_TailSweep.comps.CompAbilityEffect_NeedCost.failMessage>Needs to eat due to nutritional deficiencies</ARA_Praetorian_TailSweep.comps.CompAbilityEffect_NeedCost.failMessage>
+<ARA_Praetorian_Long_Jump.label>Forbidden species jump</ARA_Praetorian_Long_Jump.label>
+<ARA_Praetorian_Long_Jump.description>Use your strong tendons to jump to your goal.</ARA_Praetorian_Long_Jump.description>
+<ARA_Praetorian_Long_Jump.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Praetorian_Long_Jump.comps.CompAbilityEffect_NeedCost.customLabel>
+<ARA_Praetorian_Long_Jump.comps.CompAbilityEffect_NeedCost.failMessage>Need to eat due to nutritional deficiencies</ARA_Praetorian_Long_Jump.comps.CompAbilityEffect_NeedCost.failMessage>
 <ARA_Pouch_Hatching_Baneling.label>Cocoon hatching: explosive species</ARA_Pouch_Hatching_Baneling.label>
 <ARA_Pouch_Hatching_Baneling.description>Hatches 3 Arachne Explosive Seed Insects at your feet and causes the enemy to perform a suicide attack.</ARA_Pouch_Hatching_Baneling.description>
 <ARA_Pouch_Hatching_Baneling.comps.CompAbilityEffect_NeedCost.customLabel>meal</ARA_Pouch_Hatching_Baneling.comps.CompAbilityEffect_NeedCost.customLabel>

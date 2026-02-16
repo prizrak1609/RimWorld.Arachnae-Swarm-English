@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ARA_HiveMindMaster.label>Arachne Empress</ARA_HiveMindMaster.label>
-<ARA_HiveMindMaster.description>The Arachne Empress species is the central node of insect group consciousness, and controls all Arachne insect groups as the main brain.It has a large number of undifferentiated repair cells in its body, and is able to self-repair any damage at a speed unimaginable to ordinary people.</ARA_HiveMindMaster.description>
+<ARA_HiveMindMaster.description>The Arachne Empress is the center of the colony and controls the Arachne insect tribe as the control tower of the tribe.</ARA_HiveMindMaster.description>
 <ARA_HiveMindDrone.label>Arachne insect</ARA_HiveMindDrone.label>
 <ARA_HiveMindDrone.description>The Arachne insect is connected to the Arachne empress species in its heart.When the Empress dies, the Arachne insect also ceases its life activities.</ARA_HiveMindDrone.description>
 <ARA_HiveMindDrone.stages.0.label>Not connected</ARA_HiveMindDrone.stages.0.label>
-<ARA_HiveMindDrone.stages.1.label>Connected</ARA_HiveMindDrone.stages.1.label>
+<ARA_HiveMindDrone.stages.1.label>Reconfiguring</ARA_HiveMindDrone.stages.1.label>
+<ARA_HiveMindDrone.stages.2.label>Connected</ARA_HiveMindDrone.stages.2.label>
 <ARA_GestaltNetworkOverload.label>network overload</ARA_GestaltNetworkOverload.label>
 <ARA_GestaltNetworkOverload.description>This is mental pressure caused by overloading the Gestalt network. This reduces Empress Arachne's overall ability and increases the risk of network collapse.</ARA_GestaltNetworkOverload.description>
 <ARA_NonPlayer_HiveMindDroneHediff.label>wild insect swarm</ARA_NonPlayer_HiveMindDroneHediff.label>
@@ -14,6 +15,9 @@
 <ARA_HiveMindWorker.description>Arachne flocculata is connected to the Arachne ficus in the heart.When the fibril dies, the flocculent also ceases its life activities.</ARA_HiveMindWorker.description>
 <ARA_HiveMindBeast.label>arachne beast insect</ARA_HiveMindBeast.label>
 <ARA_HiveMindBeast.description>Arachne beasts are more primitive life forms than other members of the Arachne family. Although they have simple heads and well-developed limbs, they do not follow the hive's pyramidal thinking as much. Within their hives, they receive command from any governor and empress species.</ARA_HiveMindBeast.description>
+<ARA_HiveMindBeast.stages.0.label>Not connected</ARA_HiveMindBeast.stages.0.label>
+<ARA_HiveMindBeast.stages.1.label>Reconfiguring</ARA_HiveMindBeast.stages.1.label>
+<ARA_HiveMindBeast.stages.2.label>Connected</ARA_HiveMindBeast.stages.2.label>
 <ARA_HiveStrength_Pluse.label>insect swarm blood</ARA_HiveStrength_Pluse.label>
 <ARA_HiveStrength_Pluse.description>The repair cells of this Arachnidae family have reached a level that cannot be measured by common sense anymore.No matter how severe the injury, they are almost never destroyed.Furthermore, these powerful cells also provide resistance to damage caused by acid erosion and Arachnid acid.</ARA_HiveStrength_Pluse.description>
 <ARA_HiveStrength.label>Insect colony vitality</ARA_HiveStrength.label>
@@ -32,7 +36,7 @@
 <ARA_Hive_Cannot_Speak.label>I can't speak</ARA_Hive_Cannot_Speak.label>
 <ARA_Hive_Cannot_Speak.description>Well, actually, this insect can't talk, you already knew that, right?</ARA_Hive_Cannot_Speak.description>
 <ARA_ChitinArmor.label>chitin armor</ARA_ChitinArmor.label>
-<ARA_ChitinArmor.description>It is a shell that covers the body of Arachne insects.Depending on its thickness, it provides protection for Arachne insects.</ARA_ChitinArmor.description>
+<ARA_ChitinArmor.description>It is a shell that covers the body of the Arachne insects.Depending on its thickness, it provides protection to the Arachne insects.</ARA_ChitinArmor.description>
 <ARA_ChitinArmor.stages.0.label>Ultra thin</ARA_ChitinArmor.stages.0.label>
 <ARA_ChitinArmor.stages.1.label>thin</ARA_ChitinArmor.stages.1.label>
 <ARA_ChitinArmor.stages.2.label>Moderately</ARA_ChitinArmor.stages.2.label>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ARA_MimicNematode.label>pseudonematode parasitism</ARA_MimicNematode.label>
-<ARA_MimicNematode.description>This colonizer is parasitized by the Arachne pseudonematode. Without intervention, the pseudonematode will eventually kill the host and turn it into an unconscious parasite. The pseudonematode will spread the infection to other bodies through the parasite's aggressive behavior.</ARA_MimicNematode.description>
+<ARA_MimicNematode.description>This colonist is infested with Arachne pseudonematodes. Without intervention, the pseudonematodes will eventually kill the host and turn it into an unconscious parasite. The pseudonematodes can spread infection to other bodies through the parasite's aggressive behavior.</ARA_MimicNematode.description>
 <ARA_MimicNematode.stages.0.label>dormant period</ARA_MimicNematode.stages.0.label>
 <ARA_MimicNematode.stages.1.label>active phase</ARA_MimicNematode.stages.1.label>
 <ARA_MimicNematode.stages.2.label>terminal stage</ARA_MimicNematode.stages.2.label>
 <ARA_MimicNematode.stages.3.label>Change is coming soon</ARA_MimicNematode.stages.3.label>
 <ARA_MimicNematodeShambler.label>Arachne pseudolinear parasite</ARA_MimicNematodeShambler.label>
-<ARA_MimicNematodeShambler.description>This corpse has been parasitized and reactivated by Arachne pseudonematodes. The parasitized organisms are slow, have no intelligence, and attack living things indiscriminately. After being active for several days, the parasite dies due to the decline in the host's metabolism. Once captured and fixed, the parasite is unable to move and its life activities cease.</ARA_MimicNematodeShambler.description>
+<ARA_MimicNematodeShambler.description>This corpse is parasitized and reactivated by the Arachne pseudonematode.The parasitized creature is slow, has no intelligence, and attacks living things indiscriminately.After being active for several days, the parasite dies due to a decline in the host's metabolism.Once captured and fixed, the parasite cannot move and its life activities cease.</ARA_MimicNematodeShambler.description>
 <ARA_Rising.label>getting up</ARA_Rising.label>
 <ARA_Rising.description>The strong regenerative ability caused by Arachne pseudonematode parasitism has revived this body.</ARA_Rising.description>
 <ARA_MimicNematodeShamblerShamblerCorpse.label>Pseudoline parasite corpse</ARA_MimicNematodeShamblerShamblerCorpse.label>

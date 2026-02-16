@@ -4,7 +4,7 @@
 <ARA_DummyAmmo.description>Ammunition used by the Arachne Bug Tribe.</ARA_DummyAmmo.description>
 <ARA_Filth_SpentAcid.label>Arachne residual acid</ARA_Filth_SpentAcid.label>
 <ARA_Turret_Beespikeshooter.label>bee spike shooter</ARA_Turret_Beespikeshooter.label>
-<ARA_Turret_Beespikeshooter.description>A small turret that fires poisonous stingers.</ARA_Turret_Beespikeshooter.description>
+<ARA_Turret_Beespikeshooter.description>A small turret that fires poisonous needles.</ARA_Turret_Beespikeshooter.description>
 <ARA_Turret_Beespikeshooter.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>insect honey</ARA_Turret_Beespikeshooter.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
 <ARA_Gun_Beespikeshooter.label>bee spike shooter</ARA_Gun_Beespikeshooter.label>
 <ARA_Gun_Beespikeshooter.verbs.Verb_Shoot.label>bee spike shooter</ARA_Gun_Beespikeshooter.verbs.Verb_Shoot.label>

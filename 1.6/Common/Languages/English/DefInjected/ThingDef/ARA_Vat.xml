@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ARA_DormancyVat.label>Arachne dormant cocoon</ARA_DormancyVat.label>
-<ARA_DormancyVat.description>It is a special biological facility for storing surplus insects of Arachne insects.The insects stored inside enter a dormant state where they neither age nor die, waiting to be called again from the main nest.</ARA_DormancyVat.description>
-<ARA_RefuelingVat.label>essence extraction cavity</ARA_RefuelingVat.label>
-<ARA_RefuelingVat.description>It is a specialized biological construct that can hold prisoners of the Arachne bugs. It uses a slow and painful method to extract genetic material and convert it into an essence that the bugs can use.\n\n——Please don't ask how we do this.</ARA_RefuelingVat.description>
+<ARA_DormancyVat.description>It is a special biological facility for storing surplus insects of the Arachne insect group.The insects stored inside enter a dormant state where they neither age nor die, waiting to be called again from the main nest.</ARA_DormancyVat.description>
+<ARA_RefuelingVat.label>essence extraction chamber</ARA_RefuelingVat.label>
+<ARA_RefuelingVat.description>It is a specialized biological construct that can hold prisoners of the Arachne bugs. It uses a slow and painful method to extract genetic material and convert it into an essence that the bugs can use.\n\n——Please don't ask how we do it.</ARA_RefuelingVat.description>
 <ARA_RefuelingVat.comps.CompProductStorage.fuelGizmoLabel>essence</ARA_RefuelingVat.comps.CompProductStorage.fuelGizmoLabel>
 <ARA_RefuelingVat.comps.CompProductStorage.fuelLabel>essence</ARA_RefuelingVat.comps.CompProductStorage.fuelLabel>
 </LanguageData>

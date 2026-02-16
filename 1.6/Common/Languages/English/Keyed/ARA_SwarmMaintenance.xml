@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ARA_SwarmMaintenance.MaintenanceLevel>Maintenance: {0}/{1} ({2})</ARA_SwarmMaintenance.MaintenanceLevel>
-<ARA_SwarmMaintenance.Depleted>Maintenance is exhausted! The building is being damaged!</ARA_SwarmMaintenance.Depleted>
-<ARA_SwarmMaintenance.Critical>Serious lack of maintenance!</ARA_SwarmMaintenance.Critical>
-<ARA_SwarmMaintenance.NeedsMaintenance>Need maintenance</ARA_SwarmMaintenance.NeedsMaintenance>
-<ARA_SwarmMaintenance.DailyDecay>Daily maintenance decrease: {0}</ARA_SwarmMaintenance.DailyDecay>
-<ARA_SwarmMaintenance.SeekingMaintainer>Looking for free maintainers...</ARA_SwarmMaintenance.SeekingMaintainer>
-<ARA_SwarmMaintenance.NoMaintainerFound>No eligible idle maintainer found</ARA_SwarmMaintenance.NoMaintainerFound>
-<ARA_SwarmMaintenance.AllowedRaces>Races allowed to be maintained:</ARA_SwarmMaintenance.AllowedRaces>
+<ARA_SwarmMaintenance.MaintenanceLevel>Maintenance level: {0}/{1} ({2})</ARA_SwarmMaintenance.MaintenanceLevel>
+<ARA_SwarmMaintenance.Depleted>I've run out of maintenance! Buildings are damaged!</ARA_SwarmMaintenance.Depleted>
+<ARA_SwarmMaintenance.Critical>Maintenance is very low!</ARA_SwarmMaintenance.Critical>
+<ARA_SwarmMaintenance.NeedsMaintenance>requires maintenance</ARA_SwarmMaintenance.NeedsMaintenance>
+<ARA_SwarmMaintenance.DailyDecay>Maintenance reduction amount per day: {0}</ARA_SwarmMaintenance.DailyDecay>
+<ARA_SwarmMaintenance.SeekingMaintainer>Searching for vacant maintenance personnel...</ARA_SwarmMaintenance.SeekingMaintainer>
+<ARA_SwarmMaintenance.NoMaintainerFound>No vacancies found that match your criteria</ARA_SwarmMaintenance.NoMaintainerFound>
+<ARA_SwarmMaintenance.AllowedRaces>Maintainable races:</ARA_SwarmMaintenance.AllowedRaces>
 <ARA_SwarmMaintenance.NoRacesSpecified>No maintainable race specified</ARA_SwarmMaintenance.NoRacesSpecified>
 </LanguageData>

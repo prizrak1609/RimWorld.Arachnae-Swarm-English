@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ArachnaeBeast_Race_Slayer.label>Arachne violent breed</ArachnaeBeast_Race_Slayer.label>
-<ArachnaeBeast_Race_Slayer.description>A type of Arachne beast insect, it has a huge body and a heavy carapace that covers its entire body.It uses its huge legs to indiscriminately crush surrounding enemies, and uses a pair of thick sickle claws to mow down groups of enemies.Its raison d'être is to intercept and absorb attacks, and to crush the enemy's offensive toward the rear of the insect swarm.</ArachnaeBeast_Race_Slayer.description>
+<ArachnaeBeast_Race_Slayer.description>A type of Arachne beast insect, it has a huge body and a heavy carapace that covers its entire body.It uses its huge legs to indiscriminately crush surrounding enemies, and uses a pair of thick sickle claws to mow down groups of enemies.The reason for its existence is to receive and absorb attacks, and to crush the enemy's offensive toward the rear of the insect group.</ArachnaeBeast_Race_Slayer.description>
 <ArachnaeBeast_Race_Slayer.comps.CompNodeSwarmLifetime.labelOverride>lifespan</ArachnaeBeast_Race_Slayer.comps.CompNodeSwarmLifetime.labelOverride>
 <ArachnaeBeast_Race_Slayer.comps.CompNodeSwarmLifetime.tooltipOverride>Even if you are an arachne beast with well-developed limbs and a simple brain, you cannot escape the fate of death written in your genes.</ArachnaeBeast_Race_Slayer.comps.CompNodeSwarmLifetime.tooltipOverride>
 <ArachnaeBeast_Race_Slayer.tools.0.label>sickle claw mowing</ArachnaeBeast_Race_Slayer.tools.0.label>

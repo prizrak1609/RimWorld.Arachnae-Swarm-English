@@ -3,9 +3,6 @@
 <ARA_Surgery_Install_Plasteel.label>Embed plastic shell</ARA_Surgery_Install_Plasteel.label>
 <ARA_Surgery_Install_Plasteel.description>Plasteel is embedded in the shell of the Arachne insect. When the carapace grows further, this plasteel is wrapped in the carapace and becomes a stronger exoskeleton, strengthening the insect's defense power.</ARA_Surgery_Install_Plasteel.description>
 <ARA_Surgery_Install_Plasteel.jobString>Directed mutation in progress.</ARA_Surgery_Install_Plasteel.jobString>
-<ARA_Surgery_Install_Shell_Thorn.label>embed carapace spines</ARA_Surgery_Install_Shell_Thorn.label>
-<ARA_Surgery_Install_Shell_Thorn.description>Two rows of spinous stingers are implanted into the shell of the Arachne bug. These are semi-autonomous organs that automatically fire barbs at nearby enemies. This mutation also thickens the shell, improving its defenses.</ARA_Surgery_Install_Shell_Thorn.description>
-<ARA_Surgery_Install_Shell_Thorn.jobString>Directed mutation in progress.</ARA_Surgery_Install_Shell_Thorn.jobString>
 <ARA_Surgery_Install_Reactive_Shell.label>Embed a reactive shell</ARA_Surgery_Install_Reactive_Shell.label>
 <ARA_Surgery_Install_Reactive_Shell.description>A special reactive shell is embedded in the shell of the Arachne insect.These are temporarily activated and protect the body by ejecting the shell in the event of an attack.</ARA_Surgery_Install_Reactive_Shell.description>
 <ARA_Surgery_Install_Reactive_Shell.jobString>Directed mutation in progress.</ARA_Surgery_Install_Reactive_Shell.jobString>
@@ -38,7 +35,7 @@
 <ARA_CureAcid.jobString>Removes neurotoxins.</ARA_CureAcid.jobString>
 <ARA_CureAcid.successfullyRemovedHediffMessage>{0} successfully removed the Arachne neurotoxin from {1}'s body.</ARA_CureAcid.successfullyRemovedHediffMessage>
 <ARA_CureBloodRot.label>Eliminate pseudonematode infections</ARA_CureBloodRot.label>
-<ARA_CureBloodRot.description>The surgery to eliminate Arachne pseudonematodes within a patient's body through targeted therapy using multiple drugs is extremely complex and can only be performed using cutting-edge medicines provided by Glitterworld.</ARA_CureBloodRot.description>
+<ARA_CureBloodRot.description>The surgery to eliminate Arachne pseudonematodes in patients through targeted therapy using multiple drugs is extremely complex and can only be performed using cutting-edge medicines provided by Glitterworld.</ARA_CureBloodRot.description>
 <ARA_CureBloodRot.jobString>Eliminates pseudonematode infection.</ARA_CureBloodRot.jobString>
 <ARA_CureBloodRot.successfullyRemovedHediffMessage>{0} successfully removed the pseudonematode infection from {1}'s body.</ARA_CureBloodRot.successfullyRemovedHediffMessage>
 </LanguageData>

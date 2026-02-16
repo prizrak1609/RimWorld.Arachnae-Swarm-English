@@ -2,7 +2,12 @@
 <LanguageData>
 <ARA_Neurotyrant_Harvest.label>Evolution point harvest</ARA_Neurotyrant_Harvest.label>
 <ARA_Neurotyrant_Harvest.description>The spirit absorber drains the target's intelligence and converts it into evolution points. Absorption takes a short amount of time, but the target dies instantly.</ARA_Neurotyrant_Harvest.description>
-<ARA_Neurotyrant_Harvest.comps.CompAbilityEffect_PsychicLoadCost.customLabel>psychic load cost</ARA_Neurotyrant_Harvest.comps.CompAbilityEffect_PsychicLoadCost.customLabel>
 <ARA_Neurotyrant_PsychicLoadDump.label>load recoil</ARA_Neurotyrant_PsychicLoadDump.label>
 <ARA_Neurotyrant_PsychicLoadDump.description>It forces the enormous load that the spirit absorbing species is subjected to onto the target. If the target does not have psychic abilities, this recoil will cause instant death. Individuals with psychic abilities will be able to avoid the fatal impact, but will accumulate a large amount of psychic entropy.</ARA_Neurotyrant_PsychicLoadDump.description>
+<ARA_Neurotyrant_T1_PsyShoot.label>rhino shot</ARA_Neurotyrant_T1_PsyShoot.label>
+<ARA_Neurotyrant_T1_PsyShoot.description>After a short charge, it fires multiple psychic bullets.</ARA_Neurotyrant_T1_PsyShoot.description>
+<ARA_Neurotyrant_T1_PsyPsuh.label>Psyshock</ARA_Neurotyrant_T1_PsyPsuh.label>
+<ARA_Neurotyrant_T1_PsyPsuh.description>Instantly releases directed psychic energy, damaging nearby enemies, then knocking them back and stunning them.</ARA_Neurotyrant_T1_PsyPsuh.description>
+<ARA_Neurotyrant_T1_PsyHemostasis.label>hemostasis</ARA_Neurotyrant_T1_PsyHemostasis.label>
+<ARA_Neurotyrant_T1_PsyHemostasis.description>Uses psychic powers to forcibly seal the target's wounds, preventing blood loss for a short period of time.</ARA_Neurotyrant_T1_PsyHemostasis.description>
 </LanguageData>

@@ -17,5 +17,7 @@
 <ARA_GestaltBandwidthCost.label>hive network load</ARA_GestaltBandwidthCost.label>
 <ARA_GestaltBandwidthCost.description>This is the load that the Arachne insect exerts on the Gestalt network. A negative value indicates that this insect is sharing the pressure of the Gestalt network.</ARA_GestaltBandwidthCost.description>
 <ARA_SwarmSpell_Cooldown_Delay.label>Psychic nerve bundle cooldown delay (seconds)</ARA_SwarmSpell_Cooldown_Delay.label>
-<ARA_SwarmSpell_Cooldown_Delay.description>The psychic load that occurs when an Arachne spirit sucker uses an insect swarm psychic ability will begin to gradually decrease after this time has passed. Any treatment will reset the cooldown time.</ARA_SwarmSpell_Cooldown_Delay.description>
+<ARA_SwarmSpell_Cooldown_Delay.description>The psychic load that occurs when an Arachne spirit sucker uses the insect swarm psychic ability will begin to gradually decrease after this time has passed. Any treatment will reset the cooldown time.</ARA_SwarmSpell_Cooldown_Delay.description>
+<ARA_SwarmSpell_Level.label>Technique level</ARA_SwarmSpell_Level.label>
+<ARA_SwarmSpell_Level.description>This is the strength of the Arachne psychic unit's technique.</ARA_SwarmSpell_Level.description>
 </LanguageData>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<CommandDeployWormholePortalB_Pilot>Deploy Wormhole</CommandDeployWormholePortalB_Pilot>
-<CommandDeployWormholePortalB_PilotDesc>Deploy a wormhole to a target location to create a path spanning the two locations. A guide is needed to travel to unexplored areas.</CommandDeployWormholePortalB_PilotDesc>
-<NoPilotAvailable>No facilitator available</NoPilotAvailable>
-<ForceLaunch>Autonomous deployment</ForceLaunch>
-<NotEnoughFuel>Need more nutrients for deployment</NotEnoughFuel>
-<MessageTransportPodsDestinationIsInvalid>Invalid destination</MessageTransportPodsDestinationIsInvalid>
-<MessageTransportPodsDestinationIsImpassable>The target location is inaccessible</MessageTransportPodsDestinationIsImpassable>
-<WormholeNotLinked>This tunnel species has not yet deployed any wormholes</WormholeNotLinked>
-<WormholeLinkLost>The tail of the wormhole deployed by this tunnel species was destroyed.</WormholeLinkLost>
-<WormholePortalLinked>The deployment of tunnel species is completed! You can now quickly travel to the map of the tail of the tunnel species through its head.</WormholePortalLinked>
-<WormholePortalB_Destroyed>The tail of the wormhole deployed by the tunnel species was destroyed.</WormholePortalB_Destroyed>
-<Status>state</Status>
-<LinkedTo>Link to</LinkedTo>
-<Deploying>Deploying</Deploying>
+<CommandDeployWormholePortalB_Pilot>expand wormhole</CommandDeployWormholePortalB_Pilot>
+<CommandDeployWormholePortalB_PilotDesc>Deploy a wormhole at a specified point and form a passage connecting two points.A guide is required to go to unexplored areas.</CommandDeployWormholePortalB_PilotDesc>
+<NoPilotAvailable>No guides available</NoPilotAvailable>
+<ForceLaunch>automatic deployment</ForceLaunch>
+<NotEnoughFuel>Lack of nutrients necessary for development</NotEnoughFuel>
+<MessageTransportPodsDestinationIsInvalid>Invalid objective point</MessageTransportPodsDestinationIsInvalid>
+<MessageTransportPodsDestinationIsImpassable>Target point is not passable</MessageTransportPodsDestinationIsImpassable>
+<WormholeNotLinked>This mine type has not yet developed a wormhole</WormholeNotLinked>
+<WormholeLinkLost>The end of the wormhole expanded by this mine type has been destroyed.</WormholeLinkLost>
+<WormholePortalLinked>The expansion of the mine shaft type has been completed! This allows you to quickly move from the head to the map with the end.</WormholePortalLinked>
+<WormholePortalB_Destroyed>The end of the wormhole where the mine shaft type expanded has been destroyed.</WormholePortalB_Destroyed>
+<Status>situation</Status>
+<LinkedTo>Connection destination</LinkedTo>
+<Deploying>Under development</Deploying>
 </LanguageData>

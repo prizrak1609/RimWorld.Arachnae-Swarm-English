@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ARA_HiveCorvette_Building.label>Heavenly shaman beast insect</ARA_HiveCorvette_Building.label>
-<ARA_HiveCorvette_Building.description>The Heavenly Shrine Beast Bug is a ground attack aircraft that belongs to the Arachne Bug Group fleet.It has long tentacles and powerful psychic floating ability, and can fly around the battlefield at high speed under the command of a towing species, attacking reckless enemy groups according to orders, or supporting the insect group's advance.\n\nIt cannot be effective unless it takes off!</ARA_HiveCorvette_Building.description>
+<ARA_HiveCorvette_Building.description>The Heavenly Shrine Beast Bug is a ground attack aircraft that belongs to the Arachne Bug Group fleet.It has a long antenna and powerful psychic floating ability, and can fly around the battlefield at high speed under the command of a towing species, attacking reckless enemy groups according to orders, or supporting the insect group's advance.\n\nIt cannot be effective unless it takes off!</ARA_HiveCorvette_Building.description>
 <ARA_HiveCorvette_Entity.label>Heavenly shaman beast insect</ARA_HiveCorvette_Entity.label>
 <ARA_HiveCorvette_Entity.description>Huh? This is a ThingDef to manage the number of records.It should not be displayed under normal circumstances.</ARA_HiveCorvette_Entity.description>
 <ARA_HiveCorvette_Leaving.label>Heavenly shaman beast insect (taking off)</ARA_HiveCorvette_Leaving.label>

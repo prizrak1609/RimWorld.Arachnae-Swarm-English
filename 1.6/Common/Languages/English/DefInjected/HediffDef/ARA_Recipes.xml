@@ -2,8 +2,6 @@
 <LanguageData>
 <ARA_Plasteel_Shell_Hediff.label>plasteel carapace</ARA_Plasteel_Shell_Hediff.label>
 <ARA_Plasteel_Shell_Hediff.description>By embedding plasteel directly into their shells, the Arachne insects greatly improved their defense power.</ARA_Plasteel_Shell_Hediff.description>
-<ARA_Shell_Thorn_Hediff.label>carapace spine</ARA_Shell_Thorn_Hediff.label>
-<ARA_Shell_Thorn_Hediff.description>Arachne insects have two rows of spinous tubes embedded in their shells, and when they are not in close combat, they will automatically attack enemies that approach them.</ARA_Shell_Thorn_Hediff.description>
 <ARA_Reactive_Shell_Hediff.label>reactive carapace</ARA_Reactive_Shell_Hediff.label>
 <ARA_Reactive_Shell_Hediff.description>The Arachne insect's reactive shell can negate external damage once, but after that the shell will be blown away and lose its defensive power.</ARA_Reactive_Shell_Hediff.description>
 <ARA_Gene_Essence_Shell_Hediff.label>shell proliferation</ARA_Gene_Essence_Shell_Hediff.label>

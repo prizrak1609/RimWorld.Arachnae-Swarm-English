@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ARA_CorpseConverter.InsufficientFuel>Insufficient biomass for corpse conversion</ARA_CorpseConverter.InsufficientFuel>
-<ARA_CorpseConverter.InsufficientFuelForMarking>Insufficient biomass to mark for demolition</ARA_CorpseConverter.InsufficientFuelForMarking>
-<ARA_CorpseConverter.StockpileCreated>Corpse storage area created, containing {0} cells</ARA_CorpseConverter.StockpileCreated>
-<ARA_CorpseConverter.AutoMarkEnabled>Automatic tag removal is enabled</ARA_CorpseConverter.AutoMarkEnabled>
-<ARA_CorpseConverter.AutoMarkDisabled>Automatic tag removal is disabled</ARA_CorpseConverter.AutoMarkDisabled>
-<ARA_CorpseConverter.Power>Electricity: {0}</ARA_CorpseConverter.Power>
-<ARA_CorpseConverter.Fuel>Biomass: {0}/{1}</ARA_CorpseConverter.Fuel>
-<ARA_CorpseConverter.FuelPerConversion>Biomass consumed per conversion: {0}</ARA_CorpseConverter.FuelPerConversion>
+<ARA_CorpseConverter.InsufficientFuel>Unable to convert corpse due to insufficient biomass</ARA_CorpseConverter.InsufficientFuel>
+<ARA_CorpseConverter.InsufficientFuelForMarking>Unable to mark for demolition due to lack of biomass</ARA_CorpseConverter.InsufficientFuelForMarking>
+<ARA_CorpseConverter.StockpileCreated>A corpse storage zone has been created ({0} square)</ARA_CorpseConverter.StockpileCreated>
+<ARA_CorpseConverter.AutoMarkEnabled>Automatic demolition marking is now enabled</ARA_CorpseConverter.AutoMarkEnabled>
+<ARA_CorpseConverter.AutoMarkDisabled>Automatic demolition marking has been disabled</ARA_CorpseConverter.AutoMarkDisabled>
+<ARA_CorpseConverter.Power>Power: {0}</ARA_CorpseConverter.Power>
+<ARA_CorpseConverter.Fuel>Biomass: {0} / {1}</ARA_CorpseConverter.Fuel>
+<ARA_CorpseConverter.FuelPerConversion>Biomass consumption per conversion: {0}</ARA_CorpseConverter.FuelPerConversion>
 <ARA_CorpseConverter.NoFuelComponent>Biomass component not found!</ARA_CorpseConverter.NoFuelComponent>
-<ARA_CorpseConverter.WorkingProgress>At work: {0}</ARA_CorpseConverter.WorkingProgress>
+<ARA_CorpseConverter.WorkingProgress>Operating: {0}</ARA_CorpseConverter.WorkingProgress>
 <ARA_CorpseConverter.TargetCorpse>Target corpse: {0}</ARA_CorpseConverter.TargetCorpse>
-<ARA_CorpseConverter.NextConversion>Next conversion: {0} days</ARA_CorpseConverter.NextConversion>
-<ARA_CorpseConverter.ConversionRadius>Conversion radius: {0} grid</ARA_CorpseConverter.ConversionRadius>
-<ARA_CorpseConverter.CreateStockpile>Create a body storage area</ARA_CorpseConverter.CreateStockpile>
-<ARA_CorpseConverter.CreateStockpileDesc>Create a corpse storage area within the converter range to facilitate centralizing corpses for conversion</ARA_CorpseConverter.CreateStockpileDesc>
-<ARA_CorpseConverter.ToggleAutoMark>Toggle auto-tagging</ARA_CorpseConverter.ToggleAutoMark>
-<ARA_CorpseConverter.ToggleAutoMarkDesc>Enable or disable automatic tag removal. When enabled, the device will periodically mark target buildings within range for demolition.</ARA_CorpseConverter.ToggleAutoMarkDesc>
-<DEV_TestConversion>DEV: Test Conversion</DEV_TestConversion>
-<DEV_ResetTimer>DEV: Reset Timer</DEV_ResetTimer>
-<DEV_TestMarking>DEV: Test Marking</DEV_TestMarking>
-<No_valid_corpses_found>No valid body found</No_valid_corpses_found>
-<No_valid_buildings_found>No valid building found</No_valid_buildings_found>
-<ARA_CorpseConverter_Stockpile>Corpse Transformation Area</ARA_CorpseConverter_Stockpile>
+<ARA_CorpseConverter.NextConversion>Until next conversion: {0} days</ARA_CorpseConverter.NextConversion>
+<ARA_CorpseConverter.ConversionRadius>Conversion radius: {0} squares</ARA_CorpseConverter.ConversionRadius>
+<ARA_CorpseConverter.CreateStockpile>Create corpse storage zone</ARA_CorpseConverter.CreateStockpile>
+<ARA_CorpseConverter.CreateStockpileDesc>Creates a corpse storage zone within range of the converter, allowing for intensive conversion of corpses</ARA_CorpseConverter.CreateStockpileDesc>
+<ARA_CorpseConverter.ToggleAutoMark>Automatic marking switching</ARA_CorpseConverter.ToggleAutoMark>
+<ARA_CorpseConverter.ToggleAutoMarkDesc>Enable or disable the automatic demolition marking function. When enabled, the device will periodically mark target buildings within range for demolition.</ARA_CorpseConverter.ToggleAutoMarkDesc>
+<DEV_TestConversion>DEV: Conversion test</DEV_TestConversion>
+<DEV_ResetTimer>DEV: Timer reset</DEV_ResetTimer>
+<DEV_TestMarking>DEV: Marking test</DEV_TestMarking>
+<No_valid_corpses_found>No valid corpses found</No_valid_corpses_found>
+<No_valid_buildings_found>No valid buildings found</No_valid_buildings_found>
+<ARA_CorpseConverter_Stockpile>corpse conversion zone</ARA_CorpseConverter_Stockpile>
 </LanguageData>

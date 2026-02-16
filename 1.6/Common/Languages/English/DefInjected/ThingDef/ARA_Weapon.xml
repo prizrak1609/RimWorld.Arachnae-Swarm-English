@@ -30,7 +30,7 @@
 <ARA_Bullet_Rail.label>Arachne perforation thorns</ARA_Bullet_Rail.label>
 <ARA_RW_Basic_Rail_Gun.label>Weapon organ "Broadblade Speargun"</ARA_RW_Basic_Rail_Gun.label>
 <ARA_RW_Basic_Rail_Gun.verbs.Verb_ShootWithOffset.label>Weapon organ "Broadblade Speargun"</ARA_RW_Basic_Rail_Gun.verbs.Verb_ShootWithOffset.label>
-<ARA_RW_Basic_Rail_Gun.description>It is a weapon organ of the Arachne insect group, and although its volume is not very large, the barbed spines fired by muscle compression have extremely high penetrating power and can penetrate enemy troops lined up.Furthermore, small bone blades have been added to the lower jaw, allowing it to counter close-range threats.</ARA_RW_Basic_Rail_Gun.description>
+<ARA_RW_Basic_Rail_Gun.description>It is a weapon organ of Arachne insects, and although its volume is not very large, the barbed spines fired by muscle compression have extremely high penetrating power and can penetrate enemy troops lined up.Furthermore, small bone blades have been added to the lower jaw, allowing it to counter close-range threats.</ARA_RW_Basic_Rail_Gun.description>
 <ARA_RW_Basic_Rail_Gun.tools.0.label>Slash</ARA_RW_Basic_Rail_Gun.tools.0.label>
 <ARA_RW_Basic_Acid_Bladder_Gun.label>Weapon organ "Acid Bladder Gun"</ARA_RW_Basic_Acid_Bladder_Gun.label>
 <ARA_RW_Basic_Acid_Bladder_Gun.verbs.Verb_ShootSprayMulti.label>Weapon organ "Acid Bladder Gun"</ARA_RW_Basic_Acid_Bladder_Gun.verbs.Verb_ShootSprayMulti.label>
@@ -53,14 +53,14 @@
 <Bullet_RW_Missile_AR_Gun.label>micro acid missile</Bullet_RW_Missile_AR_Gun.label>
 <ARA_RW_Basic_SkyHive_Gun.label>Weapon organ "Tenshu species' nest"</ARA_RW_Basic_SkyHive_Gun.label>
 <ARA_RW_Basic_SkyHive_Gun.verbs.Verb_ShootShotgun.label>Weapon organ "Tenshu species' nest"</ARA_RW_Basic_SkyHive_Gun.verbs.Verb_ShootShotgun.label>
-<ARA_RW_Basic_SkyHive_Gun.description>It is a long-range weapon used by Arachne insects, which impregnates a large number of Tensu seeds in its internal cavity, and the Tensu seeds are launched as missiles.These Tensu seeds continue attacking behind the enemy for a certain period of time, and continue attacking even if they are separated from the enemy.</ARA_RW_Basic_SkyHive_Gun.description>
+<ARA_RW_Basic_SkyHive_Gun.description>It is a long-range weapon used by Arachne insects, which impregnates a large number of Tensu species in its internal cavity and launches them as missiles.These Tensu species continue to attack behind the enemy for a certain period of time, and continue attacking even if they move away from the enemy.</ARA_RW_Basic_SkyHive_Gun.description>
 <Bullet_ARA_RW_Basic_SkyHive_Gun.label>Arachne Tensu species</Bullet_ARA_RW_Basic_SkyHive_Gun.label>
 <ARA_RW_Large_Arc_Gun.label>Weapon organ "Arc Breath Cannon"</ARA_RW_Large_Arc_Gun.label>
 <ARA_RW_Large_Arc_Gun.verbs.Verb_ShootBeamSplitAndChain.label>Weapon organ "Arc Breath Cannon"</ARA_RW_Large_Arc_Gun.verbs.Verb_ShootBeamSplitAndChain.label>
 <ARA_RW_Large_Arc_Gun.description>It is a large long-range weapon used by Arachne insects, which releases a conductive lightning chain that connects to a group of enemies and defeats them with electric shock.</ARA_RW_Large_Arc_Gun.description>
 <ARA_RW_Basic_Fist_Icez_Gun.label>Weapon organ "Ice spray gun"</ARA_RW_Basic_Fist_Icez_Gun.label>
 <ARA_RW_Basic_Fist_Icez_Gun.verbs.Verb_ShootBeamExplosive.label>Weapon organ "Ice spray gun"</ARA_RW_Basic_Fist_Icez_Gun.verbs.Verb_ShootBeamExplosive.label>
-<ARA_RW_Basic_Fist_Icez_Gun.description>A ranged weapon used by the Arachne Insects, this weapon fires a jet beam that can rapidly cool targets. Compared to those found in the Symbiotic Muscles, this hand-held version is more focused on controlling a specific target than on killing or injuring them.</ARA_RW_Basic_Fist_Icez_Gun.description>
+<ARA_RW_Basic_Fist_Icez_Gun.description>A ranged weapon used by Arachne Bugs, this weapon fires a jet beam that can rapidly cool targets. Compared to those found in Symbiotic Muscles, this hand-held weapon is more focused on controlling a specific target than killing or injuring it.</ARA_RW_Basic_Fist_Icez_Gun.description>
 <ARA_MW_Mimic_Niddle.label>Weapon organ "Pseudowire Poison Needle"</ARA_MW_Mimic_Niddle.label>
 <ARA_MW_Mimic_Niddle.description>It is the basic melee weapon used by Arachne nematode insects, and is connected to the limb through multiple exposed nerve bundles. This stinger contains dormant Arachne pseudonematode eggs, and attacks infect the target, eventually turning it into a parasite that can be manipulated by the pseudonematode.</ARA_MW_Mimic_Niddle.description>
 <ARA_MW_Mimic_Niddle.tools.0.label>cutting</ARA_MW_Mimic_Niddle.tools.0.label>

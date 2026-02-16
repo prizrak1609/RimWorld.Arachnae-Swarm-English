@@ -29,7 +29,7 @@ To help me fix it quickly, please include:
 
 [quote][b]Note:[/b] If the original developer of Arachnae Swarm wishes for this translation to be removed, I will do so immediately upon request.[/quote]
   </description>
-  <modVersion IgnoreIfNoMatchingField="True">1.2.3</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.3.0</modVersion>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ArachnaeQueen_Race.label>Arachne type</ArachnaeQueen_Race.label>
-<ArachnaeQueen_Race.description>The Arachne Titan is a subspecies of the Empress and belongs to the Arachne Titan Antennae. They command the most robust and adaptable main group of Arachne insects, and are responsible for maintaining the front line on the battlefield.\n\nThe Empress of the Taidan species not only has the special Titan Antenna technology, but also has a powerful shell as a layer of defense, and can attack enemies that get close to her with stomps and high melee attack power.</ArachnaeQueen_Race.description>
+<ArachnaeQueen_Race.description>Arachne titans are a subspecies of the Empress species and belong to the Arachne titan antennae. They command the most robust and adaptable main group of Arachne insects, and are responsible for maintaining the front line on the battlefield. \n\nThe Empress of the Taidan species not only has the special Titan Antenna technology, but also has a powerful shell as a layer of defense, and can attack enemies that get close to her with stomps and high melee attack power.</ArachnaeQueen_Race.description>
 <ArachnaeQueen_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</ArachnaeQueen_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
 <ArachnaeQueen_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</ArachnaeQueen_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
 <ArachnaeQueen_Race.tools.0.label>top of head</ArachnaeQueen_Race.tools.0.label>

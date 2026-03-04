@@ -9,7 +9,7 @@
 <ARA_AcidCoverd.stages.4.label>extreme</ARA_AcidCoverd.stages.4.label>
 <ARA_AcidCoverd.stages.5.label>complete</ARA_AcidCoverd.stages.5.label>
 <ARA_ToxicBuildup.label>arachne neurotoxin</ARA_ToxicBuildup.label>
-<ARA_ToxicBuildup.description>Neurotoxins from the Arachne stinger are acting on this colonist. This powerful toxin can rapidly incapacitate people, cause nausea and dizziness, and in some cases cause permanent brain damage.</ARA_ToxicBuildup.description>
+<ARA_ToxicBuildup.description>Neurotoxins from Arachne stingers are affecting these colonists. This powerful toxin can rapidly incapacitate people, cause nausea and dizziness, and in some cases cause permanent brain damage.</ARA_ToxicBuildup.description>
 <ARA_ToxicBuildup.stages.0.label>initial</ARA_ToxicBuildup.stages.0.label>
 <ARA_ToxicBuildup.stages.1.label>initial</ARA_ToxicBuildup.stages.1.label>
 <ARA_ToxicBuildup.stages.2.label>Mild</ARA_ToxicBuildup.stages.2.label>

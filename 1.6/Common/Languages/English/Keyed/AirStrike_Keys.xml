@@ -26,5 +26,15 @@
 <AddAircraftNullFaction>Attempted to add air units to the Sky faction</AddAircraftNullFaction>
 <AircraftCooldownEnded>{0} can attack again</AircraftCooldownEnded>
 <NoAircraftStatus>No insects available</NoAircraftStatus>
-<AircraftStatusLine>{0}: {1}/{2}(On cooldown: {3})</AircraftStatusLine>
+<AircraftStatusLine>{0}: {1}/{2} (on cooldown: {3})</AircraftStatusLine>
+<ARA_ToggleDropPodIntercept_Label>Predatory cruise</ARA_ToggleDropPodIntercept_Label>
+<ARA_ToggleDropPodIntercept_Desc>Switches the interception mode for enemy drop pods descending by Heavenly Shades.</ARA_ToggleDropPodIntercept_Desc>
+<ARA_InterceptDropPod_Enabled>Start a predatory cruise</ARA_InterceptDropPod_Enabled>
+<ARA_InterceptDropPod_Disabled>stop predatory cruise</ARA_InterceptDropPod_Disabled>
+<ARA_InterceptDropPod_NoAircraft>There are no Heavenly Shades of Beasts available.</ARA_InterceptDropPod_NoAircraft>
+<ARA_InterceptDropPod_Status>Predatory cruise: {0}</ARA_InterceptDropPod_Status>
+<ARA_InterceptDropPod_StatusOn>on</ARA_InterceptDropPod_StatusOn>
+<ARA_InterceptDropPod_StatusOff>off</ARA_InterceptDropPod_StatusOff>
+<ARA_InterceptDropPod_LetterLabel>Heavenly shaman species intercepts drop pod</ARA_InterceptDropPod_LetterLabel>
+<ARA_InterceptDropPod_LetterText>The Heavenly Shrine species intercepted an enemy transport pod {0} aircraft in the air. The target was shot down and crashed to the ground in the form of a drop pod.</ARA_InterceptDropPod_LetterText>
 </LanguageData>

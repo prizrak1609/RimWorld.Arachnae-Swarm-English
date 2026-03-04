@@ -53,7 +53,7 @@
 <Bullet_RW_Missile_AR_Gun.label>micro acid missile</Bullet_RW_Missile_AR_Gun.label>
 <ARA_RW_Basic_SkyHive_Gun.label>Weapon organ "Tenshu species' nest"</ARA_RW_Basic_SkyHive_Gun.label>
 <ARA_RW_Basic_SkyHive_Gun.verbs.Verb_ShootShotgun.label>Weapon organ "Tenshu species' nest"</ARA_RW_Basic_SkyHive_Gun.verbs.Verb_ShootShotgun.label>
-<ARA_RW_Basic_SkyHive_Gun.description>It is a long-range weapon used by Arachne insects, which impregnates a large number of Tensu species in its internal cavity and launches them as missiles.These Tensu species continue to attack behind the enemy for a certain period of time, and continue attacking even if they move away from the enemy.</ARA_RW_Basic_SkyHive_Gun.description>
+<ARA_RW_Basic_SkyHive_Gun.description>It is a long-range weapon used by Arachne insects, which impregnates a large number of Tensu seeds in its internal cavity, and the Tensu seeds are launched as missiles.These Tensu seeds continue attacking behind the enemy for a certain period of time, and continue attacking even if they are separated from the enemy.</ARA_RW_Basic_SkyHive_Gun.description>
 <Bullet_ARA_RW_Basic_SkyHive_Gun.label>Arachne Tensu species</Bullet_ARA_RW_Basic_SkyHive_Gun.label>
 <ARA_RW_Large_Arc_Gun.label>Weapon organ "Arc Breath Cannon"</ARA_RW_Large_Arc_Gun.label>
 <ARA_RW_Large_Arc_Gun.verbs.Verb_ShootBeamSplitAndChain.label>Weapon organ "Arc Breath Cannon"</ARA_RW_Large_Arc_Gun.verbs.Verb_ShootBeamSplitAndChain.label>

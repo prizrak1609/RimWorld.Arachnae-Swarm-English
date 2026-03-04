@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <ARA_Neurotyrant_Harvest.label>Evolution point harvest</ARA_Neurotyrant_Harvest.label>
-<ARA_Neurotyrant_Harvest.description>The spirit absorber drains the target's intelligence and converts it into evolution points. Absorption takes a short amount of time, but the target dies instantly.</ARA_Neurotyrant_Harvest.description>
+<ARA_Neurotyrant_Harvest.description>The spirit absorber drains the target's intelligence and converts it into evolution points. Absorption takes a short amount of time, but the target dies immediately.</ARA_Neurotyrant_Harvest.description>
 <ARA_Neurotyrant_PsychicLoadDump.label>load recoil</ARA_Neurotyrant_PsychicLoadDump.label>
 <ARA_Neurotyrant_PsychicLoadDump.description>It forces the enormous load that the spirit absorbing species is subjected to onto the target. If the target does not have psychic abilities, this recoil will cause instant death. Individuals with psychic abilities will be able to avoid the fatal impact, but will accumulate a large amount of psychic entropy.</ARA_Neurotyrant_PsychicLoadDump.description>
 <ARA_Neurotyrant_T1_PsyShoot.label>rhino shot</ARA_Neurotyrant_T1_PsyShoot.label>

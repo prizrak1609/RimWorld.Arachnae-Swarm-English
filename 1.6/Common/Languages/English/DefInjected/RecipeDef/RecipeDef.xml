@@ -1,0 +1,98 @@
+﻿<LanguageData>
+  <ARA_CureAcid.description>Arachnid Swarm can use healing essence to remove the neurotoxin effects of Arachne, allowing prey to return to normal.</ARA_CureAcid.description>
+  <ARA_CureAcid.jobString>Remove Neurotoxin.</ARA_CureAcid.jobString>
+  <ARA_CureAcid.label>Remove Neurotoxin</ARA_CureAcid.label>
+  <ARA_CureAcid.successfullyRemovedHediffMessage>Successfully removed {1}'s acid in the body of {0}.</ARA_CureAcid.successfullyRemovedHediffMessage>
+  <ARA_CureBloodRot.description>By combining multiple drugs with targeted therapy, the patient's body is cleared of Alakne Nekel parasite infections. This surgery is extremely complex and can only be performed using medicine from Shining World.</ARA_CureBloodRot.description>
+  <ARA_CureBloodRot.jobString>Cure Blood Rot.</ARA_CureBloodRot.jobString>
+  <ARA_CureBloodRot.label>Cure Blood Rot label</ARA_CureBloodRot.label>
+  <ARA_CureBloodRot.successfullyRemovedHediffMessage>Successfully removed the {1} from {0}'s body.</ARA_CureBloodRot.successfullyRemovedHediffMessage>
+  <ARA_Surgery_Install_Baneling_Pouch.description>Trigger an Arachne mutation to induce the formation of a Baneling pouch containing three pre-maturely spawned Arachne Bombs. Once released, they will attack enemy units in a suicide strike.</ARA_Surgery_Install_Baneling_Pouch.description>
+  <ARA_Surgery_Install_Baneling_Pouch.jobString>Performing targeted mutation</ARA_Surgery_Install_Baneling_Pouch.jobString>
+  <ARA_Surgery_Install_Baneling_Pouch.label>Explosive Pod</ARA_Surgery_Install_Baneling_Pouch.label>
+  <ARA_Surgery_Install_Carapace_Shell.description>Use chitin to thicken the carapace of an arachnids, gaining additional defense.</ARA_Surgery_Install_Carapace_Shell.description>
+  <ARA_Surgery_Install_Carapace_Shell.jobString>Performing targeted mutation</ARA_Surgery_Install_Carapace_Shell.jobString>
+  <ARA_Surgery_Install_Carapace_Shell.label>Carapace Shell</ARA_Surgery_Install_Carapace_Shell.label>
+  <ARA_Surgery_Install_Cycle_Suppression.description>Triggering an Alaknean mutation to make it immune to its lifespan limitation, allowing it to live longer. However, injecting a life cycle suppression agent will cause the tribe to lose their self-healing ability.</ARA_Surgery_Install_Cycle_Suppression.description>
+  <ARA_Surgery_Install_Cycle_Suppression.jobString>Performing targeted mutation</ARA_Surgery_Install_Cycle_Suppression.jobString>
+  <ARA_Surgery_Install_Cycle_Suppression.label>Lifecycle Suppression</ARA_Surgery_Install_Cycle_Suppression.label>
+  <ARA_Surgery_Install_Huge_Stomach.description>Trigger an Alaknean mutation to increase the size of its storage stomach, allowing it to store more food.</ARA_Surgery_Install_Huge_Stomach.description>
+  <ARA_Surgery_Install_Huge_Stomach.jobString>Performing targeted mutation</ARA_Surgery_Install_Huge_Stomach.jobString>
+  <ARA_Surgery_Install_Huge_Stomach.label>Extra Stomach Bag</ARA_Surgery_Install_Huge_Stomach.label>
+  <ARA_Surgery_Install_Internal_Circulation_Lung.description>Triggering an Alaknean mutation that allows its lungs to perform self-circulation, almost immune to vacuum invasion.</ARA_Surgery_Install_Internal_Circulation_Lung.description>
+  <ARA_Surgery_Install_Internal_Circulation_Lung.jobString>Performing targeted mutation</ARA_Surgery_Install_Internal_Circulation_Lung.jobString>
+  <ARA_Surgery_Install_Internal_Circulation_Lung.label>Internal Lung</ARA_Surgery_Install_Internal_Circulation_Lung.label>
+  <ARA_Surgery_Install_Plasteel.description>To implant glass steel in Arkeenoids' exoskeletons. As the chitin continues to grow, these glass steels will be covered by the exoskeletons, forming a more robust outer shell and enhancing their defense capabilities.</ARA_Surgery_Install_Plasteel.description>
+  <ARA_Surgery_Install_Plasteel.jobString>Performing targeted mutation</ARA_Surgery_Install_Plasteel.jobString>
+  <ARA_Surgery_Install_Plasteel.label>Glass Steel Plating Installation</ARA_Surgery_Install_Plasteel.label>
+  <ARA_Surgery_Install_Reactive_Shell.description>For the Arachne species' exoskeleton, install a special reactive exoskeleton. It is one-time-use and will deploy to deflect incoming damage before it reaches the body.</ARA_Surgery_Install_Reactive_Shell.description>
+  <ARA_Surgery_Install_Reactive_Shell.jobString>Implementing Reactive Shell Surgery</ARA_Surgery_Install_Reactive_Shell.jobString>
+  <ARA_Surgery_Install_Reactive_Shell.label>Reaction Shell Installation</ARA_Surgery_Install_Reactive_Shell.label>
+  <ARA_Surgery_Install_Shell_Thorn.description>For the Arachne insectoid's exoskeleton, two rows of spiny ducts are implanted. These semi-autonomous organs automatically fire spines at nearby enemies. Additionally, this mutation also thickens the exoskeleton for better defense.</ARA_Surgery_Install_Shell_Thorn.description>
+  <ARA_Surgery_Install_Shell_Thorn.jobString>Performing targeted mutation</ARA_Surgery_Install_Shell_Thorn.jobString>
+  <ARA_Surgery_Install_Shell_Thorn.label>Shell Thorn Surgery Installation</ARA_Surgery_Install_Shell_Thorn.label>
+  <ARA_Surgery_Install_Slide_Patagium.description>To implant the patagium on Arachne's legs, allowing the species to move quickly across the mycelium.</ARA_Surgery_Install_Slide_Patagium.description>
+  <ARA_Surgery_Install_Slide_Patagium.jobString>Performing targeted mutation</ARA_Surgery_Install_Slide_Patagium.jobString>
+  <ARA_Surgery_Install_Slide_Patagium.label>Slide Patagium Installation</ARA_Surgery_Install_Slide_Patagium.label>
+  <ARA_Surgery_Install_Strengthening_Tendon.description>To strengthen the tendons of Arkeenoids' legs, allowing them to move faster and gain short-distance jumping ability.</ARA_Surgery_Install_Strengthening_Tendon.description>
+  <ARA_Surgery_Install_Strengthening_Tendon.jobString>Performing targeted mutation</ARA_Surgery_Install_Strengthening_Tendon.jobString>
+  <ARA_Surgery_Install_Strengthening_Tendon.label>Strengthen Tendon Implant</ARA_Surgery_Install_Strengthening_Tendon.label>
+  <ARA_Surgery_Install_Tumor_Pouch.description>Trigger an Alakne infection-induced directional mutation, causing the worm to store a pre-stored mycelium pouch in its cocoon. Once released, it will convert a large area of terrain into a fungal carpet.</ARA_Surgery_Install_Tumor_Pouch.description>
+  <ARA_Surgery_Install_Tumor_Pouch.jobString>Performing targeted mutation</ARA_Surgery_Install_Tumor_Pouch.jobString>
+  <ARA_Surgery_Install_Tumor_Pouch.label>Tumor Pouch</ARA_Surgery_Install_Tumor_Pouch.label>
+  <ARA_TrainAnimals.description>Train animals according to the selected skill level, with no cost and no output. You just gain experience for working.
+
+Skill training is a 'Basic' type of work. If you don't want your swarm to keep training, lower the priority of this type of work.</ARA_TrainAnimals.description>
+  <ARA_TrainAnimals.jobString>Training skill.</ARA_TrainAnimals.jobString>
+  <ARA_TrainAnimals.label>Skill Training (Domestication)</ARA_TrainAnimals.label>
+  <ARA_TrainArtistic.description>Train Artistic Skills according to your chosen skill. No cost, no output, just experience points for working.
+
+Skill training is a 'Basic' type of work; if you don't want the swarm to keep training it, lower its priority for this type of work.</ARA_TrainArtistic.description>
+  <ARA_TrainArtistic.jobString>Training skill.</ARA_TrainArtistic.jobString>
+  <ARA_TrainArtistic.label>Skill Training (Art)</ARA_TrainArtistic.label>
+  <ARA_TrainConstruction.description>Train according to your selected skill level, with no cost and producing nothing. You just gain experience points for working.
+
+Skill training is a 'Basic' type of work. If you don't want the swarm to keep training, lower the priority of this type of work.</ARA_TrainConstruction.description>
+  <ARA_TrainConstruction.jobString>Training skill.</ARA_TrainConstruction.jobString>
+  <ARA_TrainConstruction.label>Skill Training (Construction)</ARA_TrainConstruction.label>
+  <ARA_TrainCooking.description>Train according to the chosen skill level, no cost and produces nothing, just gains experience points for work.
+
+Skill training is a 'Basic' type of work. If you don't want your swarm to keep training it, lower its priority for this type of work.</ARA_TrainCooking.description>
+  <ARA_TrainCooking.jobString>Training skill.</ARA_TrainCooking.jobString>
+  <ARA_TrainCooking.label>Skill Training (Cooking)</ARA_TrainCooking.label>
+  <ARA_TrainCrafting.description>Train the selected skill to level up without cost or reward. This work is of basic type and does not produce anything, only granting experience points.
+
+Skill training belongs to 'Basic' category works; if you don't want your swarm to train it constantly, lower its priority.</ARA_TrainCrafting.description>
+  <ARA_TrainCrafting.jobString>Training skill.</ARA_TrainCrafting.jobString>
+  <ARA_TrainCrafting.label>Skill Training (Handmade)</ARA_TrainCrafting.label>
+  <ARA_TrainMedicine.description>Train Medicine according to the selected skill level, no cost and produces nothing, just gains experience points for work.
+
+Skill training is a 'Basic' type of work. If you don't want your swarm to keep training it, lower its priority for this type of work.</ARA_TrainMedicine.description>
+  <ARA_TrainMedicine.jobString>Training skill.</ARA_TrainMedicine.jobString>
+  <ARA_TrainMedicine.label>Skill Training (Medical)</ARA_TrainMedicine.label>
+  <ARA_TrainMelee.description>Train melee skills based on your selection. No cost, no output - just experience points for working.
+
+Melee skill training is a 'Basic' type of work. If you don't want the swarm to keep training it, lower its priority.</ARA_TrainMelee.description>
+  <ARA_TrainMelee.jobString>Training skill string.</ARA_TrainMelee.jobString>
+  <ARA_TrainMelee.label>Skill Training (Close Combat)</ARA_TrainMelee.label>
+  <ARA_TrainMining.description>Train according to your chosen skill level. No cost, no output - just experience points for working.
+
+Skill training is a 'Basic' type of work. If you don't want the swarm to keep training it, lower its priority for this type of work.</ARA_TrainMining.description>
+  <ARA_TrainMining.jobString>Training skill.</ARA_TrainMining.jobString>
+  <ARA_TrainMining.label>Skill Training (Mining)</ARA_TrainMining.label>
+  <ARA_TrainPlants.description>Train the selected skill to level up, with no cost and no output. You just gain experience for working.
+
+Skill training is a 'Basic' type of work. If you don't want your swarm to keep training it, lower its priority.</ARA_TrainPlants.description>
+  <ARA_TrainPlants.jobString>Training skill.</ARA_TrainPlants.jobString>
+  <ARA_TrainPlants.label>Skill Training (Gardening)</ARA_TrainPlants.label>
+  <ARA_TrainShooting.description>Train according to the selected skill level, no cost or production, just experience points for work.
+
+Skill training is a 'Basic' type of work. If you don't want your swarm to keep training, lower the priority of this type of work.</ARA_TrainShooting.description>
+  <ARA_TrainShooting.jobString>Training skill.</ARA_TrainShooting.jobString>
+  <ARA_TrainShooting.label>Skill Training (Shooting)</ARA_TrainShooting.label>
+  <ARA_TrainSocial.description>Train according to the selected skill level, no cost and produces nothing, just gains experience points for work.
+
+Skill training is a 'Basic' type of work. If you don't want your swarm to keep training, lower the priority of this type of work.</ARA_TrainSocial.description>
+  <ARA_TrainSocial.jobString>Training skill.</ARA_TrainSocial.jobString>
+  <ARA_TrainSocial.label>Skill Training (Social)</ARA_TrainSocial.label>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_Huge_Weapon_Category.label>large armed organs</ARA_Huge_Weapon_Category.label>
+  <ARA_Huge_Weapon_Category.description>This kind of armed organ is quite huge, and only those large Arachnids (size greater than 2.0) can use this weapon.</ARA_Huge_Weapon_Category.description>
+  <ARA_Weapon_Damage_Category.label>Special weapons</ARA_Weapon_Damage_Category.label>
+  <ARA_Weapon_Damage_Category.description>In addition to causing regular damage, this armed organ can also cause other effects.</ARA_Weapon_Damage_Category.description>
+</LanguageData>

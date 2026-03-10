@@ -1,0 +1,14 @@
+﻿<LanguageData>
+  <ARA_Incubator_Nutrient_Solution.description>Arkanian Incubator Nutrient Solution description:
+
+The egg and cocoon both require this nutrient-rich liquid to maintain the progress of incubation.</ARA_Incubator_Nutrient_Solution.description>
+  <ARA_Incubator_Nutrient_Solution.label>Arkan Nutrient Solution</ARA_Incubator_Nutrient_Solution.label>
+  <ARA_Incubator_Nutrient_Solution.tools.water.label>water</ARA_Incubator_Nutrient_Solution.tools.water.label>
+  <ARA_InsectCreep.description>Arkan insect tribe has laid out a floor made of fungus and exoskeleton secretions, which spreads automatically near all Arkan structures. This peculiar structure material is tightly packed with many nutrient transport organizations that can support heavy buildings, grow crops, accelerate the movement speed of Arkan insects, but no one else wants to step on this squishy living structure.</ARA_InsectCreep.description>
+  <ARA_InsectCreep.label>Arachnid Carpet</ARA_InsectCreep.label>
+  <ARA_InsectCreepFloor.description>By the Arakne insects, this floor is made of a mixture of fungal spores and exoskeleton secretions. It behaves similarly to an Arakne mycelium mat but can spread over supporting structures as a base for their reverse ship landing pad.</ARA_InsectCreepFloor.description>
+  <ARA_InsectCreepFloor.label>Arkanite Stronghold Floor</ARA_InsectCreepFloor.label>
+  <ARA_InsectCreepTile.description>Arkan insects mix steel and chitin in their fungal terrain floor tiles, which are much more intricate than plain fungal tiles. They're easy to clean and don't leak sticky fluids. The only downside is that they lose fertility compared to other fungal tiles from the insect tribe.</ARA_InsectCreepTile.description>
+  <ARA_InsectCreepTile.label>Arachnid Carpet Brick</ARA_InsectCreepTile.label>
+  <ARA_InsectJelly_Terrain.label>Arachnid Jelly</ARA_InsectJelly_Terrain.label>
+</LanguageData>

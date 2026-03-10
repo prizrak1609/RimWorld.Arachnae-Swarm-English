@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_HiveMindMaster.label>Queen Arachne</ARA_HiveMindMaster.label>
+  <ARA_HiveMindMaster.description>The Queen of Arachne is the central node of the insect hive, ruling the Arachne insect race as the mastermind of the group.</ARA_HiveMindMaster.description>
+  <ARA_HiveMindDrone.label>Arachneid</ARA_HiveMindDrone.label>
+  <ARA_HiveMindDrone.description>The Arachneid is linked to the Arachne Empress species through the mind. If the queen dies, the insect will also cease life activities.</ARA_HiveMindDrone.description>
+  <ARA_HiveMindDrone.stages.0.label>Not connected</ARA_HiveMindDrone.stages.0.label>
+  <ARA_HiveMindDrone.stages.1.label>Resetting</ARA_HiveMindDrone.stages.1.label>
+  <ARA_HiveMindDrone.stages.2.label>Connected</ARA_HiveMindDrone.stages.2.label>
+  <ARA_GestaltOverseer.label>Node supervision</ARA_GestaltOverseer.label>
+  <ARA_GestaltNetworkOverload.label>Network overload</ARA_GestaltNetworkOverload.label>
+  <ARA_GestaltNetworkOverload.description>Mental stress caused by overloading the Gestalt network, which weakens Queen Arachne's overall abilities and increases the risk of network collapse.</ARA_GestaltNetworkOverload.description>
+  <ARA_NonPlayer_HiveMindDroneHediff.label>feral swarm</ARA_NonPlayer_HiveMindDroneHediff.label>
+  <ARA_NonPlayer_HiveMindDroneHediff.description>Overlords disconnected from the hive mind of the Arachne Swarm will only act like beasts.</ARA_NonPlayer_HiveMindDroneHediff.description>
+  <ARA_HiveMindWorker.label>Arachne</ARA_HiveMindWorker.label>
+  <ARA_HiveMindWorker.description>Arachne is linked to the Arachneid species through the mind. If the worm dies, the auxiliary worm will also stop life activities.</ARA_HiveMindWorker.description>
+  <ARA_HiveMindBeast.label>Arachne</ARA_HiveMindBeast.label>
+  <ARA_HiveMindBeast.description>The Arachne Beast Bug is a more primitive life form than other Arachne Bugs. It has a simple mind and well-developed limbs, but it does not follow the pyramid thinking of the hive. Any Overlord and Queen in the hive can command them.</ARA_HiveMindBeast.description>
+  <ARA_HiveMindBeast.stages.0.label>Not connected</ARA_HiveMindBeast.stages.0.label>
+  <ARA_HiveMindBeast.stages.1.label>Resetting</ARA_HiveMindBeast.stages.1.label>
+  <ARA_HiveMindBeast.stages.2.label>Connected</ARA_HiveMindBeast.stages.2.label>
+  <ARA_HiveStrength_Pluse.label>Insect swarm alien blood</ARA_HiveStrength_Pluse.label>
+  <ARA_HiveStrength_Pluse.description>The repair cells of this Arachne Zerg are beyond common sense, and it is almost impossible to kill it no matter how serious the injury is. In addition, this powerful cell also confers protection against acid corrosion and arachnid acid.</ARA_HiveStrength_Pluse.description>
+  <ARA_HiveStrength.label>Swarm Vitality</ARA_HiveStrength.label>
+  <ARA_HiveStrength.description>The repair cells of this Arachne Zerg are unique. They can automatically heal injuries at a very fast speed and even regenerate some lost organs. In addition, this powerful cell also confers protection against acid corrosion and arachnid acid.</ARA_HiveStrength.description>
+  <ARA_HiveStrength_Low.label>The swarm is strong</ARA_HiveStrength_Low.label>
+  <ARA_HiveStrength_Low.description>The Arachne Zerg's ability to repair injuries is quite powerful, and they can quickly recover from various fatal blows. In addition, this powerful cell also confers protection against acid corrosion and arachnid acid.</ARA_HiveStrength_Low.description>
+  <ARA_LifespanHediff.label>life record</ARA_LifespanHediff.label>
+  <ARA_LifespanHediff.description>The Arachne Zerg's hediff records lifespan. Normally you shouldn't see this.</ARA_LifespanHediff.description>
+  <ARA_TemperatureRegulation.label>cold blooded animals</ARA_TemperatureRegulation.label>
+  <ARA_TemperatureRegulation.description>The Arachne Zerg are cold-blooded animals, which means they are more sensitive to changes in external temperature - they will become agile and deadly under suitable temperatures, but they will be unable to move under uncomfortable temperatures. \n\n此类阿拉克涅虫族可以接受在6~36°C的温度下活动，温度接近21°C时会获得额外的意识加成。</ARA_TemperatureRegulation.description>
+  <ARA_TemperatureRegulation.stages.0.label>discomfort</ARA_TemperatureRegulation.stages.0.label>
+  <ARA_TemperatureRegulation.stages.1.label>adapt</ARA_TemperatureRegulation.stages.1.label>
+  <ARA_TemperatureRegulation.stages.2.label>Comfortable</ARA_TemperatureRegulation.stages.2.label>
+  <ARA_RaceBaseSwarmProduceSwitchHediff.label>breeding inhibition</ARA_RaceBaseSwarmProduceSwitchHediff.label>
+  <ARA_RaceBaseSwarmProduceSwitchHediff.description>This Arachnidok has been banned from the breeding of auxiliaries by the hive mind.</ARA_RaceBaseSwarmProduceSwitchHediff.description>
+  <ARA_Hive_Cannot_Speak.label>Can't speak</ARA_Hive_Cannot_Speak.label>
+  <ARA_Hive_Cannot_Speak.description>Well, actually Chongchong can't speak, you should know this, right?</ARA_Hive_Cannot_Speak.description>
+  <ARA_ChitinArmor.label>Carapace Armor</ARA_ChitinArmor.label>
+  <ARA_ChitinArmor.description>The carapace on the Arachne Zerg can provide protection for the Arachne Zerg depending on its thickness.</ARA_ChitinArmor.description>
+  <ARA_ChitinArmor.stages.0.label>Extremely thin</ARA_ChitinArmor.stages.0.label>
+  <ARA_ChitinArmor.stages.1.label>Thin</ARA_ChitinArmor.stages.1.label>
+  <ARA_ChitinArmor.stages.2.label>Moderate</ARA_ChitinArmor.stages.2.label>
+  <ARA_ChitinArmor.stages.3.label>thicker</ARA_ChitinArmor.stages.3.label>
+  <ARA_ChitinArmor.stages.4.label>thick</ARA_ChitinArmor.stages.4.label>
+  <ARA_ChitinArmor.stages.5.label>Extremely thick</ARA_ChitinArmor.stages.5.label>
+  <ARA_ChitinArmor.stages.6.label>solid as a rock</ARA_ChitinArmor.stages.6.label>
+  <ARA_ChitinArmor.stages.7.label>indestructible</ARA_ChitinArmor.stages.7.label>
+  <ARA_Scavenger_Production_InsectJelly.label>Insect honey chamber</ARA_Scavenger_Production_InsectJelly.label>
+  <ARA_Scavenger_Production_InsectJelly.description>This Arachne scavenger is producing insect honey to nourish the insect colony.</ARA_Scavenger_Production_InsectJelly.description>
+  <ARA_Baneling_Acidbomb_Resist.label>alkaline epidermis</ARA_Baneling_Acidbomb_Resist.label>
+  <ARA_Baneling_Acidbomb_Resist.description>Arachne Burst's skin is covered with an alkaline substance. To resist the acid erupted by other Arachne Explosive species when they die, to avoid chain explosions.</ARA_Baneling_Acidbomb_Resist.description>
+</LanguageData>

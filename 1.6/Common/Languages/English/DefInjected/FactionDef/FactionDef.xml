@@ -1,0 +1,16 @@
+﻿<LanguageData>
+  <ARA_Hostile_Hive.description>The ARA Hive Fleet that invaded the Shining World was defeated by the Shining World Alliance, leaving behind individual swarm individuals in the star system. These swarm individuals are unable to connect with the hive network and have formed a disorganized network of low intelligence, only allowing their members to act like wild animals—yet they remain dangerous enemies, retaining their genetic reflexes from countless battles against many foes.
+
+They show no mercy to anyone, even if their opponent is one of their own.</ARA_Hostile_Hive.description>
+  <ARA_Hostile_Hive.label>Arachne's Hive label</ARA_Hostile_Hive.label>
+  <ARA_Hostile_Hive.leaderTitle>Leader</ARA_Hostile_Hive.leaderTitle>
+  <ARA_Hostile_Hive.messageDefendersAttacking>{0} from {1} are attacking your {2}.</ARA_Hostile_Hive.messageDefendersAttacking>
+  <ARA_Hostile_Hive.pawnSingular>Hive</ARA_Hostile_Hive.pawnSingular>
+  <ARA_Hostile_Hive.pawnsPlural>Hive</ARA_Hostile_Hive.pawnsPlural>
+  <ARA_New_Hive.description>A new Alakne insect hive.</ARA_New_Hive.description>
+  <ARA_New_Hive.label>Aranea Hive</ARA_New_Hive.label>
+  <ARA_New_Hive.leaderTitle>Leader</ARA_New_Hive.leaderTitle>
+  <ARA_New_Hive.messageDefendersAttacking>{0} from {1} are attacking your {2}.</ARA_New_Hive.messageDefendersAttacking>
+  <ARA_New_Hive.pawnSingular>colonist</ARA_New_Hive.pawnSingular>
+  <ARA_New_Hive.pawnsPlural>colonists</ARA_New_Hive.pawnsPlural>
+</LanguageData>

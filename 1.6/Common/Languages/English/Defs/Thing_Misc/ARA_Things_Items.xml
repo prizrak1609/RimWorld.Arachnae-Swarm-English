@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_InsectJelly.label>Arachne Honey</ARA_InsectJelly.label>
+  <ARA_InsectJelly.description>Jelly, stored and used as food by the Arachne, is the only food for most Arachne. It's smooth, rich, never rancid, and keeps the eater entertained. Due to its unique biological properties, non-Arachne species can also eat this food without causing food poisoning.</ARA_InsectJelly.description>
+  <ARA_NutrientPasteMeal.label>Arachne crystal cake</ARA_NutrientPasteMeal.label>
+  <ARA_NutrientPasteMeal.description>A sticky "pastry" synthesized from insect honey, mixed with pheromones that make the insect active, not only helps the insect nest resist the influence of the harsh environment, but its unique flavor is also loved by humans.</ARA_NutrientPasteMeal.description>
+  <ARA_Carapace.label>Chitin</ARA_Carapace.label>
+  <ARA_Carapace.description>Chitin stripped from the bodies of some Arachne bugs with thick shells is light but not very durable, and is a material with many uses in the bug hive.</ARA_Carapace.description>
+  <ARA_Activated_Bacterium.label>Activated bacteria</ARA_Activated_Bacterium.label>
+  <ARA_Activated_Bacterium.description>A colony of extremophiles domesticated and modified by the Arachne zerg. It has super biocatalytic ability and corrosion assimilation ability, and is a necessity for many advanced Zerg equipment.</ARA_Activated_Bacterium.description>
+  <ARA_Gene_Essence.label>Essence</ARA_Gene_Essence.label>
+  <ARA_Gene_Essence.description>The alien genetic material preserved in the body by a small auxiliary insect - the essence of Arachne - is very fragile and is usually obtained from captives through the essence extraction cavity. It is one of the important resources of the Arachne insect swarm.</ARA_Gene_Essence.description>
+</LanguageData>

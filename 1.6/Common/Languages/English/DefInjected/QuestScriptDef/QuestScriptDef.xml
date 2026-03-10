@@ -1,0 +1,9 @@
+﻿<LanguageData>
+  <ARA_Loop_Raid_Quest.description>Bug Swarm Raid description</ARA_Loop_Raid_Quest.description>
+  <ARA_Loop_Raid_Quest.label>Bug Swarm Attack</ARA_Loop_Raid_Quest.label>
+  <ARA_Loop_Raid_Quest.root.nodes.ResolveQuestDescription.rules.slateRef>&lt;rulesStrings&gt;&lt;li&gt;questDescription -&gt; Bug Swarm questDescription&lt;/li&gt;&lt;/rulesStrings&gt;</ARA_Loop_Raid_Quest.root.nodes.ResolveQuestDescription.rules.slateRef>
+  <ARA_Loop_Raid_Quest.root.nodes.ResolveQuestName.rules.slateRef>&lt;rulesStrings&gt;&lt;li&gt;questName=&amp;gt;Bug Swarm Attack&lt;/li&gt;&lt;/rulesStrings&gt;</ARA_Loop_Raid_Quest.root.nodes.ResolveQuestName.rules.slateRef>
+  <ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterLabel.slateRef>Bug Swarm Label</ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterLabel.slateRef>
+  <ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterText.slateRef>Bug Swarm Attack Text</ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterText.slateRef>
+  <ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterTitle.slateRef>Bug Swarm Attack Title</ARA_Loop_Raid_Quest.root.nodes.Root_EventLetter.letterTitle.slateRef>
+</LanguageData>

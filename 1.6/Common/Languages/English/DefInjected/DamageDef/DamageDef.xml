@@ -1,0 +1,28 @@
+﻿<LanguageData>
+  <ARA_AcidBomb.deathMessage>{0} has died in an explosion.</ARA_AcidBomb.deathMessage>
+  <ARA_AcidBomb.label>Acid Bomb Label</ARA_AcidBomb.label>
+  <ARA_AcidBurn.deathMessage>{0} has burned to death.</ARA_AcidBurn.deathMessage>
+  <ARA_AcidBurn.label>Acid Burn</ARA_AcidBurn.label>
+  <ARA_AcidCut_Damage.deathMessage>{0} was killed by the acid spewing from a giant jaw.</ARA_AcidCut_Damage.deathMessage>
+  <ARA_AcidCut_Damage.label>Acidic Mutilation</ARA_AcidCut_Damage.label>
+  <ARA_Beam.deathMessage>{0} has been beamed to death.</ARA_Beam.deathMessage>
+  <ARA_Beam.label>Bioenergy Beam</ARA_Beam.label>
+  <ARA_CreepBomb.deathMessage>{0} has died in an explosion.</ARA_CreepBomb.deathMessage>
+  <ARA_CreepBomb.label>Creep Bomb Label</ARA_CreepBomb.label>
+  <ARA_Damage_Freeze.deathMessage>{0}'s body turns to ice sculpture and shatters into pieces.</ARA_Damage_Freeze.deathMessage>
+  <ARA_Damage_Freeze.label>Freeze</ARA_Damage_Freeze.label>
+  <ARA_Damage_Freeze_ex.deathMessage>{0}'s body turns to ice sculpture and shatters into pieces.</ARA_Damage_Freeze_ex.deathMessage>
+  <ARA_Damage_Freeze_ex.label>Freeze</ARA_Damage_Freeze_ex.label>
+  <ARA_Fist_Needle.deathMessage>{0} has been shot to death.</ARA_Fist_Needle.deathMessage>
+  <ARA_Fist_Needle.label>Stinger Poison</ARA_Fist_Needle.label>
+  <ARA_MimicNematodeBite.deathMessage>{0} has been bitten to death.</ARA_MimicNematodeBite.deathMessage>
+  <ARA_MimicNematodeBite.label>bite</ARA_MimicNematodeBite.label>
+  <ARA_Psi_Damage.deathMessage>{0} was killed by an energy lightning.</ARA_Psi_Damage.deathMessage>
+  <ARA_Psi_Damage.label>Energy Lightning</ARA_Psi_Damage.label>
+  <ARA_ReinforceGas.deathMessage>{0} suffocated to death.</ARA_ReinforceGas.deathMessage>
+  <ARA_ReinforceGas.label>Pheromone Smoke</ARA_ReinforceGas.label>
+  <ARA_SkyhiveBite.deathMessage>{0} has been bitten to death.</ARA_SkyhiveBite.deathMessage>
+  <ARA_SkyhiveBite.label>Sky Hive Bite label</ARA_SkyhiveBite.label>
+  <ARA_Whip_Damage.deathMessage>{0} was killed by the whip.</ARA_Whip_Damage.deathMessage>
+  <ARA_Whip_Damage.label>Whip Damage</ARA_Whip_Damage.label>
+</LanguageData>

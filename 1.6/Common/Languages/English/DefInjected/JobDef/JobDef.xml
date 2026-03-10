@@ -1,0 +1,20 @@
+﻿<LanguageData>
+  <ARA_AddProcessToQueueJob.reportString>Adding item to be processed to the queue.</ARA_AddProcessToQueueJob.reportString>
+  <ARA_AddToQueueJob.reportString>Adding a bug spawner job to the queue.</ARA_AddToQueueJob.reportString>
+  <ARA_CarryPrisonerToNutrientVat.reportString>Take Target A to Target B.</ARA_CarryPrisonerToNutrientVat.reportString>
+  <ARA_CarryPrisonerToRefuelingVat.reportString>Take Target A to Target B.</ARA_CarryPrisonerToRefuelingVat.reportString>
+  <ARA_DeployWormhole.reportString>Deploying wormhole.</ARA_DeployWormhole.reportString>
+  <ARA_EnterPowerArmor.reportString>entering Target A</ARA_EnterPowerArmor.reportString>
+  <ARA_ExtractHoney.reportString>Extracting honey.</ARA_ExtractHoney.reportString>
+  <ARA_FeedWithHoney.reportString>Feeding Target A.</ARA_FeedWithHoney.reportString>
+  <ARA_IncubateJob.reportString>Inject information for Target A.</ARA_IncubateJob.reportString>
+  <ARA_Job_Launch_Proj.reportString>Spewing flames.</ARA_Job_Launch_Proj.reportString>
+  <ARA_OperateEquipmentIncubator.reportString>Activate Alacrane Cocoon.</ARA_OperateEquipmentIncubator.reportString>
+  <ARA_OperateIncubator.reportString>Enter the Alakne incubator.</ARA_OperateIncubator.reportString>
+  <ARA_Refuel_Nutrition.reportString>Fueling for Target A.</ARA_Refuel_Nutrition.reportString>
+  <ARA_StartInteractiveProduction.reportString>Starting up the simulation for Target A.</ARA_StartInteractiveProduction.reportString>
+  <ARA_StartResearchProduction.reportString>Starting research on target A.</ARA_StartResearchProduction.reportString>
+  <ARA_StripChitin.reportString>Currently stripping chitin</ARA_StripChitin.reportString>
+  <ARA_SwarmMaintain.reportString>Maintaining Target A.</ARA_SwarmMaintain.reportString>
+  <SuperCarry.reportString>Currently carrying Super Carry Target A.</SuperCarry.reportString>
+</LanguageData>

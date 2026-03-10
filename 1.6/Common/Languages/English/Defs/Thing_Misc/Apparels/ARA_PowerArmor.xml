@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_Building_SpiderOne.label>Frost body symbiotic muscle group</ARA_Building_SpiderOne.label>
+  <ARA_Building_SpiderOne.description>The special living structure of the Arachne swarm itself possesses most of the organs of a living thing, but does not have any intelligence. It can be integrated with the nervous system of the Arachne swarm to become equipment similar to power armor. The symbiotic muscles will provide the host with additional heavy weapons, and the body is also equipped with a large number of micro-armed organs, allowing the Arachne Zerg to harness the power of a human tank.</ARA_Building_SpiderOne.description>
+  <ARA_Building_SpiderOne.comps.CompProperties_RefuelableNutrition.fuelGizmoLabel>insect honey</ARA_Building_SpiderOne.comps.CompProperties_RefuelableNutrition.fuelGizmoLabel>
+  <ARA_SpiderOne_PowerArmor.label>Frost body symbiotic muscle group</ARA_SpiderOne_PowerArmor.label>
+  <ARA_SpiderOne_PowerArmor.description>The special living structure of the Arachne swarm itself possesses most of the organs of a living thing, but does not have any intelligence. It can be integrated with the nervous system of the Arachne swarm to become equipment similar to power armor. The symbiotic muscles will provide the host with additional heavy weapons, and the body is also equipped with a large number of micro-armed organs, allowing the Arachne Zerg to harness the power of a human tank.</ARA_SpiderOne_PowerArmor.description>
+  <ARA_SpiderOne_PowerArmor.comps.CompProperties_RefuelableNutrition.fuelGizmoLabel>insect honey</ARA_SpiderOne_PowerArmor.comps.CompProperties_RefuelableNutrition.fuelGizmoLabel>
+</LanguageData>

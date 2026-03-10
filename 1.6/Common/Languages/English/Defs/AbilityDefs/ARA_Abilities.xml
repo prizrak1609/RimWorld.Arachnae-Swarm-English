@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_BindDrone.label>Pheromone tag</ARA_BindDrone.label>
+  <ARA_BindDrone.description>Use pheromones to mark a wild Arachneid or beast insect individual, and it will break away from the beast state, swear allegiance to the queen species, and establish a spiritual link with it. \n\nFor one's own Overlord Insects and Beast Insects, the Queen will automatically establish a link with them, no skills are required.</ARA_BindDrone.description>
+  <ARA_RaceBaseSwarmProduceOn.label>Remove breeding suppression</ARA_RaceBaseSwarmProduceOn.label>
+  <ARA_RaceBaseSwarmProduceOn.description>Restarts the Arachnidok's ability to automatically raise auxiliary insects.</ARA_RaceBaseSwarmProduceOn.description>
+  <ARA_RaceBaseSwarmProduceOff.label>breeding inhibition</ARA_RaceBaseSwarmProduceOff.label>
+  <ARA_RaceBaseSwarmProduceOff.description>Turns off the Arachnidok's ability to automatically raise auxiliary insects.</ARA_RaceBaseSwarmProduceOff.description>
+  <ARA_Suicide_Ability.label>suicide</ARA_Suicide_Ability.label>
+  <ARA_Suicide_Ability.description>With just one order, the Arachne Zerg can die immediately for the great cause of the Zerg Hive at any time.</ARA_Suicide_Ability.description>
+  <ARA_Suicide_Fast_Ability.label>suicide</ARA_Suicide_Fast_Ability.label>
+  <ARA_Suicide_Fast_Ability.description>With just one order, the Arachne Zerg can die immediately for the great cause of the Zerg Hive at any time.</ARA_Suicide_Fast_Ability.description>
+  <ARA_TumorSpew.label>tumor release</ARA_TumorSpew.label>
+  <ARA_TumorSpew.description>Expelling a bacterial tumor will transform a large area nearby into a carpet of bacteria to facilitate the activities of the insect swarm.</ARA_TumorSpew.description>
+  <ARA_TumorSpew.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_TumorSpew.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Proj_Tumor.label>Arachne's tumor</ARA_Proj_Tumor.label>
+  <ARA_Tumor_Smokepop.label>Arachne's blight</ARA_Tumor_Smokepop.label>
+  <ARA_Tumor_Smokepop.description>The special bacterial tumors excreted by a small number of Zerg species will not only provide lighting but also spread the bacterial carpet over a large area on the ground, but will die soon.</ARA_Tumor_Smokepop.description>
+  <ARA_AcidSprayBurst_Queen.label>acid bombing</ARA_AcidSprayBurst_Queen.label>
+  <ARA_AcidSprayBurst_Queen.description>Sprays a large amount of corrosive acid at the target location, completely covering an area to kill enemies and reduce the armor of survivors.</ARA_AcidSprayBurst_Queen.description>
+  <ARA_AcidSprayBurst_Queen.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_AcidSprayBurst_Queen.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_AcidSprayBurst_Queen.comps.CompProperties_AbilityBodyPartCheck.failMessage>The acid sac is damaged or missing and cannot eject acid.</ARA_AcidSprayBurst_Queen.comps.CompProperties_AbilityBodyPartCheck.failMessage>
+  <ARA_Proj_StrongSludgeSpray.label>Arachne Zerg Acid</ARA_Proj_StrongSludgeSpray.label>
+  <ARA_Toxic_Needle_Fire.label>Poison needle burst</ARA_Toxic_Needle_Fire.label>
+  <ARA_Toxic_Needle_Fire.description>The Arachnidok uses its venomous sting glands to fire a round of shots at the enemy.</ARA_Toxic_Needle_Fire.description>
+  <ARA_Toxic_Needle_Fire.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Toxic_Needle_Fire.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Toxic_Needle_Fire.comps.CompProperties_AbilityBodyPartCheck.failMessage>The poison needle gland is damaged or missing and cannot fire poison needles</ARA_Toxic_Needle_Fire.comps.CompProperties_AbilityBodyPartCheck.failMessage>
+  <ARA_AcidSprayBurst.label>acid bombing</ARA_AcidSprayBurst.label>
+  <ARA_AcidSprayBurst.description>The Arachnidok sprays a large amount of corrosive acid at the target location. Although it is not as powerful as the acid rain sprayed by the Queen species, the damage caused by the insect acid is still real.</ARA_AcidSprayBurst.description>
+  <ARA_AcidSprayBurst.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_AcidSprayBurst.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_AcidSprayBurst.comps.CompProperties_AbilityBodyPartCheck.failMessage>The acid sac is damaged or missing and cannot eject acid.</ARA_AcidSprayBurst.comps.CompProperties_AbilityBodyPartCheck.failMessage>
+  <ARA_Skyraider_jump.label>high altitude maneuvering</ARA_Skyraider_jump.label>
+  <ARA_Skyraider_jump.description>Use your powerful wings to instantly power up and relocate to a new location.</ARA_Skyraider_jump.description>
+  <ARA_Skyraider_jump.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Skyraider_jump.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Ability_Possess.label>Protozoal species attack parasitism</ARA_Ability_Possess.label>
+  <ARA_Ability_Possess.description>Leap to the target, and then try to use its long tail to pierce the target and cut off its nerve center signals, replacing them with its own control signals, and then completely occupying the target's body - it needs to penetrate the armor to complete the parasitism, but if it parasitizes imprisoned prisoners and incapacitated people, it will definitely succeed. \n\nThe object whose body has been invaded is regarded as a member of the Arachne Zerg tribe and needs to receive the pheromone mark of the Queen species. It no longer has emotions and advanced needs, and only lives as a body. The target's skill proficiency and background story will be replaced by the protozoa's skill proficiency and background story, and once the host dies, the protozoa will escape from the host.</ARA_Ability_Possess.description>
+  <ARA_Ability_Smokepop.label>Pheromone fog release</ARA_Ability_Smokepop.label>
+  <ARA_Ability_Smokepop.description>The Mist Seed uses its abdomen to release a large amount of Arachne pheromone smoke, forming a large smoke that can obscure the Zerg's body and retard fire. These pheromones will attract nearby Arachne auxiliary insects to burst out of the ground to support the insect swarm. The more targets contaminated with pheromones (regardless of whether they are friendly or enemy), the more insects will come to support the insect swarm.</ARA_Ability_Smokepop.description>
+  <ARA_Ability_Smokepop.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Ability_Smokepop.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Baneling_Suicide_Ability.label>benign self-destruction</ARA_Baneling_Suicide_Ability.label>
+  <ARA_Baneling_Suicide_Ability.description>The Arachne Explosive Seed will self-destruct without activating strong corrosive acid. This self-destruction will only cause minor damage, will not produce acid mist, and will leave a creep in a large area.</ARA_Baneling_Suicide_Ability.description>
+  <ARA_Smokepop_Creeper_Ability_On.label>Laying Creep Creep: Enable</ARA_Smokepop_Creeper_Ability_On.label>
+  <ARA_Smokepop_Creeper_Ability_On.description>Activating the Creep Laying ability of this Arachne King Insect species will transform the nearby terrain into Arachne Creep at regular intervals. In addition, any enemy that approaches the Overlord will be automatically attacked by its Spore Tubes, which fire Spore Projectiles that change the terrain to lay down creep.</ARA_Smokepop_Creeper_Ability_On.description>
+  <ARA_Smokepop_Creeper_Ability_Off.label>Laying Creep: Close</ARA_Smokepop_Creeper_Ability_Off.label>
+  <ARA_Smokepop_Creeper_Ability_Off.description>Turns off the Creep Creep ability of this Arachne Overlord species and no longer attempts to change nearby terrain.</ARA_Smokepop_Creeper_Ability_Off.description>
+  <ARA_Tumorthrow.label>tumor throw</ARA_Tumorthrow.label>
+  <ARA_Tumorthrow.description>Project a fungus tumor to the target location, transforming a large area nearby into a fungus carpet terrain to facilitate the activities of the insect swarm.</ARA_Tumorthrow.description>
+  <ARA_Tumorthrow.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Tumorthrow.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Ability_TrackingCharge.label>brute force collision</ARA_Ability_TrackingCharge.label>
+  <ARA_Ability_TrackingCharge.description>Launches a charged charge at the target, causing damage to everything in its path. The further the distance traveled during the impact, the higher the damage.</ARA_Ability_TrackingCharge.description>
+  <ARA_Ability_TrackingCharge.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Ability_TrackingCharge.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_PsychicBrainburn.label>mind burning</ARA_PsychicBrainburn.label>
+  <ARA_PsychicBrainburn.description>Blasts the target with powerful pure psychic energy, burning out the target's central nervous system - killing the target outright.</ARA_PsychicBrainburn.description>
+  <ARA_NeuroSwarm_jump.label>high altitude maneuvering</ARA_NeuroSwarm_jump.label>
+  <ARA_NeuroSwarm_jump.description>Increase the strength used to levitate your body to quickly reach higher altitudes and fly to a new location.</ARA_NeuroSwarm_jump.description>
+  <ARA_GuardianPsyField_On.label>Weaving Field Seed Psychic Field</ARA_GuardianPsyField_On.label>
+  <ARA_GuardianPsyField_On.description>The Domain Weaver projects a powerful psychic defensive force field that will automatically intercept hostile flying objects that enter its range. Its total shield value is related to its psychic sensitivity and is difficult to penetrate, but each interception will accumulate psychic entropy.</ARA_GuardianPsyField_On.description>
+  <ARA_GuardianPsyField_Off.label>Weaving Field Seed Psychic Field</ARA_GuardianPsyField_Off.label>
+  <ARA_GuardianPsyField_Off.description>Turns off the realmweaver's psychic defense field.</ARA_GuardianPsyField_Off.description>
+  <ARA_Ability_Morph.label>Weaving pattern</ARA_Ability_Morph.label>
+  <ARA_Ability_Morph.description>Spawns an Oriole, converting itself into a static building. In this form, Arachneweaver can research the swarm's more advanced technologies.</ARA_Ability_Morph.description>
+  <ARA_MimicNematode_Needle_Fire.label>parasitic needle</ARA_MimicNematode_Needle_Fire.label>
+  <ARA_MimicNematode_Needle_Fire.description>Spray several sac needles at the target that cause low damage but will trigger the parasitism of Arachne's thread-like species. As the infection progresses, the target will gradually be controlled by the thread-like species and gradually ignore external stimuli to gain powerful resistance to attacks. \n\nThis is a dangerous transaction. The pseudo-thread species cannot be controlled by the queen species. Smart hives need to think twice before using the power of the pseudo-thread species.</ARA_MimicNematode_Needle_Fire.description>
+  <ARA_MimicNematode_Needle_Fire.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_MimicNematode_Needle_Fire.comps.CompProperties_AbilityNeedCost.failMessage>
+  <Bullet_ARA_MimicNematode_Needle.label>parasitic needle</Bullet_ARA_MimicNematode_Needle.label>
+  <ARA_FireSpew.label>deflagration flame</ARA_FireSpew.label>
+  <ARA_FireSpew.description>After a short period of charging, the explosive type sprays flames forward in a wide range. This kind of flame spray distance is not too long, but it can form a dense fire wall.</ARA_FireSpew.description>
+  <ARA_FireSpew.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_FireSpew.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Dissolver_Touch.label>Fat-dissolving acid</ARA_Dissolver_Touch.label>
+  <ARA_Dissolver_Touch.description>Sprinkle fat-dissolving strong acid on the target at a very close range, and the target's organs will quickly decompose and turn into a large amount of insect honey. Because the accuracy is very poor, it cannot be used on the battlefield and can only be used against targets that do not resist.</ARA_Dissolver_Touch.description>
+  <ARA_Dissolver_Touch.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Dissolver_Touch.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Fighter_Invisibility_jump.label>Stalker jumping</ARA_Fighter_Invisibility_jump.label>
+  <ARA_Fighter_Invisibility_jump.description>Jump to the target location with powerful tendons, and the stalker remains invisible during the jump.</ARA_Fighter_Invisibility_jump.description>
+  <ARA_Fighter_Invisibility_jump.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Fighter_Invisibility_jump.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Fighter_Invisibility_Execution.label>Execution by scythe</ARA_Fighter_Invisibility_Execution.label>
+  <ARA_Fighter_Invisibility_Execution.description>The Stalker wields a giant scythe to execute the enemy, causing a high amount of damage. After the execution is completed, the Stalker's body will be exposed.</ARA_Fighter_Invisibility_Execution.description>
+  <ARA_Genestealer_ExtractGene.label>gene theft</ARA_Genestealer_ExtractGene.label>
+  <ARA_Genestealer_ExtractGene.description>The aberration extracts 1-4 genes (including extraordinary genes) from the target's gene pool and adds them to its own gene sequence. Although the extracted target will not die, it will lose this gene and will be unable to recover from the coma.</ARA_Genestealer_ExtractGene.description>
+  <ARA_Genestealer_ExtractGene.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Genestealer_ExtractGene.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Genestealer_InjectGenes.label>gene injection</ARA_Genestealer_InjectGenes.label>
+  <ARA_Genestealer_InjectGenes.description>The aberration attempts to inject all of its own genes into the target. The target must not have any genes that are the same as the aberration, otherwise the injection cannot be carried out.</ARA_Genestealer_InjectGenes.description>
+  <ARA_Genestealer_InjectGenes.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Genestealer_InjectGenes.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Genestealer_EjectOrgans.label>Eversion of flesh and blood</ARA_Genestealer_EjectOrgans.label>
+  <ARA_Genestealer_EjectOrgans.description>The aberration causes intense mutations in the target, causing all of its organs to extrude to the surface for harvest by the swarm - which is almost certain death for the target. This skill can only be released on non-swarm colonists, prisoners, and slaves.</ARA_Genestealer_EjectOrgans.description>
+  <ARA_Genestealer_EjectOrgans.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Genestealer_EjectOrgans.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_TerrainHeal_Ability.label>nurse costume healing</ARA_TerrainHeal_Ability.label>
+  <ARA_TerrainHeal_Ability.description>Extract biomass from the nutrient pipeline of the creep and quickly synthesize healing hormone to treat the target, allowing it to heal quickly within a period of time. It can only be used on Arachne swarm units with self-healing capabilities.</ARA_TerrainHeal_Ability.description>
+  <ARA_TerrainHeal_Ability.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_TerrainHeal_Ability.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_TerrorRoar_Ability.label>Majestic Roar</ARA_TerrorRoar_Ability.label>
+  <ARA_TerrorRoar_Ability.description>Arak's worm breathes into nearby enemies, forcing them to flee in fear. It can only be used when standing on the creep terrain.</ARA_TerrorRoar_Ability.description>
+  <ARA_TerrorRoar_Ability.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_TerrorRoar_Ability.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_TerrainTempt_Ability.label>Twisted and seduced</ARA_TerrainTempt_Ability.label>
+  <ARA_TerrainTempt_Ability.description>The Arak Niedo distorts the target's mind, causing it to regard the insect swarm as its own wives, and launch a frenzied attack on outsiders who harm the insect swarm. It can only be used on the creep terrain.</ARA_TerrainTempt_Ability.description>
+  <ARA_TerrainTempt_Ability.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_TerrainTempt_Ability.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Strengthening_Tendon_Jump.label>short jump</ARA_Strengthening_Tendon_Jump.label>
+  <ARA_Strengthening_Tendon_Jump.description>The strengthened tendons allow the Arachne Swarm to jump shorter distances.</ARA_Strengthening_Tendon_Jump.description>
+  <ARA_Strengthening_Tendon_Jump.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Strengthening_Tendon_Jump.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Praetorian_Jump.label>Guard jump</ARA_Praetorian_Jump.label>
+  <ARA_Praetorian_Jump.description>Jump to the target location with powerful tendons.</ARA_Praetorian_Jump.description>
+  <ARA_Praetorian_Jump.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Praetorian_Jump.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Praetorian_Commander_Ability_On.label>Swarm Commander</ARA_Praetorian_Commander_Ability_On.label>
+  <ARA_Praetorian_Commander_Ability_On.description>Activate the command node of the Arachne Guard species so that it can be used as a secondary hive mind network to strengthen the combat effectiveness of the nearby Zerg. In this case, the guard species will lose part of its combat capabilities.</ARA_Praetorian_Commander_Ability_On.description>
+  <ARA_Praetorian_Commander_Ability_Off.label>End of command</ARA_Praetorian_Commander_Ability_Off.label>
+  <ARA_Praetorian_Commander_Ability_Off.description>Turn off the command ability of this Arachne Guard, allowing it to focus on its own battle.</ARA_Praetorian_Commander_Ability_Off.description>
+  <ARA_Locust_AcidSprayBurst.label>acid spray</ARA_Locust_AcidSprayBurst.label>
+  <ARA_Locust_AcidSprayBurst.description>The Arachne Locust spews corrosive acid at a target location.</ARA_Locust_AcidSprayBurst.description>
+  <ARA_Praetorian_TailSweep.label>Clean up</ARA_Praetorian_TailSweep.label>
+  <ARA_Praetorian_TailSweep.description>Swinging its tail, it whips the enemy in front of it, causing damage to all hostile targets within a fan-shaped range. If the opponent survives the attack, it will be knocked away and stunned for a period of time.</ARA_Praetorian_TailSweep.description>
+  <ARA_Praetorian_TailSweep.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Praetorian_TailSweep.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Praetorian_Long_Jump.label>Guard jump</ARA_Praetorian_Long_Jump.label>
+  <ARA_Praetorian_Long_Jump.description>Jump to the target location with powerful tendons.</ARA_Praetorian_Long_Jump.description>
+  <ARA_Praetorian_Long_Jump.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Praetorian_Long_Jump.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Pouch_Hatching_Baneling.label>Molting Pod Hatching: Burst Seed</ARA_Pouch_Hatching_Baneling.label>
+  <ARA_Pouch_Hatching_Baneling.description>Immediately hatch three Arachne Burst auxiliaries under your feet, and they will launch a suicidal attack on the enemy.</ARA_Pouch_Hatching_Baneling.description>
+  <ARA_Pouch_Hatching_Baneling.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Pouch_Hatching_Baneling.comps.CompProperties_AbilityNeedCost.failMessage>
+  <ARA_Pouch_Hatching_Pouch.label>Molting pods hatching: Mycobacteria</ARA_Pouch_Hatching_Pouch.label>
+  <ARA_Pouch_Hatching_Pouch.description>Expelling a fungus tumor will transform a large area nearby into a fungus blanket terrain to facilitate the activities of the insect swarm and hinder the enemy's advance.</ARA_Pouch_Hatching_Pouch.description>
+  <ARA_Pouch_Hatching_Pouch.comps.CompProperties_AbilityNeedCost.failMessage>Insufficient nutritional value, need to eat</ARA_Pouch_Hatching_Pouch.comps.CompProperties_AbilityNeedCost.failMessage>
+</LanguageData>

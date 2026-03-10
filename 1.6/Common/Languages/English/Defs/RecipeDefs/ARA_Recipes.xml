@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_Surgery_Install_Plasteel.label>FRP carapace implant</ARA_Surgery_Install_Plasteel.label>
+  <ARA_Surgery_Install_Plasteel.description>The carapace of the Arachne Zerg is implanted with fiberglass. When the chitin continues to grow, the fiberglass will be wrapped by the carapace to form a stronger exoskeleton and enhance the Zerg's defense.</ARA_Surgery_Install_Plasteel.description>
+  <ARA_Plasteel_Shell_Hediff.label>fiberglass carapace</ARA_Plasteel_Shell_Hediff.label>
+  <ARA_Plasteel_Shell_Hediff.description>The Arachne Zerg gained stronger defense by directly implanting fiberglass into its carapace.</ARA_Plasteel_Shell_Hediff.description>
+  <ARA_Plasteel_Shell.label>fiberglass carapace</ARA_Plasteel_Shell.label>
+  <ARA_Plasteel_Shell.description>The Arachne Zerg gained stronger defense by directly implanting fiberglass into its carapace. The surgery requires no fabricated parts and can be performed directly on the Arachnidok.</ARA_Plasteel_Shell.description>
+  <ARA_Surgery_Install_Reactive_Shell.label>reactive carapace implant</ARA_Surgery_Install_Reactive_Shell.label>
+  <ARA_Surgery_Install_Reactive_Shell.description>Special reactive carapace is implanted into the Arachne Zerg's carapace. They are disposable and can eject the carapace when damage strikes to block the damage so as not to damage the main body.</ARA_Surgery_Install_Reactive_Shell.description>
+  <ARA_Reactive_Shell_Hediff.label>reactive carapace</ARA_Reactive_Shell_Hediff.label>
+  <ARA_Reactive_Shell_Hediff.description>The Arachne Zerg's reactive carapace can protect it from external damage once, but then the piece of armor will bounce off and no longer provide defense.</ARA_Reactive_Shell_Hediff.description>
+  <ARA_Reactive_Shell.label>reactive carapace</ARA_Reactive_Shell.label>
+  <ARA_Reactive_Shell.description>The Arachne Zerg's reactive carapace can protect it from external damage once, but then the piece of armor will bounce off and no longer provide defense. The surgery requires no fabricated parts and can be performed directly on the Arachnidok.</ARA_Reactive_Shell.description>
+  <ARA_Surgery_Install_Carapace_Shell.label>Carapace proliferation</ARA_Surgery_Install_Carapace_Shell.label>
+  <ARA_Surgery_Install_Carapace_Shell.description>Chitin is used to thicken the carapace of the Arachne Zerg to gain additional defense.</ARA_Surgery_Install_Carapace_Shell.description>
+  <ARA_Gene_Essence_Shell_Hediff.label>Carapace proliferation</ARA_Gene_Essence_Shell_Hediff.label>
+  <ARA_Gene_Essence_Shell_Hediff.description>The carapace of this Arachne Zerg is thickened with chitin, giving it extra defense.</ARA_Gene_Essence_Shell_Hediff.description>
+  <ARA_Gene_Essence_Shell.label>Carapace proliferation</ARA_Gene_Essence_Shell.label>
+  <ARA_Gene_Essence_Shell.description>The Arachne Zerg's reactive carapace can protect it from external damage once, but then the piece of armor will bounce off and no longer provide defense. The surgery requires no fabricated parts and can be performed directly on the Arachnidok.</ARA_Gene_Essence_Shell.description>
+  <ARA_Surgery_Install_Strengthening_Tendon.label>Reinforcement of tendon implants</ARA_Surgery_Install_Strengthening_Tendon.label>
+  <ARA_Surgery_Install_Strengthening_Tendon.description>Implanted reinforced tendons into the Arachne Zerg's legs, allowing the Zerg to move at higher speeds and gain the ability to jump short distances.</ARA_Surgery_Install_Strengthening_Tendon.description>
+  <ARA_Strengthening_Tendon_Hediff.label>Strengthen tendons</ARA_Strengthening_Tendon_Hediff.label>
+  <ARA_Strengthening_Tendon_Hediff.description>The Arachne's reinforced sinews allow them to move at high speeds and gain the ability to jump.</ARA_Strengthening_Tendon_Hediff.description>
+  <ARA_Strengthening_Tendon.label>Strengthen tendons</ARA_Strengthening_Tendon.label>
+  <ARA_Strengthening_Tendon.description>The Arachne's reinforced sinews allow them to move at high speeds and gain the ability to jump. The surgery requires no fabricated parts and can be performed directly on the Arachnidok.</ARA_Strengthening_Tendon.description>
+  <ARA_Surgery_Install_Slide_Patagium.label>Gliding wing membrane implant</ARA_Surgery_Install_Slide_Patagium.label>
+  <ARA_Surgery_Install_Slide_Patagium.description>Implanting gliding membranes on the legs of the Arachne Zerg allows the Zerg to achieve extremely high speeds when moving on creep.</ARA_Surgery_Install_Slide_Patagium.description>
+  <ARA_Slide_Patagium_Hediff.label>gliding wing membrane</ARA_Slide_Patagium_Hediff.label>
+  <ARA_Slide_Patagium_Hediff.description>The gliding membranes on the legs of the Arachne Zerg allow them to move quickly on the creep, but the bonus will be lost immediately after leaving the creep.</ARA_Slide_Patagium_Hediff.description>
+  <ARA_Slide_Patagium_Hediff.stages.0.label>none</ARA_Slide_Patagium_Hediff.stages.0.label>
+  <ARA_Slide_Patagium.label>gliding wing membrane</ARA_Slide_Patagium.label>
+  <ARA_Slide_Patagium.description>The gliding membranes on the legs of the Arachne Zerg allow them to move quickly on the creep, but the bonus will be lost immediately after leaving the creep. The surgery requires no fabricated parts and can be performed directly on the Arachnidok.</ARA_Slide_Patagium.description>
+  <ARA_Surgery_Install_Huge_Stomach.label>extra stomach pouch</ARA_Surgery_Install_Huge_Stomach.label>
+  <ARA_Surgery_Install_Huge_Stomach.description>Induces the directional mutation of the Arachne Zerg, causing its stomach pouch to store nutrients to enlarge to store more food.</ARA_Surgery_Install_Huge_Stomach.description>
+  <ARA_Huge_Stomach_Hediff.label>extra stomach pouch</ARA_Huge_Stomach_Hediff.label>
+  <ARA_Huge_Stomach_Hediff.description>The directional mutation of the Arachne Zerg gives it a larger stomach pouch to hold more nutrients.</ARA_Huge_Stomach_Hediff.description>
+  <ARA_Huge_Stomach.label>extra stomach pouch</ARA_Huge_Stomach.label>
+  <ARA_Huge_Stomach.description>The directional mutation of the Arachne Zerg gives it a larger stomach pouch to hold more nutrients. The surgery requires no fabricated parts and can be performed directly on the Arachnidok.</ARA_Huge_Stomach.description>
+  <ARA_Surgery_Install_Internal_Circulation_Lung.label>internal circulation lung</ARA_Surgery_Install_Internal_Circulation_Lung.label>
+  <ARA_Surgery_Install_Internal_Circulation_Lung.description>Inducing the directional mutation of the Arachne Zerg, its lungs can self-circulate and can almost resist the invasion of vacuum.</ARA_Surgery_Install_Internal_Circulation_Lung.description>
+  <ARA_Internal_Circulation_Lung_Hediff.label>internal circulation lung</ARA_Internal_Circulation_Lung_Hediff.label>
+  <ARA_Internal_Circulation_Lung_Hediff.description>The directional mutation of the Arachne Zerg allows its lungs to self-circulate, making them almost immune to the invasion of a vacuum.</ARA_Internal_Circulation_Lung_Hediff.description>
+  <ARA_Internal_Circulation_Lung.label>internal circulation lung</ARA_Internal_Circulation_Lung.label>
+  <ARA_Internal_Circulation_Lung.description>The directional mutation of the Arachne Zerg allows its lungs to self-circulate, making them almost immune to the invasion of a vacuum. The surgery requires no fabricated parts and can be performed directly on the Arachnidok.</ARA_Internal_Circulation_Lung.description>
+  <ARA_Surgery_Install_Cycle_Suppression.label>life cycle suppression</ARA_Surgery_Install_Cycle_Suppression.label>
+  <ARA_Surgery_Install_Cycle_Suppression.description>Induces directional mutation of the Arachne Zerg so that it is no longer restricted by lifespan and can survive longer. But after injecting life cycle inhibitors, the Zerg will lose its ability to heal itself.</ARA_Surgery_Install_Cycle_Suppression.description>
+  <ARA_Cycle_Suppression_Hediff.label>life cycle suppression</ARA_Cycle_Suppression_Hediff.label>
+  <ARA_Cycle_Suppression_Hediff.description>The Arachne Zerg's life cycle inhibitor prevents the disordered growth of the Zerg itself to extend its lifespan.</ARA_Cycle_Suppression_Hediff.description>
+  <ARA_Cycle_Suppression.label>life cycle suppression</ARA_Cycle_Suppression.label>
+  <ARA_Cycle_Suppression.description>The Arachne Zerg's life cycle inhibitor prevents the disordered growth of the Zerg itself to extend its lifespan. The surgery requires no fabricated parts and can be performed directly on the Arachnidok.</ARA_Cycle_Suppression.description>
+  <ARA_Surgery_Install_Baneling_Pouch.label>Bursting seed sheds pods</ARA_Surgery_Install_Baneling_Pouch.label>
+  <ARA_Surgery_Install_Baneling_Pouch.description>Induces the directional mutation of the Arachne Zerg, so that three Arachne Explosives that are about to hatch are pre-stored in their molt pods. Once they are released, they will attack the enemy with a suicide attack.</ARA_Surgery_Install_Baneling_Pouch.description>
+  <ARA_Baneling_Pouch_Hediff.label>Bursting seed sheds pods</ARA_Baneling_Pouch_Hediff.label>
+  <ARA_Baneling_Pouch_Hediff.description>The Arachne Zerg's molting pods contain several Arachne Explosives that are about to hatch. They will burst out of their bodies and attack the enemy as soon as they receive instructions.</ARA_Baneling_Pouch_Hediff.description>
+  <ARA_Baneling_Pouch.label>Bursting seed sheds pods</ARA_Baneling_Pouch.label>
+  <ARA_Baneling_Pouch.description>The Arachne Zerg's molting pods contain several Arachne Explosives that are about to hatch. They will burst out of their bodies and attack the enemy as soon as they receive instructions. The surgery requires no fabricated parts and can be performed directly on the Arachnidok.</ARA_Baneling_Pouch.description>
+  <ARA_Surgery_Install_Tumor_Pouch.label>fungus molting</ARA_Surgery_Install_Tumor_Pouch.label>
+  <ARA_Surgery_Install_Tumor_Pouch.description>Induces the directional mutation of the Arachne Zerg, so that a blight tumor is pre-stored in its molted pod. Once released, it will transform a large area of ​​the ground into a carpet terrain.</ARA_Surgery_Install_Tumor_Pouch.description>
+  <ARA_Tumor_Pouch_Hediff.label>fungus molting</ARA_Tumor_Pouch_Hediff.label>
+  <ARA_Tumor_Pouch_Hediff.description>The Arachne Zerg's molt pod contains a blight tumor, which once released will transform a large area of ​​the ground into a carpet terrain.</ARA_Tumor_Pouch_Hediff.description>
+  <ARA_Tumor_Pouch.label>fungus molting</ARA_Tumor_Pouch.label>
+  <ARA_Tumor_Pouch.description>The Arachne Zerg's molt pod contains a blight tumor, which once released will transform a large area of ​​the ground into a carpet terrain. The surgery requires no fabricated parts and can be performed directly on the Arachnidok.</ARA_Tumor_Pouch.description>
+  <ARA_CureAcid.label>Remove neurotoxins</ARA_CureAcid.label>
+  <ARA_CureAcid.description>Arachne swarms can use healing chemicals to undo the effects of Arachne's neurotoxin, allowing their prey to return to normal.</ARA_CureAcid.description>
+  <ARA_CureBloodRot.label>Clear nematode infection</ARA_CureBloodRot.label>
+  <ARA_CureBloodRot.description>The Arachne parasitic worm infection is eliminated from the patient's body through a combination of multiple drugs and targeted therapy. This operation is very complex and can only be performed using medicines from the Glittering World.</ARA_CureBloodRot.description>
+</LanguageData>

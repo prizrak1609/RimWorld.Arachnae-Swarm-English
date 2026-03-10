@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_TrainShooting.label>Skill training (shooting)</ARA_TrainShooting.label>
+  <ARA_TrainMelee.label>Skill Training (Melee Combat)</ARA_TrainMelee.label>
+  <ARA_TrainConstruction.label>Skill training (construction)</ARA_TrainConstruction.label>
+  <ARA_TrainMining.label>Skills training (mining)</ARA_TrainMining.label>
+  <ARA_TrainCooking.label>Skill training (cooking)</ARA_TrainCooking.label>
+  <ARA_TrainPlants.label>Skill training (planting)</ARA_TrainPlants.label>
+  <ARA_TrainAnimals.label>Skill training (animal training)</ARA_TrainAnimals.label>
+  <ARA_TrainMedicine.label>Skills Training (Medical)</ARA_TrainMedicine.label>
+  <ARA_TrainSocial.label>Skills training (social)</ARA_TrainSocial.label>
+  <ARA_TrainCrafting.label>Skill training (manual)</ARA_TrainCrafting.label>
+  <ARA_TrainArtistic.label>Skills Training (Art)</ARA_TrainArtistic.label>
+</LanguageData>

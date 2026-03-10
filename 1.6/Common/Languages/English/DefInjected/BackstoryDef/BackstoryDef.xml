@@ -1,0 +1,52 @@
+﻿<LanguageData>
+  <Arachnae_MimicNematode_BS_Adult_1.description>[PAWN_nameDef] is a Mimic Nematode Arachnae. It was produced as a body that an Arachnae Nematode species has parasitized and controlled, lacking its own self-awareness and the ability to survive independently without being parasitized by the Nematode.</Arachnae_MimicNematode_BS_Adult_1.description>
+  <Arachnae_MimicNematode_BS_Adult_1.title>Arachne Mimic Nematode BS Adult 1 title</Arachnae_MimicNematode_BS_Adult_1.title>
+  <Arachnae_MimicNematode_BS_Adult_1.titleShort>Mimic Nematode</Arachnae_MimicNematode_BS_Adult_1.titleShort>
+  <Arachnae_MimicNematode_BS_Child_1.description>[PAWN_nameDef] is a Mimic Nematode Arachnae — they are not conventional insect tribes; these parasites infect and control the bodies of intelligent beings.</Arachnae_MimicNematode_BS_Child_1.description>
+  <Arachnae_MimicNematode_BS_Child_1.title>Arachne Mimic Nematode BS Child 1</Arachnae_MimicNematode_BS_Child_1.title>
+  <Arachnae_MimicNematode_BS_Child_1.titleShort>Mimic Nematode</Arachnae_MimicNematode_BS_Child_1.titleShort>
+  <Arachnae_Node_BS_Adult_Facehugger.description>[PAWN_nameDef] is a Chigurri species Overseer. [PAWN_nameDef] infiltrates its victims' bodies through unique neural link tubes to take over their bodies. During the takeover, skill proficiency will be determined by whichever side has higher proficiency between the chigger and the victim; however, all skills gained during parasitism are not inherited when the chigger leaves its host.</Arachnae_Node_BS_Adult_Facehugger.description>
+  <Arachnae_Node_BS_Adult_Facehugger.title>Arachnids Species</Arachnae_Node_BS_Adult_Facehugger.title>
+  <Arachnae_Node_BS_Adult_Facehugger.titleShort>Original Species</Arachnae_Node_BS_Adult_Facehugger.titleShort>
+  <Arachnae_Node_BS_Adult_Fighter.description>[PAWN_nameDef] is a Arachnae Fighter species of arachnid, capable of hunting and transporting. It excels at wielding all types of nest weapons, whether in melee or ranged combat. Although it cannot be spawncollected in its normal state, it can launch Arachne Acid Spitters like projectiles towards the enemy's face, trading off its limited lifespan for an enemy's long-range flinch.</Arachnae_Node_BS_Adult_Fighter.description>
+  <Arachnae_Node_BS_Adult_Fighter.title>Arachne Warrior Race</Arachnae_Node_BS_Adult_Fighter.title>
+  <Arachnae_Node_BS_Adult_Fighter.titleShort>Warrior Race</Arachnae_Node_BS_Adult_Fighter.titleShort>
+  <Arachnae_Node_BS_Adult_Myrmecocystus.description>[PAWN_nameDef] is a Myrmecocystus arachnoid. Genetic expression has led to the development of an enlarged stomach pouch and complex mandibles, allowing her to consume raw corpses and various scavenged or partially digested matter which she then converts into arachnoid honey for other insect tribes.
+
+[PAWN_nameDef] is not a formidable opponent in combat; her fighting skills are clumsy due to her bulky, fragile nature, making it nearly impossible for her to evade any attacks.</Arachnae_Node_BS_Adult_Myrmecocystus.description>
+  <Arachnae_Node_BS_Adult_Myrmecocystus.title>Arachne Honeycomb</Arachnae_Node_BS_Adult_Myrmecocystus.title>
+  <Arachnae_Node_BS_Adult_Myrmecocystus.titleShort>Honey Jar Species</Arachnae_Node_BS_Adult_Myrmecocystus.titleShort>
+  <Arachnae_Node_BS_Adult_NeuroSwarm.description>[PAWN_nameDef] is a NeuroSwarm Arachnae Node Adult. Although the Arachne species are under the supervision of the Queen species, they still possess strong advanced intelligence and self-awareness. The Arachne species can build highly interconnected neural networks to conduct complex research and calculations, which prevents them from perceiving their external environment. Therefore, they are an important protection object for the Swarm.</Arachnae_Node_BS_Adult_NeuroSwarm.description>
+  <Arachnae_Node_BS_Adult_NeuroSwarm.title>Arachne Neuroswarm Title</Arachnae_Node_BS_Adult_NeuroSwarm.title>
+  <Arachnae_Node_BS_Adult_NeuroSwarm.titleShort>Spider Nest</Arachnae_Node_BS_Adult_NeuroSwarm.titleShort>
+  <Arachnae_Node_BS_Adult_Praetorian.description>[PAWN_nameDef] is a Arachnae Praetorian. They are the queen's elite troops, tasked with carrying out her will. They can expertly wield remote armaments and elegantly harvest enemies while splicing together large quantities of Acid Siphon larvae to construct defensive lines.</Arachnae_Node_BS_Adult_Praetorian.description>
+  <Arachnae_Node_BS_Adult_Praetorian.title>Arachne Praetorians</Arachnae_Node_BS_Adult_Praetorian.title>
+  <Arachnae_Node_BS_Adult_Praetorian.titleShort>Guardian Species</Arachnae_Node_BS_Adult_Praetorian.titleShort>
+  <Arachnae_Node_BS_Adult_ShieldHead.description>[PAWN_nameDef] is a ShieldHead Arachnae. ShieldHeads are heavy-bodied Arachne species, they produce carapace material and have limbs that can connect to weapon organs of the swarm, allowing them to defend the hive with their own armor and the swarm's weapons.</Arachnae_Node_BS_Adult_ShieldHead.description>
+  <Arachnae_Node_BS_Adult_ShieldHead.title>Arachne Shield Head Species</Arachnae_Node_BS_Adult_ShieldHead.title>
+  <Arachnae_Node_BS_Adult_ShieldHead.titleShort>Shield Head Species</Arachnae_Node_BS_Adult_ShieldHead.titleShort>
+  <Arachnae_Node_BS_Adult_Skyraider.description>[PAWN_nameDef] is a Skyraider Arachnae, an elite species of Arachne that has evolved powerful flight capabilities. It is the undisputed aerial dominator in its nest.</Arachnae_Node_BS_Adult_Skyraider.description>
+  <Arachnae_Node_BS_Adult_Skyraider.title>Arachne Skyraider (Skyraider Adult)</Arachnae_Node_BS_Adult_Skyraider.title>
+  <Arachnae_Node_BS_Adult_Skyraider.titleShort>Skyraider Adult</Arachnae_Node_BS_Adult_Skyraider.titleShort>
+  <Arachnae_Node_BS_Adult_Smokepop.description>[PAWN_nameDef] is a Smokepop Arachnae Node adult, a rare large insect species that can be equipped with large armaments. She has an intimidating giant exoskeleton that makes it difficult for other invaders to penetrate; and she also possesses a massive fog chamber through which multiple biological nozzles spray a sticky white substance and white smoke over a wide area, obscuring enemy artillery positions.</Arachnae_Node_BS_Adult_Smokepop.description>
+  <Arachnae_Node_BS_Adult_Smokepop.title>Arachne Smokepop Adult Node Title</Arachnae_Node_BS_Adult_Smokepop.title>
+  <Arachnae_Node_BS_Adult_Smokepop.titleShort>Mist Spider</Arachnae_Node_BS_Adult_Smokepop.titleShort>
+  <Arachnae_Node_BS_Adult_WeaponSmith.description>[PAWN_nameDef] is a specialized Arachnae worker spider. It can produce special cocoons for fusing Arachne armaments to strengthen the colony's combat effectiveness.
+
+Although [PAWN_nameDef] can wield armaments, it is very afraid of any damage and should be avoided exposing it directly to attacks.</Arachnae_Node_BS_Adult_WeaponSmith.description>
+  <Arachnae_Node_BS_Adult_WeaponSmith.title>Arachne Craft Species</Arachnae_Node_BS_Adult_WeaponSmith.title>
+  <Arachnae_Node_BS_Adult_WeaponSmith.titleShort>Crafting Type</Arachnae_Node_BS_Adult_WeaponSmith.titleShort>
+  <Arachnae_Node_BS_Child_1.description>[PAWN_nameDef] is a Arachnae Node BS Child 1 description. [nameDef] is an Arachne, of the Arachne caste that serves as the backbone of the Hive, obeying the Queen's commands while also commanding her subordinate species. They are born with different roles and strive to serve their hive in their short lifespan.</Arachnae_Node_BS_Child_1.description>
+  <Arachnae_Node_BS_Child_1.title>Arachne's Spider</Arachnae_Node_BS_Child_1.title>
+  <Arachnae_Node_BS_Child_1.titleShort>Drone</Arachnae_Node_BS_Child_1.titleShort>
+  <Arachnae_Queen_BS_Adult_1.description>[PAWN_nameDef] successfully grew up in the hive and left to explore a new region, preparing to establish her own power.
+
+[Pawn nameDef] knows she is outnumbered compared to other pampered sisters. She prefers doing things herself rather than relying on others.</Arachnae_Queen_BS_Adult_1.description>
+  <Arachnae_Queen_BS_Adult_1.title>Apprentice Queen</Arachnae_Queen_BS_Adult_1.title>
+  <Arachnae_Queen_BS_Adult_1.titleShort>Apprentice Queen</Arachnae_Queen_BS_Adult_1.titleShort>
+  <Arachnae_Queen_BS_Child_1.description>[PAWN_nameDef] is a queen arachnoid, who with hundreds of sisters was born and sealed in the nursery chamber.
+
+When the wax seal on the nursery chamber for the queen species was opened by worker bees, [PAWN_nameDef] stood upright within the chamber—covered in blood and bodily fluids, her feet trampling over the broken limbs and bodies of her sisters—and she is undoubtedly the sole victor from the survival game.</Arachnae_Queen_BS_Child_1.description>
+  <Arachnae_Queen_BS_Child_1.title>The Hunter Instinct</Arachnae_Queen_BS_Child_1.title>
+  <Arachnae_Queen_BS_Child_1.titleShort>Hunter Instinct</Arachnae_Queen_BS_Child_1.titleShort>
+</LanguageData>

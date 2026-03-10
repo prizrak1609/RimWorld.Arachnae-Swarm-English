@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_HoneyProduction.label>Honeypot</ARA_HoneyProduction.label>
+  <ARA_HoneyProduction.description>Represents how much Arachne Honey Pure Puree this creature stores. When other Zerg are hungry, creatures with honeypot chambers will try to feed them; if the honeypot is overflowing, creatures will try to extract it.</ARA_HoneyProduction.description>
+  <ARA_HoneyProduction_Animal.label>Honeypot</ARA_HoneyProduction_Animal.label>
+  <ARA_HoneyProduction_Animal.description>Represents how much Arachne Honey Pure Puree this creature stores. If the honeypot is overflowing, organisms will try to extract it.</ARA_HoneyProduction_Animal.description>
+  <ARA_ChitinArmor.label>carapace</ARA_ChitinArmor.label>
+  <ARA_ChitinArmor.description>Represents the thickness of Arachne's carapace on this creature. The thicker the carapace, the more powerful the Zerg's defense. Zerg can also strip it off their bodies to produce chitin.</ARA_ChitinArmor.description>
+</LanguageData>

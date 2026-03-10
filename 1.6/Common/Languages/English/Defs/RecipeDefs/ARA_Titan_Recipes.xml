@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_Surgery_Install_Shell_Thorn.label>Carapace spine implantation</ARA_Surgery_Install_Shell_Thorn.label>
+  <ARA_Surgery_Install_Shell_Thorn.description>Two rows of spines are implanted into the carapace of the Arachne Zerg. They are organs with semi-autonomous consciousness and will automatically fire spines at nearby enemies. In addition, the mutation also thickens the carapace for greater defense.</ARA_Surgery_Install_Shell_Thorn.description>
+  <ARA_Shell_Thorn_Hediff.label>carapace spines</ARA_Shell_Thorn_Hediff.label>
+  <ARA_Shell_Thorn_Hediff.description>The Arachne Zerg has two rows of thorn chambers implanted in their carapace. As long as they are not in close combat, they will automatically launch thorns at approaching enemies.</ARA_Shell_Thorn_Hediff.description>
+  <ARA_Shell_Thorn.label>carapace spines</ARA_Shell_Thorn.label>
+  <ARA_Shell_Thorn.description>Two rows of spines are implanted in the carapace of the Arachne Zerg. As long as they are not in close combat, they will automatically launch spines to attack approaching enemies. The surgery requires no fabricated parts and can be performed directly on the Arachnidok.</ARA_Shell_Thorn.description>
+</LanguageData>

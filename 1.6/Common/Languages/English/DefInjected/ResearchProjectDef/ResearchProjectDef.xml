@@ -1,0 +1,413 @@
+﻿<LanguageData>
+  <ARA_Base_Technology.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Hive Stalkers
+The evolutionary path of the main stalks is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Unlocking the technology of the Arachne Swarm allows you to bioengineer basic drones and armed organs.
+
+All technologies requiring blueprints from the Arachne Swarm must be researched using its stalk branch-specific research method.</ARA_Base_Technology.description>
+  <ARA_Base_Technology.label>Basic gene sequence acquisition</ARA_Base_Technology.label>
+  <ARA_Technology_10EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Hive Stalkers
+The evolutionary path of the main hive tendrils is included in every branch's common evolutionary pathway, laying the foundation for Arachne's superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows performing new Arachne evolution surgery to give Arachne insects stronger lungs.</ARA_Technology_10EVO.description>
+  <ARA_Technology_10EVO.label>Node EVO-10 "Advanced Lung"</ARA_Technology_10EVO.label>
+  <ARA_Technology_10VXI.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolution path of the Primary Tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Arachnid Cocoon to evolve new weapons.</ARA_Technology_10VXI.description>
+  <ARA_Technology_10VXI.label>Node VXI-10 "Mini Disaster"</ARA_Technology_10VXI.label>
+  <ARA_Technology_11VXI.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolution path of the primary tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows building a Devastating Acid Burn Organization, a powerful defensive facility that can handle swathes of incoming enemies and strike across the map.</ARA_Technology_11VXI.description>
+  <ARA_Technology_11VXI.label>NodeVXI-11 "Catastrophe"</ARA_Technology_11VXI.label>
+  <ARA_Technology_1BAC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the Primary Tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Mist Species to undergo targeted evolution by sacrificing its armor and spray pheromone abilities to gain the ability to produce high-level resources "Active Slime".
+
+All research requiring blueprints from Arachnid Swarms must be completed using their tentacle branch's unique research method.</ARA_Technology_1BAC.description>
+  <ARA_Technology_1BAC.label>Node BAC-1 "Seed Culture"</ARA_Technology_1BAC.label>
+  <ARA_Technology_1EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Hive Stalkers
+The evolutionary path of the Hive Stalkers is included in every branch's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows performing new Arachne evolution surgery to grant the Arachne tribe greater nutritional storage capacity and thicker exoskeletons.</ARA_Technology_1EVO.description>
+  <ARA_Technology_1EVO.label>Node EVO-1 "Basic Evolution"</ARA_Technology_1EVO.label>
+  <ARA_Technology_1FRY.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the Primary Tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows Airborn species to undergo directed evolution at the cost of sacrificing high mobility and auxiliary drone conversion capabilities, gaining a large boost in movement speed within the expedition.
+
+All research requiring blueprints from Arachnid Swarms must be completed using its tentacle branch's unique research method.</ARA_Technology_1FRY.description>
+  <ARA_Technology_1FRY.label>Node FRY-1 "Carrier"</ARA_Technology_1FRY.label>
+  <ARA_Technology_1KYC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive - Main Stalk
+The evolution path of the main stalk is included in every branch's common evolutionary pathway, laying the foundation for Arachnids' superiority in biology.&lt;/i&gt;
+
+Allows the Queen to spawn new insect tribes — Warrior Tribe.
+
+All research requiring blueprints from the Arachnid Hive must be completed using its stalked branches unique research method.</ARA_Technology_1KYC.description>
+  <ARA_Technology_1KYC.label>Node KYC-1 "Warrior Bug"</ARA_Technology_1KYC.label>
+  <ARA_Technology_1MED.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive Stingers
+The evolutionary path of the main stinger is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows honeycombs to undergo directed evolution, discarding production of insect honey to strengthen its own medical capabilities and produce medicine on a regular basis.
+
+Arachnid swarms require special research methods through their stinger branches to complete all blueprints.</ARA_Technology_1MED.description>
+  <ARA_Technology_1MED.label>Node MED-1 "Healing Seed"</ARA_Technology_1MED.label>
+  <ARA_Technology_1NPT.description>&lt;color=#887E78&gt;&lt;i&gt;Aranea Hive Stalkers
+The evolution path of the main stalks is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows a colony to build a central nutrient supply facility that automatically supplies nutrients to linked buildings requiring them.</ARA_Technology_1NPT.description>
+  <ARA_Technology_1NPT.label>Node NPT-1 "Central Tower"</ARA_Technology_1NPT.label>
+  <ARA_Technology_1STG_T.description>&lt;color=#915A30&gt;&lt;i&gt;Arachnid Swarm-Titan Tentacles
+Titan Tentacles are the main force of the Arachnid Swarm, comprising the most resilient and adaptable branch of the swarm. They handle maintaining the front line on the battlefield.&lt;/i&gt;&lt;/color&gt;
+
+Allows arachnid hives to spawn new weapons.</ARA_Technology_1STG_T.description>
+  <ARA_Technology_1STG_T.label>Node STG-1 "Blossom Chamber"</ARA_Technology_1STG_T.label>
+  <ARA_Technology_1THD.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Stinger
+The evolution path of the Primary Stingers is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Arachnid Cocoon to evolve new energy-based weapons.</ARA_Technology_1THD.description>
+  <ARA_Technology_1THD.label>Node THD-1 "Energy Lightning"</ARA_Technology_1THD.label>
+  <ARA_Technology_1TUN.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive - Main Stalk
+The evolution path of the main stalk is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows a colony to build a special fixed auxiliary worm that can dig tunnels connecting two locations and rapidly transport personnel and supplies between them.</ARA_Technology_1TUN.description>
+  <ARA_Technology_1TUN.label>Node TUN-1 "Cave Species"</ARA_Technology_1TUN.label>
+  <ARA_Technology_1VTE.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive Stingers
+The evolutionary path of the main stinger is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows shieldheads to undergo targeted evolution, discarding their ability to produce chitin and build structures in exchange for combat abilities, mobility, and ramming attack skills.
+
+All research requiring blueprints from Arachnid swarms must be completed using its stinger branch's unique research method.</ARA_Technology_1VTE.description>
+  <ARA_Technology_1VTE.label>Node VTE-1 "Guardian"</ARA_Technology_1VTE.label>
+  <ARA_Technology_1WMT.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive Stalkers
+The evolution path of the main stalks is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows queens and workers to evolve into the next stage.
+
+All research requiring blueprints from Arachnid Swarm requires completion using its unique stalk branch method.</ARA_Technology_1WMT.description>
+  <ARA_Technology_1WMT.label>Node WMT-1 "Breakthrough"</ARA_Technology_1WMT.label>
+  <ARA_Technology_2HAG.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive Stalkers
+The evolutionary path of the Hive Stalkers is included in every branch's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Arachnid tribes to build a series of Spawning Pools related buildings to begin spawning new tribes.</ARA_Technology_2HAG.description>
+  <ARA_Technology_2HAG.label>Node HAG-2 "Purification Pool"</ARA_Technology_2HAG.label>
+  <ARA_Technology_2KYC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Queen Tentacles
+The evolutionary path of the Queen's tentacle branches is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows the Empress to spawn a new insect tribe - Skyborn, agile and deadly elite insects that can traverse battlefields by flight.
+
+All research requiring blueprints from Arachnid Swarm requires completion through its tentacle branch's unique research method.</ARA_Technology_2KYC.description>
+  <ARA_Technology_2KYC.label>Node KYC-2 "Flight Wing Membrane"</ARA_Technology_2KYC.label>
+  <ARA_Technology_2MED.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the primary tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Hive Drones to use the parasitic ability of Line Species and unlock the production of a Line Species suppressant in the medical cocoon.</ARA_Technology_2MED.description>
+  <ARA_Technology_2MED.label>Node MED-2 "Erosion Parasite"</ARA_Technology_2MED.label>
+  <ARA_Technology_2MEL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Stalk
+The evolution path of the Primary Stalk is a common evolutionary pathway shared by every swarm, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Arachnid Cocoon to evolve new weapons.</ARA_Technology_2MEL.description>
+  <ARA_Technology_2MEL.label>Node MEL-2 "Bone Scythe"</ARA_Technology_2MEL.label>
+  <ARA_Technology_2NPT.description>&lt;color=#887E78&gt;&lt;i&gt;Aranea Swarm-Primary Stalk
+The evolution path of the Primary Stalk is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows a colony to build cocoons for storing excess colonies. Inside these cocoons, sleeping colonies will remain dormant until the nest intent calls them again.</ARA_Technology_2NPT.description>
+  <ARA_Technology_2NPT.label>Node NPT-2 "Sleep Cocoon"</ARA_Technology_2NPT.label>
+  <ARA_Technology_2SYM.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Hive - Main Stinger
+The evolution path of the main stingers is included in every branch's common evolutionary pathway, laying the foundation for Arachne's superiority in biology.&lt;/i&gt;
+
+Allows Arachne to build special living structures called Arachne Symbiotic Muscle Groups, a formless organization that can merge with drones and provide them with strong combat capabilities.
+
+Freezing Body Symbiotic Muscle Groups can support merging with the Freezing Drone Arachne Drones, allowing them to use various freezing weapons. They can switch between controlling large groups of people and quickly killing high-value targets.</ARA_Technology_2SYM.description>
+  <ARA_Technology_2SYM.label>Node SYM-2 "Frostbite"</ARA_Technology_2SYM.label>
+  <ARA_Technology_2WMT.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive Stalkers
+The evolution path of the main stalks is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows queens and workers to evolve into the next stage.
+
+All research requiring blueprints from Arachnid Swarm requires completion using its unique stalk branch method.</ARA_Technology_2WMT.description>
+  <ARA_Technology_2WMT.label>Node WMT-2 "Breakthrough"</ARA_Technology_2WMT.label>
+  <ARA_Technology_3CON.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the Primary Tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows Shieldhead species to undergo targeted evolution, discarding their defensive capabilities in exchange for increased exoskeleton production capacity and construction building abilities.
+
+All technologies requiring blueprints from Arachnid Swarms must be completed using its unique research method through its tentacle branches.</ARA_Technology_3CON.description>
+  <ARA_Technology_3CON.label>Node CON-3 "Builder"</ARA_Technology_3CON.label>
+  <ARA_Technology_3CRP.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the Primary Tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows Mist Species to undergo targeted evolution, discarding the ability to spray pheromones, gaining enhanced defense and mobility speed, as well as large-scale carpeting capabilities.
+
+All research requiring blueprints from Arachnid Swarms must be completed using their unique tentacle branch's research method.</ARA_Technology_3CRP.description>
+  <ARA_Technology_3CRP.label>Node CRP-3 "Bacterial Mat Installation"</ARA_Technology_3CRP.label>
+  <ARA_Technology_3EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the Primary Tentacles is included in every branch's common evolutionary pathway, laying the foundation for the Arachnids' superiority in biology.&lt;/i&gt;
+
+Allows performing new Arachnid evolution surgery, allowing Arachnid tribes to implant sliding wing membranes on their legs and gain higher mobility on the mycelium.</ARA_Technology_3EVO.description>
+  <ARA_Technology_3EVO.label>Node EVO-3 "sliding wing membrane"</ARA_Technology_3EVO.label>
+  <ARA_Technology_3LGN_T.description>&lt;color=#915A30&gt;&lt;i&gt;Arachnids- Titan Tentacles
+Titan Tentacles are the main force of the Arachnid Swarm, comprising the most resilient and adaptable branch of the swarm, tasked with maintaining the front line on the battlefield. This sub-group has balanced offensive and defensive capabilities, excelling at a hard-hitting mode to eliminate opponents.&lt;/i&gt;&lt;/color&gt;
+
+Allows Sentinels to perform targeted evolution, discarding their ability to spawn auxiliary drones in favor of stronger melee, ranged, defense, and various martial abilities.
+
+All technologies requiring blueprints for Arachnid Swarm Titan Tentacles can only be researched through gene trial eggs.</ARA_Technology_3LGN_T.description>
+  <ARA_Technology_3LGN_T.label>Node LGN-3 "The Might of the Legion"</ARA_Technology_3LGN_T.label>
+  <ARA_Technology_3MEL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolution path of the primary tentacles is included in every branch's common evolutionary pathway, laying the foundation for the swarm's superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Arachnid cocoon to spawn new weapons.</ARA_Technology_3MEL.description>
+  <ARA_Technology_3MEL.label>Node MEL-3 "Scythe"</ARA_Technology_3MEL.label>
+  <ARA_Technology_3NPT.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive Stalkers
+The evolution path of the main stalks is included in every branch's common evolutionary pathway, laying the foundation for the insect tribe's superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows a colony to build production hives that process Arachnid Honey Cakes. By breaking down honey into these cakes, they can produce edible honey cakes. This processed food helps the colony resist cold-blooded animal effects and has a soft texture that non-insect colonists also enjoy.</ARA_Technology_3NPT.description>
+  <ARA_Technology_3NPT.label>Node NPT-3 "Crystal Cake"</ARA_Technology_3NPT.label>
+  <ARA_Technology_3XPV_T.description>&lt;color=#915A30&gt;&lt;i&gt;Arachnid Swarm-Titan Tentacles
+Titan Tentacles are the main force of the Arachnid Swarm, comprising the most resilient and adaptable branch of the swarm. They handle maintaining the front line on the battlefield.&lt;/i&gt;&lt;/color&gt;
+
+Allows arachnid hives to spawn new weapons.</ARA_Technology_3XPV_T.description>
+  <ARA_Technology_3XPV_T.label>Node XPV-3 "Rapid Fire"</ARA_Technology_3XPV_T.label>
+  <ARA_Technology_4CLO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive Stalkers
+The evolution path of the main stalks is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows warriors to undergo targeted evolution by sacrificing their ability to use ranged weapons and gaining permanent stealth capabilities.
+
+All technologies requiring blueprints from Arachnid swarms must be researched using their stalks' unique research method.</ARA_Technology_4CLO.description>
+  <ARA_Technology_4CLO.label>Node CLO-4 "Hunter Type"</ARA_Technology_4CLO.label>
+  <ARA_Technology_4COV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Queen Stingers
+The evolutionary path of the Queen Stingers is a common one found in every swarm, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Arachnid swarms to build special living structures—Necromancers' Beasts, semi-autonomous individuals commanded by navigators that can flexibly attack enemy forces from above with death rain.</ARA_Technology_4COV.description>
+  <ARA_Technology_4COV.label>Node COV-4 "The Sorcerer's Horde"</ARA_Technology_4COV.label>
+  <ARA_Technology_4DIL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Stalk
+The evolution path of the Primary Stalk is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows craftable species to ferment new fabrics.</ARA_Technology_4DIL.description>
+  <ARA_Technology_4DIL.label>Node DIL-4 - Basic Fabric</ARA_Technology_4DIL.label>
+  <ARA_Technology_4EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the Primary Tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows new Arachnid evolution surgery to be performed. Allows Arachnid insects to use a self-destructive attack via explosive metamorphosis.</ARA_Technology_4EVO.description>
+  <ARA_Technology_4EVO.label>Node EVO-4 "Explosive Shelling"</ARA_Technology_4EVO.label>
+  <ARA_Technology_4KYC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive Stalkers
+The evolutionary path of the main stalks is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows the Queen to spawn new insect species—parasitic insects that can infect other species and control them with special drones.
+
+All research requiring blueprints from Arachnid Hive Stalkers must be completed using its stalk branch's unique research method.</ARA_Technology_4KYC.description>
+  <ARA_Technology_4KYC.label>Node KYC-4 "Original Worm"</ARA_Technology_4KYC.label>
+  <ARA_Technology_4NPT.description>&lt;color=#887E78&gt;&lt;i&gt;Aranea Hive Stalkers
+The evolution path of the hive stalkers is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows swarms to build Spawning Pools. A specialized facility for mass-producing insectoids. The spawning efficiency of a Spawning Pool is higher than that of a Cocoon.</ARA_Technology_4NPT.description>
+  <ARA_Technology_4NPT.label>Node NPT-4 "Chemical Reactor"</ARA_Technology_4NPT.label>
+  <ARA_Technology_5DIL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Stalk
+The evolution path of the Primary Stalk is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows craftable species to ferment new fabrics.</ARA_Technology_5DIL.description>
+  <ARA_Technology_5DIL.label>Node DIL-5 Intermediate Fabric</ARA_Technology_5DIL.label>
+  <ARA_Technology_5ESS.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive Stalkers
+The evolutionary path of the Hive Stalkers is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Arachnid Swarm to build special live body buildings by capturing prisoners and producing essence, as well as developing specialized swarm technologies through genetic experiment egg research.</ARA_Technology_5ESS.description>
+  <ARA_Technology_5ESS.label>Node ESS-5 "Essence Extraction"</ARA_Technology_5ESS.label>
+  <ARA_Technology_5EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Hive Claws
+The evolution path of the main hive claws is included in every branch's common evolutionary pathway, laying the foundation for Arachne's superiority in biology.&lt;/i&gt;
+
+Allows performing new Arachne evolution surgery to implant a reaction exoskeleton that can withstand any amount of damage.</ARA_Technology_5EVO.description>
+  <ARA_Technology_5EVO.label>Node EVO-5 "Reaction Crust"</ARA_Technology_5EVO.label>
+  <ARA_Technology_5KYC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Queen Tentacles
+The evolutionary path of the Queen's tentacle branches is a common one for all swarms, laying the foundation for their biological superiority.&lt;/i&gt;
+
+Allows the Queen to spawn new species—Mist Species—a large armored drone that can release smoke, fire retardant, and summon reinforcements with pheromones to assist in swarm assaults.
+
+All research requiring blueprints from Arachnid Swarm requires completion through its tentacle branch's unique research method.</ARA_Technology_5KYC.description>
+  <ARA_Technology_5KYC.label>Node KYC-5 "Giant Armor"</ARA_Technology_5KYC.label>
+  <ARA_Technology_5PAV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Stalk
+The evolution path of the Primary Stalk is a common evolutionary pathway shared by every swarm, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows arachnid cocoons to spawn new weapons and allows some venomous tribes to perform venom spray.</ARA_Technology_5PAV.description>
+  <ARA_Technology_5PAV.label>Node PAV-5 "Stinger"</ARA_Technology_5PAV.label>
+  <ARA_Technology_5SHL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive Stalkers
+The evolutionary path of the main stalks is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows a colony to build a special fungus that can provide direct light sources for plant growth.</ARA_Technology_5SHL.description>
+  <ARA_Technology_5SHL.label>Node SHL-5 "Light tumor"</ARA_Technology_5SHL.label>
+  <ARA_Technology_5STL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the Primary Tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows warriors to undergo targeted evolution by discarding their combat skills and acquiring the ability to extract and inject genes from colonists, prisoners, and slaves.
+
+All technologies requiring blueprints require completion through Arachnid Swarm's unique research method involving its Primary Tentacles.</ARA_Technology_5STL.description>
+  <ARA_Technology_5STL.label>Node STL-5 "Genetic Theft"</ARA_Technology_5STL.label>
+  <ARA_Technology_6DIL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Stalk
+The evolution path of the Primary Stalk is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows craftable species to ferment new fabrics.</ARA_Technology_6DIL.description>
+  <ARA_Technology_6DIL.label>Node DIL-6 Advanced Fabric</ARA_Technology_6DIL.label>
+  <ARA_Technology_6EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Hive-Primary Tentacle
+The evolutionary path of the Primary Tentacles is included in every branch's common evolutionary pathway, laying the foundation for Arachne's superiority in biology.&lt;/i&gt;
+
+Allows performing new Arachne evolution surgery to implant tendons that can support jumping ability.</ARA_Technology_6EVO.description>
+  <ARA_Technology_6EVO.label>Node EVO-6 Enhanced Tendon</ARA_Technology_6EVO.label>
+  <ARA_Technology_6GUT.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Stalk
+The evolution path of the Primary Stalk is a common evolutionary pathway shared by every swarm, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows Arachnids to utilize live giant bacteria's catalytic ability, enabling them to construct a series of structures that produce buildings.</ARA_Technology_6GUT.description>
+  <ARA_Technology_6GUT.label>Node GUT-6 Catalyst</ARA_Technology_6GUT.label>
+  <ARA_Technology_6KYC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive - Main Stalk
+The evolution path of the main stalk is included in every swarm's common evolutionary pathway, laying the foundation for the swarm's superiority in biology.&lt;/i&gt;
+
+Allows the Queen to spawn new species — Weave Species, a long-lived and highly potent insectoid species with special abilities. They assist in the swarm's research efforts and serve as powerful spellcasters.
+
+All Arachnid Swarm technologies requiring blueprints must be completed using its stalk branch's unique research method.</ARA_Technology_6KYC.description>
+  <ARA_Technology_6KYC.label>Node KYC-6 "Soul Brain"</ARA_Technology_6KYC.label>
+  <ARA_Technology_6LOD_T.description>&lt;color=#915A30&gt;&lt;i&gt;Arachnid Swarm-Titan Tentacles
+Titan Tentacles are the main force of the Arachnid Swarm, comprising the most resilient and adaptable branch of the swarm. They handle maintaining the front lines on the battlefield.&lt;/i&gt;&lt;/color&gt;
+
+Allowing Airborn Species to perform targeted evolution at the cost of sacrificing high-speed and high-altitude mobility for the ability to project a large number of Sky Dwellers. These flying auxiliary insects move quickly, and in close combat they are difficult to engage.
+
+The Arachnid Swarm's Titan Tentacles require blueprints for all necessary technologies; research can only be conducted through genetic egg experiments.</ARA_Technology_6LOD_T.description>
+  <ARA_Technology_6LOD_T.label>Node LOD-6 "Nest Master"</ARA_Technology_6LOD_T.label>
+  <ARA_Technology_6MEN.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Hive Nerve Cluster
+The evolutionary path of the main nerve cluster is included in every branch's common evolutionary pathway, laying the foundation for Arachne's superiority in biology.&lt;/i&gt;
+
+It allows the Queen to spawn new insect tribes - Lineata, a tribe that has already been infected with Arachne Lineata larvae at birth; cheap and easy to obtain as cannon fodder, but lacking discipline.
+
+All research requiring blueprints from the Arachne Hive requires completion using its nerve cluster's unique research method.</ARA_Technology_6MEN.description>
+  <ARA_Technology_6MEN.label>Node MEN-6"line"</ARA_Technology_6MEN.label>
+  <ARA_Technology_6PAV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the Primary Tentacles is included in every swarm's common evolutionary pathway, establishing their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Arachnid Cocoon to evolve new weapons.</ARA_Technology_6PAV.description>
+  <ARA_Technology_6PAV.label>Node PAV-6 "Rainstorm"</ARA_Technology_6PAV.label>
+  <ARA_Technology_6SHL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the primary tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows a colony to build a special fixed auxiliary worm that can control room temperature.</ARA_Technology_6SHL.description>
+  <ARA_Technology_6SHL.label>Node SHL-6 "Temperature Control"</ARA_Technology_6SHL.label>
+  <ARA_Technology_6SPV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Stalk
+The evolution path of the Primary Stalk is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows Arachnid Cocoon to evolve new weapons.</ARA_Technology_6SPV.description>
+  <ARA_Technology_6SPV.label>Node SPV-6 "Beehive"</ARA_Technology_6SPV.label>
+  <ARA_Technology_6VXI.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the primary tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allowing acid pouches on insect tribes to spray strong acid to repel enemies.</ARA_Technology_6VXI.description>
+  <ARA_Technology_6VXI.label>Node VXI-6 Acid Pouch</ARA_Technology_6VXI.label>
+  <ARA_Technology_7ACD_T.description>&lt;color=#915A30&gt;&lt;i&gt;Arachnid Swarm-Titan Tentacles
+Titan Tentacles are the main force of the Arachnid Swarm, comprising the most resilient and adaptable branch of the swarm. They handle maintaining the front lines on the battlefield.&lt;/i&gt;&lt;/color&gt;
+
+Allows Hive Drones to undergo targeted evolution, discarding their ability to spawse auxiliary larvae, in exchange for dissolving prisoners and captives to quickly obtain honey from lipase-strong acid.
+
+All research requiring blueprints for Arachnid Swarm-Titan Tentacles can only be conducted via gene trial eggs.</ARA_Technology_7ACD_T.description>
+  <ARA_Technology_7ACD_T.label>Node ACD-7 "Lipolytic Acid"</ARA_Technology_7ACD_T.label>
+  <ARA_Technology_7EVO_T.description>&lt;color=#915A30&gt;&lt;i&gt;Arachnids- Titan Tentacles
+Titan Tentacles are the main force of the Arachnid Swarm, comprising the most resilient and adaptable branch of the swarm, tasked with maintaining the front line on the battlefield. This sub-group has balanced offensive and defensive capabilities, excelling at a hard-hitting mode to eliminate opponents.&lt;/i&gt;&lt;/color&gt;
+
+Allows for new Arachnid evolution surgery, allowing Arachnid worms to implant spines that automatically attack nearby enemies.
+
+All technologies requiring blueprints for Titan Tentacles of the Arachnid Swarm can only be researched through gene trial eggs.</ARA_Technology_7EVO_T.description>
+  <ARA_Technology_7EVO_T.label>Node EVO-7 "Spiny Shell"</ARA_Technology_7EVO_T.label>
+  <ARA_Technology_7KYC.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive - Tentacle Root
+The evolutionary path of the main tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows the Queen to spawn a new tribe - the Sentinels, a more long-lived elite insect tribe with excellent ranged combat and social abilities. They can also serve as commanders to lead the swarm.
+
+All research requiring blueprints from Arachnid swarms must be completed using their tentacle branch's unique research method.</ARA_Technology_7KYC.description>
+  <ARA_Technology_7KYC.label>Node KYC-7 "Guard"</ARA_Technology_7KYC.label>
+  <ARA_Technology_7PAV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Stalk
+The evolution path of the Primary Stalk is a common evolutionary pathway shared by every swarm, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Arachnid Cocoon to evolve new weapons.</ARA_Technology_7PAV.description>
+  <ARA_Technology_7PAV.label>Node PAV-7 "Bloodspike"</ARA_Technology_7PAV.label>
+  <ARA_Technology_7SPV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Stinger
+The evolutionary path of the Primary Stingers is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows a colony to build an advanced defense facility that can launch self-destructive attacks centered around suicide-bomber auxiliaries.</ARA_Technology_7SPV.description>
+  <ARA_Technology_7SPV.label>Node SPV-7 "Explosive Projectile"</ARA_Technology_7SPV.label>
+  <ARA_Technology_7VXI.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolution path of the Primary Tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Arachnid Cocoon to evolve new weapons.</ARA_Technology_7VXI.description>
+  <ARA_Technology_7VXI.label>Node VXI-7 Acid Bag External</ARA_Technology_7VXI.label>
+  <ARA_Technology_8CPE.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the primary tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows the colony to cultivate a crop on mycelium that can grow using nutrients from both mycelium and soil, providing activated fungus for the nest.</ARA_Technology_8CPE.description>
+  <ARA_Technology_8CPE.label>Node CPE-8 - Giant Microbe Cultivation</ARA_Technology_8CPE.label>
+  <ARA_Technology_8EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Hive Stalkers
+The evolutionary path of the Hive Stalkers is included in every branch's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows performing new Arachne evolution surgery, allowing Arachne insects to implant glass steel shells for strong defense.</ARA_Technology_8EVO.description>
+  <ARA_Technology_8EVO.label>Node EVO-8 "Glass Fiberglass Shell"</ARA_Technology_8EVO.label>
+  <ARA_Technology_8FEL.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive Stingers
+The evolutionary path of the main stinger is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows honeycombs to undergo directed evolution, discarding production of insect honey to gain enhanced defense capabilities, fuel synthesis and flamethrower abilities.
+
+All research requiring blueprints from Arachnid swarms must be completed using their stinger branch's unique research method.</ARA_Technology_8FEL.description>
+  <ARA_Technology_8FEL.label>Node FEL-8 "Fuel Cell"</ARA_Technology_8FEL.label>
+  <ARA_Technology_8PAV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the primary tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows a tribe to build an advanced defense facility with strong armor-piercing capabilities and high rate of fire, specializing in combating heavy-armored targets.</ARA_Technology_8PAV.description>
+  <ARA_Technology_8PAV.label>Node PAV-8 "Gigantic Cannon"</ARA_Technology_8PAV.label>
+  <ARA_Technology_8POD.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the primary tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows a colony to build a special auxiliary insect that can deliver items and insects via air drop to other locations on the map without fuel.</ARA_Technology_8POD.description>
+  <ARA_Technology_8POD.label>Node POD-8 "Gas Bag Species"</ARA_Technology_8POD.label>
+  <ARA_Technology_8SLA.description>&lt;color=#915A30&gt;&lt;i&gt;Arachnids- Titan Tentacles
+Titan Tentacles are the main force of the Arachnid Swarm, comprising the most resilient and adaptable sub-species within the swarm, tasked with maintaining the front line on the battlefield. This branch's sub-swarm has balanced offensive and defensive capabilities, excelling in a hard-hitting mode to annihilate opponents.&lt;/i&gt;&lt;/color&gt;
+
+Allows the Queen Hive to spawn new beast-creatures: the Carnivores.
+
+All research for Arachnid Swarm Titan Tentacles requires blueprints. Research can only be conducted through genetic egg experiments.</ARA_Technology_8SLA.description>
+  <ARA_Technology_8SLA.label>Node SLA-8 "The Savage Beast"</ARA_Technology_8SLA.label>
+  <ARA_Technology_8VXI.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolution path of the Primary Tentacles is included in every swarm's common evolutionary pathway, establishing their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Arachnid Cocoon to evolve new weapons.</ARA_Technology_8VXI.description>
+  <ARA_Technology_8VXI.label>Node VXI-8 "Large Acid Gland"</ARA_Technology_8VXI.label>
+  <ARA_Technology_9CPE.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the primary tentacles is included in every swarm's common evolutionary pathway, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows the insect tribe to cultivate a special crop on mycelium, which will grow into a fungal aggregate with an attack capability that shoots toxic spines at enemies.</ARA_Technology_9CPE.description>
+  <ARA_Technology_9CPE.label>Node CPE-9 "Stinger Sniper"</ARA_Technology_9CPE.label>
+  <ARA_Technology_9EVO.description>&lt;color=#887E78&gt;&lt;i&gt;Arachne Hive Stalkers
+The evolutionary path of the main hive tendrils is included in every branch's common evolutionary pathway, laying the foundation for the Arachne species' superiority in biology.&lt;/i&gt;
+
+Allows performing new Arachne evolution surgery, allowing the Arachne to sacrifice their self-healing ability and break free from lifespan limits.</ARA_Technology_9EVO.description>
+  <ARA_Technology_9EVO.label>Node EVO-9 "Physiological Suppression"</ARA_Technology_9EVO.label>
+  <ARA_Technology_9NAV.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Hive-Primary Stalk
+The evolution path of the Primary Stalk is a common evolutionary pathway shared by every swarm, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows Sentinels to undergo targeted evolution, discarding direct combat abilities and command over ground insectoid units, in exchange for commanding aerial insectoid units.
+
+All research requiring blueprints from Arachnid swarms must be completed using its stalk branch's unique research method.</ARA_Technology_9NAV.description>
+  <ARA_Technology_9NAV.label>Node NAV-9 "Navigator"</ARA_Technology_9NAV.label>
+  <ARA_Technology_9VXI.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Stalk
+The evolution path of the Primary Stalk is a common evolutionary pathway shared by every swarm, laying the foundation for their superiority in biology.&lt;/i&gt;&lt;/color&gt;
+
+Allows Arachnid Cocoon to evolve new weapons.</ARA_Technology_9VXI.description>
+  <ARA_Technology_9VXI.label>Node VXI-9 Acid Rain</ARA_Technology_9VXI.label>
+  <ARA_Technology_9WID.description>&lt;color=#887E78&gt;&lt;i&gt;Arachnid Swarm-Primary Tentacle
+The evolutionary path of the Primary Tentacles is a common one found in every swarm, laying the foundation for their superiority in biology.&lt;/i&gt;
+
+Allows Airborn to undergo targeted evolution at the cost of sacrificing high-speed and high-altitude mobility, gaining the ability to launch large numbers of EMP species against mechanical tribes. Such swarms can release suicidal attacks with EMPs to counter mechanical races.
+
+All research requiring blueprints for Arachnid Swarm require completion using its tentacle branch's unique research method.</ARA_Technology_9WID.description>
+  <ARA_Technology_9WID.label>Node WID-9 - Magnetic Storm</ARA_Technology_9WID.label>
+  <ARA_Titan_Base_Technology.description>&lt;color=#915A30&gt;&lt;i&gt;Arachnid Swarm-Titan Tentacles
+Titan Tentacles are the main force of the Arachnid Swarm, comprising the most resilient and adaptable sub-species within the swarm. They are tasked with maintaining the front line on the battlefield.&lt;/i&gt;&lt;/color&gt;
+
+Unlock research into Arachnid Swarm Titan Tentacles.
+
+This technology cannot be actively researched; it will unlock for the Arachnid Queen's species type at launch.</ARA_Titan_Base_Technology.description>
+  <ARA_Titan_Base_Technology.label>Titan Tentacles Specialization</ARA_Titan_Base_Technology.label>
+</LanguageData>

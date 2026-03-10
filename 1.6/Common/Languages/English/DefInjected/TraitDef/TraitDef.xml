@@ -1,0 +1,10 @@
+﻿<LanguageData>
+  <ARA_CreepyCrawly.degreeDatas.0.description>{PAWN_nameDef} is a giant arthropod, with multiple limbs, mirrored reflective exoskeleton and twisting segmented body segments that can evoke deep-seated human fear.
+
+You really think they're just a bunch of pretty girls?</ARA_CreepyCrawly.degreeDatas.0.description>
+  <ARA_CreepyCrawly.degreeDatas.0.label>Invertebrates</ARA_CreepyCrawly.degreeDatas.0.label>
+  <ARA_Queen_Main_Trait.degreeDatas.0.description>{PAWN_nameDef} is the only individual in Arachne's Hive that can reproduce Spawns, and the core of the Hive Mind pyramid. She bears the great mission to lead the Arachne Swarm forward.
+
+She has taken control of most of the swarm's autonomy, which makes her underlings Spawns no longer feel sorrow or fear, becoming a powerful flesh army—but if she suffers a mental breakdown, it will spread through the hive network to every individual!</ARA_Queen_Main_Trait.degreeDatas.0.description>
+  <ARA_Queen_Main_Trait.degreeDatas.0.label>I am the swarm.</ARA_Queen_Main_Trait.degreeDatas.0.label>
+</LanguageData>

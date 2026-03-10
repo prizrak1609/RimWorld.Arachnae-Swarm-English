@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_Incubator_1_Flaw_Hediffs.label>Endocrine disorders</ARA_Incubator_1_Flaw_Hediffs.label>
+  <ARA_Incubator_1_Flaw_Hediffs.description>The rapid hatching caused the endocrine system of the Arachnidok to develop abnormally, and various hormones in the body were maintained at low levels for a long time. \n\nDue to poor hatching quality, the Arachnidok acquired this unfavorable mutation.</ARA_Incubator_1_Flaw_Hediffs.description>
+  <ARA_Incubator_2_Flaw_Hediffs.label>Missing exoskeleton</ARA_Incubator_2_Flaw_Hediffs.label>
+  <ARA_Incubator_2_Flaw_Hediffs.description>The rapid hatching prevents the Arachnidok from developing a complete exoskeleton, making them extremely weak. \n\nDue to poor hatching quality, the Arachnidok acquired this unfavorable mutation.</ARA_Incubator_2_Flaw_Hediffs.description>
+  <ARA_Incubator_3_Flaw_Hediffs.label>Dyspraxia</ARA_Incubator_3_Flaw_Hediffs.label>
+  <ARA_Incubator_3_Flaw_Hediffs.description>The rapid hatching makes the nervous system of the Arachnidok very slow. Not only can it not remember anything, but even some ordinary movements will be disturbed. \n\nDue to poor hatching quality, the Arachnidok acquired this unfavorable mutation.</ARA_Incubator_3_Flaw_Hediffs.description>
+  <ARA_Incubator_4_Flaw_Hediffs.label>Extremely poor vision</ARA_Incubator_4_Flaw_Hediffs.label>
+  <ARA_Incubator_4_Flaw_Hediffs.description>The rapid hatching renders the arachnid's external receptors underdeveloped. \n\nDue to poor hatching quality, the Arachnidok acquired this unfavorable mutation.</ARA_Incubator_4_Flaw_Hediffs.description>
+  <ARA_Incubator_1_Reward_Hediffs.label>dense carapace</ARA_Incubator_1_Reward_Hediffs.label>
+  <ARA_Incubator_1_Reward_Hediffs.description>The Arachnidok's carapace is more compact than that of a regular Zerg, giving her carapace extra defense. \n\nDue to good hatching quality, the Arachnidok acquired this advantageous mutation.</ARA_Incubator_1_Reward_Hediffs.description>
+  <ARA_Incubator_2_Reward_Hediffs.label>Flame retardant grease under shell</ARA_Incubator_2_Reward_Hediffs.label>
+  <ARA_Incubator_2_Reward_Hediffs.description>The arachnid's subcutaneous fat acquires a flame-retardant effect due to favorable mutations. When a Zerg is burned by flames, the layer of flame-retardant fat bursts to extinguish the fire. \n\nDue to good hatching quality, the Arachnidok acquired this advantageous mutation.</ARA_Incubator_2_Reward_Hediffs.description>
+  <ARA_Incubator_3_Reward_Hediffs.label>action hormone</ARA_Incubator_3_Reward_Hediffs.label>
+  <ARA_Incubator_3_Reward_Hediffs.description>The Arachneid's gland is very abnormal. It will continuously secrete hormones to make it in an excited state, and it can be transmitted to the armed organs connected to it. \n\nDue to good hatching quality, the Arachnidok acquired this advantageous mutation.</ARA_Incubator_3_Reward_Hediffs.description>
+  <ARA_Incubator_4_Reward_Hediffs.label>high static vision</ARA_Incubator_4_Reward_Hediffs.label>
+  <ARA_Incubator_4_Reward_Hediffs.description>The advantageous mutation of this Arachneid has given it advanced static vision that is different from other Zerg species, which makes up for its shortcomings in vision and makes it easier to shoot. \n\nDue to good hatching quality, the Arachnidok acquired this advantageous mutation.</ARA_Incubator_4_Reward_Hediffs.description>
+  <ARA_Incubator_5_Reward_Hediffs.label>strong muscles</ARA_Incubator_5_Reward_Hediffs.label>
+  <ARA_Incubator_5_Reward_Hediffs.description>The Arachnedo was incredibly strong—it was over-nourished. \n\nDue to good hatching quality, the Arachnidok acquired this advantageous mutation.</ARA_Incubator_5_Reward_Hediffs.description>
+  <ARA_Incubator_6_Reward_Hediffs.label>Central strengthening</ARA_Incubator_6_Reward_Hediffs.label>
+  <ARA_Incubator_6_Reward_Hediffs.description>The Arachnidok's neurological reactions far exceed those of other Zerg species, and thanks to its stronger reflexes, its movements become agile and deadly. \n\nDue to good hatching quality, the Arachnidok acquired this advantageous mutation.</ARA_Incubator_6_Reward_Hediffs.description>
+  <ARA_Incubator_7_Reward_Hediffs.label>plastic memory</ARA_Incubator_7_Reward_Hediffs.label>
+  <ARA_Incubator_7_Reward_Hediffs.description>The Arachnidok's memory structure is more complex and can quickly absorb new knowledge and experience. \n\nDue to good hatching quality, the Arachnidok acquired this advantageous mutation.</ARA_Incubator_7_Reward_Hediffs.description>
+  <ARA_Incubator_8_Reward_Hediffs.label>coagulation factors</ARA_Incubator_8_Reward_Hediffs.label>
+  <ARA_Incubator_8_Reward_Hediffs.description>The coagulation system of this Arachneid is more efficient, and a variety of special coagulation factors that are not found in other Arachnids greatly slow down its bleeding rate. \n\nDue to good hatching quality, the Arachnidok acquired this advantageous mutation.</ARA_Incubator_8_Reward_Hediffs.description>
+  <ARA_Incubator_5_Flaw_Hediffs.label>Muscle atrophy</ARA_Incubator_5_Flaw_Hediffs.label>
+  <ARA_Incubator_5_Flaw_Hediffs.description>The rapid hatching left the Arachneid's muscle tissue underdeveloped, and its strength was far lower than that of a normal individual. \n\nDue to poor hatching quality, the Arachnidok acquired this unfavorable mutation.</ARA_Incubator_5_Flaw_Hediffs.description>
+  <ARA_Incubator_6_Flaw_Hediffs.label>Coagulopathy</ARA_Incubator_6_Flaw_Hediffs.label>
+  <ARA_Incubator_6_Flaw_Hediffs.description>The rapid hatching causes the arachnid's coagulation mechanism to be abnormal, causing it to lose a large amount of blood once injured. \n\nDue to poor hatching quality, the Arachnidok acquired this unfavorable mutation.</ARA_Incubator_6_Flaw_Hediffs.description>
+  <ARA_Incubator_7_Flaw_Hediffs.label>osteoporosis</ARA_Incubator_7_Flaw_Hediffs.label>
+  <ARA_Incubator_7_Flaw_Hediffs.description>The rapid hatching makes the Arachneid's endoskeleton extremely fragile, making it more vulnerable to fatal injuries. \n\nDue to poor hatching quality, the Arachnidok acquired this unfavorable mutation.</ARA_Incubator_7_Flaw_Hediffs.description>
+  <ARA_Incubator_8_Flaw_Hediffs.label>Immunodeficiency</ARA_Incubator_8_Flaw_Hediffs.label>
+  <ARA_Incubator_8_Flaw_Hediffs.description>The rapid hatching makes the arachnid's immune system poorly developed and its resistance to disease extremely low. \n\nDue to poor hatching quality, the Arachnidok acquired this unfavorable mutation.</ARA_Incubator_8_Flaw_Hediffs.description>
+  <ARA_Incubator_Elite_Regeneration.label>Super dense carapace</ARA_Incubator_Elite_Regeneration.label>
+  <ARA_Incubator_Elite_Regeneration.description>The carapace density of this Arachnidok is far higher than that of regular individuals, making it almost indestructible, and it also has excellent heat resistance. \n\nDue to the excellent hatching quality, the Arachnidok acquired this rare mutation.</ARA_Incubator_Elite_Regeneration.description>
+  <ARA_Incubator_Elite_AdaptiveArmor.label>super hormone</ARA_Incubator_Elite_AdaptiveArmor.label>
+  <ARA_Incubator_Elite_AdaptiveArmor.description>The glands of this Arachnidok are abnormally developed and continue to secrete high concentrations of hormones, putting it in an extremely excited state and attacking at an alarming speed. \n\nDue to the excellent hatching quality, the Arachnidok acquired this rare mutation.</ARA_Incubator_Elite_AdaptiveArmor.description>
+  <ARA_Incubator_Elite_BerserkGlands.label>perfect muscles</ARA_Incubator_Elite_BerserkGlands.label>
+  <ARA_Incubator_Elite_BerserkGlands.description>The Arachneid's muscle tissue has been perfectly developed, its strength far exceeds that of its kind, its melee attack power is astonishing, and its weight-bearing capacity has also been greatly improved. \n\nDue to the excellent hatching quality, the Arachnidok acquired this rare mutation.</ARA_Incubator_Elite_BerserkGlands.description>
+  <ARA_Incubator_Elite_PsychicResonance.label>ultimate consciousness</ARA_Incubator_Elite_PsychicResonance.label>
+  <ARA_Incubator_Elite_PsychicResonance.description>The nervous system of this Arachneid has been perfectly developed, and its consciousness, vision, hearing and other perceptual abilities are greatly superior to those of its kind. \n\nDue to the excellent hatching quality, the Arachnidok acquired this rare mutation.</ARA_Incubator_Elite_PsychicResonance.description>
+</LanguageData>

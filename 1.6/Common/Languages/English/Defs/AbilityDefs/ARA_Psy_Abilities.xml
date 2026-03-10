@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_Neurotyrant_Harvest.label>Evolution point harvesting</ARA_Neurotyrant_Harvest.label>
+  <ARA_Neurotyrant_Harvest.description>The Iris Seed drains the target's intelligence and converts it into evolution points. Although it takes a while to complete the consumption, it will kill the target directly.</ARA_Neurotyrant_Harvest.description>
+  <ARA_Neurotyrant_PsychicLoadDump.label>Load backlash</ARA_Neurotyrant_PsychicLoadDump.label>
+  <ARA_Neurotyrant_PsychicLoadDump.description>The illithid exports the powerful load it endures to the target. If the target does not have psionic abilities, the backlash will kill the target immediately; individuals with psionic abilities can avoid this fatal impact, but a large amount of psychic entropy will accumulate.</ARA_Neurotyrant_PsychicLoadDump.description>
+  <ARA_Neurotyrant_T1_PsyShoot.label>psychic projectile</ARA_Neurotyrant_T1_PsyShoot.label>
+  <ARA_Neurotyrant_T1_PsyShoot.description>Charges briefly and then fires a set of psychic projectiles.</ARA_Neurotyrant_T1_PsyShoot.description>
+  <Bullet_ARA_Neurotyrant_T1_PsyShoot.label>psychic projectile</Bullet_ARA_Neurotyrant_T1_PsyShoot.label>
+  <ARA_Neurotyrant_T1_PsyPsuh.label>Psychic Push</ARA_Neurotyrant_T1_PsyPsuh.label>
+  <ARA_Neurotyrant_T1_PsyPsuh.description>Instantly releases directed psychic energy to damage nearby enemies, then knocks them away and stuns them.</ARA_Neurotyrant_T1_PsyPsuh.description>
+  <ARA_Neurotyrant_T1_PsyHemostasis.label>Stop bleeding</ARA_Neurotyrant_T1_PsyHemostasis.label>
+  <ARA_Neurotyrant_T1_PsyHemostasis.description>Use psychic energy to forcefully seal the target's wounds, temporarily stopping blood loss.</ARA_Neurotyrant_T1_PsyHemostasis.description>
+</LanguageData>

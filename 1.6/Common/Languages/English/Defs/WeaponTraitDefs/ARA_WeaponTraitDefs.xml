@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_Huge_Weapon.label>large armed organs</ARA_Huge_Weapon.label>
+  <ARA_Huge_Weapon.description>This kind of armed organ is quite huge, and only those large Arachnids (size greater than 2.0) can use this weapon.</ARA_Huge_Weapon.description>
+  <ARA_Weapon_Damage_Acid.label>Arachne acid</ARA_Weapon_Damage_Acid.label>
+  <ARA_Weapon_Damage_Acid.description>When the projectile of this weapon hits an enemy, it will leave acid on the opponent's body that causes continuous damage.</ARA_Weapon_Damage_Acid.description>
+  <ARA_Weapon_Damage_Toxid.label>Arachne toxin</ARA_Weapon_Damage_Toxid.label>
+  <ARA_Weapon_Damage_Toxid.description>When the projectile of this weapon hits an enemy, it will inject toxin into the opponent's body, causing him to be poisoned.</ARA_Weapon_Damage_Toxid.description>
+  <ARA_Weapon_Damage_Spawn.label>Arachne's Nest</ARA_Weapon_Damage_Spawn.label>
+  <ARA_Weapon_Damage_Spawn.description>The main attack method of this kind of armed organ is to release auxiliary insects. Some of them will directly throw the auxiliary insects into the enemy, while others will make the auxiliary insects track and absorb the enemy to cause damage.</ARA_Weapon_Damage_Spawn.description>
+  <ARA_Weapon_ChainReload.label>chain reload</ARA_Weapon_ChainReload.label>
+  <ARA_Weapon_ChainReload.description>This armed organ releases hormones with each attack to speed up metabolism, which is reflected in increased firing and reloading speeds.</ARA_Weapon_ChainReload.description>
+  <ARA_Weapon_OverPenetrate.label>over penetration</ARA_Weapon_OverPenetrate.label>
+  <ARA_Weapon_OverPenetrate.description>When the projectile of this weapon hits an enemy, it will not stop but will penetrate all enemies in its path and cause damage.</ARA_Weapon_OverPenetrate.description>
+  <ARA_Weapon_Damage_LightingChain.label>Psionic Chain Lightning</ARA_Weapon_Damage_LightingChain.label>
+  <ARA_Weapon_Damage_LightingChain.description>This weapon fires a chain of lightning that ricochetes between enemies, causing damage.</ARA_Weapon_Damage_LightingChain.description>
+  <ARA_Weapon_Damage_Icez.label>Frozen fragmentation</ARA_Weapon_Damage_Icez.label>
+  <ARA_Weapon_Damage_Icez.description>This armed organ freezes the enemy, a state that renders the target's body structure extremely fragile. As this effect deepens, the "freezing" damage threshold sufficient to destroy body parts will be significantly reduced. .</ARA_Weapon_Damage_Icez.description>
+  <ARA_Weapon_Damage_FrostExplode.label>frost blast</ARA_Weapon_Damage_FrostExplode.label>
+  <ARA_Weapon_Damage_FrostExplode.description>The frost mist emitted by this weapon can contaminate enemies, and the contaminated enemies will explode again.</ARA_Weapon_Damage_FrostExplode.description>
+</LanguageData>

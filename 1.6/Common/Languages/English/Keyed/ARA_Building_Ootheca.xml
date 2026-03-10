@@ -106,6 +106,7 @@
 <ARA_EquipmentIncubator.Hours>time</ARA_EquipmentIncubator.Hours>
 <ARA_EquipmentIncubator.Speed>speed</ARA_EquipmentIncubator.Speed>
 <ARA_EquipmentIncubator.Target>subject</ARA_EquipmentIncubator.Target>
+<ARA_EquipmentIncubator.Quality>quality</ARA_EquipmentIncubator.Quality>
 <ARA_EquipmentIncubator.SpeedMultiplier>speed multiplier</ARA_EquipmentIncubator.SpeedMultiplier>
 <ARA_EquipmentIncubator.QualityMultiplier>quality magnification</ARA_EquipmentIncubator.QualityMultiplier>
 <ARA_EquipmentIncubator.SpeedFactors>rate factor</ARA_EquipmentIncubator.SpeedFactors>
@@ -160,6 +161,7 @@
 <ARA_EquipmentIncubator.ButtonLabel>Hatching: {0}</ARA_EquipmentIncubator.ButtonLabel>
 <ARA_EquipmentIncubator.IncubationTime>Hatching time: {0} days</ARA_EquipmentIncubator.IncubationTime>
 <ARA_EquipmentIncubator.ResearchCompleted>Research completed: {0}</ARA_EquipmentIncubator.ResearchCompleted>
+<ARA_EquipmentIncubator.ResearchRequired>Needs research: {0}</ARA_EquipmentIncubator.ResearchRequired>
 <ARA_EquipmentIncubator.NoResearchRequired>No research required</ARA_EquipmentIncubator.NoResearchRequired>
 <ARA_EquipmentIncubator.ButtonDesc>Please select an item to hatch</ARA_EquipmentIncubator.ButtonDesc>
 <ARA_EquipmentIncubator.MenuTitle>Select hatching target</ARA_EquipmentIncubator.MenuTitle>

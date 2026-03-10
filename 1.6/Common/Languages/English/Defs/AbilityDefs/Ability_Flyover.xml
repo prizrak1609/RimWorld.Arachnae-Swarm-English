@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_SpawnFlyOverTest.label>Mothership Call</ARA_SpawnFlyOverTest.label>
+  <ARA_SpawnFlyOverTest.description>Summon the Hive Mothership and start the final event chain of the swarm invasion (for testing only, use at your own risk)</ARA_SpawnFlyOverTest.description>
+  <ARA_Spawn_ARA_HiveCorvette_Rocket.label>Tianwu Cruise: Acid Burning Cannon Straf</ARA_Spawn_ARA_HiveCorvette_Rocket.label>
+  <ARA_Spawn_ARA_HiveCorvette_Rocket.description>The pilot species commands the Arachne Sky Witch species beasts to fly across the battlefield at high speed, and uses its swift Scourge Cannon with the Arachne Acid effect to strike at the target area. \n\nDuring flight, it will use the Blood Chain Thorn Cannon to attack the enemies it encounters. Due to the small attack range, the Blood Chain Thorn Cannon can only hit the first 7 targets it encounters.</ARA_Spawn_ARA_HiveCorvette_Rocket.description>
+  <ARA_Spawn_ARA_HiveCorvette_DiveBomb.label>Sky Witch Cruise: Scourge Bombing</ARA_Spawn_ARA_HiveCorvette_DiveBomb.label>
+  <ARA_Spawn_ARA_HiveCorvette_DiveBomb.description>The pilot species commanded the Arachne Sky Witch species to fly across the battlefield at high speed, and used its Scourge Missile with the Arachne Acid effect to strike the target area. \n\nThe cooldown caused by this support is much longer than other supports, but its power is unquestionable.</ARA_Spawn_ARA_HiveCorvette_DiveBomb.description>
+  <ARA_Spawn_ARA_HiveCorvette_Bombardment.label>Witch Cruise: Acid Bombing</ARA_Spawn_ARA_HiveCorvette_Bombardment.label>
+  <ARA_Spawn_ARA_HiveCorvette_Bombardment.description>The pilot species commanded the Arachne Sky Witch Beast Bugs to sweep across the battlefield at a slow speed, bombarding a large target area with acid clusters that had the effect of Arachne Bug Acid. \n\nDuring flight, it will use high-damage, high-armor-piercing Blood Chain Thorn Cannon to attack all enemies it encounters.</ARA_Spawn_ARA_HiveCorvette_Bombardment.description>
+  <ARA_Spawn_ARA_HiveCorvette_Strike.label>Heavenly Witch Cruise: Bloodthorn Surveillance</ARA_Spawn_ARA_HiveCorvette_Strike.label>
+  <ARA_Spawn_ARA_HiveCorvette_Strike.description>The pilot type commands the Arachne Witch type beasts and insects to slowly sweep across the battlefield, using high-damage, high-armor-piercing blood-chain thorn cannons to attack all enemies encountered. In this attack mode, the field of view of the Sky Witch is relatively narrow and it is difficult to attack the entire group.</ARA_Spawn_ARA_HiveCorvette_Strike.description>
+</LanguageData>

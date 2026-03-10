@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_MW_Bone_Sword.label>Armed organ "Bone Blade"</ARA_MW_Bone_Sword.label>
+  <ARA_MW_Bone_Sword.description>Arachne swarm worms use basic melee weapons, which are connected to the worm's auxiliary limbs through multiple exposed nerve bundles. Although it is just a hard sword-shaped bone fragment, it does not affect the Arachne swarm worms with infinite brute force who can use it to decapitate the enemies that invade the nest one by one.</ARA_MW_Bone_Sword.description>
+  <ARA_MW_Bone_Sword.tools.0.label>sweep across</ARA_MW_Bone_Sword.tools.0.label>
+  <ARA_MW_Bone_Sword.tools.1.label>Smash down</ARA_MW_Bone_Sword.tools.1.label>
+  <ARA_MW_Cartilage_Whip.label>Armed organ "cartilaginous whip"</ARA_MW_Cartilage_Whip.label>
+  <ARA_MW_Cartilage_Whip.description>The melee weapon used by the Arachne swarm worms, the cartilage segments are intertwined to form a strong whip. This weapon not only makes a terrifying sound when it hits the enemy, but also causes unbearable pain to the opponent, and the blunt force damage mainly based on blows can also well evade the enemy's armor defense.</ARA_MW_Cartilage_Whip.description>
+  <ARA_MW_Cartilage_Whip.tools.0.label>whipping</ARA_MW_Cartilage_Whip.tools.0.label>
+  <ARA_Whip.label>whipping</ARA_Whip.label>
+  <ARA_MW_Scything_Talons.label>Armed organ "Sickle Claw"</ARA_MW_Scything_Talons.label>
+  <ARA_MW_Scything_Talons.description>The melee weapon used by the Arachne swarm is shaped like a giant scythe and can be connected to the auxiliary limbs through nerve bundles. Thanks to its huge size, each swing will cause area-of-effect damage and can knock down multiple adjacent targets at once.</ARA_MW_Scything_Talons.description>
+  <ARA_MW_Scything_Talons.tools.0.label>swipe</ARA_MW_Scything_Talons.tools.0.label>
+  <ARA_MW_Scything_Talons_Cut.label>Sickle Claw Swipe</ARA_MW_Scything_Talons_Cut.label>
+  <ARA_RW_Basic_Fist_Needle_Gun.label>Armed organ "needle gun"</ARA_RW_Basic_Fist_Needle_Gun.label>
+  <ARA_RW_Basic_Fist_Needle_Gun.description>The Arachne swarm uses basic long-range weapons, which look like a glove and can be connected to the Arachne's auxiliary limbs through nerve bundles. This weapon is small and light, and although its range is short, it can emit a row of poisonous spikes when facing an enemy, stabbing the opponent to the core.</ARA_RW_Basic_Fist_Needle_Gun.description>
+  <ARA_RW_Basic_Fist_Needle_Gun.tools.0.label>boxing needle gun boxing</ARA_RW_Basic_Fist_Needle_Gun.tools.0.label>
+  <Bullet_ARA_RW_Basic_Fist_Needle_Gun.label>Poison needle</Bullet_ARA_RW_Basic_Fist_Needle_Gun.label>
+  <ARA_RW_Toxic_Needle_MG.label>Armed organ "Storm Stinger Gun"</ARA_RW_Toxic_Needle_MG.label>
+  <ARA_RW_Toxic_Needle_MG.description>The armed organ used by the Arachne swarm has five rows of stinging needle channels, which can alternately fire a large number of poisonous needles under the command of the connected nerve bundles. Although the accuracy is poor, the power is not inferior to the machine guns used by humans.</ARA_RW_Toxic_Needle_MG.description>
+  <Bullet_ARA_RW_Toxic_Needle_MG.label>Poison needle</Bullet_ARA_RW_Toxic_Needle_MG.label>
+  <ARA_RW_Toxic_Needle_SG.label>Armed organ "Blooming Spear"</ARA_RW_Toxic_Needle_SG.label>
+  <ARA_RW_Toxic_Needle_SG.description>The weapon organ used by the Arachne swarm has twin short-range pipes with multiple rows of stingers. The firing accuracy is poor but it can fire a large amount of ammunition at one time, and its power is no less powerful than a human shotgun.</ARA_RW_Toxic_Needle_SG.description>
+  <Bullet_ARA_RW_Basic_Fist_Needle_Gun_SG.label>Poison needle</Bullet_ARA_RW_Basic_Fist_Needle_Gun_SG.label>
+  <ARA_Bullet_SniperCannon.label>Arachne Thorn</ARA_Bullet_SniperCannon.label>
+  <ARA_RW_Basic_SniperCannon_Gun.label>Armed organ "Blood Chain Thorn Cannon"</ARA_RW_Basic_SniperCannon_Gun.label>
+  <ARA_RW_Basic_SniperCannon_Gun.description>The large armed organs of the Arachne swarm have an aggressive appearance with teeth and claws. Its mouthparts are connected to a series of blood chains that can proliferate giant spines, and through muscle compression, they can obtain extremely high chamber pressure to eject spines with astonishing destructive power from the cavity. The swarm got inspiration from human weapons and added companion hormones to the blood spines, so that the rate of fire of the blood spines cannon will increase as the shooting continues.</ARA_RW_Basic_SniperCannon_Gun.description>
+  <ARA_Bullet_Rail.label>Arachne travels through thorns</ARA_Bullet_Rail.label>
+  <ARA_RW_Basic_Rail_Gun.label>Arms "Blade Spear"</ARA_RW_Basic_Rail_Gun.label>
+  <ARA_RW_Basic_Rail_Gun.description>Although the armed organs of the Arachne swarm are not very large, the thorns shot out through muscle compression are extremely penetrating and can penetrate rows of enemy troops. In addition, this kind of armed organ also has a small bone blade in the lower jaw, which can be used by the insect swarm to defend against close threats.</ARA_RW_Basic_Rail_Gun.description>
+  <ARA_RW_Basic_Rail_Gun.tools.0.label>Bone Blade Slash</ARA_RW_Basic_Rail_Gun.tools.0.label>
+  <ARA_RW_Basic_Acid_Bladder_Gun.label>Armed organ "acid gun"</ARA_RW_Basic_Acid_Bladder_Gun.label>
+  <ARA_RW_Basic_Acid_Bladder_Gun.description>The Arachne swarm uses basic long-range weapons and can spray Arachne acid through the instantaneous pressure of its muscles. The acid covers the target and burns any enemies caught in the acid.</ARA_RW_Basic_Acid_Bladder_Gun.description>
+  <ARA_Proj_StrongSludgeSpray_Eco.label>Arachne Zerg Acid</ARA_Proj_StrongSludgeSpray_Eco.label>
+  <ARA_RW_Basic_FireSpewer_Gun.label>Armed organ "Acid Cannon"</ARA_RW_Basic_FireSpewer_Gun.label>
+  <ARA_RW_Basic_FireSpewer_Gun.description>The large long-range weapon organ of the Arachne swarm has a fluid sac full of acid glands and strong muscle fiber tubes. It can spray hot molten air masses of fiery acid in the aiming direction, covering enemies within the range and melting their armor and flesh.</ARA_RW_Basic_FireSpewer_Gun.description>
+  <ARA_RW_Acid_Mortar.label>Armed organ "Corrosion Mortar"</ARA_RW_Acid_Mortar.label>
+  <ARA_RW_Acid_Mortar.description>The Arachne swarm uses large long-range weapons with chambers filled with strong muscle tissue that can launch a ball of acid into the air after a moment of contraction to bomb enemy swarms from a safe distance.</ARA_RW_Acid_Mortar.description>
+  <Bullet_ARA_RW_Acid_Mortar.label>Large acid blob</Bullet_ARA_RW_Acid_Mortar.label>
+  <ARA_RW_Missile_HG_Gun.label>Arms "Eye Scourge Gun"</ARA_RW_Missile_HG_Gun.label>
+  <ARA_RW_Missile_HG_Gun.description>Arachne swarmers use basic ranged weapons, similar to human pistols, and can fire missiles composed of explosive auxiliaries. This kind of armed organ has strong adaptability and tracking capabilities. Even Zerg who are not good at shooting can perform well when using this weapon.</ARA_RW_Missile_HG_Gun.description>
+  <Bullet_RW_Missile_HG_Gun.label>small acid burning missile</Bullet_RW_Missile_HG_Gun.label>
+  <ARA_RW_Missile_AR_Gun.label>Armed organ "Rapid Disaster Cannon"</ARA_RW_Missile_AR_Gun.label>
+  <ARA_RW_Missile_AR_Gun.description>The large armed organs of the Arachne swarm can fire rows of missiles composed of explosive auxiliary insects in an overwhelming manner. The powerful firepower makes it one of the cores of the Zerg to build a flesh and blood army.</ARA_RW_Missile_AR_Gun.description>
+  <Bullet_RW_Missile_AR_Gun.label>Micro Acid Burning Missile</Bullet_RW_Missile_AR_Gun.label>
+  <ARA_RW_Basic_SkyHive_Gun.label>Armed organ "The Nest of Heaven's Nest"</ARA_RW_Basic_SkyHive_Gun.label>
+  <ARA_RW_Basic_SkyHive_Gun.description>The internal chamber of the long-range weapon organ used by the Arachne swarm worms breeds a large number of Skynest species, which the worms will launch as missiles. These Skynest species will continue to bite the enemy for a period of time, and will continue to attack after falling off the enemy.</ARA_RW_Basic_SkyHive_Gun.description>
+  <Bullet_ARA_RW_Basic_SkyHive_Gun.label>Arachne Skynest</Bullet_ARA_RW_Basic_SkyHive_Gun.label>
+  <ARA_RW_Large_Arc_Gun.label>Armed organ "bioelectric wire"</ARA_RW_Large_Arc_Gun.label>
+  <ARA_RW_Large_Arc_Gun.description>A large long-range weapon used by the Arachne swarm. By releasing energy from cells carrying a large amount of electric charge, the swarm can use this weapon to launch chain lightning strikes among enemy swarms.</ARA_RW_Large_Arc_Gun.description>
+  <ARA_RW_Basic_Fist_Icez_Gun.label>Armed organ "Frost Spray Gun"</ARA_RW_Basic_Fist_Icez_Gun.label>
+  <ARA_RW_Basic_Fist_Icez_Gun.description>The Arachne Swarm Overlord uses a long-range weapon organ that can emit a jet beam that can quickly cool the target. Compared with the version on the Symbiosis Muscle Group, this handheld version serves more of a function of controlling a specific target rather than killing it.</ARA_RW_Basic_Fist_Icez_Gun.description>
+  <ARA_MW_Mimic_Niddle.label>Armed organ "Pseudothread Poison Needle"</ARA_MW_Mimic_Niddle.label>
+  <ARA_MW_Mimic_Niddle.description>Arachne swarm worms use basic melee weapons, which are connected to the worm's auxiliary limbs through multiple exposed nerve bundles. This poisonous needle contains dormant Arachne nematode eggs, and the attack will infect the victim so that he will eventually become a parasite controlled by the nematode.</ARA_MW_Mimic_Niddle.description>
+  <ARA_MW_Mimic_Niddle.tools.0.label>cut</ARA_MW_Mimic_Niddle.tools.0.label>
+  <ARA_MW_Mimic_Niddle.tools.1.label>prick</ARA_MW_Mimic_Niddle.tools.1.label>
+  <ARA_Psi_Conductor_Turret.label>psychic wire</ARA_Psi_Conductor_Turret.label>
+  <ARA_Psi_Conductor_Turret.description>The Arachne Weaver is launching an attack on the enemy through this colonist - the launch of this attack has nothing to do with the status of the colonist. As long as it is not in a melee state, the attack will proceed as usual.</ARA_Psi_Conductor_Turret.description>
+  <Bullet_ARA_Psi_Conductor_Turret.label>Psychic Lightning</Bullet_ARA_Psi_Conductor_Turret.label>
+  <ARA_Shell_Thorn_Turret.label>acanthus</ARA_Shell_Thorn_Turret.label>
+  <ARA_Shell_Thorn_Turret.description>The semi-autonomous organs on the Arachne Zerg's carapace can fire automatically.</ARA_Shell_Thorn_Turret.description>
+  <Bullet_ARA_Shell_Thorn_Turret.label>small spines</Bullet_ARA_Shell_Thorn_Turret.label>
+  <ARA_Fighter_Base_Turret.label>Acid Eater Hive</ARA_Fighter_Base_Turret.label>
+  <ARA_Fighter_Base_Turret.description>The symbiosis organ on the Arachne warrior species will automatically project acid-eating auxiliary insects near the enemy.</ARA_Fighter_Base_Turret.description>
+  <ARA_Praetorian_Base_Turret.label>Acid Eater Hive</ARA_Praetorian_Base_Turret.label>
+  <ARA_Praetorian_Base_Turret.description>The symbiotic organ on the body of Arachne's Guard will automatically project acid-eating auxiliary insects near the enemy.</ARA_Praetorian_Base_Turret.description>
+  <ArachnaeBase_Race_Acidcut_Proj.label>Arachne acidophage</ArachnaeBase_Race_Acidcut_Proj.label>
+  <ARA_Skyraider_Hivelord_Turret.label>Carnivorous Hive</ARA_Skyraider_Hivelord_Turret.label>
+  <ARA_Skyraider_Hivelord_Turret.description>The symbiosis organ on the Lord Arachne will automatically project Skynest auxiliary insects near the enemy.</ARA_Skyraider_Hivelord_Turret.description>
+  <ArachnaeBase_Race_Skyhive_Proj.label>Arachne Skynest</ArachnaeBase_Race_Skyhive_Proj.label>
+  <ARA_Skyraider_Empthrower_Turret.label>Magnetic Storm Hive</ARA_Skyraider_Empthrower_Turret.label>
+  <ARA_Skyraider_Empthrower_Turret.description>The symbiotic organ on Arachne's hurricane species will automatically project magnetic storm species auxiliary insects near the enemy.</ARA_Skyraider_Empthrower_Turret.description>
+  <ArachnaeBase_Race_Empthrower_Proj.label>Arachne Magnetic Storm Species</ArachnaeBase_Race_Empthrower_Proj.label>
+  <ARA_RW_Icez_Mortar.label>Armed Organ "Frost Star Nest"</ARA_RW_Icez_Mortar.label>
+  <ARA_RW_Icez_Mortar.description>A special long-range weapon organ that only appears on Arachne's symbiotic muscle group. It can launch rows of extremely cold frost air masses, freezing enemies in the target area, causing them to suffer frostbite damage and become slow in movement.</ARA_RW_Icez_Mortar.description>
+  <Bullet_ARA_RW_Icez_Mortar.label>Large frost fog group</Bullet_ARA_RW_Icez_Mortar.label>
+  <ARA_RW_Lighting_Cannon.label>Armed organ "frozen lens tube"</ARA_RW_Lighting_Cannon.label>
+  <ARA_RW_Lighting_Cannon.description>A special long-range weapon organ that only appears on Arachne's symbiotic muscle group. This weapon can eject a jet beam that can quickly cool the target, causing the target to suffer a large amount of damage while blocking its movement. Due to its pre-cooling mechanism, it takes a long time to prepare before starting to attack.</ARA_RW_Lighting_Cannon.description>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_MimicNematode.label>Parasitism of nematodes</ARA_MimicNematode.label>
+  <ARA_MimicNematode.description>The colonist is parasitized by an Arachne nemesis, which if left uninterrupted will eventually kill the host and transform it into a mindless parasite. Nematodes infect other bodies through the parasite's aggressive behavior.</ARA_MimicNematode.description>
+  <ARA_MimicNematode.stages.0.label>Dormant period</ARA_MimicNematode.stages.0.label>
+  <ARA_MimicNematode.stages.1.label>active period</ARA_MimicNematode.stages.1.label>
+  <ARA_MimicNematode.stages.2.label>terminal stage</ARA_MimicNematode.stages.2.label>
+  <ARA_MimicNematode.stages.3.label>About to convert</ARA_MimicNematode.stages.3.label>
+  <ARA_MimicNematodeShambler.label>Arachne parasitoid</ARA_MimicNematodeShambler.label>
+  <ARA_MimicNematodeShambler.description>The corpse was infested and reanimated by a species of Arachnoid nematode. The parasitized creature is slow and mindless, and will relentlessly attack any living creature. After a few days of activity, the parasite will die due to metabolic exhaustion of the host. Once captured and immobilized, the parasite cannot move and therefore its life activities are suspended.</ARA_MimicNematodeShambler.description>
+  <ARA_Rising.label>Getting up</ARA_Rising.label>
+  <ARA_Rising.description>The powerful regenerative ability conferred by the parasitism of Arachne is reviving this body.</ARA_Rising.description>
+  <ARA_MimicNematodeShamblerShamblerCorpse.label>Pseudomonas parasitic corpse</ARA_MimicNematodeShamblerShamblerCorpse.label>
+  <ARA_MimicNematodeShamblerShamblerCorpse.description>This body had just been "resurrected" by the parasitism of Arachne.</ARA_MimicNematodeShamblerShamblerCorpse.description>
+</LanguageData>

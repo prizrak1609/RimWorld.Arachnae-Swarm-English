@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_IncubationSpeedFactor.label>Hatching speed</ARA_IncubationSpeedFactor.label>
+  <ARA_IncubationSpeedFactor.description>Hatching speed multiplier applied to the hatching tank.</ARA_IncubationSpeedFactor.description>
+  <NutrientTransmissionEfficiency.label>Biomass transfer losses</NutrientTransmissionEfficiency.label>
+  <NutrientTransmissionEfficiency.description>Reduce fuel consumption when transferring biomass. The final consumption will be multiplied by (1 - efficiency).</NutrientTransmissionEfficiency.description>
+  <ARA_Incubation_StatCategory.label>Incubation related data</ARA_Incubation_StatCategory.label>
+  <ARA_IncubationCost.label>Nutrients needed for hatching</ARA_IncubationCost.label>
+  <ARA_IncubationCost.description>Total nutrients required to hatch this armed organ/fabric</ARA_IncubationCost.description>
+  <ARA_IncubationTime.label>Time required for incubation</ARA_IncubationTime.label>
+  <ARA_IncubationTime.description>The time it takes to hatch the weapon/fabric</ARA_IncubationTime.description>
+  <ARA_IcezKillingFactor.label>Freezing damage threshold</ARA_IcezKillingFactor.label>
+  <ARA_IcezKillingFactor.description>The proportion of blood volume required for body parts to be destroyed due to freezing due to freezing damage.</ARA_IcezKillingFactor.description>
+  <ARA_GestaltNetwork.label>cellular network</ARA_GestaltNetwork.label>
+  <ARA_GestaltBandwidth.label>Cellular network capacity</ARA_GestaltBandwidth.label>
+  <ARA_GestaltBandwidth.description>The maximum node limit of the Arachne Swarm Gestalt network. Each Arachneid will affect the load of the network. Some Zergs will share the network pressure, while others will increase the load. When the load is too large, the Queen Arachne's mind will be oppressed, causing its mood and consciousness to decrease.</ARA_GestaltBandwidth.description>
+  <ARA_GestaltBandwidthCost.label>Cellular Network Load</ARA_GestaltBandwidthCost.label>
+  <ARA_GestaltBandwidthCost.description>If the load exerted by the Arachneid on the Gestalt network is negative, it means that this insect will share the pressure on the Gestalt network.</ARA_GestaltBandwidthCost.description>
+  <ARA_SwarmSpell_Cooldown_Delay.label>Psychic Beam Cooldown Delay (Seconds)</ARA_SwarmSpell_Cooldown_Delay.label>
+  <ARA_SwarmSpell_Cooldown_Delay.description>When Arachne Breathing uses the Swarm's psionic ability, the psionic load generated will begin to gradually decrease after this time, and any spell cast will reset the cooldown.</ARA_SwarmSpell_Cooldown_Delay.description>
+  <ARA_SwarmSpell_Level.label>Spell level</ARA_SwarmSpell_Level.label>
+  <ARA_SwarmSpell_Level.description>The spell power of Arachne's psionic units.</ARA_SwarmSpell_Level.description>
+</LanguageData>

@@ -1,0 +1,5 @@
+﻿<LanguageData>
+  <ARA_EdgeDropGroups.textEnemy>Some pawns from {1} are dropping via airbags to nearby.</ARA_EdgeDropGroups.textEnemy>
+  <ARA_EdgeDropGroups.textFriendly>Several separate groups of friendly {0} from {1} have arrived in transport pods nearby.</ARA_EdgeDropGroups.textFriendly>
+  <ARA_EdgeDropGroups.textWillArrive>Several separate groups of {0 pawns plural def} will arrive in transport pods.</ARA_EdgeDropGroups.textWillArrive>
+</LanguageData>

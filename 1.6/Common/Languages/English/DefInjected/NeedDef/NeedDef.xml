@@ -1,0 +1,10 @@
+﻿<LanguageData>
+  <ARA_ChitinArmor.description>This armor represents the thickness of an Alakne Chitin Shell. The thicker the shell, the greater its defensive power for the insectoid race. Insects can also strip it from their bodies to produce chitin.</ARA_ChitinArmor.description>
+  <ARA_ChitinArmor.label>Shell</ARA_ChitinArmor.label>
+  <ARA_HoneyProduction.description>This biological storage of honey is representative. When other insect tribes are hungry, a honey pot bio will try to feed them; if the honey pot overflows, it will attempt to extract its contents.</ARA_HoneyProduction.description>
+  <ARA_HoneyProduction.label>Honey Jar</ARA_HoneyProduction.label>
+  <ARA_HoneyProduction_Animal.description>This biological storage capacity for storing honey of the Arachne species. If a jar is full, it will attempt to extract the honey.</ARA_HoneyProduction_Animal.description>
+  <ARA_HoneyProduction_Animal.label>Honey Jar</ARA_HoneyProduction_Animal.label>
+  <Chemical_ARA_Pheromone.description>Due to long-term use of ARA pheromone solvent, this person's body has become accustomed to the external presence of these chemicals. If discontinued, their internal nematodes will react violently without suppression.</Chemical_ARA_Pheromone.description>
+  <Chemical_ARA_Pheromone.label>Pheromone dependency</Chemical_ARA_Pheromone.label>
+</LanguageData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_SwarmJob.description>All work on the Arachne Swarm, including maintaining the colony buildings, feeding from honey pots, stripping chitin, etc.</ARA_SwarmJob.description>
+  <ARA_Refuel_Nutrition.label>Supplement nutrition</ARA_Refuel_Nutrition.label>
+  <ARA_SkillTraining_Building_Bills.label>skills training</ARA_SkillTraining_Building_Bills.label>
+  <ARA_SwarmMaintain.label>maintain</ARA_SwarmMaintain.label>
+  <ARA_ExtractHoney.label>discharge insect nectar</ARA_ExtractHoney.label>
+  <ARA_StripChitin.label>peel off carapace</ARA_StripChitin.label>
+  <ARA_FeedWithHoney.label>feeding</ARA_FeedWithHoney.label>
+</LanguageData>

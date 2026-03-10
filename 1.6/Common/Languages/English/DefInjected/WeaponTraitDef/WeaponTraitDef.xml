@@ -1,0 +1,20 @@
+﻿<LanguageData>
+  <ARA_Huge_Weapon.description>This weapon is extremely large, only those massive Arachnids (larger than 2.0) can use this weapon.</ARA_Huge_Weapon.description>
+  <ARA_Huge_Weapon.label>Large Weapon Trait</ARA_Huge_Weapon.label>
+  <ARA_Weapon_ChainReload.description>This weapon trait will increase metabolism speed with each attack, manifesting as increased firing and reloading rates.</ARA_Weapon_ChainReload.description>
+  <ARA_Weapon_ChainReload.label>Chain reload</ARA_Weapon_ChainReload.label>
+  <ARA_Weapon_Damage_Acid.description>This weapon's projectile hits the enemy and leaves a corrosive liquid that causes ongoing damage.</ARA_Weapon_Damage_Acid.description>
+  <ARA_Weapon_Damage_Acid.label>Acid Liquid</ARA_Weapon_Damage_Acid.label>
+  <ARA_Weapon_Damage_FrostExplode.description>This weapon arm fires a frost fog that can infect enemies. Infected enemies will explode again.</ARA_Weapon_Damage_FrostExplode.description>
+  <ARA_Weapon_Damage_FrostExplode.label>Frost explosion</ARA_Weapon_Damage_FrostExplode.label>
+  <ARA_Weapon_Damage_Icez.description>This weapon trait will freeze enemies, causing their bodies to become extremely fragile. As the effect deepens, the threshold for 'freezing' damage will significantly decrease.</ARA_Weapon_Damage_Icez.description>
+  <ARA_Weapon_Damage_Icez.label>Ice Damage</ARA_Weapon_Damage_Icez.label>
+  <ARA_Weapon_Damage_LightingChain.description>This weapon trait causes a lightning chain to jump between enemies, dealing damage.</ARA_Weapon_Damage_LightingChain.description>
+  <ARA_Weapon_Damage_LightingChain.label>Electricity Chain</ARA_Weapon_Damage_LightingChain.label>
+  <ARA_Weapon_Damage_Spawn.description>This weapon's main attack method is to release drones, some of which will directly throw drones at the enemy, while others will track and attach to enemies for damage.</ARA_Weapon_Damage_Spawn.description>
+  <ARA_Weapon_Damage_Spawn.label>Arachnid Nest</ARA_Weapon_Damage_Spawn.label>
+  <ARA_Weapon_Damage_Toxid.description>This weapon trait causes a projectile to inject toxin into the target's body when it hits.</ARA_Weapon_Damage_Toxid.description>
+  <ARA_Weapon_Damage_Toxid.label>Toxic Poison</ARA_Weapon_Damage_Toxid.label>
+  <ARA_Weapon_OverPenetrate.description>This weapon trait causes the projectile to continue its path through all enemies, dealing damage to each one.</ARA_Weapon_OverPenetrate.description>
+  <ARA_Weapon_OverPenetrate.label>Overpenetration</ARA_Weapon_OverPenetrate.label>
+</LanguageData>

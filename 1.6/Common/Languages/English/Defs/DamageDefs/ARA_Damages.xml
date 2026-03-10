@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_AcidBurn.label>Acid etching</ARA_AcidBurn.label>
+  <ARA_Fist_Needle.label>Sting toxin</ARA_Fist_Needle.label>
+  <ARA_SkyhiveBite.label>Tianchao species bites</ARA_SkyhiveBite.label>
+  <ARA_AcidCut_Damage.label>acid bite</ARA_AcidCut_Damage.label>
+  <ARA_Whip_Damage.label>whipping</ARA_Whip_Damage.label>
+  <ARA_AcidBomb.label>acid explosion</ARA_AcidBomb.label>
+  <ARA_CreepBomb.label>tumor explosion</ARA_CreepBomb.label>
+  <ARA_ReinforceGas.label>pheromone smoke</ARA_ReinforceGas.label>
+  <ARA_Psi_Damage.label>Psychic Lightning</ARA_Psi_Damage.label>
+</LanguageData>

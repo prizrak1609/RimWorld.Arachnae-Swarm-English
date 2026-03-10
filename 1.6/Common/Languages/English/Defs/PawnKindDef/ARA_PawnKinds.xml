@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_ArachnaeQueen.label>Arachnetian species</ARA_ArachnaeQueen.label>
+  <ArachnaeQueen_Race_Neurotyrant.label>Arachne</ArachnaeQueen_Race_Neurotyrant.label>
+  <ArachnaeNode_Race_Myrmecocystus.label>Arachne honeypot species</ArachnaeNode_Race_Myrmecocystus.label>
+  <ArachnaeNode_Race_ShieldHead.label>Arachne shield-headed species</ArachnaeNode_Race_ShieldHead.label>
+  <ArachnaeNode_Race_WeaponSmith.label>Arachne Craft Type</ArachnaeNode_Race_WeaponSmith.label>
+  <ArachnaeNode_Race_Facehugger.label>Arachne species</ArachnaeNode_Race_Facehugger.label>
+  <ArachnaeNode_Race_Fighter.label>Arachne warrior race</ArachnaeNode_Race_Fighter.label>
+  <ArachnaeNode_Race_Smokepop.label>Arachne Mist Seed</ArachnaeNode_Race_Smokepop.label>
+  <ArachnaeNode_Race_Skyraider.label>Arachne Sky Seed</ArachnaeNode_Race_Skyraider.label>
+  <ArachnaeNode_Race_NeuroSwarm.label>Arachne weaving species</ArachnaeNode_Race_NeuroSwarm.label>
+  <ArachnaeNode_Race_Praetorian.label>Arachne Guards</ArachnaeNode_Race_Praetorian.label>
+  <ARA_MimicNematodeShamblerSwarmer.label>Arachne's quasi-thread</ARA_MimicNematodeShamblerSwarmer.label>
+  <ArachnaeBase_Race_Larva.label>Arachne larva species</ArachnaeBase_Race_Larva.label>
+  <ArachnaeBase_Race_Scavenger.label>Arachne Scavenger</ArachnaeBase_Race_Scavenger.label>
+  <ArachnaeBase_Race_Longpincer.label>Arachne Juggernaut</ArachnaeBase_Race_Longpincer.label>
+  <ArachnaeBase_Race_Hivekeeping.label>Arachne Housekeeping</ArachnaeBase_Race_Hivekeeping.label>
+  <ArachnaeBase_Race_Skyhive.label>Arachne Skynest</ArachnaeBase_Race_Skyhive.label>
+  <ArachnaeBase_Race_Acidcut.label>Arachne acidophage</ArachnaeBase_Race_Acidcut.label>
+  <ArachnaeBase_Race_Baneling.label>Arachne Explosive Species</ArachnaeBase_Race_Baneling.label>
+  <ArachnaeBase_Race_Empsuicider.label>Arachne Explosive Species</ArachnaeBase_Race_Empsuicider.label>
+  <ArachnaeBase_Race_Locust.label>Arachne Locust Species</ArachnaeBase_Race_Locust.label>
+  <ArachnaeBeast_Race_Slayer.label>Arachne massacres the species</ArachnaeBeast_Race_Slayer.label>
+</LanguageData>

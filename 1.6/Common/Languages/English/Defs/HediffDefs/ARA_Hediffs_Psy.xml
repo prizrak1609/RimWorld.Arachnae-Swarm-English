@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_GuardianPsyField.label>Weaving Field Seed Psychic Field</ARA_GuardianPsyField.label>
+  <ARA_GuardianPsyField.description>A powerful psychic defense field that will automatically intercept hostile flying objects that enter its range. Its total shield value is related to its psychic sensitivity and is difficult to penetrate, but each interception will accumulate psychic entropy.</ARA_GuardianPsyField.description>
+  <ARA_Psi_Master.label>Psychic Expert</ARA_Psi_Master.label>
+  <ARA_Psi_Master.description>The Arachne Weavers are the psychic masters in the Hive. They are very good at using psychic abilities. Not only can they fly with their own psychic powers, they can also provide protection for nearby friendly units and use them as psychic conductors to launch energy attacks on the enemy.</ARA_Psi_Master.description>
+  <ARA_Psi_Conductor.label>psychic conductor</ARA_Psi_Conductor.label>
+  <ARA_Psi_Conductor.description>An Arachne weaver uses the colonist as a conductor of its powerful psychic power. By controlling the colonist's psychic powers, the weaver can launch automatic attacks on the enemy and make the colonist more difficult to defeat - at the cost of the colonist itself becoming temporarily psychically deafened.</ARA_Psi_Conductor.description>
+  <ARA_Praetorian_Commander_Hediff.label>command node</ARA_Praetorian_Commander_Hediff.label>
+  <ARA_Praetorian_Commander_Hediff.description>The Arachne Guards are commanding nearby Zerg forces, their combat effectiveness weakened by the distraction of building a secondary hive mind network.</ARA_Praetorian_Commander_Hediff.description>
+  <ARA_Praetorian_Command_Hediff.label>Hive Commander</ARA_Praetorian_Command_Hediff.label>
+  <ARA_Praetorian_Command_Hediff.description>An Arachne Guard species assumes the role of battlefield commander nearby, and the commanded Arachne Zerg are linked through a secondary hive mind network, strengthening their overall combat effectiveness.</ARA_Praetorian_Command_Hediff.description>
+  <ARA_SwarmSpell_Overdrive.label>Psychic Nerve Bundle Overload</ARA_SwarmSpell_Overdrive.label>
+  <ARA_SwarmSpell_Overdrive.description>Arachne's nerve bundles will enter an overload state after continuous use - this state will continue to compress the nervous system of the Illithid until it is completely burned out. \n\nThis situation cannot be alleviated on its own. The Illithid can only divert this high load to other individuals. For those individuals who have spiritual enlightenment nerves, this kind of diversion will not be fatal, but for those individuals who do not have spiritual enlightenment nerves, this may not be the case.</ARA_SwarmSpell_Overdrive.description>
+  <ARA_PsyHemostasis_Hediff.label>psychic blocking</ARA_PsyHemostasis_Hediff.label>
+  <ARA_PsyHemostasis_Hediff.description>The colonist's wounds were sealed using supernatural powers.</ARA_PsyHemostasis_Hediff.description>
+</LanguageData>

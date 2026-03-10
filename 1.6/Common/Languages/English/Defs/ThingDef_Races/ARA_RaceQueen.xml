@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ArachnaeQueen_Race.label>Arachnetian species</ArachnaeQueen_Race.label>
+  <ArachnaeQueen_Race.description>Arachne's titan species is one of the subspecies of the queen species and belongs to Arachne's titan tentacles. They command the toughest and most adaptable main group of Arachne swarms, tasked with maintaining the front line on the battlefield. \n\nIn addition to providing the unique technology of Titan Tentacles, the Titan Queen also has a powerful carapace as a defensive layer. She can also attack approaching enemies through trampling and high melee damage.</ArachnaeQueen_Race.description>
+  <ArachnaeQueen_Race.comps.CompProperties_AreaDamage.toggleLabel>trample</ArachnaeQueen_Race.comps.CompProperties_AreaDamage.toggleLabel>
+  <ArachnaeQueen_Race.comps.CompProperties_AreaDamage.toggleDescription>The body of this Arachne Zerg is so huge that any enemy that gets close to it will be directly trampled to death.</ArachnaeQueen_Race.comps.CompProperties_AreaDamage.toggleDescription>
+  <ArachnaeQueen_Race.tools.0.label>top of head</ArachnaeQueen_Race.tools.0.label>
+  <ArachnaeQueen_Race.tools.1.label>stampede</ArachnaeQueen_Race.tools.1.label>
+  <ArachnaeQueen_Race.tools.2.label>leg puncture</ArachnaeQueen_Race.tools.2.label>
+  <ArachnaeQueen_Race.tools.3.label>pincer attack</ArachnaeQueen_Race.tools.3.label>
+  <ArachnaeQueen_Race_Neurotyrant.label>Arachne</ArachnaeQueen_Race_Neurotyrant.label>
+  <ArachnaeQueen_Race_Neurotyrant.description>Arachne is one of the Queen species subspecies, belonging to Arachne's psychic tentacles. They are responsible for maintaining communications in the Zerg hive psychic network and serving as relay nodes to link the Queen species and the Zerg Hive Fleet in each theater. \n\nIsthids are natural psychic masters. Their powerful psychic abilities allow them to dominate local battles through supernatural power. As they continue to devour local species, their psychic abilities can also evolve adaptively.</ArachnaeQueen_Race_Neurotyrant.description>
+  <ArachnaeQueen_Race_Neurotyrant.tools.0.label>Auxiliary limb puncture</ArachnaeQueen_Race_Neurotyrant.tools.0.label>
+</LanguageData>

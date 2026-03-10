@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_Cleaning.label>clean</ARA_Cleaning.label>
+  <ARA_Cleaning.description>Allows the creature to perform cleaning tasks.</ARA_Cleaning.description>
+  <ARA_Sowing.label>planting</ARA_Sowing.label>
+  <ARA_Sowing.description>Allows the creature to perform farming tasks.</ARA_Sowing.description>
+  <ARA_Slayer_Ability1_Train.label>Carnage and collision</ARA_Slayer_Ability1_Train.label>
+  <ARA_Slayer_Ability1_Train.description>Crash into the target with its huge body, causing damage to everything in its path. The further the distance traveled during the impact, the higher the damage.</ARA_Slayer_Ability1_Train.description>
+  <ARA_Ability_SlayerCharge.label>Carnage and collision</ARA_Ability_SlayerCharge.label>
+  <ARA_Ability_SlayerCharge.description>Crash into the target with its huge body, causing damage to everything in its path. The further the distance traveled during the impact, the higher the damage.</ARA_Ability_SlayerCharge.description>
+</LanguageData>

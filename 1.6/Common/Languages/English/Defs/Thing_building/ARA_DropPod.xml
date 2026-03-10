@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_DropPod.label>Arachne's species</ARA_DropPod.label>
+  <ARA_DropPod.description>A huge Arachne worm, the internal cavity can hold a large amount of supplies and Zerg - it can use the air sacs of its body to take off and fly towards the destination on the big map, but it will destroy itself when it lands. \n\nCompared with airdrop pods used by humans, airbags do not require fuel to drive and are cheaper to build.</ARA_DropPod.description>
+  <ARA_ActiveDropPod.label>Arachne's species</ARA_ActiveDropPod.label>
+  <ARA_DropPodLeaving.label>Arachne's Airbag Species (taking off)</ARA_DropPodLeaving.label>
+  <ARA_DropPodIncoming.label>Arachne's species (near medium)</ARA_DropPodIncoming.label>
+</LanguageData>

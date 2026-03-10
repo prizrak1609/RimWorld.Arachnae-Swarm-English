@@ -1,0 +1,13 @@
+﻿<LanguageData>
+  <ARA_Basic_Start_Scenario.description>A single Arachne Queen—Titan strain lands on a desolate edge world, ready to begin establishing her own hive.
+
+&lt;color=#915a30&gt;&lt;i&gt;Titan tendrils
+Titan tendrils are the main force of the Arachne swarm, comprising the most resilient and adaptable branch of the swarm, tasked with maintaining the front line in battle. This sub-branch has balanced offensive and defensive capabilities, excelling at a hard-hitting mode to eliminate opponents.</ARA_Basic_Start_Scenario.description>
+  <ARA_Basic_Start_Scenario.label>Aranea Hive-Titan Tentacle</ARA_Basic_Start_Scenario.label>
+  <ARA_Basic_Start_Scenario.scenario.description>A single Arachne Queen-Titan lands on a desolate edge world, ready to begin establishing her own hive.
+
+&lt;color=#915a30&gt;&lt;i&gt;Titan tendrils
+Titan tendrils are the main force of the Arachne swarm, comprising the most resilient and adaptable branch of the swarm, tasked with maintaining the front line in battle. This sub-branch has balanced offensive and defensive capabilities, excelling at a hard-hitting mode to annihilate opponents.</ARA_Basic_Start_Scenario.scenario.description>
+  <ARA_Basic_Start_Scenario.scenario.name>Aranea Hive-Titan Tentacle</ARA_Basic_Start_Scenario.scenario.name>
+  <ARA_Basic_Start_Scenario.scenario.summary>Start with a female Titan Arkenea as the initial colonists, plus five Arkenean egg capsules.</ARA_Basic_Start_Scenario.scenario.summary>
+</LanguageData>

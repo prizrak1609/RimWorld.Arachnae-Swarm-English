@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_HiveShip_Heart.label>Hunter Hive Ship-Heart</ARA_HiveShip_Heart.label>
+  <ARA_HiveShip_Heart.description>The heart of an Arachne Swarm Hunter Hive Ship, functioning similarly to a human's reverse gravity engine.</ARA_HiveShip_Heart.description>
+  <ARA_PilotConsole.label>Hunter Hive Ship-Linker</ARA_PilotConsole.label>
+  <ARA_PilotConsole.description>The Linker is the platform used by Hive Arachne to communicate with Hive Hunter ships.</ARA_PilotConsole.description>
+  <ARA_HiveShip_Stomach.label>Hunter Hive Ship - Stomach</ARA_HiveShip_Stomach.label>
+  <ARA_HiveShip_Stomach.description>The stomach sac of the Arachne Swarm Hunter hive ship, which stores biomass for the hive ship to move around.</ARA_HiveShip_Stomach.description>
+  <ARA_HiveShip_Stomach.comps.CompProperties_Refuelable.fuelLabel>Nutrition</ARA_HiveShip_Stomach.comps.CompProperties_Refuelable.fuelLabel>
+  <ARA_HiveShip_Stomach.comps.CompProperties_Refuelable.fuelGizmoLabel>Nutrition</ARA_HiveShip_Stomach.comps.CompProperties_Refuelable.fuelGizmoLabel>
+  <ARA_HiveShip_Tail.label>Hunter Hive Ship - Tentacles</ARA_HiveShip_Tail.label>
+  <ARA_HiveShip_Tail.description>The organs used by the Hunter Hive Ship for movement.</ARA_HiveShip_Tail.description>
+</LanguageData>

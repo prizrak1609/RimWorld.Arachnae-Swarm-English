@@ -1,0 +1,200 @@
+﻿<LanguageData>
+  <ARA_Ability_Morph.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>Ability must be on terrain</ARA_Ability_Morph.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>
+  <ARA_Ability_Morph.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>Ability Disabled Not on Terrain</ARA_Ability_Morph.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>
+  <ARA_Ability_Morph.description>Generate a Weaver's Nest, transforming yourself into a static building. In this form, Arachne Weavers can research higher-level insectoid technologies.</ARA_Ability_Morph.description>
+  <ARA_Ability_Morph.label>Morphology Type</ARA_Ability_Morph.label>
+  <ARA_Ability_Possess.description>Leap towards the target, then attempt to impale it with a tail spike and sever its central nervous system signal using your own control signals in place of theirs, thereby fully taking over their body. It needs to pierce armor to complete parasitism; however, if you successfully parasitize prisoners or incapacitated individuals, success is guaranteed.
+
+The host will be considered an Arachnean worm and must undergo the queen's pheromone marking process in order to lose all emotions and higher desires, living only as a shell. The target's skill level and backstory will be replaced with those of the original worm species; if the host dies, the original worm will escape from its host.</ARA_Ability_Possess.description>
+  <ARA_Ability_Possess.label>Parasitic Infection Attack</ARA_Ability_Possess.label>
+  <ARA_Ability_SlayerCharge.description>Charge with a massive body, dealing damage to everything along the path. The further you travel before impact, the higher the damage.</ARA_Ability_SlayerCharge.description>
+  <ARA_Ability_SlayerCharge.label>Slay Charge</ARA_Ability_SlayerCharge.label>
+  <ARA_Ability_SlayerCharge.verbProperties.label>Track Collision</ARA_Ability_SlayerCharge.verbProperties.label>
+  <ARA_Ability_Smokepop.description>Mistbreeder uses its abdomen to release a large amount of Alaxne pheromone smoke, creating a large area that can conceal insectoid forms and block flames. The more targets (regardless of friend or foe) are coated with the pheromone, the more insects will come to support the swarm.</ARA_Ability_Smokepop.description>
+  <ARA_Ability_Smokepop.label>Smell Cloud Release</ARA_Ability_Smokepop.label>
+  <ARA_Ability_TrackingCharge.description>Launch an attack on the target, dealing damage to everything along its path. The further it travels through the path, the more damage dealt.</ARA_Ability_TrackingCharge.description>
+  <ARA_Ability_TrackingCharge.label>Strength Slam</ARA_Ability_TrackingCharge.label>
+  <ARA_Ability_TrackingCharge.verbProperties.label>Track Collisions</ARA_Ability_TrackingCharge.verbProperties.label>
+  <ARA_AcidSprayBurst.description>Arachne's Acid Spray Burst description:
+
+Arachne's acid spray burst sprays a large amount of corrosive liquid at the target. While not as potent as the queen species' acid rain, Arachne's acid still deals real damage.</ARA_AcidSprayBurst.description>
+  <ARA_AcidSprayBurst.label>Acid Spray Burst label</ARA_AcidSprayBurst.label>
+  <ARA_AcidSprayBurst_Queen.description>Spray a large amount of corrosive acid liquid at the target location, completely covering an area to kill enemy troops and reduce survivors' armor.</ARA_AcidSprayBurst_Queen.description>
+  <ARA_AcidSprayBurst_Queen.label>Acid Spray Burst - Queen label</ARA_AcidSprayBurst_Queen.label>
+  <ARA_Baneling_Suicide_Ability.description>Arkanen Baneling's Suicide Ability description:
+
+Arkanen Banelings will self-destruct without activating the corrosive acid, causing only minor damage and leaving behind a fungal spore cloud in a large area.</ARA_Baneling_Suicide_Ability.description>
+  <ARA_Baneling_Suicide_Ability.label>Self-Destructive Ability</ARA_Baneling_Suicide_Ability.label>
+  <ARA_BindDrone.description>Use pheromone to mark a wild Alakne drone or beastie individual. It will leave its animal state and swear loyalty to the Queen species, forming an emotional bond.
+
+For our own drones and beasties, the Queen species will automatically form links with them without requiring skills.</ARA_BindDrone.description>
+  <ARA_BindDrone.label>Information Scent Tag</ARA_BindDrone.label>
+  <ARA_Dissolver_Touch.description>In close proximity to the target, spray dissolving acid at high concentration. The target's organs will rapidly decompose into a large amount of honey. Due to poor accuracy, it cannot be used on battlefields; only against non-resistant targets.</ARA_Dissolver_Touch.description>
+  <ARA_Dissolver_Touch.label>Dissolver Touch</ARA_Dissolver_Touch.label>
+  <ARA_Fighter_Genestealer.description>Grant the warrior the ability to undergo genetic mutation, which reduces its combat effectiveness and skill usage, in exchange for stealing genes from enemies and injecting them into your colonists.
+
+This evolution path does not provide a parasite.</ARA_Fighter_Genestealer.description>
+  <ARA_Fighter_Genestealer.label>Warrior Conversion — Genestealer</ARA_Fighter_Genestealer.label>
+  <ARA_Fighter_Invisibility.description>Make the warrior undergo an internal drive for evolution, greatly reducing its use of long-range weapons and special skills in exchange for near-permanent invisibility and strong melee capabilities.
+
+This direction does not provide a parasite.</ARA_Fighter_Invisibility.description>
+  <ARA_Fighter_Invisibility.label>Warrior Species Change - Invisible Assassin</ARA_Fighter_Invisibility.label>
+  <ARA_Fighter_Invisibility_Execution.description>Hunter stalks the victim with a giant scythe, dealing high damage during execution. After completion, Hunter's form becomes visible.</ARA_Fighter_Invisibility_Execution.description>
+  <ARA_Fighter_Invisibility_Execution.label>Invisible Execution</ARA_Fighter_Invisibility_Execution.label>
+  <ARA_Fighter_Invisibility_jump.description>With powerful tendons, leap towards the target location. During the jump, pursuers remain invisible.</ARA_Fighter_Invisibility_jump.description>
+  <ARA_Fighter_Invisibility_jump.label>Hunter's Invisibility Jump</ARA_Fighter_Invisibility_jump.label>
+  <ARA_FireSpew.description>Explosive species charges up briefly before firing a wide spray of flames. This flame barrage isn't very long-range, but it can form a dense fire wall.</ARA_FireSpew.description>
+  <ARA_FireSpew.label>Explosive Flame</ARA_FireSpew.label>
+  <ARA_Genestealer_EjectOrgans.description>Abnormality causes the target to undergo strong mutations, causing all its organs to flip outward onto the surface for the swarm to collect. This is almost certain death for the target. The ability can only be used on non-swarm colonists, prisoners, and slaves.</ARA_Genestealer_EjectOrgans.description>
+  <ARA_Genestealer_EjectOrgans.label>Blood Evisceration</ARA_Genestealer_EjectOrgans.label>
+  <ARA_Genestealer_ExtractGene.description>Aberration Extract Gene from the target's gene pool, adding 1-4 genes (including superhuman genes) to its own genome. The target will not die but lose this gene and be unable to recover from a coma.</ARA_Genestealer_ExtractGene.description>
+  <ARA_Genestealer_ExtractGene.label>Genetic Extraction</ARA_Genestealer_ExtractGene.label>
+  <ARA_Genestealer_InjectGenes.description>Genestealer attempt to inject all of its genes into the target body. The target must not have any genes in common with a Genestealer, otherwise injection is impossible.</ARA_Genestealer_InjectGenes.description>
+  <ARA_Genestealer_InjectGenes.label>Gene Injection</ARA_Genestealer_InjectGenes.label>
+  <ARA_GuardianPsyField_Off.description>Disable the psy field of the guardian psychic plant.</ARA_GuardianPsyField_Off.description>
+  <ARA_GuardianPsyField_Off.label>Psychic Field</ARA_GuardianPsyField_Off.label>
+  <ARA_GuardianPsyField_On.description>Weaves a psychic field that projects strong defensive energy, automatically intercepting hostile flying objects within its range. Its shield capacity and mental sensitivity are related; it's hard to penetrate but each interception accumulates mental entropy.</ARA_GuardianPsyField_On.description>
+  <ARA_GuardianPsyField_On.label>Guardian Psy Field label</ARA_GuardianPsyField_On.label>
+  <ARA_Locust_AcidSprayBurst.description>Arachnid Locust species sprays corrosive acid liquid at the target.</ARA_Locust_AcidSprayBurst.description>
+  <ARA_Locust_AcidSprayBurst.label>Acid Spray Burst label</ARA_Locust_AcidSprayBurst.label>
+  <ARA_MimicNematode_Needle_Fire.description>Shoot the target with a few low-damage shots that will cause an ARA Mimic Nematode infection. As the infection progresses, the target will gradually be controlled by the parasite and become immune to external stimuli in order to gain strong resistance against attacks.
+
+This is a dangerous trade; the ARA Mimic Nematodes cannot be controlled by the Queens, so intelligent nests carefully consider using them for their power.</ARA_MimicNematode_Needle_Fire.description>
+  <ARA_MimicNematode_Needle_Fire.label>Mimic Nematode Needle Fire label</ARA_MimicNematode_Needle_Fire.label>
+  <ARA_Myrmecocystus_Production_Dissolver.description>Enable internal evolution of the honey jar to give it extra dissolving ability, allowing it to release lipase on non-tribe prisoners or slaves. This will continue to cause them to lose body parts and produce myrmecosugar.
+
+This direction does not provide a helper bug.</ARA_Myrmecocystus_Production_Dissolver.description>
+  <ARA_Myrmecocystus_Production_Dissolver.label>Mead Jar Conversion - Strong Acid Dissolution</ARA_Myrmecocystus_Production_Dissolver.label>
+  <ARA_Myrmecocystus_Production_Fuel.description>Make the Myrmecocystus hive produce an internal drive for evolution, sacrificing production of Alacrane honey in exchange to make it produce a fuel compound that enhances its armor and gives it additional jet flame ability.
+
+This evolutionary direction does not provide auxiliary insects.</ARA_Myrmecocystus_Production_Fuel.description>
+  <ARA_Myrmecocystus_Production_Fuel.label>Fuel Conversion - Easy Ignition Chamber</ARA_Myrmecocystus_Production_Fuel.label>
+  <ARA_Myrmecocystus_Production_Medicine.description>Enable myrmecocystus hive to evolve with self-driving, sacrificing production of arakne venom at the cost of allowing medical capability and control over parasitic line species.
+
+This evolution direction does not provide a worker.</ARA_Myrmecocystus_Production_Medicine.description>
+  <ARA_Myrmecocystus_Production_Medicine.label>Mead Jar Conversion — Medicine Expert</ARA_Myrmecocystus_Production_Medicine.label>
+  <ARA_NeuroSwarm_jump.description>Enhance the force used to lift your body into higher altitudes, then jump to a new location.</ARA_NeuroSwarm_jump.description>
+  <ARA_NeuroSwarm_jump.label>High Altitude Flight</ARA_NeuroSwarm_jump.label>
+  <ARA_NeuroSwarm_jump.verbProperties.label>jump</ARA_NeuroSwarm_jump.verbProperties.label>
+  <ARA_Neurotyrant_Harvest.description>Siphon species drain the intelligence of a target, converting it into evolution points. Although this requires some time to complete, it will directly kill the target.</ARA_Neurotyrant_Harvest.description>
+  <ARA_Neurotyrant_Harvest.label>Evolution Point Harvest</ARA_Neurotyrant_Harvest.label>
+  <ARA_Neurotyrant_PsychicLoadDump.description>The Neurotyrant's Psychic Load Dump will output a massive negative load to the target. If the target has no psychic ability, this backlash will instantly kill them; if they have psychic abilities, they can avoid death but accumulate large amounts of mental entropy.</ARA_Neurotyrant_PsychicLoadDump.description>
+  <ARA_Neurotyrant_PsychicLoadDump.label>Load Dump</ARA_Neurotyrant_PsychicLoadDump.label>
+  <ARA_Neurotyrant_T1_PsyHemostasis.description>Use psychic force to seal the target's wound, temporarily stopping bleeding.</ARA_Neurotyrant_T1_PsyHemostasis.description>
+  <ARA_Neurotyrant_T1_PsyHemostasis.label>Stasis</ARA_Neurotyrant_T1_PsyHemostasis.label>
+  <ARA_Neurotyrant_T1_PsyPsuh.description>Instantly releases targeted psychic energy damage to nearby enemies, then knocks them back and disorients them.</ARA_Neurotyrant_T1_PsyPsuh.description>
+  <ARA_Neurotyrant_T1_PsyPsuh.label>Neural Push</ARA_Neurotyrant_T1_PsyPsuh.label>
+  <ARA_Neurotyrant_T1_PsyShoot.description>After a brief recharge, it shoots off a volley of energy shots.</ARA_Neurotyrant_T1_PsyShoot.description>
+  <ARA_Neurotyrant_T1_PsyShoot.label>Neural Sniper</ARA_Neurotyrant_T1_PsyShoot.label>
+  <ARA_Pouch_Hatching_Baneling.description>Instantly hatch three Alakne Baneling auxiliary insects on the ground, which will launch suicide attacks against enemy units.</ARA_Pouch_Hatching_Baneling.description>
+  <ARA_Pouch_Hatching_Baneling.label>Pouch Hatching : Baneling</ARA_Pouch_Hatching_Baneling.label>
+  <ARA_Pouch_Hatching_Pouch.description>Extract a spore mass. Convert an area nearby into Spore Mat terrain to facilitate insect activity and hinder enemy movement.</ARA_Pouch_Hatching_Pouch.description>
+  <ARA_Pouch_Hatching_Pouch.label>Hatching Pouch - Mushroom Spawn</ARA_Pouch_Hatching_Pouch.label>
+  <ARA_Praetorian_Commander_Ability_Off.description>Disable the Araqueen Praetorian Commander's command ability, allowing it to focus on its own combat.</ARA_Praetorian_Commander_Ability_Off.description>
+  <ARA_Praetorian_Commander_Ability_Off.label>End Command</ARA_Praetorian_Commander_Ability_Off.label>
+  <ARA_Praetorian_Commander_Ability_On.description>Activate the Araqueen Praetorian Command Node, allowing it to serve as a base for establishing secondary hive minds. This will enhance nearby insectoid combat effectiveness. However, in this situation, the Praetorians will lose some of their fighting ability.</ARA_Praetorian_Commander_Ability_On.description>
+  <ARA_Praetorian_Commander_Ability_On.label>Praetorian Commander - On label</ARA_Praetorian_Commander_Ability_On.label>
+  <ARA_Praetorian_Jump.description>With powerful tendons, leap towards the target.</ARA_Praetorian_Jump.description>
+  <ARA_Praetorian_Jump.label>Jump (Praetorian Ability)</ARA_Praetorian_Jump.label>
+  <ARA_Praetorian_Legion.description>The ARA Praetorian Legion undergoes an internal drive for evolution, sacrificing command ability to gain stronger melee, ranged, defense, and the ability to counter enemies with maneuvers like tail-whipping, charging, and jumping.
+
+This evolutionary direction does not provide Arakeen symbionts.</ARA_Praetorian_Legion.description>
+  <ARA_Praetorian_Legion.label>Forbidden Conversion — Legion's Might</ARA_Praetorian_Legion.label>
+  <ARA_Praetorian_Long_Jump.description>With powerful tendons, jump towards the target.</ARA_Praetorian_Long_Jump.description>
+  <ARA_Praetorian_Long_Jump.label>Long Jump</ARA_Praetorian_Long_Jump.label>
+  <ARA_Praetorian_Navigator.description>Make the Praetorian develop an innate drive for commanding insectoids, sacrificing shooting and jumping abilities in exchange for commanding airborne creatures.
+
+This evolution path does not provide Arakne Nymphs. Additionally, airborne creatures must successfully take off to be commanded—when you unlock this evolution path, you should still not have been able to build airborne creatures.</ARA_Praetorian_Navigator.description>
+  <ARA_Praetorian_Navigator.label>Forbidden Elite Conversion — Navigation Beacon</ARA_Praetorian_Navigator.label>
+  <ARA_Praetorian_TailSweep.description>Swish its tail and lash out at the enemy in front of it, dealing damage to all hostile targets within a cone. If the target survives the attack, they will be knocked back and stunned for a short time.</ARA_Praetorian_TailSweep.description>
+  <ARA_Praetorian_TailSweep.label>Scatter</ARA_Praetorian_TailSweep.label>
+  <ARA_PsychicBrainburn.description>With a powerful surge of pure psychic energy, burn the target's central nervous system—this will directly kill the target.</ARA_PsychicBrainburn.description>
+  <ARA_PsychicBrainburn.label>Psychic Brain Burn</ARA_PsychicBrainburn.label>
+  <ARA_RaceBaseSwarmProduceOff.description>Disable the automatic reproduction ability of the Aranea drone. </ARA_RaceBaseSwarmProduceOff.description>
+  <ARA_RaceBaseSwarmProduceOff.label>Breeding Suppression</ARA_RaceBaseSwarmProduceOff.label>
+  <ARA_RaceBaseSwarmProduceOn.description>Restart the ability to automatically nurture Ara-Knecht Overseer worms.</ARA_RaceBaseSwarmProduceOn.description>
+  <ARA_RaceBaseSwarmProduceOn.label>Cancel reproduction inhibition</ARA_RaceBaseSwarmProduceOn.label>
+  <ARA_ShieldHead_HiveBuilder.description>Enable shield head to undergo self-driven evolution, sacrificing defense for increased production of chitin and construction skills.
+
+This evolutionary direction provides 4 Alakne giant mandibles species auxiliary insects.</ARA_ShieldHead_HiveBuilder.description>
+  <ARA_ShieldHead_HiveBuilder.label>Shield Head Conversion - Hive Builder</ARA_ShieldHead_HiveBuilder.label>
+  <ARA_ShieldHead_Protector.description>Make the shield head undergo an internal drive evolution, sacrificing production of carapace and construction ability for the sake of stronger combat abilities, mobility, and collision attack skills.
+
+This evolutionary direction provides 4 Alakne Acid Suckers.</ARA_ShieldHead_Protector.description>
+  <ARA_ShieldHead_Protector.label>Shield Head Upgrade - Hive Guardian</ARA_ShieldHead_Protector.label>
+  <ARA_Skyraider_Empthrower.description>Enable Skyraider to undergo an internal drive evolution, sacrificing mobility and losing high-altitude maneuverability in exchange for the ability to throw EMP swarmers. These swarms will attack with suicidal attacks using EMPs to counter mechanical tribes.
+
+This direction does not provide Alakne swarmers.</ARA_Skyraider_Empthrower.description>
+  <ARA_Skyraider_Empthrower.label>Skyraider Conversion - Electromagnetic Storm</ARA_Skyraider_Empthrower.label>
+  <ARA_Skyraider_Ferry.description>Enable Skyraider to undergo a self-driven evolution, sacrificing its high-altitude mobility for increased movement speed and significantly increasing the team's movement speed during long voyages.
+
+This direction does not provide an Alakne Nymph.</ARA_Skyraider_Ferry.description>
+  <ARA_Skyraider_Ferry.label>Skyraider Ferry label - Airborn Conversion - Transport Bee</ARA_Skyraider_Ferry.label>
+  <ARA_Skyraider_Hivelord.description>Make the Skyraider undergo an internal drive evolution to reduce mobility and lose high-altitude maneuverability, in exchange for the ability to infest a large number of ARA-Kneehigh Nest Bug. These bugs are very small and will cling annoyingly close to enemies in melee.
+
+This evolution direction provides 8 ARA-Kneehigh Nest Bugs.</ARA_Skyraider_Hivelord.description>
+  <ARA_Skyraider_Hivelord.label>Skyraider Hivelord label - Skyraider Conversion - Hive Lord</ARA_Skyraider_Hivelord.label>
+  <ARA_Skyraider_jump.description>Use strong wings to instantly boost speed, repositioning yourself at a new location.</ARA_Skyraider_jump.description>
+  <ARA_Skyraider_jump.label>High Altitude Flight</ARA_Skyraider_jump.label>
+  <ARA_Skyraider_jump.verbProperties.label>jump</ARA_Skyraider_jump.verbProperties.label>
+  <ARA_Smokepop_Creeper.description>Make the Smokepop Creeper undergo an internal drive evolution, sacrificing its spray pheromone for additional defense, speed and large-scale, fast laying of fungal mats.
+
+This evolutionary direction provides 6 Smokepop Creepers.</ARA_Smokepop_Creeper.description>
+  <ARA_Smokepop_Creeper.label>Smoke Pop Creeper conversion — Mushroom support</ARA_Smokepop_Creeper.label>
+  <ARA_Smokepop_Creeper_Ability_Off.description>Disable the fungal mat placement ability of the Alaxen Creeper species, no longer attempting to change the terrain nearby.</ARA_Smokepop_Creeper_Ability_Off.description>
+  <ARA_Smokepop_Creeper_Ability_Off.label>Set up Mushroom Mat: Closed</ARA_Smokepop_Creeper_Ability_Off.label>
+  <ARA_Smokepop_Creeper_Ability_On.description>Activate the ARA Smokeworm Creeper ability to lay down a fungal mat. It will periodically transform nearby terrain into an Arakeen fungal mat. Additionally, any enemy army within range of this species will be targeted by its spore canals, which fire spores that change terrain to lay down fungal mats.</ARA_Smokepop_Creeper_Ability_On.description>
+  <ARA_Smokepop_Creeper_Ability_On.label>Grow Mushroom Mat: Activated</ARA_Smokepop_Creeper_Ability_On.label>
+  <ARA_Smokepop_Production_Bacterium.description>Enable fog to undergo self-directed evolution, sacrificing the release of smoke signals and reducing armor for periodic production of advanced Arachnids' high material—live giant bacteria.
+
+This direction does not provide a parasite.</ARA_Smokepop_Production_Bacterium.description>
+  <ARA_Smokepop_Production_Bacterium.label>Mist Conversion - Giant Bacteria Expert</ARA_Smokepop_Production_Bacterium.label>
+  <ARA_SpawnFlyOverTest.description>Summon Hive Mother Ship, start the invasion terminal event chain (test use, consequences are your own responsibility)</ARA_SpawnFlyOverTest.description>
+  <ARA_SpawnFlyOverTest.label>Mother ship summons</ARA_SpawnFlyOverTest.label>
+  <ARA_Spawn_ARA_HiveCorvette_Bombardment.description>Navigate the HiveCorvette Bombardment Arachne spellcaster insectoid, slowly strafing over the battlefield and applying a wide-area acid effect with Acid Cluster bombardments.
+
+During flight, it uses high-damage, high-penetration Spine Stinger cannons to strike all enemies encountered.</ARA_Spawn_ARA_HiveCorvette_Bombardment.description>
+  <ARA_Spawn_ARA_HiveCorvette_Bombardment.label>Sky Witch Patrol : Acid Bombing</ARA_Spawn_ARA_HiveCorvette_Bombardment.label>
+  <ARA_Spawn_ARA_HiveCorvette_DiveBomb.description>Navigate spawn Arachne HiveCorvette DiveBomb description
+
+This support causes a cooldown longer than other supports, but its power is undeniable.</ARA_Spawn_ARA_HiveCorvette_DiveBomb.description>
+  <ARA_Spawn_ARA_HiveCorvette_DiveBomb.label>Hive Corvete Dive Bomb : Cataclysmic Bombardment</ARA_Spawn_ARA_HiveCorvette_DiveBomb.label>
+  <ARA_Spawn_ARA_HiveCorvette_Rocket.description>Navigating HiveCorvette Rocket description
+
+It is a command ship of the Arachne Wasp species, piloted by an Arachne Nymph. It flies over battlefields at high speed and unleashes its attached Arachne Acid effect on rapid devastation attacks against target areas.
+
+During flight, it uses Blood Chain Spines to attack any encountered enemies. Due to a limited attack range, the Blood Chain Spines can only hit up to 7 of the first enemies met.</ARA_Spawn_ARA_HiveCorvette_Rocket.description>
+  <ARA_Spawn_ARA_HiveCorvette_Rocket.label>Hive Corvete Rocket Label - Acid Burn Cannon Scouring</ARA_Spawn_ARA_HiveCorvette_Rocket.label>
+  <ARA_Spawn_ARA_HiveCorvette_Strike.description>Navigate spawn Aranea hive corvette strike description
+
+This ability spawns an Aranea hive corvette strike, which slowly flies over the battlefield and uses high damage, high armor piercing capabilities of chain spines to attack all enemies in range. This mode has limited vision for the hive corvette, making it difficult to target entire clusters.</ARA_Spawn_ARA_HiveCorvette_Strike.description>
+  <ARA_Spawn_ARA_HiveCorvette_Strike.label>Hive Corvete Strike: Bloodspike Surveillance</ARA_Spawn_ARA_HiveCorvette_Strike.label>
+  <ARA_Strengthening_Tendon_Jump.description>Enhanced tendon allows Alakraken to perform short jumps.</ARA_Strengthening_Tendon_Jump.description>
+  <ARA_Strengthening_Tendon_Jump.label>Short-distance jump</ARA_Strengthening_Tendon_Jump.label>
+  <ARA_Suicide_Ability.description>As soon as the order is given, the Arakne species can die at any time for the sake of their hive's cause</ARA_Suicide_Ability.description>
+  <ARA_Suicide_Ability.label>Suicide</ARA_Suicide_Ability.label>
+  <ARA_Suicide_Fast_Ability.description>As soon as the order is given, the Arakne species can die at any time for the sake of their hive's cause</ARA_Suicide_Fast_Ability.description>
+  <ARA_Suicide_Fast_Ability.label>Suicide</ARA_Suicide_Fast_Ability.label>
+  <ARA_TerrainHeal_Ability.comps.CompAbilityEffect_HediffRestriction.disabledReasonKey>Only usable on units with the Heal ability of Alakneen insect colonies</ARA_TerrainHeal_Ability.comps.CompAbilityEffect_HediffRestriction.disabledReasonKey>
+  <ARA_TerrainHeal_Ability.comps.CompAbilityEffect_HediffRestriction.targetHediffFailMessage>Target must be a creature with self-heal ability of the Arachne swarm</ARA_TerrainHeal_Ability.comps.CompAbilityEffect_HediffRestriction.targetHediffFailMessage>
+  <ARA_TerrainHeal_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>AbilityMustBeOnTerrain</ARA_TerrainHeal_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>
+  <ARA_TerrainHeal_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>AbilityDisabledNotOnTerrain</ARA_TerrainHeal_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>
+  <ARA_TerrainHeal_Ability.description>Extracts biological matter from the fungal network's nutrient lines to rapidly synthesize healing agents and treat targets, allowing them to heal quickly over a period of time. This ability can only be used on Arakeen insectoid units with self-healing capabilities.</ARA_TerrainHeal_Ability.description>
+  <ARA_TerrainHeal_Ability.label>Nurse's Uniform Healing</ARA_TerrainHeal_Ability.label>
+  <ARA_TerrainTempt_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>AbilityMustBeOnTerrain</ARA_TerrainTempt_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>
+  <ARA_TerrainTempt_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>Ability Disabled Not on Terrain</ARA_TerrainTempt_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>
+  <ARA_TerrainTempt_Ability.description>Alarak twists the mind of his target, making them see the swarm as their own wives and attack any harm done to the swarm with a mad frenzy. This ability can only be used on terrain covered in fungus.</ARA_TerrainTempt_Ability.description>
+  <ARA_TerrainTempt_Ability.label>Twisted Temptation</ARA_TerrainTempt_Ability.label>
+  <ARA_TerrorRoar_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>AbilityMustBeOnTerrain</ARA_TerrorRoar_Ability.comps.CompAbilityEffect_TerrainRestriction.casterTerrainFailMessage>
+  <ARA_TerrorRoar_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>Ability Disabled Not On Terrain</ARA_TerrorRoar_Ability.comps.CompAbilityEffect_TerrainRestriction.disabledReasonKey>
+  <ARA_TerrorRoar_Ability.description>Alarak's Spore Swarm causes nearby enemy creatures to flee in terror, forcing them to stand on mushroom terrain when used.</ARA_TerrorRoar_Ability.description>
+  <ARA_TerrorRoar_Ability.label>Terror Roar</ARA_TerrorRoar_Ability.label>
+  <ARA_ToggleDropPodIntercept.description>Switch to the Drop Pod Intercept Mode against enemy air drops. Activating this will randomly intercept a portion of the cargo containers as they arrive.</ARA_ToggleDropPodIntercept.description>
+  <ARA_ToggleDropPodIntercept.label>Capture Predator Flight</ARA_ToggleDropPodIntercept.label>
+  <ARA_Toxic_Needle_Fire.description>Ala'nek venomous spire uses a syringe-like organ to inject toxic needles into enemy units in one round.</ARA_Toxic_Needle_Fire.description>
+  <ARA_Toxic_Needle_Fire.label>Toxic Needle Fire</ARA_Toxic_Needle_Fire.label>
+  <ARA_TumorSpew.description>Spew a fungal mass. Convert an area nearby into fungal terrain, to facilitate insect activity.</ARA_TumorSpew.description>
+  <ARA_TumorSpew.label>Tumor Spew label</ARA_TumorSpew.label>
+  <ARA_Tumorthrow.description>Throw a spore mass to the target location, converting a large area into a fungal terrain type for easier insect movement.</ARA_Tumorthrow.description>
+  <ARA_Tumorthrow.label>Mycelium Throw</ARA_Tumorthrow.label>
+</LanguageData>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ArachnaeQueen_Body.label>Queen Arachne</ArachnaeQueen_Body.label>
+  <ArachnaeQueen_Neurotyrant_Body.label>Arachne</ArachnaeQueen_Neurotyrant_Body.label>
+  <ARA_Dorsum.label>dorsal tissue group</ARA_Dorsum.label>
+  <ARA_Sternum.label>chest tissue group</ARA_Sternum.label>
+  <ARA_Tail.label>tail tissue group</ARA_Tail.label>
+  <ARA_Exoskeleton_Dorsum.label>back exoskeleton</ARA_Exoskeleton_Dorsum.label>
+  <ARA_Chitin_Shell.label>chitin carapace</ARA_Chitin_Shell.label>
+  <ARA_Exoskeleton_Sternum.label>chest exoskeleton</ARA_Exoskeleton_Sternum.label>
+  <ARA_Gonad.label>gonad</ARA_Gonad.label>
+  <ARA_Ovary.label>ovaries</ARA_Ovary.label>
+  <ARA_Acid_sac.label>acid cyst</ARA_Acid_sac.label>
+  <ARA_Toxic_Needle.label>poison needle gland</ARA_Toxic_Needle.label>
+  <ARA_Sickle.label>giant scythe</ARA_Sickle.label>
+  <ARA_Smoke_Chamber.label>Cigarette can</ARA_Smoke_Chamber.label>
+  <ARA_Psy_Nerve_Tract.label>psionic nerve bundle</ARA_Psy_Nerve_Tract.label>
+  <ARA_Pouch.label>shed pods</ARA_Pouch.label>
+  <ARA_Genitalias.label>Queen's reproductive organs</ARA_Genitalias.label>
+  <ARA_Acid_sacs.label>acid gland organ</ARA_Acid_sacs.label>
+  <ARA_Toxic_Needles.label>poison needle organ</ARA_Toxic_Needles.label>
+  <ARA_Sickles.label>scythe organ</ARA_Sickles.label>
+  <ARA_Smoke_Chambers.label>smoke generating organ</ARA_Smoke_Chambers.label>
+  <ARA_Psy_Nerve_Tracts.label>Psychic nerve bundle group</ARA_Psy_Nerve_Tracts.label>
+  <ARA_Pouchs.label>shed pods</ARA_Pouchs.label>
+  <ArachnaeMyrmecocystus_Body.label>Arachne honeypot species</ArachnaeMyrmecocystus_Body.label>
+  <ArachnaeShieldHead_Body.label>Arachne shield-headed species</ArachnaeShieldHead_Body.label>
+  <ArachnaeWeaponSmith_Body.label>Arachne Craft Type</ArachnaeWeaponSmith_Body.label>
+  <ArachnaeFighter_Body.label>Arachne warrior race</ArachnaeFighter_Body.label>
+  <ArachnaeFacehugger_Body.label>Arachne species</ArachnaeFacehugger_Body.label>
+  <ArachnaeSmokepop_Body.label>Arachne Mist Seed</ArachnaeSmokepop_Body.label>
+  <ArachnaeSkyraider_Body.label>Arachne Sky Seed</ArachnaeSkyraider_Body.label>
+  <ArachnaeNeuroSwarm_Body.label>Arachne weaving species</ArachnaeNeuroSwarm_Body.label>
+  <ArachnaePraetorian_Body.label>Arachne Guards</ArachnaePraetorian_Body.label>
+  <ArachnaeSlayer_Body.label>Arachne massacres the species</ArachnaeSlayer_Body.label>
+</LanguageData>

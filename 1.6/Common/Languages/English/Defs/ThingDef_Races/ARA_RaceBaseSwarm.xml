@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ArachnaeBase_Race_Larva.label>Arachne larva species</ArachnaeBase_Race_Larva.label>
+  <ArachnaeBase_Race_Larva.description>One of the auxiliary insects of Arachne, it contains all the genetic material information needed for the expansion of the swarm on the ground, and is the foundation of the zerg race. They can enter Arachne Eggs and Arachne Cocoons and transform into new Overlords or equipment in the form of complete metamorphosis.</ArachnaeBase_Race_Larva.description>
+  <ArachnaeBase_Race_Scavenger.label>Arachne Scavenger</ArachnaeBase_Race_Scavenger.label>
+  <ArachnaeBase_Race_Scavenger.description>One of Arachne's auxiliary insects, it has a wide-ranging diet and can perform planting, harvesting and transporting tasks. It has a small honey pot cavity that can produce insect honey like its supervisor.</ArachnaeBase_Race_Scavenger.description>
+  <ArachnaeBase_Race_Scavenger.comps.CompProperties_NodeSwarmLifetime.labelOverride>life</ArachnaeBase_Race_Scavenger.comps.CompProperties_NodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Scavenger.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>Arachne is on the road to death from birth - their lifespan is so short.</ArachnaeBase_Race_Scavenger.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Longpincer.label>Arachne Juggernaut</ArachnaeBase_Race_Longpincer.label>
+  <ArachnaeBase_Race_Longpincer.description>One of the Arachne parasites, it possesses a pair of jaws that are too large for its size and can carry out carrying and digging work. If its supervisor is in recruitment status, it will follow the supervisor.</ArachnaeBase_Race_Longpincer.description>
+  <ArachnaeBase_Race_Longpincer.comps.CompProperties_NodeSwarmLifetime.labelOverride>life</ArachnaeBase_Race_Longpincer.comps.CompProperties_NodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Longpincer.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>Arachne is on the road to death from birth - their lifespan is so short.</ArachnaeBase_Race_Longpincer.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Longpincer.tools.0.label>giant jaw</ArachnaeBase_Race_Longpincer.tools.0.label>
+  <ArachnaeBase_Race_Hivekeeping.label>Arachne Housekeeping</ArachnaeBase_Race_Hivekeeping.label>
+  <ArachnaeBase_Race_Hivekeeping.description>One of the auxiliary insects of Arachne, with low intelligence, it can perform transportation, cleaning and maintenance of insect colony buildings. It is an indispensable member of the maintainer group in the insect nest.</ArachnaeBase_Race_Hivekeeping.description>
+  <ArachnaeBase_Race_Hivekeeping.comps.CompProperties_NodeSwarmLifetime.labelOverride>life</ArachnaeBase_Race_Hivekeeping.comps.CompProperties_NodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Hivekeeping.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>Arachne is on the road to death from birth - their lifespan is so short.</ArachnaeBase_Race_Hivekeeping.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Acidcut.label>Arachne acidophage</ArachnaeBase_Race_Acidcut.label>
+  <ArachnaeBase_Race_Acidcut.description>One of the auxiliaries of Arachne, it has low intelligence and relies on its acidic jaws to bite the enemy. Because of its simple body structure, it is easy to breed. If its supervisor is in recruitment status, it will follow the supervisor.</ArachnaeBase_Race_Acidcut.description>
+  <ArachnaeBase_Race_Acidcut.comps.CompProperties_NodeSwarmLifetime.labelOverride>life</ArachnaeBase_Race_Acidcut.comps.CompProperties_NodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Acidcut.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>Arachne is on the road to death from birth - their lifespan is so short.</ArachnaeBase_Race_Acidcut.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Acidcut.tools.0.label>Acidic Megajaw</ArachnaeBase_Race_Acidcut.tools.0.label>
+  <ArachnaeBase_Race_Baneling.label>Arachne Explosive Species</ArachnaeBase_Race_Baneling.label>
+  <ArachnaeBase_Race_Baneling.description>One of the Arachne auxiliary insects, it usually damages the enemy through suicide attacks. When it gets close to the enemy, it will detonate acid sacs to produce dangerous acidic mist. You can also choose to use low-intensity self-destruction to leave a carpet for subsequent Zerg troops to advance. If its supervisor is in recruitment status, it will follow the supervisor.</ArachnaeBase_Race_Baneling.description>
+  <ArachnaeBase_Race_Baneling.comps.CompProperties_NodeSwarmLifetime.labelOverride>life</ArachnaeBase_Race_Baneling.comps.CompProperties_NodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Baneling.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>Arachne is on the road to death from birth - their lifespan is so short.</ArachnaeBase_Race_Baneling.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Empsuicider.label>Arachne electromagnetic species</ArachnaeBase_Race_Empsuicider.label>
+  <ArachnaeBase_Race_Empsuicider.description>One of Arachne's auxiliary insects, it has low intelligence. It usually damages the enemy through suicide attacks. When it gets close to the enemy, it will release EMP to paralyze the attached machine race. If its supervisor is in recruitment status, it will follow the supervisor.</ArachnaeBase_Race_Empsuicider.description>
+  <ArachnaeBase_Race_Empsuicider.comps.CompProperties_NodeSwarmLifetime.labelOverride>life</ArachnaeBase_Race_Empsuicider.comps.CompProperties_NodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Empsuicider.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>Arachne is on the road to death from birth - their lifespan is so short.</ArachnaeBase_Race_Empsuicider.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Skyhive.label>Arachne Skynest</ArachnaeBase_Race_Skyhive.label>
+  <ArachnaeBase_Race_Skyhive.description>One of the auxiliary insects of Arachne, it has the ability to fly close to the ground, and is very fast in both attacking and moving. If its supervisor is in recruitment status, it will follow the supervisor.</ArachnaeBase_Race_Skyhive.description>
+  <ArachnaeBase_Race_Skyhive.comps.CompProperties_NodeSwarmLifetime.labelOverride>life</ArachnaeBase_Race_Skyhive.comps.CompProperties_NodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Skyhive.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>Arachne is on the road to death from birth - their lifespan is so short.</ArachnaeBase_Race_Skyhive.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Skyhive.tools.0.label>compound jaw</ArachnaeBase_Race_Skyhive.tools.0.label>
+  <ArachnaeBase_Race_Locust.label>Arachne Locust Species</ArachnaeBase_Race_Locust.label>
+  <ArachnaeBase_Race_Locust.description>One of the Arachne auxiliary insects, it is one of the few auxiliary insect units with high intelligence. It can avoid danger on its own and use poison needle glands to shoot at the enemy group. If its overseer is in the recruitment state, it will follow the overseer, but will be more inclined to protect its overseer rather than proactively confront the enemy.</ArachnaeBase_Race_Locust.description>
+  <ArachnaeBase_Race_Locust.comps.CompProperties_NodeSwarmLifetime.labelOverride>life</ArachnaeBase_Race_Locust.comps.CompProperties_NodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Locust.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>Arachne is on the road to death from birth - their lifespan is so short.</ArachnaeBase_Race_Locust.comps.CompProperties_NodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Locust.tools.0.label>compound jaw</ArachnaeBase_Race_Locust.tools.0.label>
+  <ARA_AcidCut.label>acid bite</ARA_AcidCut.label>
+  <ARA_Bite.label>bite</ARA_Bite.label>
+</LanguageData>

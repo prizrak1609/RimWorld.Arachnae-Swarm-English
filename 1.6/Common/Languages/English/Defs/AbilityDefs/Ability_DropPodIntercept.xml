@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_ToggleDropPodIntercept.label>predator cruise</ARA_ToggleDropPodIntercept.label>
+  <ARA_ToggleDropPodIntercept.description>Switch to the interception mode of Tianwu Zhong against enemy airdrop attacks. After turning it on, some transport warehouses will be randomly intercepted before enemy airdrops arrive.</ARA_ToggleDropPodIntercept.description>
+</LanguageData>

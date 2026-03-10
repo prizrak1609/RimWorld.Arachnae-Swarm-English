@@ -1,0 +1,39 @@
+﻿<LanguageData>
+  <ARA_NamerInitialSettlement.rulePack.rulesStrings.0>r_name-&gt;Bug Nest</ARA_NamerInitialSettlement.rulePack.rulesStrings.0>
+  <ARA_NamerSettlement.rulePack.rulesStrings.0>r_name-&gt;[hivesettlement name 1] [hivesettlement name 2]</ARA_NamerSettlement.rulePack.rulesStrings.0>
+  <ARA_NamerSettlement.rulePack.rulesStrings.1>hivesettlementname1-&gt;Red</ARA_NamerSettlement.rulePack.rulesStrings.1>
+  <ARA_NamerSettlement.rulePack.rulesStrings.10>hivesettlementname2 -&gt; Center</ARA_NamerSettlement.rulePack.rulesStrings.10>
+  <ARA_NamerSettlement.rulePack.rulesStrings.11>hivesettlementname2-&gt;Focus</ARA_NamerSettlement.rulePack.rulesStrings.11>
+  <ARA_NamerSettlement.rulePack.rulesStrings.12>hivesettlementname2-&gt;Origin</ARA_NamerSettlement.rulePack.rulesStrings.12>
+  <ARA_NamerSettlement.rulePack.rulesStrings.13>hivesettlementname2-&gt;hub</ARA_NamerSettlement.rulePack.rulesStrings.13>
+  <ARA_NamerSettlement.rulePack.rulesStrings.14>hivesettlementname2-&gt;Axis</ARA_NamerSettlement.rulePack.rulesStrings.14>
+  <ARA_NamerSettlement.rulePack.rulesStrings.15>hivesettlementname2-&gt;Center</ARA_NamerSettlement.rulePack.rulesStrings.15>
+  <ARA_NamerSettlement.rulePack.rulesStrings.16>hivesettlementname2-&gt;Mother</ARA_NamerSettlement.rulePack.rulesStrings.16>
+  <ARA_NamerSettlement.rulePack.rulesStrings.17>hivesettlementname2-&gt;source</ARA_NamerSettlement.rulePack.rulesStrings.17>
+  <ARA_NamerSettlement.rulePack.rulesStrings.18>hivesettlementname2-&gt;source</ARA_NamerSettlement.rulePack.rulesStrings.18>
+  <ARA_NamerSettlement.rulePack.rulesStrings.19>hivesettlementname2-&gt;Body</ARA_NamerSettlement.rulePack.rulesStrings.19>
+  <ARA_NamerSettlement.rulePack.rulesStrings.2>hivesettlementname1-&gt;Highest</ARA_NamerSettlement.rulePack.rulesStrings.2>
+  <ARA_NamerSettlement.rulePack.rulesStrings.20>hivesettlementname2-&gt;ancestor</ARA_NamerSettlement.rulePack.rulesStrings.20>
+  <ARA_NamerSettlement.rulePack.rulesStrings.21>hivesettlementname2-&gt;brain</ARA_NamerSettlement.rulePack.rulesStrings.21>
+  <ARA_NamerSettlement.rulePack.rulesStrings.22>hivesettlementname2-&gt;nestcore</ARA_NamerSettlement.rulePack.rulesStrings.22>
+  <ARA_NamerSettlement.rulePack.rulesStrings.3>hivesettlementname1-&gt;Unique</ARA_NamerSettlement.rulePack.rulesStrings.3>
+  <ARA_NamerSettlement.rulePack.rulesStrings.4>hive name 1 -&gt; spreading</ARA_NamerSettlement.rulePack.rulesStrings.4>
+  <ARA_NamerSettlement.rulePack.rulesStrings.5>hivesettlementname1-&gt;Eternal</ARA_NamerSettlement.rulePack.rulesStrings.5>
+  <ARA_NamerSettlement.rulePack.rulesStrings.6>hivesettlementname1-&gt;Perpetual</ARA_NamerSettlement.rulePack.rulesStrings.6>
+  <ARA_NamerSettlement.rulePack.rulesStrings.7>hivesettlementname2-&gt;Core</ARA_NamerSettlement.rulePack.rulesStrings.7>
+  <ARA_NamerSettlement.rulePack.rulesStrings.8>hivesettlementname2-&gt;kernel</ARA_NamerSettlement.rulePack.rulesStrings.8>
+  <ARA_NamerSettlement.rulePack.rulesStrings.9>hivesettlementname2-&gt;Key Points</ARA_NamerSettlement.rulePack.rulesStrings.9>
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings.0>r_name-&gt;[hivename1] [hivename2]</ARA_New_Hive_NamerFaction.rulePack.rulesStrings.0>
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings.1>hivename1-&gt;Void</ARA_New_Hive_NamerFaction.rulePack.rulesStrings.1>
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings.10>hivename2-&gt;Claws</ARA_New_Hive_NamerFaction.rulePack.rulesStrings.10>
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings.11>hivename2-&gt;BeastHive</ARA_New_Hive_NamerFaction.rulePack.rulesStrings.11>
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings.12>hive name2-&gt;tentacles</ARA_New_Hive_NamerFaction.rulePack.rulesStrings.12>
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings.2>hivename1-&gt;The Abyss</ARA_New_Hive_NamerFaction.rulePack.rulesStrings.2>
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings.3>hivename1-&gt;Devour</ARA_New_Hive_NamerFaction.rulePack.rulesStrings.3>
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings.4>hivename1-&gt;Evolution</ARA_New_Hive_NamerFaction.rulePack.rulesStrings.4>
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings.5>hivename1-&gt;Native</ARA_New_Hive_NamerFaction.rulePack.rulesStrings.5>
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings.6>hivename1-&gt;Hybrid</ARA_New_Hive_NamerFaction.rulePack.rulesStrings.6>
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings.7>hivename1-&gt;Ebonbone</ARA_New_Hive_NamerFaction.rulePack.rulesStrings.7>
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings.8>hive name2 -&gt; Bee Hive</ARA_New_Hive_NamerFaction.rulePack.rulesStrings.8>
+  <ARA_New_Hive_NamerFaction.rulePack.rulesStrings.9>hivename2-&gt;Bug Swarm</ARA_New_Hive_NamerFaction.rulePack.rulesStrings.9>
+</LanguageData>

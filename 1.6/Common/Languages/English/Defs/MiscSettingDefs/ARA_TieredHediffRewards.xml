@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_DefaultIncubatorRewards.label>Default incubation reward configuration</ARA_DefaultIncubatorRewards.label>
+  <ARA_DefaultIncubatorRewards.description>Arachne Swarm's default hatching trait bonus rules. It is divided into 7 stages according to the hatching quality, and rewards are drawn from different trait pools at different stages. The quality limit is 150%.</ARA_DefaultIncubatorRewards.description>
+</LanguageData>

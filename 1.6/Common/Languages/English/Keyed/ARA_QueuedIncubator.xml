@@ -37,6 +37,7 @@
 <ARA_Status_CurrentFlux>Current activity: {0}</ARA_Status_CurrentFlux>
 <ARA_Status_IncubationSpeed>Hatching speed: {0}x</ARA_Status_IncubationSpeed>
 <ARA_Status_Efficiency>efficiency</ARA_Status_Efficiency>
+<ARA_Status_Speed>speed</ARA_Status_Speed>
 <ARA_Status_Quality>quality</ARA_Status_Quality>
 <ARA_Status_Mode>Mode: {0}</ARA_Status_Mode>
 <ARA_Status_DormantWarning>⚠ Quality will decrease while dormant!</ARA_Status_DormantWarning>
@@ -84,7 +85,7 @@
 <ARA_Tooltip_Remaining>Remaining: {0}</ARA_Tooltip_Remaining>
 <ARA_NutrientDispenser_MealsAvailable>Can be created: {0} food</ARA_NutrientDispenser_MealsAvailable>
 <ARA_FuelLabel_Nutrition>insect honey</ARA_FuelLabel_Nutrition>
-<ARA_SwarmMaintenance_Title>Retention level</ARA_SwarmMaintenance_Title>
+<ARA_SwarmMaintenance_Title>Maintenance</ARA_SwarmMaintenance_Title>
 <ARA_SwarmMaintenance_DailyDecay_Short>Consumption: {0}/day</ARA_SwarmMaintenance_DailyDecay_Short>
 <ARA_SwarmMaintenance_TooltipTitle>[Building maintenance level]</ARA_SwarmMaintenance_TooltipTitle>
 <ARA_SwarmMaintenance_TooltipCurrent>Currently: {0} / {1}</ARA_SwarmMaintenance_TooltipCurrent>

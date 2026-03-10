@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_MimicNematodeShambler.label>Arachne parasitoid</ARA_MimicNematodeShambler.label>
+  <ARA_MimicNematodeShambler.description>The Arachnids are one of the most mysterious branches of the insect swarm. They are homologous to the protozoan species, but they did not develop advanced intelligence on the road of evolution, but took a completely different path: parasitism. Parasites are parasites that cannot survive independently of their host. Once parasitic in an organism, they will lie dormant for a long time and eventually gradually take over the host's nervous and metabolic systems, turning them into zombies under their control - "parasites". Thanks to its extraordinary ability to replicate and regenerate cells, Pseudomonas species are able to imitate and replace the host's cell structure, giving the parasite an astonishing ability to repair itself. However, this parasitic relationship is also extremely aggressive: the eggs of the parasitic species are spread all over the surface of the parasite, and any organism attacked by the parasite may be infected and eventually become a new parasite. Although the nematodes maintain the parasite's metabolism at extremely low levels, the parasite itself does not actively forage for food. Therefore, when their energy is exhausted, they will eventually "die".</ARA_MimicNematodeShambler.description>
+  <ARA_MimicNematodeShambler.tools.0.label>bite</ARA_MimicNematodeShambler.tools.0.label>
+  <ARA_MimicNematodeShambler.tools.1.label>giant scythe</ARA_MimicNematodeShambler.tools.1.label>
+  <ARA_MimicNematodeShambler.tools.2.label>giant scythe</ARA_MimicNematodeShambler.tools.2.label>
+  <ARA_MimicNematodeShamblerBite.label>bite</ARA_MimicNematodeShamblerBite.label>
+</LanguageData>

@@ -1,0 +1,22 @@
+﻿<LanguageData>
+  <ARA_GestaltBandwidth.description>Arachne Swarm Tower Network's maximum node limit. Each Arachne queen will impact network load, some tribes share the burden of network pressure while others increase it. When the load is too high, the Arachne queen's mental state and consciousness may decrease.</ARA_GestaltBandwidth.description>
+  <ARA_GestaltBandwidth.label>Hive Network Capacity</ARA_GestaltBandwidth.label>
+  <ARA_GestaltBandwidthCost.description>Aranea Crawler's impact on Format Tower bandwidth, if negative, represents the crawler sharing network load.</ARA_GestaltBandwidthCost.description>
+  <ARA_GestaltBandwidthCost.label>Hive Network Load</ARA_GestaltBandwidthCost.label>
+  <ARA_IcezKillingFactor.description>The percentage of the body part's health required to break it due to freezing damage</ARA_IcezKillingFactor.description>
+  <ARA_IcezKillingFactor.label>Ice Kill Threshold</ARA_IcezKillingFactor.label>
+  <ARA_IncubationCost.description>The cost of incubating this armed organ/tissue in terms of total nutrition</ARA_IncubationCost.description>
+  <ARA_IncubationCost.formatString>{0} units</ARA_IncubationCost.formatString>
+  <ARA_IncubationCost.label>Incubation cost in nutrients</ARA_IncubationCost.label>
+  <ARA_IncubationSpeedFactor.description>Incubation speed multiplier for the hatchery.</ARA_IncubationSpeedFactor.description>
+  <ARA_IncubationSpeedFactor.label>Incubation Speed Factor</ARA_IncubationSpeedFactor.label>
+  <ARA_IncubationTime.description>The incubation time for this armed organ or tissue is</ARA_IncubationTime.description>
+  <ARA_IncubationTime.formatString>{0} days</ARA_IncubationTime.formatString>
+  <ARA_IncubationTime.label>Incubation Time</ARA_IncubationTime.label>
+  <ARA_SwarmSpell_Cooldown_Delay.description>When Alakne's Swarm Spell ability is used by the species, its mana load will start to decrease gradually after this time. Any casting will reset the cooldown.</ARA_SwarmSpell_Cooldown_Delay.description>
+  <ARA_SwarmSpell_Cooldown_Delay.label>Mana Nerve Chain Cooldown Delay (seconds)</ARA_SwarmSpell_Cooldown_Delay.label>
+  <ARA_SwarmSpell_Level.description>Arachne's spell power level.</ARA_SwarmSpell_Level.description>
+  <ARA_SwarmSpell_Level.label>Level of Spell</ARA_SwarmSpell_Level.label>
+  <NutrientTransmissionEfficiency.description>Reduce the fuel consumption when transmitting biomass. The final amount will be multiplied by (1 - efficiency).</NutrientTransmissionEfficiency.description>
+  <NutrientTransmissionEfficiency.label>Biological mass transmission efficiency</NutrientTransmissionEfficiency.label>
+</LanguageData>

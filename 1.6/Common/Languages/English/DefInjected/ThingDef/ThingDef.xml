@@ -1,0 +1,528 @@
+﻿<LanguageData>
+  <ARANutrientDispenser.comps.CompRefuelableNutrition.fuelGizmoLabel>Honey</ARANutrientDispenser.comps.CompRefuelableNutrition.fuelGizmoLabel>
+  <ARANutrientDispenser.description>A nest producing Aran Nutrient Dispenser, which processes insect honey to produce edible crystalline cakes. This food processed inside the nest helps the colony resist cold-blooded animal effects and has a soft texture that non-insect colonists can enjoy as well.</ARANutrientDispenser.description>
+  <ARANutrientDispenser.label>Aranea Nutri Cryst Nest</ARANutrientDispenser.label>
+  <ARA_AcidGasCloud.label>Acid Gas Cloud label</ARA_AcidGasCloud.label>
+  <ARA_Activated_Bacterium.description>A microbe colony that has been extensively modified and domesticated by the Arachne. It possesses extreme biological catalytic abilities as well as corrosion assimilation capabilities, making it a necessary component for many of their advanced equipment.</ARA_Activated_Bacterium.description>
+  <ARA_Activated_Bacterium.label>Activated giant bacterium</ARA_Activated_Bacterium.label>
+  <ARA_ActiveDropPod.label>Alacne Airbag</ARA_ActiveDropPod.label>
+  <ARA_Arc_Beam_Mote.label>Mote</ARA_Arc_Beam_Mote.label>
+  <ARA_AutoSniperCannon.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>Honey</ARA_AutoSniperCannon.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
+  <ARA_AutoSniperCannon.description>The Arachne Defense Organization used to protect the nest. It is composed of numerous highly specialized organs lacking autonomy, capable of firing spines at a high rate to deal significant damage to large enemies or invading groups. As an Arachne defense organization, it can generate additional ammunition by acquiring nutrients.</ARA_AutoSniperCannon.description>
+  <ARA_AutoSniperCannon.label>Blood Chain Trillion Cannon Organization</ARA_AutoSniperCannon.label>
+  <ARA_Bacterium_Plant.description>A unique plant that can only grow on Alacne mycelium, although it must grow in darkness and almost doesn't consume resources, producing a swarm of activated giant fungi.</ARA_Bacterium_Plant.description>
+  <ARA_Bacterium_Plant.label>Giant Bacteria</ARA_Bacterium_Plant.label>
+  <ARA_BanelingTrapPlant.description>A type of fungal mixture cultivated by Arachne spores, which absorbs the nutrients from the mycelium and undergoes metamorphosis at a certain stage to transform into an Arachne explosive cocoon—a special trap that releases suicidal larvae against nearby enemies.</ARA_BanelingTrapPlant.description>
+  <ARA_BanelingTrapPlant.label>Explosive Nest Plant</ARA_BanelingTrapPlant.label>
+  <ARA_Baneling_Artillery_AutoMortar.label>Explosive Shells Launcher label</ARA_Baneling_Artillery_AutoMortar.label>
+  <ARA_Baneling_Artillery_AutoMortar.verbs.Verb_ShootWithOffset.label>Explosive Nest Launch</ARA_Baneling_Artillery_AutoMortar.verbs.Verb_ShootWithOffset.label>
+  <ARA_Baneling_AutoMortar.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>Honey</ARA_Baneling_AutoMortar.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
+  <ARA_Baneling_AutoMortar.description>The Baneling Auto-Mortar is a type of defense organization used by the Arkeenoids to protect their nest. It consists of numerous highly specialized organs lacking self-awareness, which can launch multiple Arkeenoid Bombardier larvae at invading enemies. As part of the Arkeenoid defense organizations, it can generate additional ammunition through nutrient acquisition.</ARA_Baneling_AutoMortar.description>
+  <ARA_Baneling_AutoMortar.label>Explosive Nest Organization</ARA_Baneling_AutoMortar.label>
+  <ARA_Baneling_Pouch.description>Arachne's Baneling Pouch.description - Arachne's Banelings are contained within this pouch, each ready to hatch and explode upon receiving the correct command. This procedure does not require component crafting; it can be performed directly on an Arachne Chrysalis.</ARA_Baneling_Pouch.description>
+  <ARA_Baneling_Pouch.label>Explosive Seed Pod</ARA_Baneling_Pouch.label>
+  <ARA_BeeSpikePlant.description>A type of fungus mixture cultivated by Arachne insects, which absorbs nutrients from the mycelium and undergoes metamorphosis to eventually transform into a Bee Sting Sniper—a consciousness fungal shooter that uses poison darts to attack enemy forces.</ARA_BeeSpikePlant.description>
+  <ARA_BeeSpikePlant.label>Beehive Flower</ARA_BeeSpikePlant.label>
+  <ARA_BioforgeIncubator.comps.CompRefuelableNutrition.fuelGizmoLabel>Honey</ARA_BioforgeIncubator.comps.CompRefuelableNutrition.fuelGizmoLabel>
+  <ARA_BioforgeIncubator.description>A large, nutrient-intensive incubation facility that can simultaneously spawn multiple units and link to external devices to improve efficiency.</ARA_BioforgeIncubator.description>
+  <ARA_BioforgeIncubator.label>Bioforge Incubator Label</ARA_BioforgeIncubator.label>
+  <ARA_BioforgeIncubator_Thing.comps.CompRefuelableNutrition.fuelGizmoLabel>Honey</ARA_BioforgeIncubator_Thing.comps.CompRefuelableNutrition.fuelGizmoLabel>
+  <ARA_BioforgeIncubator_Thing.description>A large, nutrient-intensive incubation facility that can simultaneously process multiple items and link to external devices to improve efficiency.</ARA_BioforgeIncubator_Thing.description>
+  <ARA_BioforgeIncubator_Thing.label>Bioforge Incubator</ARA_BioforgeIncubator_Thing.label>
+  <ARA_Bodystocking_Black.description>Arachne's decorative fabric, which should be useless to the Arachne for sure.</ARA_Bodystocking_Black.description>
+  <ARA_Bodystocking_Black.label>Bodystocking - Black</ARA_Bodystocking_Black.label>
+  <ARA_Bodystocking_White.description>The decorative fabric of the Arachne Hive, which should be useless to the hive.</ARA_Bodystocking_White.description>
+  <ARA_Bodystocking_White.label>Bodystocking White</ARA_Bodystocking_White.label>
+  <ARA_Building_SpiderOne.comps.CompRefuelableNutrition.fuelGizmoLabel>Fuel Gizmo</ARA_Building_SpiderOne.comps.CompRefuelableNutrition.fuelGizmoLabel>
+  <ARA_Building_SpiderOne.description>Arachne's special living structure, possessing most of a creature's biological organs but lacking intelligence. It can be fused with the nervous system of a Wasp to become an armor-like equipment. The symbiotic muscle groups provide additional heavy weapons, and numerous micro-weaponized organs are mounted on its body, allowing Arachne to wield power comparable to human warships.</ARA_Building_SpiderOne.description>
+  <ARA_Building_SpiderOne.label>Frostbite Coexistence Skin Group</ARA_Building_SpiderOne.label>
+  <ARA_Bullet_Rail.label>Aranea's Bullet Rail Sting</ARA_Bullet_Rail.label>
+  <ARA_Bullet_SniperCannon.label>Aranea Thorn Rifle</ARA_Bullet_SniperCannon.label>
+  <ARA_Bunny_Girl_Uniform.description>Arkanen Bugworms' woven fabric of a type, which tightly hugs the curves of the bugworms and allows them to move faster on an Arkanen Socky Mat.</ARA_Bunny_Girl_Uniform.description>
+  <ARA_Bunny_Girl_Uniform.label>Aranea Rabbit Girl Uniform label</ARA_Bunny_Girl_Uniform.label>
+  <ARA_Carapace.description>Extracted from the partially armored carapace of an Arachne, this chitin is lightweight but not very durable. It's a versatile material found in many uses within the nest.</ARA_Carapace.description>
+  <ARA_Carapace.label>Shell</ARA_Carapace.label>
+  <ARA_Carapace_Column.description>Arkan's Bone Flower, through the catalyzing of corpses, transforms into a pillar. The swarm can dismantle it to obtain chitin.</ARA_Carapace_Column.description>
+  <ARA_Carapace_Column.label>Bone Column</ARA_Carapace_Column.label>
+  <ARA_Carapace_Productor.description>A corpse carapace is an alacrane tissue sample that can fully utilize the catalytic abilities of giant maggots. It commands other insectoid members to dismantle it and harvest chitin.</ARA_Carapace_Productor.description>
+  <ARA_Carapace_Productor.label>Bone Flower</ARA_Carapace_Productor.label>
+  <ARA_CatastropheMissile_Shell.description>The Catastrophe Acid Burn Shell is used by the Arachnids. Only the Catastrophe Acid Burn Organization can fire it.</ARA_CatastropheMissile_Shell.description>
+  <ARA_CatastropheMissile_Shell.label>Catastrophe Missile Shell label</ARA_CatastropheMissile_Shell.label>
+  <ARA_Chair.description>Bizarre chair, made of living rock and tentacles, glowing with life to show a faint light</ARA_Chair.description>
+  <ARA_Chair.label>Bug Swarm Chair</ARA_Chair.label>
+  <ARA_Column.description>Arachne's Column in the Arachne Swarm is a living tissue made of tentacle-like structures that can support the roof and prevent it from collapsing. It emits light over a wide area, and is much more sturdy than ordinary supports.</ARA_Column.description>
+  <ARA_Column.label>The Hive Column</ARA_Column.label>
+  <ARA_CreepFungus.description>Collected from the creep fungus flower. Can be eaten raw, but tastes better when cooked.</ARA_CreepFungus.description>
+  <ARA_CreepFungus.label>Moss Fungi</ARA_CreepFungus.label>
+  <ARA_CreepPlant.description>A creep plant that can only grow on Alaknife Mushroom Mat, though it must mature in darkness and consumes little resources to produce edible mushrooms for the colony.</ARA_CreepPlant.description>
+  <ARA_CreepPlant.label>Mushroom Bloom</ARA_CreepPlant.label>
+  <ARA_Cycle_Suppression.description>To suppress the lifecycle of Arachneans, this antidote prevents their own chaotic growth and extends their lifespan. The procedure does not require component creation; it can be directly performed on an Arachnean cocoon.</ARA_Cycle_Suppression.description>
+  <ARA_Cycle_Suppression.label>Cycle Suppression</ARA_Cycle_Suppression.label>
+  <ARA_Daily_Wear.description>The Aarakne wormclothes of this type can grant the worms their travel speed on an Aarakne mat. After leaving the mat, they slowly decay. This cute everyday wear can work with the insect swarm's distortion effect to make humans feel 'so cute'.</ARA_Daily_Wear.description>
+  <ARA_Daily_Wear.label>Alacne Daily Wear</ARA_Daily_Wear.label>
+  <ARA_DormancyVat.description>Arachne Hive uses a special live body facility to store excess colonies. The stored colonies will enter an eternal slumber, awaiting the main hive's call.</ARA_DormancyVat.description>
+  <ARA_DormancyVat.label>Aranea Dormancy Vat</ARA_DormancyVat.label>
+  <ARA_Dragoon_Uniform.description>Arachne Hive's high-tier warrior-woven fabric, they can emit deafening roars and give an unexpected sense of solemnity—only to be shattered when they tear your companions apart with their clattering pincers.</ARA_Dragoon_Uniform.description>
+  <ARA_Dragoon_Uniform.label>Arkanian Guard Uniform</ARA_Dragoon_Uniform.label>
+  <ARA_DropPod.description>A massive Arachne pod, its internal cavity can hold a large amount of supplies and the tribe. It can use its body's air sacs to lift off into the sky, heading towards the destination on the map, though it will self-destruct upon landing.
+
+Compared to human drop pods, gas pods don't require fuel for propulsion and are cheaper to build.</ARA_DropPod.description>
+  <ARA_DropPod.label>Aranea Drop Pod label</ARA_DropPod.label>
+  <ARA_DropPodIncoming.label>Aranea Drop Pod Incoming label (Near Mid)</ARA_DropPodIncoming.label>
+  <ARA_DropPodLeaving.label>Aranea airbag pack (launching)</ARA_DropPodLeaving.label>
+  <ARA_DummyAmmo.description>Arkanian insectoids use this ammunition.</ARA_DummyAmmo.description>
+  <ARA_DummyAmmo.label>Ammo</ARA_DummyAmmo.label>
+  <ARA_Equipment_Ootheca.comps.CompRefuelableNutrition.fuelGizmoLabel>Honey</ARA_Equipment_Ootheca.comps.CompRefuelableNutrition.fuelGizmoLabel>
+  <ARA_Equipment_Ootheca.description>Like a tower of Arachne, its living structure can be cultured into partially developed individuals—armed organs and tissues, which are the weapons and clothing of the swarm. It requires an Arachne larva to enter in order to initiate the culturing process. A spacious area filled with Arachne nutrient fluid is ideal for placing it.</ARA_Equipment_Ootheca.description>
+  <ARA_Equipment_Ootheca.label>Ootheca</ARA_Equipment_Ootheca.label>
+  <ARA_Eveningdress.description>Arachne'sweave. A high-society and alluring fabric imbued with potent spiritual power, this weave enhances the wearer's spiritual ability.</ARA_Eveningdress.description>
+  <ARA_Eveningdress.label>Alakne Evening Dress</ARA_Eveningdress.label>
+  <ARA_Fighter_Base_Turret.description>The symbiotic organs on the body of an Alacne Warrior will automatically project acid-dwelling larvae at enemy units nearby.</ARA_Fighter_Base_Turret.description>
+  <ARA_Fighter_Base_Turret.label>Acid Siphon</ARA_Fighter_Base_Turret.label>
+  <ARA_Fighter_Base_Turret.verbs.Verb_ShootSelfUnderfoot.label>Shoot under foot</ARA_Fighter_Base_Turret.verbs.Verb_ShootSelfUnderfoot.label>
+  <ARA_Filth_SpentAcid.label>Arkanine Acid Spent</ARA_Filth_SpentAcid.label>
+  <ARA_Flyer_TrackingCharge.label>flying</ARA_Flyer_TrackingCharge.label>
+  <ARA_FrostGasCloud.label>Frost Cloud</ARA_FrostGasCloud.label>
+  <ARA_FrostGasCloud_Ex.label>Frost Cloud</ARA_FrostGasCloud_Ex.label>
+  <ARA_Gene_Essence.description>The fragile essence of a small auxiliary insect, the Arakne genetic essence, is stored within the body. It is typically obtained from the extraction chamber by extracting it from prisoners, and it is an important resource for the Arakne species.</ARA_Gene_Essence.description>
+  <ARA_Gene_Essence.label>Essence</ARA_Gene_Essence.label>
+  <ARA_Gene_Essence_Shell.description>The Arachne insectoid's reaction shell can prevent one external damage, but then the plate will shatter and no longer provide defense. This surgery does not require component creation; it can be directly performed on an Arachne drone.</ARA_Gene_Essence_Shell.description>
+  <ARA_Gene_Essence_Shell.label>Shell Growth</ARA_Gene_Essence_Shell.label>
+  <ARA_Gun_Beespikeshooter.description>Will emit a small cluster of toxic spores.</ARA_Gun_Beespikeshooter.description>
+  <ARA_Gun_Beespikeshooter.label>Bee Sting Shooter</ARA_Gun_Beespikeshooter.label>
+  <ARA_Gun_Beespikeshooter.verbs.Verb_Shoot.label>Beekeeper's Rifle</ARA_Gun_Beespikeshooter.verbs.Verb_Shoot.label>
+  <ARA_Hibernate_Sac.description>Arachnean organism formed by the host entering hibernation.</ARA_Hibernate_Sac.description>
+  <ARA_Hibernate_Sac.label>Aranea Hibernation Body</ARA_Hibernate_Sac.label>
+  <ARA_HiveCorvette.label>Sky Witch Swarm (Catastrophe Cannon)</ARA_HiveCorvette.label>
+  <ARA_HiveCorvetteB_Fake.label>Sky Witch Swarm (Fake)</ARA_HiveCorvetteB_Fake.label>
+  <ARA_HiveCorvette_Bombardment.label>The Acid Bombing of the Hive Corvettes</ARA_HiveCorvette_Bombardment.label>
+  <ARA_HiveCorvette_Building.description>The ARA HiveCorvette's scout was the Arachne Swarm fleet's ground attack drone. Its long tendrils and strong energy suspension ability allowed it to fly at high speed over the battlefield, striking enemy clusters that lack eyes or aiding swarm attacks according to its orders.
+
+It needs to take off to be effective!</ARA_HiveCorvette_Building.description>
+  <ARA_HiveCorvette_Building.label>Astral Hive Corvette Building Label</ARA_HiveCorvette_Building.label>
+  <ARA_HiveCorvette_Entity.description>What? This is a thingdef for counting, you shouldn't see this in any situation.</ARA_HiveCorvette_Entity.description>
+  <ARA_HiveCorvette_Entity.label>Sky Witch Swarm</ARA_HiveCorvette_Entity.label>
+  <ARA_HiveCorvette_Fake.label>Skyborn Beast</ARA_HiveCorvette_Fake.label>
+  <ARA_HiveCorvette_Leaving.label>The Wasp Swarm (Taking off)</ARA_HiveCorvette_Leaving.label>
+  <ARA_HiveCorvette_Missile.label>Sky Wasp (Catastrophe Missile)</ARA_HiveCorvette_Missile.label>
+  <ARA_HiveCorvette_Strike.label>Sky Wraith Swarm (Spiked Volley)</ARA_HiveCorvette_Strike.label>
+  <ARA_HiveShip.label>Hive Ship</ARA_HiveShip.label>
+  <ARA_HiveShip_Fake.label>Hive Ship</ARA_HiveShip_Fake.label>
+  <ARA_HiveShip_Fire_Incoming.label>Incoming Fire - Acid Burn Missile (Hive Ship)</ARA_HiveShip_Fire_Incoming.label>
+  <ARA_HiveShip_Heart.description>A heart of an Arachnid Hive Ship Hunter, functioning similarly to a human reverse engine.</ARA_HiveShip_Heart.description>
+  <ARA_HiveShip_Heart.label>Hunter's Nest Ship-Chest</ARA_HiveShip_Heart.label>
+  <ARA_HiveShip_Stomach.comps.CompRefuelable.fuelGizmoLabel>Nutrition</ARA_HiveShip_Stomach.comps.CompRefuelable.fuelGizmoLabel>
+  <ARA_HiveShip_Stomach.comps.CompRefuelable.fuelLabel>Nutrition</ARA_HiveShip_Stomach.comps.CompRefuelable.fuelLabel>
+  <ARA_HiveShip_Stomach.description>The stomach pouch of the Arkeen Hive Ship, which can store biomass for the Hive Ship's movement.</ARA_HiveShip_Stomach.description>
+  <ARA_HiveShip_Stomach.label>Hunter's Nest Ship-Stomach</ARA_HiveShip_Stomach.label>
+  <ARA_HiveShip_Tail.description>Hunter's Nest Ship is used for mobile organs.</ARA_HiveShip_Tail.description>
+  <ARA_HiveShip_Tail.label>Hunter's Nest Ship - Tentacle</ARA_HiveShip_Tail.label>
+  <ARA_Huge_Stomach.description>Arachne's directional mutation grants it a larger stomach pouch to hold more nutrients. The surgery does not require component creation and can be directly performed on an Arachne.</ARA_Huge_Stomach.description>
+  <ARA_Huge_Stomach.label>Extra Stomach pouch</ARA_Huge_Stomach.label>
+  <ARA_InsectDoor.description>Insect Door's description, Arkne insect nest entrance. The main body is made of hard material and chitin mixture, while the opening mechanism consists of a non-conscious arknine organism structure that allows automatic opening without needing to build on an arknite mat.</ARA_InsectDoor.description>
+  <ARA_InsectDoor.label>Arachnid Shell Door</ARA_InsectDoor.label>
+  <ARA_InsectJelly.description>Jelly from the Arachne insects is stored and used as food by most Arachne species. It's smooth, rich, never spoils, and satisfies a creature's entertainment needs. Due to its unique biological properties, non-Arachne creatures can also eat this food without causing food poisoning.</ARA_InsectJelly.description>
+  <ARA_InsectJelly.label>Insect Jelly</ARA_InsectJelly.label>
+  <ARA_InsectWall.description>Arkanen ant colonies build hard materials and chitin together to form insect walls, which are very sturdy. They don't need to be built on Arkanen mycelium.</ARA_InsectWall.description>
+  <ARA_InsectWall.label>Arachnid Shell Wall</ARA_InsectWall.label>
+  <ARA_InteractiveEggSac_Queen.description>Used for hatching the Alakne Queen's egg sac, this massive incubator has a hard shell as tough as a fortress. The genetic material and nutrients inside are enough to hatch out something unheard of on this planet.</ARA_InteractiveEggSac_Queen.description>
+  <ARA_InteractiveEggSac_Queen.label>Aranea Queen Egg Sac</ARA_InteractiveEggSac_Queen.label>
+  <ARA_InteractiveEggSac_Start.description>A fragile, flammable, and sticky pouch is an egg sac that the Arachne Queen gave birth to upon arriving here. It contains all the nutrients and genetic material needed for a new Overseer Worm's development, which can be activated through interaction with the Arachne Queen species.
+
+The newly hatched egg sacs are resistant to extreme weather conditions and have an extremely fast maturation rate; however, they only support a few types of worm tribes' maturation.</ARA_InteractiveEggSac_Start.description>
+  <ARA_InteractiveEggSac_Start.label>Initial Alakne Egg Sac</ARA_InteractiveEggSac_Start.label>
+  <ARA_InteractiveEggSac_Techprint.description>An internal almost chaotic development egg, which cannot be cultured by any insect tribe. It is mainly used for experimental mutation directions.
+
+The Arkne technology blueprint can only be obtained from gene experiment eggs. Multiple eggs can jointly research the same technology; when completed, the genetic information of that technology will be stored in the egg. Once all damaged gene experiment eggs containing the same technology are destroyed, then this technology is lost.</ARA_InteractiveEggSac_Techprint.description>
+  <ARA_InteractiveEggSac_Techprint.label>Aranea Genetically Engineered Egg</ARA_InteractiveEggSac_Techprint.label>
+  <ARA_Internal_Circulation_Lung.description>The internal circulation of the Arachnean lung allows it to perform self-circulation, almost immune to vacuum invasion. This surgery does not require components and can be directly performed on an Arachnean worm.</ARA_Internal_Circulation_Lung.description>
+  <ARA_Internal_Circulation_Lung.label>Internal Lung</ARA_Internal_Circulation_Lung.label>
+  <ARA_JellyVat.comps.CompProductStorage.fuelGizmoLabel>Jelly Vat Fuel Gizmo</ARA_JellyVat.comps.CompProductStorage.fuelGizmoLabel>
+  <ARA_JellyVat.comps.CompProductStorage.fuelLabel>Jelly Vat Fuel</ARA_JellyVat.comps.CompProductStorage.fuelLabel>
+  <ARA_JellyVat.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>Biofuel</ARA_JellyVat.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
+  <ARA_JellyVat.comps.CompRefuelableNutrition_WithKey.fuelLabel>Biofuel</ARA_JellyVat.comps.CompRefuelableNutrition_WithKey.fuelLabel>
+  <ARA_JellyVat.description>A jar of Alaknean tissue, which can fully utilize the dissolution capabilities of giant amoebae. By digesting biological matter, it secretes a nutrient-rich Alaknean honey.</ARA_JellyVat.description>
+  <ARA_JellyVat.label>Biofuel Vat</ARA_JellyVat.label>
+  <ARA_Latex_Catsuit.description>The latex catsuit of the Arachne Hive is useless decoration for them.</ARA_Latex_Catsuit.description>
+  <ARA_Latex_Catsuit.label>Tight Suit</ARA_Latex_Catsuit.label>
+  <ARA_MW_Bone_Sword.description>Arachnid Swarm Overseer uses a basic melee weapon organ, connecting multiple exposed nerve bundles to its limbs. Although it's just a hard sword-shaped bone fragment, it doesn't hinder the endless strength of Arachnid Swarm Overseers from beheading their prey one by one in the Hive.</ARA_MW_Bone_Sword.description>
+  <ARA_MW_Bone_Sword.label>Armed Organ "Bone Blade"</ARA_MW_Bone_Sword.label>
+  <ARA_MW_Bone_Sword.tools.0.label>Sweep</ARA_MW_Bone_Sword.tools.0.label>
+  <ARA_MW_Bone_Sword.tools.1.label>Crash</ARA_MW_Bone_Sword.tools.1.label>
+  <ARA_MW_Cartilage_Whip.description>Arkanids' close-combat armament, made of interlocking cartilage segments to form a strong whip. This weapon not only emits a terrifying sound when striking enemies but also causes excruciating pain and can effectively bypass enemy armor with its blunt damage.</ARA_MW_Cartilage_Whip.description>
+  <ARA_MW_Cartilage_Whip.label>Armed Organs "Soft Tendon Whip"</ARA_MW_Cartilage_Whip.label>
+  <ARA_MW_Cartilage_Whip.tools.0.label>Whip</ARA_MW_Cartilage_Whip.tools.0.label>
+  <ARA_MW_Mimic_Niddle.description>Arachnid Swarm Overseer Niddle uses a basic melee weapon organ. Multiple exposed nerve bundles are connected to the overseer's limbs via these nerves. The stinger contains dormant Arachnid Nodule larvae eggs, which infect victims and eventually turn them into puppet-controlled hosts.</ARA_MW_Mimic_Niddle.description>
+  <ARA_MW_Mimic_Niddle.label>Armed organ "Mimic Niddle toxin needle"</ARA_MW_Mimic_Niddle.label>
+  <ARA_MW_Mimic_Niddle.tools.0.label>Cut</ARA_MW_Mimic_Niddle.tools.0.label>
+  <ARA_MW_Mimic_Niddle.tools.1.label>Stab</ARA_MW_Mimic_Niddle.tools.1.label>
+  <ARA_MW_Scything_Talons.description>The Scything Talons are the melee weapon organs used by Aranea Swarm Overseers. They resemble a giant scythe and can be connected to their limbs via nerve bundles. Due to its massive size, each swing will cause area damage and knock down multiple adjacent targets in one blow.</ARA_MW_Scything_Talons.description>
+  <ARA_MW_Scything_Talons.label>Armed Organs "Scything Talons"</ARA_MW_Scything_Talons.label>
+  <ARA_MW_Scything_Talons.tools.0.label>Swing</ARA_MW_Scything_Talons.tools.0.label>
+  <ARA_Maid_Dress.description>Arachne spiders' woven fabric of choice, designed with elegance and simplicity. It allows them to stabilize their form on the Arachne nest mat for optimal shooting accuracy. This is a perfect embodiment of their eternal service to the hive.</ARA_Maid_Dress.description>
+  <ARA_Maid_Dress.label>Aranea Armored Maid Dress</ARA_Maid_Dress.label>
+  <ARA_Maid_Uniform.description>The fabric worn by the Arachne workers, designed to be form-fitting and lightweight, allowing them to work faster on the Arachne hammocks. It perfectly embodies their eternal service to the Hive.</ARA_Maid_Uniform.description>
+  <ARA_Maid_Uniform.label>Alakne Maid Uniform label</ARA_Maid_Uniform.label>
+  <ARA_Medicine.description>Aranea Medicine vials contain medicine equivalent to standard medical supplies, but must be stored in refrigerated conditions.</ARA_Medicine.description>
+  <ARA_Medicine.label>Alakne Healing Serum</ARA_Medicine.label>
+  <ARA_MorphableResearchBench.comps.CompRefuelableNutrition.fuelGizmoLabel>Honey</ARA_MorphableResearchBench.comps.CompRefuelableNutrition.fuelGizmoLabel>
+  <ARA_MorphableResearchBench.comps.CompRefuelableNutrition.outOfFuelMessage>No nutrition</ARA_MorphableResearchBench.comps.CompRefuelableNutrition.outOfFuelMessage>
+  <ARA_MorphableResearchBench.description>The living structure formed around Arkne Weave Domain is essential for advancing high-level insectoid research. This building cannot be constructed; it can only be obtained through the transformation of Arkne Weave Domain.</ARA_MorphableResearchBench.description>
+  <ARA_MorphableResearchBench.label>Aranea Weaving Domain - Weaver's Seat</ARA_MorphableResearchBench.label>
+  <ARA_Mote_ChargeLanceShot.label>Mote</ARA_Mote_ChargeLanceShot.label>
+  <ARA_Mote_Empthrower_Turret_Range.label>Mote</ARA_Mote_Empthrower_Turret_Range.label>
+  <ARA_Mote_Hivelord_Turret_Range.label>Mote</ARA_Mote_Hivelord_Turret_Range.label>
+  <ARA_Mote_fire.label>Mote</ARA_Mote_fire.label>
+  <ARA_Mote_halo.label>Mote</ARA_Mote_halo.label>
+  <ARA_Nightdress.description>Arkanen spiders' woven fabric, which provides additional rest efficiency while resting on an Arkan spider cocoon. Sleep is one of the few needs that must be maintained frequently in a spider colony, so this piece of clothing's value cannot be overstated.</ARA_Nightdress.description>
+  <ARA_Nightdress.label>Nightdress</ARA_Nightdress.label>
+  <ARA_NodeNest.description>Ara Node Nest description:
+
+The nest is a good supplement for energy for Ara Nekhthys. It's made of chitin, muscle and connective tissue forming a 'nest' that is very good for her to replenish her energy.</ARA_NodeNest.description>
+  <ARA_NodeNest.label>Arachne Nest</ARA_NodeNest.label>
+  <ARA_Nurse_Uniform.description>The fabric worn by Arachne bugs contains a red cross design, which seems to have been inspired by human society. However, the bugs themselves are not clear why they would use this symbol. The material also includes multiple regenerative conduits that allow Arachne bugs to extract nutrients from their mycelium to treat other individuals.</ARA_Nurse_Uniform.description>
+  <ARA_Nurse_Uniform.label>Ala'kane Nurse Uniform label</ARA_Nurse_Uniform.label>
+  <ARA_NutrientNetworkTower.comps.CompRefuelableNutrition.fuelGizmoLabel>Honey</ARA_NutrientNetworkTower.comps.CompRefuelableNutrition.fuelGizmoLabel>
+  <ARA_NutrientNetworkTower.description>A central nutrient supply facility. It can automatically provide fuel to linked buildings that need nutrients. It itself needs to be manually filled with a large amount of biomass.</ARA_NutrientNetworkTower.description>
+  <ARA_NutrientNetworkTower.label>Nutrient Supply Tower</ARA_NutrientNetworkTower.label>
+  <ARA_NutrientPasteMeal.description>A paste made from honey by the insects, mixed with pheromones that stimulate insect activity. It not only benefits the insect nest in resisting adverse environmental conditions but also has a unique flavor that humans enjoy.</ARA_NutrientPasteMeal.description>
+  <ARA_NutrientPasteMeal.label>Nutrient Paste Meal</ARA_NutrientPasteMeal.label>
+  <ARA_Pantyhose_Black.description>Arkanthropoid's decorative fabric, which should be useless to the arthropods.</ARA_Pantyhose_Black.description>
+  <ARA_Pantyhose_Black.label>Black Pantyhose</ARA_Pantyhose_Black.label>
+  <ARA_Pantyhose_White.description>Alaquen's decorative fabric, for the swarm it should be useless stuff.</ARA_Pantyhose_White.description>
+  <ARA_Pantyhose_White.label>White Pantyhose Label</ARA_Pantyhose_White.label>
+  <ARA_Pawn_Ootheca.comps.CompRefuelableNutrition.fuelGizmoLabel>Honey</ARA_Pawn_Ootheca.comps.CompRefuelableNutrition.fuelGizmoLabel>
+  <ARA_Pawn_Ootheca.description>A fragile, flammable, and sticky pouch containing nutrients and genetic material to nourish a new Ootheca or Wurm. A spacious, nutrient-rich incubator will be its best placement. It needs to be seeded with an Arakeen larva to start the incubation process.</ARA_Pawn_Ootheca.description>
+  <ARA_Pawn_Ootheca.label>Ootheca Egg</ARA_Pawn_Ootheca.label>
+  <ARA_PheromoneSolvent.description>A synthetic chemical agent that can mimic the pheromone used by Alaknids to distinguish between enemies. Regular injections can deceive host parasites into entering a dormant symbiotic state, thereby suppressing their lethal proliferation.</ARA_PheromoneSolvent.description>
+  <ARA_PheromoneSolvent.ingestible.ingestCommandString>Take {0}</ARA_PheromoneSolvent.ingestible.ingestCommandString>
+  <ARA_PheromoneSolvent.ingestible.ingestReportString>You are consuming {0}.</ARA_PheromoneSolvent.ingestible.ingestReportString>
+  <ARA_PheromoneSolvent.label>Aranea Pheromone Solvent</ARA_PheromoneSolvent.label>
+  <ARA_PilotConsole.description>Linker is an Arkneech worm nest platform used for communication with Hunterworm nest ships.</ARA_PilotConsole.description>
+  <ARA_PilotConsole.label>Hunter's Nest Ship - Linker</ARA_PilotConsole.label>
+  <ARA_Plasteel_Shell.description>The Arachnids use direct implantation of glass steel into their shells to gain stronger defense. The procedure does not require component creation and can be directly performed on an Arachnid.</ARA_Plasteel_Shell.description>
+  <ARA_Plasteel_Shell.label>Glass Steel Shell label</ARA_Plasteel_Shell.label>
+  <ARA_Praetorian_Base_Turret.description>The symbiotic organs of the Alacne Praetorian, which automatically project acid-digesting larvae on nearby enemies.</ARA_Praetorian_Base_Turret.description>
+  <ARA_Praetorian_Base_Turret.label>Acid Siphon</ARA_Praetorian_Base_Turret.label>
+  <ARA_Praetorian_Base_Turret.verbs.Verb_ShootSelfUnderfoot.label>Acid Spew Self Underfoot</ARA_Praetorian_Base_Turret.verbs.Verb_ShootSelfUnderfoot.label>
+  <ARA_Proj_StrongSludgeSpray.label>Strong Sludge Spray Label</ARA_Proj_StrongSludgeSpray.label>
+  <ARA_Proj_StrongSludgeSpray_Eco.label>Strong Sludge Spray - Eco Label</ARA_Proj_StrongSludgeSpray_Eco.label>
+  <ARA_Proj_Tumor.label>Alaracnec tumor</ARA_Proj_Tumor.label>
+  <ARA_Psi_Conductor_Turret.description>The Arkene Weaver Spores are attacking this colonist—this attack is not dependent on the colonist's state, as long as they're not in melee mode, attacks will proceed normally.</ARA_Psi_Conductor_Turret.description>
+  <ARA_Psi_Conductor_Turret.label>Energy Line</ARA_Psi_Conductor_Turret.label>
+  <ARA_Psi_Conductor_Turret.verbs.Verb_Shoot.label>Energy Line</ARA_Psi_Conductor_Turret.verbs.Verb_Shoot.label>
+  <ARA_Psi_Conductor_Turret_ArcBeam.label>Mote</ARA_Psi_Conductor_Turret_ArcBeam.label>
+  <ARA_PsyWave_Main.label>Mote</ARA_PsyWave_Main.label>
+  <ARA_RW_Acid_Mortar.description>The Acid Mortar of the Alacrane Swarm Overseer uses large remote arm organs, with chambers filled with robust muscle tissue that can contract in an instant to launch a cloud of acid at enemies from a safe distance.</ARA_RW_Acid_Mortar.description>
+  <ARA_RW_Acid_Mortar.label>Armed Organs "Corrosive Mortar"</ARA_RW_Acid_Mortar.label>
+  <ARA_RW_Acid_Mortar.verbs.Verb_Shoot.label>Armed Organs "Corrosive Mortar"</ARA_RW_Acid_Mortar.verbs.Verb_Shoot.label>
+  <ARA_RW_Basic_Acid_Bladder_Gun.description>Arachnid Swarm Overseer uses a basic remote weapon organ, which can be rapidly compressed to spray Arachnic Acid. This acid covers the target and burns all enemies that come into contact with it.</ARA_RW_Basic_Acid_Bladder_Gun.description>
+  <ARA_RW_Basic_Acid_Bladder_Gun.label>Armed organ "Acid Bladder Gun"</ARA_RW_Basic_Acid_Bladder_Gun.label>
+  <ARA_RW_Basic_Acid_Bladder_Gun.verbs.Verb_ShootSprayMulti.label>Armed Organ "Acid Spray Gun"</ARA_RW_Basic_Acid_Bladder_Gun.verbs.Verb_ShootSprayMulti.label>
+  <ARA_RW_Basic_FireSpewer_Gun.description>The large remote weapon organ of the Arachne Swarm, filled with acid glands and reinforced muscle tubes, can spray a scorching molten gas cloud at its target, melting armor and flesh in range.</ARA_RW_Basic_FireSpewer_Gun.description>
+  <ARA_RW_Basic_FireSpewer_Gun.label>Armed organ "Flame Acid Gun"</ARA_RW_Basic_FireSpewer_Gun.label>
+  <ARA_RW_Basic_FireSpewer_Gun.verbs.Verb_ShootFireSpew.label>Armed organ "Flame Spewer Gun"</ARA_RW_Basic_FireSpewer_Gun.verbs.Verb_ShootFireSpew.label>
+  <ARA_RW_Basic_Fist_Icez_Gun.description>Arachnid Swarm Overseer uses remote armed organs, which can spray out cooling streams of energy. Compared to the version on its symbionts, this handheld version is more for controlling specific targets rather than killing them.</ARA_RW_Basic_Fist_Icez_Gun.description>
+  <ARA_RW_Basic_Fist_Icez_Gun.label>Armed Organs "Ice Spray Gun"</ARA_RW_Basic_Fist_Icez_Gun.label>
+  <ARA_RW_Basic_Fist_Icez_Gun.verbs.Verb_ShootBeamExplosive.label>Armed Officer's "Ice Spray Gun"</ARA_RW_Basic_Fist_Icez_Gun.verbs.Verb_ShootBeamExplosive.label>
+  <ARA_RW_Basic_Fist_Needle_Gun.description>Arachnid Swarm Overseer uses a basic ranged weapon organ, resembling a glove. It can be attached to an arachnid's limb via nerve bundles. This compact and lightweight weapon fires a barrage of venomous needles at enemies, delivering a nasty sting.</ARA_RW_Basic_Fist_Needle_Gun.description>
+  <ARA_RW_Basic_Fist_Needle_Gun.label>Armed Organs "Fist Needle Gun"</ARA_RW_Basic_Fist_Needle_Gun.label>
+  <ARA_RW_Basic_Fist_Needle_Gun.tools.0.label>Fist Needle Gun Fist Punch</ARA_RW_Basic_Fist_Needle_Gun.tools.0.label>
+  <ARA_RW_Basic_Fist_Needle_Gun.verbs.Verb_Shoot.label>Armed Organs "Fist Needle Gun"</ARA_RW_Basic_Fist_Needle_Gun.verbs.Verb_Shoot.label>
+  <ARA_RW_Basic_Rail_Gun.description>The armored organs of the Aranea swarm, though not large in size, can fire barbed spines with extreme penetrating power to pierce enemy ranks. Additionally, this type of organ has developed a small bone blade on its jaw for use by the swarm against close-range threats.</ARA_RW_Basic_Rail_Gun.description>
+  <ARA_RW_Basic_Rail_Gun.label>Armed Tool "Broadhead Arrow Gun"</ARA_RW_Basic_Rail_Gun.label>
+  <ARA_RW_Basic_Rail_Gun.tools.0.label>Bone Blade Slash</ARA_RW_Basic_Rail_Gun.tools.0.label>
+  <ARA_RW_Basic_Rail_Gun.verbs.Verb_ShootWithOffset.label>Armed Officer's "Broadhead Arrow Gun"</ARA_RW_Basic_Rail_Gun.verbs.Verb_ShootWithOffset.label>
+  <ARA_RW_Basic_SkyHive_Gun.description>Arachnid Swarm Overseer uses the remote weapon organ, which contains many Sky Hive larvae. The overseers will launch these as missiles against enemies. These Sky Hive larvae will continue to chew on their targets for a while and then detach from them, continuing to attack.</ARA_RW_Basic_SkyHive_Gun.description>
+  <ARA_RW_Basic_SkyHive_Gun.label>Armed Organ "Sky Hive Nest"</ARA_RW_Basic_SkyHive_Gun.label>
+  <ARA_RW_Basic_SkyHive_Gun.verbs.Verb_ShootShotgun.label>Armed Officer's "Sky Hive Nest"</ARA_RW_Basic_SkyHive_Gun.verbs.Verb_ShootShotgun.label>
+  <ARA_RW_Basic_SniperCannon_Gun.description>The large armored organ of the Arachnid Swarm, with a menacing appearance. Its mouthparts are connected to a chain of growing massive spines and can be compressed by muscle tissue to achieve extremely high chamber pressure, firing off its cavity's shockingly destructive barbs. The swarm drew inspiration from human weapons for their chainsaw-like spines; they added growth hormones to the spines so that the bloodchain barb cannon's rate of fire increases with continuous shooting.</ARA_RW_Basic_SniperCannon_Gun.description>
+  <ARA_RW_Basic_SniperCannon_Gun.label>Armed Officer's "Blood Chain Spine Cannon"</ARA_RW_Basic_SniperCannon_Gun.label>
+  <ARA_RW_Basic_SniperCannon_Gun.verbs.Verb_ShootWithOffset.label>Armed Officer's Blood Chain Spine Cannon</ARA_RW_Basic_SniperCannon_Gun.verbs.Verb_ShootWithOffset.label>
+  <ARA_RW_Icez_Mortar.description>A special remote weapon organ that only appears on Alakne's symbiotic muscle clusters. It can fire a barrage of extremely cold frost gas, freezing enemy targets in the area and inflicting damage from frostbite while slowing their movement.</ARA_RW_Icez_Mortar.description>
+  <ARA_RW_Icez_Mortar.label>Armed Org "Frost Nest"</ARA_RW_Icez_Mortar.label>
+  <ARA_RW_Icez_Mortar.verbs.Verb_Shoot.label>Armed Officer's "Icez Nest"</ARA_RW_Icez_Mortar.verbs.Verb_Shoot.label>
+  <ARA_RW_Large_Arc_Gun.description>The Large Arc Gun is a large remote weapon organ used by the Arachnid Swarm Overlord. It fires energy from cells containing many charges, allowing it to unleash a chain lightning strike on enemy clusters.</ARA_RW_Large_Arc_Gun.description>
+  <ARA_RW_Large_Arc_Gun.label>Armed organ "Bioelectric Wire"</ARA_RW_Large_Arc_Gun.label>
+  <ARA_RW_Large_Arc_Gun.verbs.Verb_ShootBeamSplitAndChain.label>Armed organ "Bioelectric wire"</ARA_RW_Large_Arc_Gun.verbs.Verb_ShootBeamSplitAndChain.label>
+  <ARA_RW_Lighting_Cannon.description>A special remote weapon, which only appears on Alakne's symbiotic muscle clusters. This weapon can spray a stream of energy that rapidly cools the target, causing it to be incapacitated while taking heavy damage. Due to its pre-cooling mechanism, it requires a long preparation time before starting an attack.</ARA_RW_Lighting_Cannon.description>
+  <ARA_RW_Lighting_Cannon.label>Armed Officer "Freezing Lens Tube"</ARA_RW_Lighting_Cannon.label>
+  <ARA_RW_Lighting_Cannon.verbs.Verb_ShootBeamExplosive.label>Armed Officer "Freezing Lens Tube"</ARA_RW_Lighting_Cannon.verbs.Verb_ShootBeamExplosive.label>
+  <ARA_RW_Missile_AR_Gun.description>The large armed organ of the Arachnid Swarm, capable of unleashing a barrage of explosive larvae-dart missiles in an overwhelming volley. Its powerful firepower makes it a core component for building the swarm's flesh army.</ARA_RW_Missile_AR_Gun.description>
+  <ARA_RW_Missile_AR_Gun.label>Armed Turret "Quickfire Apocalypse Cannon"</ARA_RW_Missile_AR_Gun.label>
+  <ARA_RW_Missile_AR_Gun.verbs.Verb_ShootWithOffset.label>Armed Officer's "Quickfire Hell Cannon"</ARA_RW_Missile_AR_Gun.verbs.Verb_ShootWithOffset.label>
+  <ARA_RW_Missile_HG_Gun.description>Arachnid Swarm Overlord uses a basic ranged weapon organ, resembling a human handgun. It fires explosive larvae from the Explosive Larvae species. This weapon has good adaptability and tracking ability; even less skilled insect tribes can perform well with it.</ARA_RW_Missile_HG_Gun.description>
+  <ARA_RW_Missile_HG_Gun.label>Armed "Double Eye Disaster Gun"</ARA_RW_Missile_HG_Gun.label>
+  <ARA_RW_Missile_HG_Gun.verbs.Verb_ShootShotgunWithOffset.label>Armed Officer "Double Eye Disaster Gun"</ARA_RW_Missile_HG_Gun.verbs.Verb_ShootShotgunWithOffset.label>
+  <ARA_RW_Toxic_Needle_MG.description>The toxic needle organs used by the Arachnid Swarm Overseer, featuring five rows of stinger tubes that can alternately fire a large number of poison needles when connected to nerve command. Although its accuracy is inferior to human machine guns, it has comparable power.</ARA_RW_Toxic_Needle_MG.description>
+  <ARA_RW_Toxic_Needle_MG.label>Armed Organ "Storm Needle Gun"</ARA_RW_Toxic_Needle_MG.label>
+  <ARA_RW_Toxic_Needle_MG.verbs.Verb_ShootWithOffset.label>Armed Organ "Storm Needle Gun"</ARA_RW_Toxic_Needle_MG.verbs.Verb_ShootWithOffset.label>
+  <ARA_RW_Toxic_Needle_SG.description>The weapon organs used by the Arachnid Swarm Overseer, featuring dual-barrelled multi-shot needle tubes with poor accuracy but capable of firing a large number of rounds at once. Its power is not inferior to that of a human shotgun.</ARA_RW_Toxic_Needle_SG.description>
+  <ARA_RW_Toxic_Needle_SG.label>Armed Organ "Blossoming Stiletto"</ARA_RW_Toxic_Needle_SG.label>
+  <ARA_RW_Toxic_Needle_SG.verbs.Verb_ShootShotgunWithOffset.label>Armed Organs "Shoot Shotgun with Offset"</ARA_RW_Toxic_Needle_SG.verbs.Verb_ShootShotgunWithOffset.label>
+  <ARA_Reactive_Shell.description>The reactive shell of the Arknechthar can deflect a single incoming attack, but then it will shatter and no longer provide defense. This procedure does not require component crafting; it can be directly performed on an Arknechthar.</ARA_Reactive_Shell.description>
+  <ARA_Reactive_Shell.label>Reaction Shell</ARA_Reactive_Shell.label>
+  <ARA_RefuelingVat.comps.CompProductStorage.fuelGizmoLabel>Essence</ARA_RefuelingVat.comps.CompProductStorage.fuelGizmoLabel>
+  <ARA_RefuelingVat.comps.CompProductStorage.fuelLabel>Essence</ARA_RefuelingVat.comps.CompProductStorage.fuelLabel>
+  <ARA_RefuelingVat.description>A special living building that can hold captured Arkeers, using a slow and painful way to extract their genetic material, converting it into essence to be used by the colony.
+
+——How are they collected? Don't ask.</ARA_RefuelingVat.description>
+  <ARA_RefuelingVat.label>Refining Vessel</ARA_RefuelingVat.label>
+  <ARA_ReinforceGasCloud.label>Aranea information smoke</ARA_ReinforceGasCloud.label>
+  <ARA_ResearchBench.description>A research bench for the Arachne species, allowing the swarm to freely explore mutation and evolution directions.</ARA_ResearchBench.description>
+  <ARA_ResearchBench.label>Aranea Research Bench</ARA_ResearchBench.label>
+  <ARA_Shelf.description>And like a human item shelf, this is actually just a bug colony digging a hole on the ground to store things—but thanks to four embedded micro neural networks in its tentacles, the swarm can quickly find what it needs among the chaotic pile of items.</ARA_Shelf.description>
+  <ARA_Shelf.label>Bug Storage Point</ARA_Shelf.label>
+  <ARA_Shell_Thorn.description>On the arachnid exoskeleton of an Arakeen, two rows of spiny tube glands are implanted. Only when not in close combat mode, they will automatically shoot spines at any nearby enemy. This surgery does not require component creation and can be directly performed on an Arakeen.</ARA_Shell_Thorn.description>
+  <ARA_Shell_Thorn.label>Shell Thorn</ARA_Shell_Thorn.label>
+  <ARA_Shell_Thorn_Turret.description>Arachne insectoid shell's semi-autonomous organ, which can automatically fire.</ARA_Shell_Thorn_Turret.description>
+  <ARA_Shell_Thorn_Turret.label>Spine Thorn Turret</ARA_Shell_Thorn_Turret.label>
+  <ARA_Shell_Thorn_Turret.verbs.Verb_Shoot.label>Shark Turret</ARA_Shell_Thorn_Turret.verbs.Verb_Shoot.label>
+  <ARA_SkillTraining_Building.description>A living body of Aaraknite waste that serves as a time-waster for the idle. They can practice their skills while wasting time, avoiding sending idle signals to bother the hive mind.</ARA_SkillTraining_Building.description>
+  <ARA_SkillTraining_Building.label>Bug Collector</ARA_SkillTraining_Building.label>
+  <ARA_Skyraider_Empthrower_Turret.description>Skyraider Empthrower Turret description:
+
+Ara Skyraya's symbiotic organ, which automatically launches magnetic swarm bugs at enemy units nearby.</ARA_Skyraider_Empthrower_Turret.description>
+  <ARA_Skyraider_Empthrower_Turret.label>Magnetic Hive</ARA_Skyraider_Empthrower_Turret.label>
+  <ARA_Skyraider_Empthrower_Turret.verbs.Verb_Shoot.label>Magnetic Hive</ARA_Skyraider_Empthrower_Turret.verbs.Verb_Shoot.label>
+  <ARA_Skyraider_Hivelord_Turret.description>Skyraider Hivelord's symbiotic organ on Arkne, which automatically projects Skyraider Hive Ants at nearby enemies.</ARA_Skyraider_Hivelord_Turret.description>
+  <ARA_Skyraider_Hivelord_Turret.label>Skyraider Hivelord Turret label</ARA_Skyraider_Hivelord_Turret.label>
+  <ARA_Skyraider_Hivelord_Turret.verbs.Verb_Shoot.label>Hive Turret</ARA_Skyraider_Hivelord_Turret.verbs.Verb_Shoot.label>
+  <ARA_Slide_Patagium.description>The arachnean leg's sliding wing membranes allow them to move quickly on the mycelium, but their bonus will immediately cease if they leave the mycelium. This surgery does not require component creation and can be directly performed on an arachne.</ARA_Slide_Patagium.description>
+  <ARA_Slide_Patagium.label>Slide Wing Membrane</ARA_Slide_Patagium.label>
+  <ARA_SmartThermostat.description>A small arachnid with only basic reflexes, it will try to maintain the temperature of the room pointed by its tail. It must be installed like a refrigerator on the wall (pointy end out, round end in).</ARA_SmartThermostat.description>
+  <ARA_SmartThermostat.label>Aranea fiber tube</ARA_SmartThermostat.label>
+  <ARA_SmoothedInsectDoor.description>Aranea insect nest entrance, made of a mixture of hard material and chitin. The opening mechanism is an autonomous arachnid organism structure that allows it to open/close without needing to build on the Aranea carpet.
+
+It has been polished by the swarm now, smooth and elegant</ARA_SmoothedInsectDoor.description>
+  <ARA_SmoothedInsectDoor.label>Smoothed Insect Door label</ARA_SmoothedInsectDoor.label>
+  <ARA_SmoothedInsectWall.description>Arkanen wasp workers mix hardened materials and chitin to build these insect walls, which the insectoid species have carefully polished. The result is a hard surface that looks both sturdy and elegant.</ARA_SmoothedInsectWall.description>
+  <ARA_SmoothedInsectWall.label>Smoothed Insect Wall label</ARA_SmoothedInsectWall.label>
+  <ARA_SpiderOne_PowerArmor.comps.CompRefuelableNutrition.fuelGizmoLabel>Fuel Gizmo</ARA_SpiderOne_PowerArmor.comps.CompRefuelableNutrition.fuelGizmoLabel>
+  <ARA_SpiderOne_PowerArmor.description>Arachnid Swarm's special living structure, although possessing most of a biological organism's organs, lacks intelligence and can merge with the neural systems of the Kraelion hive. This creates a power armor-like equipment for the host. The symbiotic muscle groups provide additional heavy weapons, while numerous micro-weaponized organs are also equipped on its body, allowing Arachnid Swarm to wield forces comparable to human war machines.</ARA_SpiderOne_PowerArmor.description>
+  <ARA_SpiderOne_PowerArmor.label>Frostbite symbiotic skin group</ARA_SpiderOne_PowerArmor.label>
+  <ARA_Strengthening_Tendon.description>Arachne's tendon strengthening surgery makes them faster and gives them jump ability. The procedure doesn't require parts, can be done directly on Arachne's back.</ARA_Strengthening_Tendon.description>
+  <ARA_Strengthening_Tendon.label>Strengthen Tendon</ARA_Strengthening_Tendon.label>
+  <ARA_Table1x2c.description>Strange table, made of living rock and tentacles, which shows a faint glow on its surface.</ARA_Table1x2c.description>
+  <ARA_Table1x2c.label>Alakne table (1x2)</ARA_Table1x2c.label>
+  <ARA_Tumor.description>Will emit a faint glow to illuminate the Arachne nest's tumor, in addition to lighting it up, will also spread a large area of Arachne carpet to allow for more Arachne buildings. No need to build on the Arachne carpet.</ARA_Tumor.description>
+  <ARA_Tumor.label>Arachne tumor</ARA_Tumor.label>
+  <ARA_Tumor_Pouch.description>The Arachne tumor pouch contains a withered mushroom lesion. Once released, it will transform the surrounding terrain into a fungal landscape. This surgery does not require component creation and can be directly performed on an Arachne cocoon.</ARA_Tumor_Pouch.description>
+  <ARA_Tumor_Pouch.label>Tumor pouch</ARA_Tumor_Pouch.label>
+  <ARA_Tumor_Smokepop.description>By a few insect tribes, these are special fungal tumors that not only illuminate but also spread a wide range of fungal mats on the ground. However, they will soon wither away.</ARA_Tumor_Smokepop.description>
+  <ARA_Tumor_Smokepop.label>Aranea Tumor Smokypop label</ARA_Tumor_Smokepop.label>
+  <ARA_Tumor_SunLamp.description>A tumor larger than a normal one, with an internal light organ that shines brightly beyond belief. It can support the growth conditions of crops, but its lifespan is shorter than that of a normal tumor and it does not spread through the mycelium.</ARA_Tumor_SunLamp.description>
+  <ARA_Tumor_SunLamp.label>Aranea tumor lamp label</ARA_Tumor_SunLamp.label>
+  <ARA_Turret_Beespikeshooter.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>Honey</ARA_Turret_Beespikeshooter.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
+  <ARA_Turret_Beespikeshooter.description>Shoots venomous barbs from the turret.</ARA_Turret_Beespikeshooter.description>
+  <ARA_Turret_Beespikeshooter.label>Beespike Shooter</ARA_Turret_Beespikeshooter.label>
+  <ARA_Wedding_Dress.description>The wedding dress worn by the Arachne Spiders, which has a captivating power to absorb mycelium strength and unleash mind control. It can make enemies turn their guns on allies.</ARA_Wedding_Dress.description>
+  <ARA_Wedding_Dress.label>Alacne Flower Wedding Dress</ARA_Wedding_Dress.label>
+  <ARA_WormholePortal_A.comps.CompRefuelableNutrition.fuelGizmoLabel>Wormhole Portal Comps Refuelable Nutrition fuel Gizmo Label</ARA_WormholePortal_A.comps.CompRefuelableNutrition.fuelGizmoLabel>
+  <ARA_WormholePortal_A.description>A massive Arachne auxiliary worm is the primary component of the Arachne wormhole network. It can accept orders from the tribe and extend its tail to form a tunnel towards a distant destination, moving objects and personnel into the tunnel via pressure chambers at the head end for rapid movement toward the tail end. The wormhole allows bidirectional travel.</ARA_WormholePortal_A.description>
+  <ARA_WormholePortal_A.label>Arachne's Burrow Species</ARA_WormholePortal_A.label>
+  <ARA_WormholePortal_B.description>The tail of the Arachne worm is its narrow body forming an underground tunnel exit. Any object or person entering through the tail will be compressed and rapidly moved to the head by the cave-dwelling worms, allowing two-way travel via the wormhole.</ARA_WormholePortal_B.description>
+  <ARA_WormholePortal_B.label>Aranea Wormhole Portal B label</ARA_WormholePortal_B.label>
+  <ArachnaeBase_Race_Acidcut.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeBase_Race_Acidcut.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Acidcut.comps.CompNodeSwarmLifetime.tooltipOverride>Acidcut Comps' Arachnae Swarm has a lifespan that is as fleeting as death itself from the moment of birth.</ArachnaeBase_Race_Acidcut.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Acidcut.description>ArachnaeBase_Race_Acidcut.description:
+
+Acidcut is one of the Arachne species, with low intelligence. It relies on its acidic mandibles to tear apart enemy troops due to its simple body structure, making it easy to breed. If its overseer Scourge is in a callout state, it will follow the Scourge together.</ArachnaeBase_Race_Acidcut.description>
+  <ArachnaeBase_Race_Acidcut.label>Acidbite Arachnids</ArachnaeBase_Race_Acidcut.label>
+  <ArachnaeBase_Race_Acidcut.tools.0.label>Acid Cut tools label</ArachnaeBase_Race_Acidcut.tools.0.label>
+  <ArachnaeBase_Race_Acidcut_Proj.label>Acidcut Arachne</ArachnaeBase_Race_Acidcut_Proj.label>
+  <ArachnaeBase_Race_Baneling.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeBase_Race_Baneling.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Baneling.comps.CompNodeSwarmLifetime.tooltipOverride>Banelings are born on the path to death—such a short lifespan they have.</ArachnaeBase_Race_Baneling.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Baneling.description>Arachne Baneling one of the Arachnae, usually attacking by suicide to harm enemy forces. When close to enemies it will explode its acid sacs releasing dangerous acidic mist. It can also choose a low-intensity self-explosion leaving behind a fungal mat for subsequent Arachne units to advance. If its overseer Baneling is in the call status, it will follow the Overseer together.</ArachnaeBase_Race_Baneling.description>
+  <ArachnaeBase_Race_Baneling.label>Baneling</ArachnaeBase_Race_Baneling.label>
+  <ArachnaeBase_Race_Baneling.tools.head.label>head</ArachnaeBase_Race_Baneling.tools.head.label>
+  <ArachnaeBase_Race_Baneling_Proj.label>Baneling</ArachnaeBase_Race_Baneling_Proj.label>
+  <ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.tooltipOverride>Arachne's suicide was its destiny from birth—its lifespan is so brief.</ArachnaeBase_Race_Empsuicider.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Empsuicider.description>ArachneBase_Race_Empsuicider.description:
+
+The Arachnea's one, with low intelligence. It generally attacks enemy forces by suicide bombing. When near enemies, it releases an EMP debuff to the mechanical race. If its overseer drone is in a summon state, it will follow the drone together.</ArachnaeBase_Race_Empsuicider.description>
+  <ArachnaeBase_Race_Empsuicider.label>Arachne Electrid Species label</ArachnaeBase_Race_Empsuicider.label>
+  <ArachnaeBase_Race_Empsuicider.tools.head.label>head</ArachnaeBase_Race_Empsuicider.tools.head.label>
+  <ArachnaeBase_Race_Empthrower_Proj.label>Arachne Magnetic Storm Race</ArachnaeBase_Race_Empthrower_Proj.label>
+  <ArachnaeBase_Race_Hivekeeping.comps.CompNodeSwarmLifetime.labelOverride>Lifespan</ArachnaeBase_Race_Hivekeeping.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Hivekeeping.comps.CompNodeSwarmLifetime.tooltipOverride>Arachne's Comps are born to die - their lifespan is as fleeting as that.</ArachnaeBase_Race_Hivekeeping.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Hivekeeping.description>ArachnaeBase_Race_Hivekeeping.description:
+
+The Arachneaux worker is a low-intelligence species that can perform transport, cleaning and maintenance of the hive structures. It is an essential group member for maintaining the Hive.</ArachnaeBase_Race_Hivekeeping.description>
+  <ArachnaeBase_Race_Hivekeeping.label>Arachne family race - Hivekeeping label</ArachnaeBase_Race_Hivekeeping.label>
+  <ArachnaeBase_Race_Hivekeeping.tools.head.label>head</ArachnaeBase_Race_Hivekeeping.tools.head.label>
+  <ArachnaeBase_Race_Larva.description>ArachnaeBase_Race_Larva.description:
+
+The Arachne larvae are one of the species that contain all the genetic information needed for the swarm to expand on the ground. They serve as the foundation of the insect race.
+The larvae can enter Arachne eggs and cocoons, undergoing complete metamorphosis into new drones or equipment.</ArachnaeBase_Race_Larva.description>
+  <ArachnaeBase_Race_Larva.label>Arachne Larva Species</ArachnaeBase_Race_Larva.label>
+  <ArachnaeBase_Race_Larva.tools.head.label>head</ArachnaeBase_Race_Larva.tools.head.label>
+  <ArachnaeBase_Race_Locust.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeBase_Race_Locust.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Locust.comps.CompNodeSwarmLifetime.tooltipOverride>Arachne's Swarm of Comps from birth walks the path to death—its lifespan is so brief.</ArachnaeBase_Race_Locust.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Locust.description>ArachnaeBase_Race_Locust.description:
+
+The Arachneaux locusts are one of the few intelligent auxiliary units, capable of evading danger on their own and firing venomous spines at enemy groups. If its overseer wasp is in a summon state, it will follow the wasp together but tend to prioritize protecting its wasp over actively engaging enemies.</ArachnaeBase_Race_Locust.description>
+  <ArachnaeBase_Race_Locust.label>Arachne Lice Race</ArachnaeBase_Race_Locust.label>
+  <ArachnaeBase_Race_Locust.tools.0.label>Compound Jaw</ArachnaeBase_Race_Locust.tools.0.label>
+  <ArachnaeBase_Race_Longpincer.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeBase_Race_Longpincer.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Longpincer.comps.CompNodeSwarmLifetime.tooltipOverride>Arachnae Base arachnids are born to die - their lifespans are so short.</ArachnaeBase_Race_Longpincer.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Longpincer.description>ArachnaeBase_Race_Longpincer.description:
+
+The Arachneaux are one of the species that inhabit this base. They have a pair of mandibles that are unusually large for their size, allowing them to perform transport and excavation tasks.
+
+If their overseer is in callout mode, they will follow it when it moves.</ArachnaeBase_Race_Longpincer.description>
+  <ArachnaeBase_Race_Longpincer.label>Arachne Longclaw Race</ArachnaeBase_Race_Longpincer.label>
+  <ArachnaeBase_Race_Longpincer.tools.0.label>Giant Jaw</ArachnaeBase_Race_Longpincer.tools.0.label>
+  <ArachnaeBase_Race_Scavenger.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeBase_Race_Scavenger.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Scavenger.comps.CompNodeSwarmLifetime.tooltipOverride>Arachne scavenger worms are born to die - their lifespans are so short.</ArachnaeBase_Race_Scavenger.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Scavenger.description>ArachnaeBase_Race_Scavenger.description:
+
+The Arachneaux scavenger is one of the species. It has a wide range of recipes and can perform planting, harvesting, and transportation tasks. It also has a smaller honeycomb cavity that can produce honey like its controller.</ArachnaeBase_Race_Scavenger.description>
+  <ArachnaeBase_Race_Scavenger.label>Scavenger</ArachnaeBase_Race_Scavenger.label>
+  <ArachnaeBase_Race_Scavenger.tools.head.label>head</ArachnaeBase_Race_Scavenger.tools.head.label>
+  <ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.labelOverride>Lifespan</ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.tooltipOverride>Arachne's Companions are born on the path to death—such is their fleeting lifespan.</ArachnaeBase_Race_Skyhive.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBase_Race_Skyhive.description>Arachne Skyhive is one of the Arachnae. It has ground-flying abilities, making it very fast in both attack and movement. If its overseer Scourge is under callout, it will follow the Scourge together.</ArachnaeBase_Race_Skyhive.description>
+  <ArachnaeBase_Race_Skyhive.label>Sky Hive Arachne Race</ArachnaeBase_Race_Skyhive.label>
+  <ArachnaeBase_Race_Skyhive.tools.0.label>Compound Jaw</ArachnaeBase_Race_Skyhive.tools.0.label>
+  <ArachnaeBase_Race_Skyhive_Proj.label>Sky Hive Arachne Race</ArachnaeBase_Race_Skyhive_Proj.label>
+  <ArachnaeBeast_Race_Slayer.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeBeast_Race_Slayer.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeBeast_Race_Slayer.comps.CompNodeSwarmLifetime.tooltipOverride>Even though the arachnids are four-limbed and simple-minded, they ultimately succumb to their genetically predetermined fate.</ArachnaeBeast_Race_Slayer.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeBeast_Race_Slayer.description>Arachnae Beast Race Slayer.description - Arachne Beast One, tall and heavily armored with thick shells. Its massive feet crush enemies indiscriminately, and it has sturdy scythes that can cleave through a group of attackers. The purpose of this beast is to withstand attacks and absorb them, crushing the heads of any enemy swarm that approaches.</ArachnaeBeast_Race_Slayer.description>
+  <ArachnaeBeast_Race_Slayer.label>Arachne Beast Race Slayer label</ArachnaeBeast_Race_Slayer.label>
+  <ArachnaeBeast_Race_Slayer.tools.0.label>Scythe Slash</ArachnaeBeast_Race_Slayer.tools.0.label>
+  <ArachnaeNode_Race_Facehugger.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_Facehugger.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_Facehugger.description>ArachnaeNode_Race_Facehugger.description:
+
+The Arachne Facehugger is one of the highly unformed species of Arachnea. It presents a high degree of undifferentiation and can control its host's body through unique neural link tubes, as well as emit energy signals to make nearby people ignore it.
+
+However, her own body is too fragile to perform any work before completing the parasitism process.
+
+Unlike other Arachnea species, this highly unformed body means she cannot spawn any auxiliary drones.</ArachnaeNode_Race_Facehugger.description>
+  <ArachnaeNode_Race_Facehugger.label>Arachnoid Facehugger</ArachnaeNode_Race_Facehugger.label>
+  <ArachnaeNode_Race_Facehugger.tools.0.label>Headjaw</ArachnaeNode_Race_Facehugger.tools.0.label>
+  <ArachnaeNode_Race_Fighter.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_Fighter.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_Fighter.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeNode_Race_Fighter.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Fighter.comps.CompNodeSwarmLifetime.tooltipOverride>The Arachne's drones live like precision clockwork, ticking away.</ArachnaeNode_Race_Fighter.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_Race_Fighter.description>ArachnaeNode_Race_Fighter.description:
+
+The first of the Arachneae, a true warrior within its nest. It possesses strong plasticity genes that unlock more abilities with technology.
+
+It can perform transport, hunting and animal husbandry work, has very impressive combat skills, and is agile in movement.
+
+As an Arachneae, it can breed and manage several Arachneae Acidivores, small but extremely resilient fighting-type auxiliaries. They can withstand artillery fire and use their acidic mandibles to bite in close combat.</ArachnaeNode_Race_Fighter.description>
+  <ArachnaeNode_Race_Fighter.label>Arachne Fighter Race label</ArachnaeNode_Race_Fighter.label>
+  <ArachnaeNode_Race_Fighter.tools.0.label>Head</ArachnaeNode_Race_Fighter.tools.0.label>
+  <ArachnaeNode_Race_Fighter.tools.1.label>Giant Scythe</ArachnaeNode_Race_Fighter.tools.1.label>
+  <ArachnaeNode_Race_MimicNematode.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_MimicNematode.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_MimicNematode.description>Mimic Nematode Strictly speaking, Mimic Nematodes are a type of Arachnae Auxiliary Insect that typically invade and take over the bodies of their hosts. However, under special circumstances, Arachne insects may also actively cultivate bodies for the benefit of their hive.
+
+Due to genetic defects, Mimic Nematodes actually still control their host's body in an invasive manner, relying solely on instinct rather than linking with the hive's will.</ArachnaeNode_Race_MimicNematode.description>
+  <ArachnaeNode_Race_MimicNematode.label>Arachnae Nematode</ArachnaeNode_Race_MimicNematode.label>
+  <ArachnaeNode_Race_MimicNematode.tools.0.label>Head</ArachnaeNode_Race_MimicNematode.tools.0.label>
+  <ArachnaeNode_Race_Myrmecocystus.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_Myrmecocystus.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_Myrmecocystus.comps.CompNodeSwarmLifetime.labelOverride>Lifespan</ArachnaeNode_Race_Myrmecocystus.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Myrmecocystus.comps.CompNodeSwarmLifetime.tooltipOverride>The Arachne's drones live like intricate clockwork, their lives ticking away.</ArachnaeNode_Race_Myrmecocystus.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_Race_Myrmecocystus.description>ArachnaeNode Race Myrmecocystus description:
+
+A large Arachne species, with a diverse diet. It can consume many unprocessed organisms and break them down into Arachne honey to nourish the colony. When other members of the colony feel hungry, they will feed by mouth-to-mouth if the honey jars overflow, she also releases excess honey to form resources for building nests.</ArachnaeNode_Race_Myrmecocystus.description>
+  <ArachnaeNode_Race_Myrmecocystus.label>Arachne Honey Pot</ArachnaeNode_Race_Myrmecocystus.label>
+  <ArachnaeNode_Race_Myrmecocystus.tools.0.label>Headjaw</ArachnaeNode_Race_Myrmecocystus.tools.0.label>
+  <ArachnaeNode_Race_NeuroSwarm.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>Arachne's Hair</ArachnaeNode_Race_NeuroSwarm.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_NeuroSwarm.description>ArachnaeNode_Race_NeuroSwarm.description:
+
+The Arachnea species' one, the most special of all Arachnea Swarm. Although the Weave Species are under the control of the Queen Species, they still possess strong advanced intelligence and self-awareness. The Weave Species can build a highly interconnected neural network to perform complex research and calculations. When performing calculations, they cannot perceive their external environment, making them important protectors for the swarm.</ArachnaeNode_Race_NeuroSwarm.description>
+  <ArachnaeNode_Race_NeuroSwarm.label>Arachne Weaver Race Neuroswarm label</ArachnaeNode_Race_NeuroSwarm.label>
+  <ArachnaeNode_Race_NeuroSwarm.tools.0.label>Head</ArachnaeNode_Race_NeuroSwarm.tools.0.label>
+  <ArachnaeNode_Race_Praetorian.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>Arachne's Hair</ArachnaeNode_Race_Praetorian.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_Praetorian.comps.CompNodeSwarmLifetime.labelOverride>Lifespan</ArachnaeNode_Race_Praetorian.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Praetorian.comps.CompNodeSwarmLifetime.tooltipOverride>The Arachne's Overseers live like intricate clockwork. </ArachnaeNode_Race_Praetorian.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_Race_Praetorian.description>ArachnaeNode_Race_Praetorian.description:
+
+The Arachnean Praetorians are one of the elite female Arachnea species selected by the Empress to serve as her personal guard. They possess rare social abilities found only in their insectoid hives, and while smaller than typical large arthropod tribes, they can carry heavy armaments.
+
+They excel at transportation, diplomacy, and artistry; their combat skills are exceptional, with sniping being particularly outstanding.
+
+As Arachnea, they can metamorphose into a swarm of Acid Siphon larvae to form an intimidating frontline.</ArachnaeNode_Race_Praetorian.description>
+  <ArachnaeNode_Race_Praetorian.label>Praetorian Race</ArachnaeNode_Race_Praetorian.label>
+  <ArachnaeNode_Race_Praetorian.tools.0.label>Headjaw</ArachnaeNode_Race_Praetorian.tools.0.label>
+  <ArachnaeNode_Race_ShieldHead.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>Arachne's Hair</ArachnaeNode_Race_ShieldHead.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_ShieldHead.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeNode_Race_ShieldHead.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_ShieldHead.comps.CompNodeSwarmLifetime.tooltipOverride>The arachne's drones live like precision clockwork, ticking away.</ArachnaeNode_Race_ShieldHead.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_Race_ShieldHead.description>ArachnaeNode one, with excessive growth covering its head and legs in armor. It sheds shell periodically to supply the nest.
+
+It can perform transport, mining, and construction work; has no notable combat skills but decent defense.</ArachnaeNode_Race_ShieldHead.description>
+  <ArachnaeNode_Race_ShieldHead.label>Arachne Shield Head Race</ArachnaeNode_Race_ShieldHead.label>
+  <ArachnaeNode_Race_ShieldHead.tools.0.label>Shield Head</ArachnaeNode_Race_ShieldHead.tools.0.label>
+  <ArachnaeNode_Race_Skyraider.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>ArachnaeNode Hair</ArachnaeNode_Race_Skyraider.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_Skyraider.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeNode_Race_Skyraider.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Skyraider.comps.CompNodeSwarmLifetime.tooltipOverride>The Arachne's drones live like precision clockwork, ticking away.</ArachnaeNode_Race_Skyraider.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_Race_Skyraider.description>Skyraider is one of the large Arachne species, a pinnacle among all arachnids for its size and renowned flight capabilities. It is unchallenged as the aerial dominator within the nest.
+
+It can perform transport work with decent combat skills; it moves freely on the battlefield.</ArachnaeNode_Race_Skyraider.description>
+  <ArachnaeNode_Race_Skyraider.label>Skyraider (Arachnae Node Race)</ArachnaeNode_Race_Skyraider.label>
+  <ArachnaeNode_Race_Skyraider.tools.0.label>Head</ArachnaeNode_Race_Skyraider.tools.0.label>
+  <ArachnaeNode_Race_Smokepop.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>Arachne's Hair</ArachnaeNode_Race_Smokepop.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_Smokepop.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeNode_Race_Smokepop.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_Smokepop.comps.CompNodeSwarmLifetime.tooltipOverride>The Arachne's drones live like precision clockwork, ticking away.</ArachnaeNode_Race_Smokepop.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_Race_Smokepop.description>Arachne, a large ArachnaeNode of the Smokepop race. She is armored with thick exoskeletons and possesses the ability to spray pheromones over wide areas to summon swarm insects as auxiliary units. Although her movement speed is slow, she acts like an armored vehicle in combat and is difficult to shake.
+
+She can perform transportation work and has good battle skills. Her defense and damage resistance are strong.</ArachnaeNode_Race_Smokepop.description>
+  <ArachnaeNode_Race_Smokepop.label>Smokepop Race</ArachnaeNode_Race_Smokepop.label>
+  <ArachnaeNode_Race_Smokepop.tools.0.label>Headjaw</ArachnaeNode_Race_Smokepop.tools.0.label>
+  <ArachnaeNode_Race_WeaponSmith.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>Arachne's Hair</ArachnaeNode_Race_WeaponSmith.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
+  <ArachnaeNode_Race_WeaponSmith.comps.CompNodeSwarmLifetime.labelOverride>Lifetime</ArachnaeNode_Race_WeaponSmith.comps.CompNodeSwarmLifetime.labelOverride>
+  <ArachnaeNode_Race_WeaponSmith.comps.CompNodeSwarmLifetime.tooltipOverride>The Arachne's drones live like intricate clockwork, ticking away.</ArachnaeNode_Race_WeaponSmith.comps.CompNodeSwarmLifetime.tooltipOverride>
+  <ArachnaeNode_Race_WeaponSmith.description>Arachne, one of the Arachnae race. She is primarily responsible for maintaining the nest and using her agile limbs to handle delicate tasks for the swarm.
+
+She can perform transportation, craftsmanship, and artistic work; her combat skills are average at best, but she herself is extremely fragile.</ArachnaeNode_Race_WeaponSmith.description>
+  <ArachnaeNode_Race_WeaponSmith.label>Arachne craft race</ArachnaeNode_Race_WeaponSmith.label>
+  <ArachnaeNode_Race_WeaponSmith.tools.0.label>Headjaw</ArachnaeNode_Race_WeaponSmith.tools.0.label>
+  <ArachnaeQueen_Race.description>ArachneQueenRace.description:
+
+Arachnae are a subrace of the Arachne Titan species, belonging to the Arachne Tentacle. They command the most resilient and adaptable frontline group within the Arachne Swarm, tasked with maintaining the battle line.
+
+As a Titan Queen, aside from providing unique Tentacle technology, they also have strong exoskeletons for defense and can attack nearby enemies by trampling or dealing high melee damage.</ArachnaeQueen_Race.description>
+  <ArachnaeQueen_Race.label>Arachne Titan Race</ArachnaeQueen_Race.label>
+  <ArachnaeQueen_Race.tools.0.label>Head</ArachnaeQueen_Race.tools.0.label>
+  <ArachnaeQueen_Race.tools.1.label>Stampede</ArachnaeQueen_Race.tools.1.label>
+  <ArachnaeQueen_Race.tools.2.label>Leg Stab</ArachnaeQueen_Race.tools.2.label>
+  <ArachnaeQueen_Race.tools.3.label>Hammer</ArachnaeQueen_Race.tools.3.label>
+  <ArachnaeQueen_Race_Neurotyrant.description>Arachnae Queen Race Neurotyrant description:
+
+The Arachne Loyalists are a subspecies of the Arachne Queen race, belonging to the Arachne's psychic tendrils. They maintain communication networks for the insect hive and serve as relay nodes linking local queen species with insect fleets.
+
+Neurotyrants are natural masters of psi ability. Their powerful psionic abilities allow them to dominate local battlefields, and as they consume native species their psi capabilities can adaptively evolve.</ArachnaeQueen_Race_Neurotyrant.description>
+  <ArachnaeQueen_Race_Neurotyrant.label>Arachne Queen Race Neurotyrant label</ArachnaeQueen_Race_Neurotyrant.label>
+  <ArachnaeQueen_Race_Neurotyrant.tools.0.label>Neural Probe</ArachnaeQueen_Race_Neurotyrant.tools.0.label>
+  <Arachnae_BanelingTrap.description>A dormant Arachne cocoon, containing a sleeping Arachne worm. If you get too close it will awaken the worms.</Arachnae_BanelingTrap.description>
+  <Arachnae_BanelingTrap.label>Arachne Explosive Cocoon</Arachnae_BanelingTrap.label>
+  <Bullet_ARA_Acid_Bombardment.label>Large Acid Bombardment label</Bullet_ARA_Acid_Bombardment.label>
+  <Bullet_ARA_HiveCorvette.label>HiveCorvette</Bullet_ARA_HiveCorvette.label>
+  <Bullet_ARA_MimicNematode_Needle.label>Mimic Nematode Needle Label</Bullet_ARA_MimicNematode_Needle.label>
+  <Bullet_ARA_Neurotyrant_T1_PsyShoot.label>Neural Sniper Bullets</Bullet_ARA_Neurotyrant_T1_PsyShoot.label>
+  <Bullet_ARA_Psi_Conductor_Turret.label>Energy Lightning</Bullet_ARA_Psi_Conductor_Turret.label>
+  <Bullet_ARA_RW_Acid_Mortar.label>Large Acid Pool</Bullet_ARA_RW_Acid_Mortar.label>
+  <Bullet_ARA_RW_Basic_Fist_Needle_Gun.label>Poison Needle</Bullet_ARA_RW_Basic_Fist_Needle_Gun.label>
+  <Bullet_ARA_RW_Basic_Fist_Needle_Gun_SG.label>Poison Needle</Bullet_ARA_RW_Basic_Fist_Needle_Gun_SG.label>
+  <Bullet_ARA_RW_Basic_SkyHive_Gun.label>Ala'kne Sky Hive seed</Bullet_ARA_RW_Basic_SkyHive_Gun.label>
+  <Bullet_ARA_RW_Icez_Mortar.label>Large Fog Cloud</Bullet_ARA_RW_Icez_Mortar.label>
+  <Bullet_ARA_RW_Toxic_Needle_MG.label>Toxic Needle</Bullet_ARA_RW_Toxic_Needle_MG.label>
+  <Bullet_ARA_Shell_Thorn_Turret.label>Small Thorn Turret label</Bullet_ARA_Shell_Thorn_Turret.label>
+  <Bullet_RW_Missile_AR_Gun.label>Micro Acid Burn Missile</Bullet_RW_Missile_AR_Gun.label>
+  <Bullet_RW_Missile_HG_Gun.label>Small Acid Burn Missile</Bullet_RW_Missile_HG_Gun.label>
+  <CatastropheMissileSilo.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>Honey</CatastropheMissileSilo.comps.CompRefuelableNutrition_WithKey.fuelGizmoLabel>
+  <CatastropheMissileSilo.description>The Catastrophe Missile Silo is a weaponized form of the Alackworms' ultimate biological organism. It consists of numerous highly specialized organs lacking autonomy, capable of unleashing terrifying acid burn missiles that strike fear into all living beings. As a composite defense system, it can launch attacks on local targets and distant threats with precision; it can also generate additional ammunition by absorbing nutrients.</CatastropheMissileSilo.description>
+  <CatastropheMissileSilo.label>Catastrophe Acid Burn Missile Silo</CatastropheMissileSilo.label>
+  <CatastropheMissile_Weapon.description>Catastrophe Acid Burn Missile Organization's main body structure, responsible for launching and guiding half-autonomous Catastrophe Acid Burn missiles.</CatastropheMissile_Weapon.description>
+  <CatastropheMissile_Weapon.label>Catastrophe Acid Burn Cannon</CatastropheMissile_Weapon.label>
+  <CatastropheMissile_Weapon.verbs.Verb_ShootWithOffset.label>Catastrophe Acid Burn Cannon</CatastropheMissile_Weapon.verbs.Verb_ShootWithOffset.label>
+  <Gun_ARA_AutoSniperCannonTurret.description>Blood Chain Trillion Machine Gun.</Gun_ARA_AutoSniperCannonTurret.description>
+  <Gun_ARA_AutoSniperCannonTurret.label>Blood Chain Trillion Machine Gun</Gun_ARA_AutoSniperCannonTurret.label>
+  <Gun_ARA_AutoSniperCannonTurret.verbs.Verb_ShootWithOffset.label>Blood Chain Trillion Machine Gun</Gun_ARA_AutoSniperCannonTurret.verbs.Verb_ShootWithOffset.label>
+  <Mote_ARA_RW_Lighting_Cannon_Beam.label>Mote</Mote_ARA_RW_Lighting_Cannon_Beam.label>
+  <Proj_ARA_HiveCorvette.label>The Witch's Acid Swarm</Proj_ARA_HiveCorvette.label>
+  <Projectile_CatastropheMissile.label>Catastrophe Acid Burn Missile</Projectile_CatastropheMissile.label>
+  <Projectile_CatastropheMissile_Fake.label>Catastrophe Acid Burn Missile</Projectile_CatastropheMissile_Fake.label>
+</LanguageData>

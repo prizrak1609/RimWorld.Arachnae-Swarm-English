@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ArachnaeFighter_Swarm_Claws_Part.label>Warrior Scythe</ArachnaeFighter_Swarm_Claws_Part.label>
+  <ArachnaeFighter_Swarm_Claws_Part.description>Genetically derived from the Arachne warrior race, colonists can manipulate it like a weapon to use against close enemies.</ArachnaeFighter_Swarm_Claws_Part.description>
+  <ArachnaeNode_Race_Myrmecocystus_Tail_Part.label>honeypot seed wormtail</ArachnaeNode_Race_Myrmecocystus_Tail_Part.label>
+  <ArachnaeNode_Race_Myrmecocystus_Tail_Part.description>Derived from the tail of the Arachne honeypot gene, a large number of extra organs had a serious impact on the colonist's native system, but gave the colonist the ability to produce Arachne honey. A modified colonist produces 5 Arachne Honey per day.</ArachnaeNode_Race_Myrmecocystus_Tail_Part.description>
+  <ArachnaeNode_Race_Skyraider_Wings_Part.label>sky wing</ArachnaeNode_Race_Skyraider_Wings_Part.label>
+  <ArachnaeNode_Race_Skyraider_Wings_Part.description>Although the wings derived from Arachne's aerial gene do not match the colonist's body shape and cannot fly normally, it is still possible for the colonist to stay in the air for a short period of time.</ArachnaeNode_Race_Skyraider_Wings_Part.description>
+  <ArachnaeNode_Race_Smokepop_Armor_Part.label>Mist Seed Carapace</ArachnaeNode_Race_Smokepop_Armor_Part.label>
+  <ArachnaeNode_Race_Smokepop_Armor_Part.description>The heavy carapace derived from Arachne's Mist Species genes extends from the shoulders to the upper body. It provides solid defense, but also slows down movement significantly.</ArachnaeNode_Race_Smokepop_Armor_Part.description>
+  <ArachnaeNode_Race_ShieldHead_Armor_Part.label>shield head shell</ArachnaeNode_Race_ShieldHead_Armor_Part.label>
+  <ArachnaeNode_Race_ShieldHead_Armor_Part.description>The head carapace, which comes from the Arachne Shieldhead gene, can provide a certain amount of defense and will drop chitin. A modified colonist produces 10 chitin per day.</ArachnaeNode_Race_ShieldHead_Armor_Part.description>
+</LanguageData>

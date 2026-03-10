@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARA_Medicine.label>Arachne healin</ARA_Medicine.label>
+  <ARA_Medicine.description>The medicine hatched by Arachne's medicine hatching cocoon is as effective as conventional medicine, but needs to be stored under refrigerated conditions.</ARA_Medicine.description>
+  <ARA_PheromoneSolvent.label>Arachne pheromone solvent</ARA_PheromoneSolvent.label>
+  <ARA_PheromoneSolvent.description>A synthetic chemical agent that simulates the pheromones used within the Arachne swarm to differentiate between friend and foe. Regular injections trick the parasite into a dormant symbiotic state that inhibits its lethal proliferative behavior.</ARA_PheromoneSolvent.description>
+  <ARA_SymbioticStabilizer.label>Pheromone suppression</ARA_SymbioticStabilizer.label>
+  <ARA_SymbioticStabilizer.description>The effect of Arachne's pheromone solvent is taking effect. It simulates the symbiotic signals of the insect swarm and inhibits the activity of parasites in the body. When the solvent is in effect, the parasitism progress of the nemesis will not exceed 80%.</ARA_SymbioticStabilizer.description>
+  <ARA_Pheromone.label>Arachne pheromone</ARA_Pheromone.label>
+  <Chemical_ARA_Pheromone.label>Pheromone dependent</Chemical_ARA_Pheromone.label>
+  <Chemical_ARA_Pheromone.description>Due to long-term use of the Arachne pheromone solvent, the person's body has become accustomed to the presence of this external pheromone. If use is interrupted, the nematodes in the body will fight back violently due to loss of inhibition.</Chemical_ARA_Pheromone.description>
+  <ARA_PheromoneAddiction.label>Pheromone dependent</ARA_PheromoneAddiction.label>
+  <ARA_PheromoneAddiction.description>Developed a chemical dependence on the Arachne pheromone solvent. Regular use is required to maintain the ecological balance of nematodes in the body, otherwise severe withdrawal reactions will occur.</ARA_PheromoneAddiction.description>
+  <ARA_PheromoneAddiction.stages.0.label>Withdrawal reaction</ARA_PheromoneAddiction.stages.0.label>
+  <ARA_PheromoneWithdrawal.stages.0.label>Pheromone withdrawal</ARA_PheromoneWithdrawal.stages.0.label>
+</LanguageData>

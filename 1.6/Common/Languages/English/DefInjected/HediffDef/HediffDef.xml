@@ -1,0 +1,352 @@
+﻿<LanguageData>
+  <ARA_AcidCoverd.description>A creature with an acid pouch of the Arkanian species sprayed acid at this person, covering them in corrosive liquid that will cause intense pain. The armor and skin soften and continue to burn their body.</ARA_AcidCoverd.description>
+  <ARA_AcidCoverd.label>Acid Covered Label</ARA_AcidCoverd.label>
+  <ARA_AcidCoverd.stages.completely.label>completely</ARA_AcidCoverd.stages.completely.label>
+  <ARA_AcidCoverd.stages.extreme.label>extreme</ARA_AcidCoverd.stages.extreme.label>
+  <ARA_AcidCoverd.stages.minor-0.label>minor</ARA_AcidCoverd.stages.minor-0.label>
+  <ARA_AcidCoverd.stages.minor-1.label>minor</ARA_AcidCoverd.stages.minor-1.label>
+  <ARA_AcidCoverd.stages.moderate.label>moderate</ARA_AcidCoverd.stages.moderate.label>
+  <ARA_AcidCoverd.stages.serious.label>serious</ARA_AcidCoverd.stages.serious.label>
+  <ARA_Baneling_Acidbomb_Resist.description>Alakne Baneling's skin is covered in acidic material. This resists other Alakne Banelings dying and exploding with acid, preventing a chain reaction.</ARA_Baneling_Acidbomb_Resist.description>
+  <ARA_Baneling_Acidbomb_Resist.label>Acid Resistant Skin</ARA_Baneling_Acidbomb_Resist.label>
+  <ARA_Baneling_Pouch_Hediff.description>Arkanian pod contains several soon-to-hatch Arkanian larvae. Upon receiving the command, they will immediately burst out and attack enemy units.</ARA_Baneling_Pouch_Hediff.description>
+  <ARA_Baneling_Pouch_Hediff.label>Explosive Seed Pod</ARA_Baneling_Pouch_Hediff.label>
+  <ARA_BeamAiming.description>Arachnid Swarm's beam energy weapon fires continuously after a brief targeting phase.</ARA_BeamAiming.description>
+  <ARA_BeamAiming.label>Beam Heating</ARA_BeamAiming.label>
+  <ARA_BeamAiming.stages.0.label>Complete</ARA_BeamAiming.stages.0.label>
+  <ARA_ChainReload.description>Weapons equipped with chain loading ability will have their rate of fire increase after each shot.</ARA_ChainReload.description>
+  <ARA_ChainReload.label>Chain Loader</ARA_ChainReload.label>
+  <ARA_ChainReload.stages._15.label>Level 1/5</ARA_ChainReload.stages._15.label>
+  <ARA_ChainReload.stages._25.label>Level 2/5</ARA_ChainReload.stages._25.label>
+  <ARA_ChainReload.stages._35.label>Level 3/5</ARA_ChainReload.stages._35.label>
+  <ARA_ChainReload.stages._45.label>Level 4/5</ARA_ChainReload.stages._45.label>
+  <ARA_ChainReload.stages._55.label>Level 5/5</ARA_ChainReload.stages._55.label>
+  <ARA_ChitinArmor.description>Arachne armor's chitin shell can be adjusted in thickness to provide protection for the Arachne.</ARA_ChitinArmor.description>
+  <ARA_ChitinArmor.label>Chitin Armor</ARA_ChitinArmor.label>
+  <ARA_ChitinArmor.stages.0.label>Ultra Thin</ARA_ChitinArmor.stages.0.label>
+  <ARA_ChitinArmor.stages.1.label>Thin</ARA_ChitinArmor.stages.1.label>
+  <ARA_ChitinArmor.stages.2.label>Medium</ARA_ChitinArmor.stages.2.label>
+  <ARA_ChitinArmor.stages.3.label>Thicker</ARA_ChitinArmor.stages.3.label>
+  <ARA_ChitinArmor.stages.4.label>Thick</ARA_ChitinArmor.stages.4.label>
+  <ARA_ChitinArmor.stages.5.label>Extreme</ARA_ChitinArmor.stages.5.label>
+  <ARA_ChitinArmor.stages.6.label>Unshakable</ARA_ChitinArmor.stages.6.label>
+  <ARA_ChitinArmor.stages.7.label>Unbreakable</ARA_ChitinArmor.stages.7.label>
+  <ARA_CryoShock.description>The target is in a state of extreme freezing. This will cause the target's body structure to become extremely fragile. As this effect deepens, its body parts may be directly destroyed by cold damage.</ARA_CryoShock.description>
+  <ARA_CryoShock.label>Quick Cooling</ARA_CryoShock.label>
+  <ARA_CryoShock.stages._18.label>1/8</ARA_CryoShock.stages._18.label>
+  <ARA_CryoShock.stages._28.label>2/8</ARA_CryoShock.stages._28.label>
+  <ARA_CryoShock.stages._38.label>3/8</ARA_CryoShock.stages._38.label>
+  <ARA_CryoShock.stages._48.label>4/8</ARA_CryoShock.stages._48.label>
+  <ARA_CryoShock.stages._58.label>5/8</ARA_CryoShock.stages._58.label>
+  <ARA_CryoShock.stages._68.label>6/8</ARA_CryoShock.stages._68.label>
+  <ARA_CryoShock.stages._78.label>7/8</ARA_CryoShock.stages._78.label>
+  <ARA_CryoShock.stages._88.label>8/8</ARA_CryoShock.stages._88.label>
+  <ARA_Cycle_Suppression_Hediff.description>To suppress the lifecycle of Arachneans, this ARA Cyclic Suppression Hediff prevents their own chaotic growth and extends their lifespan.</ARA_Cycle_Suppression_Hediff.description>
+  <ARA_Cycle_Suppression_Hediff.label>Cycle Suppression</ARA_Cycle_Suppression_Hediff.label>
+  <ARA_Dissolver_Touch_Damage.description>Alakne Dissolver Touch Damage description:
+
+Poor thing.</ARA_Dissolver_Touch_Damage.description>
+  <ARA_Dissolver_Touch_Damage.label>Lipase</ARA_Dissolver_Touch_Damage.label>
+  <ARA_Dissolver_Touch_Damage.labelNoun>Lipase</ARA_Dissolver_Touch_Damage.labelNoun>
+  <ARA_Facehugger_LowOperation.description>The ARA Facehugger Low Operation is extremely fragile and its tiny body cannot handle professional tasks.</ARA_Facehugger_LowOperation.description>
+  <ARA_Facehugger_LowOperation.label>Arachne Nematode</ARA_Facehugger_LowOperation.label>
+  <ARA_Fighter_Base.description>Arkanian Warrior Bugs can transform their bodies into their strongest weapons, and with the unlocking of technology, they will gain many skills to use.</ARA_Fighter_Base.description>
+  <ARA_Fighter_Base.label>Bug Hive Soldier</ARA_Fighter_Base.label>
+  <ARA_Fighter_Execution_Damage.description>Inflict significant damage to execute the target.</ARA_Fighter_Execution_Damage.description>
+  <ARA_Fighter_Execution_Damage.label>Execute</ARA_Fighter_Execution_Damage.label>
+  <ARA_Fighter_Execution_Damage.stages.minor.label>minor</ARA_Fighter_Execution_Damage.stages.minor.label>
+  <ARA_Fighter_Genestealer.description>Genestealer Hybrids are mobile gene banks. They no longer serve as the blood-drinking cutters in the Hive, but instead focus on purifying prisoner and slave genes to enhance quality within the hive.</ARA_Fighter_Genestealer.description>
+  <ARA_Fighter_Genestealer.label>Genestealer variant</ARA_Fighter_Genestealer.label>
+  <ARA_Fighter_Invisibility.description>A genetically enhanced warrior strain has developed a special full-body iridescent cell layer. These cells containing nanocrystals can refract light from all directions to achieve permanent invisibility until it initiates an attack. Additionally, they have gained stronger close-combat capabilities; however, their eyeless condition makes them unable to engage in ranged combat.</ARA_Fighter_Invisibility.description>
+  <ARA_Fighter_Invisibility.label>Subspecies - Hunter Subspecies</ARA_Fighter_Invisibility.label>
+  <ARA_Gene_Essence_Shell_Hediff.description>This arachne species' exoskeleton has been thickened with chitin, granting additional defense.</ARA_Gene_Essence_Shell_Hediff.description>
+  <ARA_Gene_Essence_Shell_Hediff.label>Crust Growth</ARA_Gene_Essence_Shell_Hediff.label>
+  <ARA_Genestealer_ExtractGene_Hediff.description>Aranea's genetic mutation extracted a portion of the colonist's gene sequence, causing them to be unable to maintain basic physiological activity. This damage is irreversible, even if these genes are reinserted.</ARA_Genestealer_ExtractGene_Hediff.description>
+  <ARA_Genestealer_ExtractGene_Hediff.label>Force Extraction</ARA_Genestealer_ExtractGene_Hediff.label>
+  <ARA_Genestealer_ExtractGene_Hediff.stages.minor.label>minor</ARA_Genestealer_ExtractGene_Hediff.stages.minor.label>
+  <ARA_GestaltNetworkOverload.description>Format塔 network overload causes mental stress, which weakens the overall ability of Arkeia Empress and increases the risk of network collapse.</ARA_GestaltNetworkOverload.description>
+  <ARA_GestaltNetworkOverload.label>Network overload</ARA_GestaltNetworkOverload.label>
+  <ARA_GuardianPsyField.description>A powerful psychic shield, which automatically intercepts hostile flying objects within its range. Its total shield and mental sensitivity are related; it is difficult to penetrate but each interception accumulates mental entropy.</ARA_GuardianPsyField.description>
+  <ARA_GuardianPsyField.label>Guardian Psy Field</ARA_GuardianPsyField.label>
+  <ARA_Heal_By_Nurse_Hediff.description>Arkan worm spores can cause abnormal cell proliferation to rapidly heal wounds.</ARA_Heal_By_Nurse_Hediff.description>
+  <ARA_Heal_By_Nurse_Hediff.label>Bug Swarm Healing</ARA_Heal_By_Nurse_Hediff.label>
+  <ARA_Hediff_FrostCoverd_after.description>This person is being covered by a cloud of frost, and will soon produce a Frost Fog explosion.</ARA_Hediff_FrostCoverd_after.description>
+  <ARA_Hediff_FrostCoverd_after.label>Frost-covered</ARA_Hediff_FrostCoverd_after.label>
+  <ARA_HiveMindBeast.description>The HiveMind Beast is a more primitive life form compared to other Arachne insects, with simple brains and well-developed limbs. However, it does not follow the hive's pyramid thinking; any worker or queen in the nest can command them.</ARA_HiveMindBeast.description>
+  <ARA_HiveMindBeast.label>Aranea Hive Mind Beast</ARA_HiveMindBeast.label>
+  <ARA_HiveMindBeast.stages.0.label>Disconnected</ARA_HiveMindBeast.stages.0.label>
+  <ARA_HiveMindBeast.stages.1.label>Resetting</ARA_HiveMindBeast.stages.1.label>
+  <ARA_HiveMindBeast.stages.2.label>Connected</ARA_HiveMindBeast.stages.2.label>
+  <ARA_HiveMindDrone.description>The ARA Hive Mind Drone is linked to the ARA Queen through mind and soul. If the queen dies, the drone will also cease life.</ARA_HiveMindDrone.description>
+  <ARA_HiveMindDrone.label>Aranea Hive Mind Drone</ARA_HiveMindDrone.label>
+  <ARA_HiveMindDrone.stages.0.label>Disconnected</ARA_HiveMindDrone.stages.0.label>
+  <ARA_HiveMindDrone.stages.1.label>Resetting</ARA_HiveMindDrone.stages.1.label>
+  <ARA_HiveMindDrone.stages.2.label>Connected</ARA_HiveMindDrone.stages.2.label>
+  <ARA_HiveMindMaster.description>The Arachne Queen species is the hive's central node, governing the Arachne insect tribe as its collective mind.</ARA_HiveMindMaster.description>
+  <ARA_HiveMindMaster.label>Aranea Queen Breed</ARA_HiveMindMaster.label>
+  <ARA_HiveMindWorker.description>Aranea Worker connects to the Aranea Hive Mind through telepathy. If a hive mind dies, so does its worker.</ARA_HiveMindWorker.description>
+  <ARA_HiveMindWorker.label>Aranea Hive Mind Worker</ARA_HiveMindWorker.label>
+  <ARA_HiveStrength.description>This Alakne insectoid repair cell is unlike any other, it can rapidly heal injuries and even regenerate lost organs. Additionally, this powerful cell also grants resistance to acid corrosion and Alakne insectoid acid damage.</ARA_HiveStrength.description>
+  <ARA_HiveStrength.label>Hive Strength</ARA_HiveStrength.label>
+  <ARA_HiveStrength_Low.description>The Aarakneen's healing abilities are quite strong, allowing them to quickly recover from various lethal blows. Additionally, these powerful cells also grant resistance against acid damage and Aarakneen acid.</ARA_HiveStrength_Low.description>
+  <ARA_HiveStrength_Low.label>Low Hive Strength</ARA_HiveStrength_Low.label>
+  <ARA_HiveStrength_Pluse.description>This Alakne creature's healing cells are beyond comprehension, with even the most severe injuries unable to kill it. Additionally, these powerful cells also provide resistance against acid damage and Alakne acid.</ARA_HiveStrength_Pluse.description>
+  <ARA_HiveStrength_Pluse.label>Insect Swarm - Bloodthirsty</ARA_HiveStrength_Pluse.label>
+  <ARA_Hive_Cannot_Speak.description>Actually, the bugs can't speak. You should know that.</ARA_Hive_Cannot_Speak.description>
+  <ARA_Hive_Cannot_Speak.label>Cannot speak</ARA_Hive_Cannot_Speak.label>
+  <ARA_Huge_Stomach_Hediff.description>Arkanian Worms' directional mutation grants them a larger stomach pouch to hold more nutrients.</ARA_Huge_Stomach_Hediff.description>
+  <ARA_Huge_Stomach_Hediff.label>Extra Stomach Pouch</ARA_Huge_Stomach_Hediff.label>
+  <ARA_Incubator_1_Flaw_Hediffs.description>Rapid incubation causes the Alakne Ductworm's endocrine system to develop abnormally, with low levels of various hormones maintained for an extended period.
+
+Due to poor incubation quality, the Alakne Ductworm acquired this unfavorable mutation.</ARA_Incubator_1_Flaw_Hediffs.description>
+  <ARA_Incubator_1_Flaw_Hediffs.label>Endocrine dysfunction</ARA_Incubator_1_Flaw_Hediffs.label>
+  <ARA_Incubator_1_Reward_Hediffs.description>The arachne's exoskeleton is tighter than that of the typical insect, granting it additional defense.
+
+Due to excellent symbiosis quality, the arachne received this beneficial mutation.</ARA_Incubator_1_Reward_Hediffs.description>
+  <ARA_Incubator_1_Reward_Hediffs.label>dense shell</ARA_Incubator_1_Reward_Hediffs.label>
+  <ARA_Incubator_2_Flaw_Hediffs.description>Quick splicing causes the Arachne Nymph to lack a fully developed exoskeleton, making them weak and vulnerable.
+
+Due to poor splicing quality, the Arachne Nymph acquired this unfavorable mutation.</ARA_Incubator_2_Flaw_Hediffs.description>
+  <ARA_Incubator_2_Flaw_Hediffs.label>External skeleton missing</ARA_Incubator_2_Flaw_Hediffs.label>
+  <ARA_Incubator_2_Reward_Hediffs.description>The ala-kneech's subcutaneous fat has undergone a beneficial mutation that grants it flame resistance. When the swarm is burned by fire, the fat layer will rupture to extinguish flames on its body.
+
+Due to excellent genetic quality, the ala-kneech received this beneficial mutation.</ARA_Incubator_2_Reward_Hediffs.description>
+  <ARA_Incubator_2_Reward_Hediffs.label>Shell Underfire Retardant</ARA_Incubator_2_Reward_Hediffs.label>
+  <ARA_Incubator_3_Flaw_Hediffs.description>Quick splicing makes the neural system of this Arachne Nymph extremely sluggish, not only forgetting things but also struggling with basic actions.
+
+Due to poor splicing quality, the Arachne Nymph acquired this unfavorable mutation.</ARA_Incubator_3_Flaw_Hediffs.description>
+  <ARA_Incubator_3_Flaw_Hediffs.label>Action Discrepancy</ARA_Incubator_3_Flaw_Hediffs.label>
+  <ARA_Incubator_3_Reward_Hediffs.description>The Arachne gland is quite abnormal, constantly secreting hormones to keep it in a hyperactive state and transmitting this to linked combat organs.
+
+Due to excellent bioengineering quality, the Arachne received this beneficial mutation.</ARA_Incubator_3_Reward_Hediffs.description>
+  <ARA_Incubator_3_Reward_Hediffs.label>Action Hormone</ARA_Incubator_3_Reward_Hediffs.label>
+  <ARA_Incubator_4_Flaw_Hediffs.description>Rapid incubation causes the external sensory organs of this Alakne Duct worm to develop poorly.
+
+Due to poor incubation quality, the Alakne Duct worm acquired an unfavorable mutation.</ARA_Incubator_4_Flaw_Hediffs.description>
+  <ARA_Incubator_4_Flaw_Hediffs.label>Visual impairment</ARA_Incubator_4_Flaw_Hediffs.label>
+  <ARA_Incubator_4_Reward_Hediffs.description>This beneficial mutation of the Arachne Nymph grants it advanced static vision, filling in its visual shortcoming and making its shooting more precise.
+
+Due to excellent breeding quality, the Arachne Nymph received this beneficial mutation.</ARA_Incubator_4_Reward_Hediffs.description>
+  <ARA_Incubator_4_Reward_Hediffs.label>High Static Vision</ARA_Incubator_4_Reward_Hediffs.label>
+  <ARA_Incubator_5_Flaw_Hediffs.description>Rapid incubation causes the Alakne Nek's muscle tissue to develop poorly, giving it far less strength than a normal individual.
+
+Due to poor incubation quality, the Alakne Nek received this unfavorable mutation.</ARA_Incubator_5_Flaw_Hediffs.description>
+  <ARA_Incubator_5_Flaw_Hediffs.label>Muscle atrophy</ARA_Incubator_5_Flaw_Hediffs.label>
+  <ARA_Incubator_5_Reward_Hediffs.description>This amazing Arachne hatchling is a result of overfeeding.
+
+Due to excellent incubation quality, the Arachne has undergone this beneficial mutation.</ARA_Incubator_5_Reward_Hediffs.description>
+  <ARA_Incubator_5_Reward_Hediffs.label>Strong muscles</ARA_Incubator_5_Reward_Hediffs.label>
+  <ARA_Incubator_6_Flaw_Hediffs.description>Rapid incubation causes this Arachne's coagulation mechanism to malfunction, resulting in excessive bleeding if injured.
+
+Due to poor incubation quality, the Arachne acquired this unfavorable mutation.</ARA_Incubator_6_Flaw_Hediffs.description>
+  <ARA_Incubator_6_Flaw_Hediffs.label>Coagulation Deficiency</ARA_Incubator_6_Flaw_Hediffs.label>
+  <ARA_Incubator_6_Reward_Hediffs.description>This Arachne neuroresponse is far superior to other insect tribes, thanks to its stronger reflexes. Its actions become agile and deadly.
+
+Due to excellent culturing quality, the Arachne Neurotoxin gained this advantageous mutation.</ARA_Incubator_6_Reward_Hediffs.description>
+  <ARA_Incubator_6_Reward_Hediffs.label>Central Enhancement</ARA_Incubator_6_Reward_Hediffs.label>
+  <ARA_Incubator_7_Flaw_Hediffs.description>Rapid incubation makes the Alakne Nek's internal skeleton unusually fragile, making it more susceptible to fatal damage.
+
+Due to poor incubation quality, the Alakne Nek acquired this unfavorable mutation.</ARA_Incubator_7_Flaw_Hediffs.description>
+  <ARA_Incubator_7_Flaw_Hediffs.label>Osteoporosis</ARA_Incubator_7_Flaw_Hediffs.label>
+  <ARA_Incubator_7_Reward_Hediffs.description>This Arachne's memory structure is more complex, and it can quickly absorb new knowledge and experience.
+
+Due to excellent cultivation quality, the Arachne received this beneficial mutation.</ARA_Incubator_7_Reward_Hediffs.description>
+  <ARA_Incubator_7_Reward_Hediffs.label>Plastic Memory Cells</ARA_Incubator_7_Reward_Hediffs.label>
+  <ARA_Incubator_8_Flaw_Hediffs.description>Rapid incubation causes the Alakne Nek's immune system to develop poorly, with extremely low resistance to disease.
+
+Due to poor incubation quality, the Alakne Nek acquired this unfavorable mutation.</ARA_Incubator_8_Flaw_Hediffs.description>
+  <ARA_Incubator_8_Flaw_Hediffs.label>Immune Deficiency</ARA_Incubator_8_Flaw_Hediffs.label>
+  <ARA_Incubator_8_Reward_Hediffs.description>The arachne's blood clotting system is more efficient, with various other arthropods lacking special coagulation factors that greatly reduce its bleeding rate.
+
+Due to excellent maturation quality, the arachne gained this advantageous mutation.</ARA_Incubator_8_Reward_Hediffs.description>
+  <ARA_Incubator_8_Reward_Hediffs.label>Coagulation Factor</ARA_Incubator_8_Reward_Hediffs.label>
+  <ARA_Incubator_Elite_AdaptiveArmor.description>This Arachne's glands are abnormally developed, continuously secreting high concentrations of hormones that keep it in a highly agitated state, making its attack speed incredible.
+
+Due to excellent bioengineering quality, the Arachne has acquired this rare mutation.</ARA_Incubator_Elite_AdaptiveArmor.description>
+  <ARA_Incubator_Elite_AdaptiveArmor.label>Super Hormone</ARA_Incubator_Elite_AdaptiveArmor.label>
+  <ARA_Incubator_Elite_BerserkGlands.description>This Arachne's muscle tissue has undergone perfect development, far exceeding that of its peers in strength and power. Its melee attack is formidable.
+
+Due to excellent bioengineering quality, this Arachne received a rare mutation.</ARA_Incubator_Elite_BerserkGlands.description>
+  <ARA_Incubator_Elite_BerserkGlands.label>Perfect Muscle</ARA_Incubator_Elite_BerserkGlands.label>
+  <ARA_Incubator_Elite_PsychicResonance.description>This Arachne Neurotoxin's nervous system has been perfectly developed, surpassing its peers in all sensory abilities—perception, vision, and hearing.
+
+Due to excellent cultivation quality, the Arachne Neurotoxin received this rare mutation.</ARA_Incubator_Elite_PsychicResonance.description>
+  <ARA_Incubator_Elite_PsychicResonance.label>Ultimate Awareness</ARA_Incubator_Elite_PsychicResonance.label>
+  <ARA_Incubator_Elite_Regeneration.description>This Arachne Chrysalis has an exoskeleton density far exceeding that of a normal individual, nearly indestructible at the same time. 
+
+Due to its excellent metamorphosis quality, the Arachne Chrysalis acquired this rare mutation.</ARA_Incubator_Elite_Regeneration.description>
+  <ARA_Incubator_Elite_Regeneration.label>Super Dense Shell</ARA_Incubator_Elite_Regeneration.label>
+  <ARA_Internal_Circulation_Lung_Hediff.description>Arkanian insectoids' directional mutation allows their lungs to perform self-circulation, nearly immune to vacuum invasion.</ARA_Internal_Circulation_Lung_Hediff.description>
+  <ARA_Internal_Circulation_Lung_Hediff.label>Internal Lung</ARA_Internal_Circulation_Lung_Hediff.label>
+  <ARA_LifespanHediff.description>Arkanian life record hediff, normally you shouldn't see this.</ARA_LifespanHediff.description>
+  <ARA_LifespanHediff.label>Lifespan Record</ARA_LifespanHediff.label>
+  <ARA_MimicNematode.description>The colonist is infected with an Arachnoid Nematode. If left untreated, the nematode will eventually kill its host and transform it into a mindless parasite. The parasite infects other bodies through the host's attack behavior.</ARA_MimicNematode.description>
+  <ARA_MimicNematode.label>Mimic Nematode parasite</ARA_MimicNematode.label>
+  <ARA_MimicNematode.stages.0.label>Sleeping phase</ARA_MimicNematode.stages.0.label>
+  <ARA_MimicNematode.stages.1.label>Active Period</ARA_MimicNematode.stages.1.label>
+  <ARA_MimicNematode.stages.2.label>Terminal stage</ARA_MimicNematode.stages.2.label>
+  <ARA_MimicNematode.stages.3.label>Soon to transform</ARA_MimicNematode.stages.3.label>
+  <ARA_MimicNematodeShambler.description>This corpse has been reactivated by an ARA Nematode Mimic Shambler. Infected hosts move slowly, lack intelligence, and attack any living thing without mercy. After a few days of activity, the parasite dies due to host metabolic decline. Captured and fixed, the parasite cannot move, so its life activities pause.</ARA_MimicNematodeShambler.description>
+  <ARA_MimicNematodeShambler.label>Mimic Nematode Shambler</ARA_MimicNematodeShambler.label>
+  <ARA_MimicNematodeShamblerShamblerCorpse.description>This body was just revived by the Arachne Nematode Shambler.</ARA_MimicNematodeShamblerShamblerCorpse.description>
+  <ARA_MimicNematodeShamblerShamblerCorpse.label>Mimic Nematode Shambler Corpse</ARA_MimicNematodeShamblerShamblerCorpse.label>
+  <ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.0.debugLabel>Shambler wounds</ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.0.debugLabel>
+  <ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.1.debugLabel>Shambler wounds</ARA_MimicNematodeShamblerShamblerCorpse.renderNodeProperties.1.debugLabel>
+  <ARA_Myrmecocystus_Production_Dissolver.description>This Aranea myrmecocystus pod has been infected with a parasite, and can be used to dissolve nearby enemies into edible food by spraying lipase at close range.</ARA_Myrmecocystus_Production_Dissolver.description>
+  <ARA_Myrmecocystus_Production_Dissolver.label>Myrmecocystus Dissolver - Species</ARA_Myrmecocystus_Production_Dissolver.label>
+  <ARA_Myrmecocystus_Production_Fuel.description>This Myrmecocystus colony has reached maturity and no longer produces nectar. Instead, it now produces the scarce compound fuel needed for its nest, which can be used to spray fire against enemies.</ARA_Myrmecocystus_Production_Fuel.description>
+  <ARA_Myrmecocystus_Production_Fuel.label>Myrmecocystus - Explosive Fuel</ARA_Myrmecocystus_Production_Fuel.label>
+  <ARA_Myrmecocystus_Production_InsectJelly.description>This Myrmecocystus hive is producing honey to feed the colony.</ARA_Myrmecocystus_Production_InsectJelly.description>
+  <ARA_Myrmecocystus_Production_InsectJelly.label>Insect Jelly Storage</ARA_Myrmecocystus_Production_InsectJelly.label>
+  <ARA_Myrmecocystus_Production_Medicine.description>This Aranea myrmecocystus hive is now producing medicine, not honey. It can also control the parasitic line species that live in its nest.</ARA_Myrmecocystus_Production_Medicine.description>
+  <ARA_Myrmecocystus_Production_Medicine.label>Myrmecocystus - Healing Species</ARA_Myrmecocystus_Production_Medicine.label>
+  <ARA_NonPlayer_HiveMindDroneHediff.description>The Hive Mind Drone will act like a wild animal if disconnected from Arkane. </ARA_NonPlayer_HiveMindDroneHediff.description>
+  <ARA_NonPlayer_HiveMindDroneHediff.label>Wild Hive Mind</ARA_NonPlayer_HiveMindDroneHediff.label>
+  <ARA_PheromoneAddiction.description>You have developed a chemical dependence on Alakne pheromone solution. You need to use it regularly to maintain the internal balance of your wormhole ecosystem, or you will experience severe withdrawal symptoms.</ARA_PheromoneAddiction.description>
+  <ARA_PheromoneAddiction.label>Pheromone Addiction label</ARA_PheromoneAddiction.label>
+  <ARA_PheromoneAddiction.stages.1.label>Detoxification</ARA_PheromoneAddiction.stages.1.label>
+  <ARA_Plasteel_Shell_Hediff.description>The Arachnids use direct implantation of glass steel into their shells to gain stronger defense capabilities.</ARA_Plasteel_Shell_Hediff.description>
+  <ARA_Plasteel_Shell_Hediff.label>Glass Steel Shell</ARA_Plasteel_Shell_Hediff.label>
+  <ARA_Possession.description>This creature's body has been taken over by an Alakne worm. The original owner of this body is no longer able to return.</ARA_Possession.description>
+  <ARA_Possession.label>Alakne parasite</ARA_Possession.label>
+  <ARA_PowerArmor_NoFuel.description>The symbiont clusters are malnourished due to a lack of nutrients, which can have negative effects on the host.</ARA_PowerArmor_NoFuel.description>
+  <ARA_PowerArmor_NoFuel.label>Energy Deficiency label</ARA_PowerArmor_NoFuel.label>
+  <ARA_Praetorian_Base.description>The Praetorian Base is home to the Aarakne Guard, a species of female queens personally bred by the Empress. They possess exceptional marksmanship skills and can command their allies on the battlefield, making them even stronger.</ARA_Praetorian_Base.description>
+  <ARA_Praetorian_Base.label>The Queen's Throat</ARA_Praetorian_Base.label>
+  <ARA_Praetorian_Command_Hediff.description>A single Arachne guard species is taking on the role of a battlefield commander nearby, with its Arachne insectoid swarm linked through a secondary hive mind network to enhance their overall combat effectiveness.</ARA_Praetorian_Command_Hediff.description>
+  <ARA_Praetorian_Command_Hediff.label>Beehive Command</ARA_Praetorian_Command_Hediff.label>
+  <ARA_Praetorian_Commander_Hediff.description>The Arkanen Praetorian Commander is commanding nearby insectoid forces because they need to divert attention to building a secondary hive mind network. Their combat effectiveness has been reduced.</ARA_Praetorian_Commander_Hediff.description>
+  <ARA_Praetorian_Commander_Hediff.label>Command Node</ARA_Praetorian_Commander_Hediff.label>
+  <ARA_Praetorian_Legion.description>This Arachne Praetorian Hive has reached the pinnacle of combat ability among individual swarm nodes.</ARA_Praetorian_Legion.description>
+  <ARA_Praetorian_Legion.label>Subspecies - Legion Subspecies</ARA_Praetorian_Legion.label>
+  <ARA_Praetorian_Navigator.description>This Arkanen Praetorian has gained the ability to pilot, although it has lost its direct combat capabilities. However, it can command aerial beasts and use absolute aerial superiority with swarms of insects to crush enemy forces.</ARA_Praetorian_Navigator.description>
+  <ARA_Praetorian_Navigator.label>Species - Navigator</ARA_Praetorian_Navigator.label>
+  <ARA_Psi_Conductor.description>A single Arachne Weaver strain will use this colonist as a conduit for its powerful psi ability, allowing the Weave to control this colonist's psi attacks against enemy units and make them harder to defeat—costing the colonist short-term psychic deafness.</ARA_Psi_Conductor.description>
+  <ARA_Psi_Conductor.label>Energy Conduit</ARA_Psi_Conductor.label>
+  <ARA_Psi_Master.description>Aranea Weaver Domain is a Psi Master in the Hive, skilled at using psi abilities. They can fly on their own power and provide protection to nearby allied units by acting as psi conduits for energy attacks against enemies.</ARA_Psi_Master.description>
+  <ARA_Psi_Master.label>Psychic Expert</ARA_Psi_Master.label>
+  <ARA_PsyHemostasis_Hediff.description>This colonist has been sealed off from injury using supernatural powers.</ARA_PsyHemostasis_Hediff.description>
+  <ARA_PsyHemostasis_Hediff.label>Psychic Hemostasis - Hediff label</ARA_PsyHemostasis_Hediff.label>
+  <ARA_RaceBaseSwarmProduceSwitchHediff.description>The Ara Nek hive mind has been forbidden from producing auxiliary drones.</ARA_RaceBaseSwarmProduceSwitchHediff.description>
+  <ARA_RaceBaseSwarmProduceSwitchHediff.label>Inhibit Breeding</ARA_RaceBaseSwarmProduceSwitchHediff.label>
+  <ARA_Reactive_Shell_Hediff.description>Arkanian Reptile Shell's Reactive Deflection can deflect one incoming attack, but the shell will then shatter and no longer provide defense.</ARA_Reactive_Shell_Hediff.description>
+  <ARA_Reactive_Shell_Hediff.label>Reaction Shell</ARA_Reactive_Shell_Hediff.label>
+  <ARA_ReinforceGasCoverd.description>You've been contaminated with Arkne information. Something is coming from underground.</ARA_ReinforceGasCoverd.description>
+  <ARA_ReinforceGasCoverd.label>Aranea information toxin</ARA_ReinforceGasCoverd.label>
+  <ARA_Rising.description>Arane's regenerative abilities, granted by the parasite, are reviving this body.</ARA_Rising.description>
+  <ARA_Rising.label>Rising.label: Rising</ARA_Rising.label>
+  <ARA_Scavenger_Production_InsectJelly.description>This Arachne scavenger is producing honey to nourish the swarm.</ARA_Scavenger_Production_InsectJelly.description>
+  <ARA_Scavenger_Production_InsectJelly.label>Insect Jelly Chamber</ARA_Scavenger_Production_InsectJelly.label>
+  <ARA_Shell_Thorn_Hediff.description>The Thorn Hediff of the Arkegnids has two rows of spiny tubes implanted on its shell. It will automatically fire spines at any nearby enemies unless in close combat mode.</ARA_Shell_Thorn_Hediff.description>
+  <ARA_Shell_Thorn_Hediff.label>Shell Thorn</ARA_Shell_Thorn_Hediff.label>
+  <ARA_ShieldHead_Base.description>Shield heads are smaller in stature and lack the oppressive feel of large Arachnids, but their full-body exoskeleton provides defense that's not inferior to those of larger creatures.</ARA_ShieldHead_Base.description>
+  <ARA_ShieldHead_Base.label>Hard Shell</ARA_ShieldHead_Base.label>
+  <ARA_ShieldHead_HiveBuilder.description>This Arachne shield head strain has been upgraded to Hive Builder, granting it strong production and construction abilities. A single shield head strain produces an additional 15 units of chitin per day.</ARA_ShieldHead_HiveBuilder.description>
+  <ARA_ShieldHead_HiveBuilder.label>Species - Hive Builder</ARA_ShieldHead_HiveBuilder.label>
+  <ARA_ShieldHead_Protector.description>This Alakne shield head variant has been upgraded with a boost, increasing its combat effectiveness and allowing it to perform powerful impact attacks against enemies.</ARA_ShieldHead_Protector.description>
+  <ARA_ShieldHead_Protector.label>Species - Nest Protector</ARA_ShieldHead_Protector.label>
+  <ARA_SkyhiveBite.description>A cute Arachne from the Skyhive bites you, and it will keep biting until it detaches. That shouldn't be a problem... right?</ARA_SkyhiveBite.description>
+  <ARA_SkyhiveBite.label>Skyhive Bite attaches</ARA_SkyhiveBite.label>
+  <ARA_SkyhiveBite.renderNodeProperties.0.debugLabel>Arachnae Skyhive</ARA_SkyhiveBite.renderNodeProperties.0.debugLabel>
+  <ARA_Skyraider_Base.description>Skyraider Base description:
+
+Arakne Skyraiders are the rulers of the skies, their massive bodies and deadly agility unmatched. They can force carry un-downed allies to enhance slow-moving bugs' mobility on the battlefield.</ARA_Skyraider_Base.description>
+  <ARA_Skyraider_Base.label>Flying Beast</ARA_Skyraider_Base.label>
+  <ARA_Skyraider_Empthrower.description>This Arkanex Skyraider has acquired the Empthrower, which will throw out EMP-assisted suicide bugs. These bugs use self-destructive attacks to release an EMP against enemy mechanical species.</ARA_Skyraider_Empthrower.description>
+  <ARA_Skyraider_Empthrower.label>Subspecies - Storm Thrower</ARA_Skyraider_Empthrower.label>
+  <ARA_Skyraider_Ferry.description>This Alakne Skyraider has been upgraded to Level 2, but cannot be further modified. It flies at high speed and can maintain normal flight mode for increased travel speed.</ARA_Skyraider_Ferry.description>
+  <ARA_Skyraider_Ferry.label>Subspecies - Skyraider Ferry</ARA_Skyraider_Ferry.label>
+  <ARA_Skyraider_Hivelord.description>This Arachne Skyraider Hive Lord has acquired the ability to throw a Nesting Bug, which are sensitive bugs that will scatter and hunt targets around it.</ARA_Skyraider_Hivelord.description>
+  <ARA_Skyraider_Hivelord.label>Subspecies - Lord Species</ARA_Skyraider_Hivelord.label>
+  <ARA_Slayer_Base.description>Arkanen Slayers are a special breed of beasties, with lower intelligence than their siblings. However, they also gain advantages that other bug tribes can't match—massive size and thick armor. This makes them resistant to all attacks and able to smash through enemy defenses like a sledgehammer.</ARA_Slayer_Base.description>
+  <ARA_Slayer_Base.label>Violent Beast</ARA_Slayer_Base.label>
+  <ARA_Slide_Patagium_Hediff.description>Arkanian leg pads' slide membranes allow them to move quickly across the mycelium, but their bonus will immediately cease if they leave the mycelium.</ARA_Slide_Patagium_Hediff.description>
+  <ARA_Slide_Patagium_Hediff.label>Slide Wing Membrane</ARA_Slide_Patagium_Hediff.label>
+  <ARA_Slide_Patagium_Hediff.stages.0.label>No</ARA_Slide_Patagium_Hediff.stages.0.label>
+  <ARA_Smokepop_Base.description>Mistbreathers are a big deal in the Arkeen insectoid race. They have thick shells, and their abdomen is filled with information-rich smoke that they can spray over the battlefield to lure smaller insects into attacking enemy forces madly.</ARA_Smokepop_Base.description>
+  <ARA_Smokepop_Base.label>Living Smoke Can</ARA_Smokepop_Base.label>
+  <ARA_Smokepop_Creeper.description>This Aranea smokepop creeper has gained the ability to move while laying down spores, modifying its surroundings or creating a path for invading other settlements. It also gains the ability to shoot fungal spores at enemies.</ARA_Smokepop_Creeper.description>
+  <ARA_Smokepop_Creeper.label>Subspecies - Queen Species</ARA_Smokepop_Creeper.label>
+  <ARA_Smokepop_Creeper_Hediff.description>The Alacrane spore creatures are laying down a fungal mat, changing the terrain every so often.</ARA_Smokepop_Creeper_Hediff.description>
+  <ARA_Smokepop_Creeper_Hediff.label>Spore mat installation</ARA_Smokepop_Creeper_Hediff.label>
+  <ARA_Smokepop_Production_Bacterium.description>This Alakne Smokepop strain has been upgraded to the ARA level, with its anterior carapace having fallen off and it no longer sprays pheromones. Instead, it now produces activated giant bacteria daily in batches of 5.</ARA_Smokepop_Production_Bacterium.description>
+  <ARA_Smokepop_Production_Bacterium.label>Subspecies-Bacterial Strain</ARA_Smokepop_Production_Bacterium.label>
+  <ARA_SpiderOne_PowerArmor_MainHediff.comps.HediffComp_VerbGiver.tools.0.label>Front limb piercing</ARA_SpiderOne_PowerArmor_MainHediff.comps.HediffComp_VerbGiver.tools.0.label>
+  <ARA_SpiderOne_PowerArmor_MainHediff.description>Arachnid Swarm's special living structure, although possessing most of a biological organism's organs, lacks intelligence and can be merged with the neural systems of the Kraelion hive mind to become an armor-like device. The symbiotic muscle groups provide additional heavy weapons, while the body is equipped with numerous micro-weaponized organs, allowing Arachnid Swarm to wield power comparable to human war machines.</ARA_SpiderOne_PowerArmor_MainHediff.description>
+  <ARA_SpiderOne_PowerArmor_MainHediff.label>Shared Skin Group</ARA_SpiderOne_PowerArmor_MainHediff.label>
+  <ARA_Strengthening_Tendon_Hediff.description>Arkanids with strengthened tendons can move quickly and gain the ability to jump.</ARA_Strengthening_Tendon_Hediff.description>
+  <ARA_Strengthening_Tendon_Hediff.label>Strengthen Tendon</ARA_Strengthening_Tendon_Hediff.label>
+  <ARA_SwarmSpell_Overdrive.description>Alakne's Neural Parasites enter a supercharged state after consecutive spells are cast. This state will continue to strain the neural system of the parasitic species, eventually burning it out.
+
+This condition cannot be self-cured; Alakne's parasites must channel this high overload onto other individuals. For those with activated nerves, this transfer is not fatal, but for others without activated nerves, it can indeed be deadly.</ARA_SwarmSpell_Overdrive.description>
+  <ARA_SwarmSpell_Overdrive.label>Neuro-Spin Overload</ARA_SwarmSpell_Overdrive.label>
+  <ARA_SymbioticStabilizer.description>The symbiotic stabilizer's effects are taking hold, mimicking the shared signal of a swarm to suppress parasitic activity. Parasites will not progress beyond 80% during stabilization.</ARA_SymbioticStabilizer.description>
+  <ARA_SymbioticStabilizer.label>Pheromone Suppressor</ARA_SymbioticStabilizer.label>
+  <ARA_SymbioticStabilizer.labelNoun>An information scent suppression effect</ARA_SymbioticStabilizer.labelNoun>
+  <ARA_TemperatureRegulation.description>The Arachneans are cold-blooded creatures, which means they're more sensitive to external temperature changes. They become agile and deadly at optimal temperatures but struggle to move when the conditions aren't right.
+
+These arachnid species can operate in a temperature range of 6-36°C. When the temperature is near 21°C, they gain an additional mental bonus.</ARA_TemperatureRegulation.description>
+  <ARA_TemperatureRegulation.label>Cold-blooded animals</ARA_TemperatureRegulation.label>
+  <ARA_TemperatureRegulation.stages.0.label>Uncomfortable</ARA_TemperatureRegulation.stages.0.label>
+  <ARA_TemperatureRegulation.stages.1.label>Adaptation</ARA_TemperatureRegulation.stages.1.label>
+  <ARA_TemperatureRegulation.stages.2.label>Comfort</ARA_TemperatureRegulation.stages.2.label>
+  <ARA_TerrainAccuracyHediff.description>This Alacrity bug's woven fabric grants it higher accuracy when shooting on the mycelium. The longer you stay on the mycelium, the stronger the effect; however, once you leave the mycelium, the effect will gradually diminish.</ARA_TerrainAccuracyHediff.description>
+  <ARA_TerrainAccuracyHediff.label>Mushroom Bonus: Shooting Accuracy</ARA_TerrainAccuracyHediff.label>
+  <ARA_TerrainAccuracyHediff.stages.0.label>No</ARA_TerrainAccuracyHediff.stages.0.label>
+  <ARA_TerrainCaravanSpeedHediff.description>This Alakoth spider's woven fabric allows it to travel faster and trade more efficiently on the mycelium. The longer you stay on the mycelium, the stronger the effect; however, once off the mycelium, the effects will gradually weaken.</ARA_TerrainCaravanSpeedHediff.description>
+  <ARA_TerrainCaravanSpeedHediff.label>Blight Boost: Enhanced Traveling Party</ARA_TerrainCaravanSpeedHediff.label>
+  <ARA_TerrainCaravanSpeedHediff.stages.0.label>No</ARA_TerrainCaravanSpeedHediff.stages.0.label>
+  <ARA_TerrainCooldownHediff.description>This Alacrity wormhide makes it possible to get shorter melee and ranged cooldowns on the mycelium. The longer you stay on the mycelium, the stronger the effect becomes; however, once you leave the mycelium, the effect will gradually fade away.</ARA_TerrainCooldownHediff.description>
+  <ARA_TerrainCooldownHediff.label>Mycelium Bonus: Combat Reaction</ARA_TerrainCooldownHediff.label>
+  <ARA_TerrainCooldownHediff.stages.0.label>No</ARA_TerrainCooldownHediff.stages.0.label>
+  <ARA_TerrainHealHediff.description>This Alakar spider silk gives it the ability to heal itself.</ARA_TerrainHealHediff.description>
+  <ARA_TerrainHealHediff.label>Mushroom Boost: Healing</ARA_TerrainHealHediff.label>
+  <ARA_TerrainMoveSpeedHediff.description>This Alakar spiderette's woven fabric gives it higher mobility on the mycelium. The longer it stays on the mycelium, the stronger the effect; leaving the mycelium will cause the effect to gradually fade away.</ARA_TerrainMoveSpeedHediff.description>
+  <ARA_TerrainMoveSpeedHediff.label>Fungal Growth Bonus: Movement Speed</ARA_TerrainMoveSpeedHediff.label>
+  <ARA_TerrainMoveSpeedHediff.stages.0.label>No</ARA_TerrainMoveSpeedHediff.stages.0.label>
+  <ARA_TerrainRestRateHediff.description>This Alacrity pod's fabric allows it to gain a higher rest rate on the mycelium. The longer you stay on the mycelium, the stronger the effect; leaving the mycelium will cause the effect to gradually diminish.</ARA_TerrainRestRateHediff.description>
+  <ARA_TerrainRestRateHediff.label>Fungal Growth Bonus: Rest Rate</ARA_TerrainRestRateHediff.label>
+  <ARA_TerrainRestRateHediff.stages.0.label>No</ARA_TerrainRestRateHediff.stages.0.label>
+  <ARA_TerrainTemptHediff.description>This Alacrán weaver's fabric grants it the ability to induce twisted mind and temptation, making it susceptible to manipulation.</ARA_TerrainTemptHediff.description>
+  <ARA_TerrainTemptHediff.label>Mushroom Bonus: Enchanting</ARA_TerrainTemptHediff.label>
+  <ARA_TerrainTerrorRoar_Hediff.description>This Alakoth spider has woven a fabric that grants it the ability to emit an intimidating roar, causing enemies to feel fear and flee in terror.</ARA_TerrainTerrorRoar_Hediff.description>
+  <ARA_TerrainTerrorRoar_Hediff.label>Fungal Bonus: Growl</ARA_TerrainTerrorRoar_Hediff.label>
+  <ARA_TerrainWorkSpeedHediff.description>This Alakoth bug's woven fabric allows it to gain higher work speed on the mycelium. The longer you stay on the mycelium, the stronger the effect; leaving the mycelium will cause the effect to gradually diminish.</ARA_TerrainWorkSpeedHediff.description>
+  <ARA_TerrainWorkSpeedHediff.label>Fungal Growth Bonus: Work Speed</ARA_TerrainWorkSpeedHediff.label>
+  <ARA_TerrainWorkSpeedHediff.stages.0.label>No</ARA_TerrainWorkSpeedHediff.stages.0.label>
+  <ARA_ToxicBuildup.description>Alack's toxic needle is carrying a powerful neurotoxin that is attacking this colonist. This potent toxin will cause the target to rapidly lose mobility and experience nausea and dizziness, with a possibility of permanent brain damage.</ARA_ToxicBuildup.description>
+  <ARA_ToxicBuildup.label>Neurotoxin of Arkne</ARA_ToxicBuildup.label>
+  <ARA_ToxicBuildup.stages.extreme.label>extreme</ARA_ToxicBuildup.stages.extreme.label>
+  <ARA_ToxicBuildup.stages.initial-0.label>initial</ARA_ToxicBuildup.stages.initial-0.label>
+  <ARA_ToxicBuildup.stages.initial-1.label>initial</ARA_ToxicBuildup.stages.initial-1.label>
+  <ARA_ToxicBuildup.stages.minor.label>minor</ARA_ToxicBuildup.stages.minor.label>
+  <ARA_ToxicBuildup.stages.moderate.label>moderate</ARA_ToxicBuildup.stages.moderate.label>
+  <ARA_ToxicBuildup.stages.serious.label>serious</ARA_ToxicBuildup.stages.serious.label>
+  <ARA_Tumor_Pouch_Hediff.description>The Arachnean pod contains a withered mushroom tumor. Once released, it will transform the surrounding terrain into a fungal landscape.</ARA_Tumor_Pouch_Hediff.description>
+  <ARA_Tumor_Pouch_Hediff.label>Tumor Pouch</ARA_Tumor_Pouch_Hediff.label>
+  <ARA_Unburnable.description>A special smoke layer has covered this region, making it difficult for colonists inside to be ignited.</ARA_Unburnable.description>
+  <ARA_Unburnable.label>Fire Suppression Smoke</ARA_Unburnable.label>
+  <ARA_WeaponSmith_Base.description>Arkanen's crafters are industrious worker bees, responsible for maintaining the entire hive and keeping it in optimal operation.</ARA_WeaponSmith_Base.description>
+  <ARA_WeaponSmith_Base.label>Bug Collector</ARA_WeaponSmith_Base.label>
+  <ARA_Whip_Hediff.description>The soft-bodied weapon of the Arachneans has struck this colonist — that was quite painful.</ARA_Whip_Hediff.description>
+  <ARA_Whip_Hediff.label>Be whipped</ARA_Whip_Hediff.label>
+  <ARA_Whip_Hediff.labelNoun>Beaten</ARA_Whip_Hediff.labelNoun>
+  <ARA_Whip_Hediff.labelNounPretty>{0} in the {1}</ARA_Whip_Hediff.labelNounPretty>
+  <ArachnaeFighter_Swarm_Claws_Part.comps.HediffComp_VerbGiver.tools.0.label>Scythe</ArachnaeFighter_Swarm_Claws_Part.comps.HediffComp_VerbGiver.tools.0.label>
+  <ArachnaeFighter_Swarm_Claws_Part.description>Arachnae Fighter Swarm Claws Part description:
+
+From the genetic base of Arachne Warrior genes, this limb allows colonists to manipulate it like a weapon for fighting close-range enemies.</ArachnaeFighter_Swarm_Claws_Part.description>
+  <ArachnaeFighter_Swarm_Claws_Part.label>Warrior Arachnid Scythe</ArachnaeFighter_Swarm_Claws_Part.label>
+  <ArachnaeNode_Race_Myrmecocystus_Tail_Part.description>From the Arachne gene of the Myrmecocystus race, the tail part has a severe impact on the native system of colonists but grants them the ability to produce Arachne worm honey. A modified colonist produces 5 units of Arachne worm honey per day.</ArachnaeNode_Race_Myrmecocystus_Tail_Part.description>
+  <ArachnaeNode_Race_Myrmecocystus_Tail_Part.label>Myrmecocystus Tail Part label</ArachnaeNode_Race_Myrmecocystus_Tail_Part.label>
+  <ArachnaeNode_Race_Myrmecocystus_Tail_Part.labelNoun>Myrmecocystus Tail Part labelNoun</ArachnaeNode_Race_Myrmecocystus_Tail_Part.labelNoun>
+  <ArachnaeNode_Race_ShieldHead_Armor_Part.description>From the gene of Arachnae Shield Head race, a head shell can provide some defense and will drop shell substance. A modified colonist produces 10 shell substance per day.</ArachnaeNode_Race_ShieldHead_Armor_Part.description>
+  <ArachnaeNode_Race_ShieldHead_Armor_Part.label>Shield Head Helmet</ArachnaeNode_Race_ShieldHead_Armor_Part.label>
+  <ArachnaeNode_Race_Skyraider_Wings_Part.description>Genetic wings from the Arachne skyraider race, though not matching colonists' body shapes and unable to achieve normal flight, still allow for short periods of hovering.</ArachnaeNode_Race_Skyraider_Wings_Part.description>
+  <ArachnaeNode_Race_Skyraider_Wings_Part.label>Skyraider Wings Part label</ArachnaeNode_Race_Skyraider_Wings_Part.label>
+  <ArachnaeNode_Race_Smokepop_Armor_Part.description>From the Arachne Mist race gene, comes a heavy exoskeleton from shoulder to upper body. It provides solid defense but also greatly slows movement speed.</ArachnaeNode_Race_Smokepop_Armor_Part.description>
+  <ArachnaeNode_Race_Smokepop_Armor_Part.label>Mistrace Shell</ArachnaeNode_Race_Smokepop_Armor_Part.label>
+  <ArachnaeQueen_Neurotyrant_1Stage.description>Magic Strength</ArachnaeQueen_Neurotyrant_1Stage.description>
+  <ArachnaeQueen_Neurotyrant_1Stage.label>Magic Strength</ArachnaeQueen_Neurotyrant_1Stage.label>
+  <ArachnaeQueen_Neurotyrant_1Stage.stages._1.label>Level 1</ArachnaeQueen_Neurotyrant_1Stage.stages._1.label>
+</LanguageData>
